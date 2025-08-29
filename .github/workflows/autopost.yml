@@ -1,0 +1,53 @@
+name: AventurOO Autopost (HTML)
+
+on:
+  schedule:
+    - cron: '30 7 * * *'     # 09:30 Tirana
+    - cron: '30 19 * * *'    # 21:30 Tirana
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate posts from RSS
+        run: |
+          python3 autopost/rss_to_html.py
+
+      - name: Configure Git author
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Commit changes (if any)
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: autopost new articles"
+          fi
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: autopost/bot-update
+          title: "Autopost: new articles"
+          commit-message: "chore: autopost new articles"
+          body: "This PR was created automatically by the autopost workflow."
+          labels: automation
+          delete-branch: true
