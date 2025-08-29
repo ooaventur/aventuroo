@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "welcome-post",
+    "title": "Welcome to AventurOO",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "This is your first post. Auto-posting will add new ones here.",
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=60"
+  }
+]
