@@ -1,5 +1,85 @@
 [
   {
+    "slug": "amid-global-crises-superyachts-are-selling-more-than-ever-heres-why",
+    "title": "Amid global crises, superyachts are selling more than ever. Here's why",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "The specter of global conflict lurks on the horizon. Energy prices are putting the squeeze on millions. Covid lingers. But at the yachting world's most glamorous event, it's business as usual.",
+    "cover": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "hong-kong-is-opening-up-to-tourism----but-is-it-too-late",
+    "title": "Hong Kong is opening up to tourism -- but is it too late?",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "The city hopes the move will revive its status as an international business and travel hub, but the locals said the change may be too late.",
+    "cover": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "20-best-german-foods",
+    "title": "20 best German foods",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "German food is rich, hearty and diverse. It's comfort eating with high-quality, often locally sourced ingredients.",
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-tombstone-village-built-by-korean-refugees-on-a-japanese-cemetery",
+    "title": "The 'tombstone village' built by Korean refugees on a Japanese cemetery",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "At first glance, Ami-dong seems like an ordinary village within the South Korean city of Busan, with colorful houses and narrow alleys set against looming mountains.",
+    "cover": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "faa-to-announce-rule-allowing-more-rest-for-flight-attendants",
+    "title": "FAA to announce rule allowing more rest for flight attendants",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Federal aviation officials plan to announce Tuesday that flight attendants will soon get more mandated rest time between flights, two sources familiar with the announcement tell CNN.",
+    "cover": "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-secrets-of-turkeys-historic-capital-of-cool",
+    "title": "The secrets of Turkey's historic capital of cool",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "At first glance Izmir looks very much like any other modern Turkish metropolis, densely populated with unimposing architecture.",
+    "cover": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-rise-of-sleep-tourism",
+    "title": "The rise of sleep tourism",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Going on a vacation might seem like a rather unconventional way to try to improve your sleep habits.",
+    "cover": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-worlds-best-bars-for-2022-have-been-revealed",
+    "title": "The world's best bars for 2022 have been revealed",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Move over London. Step aside New York. There's a new cosmopolitan cocktail capital: Barcelona is home to Paradiso, the newly crowned world's best bar.",
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "asia-pacific-set-to-lose-title-as-the-worlds-largest-travel-region",
+    "title": "Asia Pacific set to lose title as the world's largest travel region",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Asia Pacific is home to some of the world's most beloved travel destinations, from the natural beauty of Bali to the urban buzz of Singapore. These dreamy vacation hotspots -- teamed with the region's business power -- secured Asia Pacific the title of world's largest travel region for much of the past decade.",
+    "cover": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "hong-kong-offers-500000-free-air-tickets-to-tempt-tourists-back",
+    "title": "Hong Kong offers 500,000 free air tickets to tempt tourists back",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Hong Kong attracted around 56 million visitors a year before the pandemic, and now the popular destination is taking significant steps to win tourists back after over two years of some of the world's toughest travel restrictions.",
+    "cover": "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
     "slug": "giant-roadside-cheeto-attracts-a-crowd",
     "title": "Giant roadside Cheeto attracts a crowd",
     "category": "News",
