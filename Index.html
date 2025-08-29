@@ -38,4 +38,22 @@ async function loadPosts(){
       <a href="posts/${p.slug}.html" class="block aspect-[16/10] bg-stone-100">
         <img class="w-full h-full object-cover" src="${p.cover||''}" alt="${p.title}">
       </a>
+      <div class="p-4 flex flex-col gap-2 grow">
+        <div class="text-xs uppercase tracking-wider text-stone-500">${p.category}</div>
+        <h3 class="font-semibold leading-snug"><a class="hover:underline" href="posts/${p.slug}.html">${p.title}</a></h3>
+        <p class="text-sm text-stone-600 line-clamp-3">${p.excerpt}</p>
+        <div class="mt-auto flex items-center justify-between text-xs text-stone-500">
+          <span>${p.date}</span>
+          <a class="underline" href="posts/${p.slug}.html">Read →</a>
+        </div>
+      </div>
+    </article>`).join('');
+}
+loadPosts();
+</script>
+</body>
+</html>    <article class="card overflow-hidden rounded-2xl border bg-white flex flex-col">
+      <a href="posts/${p.slug}.html" class="block aspect-[16/10] bg-stone-100">
+        <img class="w-full h-full object-cover" src="${p.cover||''}" alt="${p.title}">
+      </a>
       <div class="p-4 flex
