@@ -80,7 +80,7 @@ def find_image_from_item(it_elem, page_url=""):
             pass
     return ""
 
-# për të zgjeruar përmbledhjen (p.sh. 450 fjalë nga artikulli)
+# për të zgjeruar përmbledhjen (p.sh. 300 fjalë nga artikulli)
 def extract_preview_paragraphs(page_url, max_words=300):
     try:
         req = urllib.request.Request(page_url, headers={"User-Agent":"Mozilla/5.0"})
@@ -131,7 +131,7 @@ def main():
 
             summary = strip_html(it.get("summary",""))
             # zgjero përmbledhjen nga faqja e plotë
-            extended = extract_preview_paragraphs(link, max_words=450)
+            extended = extract_preview_paragraphs(link, max_words=300)
             if extended:
                 summary = extended
 
