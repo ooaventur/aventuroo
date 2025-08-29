@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AventurOO — Global Travel Magazine</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-20 bg-white/90 backdrop-blur border-b">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-xl bg-stone-900 flex items-center justify-center text-white text-lg">OO</div>
+      <strong>AventurOO</strong>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#hidden-gems">Hidden Gems</a>
+      <a href="#cheap-travel">Cheap</a>
+      <a href="#luxury-travel">Luxury</a>
+      <a href="#regions">Regions</a>
+    </nav>
+  </div>
+</header>
+<main class="max-w-7xl mx-auto px-4 py-10">
+  <section id="latest" class="mb-12">
+    <div class="section-head"><h2>Latest Articles</h2></div>
+    <div id="grid" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+  </section>
+</main>
+<script>
+async function loadPosts(){
+  const res = await fetch('posts.json', {cache:'no-store'});
+  const posts = await res.json();
+  const grid = document.getElementById('grid');
+  grid.innerHTML = posts.map(p => `
+    <article class="card overflow-hidden rounded-2xl border bg-white flex flex-col">
+      <a href="posts/${p.slug}.html" class="block aspect-[16/10] bg-stone-100">
+        <img class="w-full h-full object-cover" src="${p.cover||''}" alt="${p.title}">
+      </a>
+      <div class="p-4 flex
