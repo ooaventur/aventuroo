@@ -52,9 +52,9 @@ def strip_html(s):
 
 def slugify(s):
     s = s.lower()
-    s = re.sub(r"[^a-z0-9\\- ]", "", s)
-    s = re.sub(r"\\s+", "-", s).strip("-")
-    return s or "post"
+    # çdo gjë jo [a-z0-9] ktheje në '-'
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return s.strip("-") or "post"
 
 def date_today():
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
@@ -73,15 +73,15 @@ def find_image_from_item(it_elem, page_url=""):
         try:
             req = urllib.request.Request(page_url, headers={"User-Agent":"Mozilla/5.0"})
             html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8","ignore")
-            m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
+            m = re.search(r'<meta[^>]+property=[\'"]og:image[\'"][^>]+content=[\'"]([^\'"]+)[\'"]', html, re.I)
             if m:
                 return m.group(1)
         except Exception:
             pass
     return ""
 
-# për të zgjeruar përmbledhjen (p.sh. 300 fjalë nga artikulli)
-def extract_preview_paragraphs(page_url, max_words=300):
+# për të zgjeruar përmbledhjen (p.sh. 450 fjalë nga artikulli)
+def extract_preview_paragraphs(page_url, max_words=450):
     try:
         req = urllib.request.Request(page_url, headers={"User-Agent":"Mozilla/5.0"})
         html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8","ignore")
