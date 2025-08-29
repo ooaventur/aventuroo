@@ -1,5 +1,85 @@
 [
   {
+    "slug": "this-italian-icon-looks-like-youve-never-seen-it-before",
+    "title": "This Italian icon looks like you've never seen it before",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "For over 500 years, Michelangelo's sculpture of David in Florence has stood unchanged, the marble icon of masculinity, and one of the world's most famous works of art.",
+    "cover": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "cappadocia-one-of-turkeys-most-spectacular-hiking-destinations",
+    "title": "Cappadocia: One of Turkey's most spectacular hiking destinations",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "A rich palette of shimmering caramel swirls, ochers, creams and pinks unfolds across the landscape like an enormous handwoven carpet. Stands of poplars line paths carved by ancient lava flows from three now extinct volcanoes, crisscrossing valleys studded with conical peribacı.",
+    "cover": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-italian-town-with-a-boozy-secret",
+    "title": "The Italian town with a boozy secret",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "It's super strong, fennel-flavored, as transparent as water -- and in many households across Sardinia it's still produced illegally.",
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "she-asked-a-stranger-for-directions-on-vacation-two-weeks-later-they-w",
+    "title": "She asked a stranger for directions on vacation. Two weeks later they were engaged",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Rachel Décoste landed in West Africa's Republic of Benin in August 2018, anticipating an important journey of self-discovery, but not predicting the extent to which the trip would change her life.",
+    "cover": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "secrets-from-the-worlds-toughest-dining-scene",
+    "title": "Secrets from the world's toughest dining scene",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Hong Kong is widely considered one of the most challenging cities in the world to operate a restaurant -- a roiling cauldron of changing tastes, cleaver-sharp competition and unsavory economics.",
+    "cover": "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "this-man-built-a-plane-for-his-family-in-his-garden",
+    "title": "This man built a plane for his family in his garden",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "It wasn't until he moved near to an airfield in the UK over a decade ago that mechanical engineer Ashok Aliseril Thamarakshan began to seriously consider learning to fly a plane.",
+    "cover": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-hunt-for-the-worlds-most-elusive-shipwrecks",
+    "title": "The hunt for the world's most elusive shipwrecks",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "In March 2022, the world let out a collective gasp when the remarkably preserved shipwreck of Ernest Shackleton's HMS Endurance was discovered almost two miles beneath the icy Antarctic seas.",
+    "cover": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "virgin-boeing-747-to-launch-rocket-into-space",
+    "title": "Virgin Boeing 747 to launch rocket into space",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "At the far southwestern tip of England, dangling into the Atlantic, the remote region of Cornwall rarely feels like the center of the world.",
+    "cover": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "the-italian-village-with-the-elixir-of-healthy-life",
+    "title": "The Italian village with the 'elixir' of healthy life",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "It's a place of terraced lemon groves, a paradoxically warm mountain breeze, and a powerful fat-killing gene carried by a few lucky residents.",
+    "cover": "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
+    "slug": "ritz-carltons-6400-a-week-luxury-superyacht-cruise-has-finally-set-sai",
+    "title": "Ritz-Carlton's $6,400-a-week luxury superyacht cruise has finally set sail",
+    "category": "News",
+    "date": "2025-08-29",
+    "excerpt": "Ritz-Carlton's highly-anticipated superyacht cruise has finally made its debut, three and a half years after its maiden voyage was originally scheduled to begin.",
+    "cover": "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60"
+  },
+  {
     "slug": "welcome-post",
     "title": "Welcome to AventurOO",
     "category": "News",
