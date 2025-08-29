@@ -13,7 +13,7 @@ SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 # maksimumi i postimeve për çdo ekzekutim (10 orare → 10 postime/ditë)
-MAX_PER_RUN = 1
+MAX_PER_RUN = 3
 
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (AventurOO Autoposter)"})
