@@ -12,7 +12,7 @@ POSTS_JSON = ROOT / "posts.json"
 SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-MAX_PER_RUN = 2
+MAX_PER_RUN = 10
 COVERS = [
   "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60",
   "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60",
