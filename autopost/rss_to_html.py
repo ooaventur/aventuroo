@@ -73,7 +73,7 @@ def find_image_from_item(it_elem, page_url=""):
         try:
             req = urllib.request.Request(page_url, headers={"User-Agent":"Mozilla/5.0"})
             html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8","ignore")
-            m = re.search(r'<meta[^>]+property=["\\']og:image["\\'][^>]+content=["\\']([^"\\']+)["\\']', html, re.I)
+            m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
             if m:
                 return m.group(1)
         except Exception:
