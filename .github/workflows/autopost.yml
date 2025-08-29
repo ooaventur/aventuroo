@@ -1,14 +1,23 @@
 name: AventurOO Autopost (HTML)
 
 on:
+  # ⚠️ Orët janë në UTC. Verë: Tirana = UTC+2 (shih komentet).
   schedule:
-    - cron: '30 7 * * *'     # 09:30 Tirana
-    - cron: '30 19 * * *'    # 21:30 Tirana
-  workflow_dispatch: {}
+    - cron: '0 6 * * *'   # 08:00 Tirana (verë)
+    - cron: '0 8 * * *'   # 10:00
+    - cron: '0 10 * * *'  # 12:00
+    - cron: '0 12 * * *'  # 14:00
+    - cron: '0 14 * * *'  # 16:00
+    - cron: '0 16 * * *'  # 18:00
+    - cron: '0 18 * * *'  # 20:00
+    - cron: '0 20 * * *'  # 22:00
+    - cron: '0 22 * * *'  # 00:00 (dita pasuese lokale)
+    - cron: '0 0 * * *'   # 02:00 (dita pasuese lokale)
+  workflow_dispatch: {}    # lejo nisje manuale
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: write          # push/commit në branch
+  pull-requests: write     # krijo PR
 
 jobs:
   run:
@@ -39,7 +48,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: autopost new articles"
+            git commit -m "chore: autopost new article"
           fi
 
       - name: Create Pull Request
@@ -47,7 +56,7 @@ jobs:
         with:
           branch: autopost/bot-update
           title: "Autopost: new articles"
-          commit-message: "chore: autopost new articles"
+          commit-message: "chore: autopost new article"
           body: "This PR was created automatically by the autopost workflow."
           labels: automation
           delete-branch: true
