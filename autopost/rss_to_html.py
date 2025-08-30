@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# RSS → HTML posts + posts.json for AventurOO (robust, with original images & extended preview)
+# RSS → HTML posts + posts.json for AventurOO (robust, full for whitelisted sources, gallery images)
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
 from html import unescape
+from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -12,12 +13,28 @@ POSTS_JSON = ROOT / "posts.json"
 SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-# One post per run; schedule it 10x/day in the workflow → ~10/day total
-MAX_PER_RUN = 1
-HTTP_TIMEOUT = 15  # seconds
+# 3 postime per run; me schedule çdo 2 orë → ~36/ditë (ndrysho sipas nevojës)
+MAX_PER_RUN = 3
+HTTP_TIMEOUT = 15  # sec
 UA = "Mozilla/5.0 (AventurOO Autoposter; +https://example.com)"
 
-# Fallback covers (royalty-free from Unsplash)
+# Burime ku lejohet FULL (Public Domain / CC BY 4.0)
+FULL_WHITELIST = {
+    "wwwnc.cdc.gov": {
+        "license": "Public Domain (U.S. Federal Government)",
+        "attr": "CDC Travelers' Health",
+        "attr_url": "https://wwwnc.cdc.gov/travel",
+        "license_url": "https://www.usa.gov/government-copyright"
+    },
+    "www.smartraveller.gov.au": {
+        "license": "CC BY 4.0",
+        "attr": "DFAT Smartraveller",
+        "attr_url": "https://www.smartraveller.gov.au",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+}
+
+# Fallback covers (royalty-free)
 COVERS = [
   "https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1600&q=60",
   "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?auto=format&fit=crop&w=1600&q=60",
@@ -44,16 +61,14 @@ def parse(xml_bytes: bytes):
         return []
 
     items = []
-
-    # RSS 2.0 items
+    # RSS 2.0
     for it in root.findall(".//item"):
         title = (it.findtext("title") or "").strip()
         link = (it.findtext("link") or "").strip()
         desc = (it.findtext("description") or "").strip()
         if title and link:
             items.append({"title": title, "link": link, "summary": desc, "element": it})
-
-    # Atom fallback
+    # Atom
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     for e in root.findall(".//atom:entry", ns):
         title = (e.findtext("atom:title", default="") or "").strip()
@@ -62,7 +77,6 @@ def parse(xml_bytes: bytes):
         summary = (e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
         if title and link:
             items.append({"title": title, "link": link, "summary": summary, "element": e})
-
     return items
 
 def strip_html(s: str) -> str:
@@ -73,34 +87,36 @@ def strip_html(s: str) -> str:
 
 def slugify(s: str) -> str:
     s = s.lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s)  # replace any non-alnum with hyphen
+    s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-") or "post"
 
 def date_today() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
 
+def domain_of(url: str) -> str:
+    try:
+        return urlparse(url).netloc.lower()
+    except Exception:
+        return ""
+
 def find_image_from_item(it_elem, page_url: str = "") -> str:
     # enclosure
     enc = it_elem.find("enclosure")
     if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
-        url = enc.attrib.get("url", "")
-        if url:
-            return url
-
+        u = enc.attrib.get("url", "")
+        if u: return u
     # media:content / media:thumbnail
     ns = {"media": "http://search.yahoo.com/mrss/"}
     m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
     if m is not None and m.attrib.get("url"):
         return m.attrib.get("url")
-
-    # fallback: og:image from article page
+    # fallback: og:image
     if page_url:
         try:
             req = urllib.request.Request(page_url, headers={"User-Agent": UA})
-            html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8", "ignore")
+            html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8","ignore")
             m = re.search(r'<meta[^>]+property=[\'"]og:image[\'"][^>]+content=[\'"]([^\'"]+)[\'"]', html, re.I)
-            if m:
-                return m.group(1)
+            if m: return m.group(1)
         except Exception:
             pass
     return ""
@@ -111,7 +127,6 @@ def extract_preview_paragraphs(page_url: str, max_words: int = 300) -> str:
         html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8", "ignore")
     except Exception:
         return ""
-    # crude text extraction (fair-use: short preview not full-copy)
     text = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", "", html)
     text = re.sub(r"(?is)<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
@@ -119,6 +134,27 @@ def extract_preview_paragraphs(page_url: str, max_words: int = 300) -> str:
     if len(words) > max_words:
         text = " ".join(words[:max_words]) + "…"
     return text
+
+def extract_all_images(html: str) -> list[str]:
+    html = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", "", html)
+    imgs = re.findall(r'<img[^>]+src=["\'](http[^"\']+)["\']', html, flags=re.I)
+    clean = []
+    for u in imgs:
+        if any(x in u.lower() for x in ["sprite", "icon", "logo", "placeholder", "data:image", ".svg"]):
+            continue
+        clean.append(u)
+    return clean[:15]
+
+def extract_main_html(html: str) -> str:
+    html = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", "", html)
+    m = re.search(r"(?is)<article[^>]*>(.*?)</article>", html)
+    if m: return m.group(1)
+    m = re.search(r"(?is)<main[^>]*>(.*?)</main>", html)
+    if m: return m.group(1)
+    body = re.search(r"(?is)<body[^>]*>(.*?)</body>", html)
+    if not body: return ""
+    keep = re.sub(r"(?is)</?(?!p|h2|h3|ul|ol|li|img)[a-z0-9]+[^>]*>", "", body.group(1))
+    return keep
 
 def main():
     POSTS_DIR.mkdir(exist_ok=True)
@@ -151,7 +187,6 @@ def main():
             title = it.get("title", "").strip()
             link  = it.get("link", "").strip()
             it_elem = it.get("element")
-
             if not title or not link:
                 continue
 
@@ -159,12 +194,24 @@ def main():
             if key in seen:
                 continue
 
-            summary = strip_html(it.get("summary", ""))
+            # Mode: FULL (PD/CC) ose PREVIEW
+            dom = domain_of(link)
+            is_full = dom in FULL_WHITELIST
+            license_block = ""
+            content_html = ""
+            images = []
 
-            # try to extend summary with a short preview from the article page
-            extended = extract_preview_paragraphs(link, max_words=300)
-            if extended:
-                summary = extended
+            if is_full:
+                try:
+                    req = urllib.request.Request(link, headers={"User-Agent": UA})
+                    page_html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8","ignore")
+                    content_html = extract_main_html(page_html)
+                    images = extract_all_images(page_html)
+                except Exception:
+                    is_full = False  # fallback
+
+            extended = extract_preview_paragraphs(link, max_words=1000 if is_full else 300)
+            summary = extended or strip_html(it.get("summary", ""))
 
             cover = ""
             try:
@@ -172,9 +219,28 @@ def main():
                     cover = find_image_from_item(it_elem, link)
             except Exception:
                 cover = ""
+            if not cover and images:
+                cover = images[0]
             if not cover:
                 cover = COVERS[cover_i % len(COVERS)]
                 cover_i += 1
+
+            if is_full:
+                meta = FULL_WHITELIST[dom]
+                license_block = f"""
+    <div class='text-xs text-gray-500 mt-6'>
+      Source: <a class='underline' href='{link}' rel='nofollow noopener' target='_blank'>{meta['attr']}</a>.
+      License: <a class='underline' href='{meta['license_url']}' target='_blank'>{meta['license']}</a>.
+      Attribution: {meta['attr']} – {meta['attr_url']}.
+    </div>
+                """
+
+            gallery = ""
+            if images:
+                gallery_imgs = "".join([f"<img src='{u}' alt='image' class='w-full rounded-xl mb-4'/>" for u in images])
+                gallery = f"<section class='mt-6'><h2>Images</h2>{gallery_imgs}</section>"
+
+            body_block = f"<section class='mt-6 prose max-w-none'>{content_html}</section>" if (is_full and content_html) else f"<p>{summary}</p>"
 
             slug = slugify(title)[:70]
             date = date_today()
@@ -183,7 +249,7 @@ def main():
 <html lang='en'><head>
 <meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'>
 <title>{title} | AventurOO</title>
-<meta name='description' content='{summary}'>
+<meta name='description' content='{strip_html(summary)[:150]}'>
 <script src='https://cdn.tailwindcss.com'></script>
 <link rel='stylesheet' href='../assets/styles.css'>
 </head><body class='bg-gray-50 text-gray-900'>
@@ -197,12 +263,15 @@ def main():
 <main class='max-w-3xl mx-auto px-4 py-8'>
 <article class='prose prose-stone max-w-none'>
 <figure class='post-hero'><img src='{cover}' alt='{title} cover'></figure>
-<p class='text-xs text-gray-500'>Image source: <a class='underline' href='{link}' target='_blank' rel='nofollow noopener'>{link}</a></p>
+<p class='text-xs text-gray-500'>Image/source: <a class='underline' href='{link}' target='_blank' rel='nofollow noopener'>{link}</a></p>
 <h1>{title}</h1>
-<p class='text-sm text-gray-500'>{date} · Aggregated Preview</p>
-<p>{summary}</p>
-<p class='text-sm text-gray-600'>Source: <a class='underline' href='{link}' rel='nofollow noopener' target='_blank'>{link}</a></p>
-<hr/><p class='text-xs text-gray-500'>Short preview & link for reference. © AventurOO.</p>
+<p class='text-sm text-gray-500'>{date} · {'Full article' if is_full else 'Aggregated Preview'}</p>
+{body_block}
+{gallery}
+<hr/>
+<p class='text-sm text-gray-600'>Original: <a class='underline' href='{link}' rel='nofollow noopener' target='_blank'>{link}</a></p>
+{license_block}
+<p class='text-[11px] text-gray-500 mt-2'>This page republishes or previews official travel information with proper attribution/licensing. No affiliation or endorsement implied.</p>
 </article></main>
 <footer class='border-t'><div class='max-w-5xl mx-auto px-4 py-6 text-sm text-gray-500'>
 <a href='../index.html' class='hover:underline'>← Back to Home</a>
@@ -228,7 +297,6 @@ def main():
             created += 1
             print("Created:", out.name)
 
-    # keep at most last 200 in posts.json
     POSTS_JSON.write_text(json.dumps(posts_idx[:200], ensure_ascii=False, indent=2), encoding="utf-8")
     SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
     print("New posts:", created)
