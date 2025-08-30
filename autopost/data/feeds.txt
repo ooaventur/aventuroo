@@ -1,10 +1,10 @@
+https://www.theguardian.com/travel/rss
 http://rss.cnn.com/rss/edition_travel.rss
-http://feeds.bbci.co.uk/news/world/travel/rss.xml
-https://www.theguardian.com/uk/travel/rss
 https://www.cntraveler.com/feed/rss
-https://www.nomadicmatt.com/feed/
-https://theculturetrip.com/feed/
+https://www.atlasobscura.com/feeds/latest
 https://www.fodors.com/news/feed
-https://www.skyscanner.net/news/feed
+https://www.luxurytraveladvisor.com/luxurytraveladvisorco/rss-feeds/all.xml
 https://matadornetwork.com/feed/
+https://www.nomadicmatt.com/feed/
 https://www.adventuretravelnews.com/feed
+https://www.lonelyplanet.com/feed (nëse jep 404, lëre për tani)
