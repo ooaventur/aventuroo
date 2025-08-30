@@ -1,6 +1,3 @@
-https://www.lonelyplanet.com/news/rss.xml
-https://www.travelandleisure.com/rss
-https://www.nationalgeographic.com/travel/rss
 http://rss.cnn.com/rss/edition_travel.rss
 http://feeds.bbci.co.uk/news/world/travel/rss.xml
 https://www.theguardian.com/uk/travel/rss
