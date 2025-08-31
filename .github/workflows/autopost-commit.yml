@@ -1,0 +1,46 @@
+name: Autopost (commit direct to main)
+
+on:
+  # Nis automatikisht kur ndryshon postet ose skripti i RSS
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/posts.json'
+      - 'scripts/rss-from-json.mjs'
+  # Mund ta nisesh edhe me dorë nga "Actions"
+  workflow_dispatch:
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # e nevojshme për git push
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node (opsionale, vetëm nëse ke skript për gjenerim RSS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate RSS (skip if script missing)
+        run: |
+          if [ -f scripts/rss-from-json.mjs ]; then
+            node scripts/rss-from-json.mjs
+          else
+            echo "No RSS generator script found, skipping."
+          fi
+
+      - name: Commit & push directly to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore(rss): auto-update feeds"
+            git push origin HEAD:main
+          fi
