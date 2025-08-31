@@ -1,0 +1,13 @@
+{
+  "travel": [
+    "https://www.lonelyplanet.com/news/rss.xml",
+    "https://www.traveloffpath.com/feed/"
+  ],
+  "deals": [
+    "https://www.travelzoo.com/uk/rss/",
+    "https://www.secretflying.com/feed/"
+  ],
+  "guides": [
+    "https://www.nomadicmatt.com/feed/"
+  ]
+}
