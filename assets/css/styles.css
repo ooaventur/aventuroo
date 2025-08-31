@@ -1,9 +1,0 @@
-:root{--bg:#f6f7fb;--text:#0f172a;--border:#e2e8f0}
-html,body{background:var(--bg);color:var(--text)}
-.nav-link{font-weight:600;text-transform:uppercase;letter-spacing:.02em}
-.hero-img{aspect-ratio:16/9;object-fit:cover;width:100%;border-radius:1rem}
-.card-img-top{aspect-ratio:16/10;object-fit:cover}
-.ad-box{background:#e9ecef;border:1px dashed #c9ced6;color:#6c757d}
-.line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.sticky-top-offset{top:5.5rem}
-.badge-cat{background:#0f172a0d;color:#0f172a;border:1px solid var(--border)}
