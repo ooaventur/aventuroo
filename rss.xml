@@ -6,6 +6,13 @@
     <title>Aventuroo – All</title>
     <link>https://aventuroo.netlify.app/</link>
     <description>Të gjitha postimet</description>
+    <language>sq-AL</language>
+    <ttl>60</ttl>
+    <image>
+      <url>https://aventuroo.netlify.app/assets/img/logo-512.png</url>
+      <title>Aventuroo</title>
+      <link>https://aventuroo.netlify.app/</link>
+    </image>
     <atom:link href="https://aventuroo.netlify.app/rss.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
