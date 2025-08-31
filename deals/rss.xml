@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aventuroo – Deals</title>
     <link>https://aventuroo.netlify.app/deals/</link>
     <description>Postimet nga Deals</description>
+    <atom:link href="https://aventuroo.netlify.app/deals/rss.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Shembull postimi ofertë -->
+    <item>
+      <title>Ofertë speciale – 7 netë All-Inclusive</title>
+      <link>https://aventuroo.netlify.app/deals/oferta-7net</link>
+      <guid isPermaLink="true">https://aventuroo.netlify.app/deals/oferta-7net</guid>
+      <pubDate>Tue, 26 Aug 2025 10:00:00 GMT</pubDate>
+      <description>Çmim promo për rezervime këtë javë. Përfshirë ushqim, udhëzim dhe aktivitete.</description>
+      <category>Deals</category>
+      <media:content url="https://aventuroo.netlify.app/images/deals-7n.jpg" />
+    </item>
+
   </channel>
 </rss>
