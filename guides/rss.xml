@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aventuroo – Guides</title>
     <link>https://aventuroo.netlify.app/guides/</link>
     <description>Postimet nga Guides</description>
+    <atom:link href="https://aventuroo.netlify.app/guides/rss.xml" rel="self" type="application/rss+xml" />
+
+    <!-- Shembull guide -->
+    <item>
+      <title>Si të planifikosh një roadtrip perfekt</title>
+      <link>https://aventuroo.netlify.app/guides/roadtrip</link>
+      <guid isPermaLink="true">https://aventuroo.netlify.app/guides/roadtrip</guid>
+      <pubDate>Wed, 27 Aug 2025 15:00:00 GMT</pubDate>
+      <description>Udhëzues praktik me 5 hapa për një udhëtim të paharrueshëm me makinë.</description>
+      <category>Guides</category>
+      <media:content url="https://aventuroo.netlify.app/images/roadtrip.jpg" />
+    </item>
+
   </channel>
 </rss>
