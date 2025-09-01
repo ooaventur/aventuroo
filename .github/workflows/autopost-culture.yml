@@ -1,0 +1,50 @@
+name: Autopost • Culture
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "15,45 * * * *"
+
+permissions: { contents: write }
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      FEEDS_FILE: autopost/data/feeds.culture.txt
+      CATEGORY_NAME: "Culture"
+      SEEN_DB: autopost/seen_culture.json
+      MAX_NEW: "6"
+      SUMMARY_WORDS: "450"
+      MAX_POSTS_PERSIST: "200"
+      FALLBACK_COVER: "assets/img/cover-fallback.jpg"
+      HTTP_TIMEOUT: "15"
+      AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure files
+        run: |
+          mkdir -p autopost data
+          [ -s "$SEEN_DB" ] || echo "{}" > "$SEEN_DB"
+          [ -s data/posts.json ] || echo "[]" > data/posts.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run pull_feeds
+        run: python3 autopost/pull_feeds.py
+      - name: Commit & push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "autopost(culture): update posts.json + seen"
+            git push
+          fi
