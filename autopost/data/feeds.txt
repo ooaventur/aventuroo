@@ -2,6 +2,7 @@ travel|https://www.lonelyplanet.com/blog.rss
 travel|https://www.traveloffpath.com/feed/
 stories|https://www.bbc.com/travel/feed.rss
 culture|https://hyperallergic.com/feed/
+Culture|https://www.smithsonianmag.com/rss/latest_articles/
 lifestyle|https://www.wellandgood.com/feed/
 guides|https://www.thebrokebackpacker.com/feed/
 deals|https://www.secretflying.com/feed/
