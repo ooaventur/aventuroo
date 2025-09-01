@@ -1,17 +1,14 @@
 // ===== AventurOO - External Feeds (client-side) =====
 // Lexon RSS/Atom nga data/external-feeds.json dhe mbush seksionet:
-// - ne faqet e kategorive: <div class="external-category-feed" data-category-feed="travel"></div>
-// - ne home: <section data-home-feed></section>
-//
-// Përdor AllOrigins për CORS bypass (publike). Nëse ndonjë feed nuk kthehet,
-// thjesht anashkalohet pa prishur faqen.
+// - në kategoritë: <div class="external-category-feed" data-category-feed="travel"></div>
+// - në home:       <section data-home-feed></section>
 
 (async function () {
   const FEEDS_CONFIG_URL = 'data/external-feeds.json';
-  const MAX_ITEMS_CATEGORY = 6; // numri i kartave për faqe kategorie
-  const MAX_ITEMS_HOME = 8;     // numri i kartave për home
+  const MAX_ITEMS_CATEGORY = 6; // sa karta të shfaqen në faqe kategorie
+  const MAX_ITEMS_HOME = 8;     // sa karta në faqen kryesore
 
-  // ---- Helpers ----
+  // ---- helpers ----
   const el = (sel, root = document) => root.querySelector(sel);
   const els = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
@@ -45,7 +42,7 @@
     `;
   }
 
-  // Parsim RSS/Atom në një listë objektesh uniforme
+  // Parsim RSS/Atom në një listë uniforme
   function parseFeed(xmlText, sourceName = '') {
     const out = [];
     try {
@@ -56,9 +53,10 @@
       items.forEach(it => {
         const get = sel => it.querySelector(sel)?.textContent?.trim() || '';
         const title = get('title');
-        const link = isAtom ? (it.querySelector('link')?.getAttribute('href') || '') : get('link');
-        const date = get(isAtom ? 'updated' : 'pubDate') || get('dc\\:date');
-        // imazhi: media:content, enclosure, ose og:image në summary (shpesh s’ka)
+        const link  = isAtom ? (it.querySelector('link')?.getAttribute('href') || '') : get('link');
+        const date  = get(isAtom ? 'updated' : 'pubDate') || get('dc\\:date');
+
+        // imazhi: media:content, enclosure, ose lëre bosh
         let img =
           it.querySelector('media\\:content, content[url]')?.getAttribute('url') ||
           it.querySelector('enclosure[type^="image"]')?.getAttribute('url') || '';
@@ -71,7 +69,7 @@
     return out;
   }
 
-  // Marrim feed me AllOrigins për CORS-free
+  // Marrim feed me AllOrigins (CORS bypass publik)
   async function fetchFeed(url) {
     try {
       const prox = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
@@ -98,57 +96,59 @@
     const feeds = cfg[catKey] || [];
     if (!feeds.length) return;
 
-    // Mblidh artikujt nga të gjitha feed-et
     const all = [];
     for (const src of feeds) {
-      const xml = await fetchFeed(src.url || src);
+      const url = typeof src === 'string' ? src : (src.url || '');
+      if (!url) continue;
+      const xml = await fetchFeed(url);
       if (!xml) continue;
-      const sourceName = src.name || new URL(src.url || src).hostname.replace('www.', '');
+      const sourceName = typeof src === 'string'
+        ? new URL(url).hostname.replace('www.', '')
+        : (src.name || new URL(url).hostname.replace('www.', ''));
       all.push(...parseFeed(xml, sourceName));
     }
 
-    // Rendorim top N sipas datës (kur ka), përndryshe si vijnë
-    all.sort((a, b) => new Date(b.date||0) - new Date(a.date||0));
+    all.sort((a,b)=> new Date(b.date||0) - new Date(a.date||0));
     const html = all.slice(0, MAX_ITEMS_CATEGORY).map(card).join('') || `
       <div class="col-12"><div class="text-muted">No external items yet.</div></div>
     `;
-
     wrapper.innerHTML = `<div class="row g-4">${html}</div>`;
   }
 
   // Mbush seksionin në home me përzierje kategorish
   async function renderHomeFeed(wrapper, cfg) {
     const categories = Object.keys(cfg);
-    const picks = []; // do grumbullojmë disa artikuj të fundit nga disa kategori
+    const picks = [];
 
-    // Merr nga feed-i i parë i secilës kategori (shpejt & thjesht)
     for (const cat of categories) {
       const feeds = cfg[cat] || [];
       if (!feeds.length) continue;
       const src = feeds[0];
-      const xml = await fetchFeed(src.url || src);
+      const url = typeof src === 'string' ? src : (src.url || '');
+      if (!url) continue;
+      const xml = await fetchFeed(url);
       if (!xml) continue;
-      const sourceName = src.name || new URL(src.url || src).hostname.replace('www.', '');
+      const sourceName = typeof src === 'string'
+        ? new URL(url).hostname.replace('www.', '')
+        : (src.name || new URL(url).hostname.replace('www.', ''));
       picks.push(...parseFeed(xml, sourceName).slice(0, 4));
     }
 
-    picks.sort((a, b) => new Date(b.date||0) - new Date(a.date||0));
-    const html = picks.slice(0, MAX_ITEMS_HOME).map(card).join('') || `
-      <div class="text-muted">No external items yet.</div>
-    `;
+    picks.sort((a,b)=> new Date(b.date||0) - new Date(a.date||0));
+    const html = picks.slice(0, MAX_ITEMS_HOME).map(card).join('') || `<div class="text-muted">No external items yet.</div>`;
     wrapper.innerHTML = `<div class="row g-4">${html}</div>`;
   }
 
   // ---- Run ----
   const cfg = await readConfig();
 
-  // Kategori: çdo element me .external-category-feed
-  els('.external-category-feed').forEach(sec => {
+  // kategori
+  Array.from(document.querySelectorAll('.external-category-feed')).forEach(sec => {
     const catKey = (sec.getAttribute('data-category-feed') || '').toLowerCase();
     if (catKey) renderCategorySection(sec, catKey, cfg);
   });
 
-  // Home feed: <section data-home-feed>
-  const homeSec = el('section[data-home-feed]');
+  // home
+  const homeSec = document.querySelector('section[data-home-feed]');
   if (homeSec) renderHomeFeed(homeSec, cfg);
 })();
