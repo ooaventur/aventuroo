@@ -1,33 +1,33 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # RSS → data/posts.json (AventurOO)
-# - lexon feeds.txt (kategori|URL)
+# - lexon feeds.txt (format: kategori|URL)
 # - përmbledhje e sigurt ~450 fjalë (ndryshohet me env SUMMARY_WORDS)
-# - imazhi kryesor merret nga enclosure/media/og:image ose fallback
-# - load/save e sigurt për seen.json dhe data/posts.json (nuk bie në error edhe kur janë bosh)
+# - imazhi kryesor nga enclosure/media/og:image ose fallback
+# - load/save e sigurt për seen.json dhe data/posts.json
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
 from html import unescape
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-# ---- Rrugët / skedarët ----
+# ---- Paths ----
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-POSTS_JSON = DATA_DIR / "posts.json"         # <- kjo lexohet nga faqet
+POSTS_JSON = DATA_DIR / "posts.json"
 SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-# ---- Parametra (mund të mbivendosen nga ENV në GitHub Actions) ----
-MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))     # artikuj max për kategori per run
-MAX_TOTAL    = int(os.getenv("MAX_TOTAL", "0"))      # 0 = pa limit total
+# ---- Env / Defaults ----
+MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))          # maksimalisht artikuj të rinj për kategori / run
+MAX_TOTAL = int(os.getenv("MAX_TOTAL", "0"))              # 0 = pa limit total për run
 SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 
-# ---- Funksione ndihmëse ----
+# ---- Helpers ----
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
@@ -88,16 +88,15 @@ def domain_of(url: str) -> str:
 
 def find_image_from_item(it_elem, page_url: str = "") -> str:
     """Kërkon imazh nga <enclosure>, <media:content>/<media:thumbnail>, ose nga faqja (og:image)."""
-    # enclosure
-    enc = it_elem.find("enclosure")
-    if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
-        u = enc.attrib.get("url", "")
-        if u: return u
-    # media:content / media:thumbnail
-    ns = {"media": "http://search.yahoo.com/mrss/"}
-    m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
-    if m is not None and m.attrib.get("url"):
-        return m.attrib.get("url")
+    if it_elem is not None:
+        enc = it_elem.find("enclosure")
+        if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
+            u = enc.attrib.get("url", "")
+            if u: return u
+        ns = {"media": "http://search.yahoo.com/mrss/"}
+        m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
+        if m is not None and m.attrib.get("url"):
+            return m.attrib.get("url")
 
     # og:image
     if page_url:
@@ -156,9 +155,8 @@ def main():
         print("ERROR: feeds.txt NOT FOUND at", FEEDS)
         return
 
-    # Grupim i kontingjentit për kategori
     added_total = 0
-    per_cat_counter = {}  # {cat: num}
+    per_cat_counter = {}      # {category: count}
     new_entries = []
 
     for raw in FEEDS.read_text(encoding="utf-8").splitlines():
@@ -176,7 +174,6 @@ def main():
         if not feed_url:
             continue
 
-        # Respekto kufirin total nëse është vendosur
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
             break
 
@@ -194,7 +191,6 @@ def main():
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
                 break
 
-            # Kufiri per kategori
             ncat = per_cat_counter.get(category, 0)
             if ncat >= MAX_PER_CAT:
                 continue
@@ -208,28 +204,24 @@ def main():
             if key in seen:
                 continue
 
-            # Përmbledhje
             preview = extract_preview(link, SUMMARY_WORDS)
             summary = preview or strip_html(it.get("summary", "")) or title
 
-            # Imazh
             cover = ""
             try:
                 cover = find_image_from_item(it.get("element"), link)
             except Exception:
                 cover = ""
             if not cover:
-                # fallback relativ – përdor rrugë relative në sajt
                 cover = FALLBACK_COVER
 
-            # Krijo entry për posts.json
             date = today_iso()
             slug = slugify(title)[:70]
 
             entry = {
                 "slug": slug,
                 "title": title,
-                "category": category,    # Travel / Stories / Lifestyle / Culture / Guides / Deals…
+                "category": category,
                 "date": date,
                 "excerpt": summary,
                 "cover": cover
@@ -242,17 +234,14 @@ def main():
 
             print(f"Added [{category}]: {title}")
 
-    # Asgjë e re?
     if not new_entries:
         print("New posts this run: 0")
         return
 
-    # Vendos të rejat në fillim + kufizo listën
     posts_idx = new_entries + posts_idx
     if MAX_POSTS_PERSIST > 0:
         posts_idx = posts_idx[:MAX_POSTS_PERSIST]
 
-    # Shkruaj skedarët (SAFE)
     POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
     SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
 
