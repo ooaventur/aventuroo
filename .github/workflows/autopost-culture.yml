@@ -1,4 +1,4 @@
-name: Autopost • Culture (HTML Body)
+name: Autopost • Culture 
 
 on:
   workflow_dispatch: {}
