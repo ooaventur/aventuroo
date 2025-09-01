@@ -1,13 +1,21 @@
 {
   "travel": [
-    "https://www.lonelyplanet.com/news/rss.xml",
-    "https://www.traveloffpath.com/feed/"
+    { "name": "Lonely Planet", "url": "https://www.lonelyplanet.com/blog.rss" },
+    { "name": "Travel Off Path", "url": "https://www.traveloffpath.com/feed/" }
   ],
-  "deals": [
-    "https://www.travelzoo.com/uk/rss/",
-    "https://www.secretflying.com/feed/"
+  "stories": [
+    { "name": "BBC Travel", "url": "https://www.bbc.com/travel/feed.rss" }
+  ],
+  "culture": [
+    { "name": "National Geographic – Culture", "url": "https://www.nationalgeographic.com/culture/.rss" }
+  ],
+  "lifestyle": [
+    { "name": "Well+Good", "url": "https://www.wellandgood.com/feed/" }
   ],
   "guides": [
-    "https://www.nomadicmatt.com/feed/"
+    { "name": "The Broke Backpacker", "url": "https://www.thebrokebackpacker.com/feed/" }
+  ],
+  "deals": [
+    { "name": "Secret Flying", "url": "https://www.secretflying.com/feed/" }
   ]
 }
