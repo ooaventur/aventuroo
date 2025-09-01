@@ -1,51 +1,86 @@
-
 function renderHeader(active){
-  const nav=[["index.html","Home"],["travel.html","Travel"],["lifestyle.html","Lifestyle"],["culture.html","Culture"],["stories.html","Stories"],["about.html","About"]];
-  const links=nav.map(([href,label])=>`<li class="nav-item"><a class="nav-link ${label===active?'active':''}" href="${href}">${label}</a></li>`).join('');
-  const headerHTML=`<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  const nav = [
+    {title:'Home', url:'index.html'},
+    {title:'Travel', url:'travel.html'},
+    {title:'Stories', url:'stories.html'},
+    {title:'Culture', url:'culture.html'},
+    {title:'Lifestyle', url:'lifestyle.html'},
+    {title:'Guides', url:'guides.html'},
+    {title:'Deals', url:'deals.html'},
+    {title:'About', url:'about.html'},
+    {title:'Contact', url:'contact.html'}
+  ];
+
+  const links = nav.map(n => `
+    <li class="nav-item">
+      <a class="nav-link ${active===n.title?'active fw-semibold':''}" href="${n.url}">${n.title}</a>
+    </li>
+  `).join('');
+
+  document.getElementById('site-header').innerHTML = `
+  <header class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
     <div class="container">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html"><i class="fa-solid fa-compass text-primary"></i><span>AventurOO</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">${links}</ul>
-        <form class="d-flex" role="search" onsubmit="goSearch(event)">
-          <input id="q" class="form-control me-2" type="search" placeholder="Search articles…" aria-label="Search">
-          <button class="btn btn-brand">Search</button>
-        </form>
+      <a class="navbar-brand fw-bold" href="index.html">AventurOO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          ${links}
+          <li class="nav-item">
+            <a class="nav-link" href="search.html" title="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </nav>`;
-  const c=document.getElementById('site-header'); if(c) c.innerHTML=headerHTML;
+  </header>`;
 }
+
 function renderFooter(){
-  const year=new Date().getFullYear();
-  const footerHTML=`<footer class="border-top mt-5">
-    <div class="container py-4">
+  document.getElementById('site-footer').innerHTML = `
+  <footer class="bg-light py-5 mt-5 border-top">
+    <div class="container">
       <div class="row g-4">
-        <div class="col-md-6">
-          <div class="d-flex align-items-center gap-2 fw-bold mb-2"><i class="fa-solid fa-compass text-primary"></i><span>AventurOO</span></div>
-          <div class="muted small">Travel magazine & inspiration. Curated guides, stories and practical tips.</div>
+        <div class="col-md-4">
+          <h5 class="fw-bold">AventurOO</h5>
+          <p class="small text-muted">Travel • Stories • Culture • Lifestyle • Deals • Guides</p>
         </div>
-        <div class="col-md-6">
-          <div class="fw-semibold mb-2">Newsletter</div>
-          <form class="d-flex gap-2">
-            <input type="email" class="form-control" placeholder="Enter your email">
-            <button class="btn btn-outline-brand" type="button">Subscribe</button>
-          </form>
+        <div class="col-md-2">
+          <h6 class="fw-bold">Explore</h6>
+          <ul class="list-unstyled small">
+            <li><a class="link-secondary text-decoration-none" href="travel.html">Travel</a></li>
+            <li><a class="link-secondary text-decoration-none" href="stories.html">Stories</a></li>
+            <li><a class="link-secondary text-decoration-none" href="culture.html">Culture</a></li>
+            <li><a class="link-secondary text-decoration-none" href="lifestyle.html">Lifestyle</a></li>
+            <li><a class="link-secondary text-decoration-none" href="guides.html">Guides</a></li>
+            <li><a class="link-secondary text-decoration-none" href="deals.html">Deals</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h6 class="fw-bold">Company</h6>
+          <ul class="list-unstyled small">
+            <li><a class="link-secondary text-decoration-none" href="about.html">About</a></li>
+            <li><a class="link-secondary text-decoration-none" href="contact.html">Contact</a></li>
+            <li><a class="link-secondary text-decoration-none" href="privacy.html">Privacy</a></li>
+            <li><a class="link-secondary text-decoration-none" href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold">Stay updated</h6>
+          <p class="small text-muted">Follow our feeds or subscribe for updates.</p>
+          <a class="btn btn-sm btn-outline-brand me-2" href="rss.xml" target="_blank">
+            <i class="fa-solid fa-rss me-1"></i> RSS
+          </a>
+          <a class="btn btn-sm btn-outline-brand" href="sitemap.xml" target="_blank">
+            <i class="fa-solid fa-sitemap me-1"></i> Sitemap
+          </a>
         </div>
       </div>
-      <hr class="my-4">
-      <div class="d-flex justify-content-between small muted">
-        <div>© ${year} AventurOO · All rights reserved</div>
-        <div>
-          <a class="footer-link" href="privacy.html">Privacy</a>
-          <a class="footer-link" href="terms.html">Terms</a>
-          <a class="footer-link" href="contact.html">Contact</a>
-        </div>
+      <div class="text-center small text-muted mt-4">
+        &copy; ${new Date().getFullYear()} AventurOO. All rights reserved.
       </div>
     </div>
   </footer>`;
-  const c=document.getElementById('site-footer'); if(c) c.innerHTML=footerHTML;
 }
-function goSearch(e){ e.preventDefault(); const q=(document.getElementById('q')?.value||'').trim(); window.location.href='search.html?q='+encodeURIComponent(q); }
-function qs(name){ const u=new URL(location.href); return u.searchParams.get(name)||''; }
