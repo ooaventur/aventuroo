@@ -22,8 +22,6 @@ POSTS_JSON = DATA_DIR / "posts.json"
 SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-CATEGORY = os.getenv("CATEGORY", "Culture").title()
-
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
 SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "1000"))
@@ -341,10 +339,10 @@ def main():
             }
             new_entries.append(entry)
 
-            seen[key] = {"title": title, "url": link, "created": date}
+            seen[key] = {"title": title, "url": link, "category": category, "created": date}
             per_cat[category] = per_cat.get(category, 0) + 1
             added_total += 1
-            print(f"Added [{CATEGORY}]: {title}")
+            print(f"[Culture] + {title}")
 
     if not new_entries:
         print("New posts this run: 0"); return
