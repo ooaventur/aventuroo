@@ -334,7 +334,6 @@ def main():
                 "bodyHtml": body_final,         # ← përdorim body_final
                 "cover": cover,
                 "source": link,
-                "sourceName": domain_of(link),
                 "author": DEFAULT_AUTHOR,
             }
             new_entries.append(entry)
