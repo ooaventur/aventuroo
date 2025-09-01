@@ -297,24 +297,6 @@ def main():
             excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
             if len(excerpt) > 280:
                 excerpt = excerpt[:277] + "…"
-                
-            # autor nga feed (dc:creator / author)
-            author = ""
-            elem = it.get("element")
-            try:
-                ns_dc = {"dc":"http://purl.org/dc/elements/1.1/"}
-                if elem is not None:
-                    dc = elem.find("dc:creator", ns_dc)
-                    if dc is not None and (dc.text or "").strip():
-                        author = dc.text.strip()
-                    if not author:
-                        a = elem.find("author")
-                        if a is not None and (a.text or "").strip():
-                            author = a.text.strip()
-            except Exception:
-                pass
-            if not author:
-                author = "AventurOO Editorial"
 
             # footer i burimit
             body_final = (body_html or "") + f"""
@@ -331,10 +313,10 @@ def main():
                 "category": category,
                 "date": date,
                 "excerpt": excerpt,
-                "bodyHtml": body_final,         # ← përdorim body_final
                 "cover": cover,
                 "source": link,
                 "author": DEFAULT_AUTHOR,
+                "body": body_final
             }
             new_entries.append(entry)
 
