@@ -1,40 +1,39 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# pull_culture.py — RSS → data/posts.json (AventurOO, Culture-focused)
-# - trafilatura me USER_AGENT përmes use_config()
-# - trup artikulli i pastër (pa nav/footer/script), paragrafë me \n\n
-# - excerpt ~450 fjalë për listime
-# - në fund të content shtohet atributim i autorit + burimi
+"""
+Autopost • Culture → data/posts.json
+- Merr artikuj nga feeds culture
+- Nxjerr tekst të pastër (jo HTML) dhe krijon excerptExtended (~550 fjalë)
+- Ruaj: slug,title,category,date,excerpt,excerptExtended,cover,source,sourceName,author
+"""
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
 from html import unescape
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-# ---- external extractor ----
 try:
-    import trafilatura
-    from trafilatura.settings import use_config
+    import trafilatura  # për ekstraktim teksti
 except Exception:
     trafilatura = None
 
-# ---- Paths ----
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 SEEN_DB = ROOT / "autopost" / "seen.json"
-FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-# ---- Env / Defaults ----
-MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
-MAX_TOTAL = int(os.getenv("MAX_TOTAL", "0"))          # 0 = pa limit total / run
-SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
-MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
+FEEDS = [
+    "https://hyperallergic.com/feed/",
+    "https://www.smithsonianmag.com/rss/latest_articles/",
+]
+
+CATEGORY = "Culture"
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
+MAX_NEW = int(os.getenv("MAX_PER_CAT", "6"))
+WORDS_LONG = int(os.getenv("SUMMARY_WORDS", "550"))  # ~450–600
 
-# ---- HTTP helpers ----
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
@@ -44,317 +43,142 @@ def fetch(url: str) -> bytes:
         print("Fetch error:", url, "->", e)
         return b""
 
-def http_get_text(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-        raw = r.read()
-    for enc in ("utf-8", "utf-16", "iso-8859-1"):
-        try:
-            return raw.decode(enc)
-        except Exception:
-            continue
-    return raw.decode("utf-8", "ignore")
-
-# ---- RSS parsing ----
 def parse(xml_bytes: bytes):
-    if not xml_bytes:
-        return []
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
-    items = []
-    # RSS
+    if not xml_bytes: return []
+    try: root = ET.fromstring(xml_bytes)
+    except ET.ParseError: return []
+    items=[]
     for it in root.findall(".//item"):
-        title = (it.findtext("title") or "").strip()
-        link  = (it.findtext("link") or "").strip()
-        desc  = (it.findtext("description") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": desc, "element": it})
-    # Atom
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
+        title=(it.findtext("title") or "").strip()
+        link=(it.findtext("link") or "").strip()
+        desc=(it.findtext("description") or "").strip()
+        author=(it.findtext("{http://purl.org/dc/elements/1.1/}creator") or it.findtext("author") or "").strip()
+        if title and link: items.append({"title":title,"link":link,"summary":desc,"author":author,"element":it})
+    ns={"atom":"http://www.w3.org/2005/Atom"}
     for e in root.findall(".//atom:entry", ns):
-        title = (e.findtext("atom:title", default="") or "").strip()
-        link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
-        link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": summary, "element": e})
+        title=(e.findtext("atom:title", default="") or "").strip()
+        linkEl=e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
+        link=(linkEl.attrib.get("href") if linkEl is not None else "").strip()
+        summary=(e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
+        author=(e.findtext("atom:author/atom:name", default="") or "").strip()
+        if title and link: items.append({"title":title,"link":link,"summary":summary,"author":author,"element":e})
     return items
 
-# ---- utils ----
 def strip_html(s: str) -> str:
     s = unescape(s or "")
-    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
+    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", " ", s)
     s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
+def plain_from_url(url: str) -> str:
+    """Kthen tekst të pastër nga faqja (pa HTML)."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8","ignore")
+    except Exception:
+        html=""
+    if trafilatura and html:
+        try:
+            out = trafilatura.extract(html, url=url, include_formatting=False, include_links=False, include_images=False)
+            if out: return strip_html(out)
+        except Exception:
+            pass
+    return strip_html(html)
+
+def og_image(url: str) -> str:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8","ignore")
+        m = re.search(r'<meta[^>]+property=[\'"]og:image[\'"][^>]+content=[\'"]([^\'"]+)[\'"]', html, re.I)
+        return m.group(1) if m else ""
+    except Exception:
+        return ""
+
+def find_image_from_item(el, page_url: str) -> str:
+    if el is not None:
+        enc = el.find("enclosure")
+        if enc is not None and str(enc.attrib.get("type","")).startswith("image"):
+            u=enc.attrib.get("url",""); 
+            if u: return u
+        ns={"media":"http://search.yahoo.com/mrss/"}
+        m = el.find("media:content", ns) or el.find("media:thumbnail", ns)
+        if m is not None and m.attrib.get("url"): return m.attrib.get("url")
+    return og_image(page_url) or ""
+
 def slugify(s: str) -> str:
-    s = s.lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    return s.strip("-") or "post"
+    s=s.lower(); s=re.sub(r"[^a-z0-9]+","-",s); return s.strip("-") or "post"
 
 def today_iso() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
 
 def domain_of(url: str) -> str:
-    try:
-        d = urlparse(url).netloc.lower()
-        return d[4:] if d.startswith("www.") else d
-    except Exception:
-        return ""
+    try: return urlparse(url).netloc.lower()
+    except: return ""
 
-def find_image_from_item(it_elem, page_url: str = "") -> str:
-    if it_elem is not None:
-        enc = it_elem.find("enclosure")
-        if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
-            u = enc.attrib.get("url", "")
-            if u: return u
-        ns = {"media": "http://search.yahoo.com/mrss/"}
-        m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
-        if m is not None and m.attrib.get("url"):
-            return m.attrib.get("url")
-    return ""
+def load_json_safe(p: pathlib.Path, default):
+    if p.exists():
+        try: return json.loads(p.read_text(encoding="utf-8"))
+        except json.JSONDecodeError: return default
+    return default
 
-def shorten_words(text: str, max_words: int) -> str:
-    words = (text or "").split()
-    if len(words) <= max_words:
-        return (text or "").strip()
-    return " ".join(words[:max_words]) + "…"
+def save_json(p: pathlib.Path, obj):
+    p.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
-# ---- paragraph cleaner ----
-CODE_PATTERNS = [
-    r"\bfunction\s*\(", r"\bvar\s+\w+\s*=", r"\blet\s+\w+\s*=", r"\bconst\s+\w+\s*=",
-    r"[{};<>]{2,}", r"\bconsole\.log\b", r"\$\(", r"document\.querySelector",
-    r"<script", r"</script", r"@media", r"window\.", r"import\s+",
-]
-CODE_RE = re.compile("|".join(CODE_PATTERNS), re.I)
-
-def clean_paragraphs(text: str) -> list:
-    if not text:
-        return []
-    t = re.sub(r"\r\n?", "\n", text).strip()
-    blocks = [b.strip() for b in re.split(r"\n{2,}", t) if b.strip()]
-    cleaned = []
-    for b in blocks:
-        if len(b) < 30:              # hiq tituj shumë të shkurtër
-            continue
-        if CODE_RE.search(b):        # hiq paragrafë që duken si kod
-            continue
-        cleaned.append(b)
-    if not cleaned and blocks:
-        cleaned = [x for x in blocks if len(x) > 30][:10]
-    return cleaned
-
-# ---- Trafilatura extract ----
-def extract_with_trafilatura(url: str) -> dict:
-    if trafilatura is None:
-        return {}
-    cfg = use_config()
-    # KALO USER_AGENT përmes config-ut (jo si argument i fetch_url)
-    cfg.set("DEFAULT", "USER_AGENT", UA)
-    cfg.set("DEFAULT", "EXTRACTION_TIMEOUT", str(HTTP_TIMEOUT))
-
-    downloaded = trafilatura.fetch_url(url, config=cfg)
-    if not downloaded:
-        return {}
-    result = trafilatura.extract(
-        downloaded,
-        config=cfg,
-        include_comments=False,
-        include_tables=False,
-        include_images=False,
-        with_metadata=True
-    )
-    if not result:
-        return {}
-    try:
-        data = json.loads(result)  # disa versione kthejnë JSON string me metadata
-    except Exception:
-        data = {"text": str(result)}
-    return {
-        "text": data.get("text") or "",
-        "title": data.get("title") or "",
-        "author": data.get("author") or "",
-        "image": data.get("image") or "",
-        "description": data.get("description") or "",
-    }
-
-# ----------------- MAIN -----------------
 def main():
     DATA_DIR.mkdir(exist_ok=True)
+    seen  = load_json_safe(SEEN_DB, {})
+    posts = load_json_safe(POSTS_JSON, [])
 
-    # SEEN
-    if SEEN_DB.exists():
-        try:
-            seen = json.loads(SEEN_DB.read_text(encoding="utf-8"))
-            if not isinstance(seen, dict):
-                seen = {}
-        except json.JSONDecodeError:
-            seen = {}
-    else:
-        seen = {}
+    added=0
+    new=[]
 
-    # POSTS
-    if POSTS_JSON.exists():
-        try:
-            posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
-            if not isinstance(posts_idx, list):
-                posts_idx = []
-        except json.JSONDecodeError:
-            posts_idx = []
-    else:
-        posts_idx = []
-
-    # feeds
-    if not FEEDS.exists():
-        print("ERROR: feeds.txt NOT FOUND at", FEEDS)
-        return
-
-    added_total = 0
-    per_cat = {}
-    new_entries = []
-
-    for line in FEEDS.read_text(encoding="utf-8").splitlines():
-        raw = line.strip()
-        if not raw or raw.startswith("#"):
-            continue
-        if "|" in raw:
-            cat, url = raw.split("|", 1)
-            category = (cat or "News").strip().title()
-            feed_url = url.strip()
-        else:
-            category = "News"
-            feed_url = raw
-        if not feed_url:
-            continue
-
-        if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
-            break
-
-        xml = fetch(feed_url)
-        if not xml:
-            print("Feed empty:", feed_url); continue
-        items = parse(xml)
-        if not items:
-            print("No items in feed:", feed_url); continue
-
-        for it in items:
-            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
-                break
-            if per_cat.get(category, 0) >= MAX_PER_CAT:
-                continue
-
-            title = (it.get("title") or "").strip()
-            link  = (it.get("link") or "").strip()
-            if not title or not link:
-                continue
-
+    for feed in FEEDS:
+        if added>=MAX_NEW: break
+        xml = fetch(feed)
+        if not xml: continue
+        for it in parse(xml):
+            if added>=MAX_NEW: break
+            title=(it.get("title") or "").strip()
+            link =(it.get("link") or "").strip()
+            if not title or not link: continue
             key = hashlib.sha1(link.encode("utf-8")).hexdigest()
-            if key in seen:
-                continue
+            if key in seen: continue
 
-            # ---- author nga feed (dc/author/atom) ----
-            author = ""
-            it_elem = it.get("element")
-            try:
-                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
-                dc = it_elem.find("dc:creator", ns_dc) if it_elem is not None else None
-                if dc is not None and (dc.text or "").strip():
-                    author = dc.text.strip()
-                if not author and it_elem is not None:
-                    a = it_elem.find("author")
-                    if a is not None and (a.text or "").strip():
-                        author = a.text.strip()
-                if not author and it_elem is not None:
-                    ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
-                    an = it_elem.find("atom:author/atom:name", ns_atom)
-                    if an is not None and (an.text or "").strip():
-                        author = an.text.strip()
-            except Exception:
-                author = ""
-            if not author:
-                author = "AventurOO Editorial"
+            # tekst i gjatë (preview)
+            full_text = plain_from_url(link)
+            words = full_text.split()
+            long = " ".join(words[:WORDS_LONG]) + ("…" if len(words)>WORDS_LONG else "")
+            # excerpt i shkurtër për listime
+            short = " ".join(words[:70]) + ("…" if len(words)>70 else "")
 
-            # ---- ekstrakt me trafilatura ----
-            text_raw, lead_image, description = "", "", ""
-            if trafilatura is not None:
-                try:
-                    ext = extract_with_trafilatura(link)
-                    text_raw = ext.get("text") or ""
-                    lead_image = ext.get("image") or ""
-                    description = ext.get("description") or ""
-                    if author == "AventurOO Editorial" and ext.get("author"):
-                        author = ext["author"].strip()
-                except Exception as e:
-                    print("trafilatura error:", e)
-
-            # fallback nëse s'ka tekst
-            if not text_raw:
-                try:
-                    html = http_get_text(link)
-                    text_raw = strip_html(html)
-                except Exception:
-                    text_raw = ""
-
-            # pastro paragrafët (hiq code/script), strukturo
-            paragraphs = clean_paragraphs(text_raw)
-            content_text = "\n\n".join(paragraphs).strip()
-
-            # excerpt
-            base_excerpt = content_text if content_text else (description or (it.get("summary") or ""))
-            excerpt_text = shorten_words(strip_html(base_excerpt), SUMMARY_WORDS)
-
-            # cover
-            cover = ""
-            if not lead_image:
-                try:
-                    cover = find_image_from_item(it_elem, link)
-                except Exception:
-                    cover = ""
-            cover = lead_image or cover or FALLBACK_COVER
-
-            date = today_iso()
-            slug = slugify(title)[:70]
-
-            # ---- Attribution i futur NË FUND të content ----
-            src_domain = domain_of(link)
-            attribution_block = ""
-            if content_text and link:
-                attribution_block = (
-                    f"\n\n— By {author}. Original: {src_domain} ({link})"
-                )
-            final_content = (content_text + attribution_block).strip()
+            cover = find_image_from_item(it.get("element"), link) or FALLBACK_COVER
 
             entry = {
-                "slug": slug,
+                "slug": slugify(title)[:70],
                 "title": title,
-                "category": category,
-                "date": date,
-                "author": author,
-                "source": link,
+                "category": CATEGORY,
+                "date": today_iso(),
+                "excerpt": short,
+                "excerptExtended": long,
                 "cover": cover,
-                "excerpt": excerpt_text,   # ~450 fjalë, për listime
-                "content": final_content   # body i pastruar + atributim fundor
+                "source": link,
+                "sourceName": domain_of(link).replace("www.",""),
+                "author": it.get("author") or ""
             }
-            new_entries.append(entry)
+            new.append(entry)
+            seen[key] = {"title":title,"url":link,"created":today_iso()}
+            added += 1
+            print("Added:", title)
 
-            seen[key] = {"title": title, "url": link, "category": category, "created": date}
-            per_cat[category] = per_cat.get(category, 0) + 1
-            added_total += 1
-            print(f"Added [{category}]: {title} (by {author})")
+    if not new:
+        print("New posts: 0"); return
 
-    if not new_entries:
-        print("New posts this run: 0"); return
-
-    posts_idx = new_entries + posts_idx
-    if MAX_POSTS_PERSIST > 0:
-        posts_idx = posts_idx[:MAX_POSTS_PERSIST]
-
-    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
-    SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("New posts this run:", len(new_entries))
+    posts = new + posts
+    posts = posts[:200]
+    save_json(POSTS_JSON, posts)
+    save_json(SEEN_DB, seen)
+    print("New posts:", len(new))
 
 if __name__ == "__main__":
     main()
