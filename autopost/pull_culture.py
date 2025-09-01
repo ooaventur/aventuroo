@@ -244,7 +244,12 @@ def build_body_html(url: str) -> tuple[str, str]:
     Kthen (body_html, author).
     Përdor trafilatura për HTML me paragrafë/formatim; sanitize + normalizim.
     """
-    downloaded = trafilatura.fetch_url(url, no_ssl=True, user_agent=UA, timeout=HTTP_TIMEOUT)
+    downloaded = trafilatura.fetch_url(
+    url,
+    config=TRAFI_CFG,   # KALON UA përmes config-ut
+    no_ssl=True,
+    timeout=HTTP_TIMEOUT
+)
     if not downloaded:
         return "", ""
 
