@@ -8,13 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: autopost-json
+  cancel-in-progress: true
+
 jobs:
   autopost:
     runs-on: ubuntu-latest
 
     env:
       MAX_PER_CAT: "6"            # sa artikuj max PER KATEGORI për çdo run
-      MAX_TOTAL: "0"              # 0 = pa limit total (mund ta vësh 12 p.sh.)
+      MAX_TOTAL: "0"              # 0 = pa limit total (p.sh. 12 për tavan)
       SUMMARY_WORDS: "450"        # gjatësi përmbledhjeje
       MAX_POSTS_PERSIST: "200"    # sa poste të ruhen gjithsej në data/posts.json
       HTTP_TIMEOUT: "15"
@@ -55,9 +59,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
+
+      - name: Install extractor deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install trafilatura lxml certifi
 
       - name: Run autoposter
         run: |
+          set -e
           python3 autopost/rss_to_html.py
 
       - name: Commit & push changes (if any)
