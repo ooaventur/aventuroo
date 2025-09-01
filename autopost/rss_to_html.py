@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 # RSS → data/posts.json (AventurOO)
 # - lexon feeds.txt (format: kategori|URL)
-# - përmbledhje e sigurt ~450 fjalë (ndryshohet me env SUMMARY_WORDS)
-# - imazhi kryesor nga enclosure/media/og:image ose fallback
+# - nxjerr trupin e artikullit (article/main/JSON-LD, ose blloku më i gjatë i paragrafëve)
+# - krijon 'content' (paragrafë) + 'excerpt' (~450 fjalë)
+# - merr author, cover, source
 # - load/save e sigurt për seen.json dhe data/posts.json
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
@@ -19,15 +20,28 @@ SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 # ---- Env / Defaults ----
-MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))          # maksimalisht artikuj të rinj për kategori / run
-MAX_TOTAL = int(os.getenv("MAX_TOTAL", "0"))              # 0 = pa limit total për run
-SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
+MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
+MAX_TOTAL = int(os.getenv("MAX_TOTAL", "0"))              # 0 = pa limit total / run
+SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))     # për excerpt
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 
 # ---- Helpers ----
+def http_get(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
+        raw = r.read()
+    # dekodim tolerant
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        try:
+            return raw.decode("iso-8859-1")
+        except Exception:
+            return raw.decode("utf-8", "ignore")
+
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
@@ -67,10 +81,25 @@ def parse(xml_bytes: bytes):
 
 def strip_html(s: str) -> str:
     s = unescape(s or "")
-    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", " ", s)
+    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
     s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+def html_paragraphs(s: str) -> list[str]:
+    """Kthen listë paragrafësh (tekst) nga HTML (vetëm <p>), të pastruar."""
+    if not s:
+        return []
+    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
+    # mer vetëm <p>…</p>
+    paras = re.findall(r"(?is)<p[^>]*>(.*?)</p>", s)
+    clean = []
+    for p in paras:
+        t = strip_html(p)
+        if len(t) < 30:  # filtro titra/mbishkrime shumë të shkurtra
+            continue
+        clean.append(t)
+    return clean
 
 def slugify(s: str) -> str:
     s = s.lower()
@@ -80,14 +109,12 @@ def slugify(s: str) -> str:
 def today_iso() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
 
-def domain_of(url: str) -> str:
-    try:
-        return urlparse(url).netloc.lower()
-    except Exception:
-        return ""
+def find_og_content(html: str, prop: str) -> str:
+    m = re.search(rf'<meta[^>]+property=["\']{re.escape(prop)}["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
+    return m.group(1).strip() if m else ""
 
 def find_image_from_item(it_elem, page_url: str = "") -> str:
-    """Kërkon imazh nga <enclosure>, <media:content>/<media:thumbnail>, ose nga faqja (og:image)."""
+    """Kërkon imazh nga <enclosure>, <media:content>/<media:thumbnail>, ose og:image."""
     if it_elem is not None:
         enc = it_elem.find("enclosure")
         if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
@@ -97,32 +124,112 @@ def find_image_from_item(it_elem, page_url: str = "") -> str:
         m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
         if m is not None and m.attrib.get("url"):
             return m.attrib.get("url")
-
-    # og:image
     if page_url:
         try:
-            req = urllib.request.Request(page_url, headers={"User-Agent": UA})
-            html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8","ignore")
-            m = re.search(r'<meta[^>]+property=[\'"]og:image[\'"][^>]+content=[\'"]([^\'"]+)[\'"]', html, re.I)
-            if m: return m.group(1)
+            html = http_get(page_url)
+            og = find_og_content(html, "og:image")
+            if og: return og
         except Exception:
             pass
     return ""
 
-def extract_preview(page_url: str, max_words: int) -> str:
-    """Shkarkon faqen dhe krijon tekst të pastër të shkurtuar në ~max_words fjalë."""
-    try:
-        req = urllib.request.Request(page_url, headers={"User-Agent": UA})
-        html = urllib.request.urlopen(req, timeout=HTTP_TIMEOUT).read().decode("utf-8", "ignore")
-    except Exception:
+def shorten_words(text: str, max_words: int) -> str:
+    w = (text or "").split()
+    if len(w) <= max_words:
+        return (text or "").strip()
+    return " ".join(w[:max_words]) + "…"
+
+# ----------- EXTRACT MAIN ARTICLE TEXT -----------
+def extract_article_text(page_html: str, title_hint: str = "") -> str:
+    """
+    Heuristikë:
+      1) JSON-LD articleBody
+      2) <article>…</article>
+      3) <main>…</main>
+      4) Blloku më i gjatë i paragrafëve (sidomos pas titullit)
+      5) og:description si fallback
+    Kthen tekst të pastër me \n\n si ndarje paragrafësh.
+    """
+    if not page_html:
         return ""
-    text = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", "", html)
-    text = re.sub(r"(?is)<[^>]+>", " ", text)
-    text = strip_html(text)
-    words = text.split()
-    if len(words) > max_words:
-        text = " ".join(words[:max_words]) + "…"
-    return text
+
+    html = page_html
+
+    # 1) JSON-LD articleBody
+    for m in re.finditer(r'(?is)<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', html):
+        try:
+            data = json.loads(m.group(1))
+        except Exception:
+            continue
+        # JSON-LD mund të jetë listë ose objekt
+        candidates = data if isinstance(data, list) else [data]
+        for obj in candidates:
+            if not isinstance(obj, dict):
+                continue
+            # shume faqe kanë "@type": "NewsArticle"/"Article"/"BlogPosting"
+            atype = obj.get("@type", "")
+            if isinstance(atype, list):
+                atype = " ".join(atype)
+            body = obj.get("articleBody") or obj.get("description") or ""
+            if body and ("Article" in str(atype) or "Blog" in str(atype) or "News" in str(atype)):
+                body = strip_html(body)
+                # ktheje në paragrafë sipas pikësimit nëse s’ka \n
+                if "\n" not in body:
+                    body = re.sub(r"([.!?])\s+", r"\1\n\n", body)
+                return "\n\n".join([p.strip() for p in body.splitlines() if p.strip()])
+
+    # 2) <article>
+    m = re.search(r"(?is)<article\b[^>]*>(.*?)</article>", html)
+    if m:
+        paras = html_paragraphs(m.group(1))
+        if paras:
+            return "\n\n".join(paras)
+
+    # 3) <main>
+    m = re.search(r"(?is)<main\b[^>]*>(.*?)</main>", html)
+    if m:
+        paras = html_paragraphs(m.group(1))
+        if paras:
+            return "\n\n".join(paras)
+
+    # 4) Blloku më i gjatë i <p> paragrafëve (pas titullit nëse gjendet)
+    start_idx = 0
+    if title_hint:
+        t = re.escape(title_hint.strip())
+        mtitle = re.search(t, html, re.I)
+        if mtitle:
+            start_idx = mtitle.end()
+    chunk = html[start_idx:] if start_idx > 0 else html
+    # marrim deri para footer/aside/related që shpesh sjellin zhurmë
+    chunk = re.split(r"(?is)<footer\b|<aside\b|<section[^>]+related", chunk)[0]
+    paras = html_paragraphs(chunk)
+    if not paras:
+        # gjithë faqja si fallback
+        paras = html_paragraphs(html)
+    if paras:
+        # zgjidh 12-25 paragrafët e parë më kuptimplotë
+        joined = "\n\n".join(paras[:25])
+        return joined
+
+    # 5) og:description
+    ogd = find_og_content(html, "og:description")
+    return ogd or ""
+
+def extract_from_url(url: str, title_hint: str, max_words: int) -> tuple[str, str]:
+    """
+    Kthen (content_text, excerpt_text) nga URL:
+    - content_text: paragrafë me \n\n
+    - excerpt_text: version i shkurtuar ~max_words
+    """
+    try:
+        html = http_get(url)
+    except Exception:
+        return ("", "")
+
+    content = extract_article_text(html, title_hint=title_hint)
+    content = content.strip()
+    excerpt = shorten_words(content if content else strip_html(html), max_words)
+    return (content, excerpt)
 
 # ----------------- MAIN -----------------
 def main():
@@ -204,12 +311,41 @@ def main():
             if key in seen:
                 continue
 
-            preview = extract_preview(link, SUMMARY_WORDS)
-            summary = preview or strip_html(it.get("summary", "")) or title
+            # --- Author nga feed ---
+            author = ""
+            it_elem = it.get("element")
+            try:
+                # DC creator
+                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
+                dc = it_elem.find("dc:creator", ns_dc) if it_elem is not None else None
+                if dc is not None and (dc.text or "").strip():
+                    author = dc.text.strip()
+                # RSS <author>
+                if not author and it_elem is not None:
+                    a = it_elem.find("author")
+                    if a is not None and (a.text or "").strip():
+                        author = a.text.strip()
+                # Atom <author><name>
+                if not author and it_elem is not None:
+                    ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
+                    an = it_elem.find("atom:author/atom:name", ns_atom)
+                    if an is not None and (an.text or "").strip():
+                        author = an.text.strip()
+            except Exception:
+                author = ""
+            if not author:
+                author = "AventurOO Editorial"
 
+            # --- Content + Excerpt (nga faqja, jo gjithë sajti) ---
+            content_text, excerpt_text = extract_from_url(link, title, SUMMARY_WORDS)
+            # nqs prapë nuk arriti dot, provo dhe summary nga feed
+            if not excerpt_text:
+                excerpt_text = strip_html(it.get("summary", "")) or title
+
+            # Imazhi
             cover = ""
             try:
-                cover = find_image_from_item(it.get("element"), link)
+                cover = find_image_from_item(it_elem, link)
             except Exception:
                 cover = ""
             if not cover:
@@ -223,8 +359,11 @@ def main():
                 "title": title,
                 "category": category,
                 "date": date,
-                "excerpt": summary,
-                "cover": cover
+                "excerpt": excerpt_text,      # ~450 fjalë
+                "content": content_text,      # trup i pastruar me \n\n
+                "cover": cover,
+                "source": link,
+                "author": author
             }
             new_entries.append(entry)
 
@@ -232,7 +371,7 @@ def main():
             per_cat_counter[category] = per_cat_counter.get(category, 0) + 1
             added_total += 1
 
-            print(f"Added [{category}]: {title}")
+            print(f"Added [{category}]: {title} (by {author})")
 
     if not new_entries:
         print("New posts this run: 0")
