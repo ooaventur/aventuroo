@@ -24,7 +24,7 @@ FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
-SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
+SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "1000"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
