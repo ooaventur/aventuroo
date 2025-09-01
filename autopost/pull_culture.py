@@ -301,27 +301,31 @@ def main():
             body_final = (body_html or "") + f"""
 <p class="small text-muted mt-4">
   Source: <a href="{link}" target="_blank" rel="nofollow noopener">Read the full article</a>
-</p>"""
+</p>
+"""
 
-            date = today_iso()
-            slug = slugify(title)[:70]
+date = today_iso()
+slug = slugify(title)[:70]
+author_final = (it.get("author") or author or "AventurOO Editorial")
 
-            entry = {
-                "slug": slugify(title)[:70],
-                "title": title,
-                "category": CATEGORY,
-                "date": today_iso(),
-                "excerpt": excerpt,
-                "bodyHtml": body_html,       # ← do ta lexojë article.html
-                "cover": cover,
-                "source": link,
-                "sourceName": domain_of(link).replace("www.",""),
-                "author": it.get("author") or ""
-            }
-            new_entries.append(entry)
-            seen[key] = {"title": title, "url": link, "created": today_iso()}
-            added += 1
-            print("Added:", title)
+entry = {
+    "slug": slug,
+    "title": title,
+    "category": CATEGORY,   # ose: category nëse e ke si variabël
+    "date": date,
+    "excerpt": excerpt,     # për listimet
+    "bodyHtml": body_html,  # lexon article.html si HTML i plotë
+    "cover": cover,
+    "source": link,
+    "sourceName": domain_of(link).replace("www.", ""),
+    "author": author_final
+}
+new_entries.append(entry)
+
+seen[key] = {"title": title, "url": link, "created": date}
+added += 1
+print("Added:", title)
+
 
     if not new_entries:
         print("New posts this run: 0"); return
