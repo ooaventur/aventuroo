@@ -335,7 +335,7 @@ def main():
                 "cover": cover,
                 "source": link,
                 "sourceName": domain_of(link),
-                "author": author
+                "author": DEFAULT_AUTHOR,
             }
             new_entries.append(entry)
 
