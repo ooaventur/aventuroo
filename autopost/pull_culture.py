@@ -24,12 +24,11 @@ FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
-SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
-MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
+SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "1000"))
+MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "400"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
-DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
 try:
     import trafilatura
@@ -308,22 +307,21 @@ def main():
             slug = slugify(title)[:70]
 
             entry = {
-                "slug": slug,
+                "slug": slugify(title)[:70],
                 "title": title,
-                "category": category,
-                "date": date,
+                "category": CATEGORY,
+                "date": today_iso(),
                 "excerpt": excerpt,
+                "bodyHtml": body_html,       # ← do ta lexojë article.html
                 "cover": cover,
                 "source": link,
-                "author": DEFAULT_AUTHOR,
-                "body": body_final
+                "sourceName": domain_of(link).replace("www.",""),
+                "author": it.get("author") or ""
             }
             new_entries.append(entry)
-
-            seen[key] = {"title": title, "url": link, "category": category, "created": date}
-            per_cat[category] = per_cat.get(category, 0) + 1
-            added_total += 1
-            print(f"[Culture] + {title}")
+            seen[key] = {"title": title, "url": link, "created": today_iso()}
+            added += 1
+            print("Added:", title)
 
     if not new_entries:
         print("New posts this run: 0"); return
