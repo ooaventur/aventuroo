@@ -67,6 +67,13 @@ def strip_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
+def domain_of(url: str) -> str:
+    try:
+        host = urlparse(url).netloc.lower()
+        return host[4:] if host.startswith("www.") else host
+    except Exception:
+        return ""
+
 def parse_feed(xml_bytes: bytes):
     if not xml_bytes:
         return []
