@@ -2,8 +2,8 @@ name: AventurOO Autopost (JSON)
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # çdo 30 minuta (UTC)
-  workflow_dispatch: {}      # buton "Run workflow" manual
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -16,17 +16,31 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
-      # Konfiguro nga këtu pa prekur skriptin
-      MAX_PER_CAT: "8"           # max artikuj të rinj për kategori / run
-      MAX_TOTAL: "0"             # 0 = pa limit global (p.sh. "24" për kufi ditor)
-      SUMMARY_WORDS: "450"       # ~450 fjalë përmbledhje
-      MAX_POSTS_PERSIST: "200"   # sa postime maksimum të ruhen në data/posts.json
+      MAX_PER_CAT: "8"
+      MAX_TOTAL: "0"
+      SUMMARY_WORDS: "450"
+      MAX_POSTS_PERSIST: "200"
       HTTP_TIMEOUT: "15"
       AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
       FALLBACK_COVER: "assets/img/cover-fallback.jpg"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Show repo tree (top level)
+        run: ls -la
+
+      - name: Show autopost structure
+        run: |
+          echo "== autopost =="
+          ls -la autopost || true
+          echo "== autopost/data =="
+          ls -la autopost/data || true
+          echo "== feeds.txt =="
+          [ -f autopost/data/feeds.txt ] && cat autopost/data/feeds.txt || echo "feeds.txt NOT FOUND"
+
+      - name: Ensure data folder exists
+        run: mkdir -p data
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,6 +49,13 @@ jobs:
 
       - name: Run autoposter
         run: python3 autopost/rss_to_html.py
+
+      - name: Preview changed files
+        run: |
+          echo "== git status =="
+          git status --porcelain
+          echo "== data/posts.json head =="
+          [ -f data/posts.json ] && head -n 50 data/posts.json || echo "data/posts.json NOT CREATED"
 
       - name: Commit & push if changed
         run: |
