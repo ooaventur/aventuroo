@@ -1,21 +1,28 @@
 {
   "travel": [
-    { "name": "Lonely Planet", "url": "https://www.lonelyplanet.com/blog.rss" },
-    { "name": "Travel Off Path", "url": "https://www.traveloffpath.com/feed/" }
+    { "name": "Lonely Planet",       "url": "https://www.lonelyplanet.com/blog.rss" },
+    { "name": "Nomadic Matt",        "url": "https://www.nomadicmatt.com/feed/" },
+    { "name": "Travel Off Path",     "url": "https://www.traveloffpath.com/feed/" },
+    { "name": "The Points Guy",      "url": "https://thepointsguy.com/rss/" }
   ],
   "stories": [
-    { "name": "BBC Travel", "url": "https://www.bbc.com/travel/feed.rss" }
+    { "name": "BBC Travel",          "url": "https://www.bbc.com/travel/feed.rss" },
+    { "name": "Atlas Obscura",       "url": "https://www.atlasobscura.com/feeds/latest" }
   ],
   "culture": [
-    { "name": "National Geographic – Culture", "url": "https://www.nationalgeographic.com/culture/.rss" }
+    { "name": "Hyperallergic",       "url": "https://hyperallergic.com/feed/" },
+    { "name": "Smithsonian Culture", "url": "https://www.smithsonianmag.com/rss/latest/?c=arts-culture" }
   ],
   "lifestyle": [
-    { "name": "Well+Good", "url": "https://www.wellandgood.com/feed/" }
+    { "name": "Well+Good",           "url": "https://www.wellandgood.com/feed/" },
+    { "name": "Lifehacker",          "url": "https://lifehacker.com/rss" }
   ],
   "guides": [
-    { "name": "The Broke Backpacker", "url": "https://www.thebrokebackpacker.com/feed/" }
+    { "name": "The Broke Backpacker","url": "https://www.thebrokebackpacker.com/feed/" },
+    { "name": "REI Co-op Journal",   "url": "https://www.rei.com/blog/feed" }
   ],
   "deals": [
-    { "name": "Secret Flying", "url": "https://www.secretflying.com/feed/" }
+    { "name": "Secret Flying",       "url": "https://www.secretflying.com/feed/" },
+    { "name": "The Flight Deal",     "url": "https://www.theflightdeal.com/feed/" }
   ]
 }
