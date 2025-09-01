@@ -1,71 +1,154 @@
-<script>
-(async () => {
-  // Lexo listën e feed-eve
-  const res = await fetch("/data/external-feeds.json");
-  const feeds = await res.json();
+// ===== AventurOO - External Feeds (client-side) =====
+// Lexon RSS/Atom nga data/external-feeds.json dhe mbush seksionet:
+// - ne faqet e kategorive: <div class="external-category-feed" data-category-feed="travel"></div>
+// - ne home: <section data-home-feed></section>
+//
+// Përdor AllOrigins për CORS bypass (publike). Nëse ndonjë feed nuk kthehet,
+// thjesht anashkalohet pa prishur faqen.
 
-  async function fetchFeed(rssUrl) {
-    const api = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(rssUrl);
+(async function () {
+  const FEEDS_CONFIG_URL = 'data/external-feeds.json';
+  const MAX_ITEMS_CATEGORY = 6; // numri i kartave për faqe kategorie
+  const MAX_ITEMS_HOME = 8;     // numri i kartave për home
+
+  // ---- Helpers ----
+  const el = (sel, root = document) => root.querySelector(sel);
+  const els = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+  function fmtDate(dStr) {
     try {
-      const r = await fetch(api);
-      const d = await r.json();
-      return d.items.map(it => ({
-        title: it.title,
-        url: it.link,
-        excerpt: (it.description || "").replace(/<[^>]+>/g,"").slice(0,150),
-        image: it.enclosure?.link || it.thumbnail || "",
-        date: new Date(it.pubDate || Date.now())
-      }));
-    } catch(e) {
-      console.warn("Feed error:", rssUrl, e);
-      return [];
-    }
+      const d = new Date(dStr);
+      if (isNaN(d.getTime())) return '';
+      return d.toLocaleDateString('sq-AL', { year: 'numeric', month: 'short', day: '2-digit' });
+    } catch { return ''; }
   }
 
-  async function loadCategory(cat) {
-    let items = [];
-    for (const url of feeds[cat] || []) {
-      const arr = await fetchFeed(url);
-      items = items.concat(arr);
-    }
-    // rendit sipas dates
-    items.sort((a,b) => b.date - a.date);
-    return items;
-  }
-
-  function cardHTML(p) {
+  function card({ link, title, img, date, source }) {
+    const safeImg = img || 'assets/img/placeholder-800x450.jpg';
+    const safeTitle = (title || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const meta = [fmtDate(date), source].filter(Boolean).join(' • ');
     return `
-      <article class="post-card">
-        <a href="${p.url}" target="_blank">
-          ${p.image ? `<img src="${p.image}" alt="${p.title}" loading="lazy">` : ""}
-          <h3>${p.title}</h3>
-          <p>${p.excerpt}</p>
-        </a>
-      </article>
+      <div class="col-sm-6 col-lg-4">
+        <article class="card border-0 shadow-soft h-100">
+          <a href="${link}" target="_blank" rel="noopener">
+            <img src="${safeImg}" class="card-img-top" alt="${safeTitle}">
+          </a>
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-light text-dark">From the web</span>
+            <h6 class="card-title mt-2">
+              <a href="${link}" target="_blank" rel="noopener" class="link-dark">${safeTitle}</a>
+            </h6>
+            <div class="mt-auto small muted">${meta}</div>
+          </div>
+        </article>
+      </div>
     `;
   }
 
-  // Home page
-  const homeEl = document.querySelector("[data-home-feed]");
-  if (homeEl) {
-    for (const cat of ["travel","deals","guides"]) {
-      const items = await loadCategory(cat);
-      const slice = items.slice(0, 4); // 4 artikuj për secilen kategori
-      homeEl.insertAdjacentHTML("beforeend", `
-        <section>
-          <h2>${cat.toUpperCase()}</h2>
-          <div class="cards">${slice.map(cardHTML).join("")}</div>
-        </section>
-      `);
+  // Parsim RSS/Atom në një listë objektesh uniforme
+  function parseFeed(xmlText, sourceName = '') {
+    const out = [];
+    try {
+      const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+      const isAtom = doc.documentElement.nodeName.toLowerCase().includes('feed');
+      const items = isAtom ? doc.querySelectorAll('entry') : doc.querySelectorAll('item');
+
+      items.forEach(it => {
+        const get = sel => it.querySelector(sel)?.textContent?.trim() || '';
+        const title = get('title');
+        const link = isAtom ? (it.querySelector('link')?.getAttribute('href') || '') : get('link');
+        const date = get(isAtom ? 'updated' : 'pubDate') || get('dc\\:date');
+        // imazhi: media:content, enclosure, ose og:image në summary (shpesh s’ka)
+        let img =
+          it.querySelector('media\\:content, content[url]')?.getAttribute('url') ||
+          it.querySelector('enclosure[type^="image"]')?.getAttribute('url') || '';
+
+        out.push({ title, link, date, img, source: sourceName });
+      });
+    } catch (e) {
+      console.warn('Feed parse error:', e);
+    }
+    return out;
+  }
+
+  // Marrim feed me AllOrigins për CORS-free
+  async function fetchFeed(url) {
+    try {
+      const prox = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+      const r = await fetch(prox, { cache: 'no-store' });
+      if (!r.ok) throw new Error('Bad response');
+      const data = await r.json();
+      return data.contents || '';
+    } catch (e) {
+      console.warn('Feed fetch failed:', url, e?.message);
+      return '';
     }
   }
 
-  // Faqet e kategorive
-  const catEl = document.querySelector("[data-category-feed]");
-  if (catEl) {
-    const cat = catEl.getAttribute("data-category-feed");
-    const items = await loadCategory(cat);
-    catEl.innerHTML = items.slice(0,12).map(cardHTML).join("");
+  // Lexo konfigurimin e feed-eve
+  async function readConfig() {
+    try {
+      const r = await fetch(FEEDS_CONFIG_URL, { cache: 'no-store' });
+      return r.ok ? await r.json() : {};
+    } catch { return {}; }
   }
+
+  // Mbush një seksion kategorie
+  async function renderCategorySection(wrapper, catKey, cfg) {
+    const feeds = cfg[catKey] || [];
+    if (!feeds.length) return;
+
+    // Mblidh artikujt nga të gjitha feed-et
+    const all = [];
+    for (const src of feeds) {
+      const xml = await fetchFeed(src.url || src);
+      if (!xml) continue;
+      const sourceName = src.name || new URL(src.url || src).hostname.replace('www.', '');
+      all.push(...parseFeed(xml, sourceName));
+    }
+
+    // Rendorim top N sipas datës (kur ka), përndryshe si vijnë
+    all.sort((a, b) => new Date(b.date||0) - new Date(a.date||0));
+    const html = all.slice(0, MAX_ITEMS_CATEGORY).map(card).join('') || `
+      <div class="col-12"><div class="text-muted">No external items yet.</div></div>
+    `;
+
+    wrapper.innerHTML = `<div class="row g-4">${html}</div>`;
+  }
+
+  // Mbush seksionin në home me përzierje kategorish
+  async function renderHomeFeed(wrapper, cfg) {
+    const categories = Object.keys(cfg);
+    const picks = []; // do grumbullojmë disa artikuj të fundit nga disa kategori
+
+    // Merr nga feed-i i parë i secilës kategori (shpejt & thjesht)
+    for (const cat of categories) {
+      const feeds = cfg[cat] || [];
+      if (!feeds.length) continue;
+      const src = feeds[0];
+      const xml = await fetchFeed(src.url || src);
+      if (!xml) continue;
+      const sourceName = src.name || new URL(src.url || src).hostname.replace('www.', '');
+      picks.push(...parseFeed(xml, sourceName).slice(0, 4));
+    }
+
+    picks.sort((a, b) => new Date(b.date||0) - new Date(a.date||0));
+    const html = picks.slice(0, MAX_ITEMS_HOME).map(card).join('') || `
+      <div class="text-muted">No external items yet.</div>
+    `;
+    wrapper.innerHTML = `<div class="row g-4">${html}</div>`;
+  }
+
+  // ---- Run ----
+  const cfg = await readConfig();
+
+  // Kategori: çdo element me .external-category-feed
+  els('.external-category-feed').forEach(sec => {
+    const catKey = (sec.getAttribute('data-category-feed') || '').toLowerCase();
+    if (catKey) renderCategorySection(sec, catKey, cfg);
+  });
+
+  // Home feed: <section data-home-feed>
+  const homeSec = el('section[data-home-feed]');
+  if (homeSec) renderHomeFeed(homeSec, cfg);
 })();
-</script>
