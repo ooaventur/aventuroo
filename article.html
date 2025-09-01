@@ -1,51 +1,178 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<title>AventurOO • Article</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css">
-</head><body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AventurOO • Article</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS / Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Canonical (ndryshohet në runtime me JS nëse ka slug) -->
+  <link id="canonical" rel="canonical" href="https://aventuroo.netlify.app/article.html">
+
+  <!-- Open Graph / Twitter (plotësohen në runtime) -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AventurOO • Article">
+  <meta property="og:description" content="Read a curated story from AventurOO.">
+  <meta property="og:url" content="https://aventuroo.netlify.app/article.html">
+  <meta property="og:image" content="https://aventuroo.netlify.app/assets/img/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
 <div id="site-header"></div>
-<div class="ad-box text-center py-3"><div class="container"><div class="py-3">[728×90 Banner Ad Placeholder]</div></div></div>
-<main class="container my-4">
-  <article id="article" class="row g-4">
+
+<div class="ad-box text-center py-3">
+  <div class="container"><div class="py-3">[728×90 Banner Ad Placeholder]</div></div>
+</div>
+
+<main class="container my-4" id="main">
+  <nav class="small mb-3">
+    <a class="link-secondary text-decoration-none" href="index.html">Home</a>
+    <span class="mx-1">/</span>
+    <span id="crumb-cat">Article</span>
+  </nav>
+
+  <article id="article" class="row g-4 d-none">
     <div class="col-lg-8">
       <img id="cover" class="hero-img" src="" alt="">
       <div class="mt-3">
         <span id="cat" class="badge badge-cat">Travel</span>
         <h1 id="title" class="fw-bold mt-2 reveal-up"></h1>
         <p id="meta" class="muted mb-2"></p>
+
         <div id="body" class="lead"></div>
+
         <blockquote class="blockquote my-4 p-3 border-start border-3" style="border-color: var(--brand)!important">
           <p class="mb-0">“Travel leaves you speechless, then turns you into a storyteller.”</p>
           <footer class="blockquote-footer mt-1">Ibn Battuta</footer>
         </blockquote>
       </div>
     </div>
+
     <aside class="col-lg-4">
       <div class="ad-box rounded-4 d-flex align-items-center justify-content-center mb-3" style="height:250px;">[300×250 Ad]</div>
-      <div class="card border-0 shadow-soft mb-3"><div class="card-body"><div class="small text-uppercase text-muted mb-2">You might also like</div><ul id="related" class="list-unstyled small mb-0"></ul></div></div>
+      <div class="card border-0 shadow-soft mb-3">
+        <div class="card-body">
+          <div class="small text-uppercase text-muted mb-2">You might also like</div>
+          <ul id="related" class="list-unstyled small mb-0"></ul>
+        </div>
+      </div>
       <div class="ad-box rounded-4 d-flex align-items-center justify-content-center" style="height:600px;">[300×600 Skyscraper Ad]</div>
     </aside>
   </article>
+
+  <!-- 404 i butë -->
+  <section id="empty" class="text-center text-muted py-5 d-none">
+    <h1 class="h3 mb-2">Article not found</h1>
+    <p>We couldn’t find that story. Try the latest posts instead.</p>
+    <a class="btn btn-brand mt-2" href="index.html">Go to Home</a>
+  </section>
 </main>
+
 <div id="site-footer"></div>
+
+<!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/site.js"></script>
 <script src="assets/js/animate.js"></script>
 <script>
-renderHeader('Travel'); renderFooter();
-function para(t){return `<p class='mt-3'>${t}</p>`}
-function lorem(){return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Etiam mattis, tortor in tincidunt aliquet, mauris sem bibendum elit, et tristique mi sapien at odio."}
-async function load(){const slug=qs('slug'); const res=await fetch('data/posts.json'); const posts=res.ok?await res.json():[]; const p=posts.find(x=>x.slug===slug)||posts[0]; if(!p)return;
-document.getElementById('cover').src=p.cover; document.getElementById('cover').alt=p.title; document.getElementById('cat').textContent=p.category;
-document.getElementById('title').textContent=p.title; document.getElementById('meta').textContent=`${p.date} · AventurOO Editorial`;
-document.getElementById('body').innerHTML=para(p.excerpt)+para(lorem())+para(lorem())+para(lorem());
-const related=posts.filter(x=>x.category===p.category && x.slug!==p.slug).slice(0,5);
-document.getElementById('related').innerHTML=related.map(r=>`<li class='mb-2'><a class='link-secondary text-decoration-none' href='article.html?slug=${r.slug}'>${r.title}</a><div class='text-muted'>${r.date}</div></li>`).join('');}
-load();
+  // header/footer
+  renderHeader(''); 
+  renderFooter();
+
+  // helpers
+  function qs(key){const u=new URL(location.href);return u.searchParams.get(key)||"";}
+  function para(t){ return `<p class="mt-3">${t}</p>`; }
+  function formatDate(s){ try{const d=new Date(s); return d.toLocaleDateString('sq-AL',{year:'numeric',month:'long',day:'2-digit'});}catch{return s||'';} }
+  function titleCase(s){ return (s||'').slice(0,1).toUpperCase()+ (s||'').slice(1); }
+
+  async function load(){
+    const slug = qs('slug');
+
+    // Merre posts.json
+    const res = await fetch('data/posts.json',{cache:'no-store'});
+    const posts = res.ok ? await res.json() : [];
+
+    // Zgjedh artikullin: slug → ndryshe i pari; nëse s’ka fare, 404
+    let p = posts.find(x => x.slug === slug);
+    if(!p && posts.length) p = posts[0];
+
+    if(!p){
+      document.getElementById('empty').classList.remove('d-none');
+      return;
+    }
+
+    // Vendos të dhënat në UI
+    const artEl = document.getElementById('article');
+    artEl.classList.remove('d-none');
+
+    const cat = (p.category||'').toLowerCase();
+    const catNice = titleCase(cat);
+    document.getElementById('crumb-cat').innerHTML = `<a class="link-secondary text-decoration-none" href="${cat}.html">${catNice}</a> / <span>${p.title}</span>`;
+
+    const cover = document.getElementById('cover');
+    cover.src = p.cover || 'assets/img/placeholder-1200x600.jpg';
+    cover.alt = p.title || 'AventurOO Article';
+
+    document.getElementById('cat').textContent = catNice || 'Article';
+    document.getElementById('title').textContent = p.title || 'Untitled';
+    const author = p.author || 'AventurOO Editorial';
+    document.getElementById('meta').textContent = `${formatDate(p.date)} · ${author}`;
+
+    // Trupi: nëse ke p.body (HTML), e përdorim; ndryshe excerpt + 2 paragrafë filler
+    const bodyEl = document.getElementById('body');
+    if (p.body) {
+      bodyEl.innerHTML = p.body; // Kujdes: supozojmë që p.body është HTML i kontrolluar prej teje
+    } else {
+      function lorem(){return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Etiam mattis, tortor in tincidunt aliquet, mauris sem bibendum elit, et tristique mi sapien at odio."}
+      bodyEl.innerHTML = para(p.excerpt || '') + para(lorem()) + para(lorem());
+    }
+
+    // Related: të së njëjtës kategori, jo i njëjti slug; shuffle të lehtë; deri 6
+    const rel = posts.filter(x => (x.category||'').toLowerCase()===cat && x.slug!==p.slug);
+    for (let i=rel.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [rel[i],rel[j]]=[rel[j],rel[i]]; }
+    const related = rel.slice(0,6).map(r => `
+      <li class="mb-2">
+        <a class="link-secondary text-decoration-none" href="article.html?slug=${r.slug}">${r.title}</a>
+        <div class="text-muted">${r.date||''}</div>
+      </li>`).join('');
+    document.getElementById('related').innerHTML = related || `<li class="text-muted">No related posts yet.</li>`;
+
+    // ---- SEO: përditëso meta/OG/Canonical ----
+    const base = "https://aventuroo.netlify.app";
+    const url  = `${base}/article.html?slug=${encodeURIComponent(p.slug)}`;
+    const title = p.title ? `${p.title} • AventurOO` : 'AventurOO • Article';
+    const desc  = (p.excerpt||'').slice(0,160);
+    const img   = p.cover || `${base}/assets/img/og-default.jpg`;
+
+    document.title = title;
+    document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+    document.querySelector('meta[property="og:description"]').setAttribute('content', desc);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', url);
+    document.querySelector('meta[property="og:image"]').setAttribute('content', img);
+    document.getElementById('canonical').setAttribute('href', url);
+
+    // JSON-LD (Article)
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": p.title,
+      "datePublished": p.date || "",
+      "author": { "@type": "Person", "name": author },
+      "image": [ img ],
+      "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+    };
+    const ldTag = document.createElement('script');
+    ldTag.type = 'application/ld+json';
+    ldTag.textContent = JSON.stringify(ld);
+    document.head.appendChild(ldTag);
+  }
+
+  load();
 </script>
-</body></html>
+</body>
+</html>
