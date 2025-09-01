@@ -1,52 +1,48 @@
-name: AventurOO Autopost (HTML)
+name: AventurOO Autopost (JSON)
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # çdo 2 orë (UTC)
+    - cron: "*/30 * * * *"   # çdo 30 minuta (UTC)
   workflow_dispatch: {}
 
 permissions:
   contents: write
-  pull-requests: write
+
+concurrency:
+  group: autopost-json
+  cancel-in-progress: false
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      MAX_PER_CAT: "8"           # sa artikuj maksimum për kategori / run
+      MAX_TOTAL: "0"             # 0 = pa limit global (ose p.sh. "24")
+      SUMMARY_WORDS: "450"       # ~450 fjalë
+      MAX_POSTS_PERSIST: "200"   # ruaj max 200 postime në data/posts.json
+      HTTP_TIMEOUT: "15"
+      AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
+      FALLBACK_COVER: "assets/img/cover-fallback.jpg"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
-      - name: Generate posts from RSS
-        run: |
-          python3 autopost/rss_to_html.py
+      - name: Run autoposter
+        run: python3 autopost/rss_to_html.py
 
-      - name: Configure Git author
+      - name: Commit & push if changed
         run: |
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-
-      - name: Commit changes (if any)
-        run: |
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/posts.json autopost/seen.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "autopost: update posts.json"
+            git push
           else
-            git commit -m "chore: autopost new articles"
+            echo "No changes to commit."
           fi
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: autopost/bot-update
-          title: "Autopost: new articles"
-          commit-message: "chore: autopost new articles"
-          body: "This PR was created automatically by the autopost workflow."
-          labels: automation
-          delete-branch: true
