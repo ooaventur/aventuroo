@@ -1,2 +1,7 @@
-https://wwwnc.cdc.gov/travel/rss/notices.xml
-https://www.smartraveller.gov.au/countries/documents/index.rss
+travel|https://www.lonelyplanet.com/blog.rss
+travel|https://www.traveloffpath.com/feed/
+stories|https://www.bbc.com/travel/feed.rss
+culture|https://hyperallergic.com/feed/
+lifestyle|https://www.wellandgood.com/feed/
+guides|https://www.thebrokebackpacker.com/feed/
+deals|https://www.secretflying.com/feed/
