@@ -31,6 +31,7 @@ MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
+DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
 try:
     import trafilatura
