@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 AventurOO – Autopost (Culture)
-- Lexon vetem rreshtat "Culture|<RSS>" nga autopost/data/feeds.txt
-- Nxjerr trupin e artikullit si HTML te paster (paragrafe, bold, links, img)
+- Lexon vetëm rreshtat "Culture|<RSS>" nga autopost/data/feeds.txt
+- Nxjerr trupin e artikullit si HTML të pastër (paragrafe, bold, links, img)
 - Preferon trafilatura (HTML), pastaj fallback readability-lxml
 - Absolutizon URL-t relative te <a> dhe <img>
-- Heq script/style/iframes/embed te panevojshem
-- Shton linkun e burimit ne fund
-- Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,bodyHtml}
+- Heq script/style/iframes/embed të panevojshëm
+- Shton linkun e burimit në fund
+- Shkruan në data/posts.json: {slug,title,category,date,excerpt,cover,source,author,bodyHtml}
 """
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
@@ -175,7 +175,7 @@ def extract_body_html(url: str) -> tuple[str,str]:
     # 1) trafilatura → HTML
     if trafilatura is not None:
         try:
-            downloaded = trafilatura.fetch_url(url)  # pa user_agent param (përputhet me librarinë)
+            downloaded = trafilatura.fetch_url(url)  # pa user_agent param
             if downloaded:
                 th = trafilatura.extract(
                     downloaded, output_format="html",
@@ -198,7 +198,7 @@ def extract_body_html(url: str) -> tuple[str,str]:
                 if m: first_img = m.group(1)
         except Exception as e:
             print("readability error:", e)
-    # 3) fallback i fundit – plasin të gjithë tekstin
+    # 3) fallback i fundit – tekst i plotë i pastruar
     if not body_html:
         try:
             raw = http_get(url)
@@ -258,7 +258,7 @@ def main():
         category = (cat or "").strip().title()
         feed_url = (url or "").strip()
 
-        if category != CATEGORY_NAME or not feed_url:
+        if category != CATEGORY or not feed_url:
             continue
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
             break
@@ -330,10 +330,10 @@ def main():
             entry = {
                 "slug": slug,
                 "title": title,
-                "category": CATEGORY_NAME,
+                "category": CATEGORY,
                 "date": date,
                 "excerpt": excerpt,
-                "bodyHtml": body_final,
+                "bodyHtml": body_final,         # ← përdorim body_final
                 "cover": cover,
                 "source": link,
                 "sourceName": domain_of(link),
@@ -344,7 +344,7 @@ def main():
             seen[key] = {"title": title, "url": link, "created": date}
             per_cat[category] = per_cat.get(category, 0) + 1
             added_total += 1
-            print(f"Added [{CATEGORY_NAME}]: {title}")
+            print(f"Added [{CATEGORY}]: {title}")
 
     if not new_entries:
         print("New posts this run: 0")
