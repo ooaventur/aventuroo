@@ -218,125 +218,61 @@ def today_iso() -> str:
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
+    seen = load_json_safe(SEEN_DB, {})
+    posts = load_json_safe(POSTS_JSON, [])
 
-    # seen
-    if SEEN_DB.exists():
-        try:
-            seen = json.loads(SEEN_DB.read_text(encoding="utf-8"))
-            if not isinstance(seen, dict): seen = {}
-        except json.JSONDecodeError:
-            seen = {}
-    else:
-        seen = {}
-
-    # posts
-    if POSTS_JSON.exists():
-        try:
-            posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
-            if not isinstance(posts_idx, list): posts_idx = []
-        except json.JSONDecodeError:
-            posts_idx = []
-    else:
-        posts_idx = []
-
-    if not FEEDS.exists():
-        print("ERROR: feeds.txt not found:", FEEDS)
-        return
-
-    added_total = 0
-    per_cat = {}
+    added = 0
     new_entries = []
 
-    for raw in FEEDS.read_text(encoding="utf-8").splitlines():
-        raw = raw.strip()
-        if not raw or raw.startswith("#"): continue
-        if "|" not in raw: continue
-        cat, url = raw.split("|", 1)
-        category = (cat or "").strip().title()
-        feed_url = (url or "").strip()
-        if category != "Culture" or not feed_url:
-            continue
-
-        if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+    for feed in FEEDS:
+        if added >= MAX_NEW:
             break
-
-        xml = fetch_bytes(feed_url)
+        xml = fetch(feed)
         if not xml:
-            print("Feed empty:", feed_url); continue
-
-        for it in parse_feed(xml):
-            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+            continue
+        for it in parse(xml):
+            if added >= MAX_NEW:
                 break
-            if per_cat.get(category, 0) >= MAX_PER_CAT:
-                continue
-
             title = (it.get("title") or "").strip()
             link  = (it.get("link") or "").strip()
             if not title or not link:
                 continue
-
             key = hashlib.sha1(link.encode("utf-8")).hexdigest()
             if key in seen:
                 continue
 
-            # body html
-            body_html, inner_img = extract_body_html(link)
-            # absolutize & sanitize
-            base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
-            body_html = absolutize(body_html, base)
-            body_html = sanitize_article_html(body_html)
-            # kufizo ~450 fjale si preview
-            body_html = limit_words_html(body_html, SUMMARY_WORDS)
+            # body + excerpt
+            body_html, excerpt = extract_body_html(link)
 
             # cover
-            cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
+            cover = find_image_from_item(it.get("element"), link) or FALLBACK_COVER
 
-            # excerpt = paragrafi i pare pa etiketa
-            first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
-            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
-            if len(excerpt) > 280:
-                excerpt = excerpt[:277] + "…"
-
-            # footer i burimit
-            body_final = (body_html or "") + f"""
-<p class="small text-muted mt-4">
-  Source: <a href="{link}" target="_blank" rel="nofollow noopener">Read the full article</a>
-</p>
-"""
-
-date = today_iso()
-slug = slugify(title)[:70]
-author_final = (it.get("author") or author or "AventurOO Editorial")
-
-entry = {
-    "slug": slug,
-    "title": title,
-    "category": CATEGORY,   # ose: category nëse e ke si variabël
-    "date": date,
-    "excerpt": excerpt,     # për listimet
-    "bodyHtml": body_html,  # lexon article.html si HTML i plotë
-    "cover": cover,
-    "source": link,
-    "sourceName": domain_of(link).replace("www.", ""),
-    "author": author_final
-}
-new_entries.append(entry)
-
-seen[key] = {"title": title, "url": link, "created": date}
-added += 1
-print("Added:", title)
-
+            entry = {
+                "slug": slugify(title)[:70],
+                "title": title,
+                "category": CATEGORY,
+                "date": today_iso(),
+                "excerpt": excerpt,
+                "bodyHtml": body_html,       # ← do ta lexojë article.html
+                "cover": cover,
+                "source": link,
+                "sourceName": domain_of(link).replace("www.",""),
+                "author": it.get("author") or ""
+            }
+            new_entries.append(entry)
+            seen[key] = {"title": title, "url": link, "created": today_iso()}
+            added += 1
+            print("Added:", title)
 
     if not new_entries:
-        print("New posts this run: 0"); return
+        print("New posts: 0")
+        return
 
-    posts_idx = new_entries + posts_idx
-    if MAX_POSTS_PERSIST > 0:
-        posts_idx = posts_idx[:MAX_POSTS_PERSIST]
-
-    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
-    SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("New posts this run:", len(new_entries))
+    posts = new_entries + posts
+    posts = posts[:200]  # mbaj maksimumi 200
+    save_json(POSTS_JSON, posts)
+    save_json(SEEN_DB, seen)
+    print("New posts:", len(new_entries))
 
 if __name__ == "__main__":
     main()
