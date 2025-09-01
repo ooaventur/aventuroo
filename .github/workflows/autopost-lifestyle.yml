@@ -34,11 +34,11 @@ jobs:
       - name: Ensure files
         run: |
           mkdir -p autopost data
-          [ -s autopost/seen.json ] || echo "{}" > autopost/seen_culture.json
+          [ -s autopost/seen.json ] || echo "{}" > autopost/seen_lifestyle.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
-      - name: Run Culture autoposter
-        run: python3 autopost/pull_culture.py
+      - name: Run Lifestyle autoposter
+        run: python3 autopost/pull_Lifestyle.py
 
       - name: Commit & push
         shell: bash
@@ -51,7 +51,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "autopost(culture): body html + attribution"
+            git commit -m "autopost(lifestyle): body html + attribution"
             # nëse ka ndryshime në remote, bëj rebase që të shmanget non-fast-forward
             git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
             git push
