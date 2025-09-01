@@ -14,7 +14,7 @@ jobs:
       env:  
       SUMMARY_WORDS: "700"
       MAX_PER_CAT: "6"
-      HTTP_TIMEOUT: "15"
+      HTTP_TIMEOUT: "18"
       AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
       FALLBACK_COVER: "assets/img/cover-fallback.jpg"
       
@@ -35,7 +35,7 @@ jobs:
       - name: Ensure files
         run: |
           mkdir -p autopost data
-          [ -s autopost/seen.json ] || echo "{}" > autopost/seen.json
+          [ -s autopost/seen.json ] || echo "{}" > autopost/seen_culture.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Culture autoposter
