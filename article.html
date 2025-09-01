@@ -123,13 +123,68 @@
     const author = p.author || 'AventurOO Editorial';
     document.getElementById('meta').textContent = `${formatDate(p.date)} · ${author}`;
 
-    // Trupi: nëse ke p.body (HTML), e përdorim; ndryshe excerpt + 2 paragrafë filler
+    // Trupi: p.body (HTML) ose p.content (tekst i ndarë). Pa lorem ipsum.
     const bodyEl = document.getElementById('body');
+
+    function buildParagraphs(txt) {
+      const parts = (txt || "")
+        .split(/\n{2,}/)            // ndaj me boshllëqe të dyfishta (paragrafë)
+        .map(s => s.trim())
+        .filter(Boolean);
+      return parts.map(p => `<p class="mt-3">${p}</p>`).join('');
+    }
+
+    // 1) Vendos përmbajtjen
     if (p.body) {
-      bodyEl.innerHTML = p.body; // Kujdes: supozojmë që p.body është HTML i kontrolluar prej teje
+      bodyEl.innerHTML = p.body;            // HTML i përftuar nga autoposteri (paragrafë, img, bold, linke)
+    } else if (p.content) {
+      bodyEl.innerHTML = buildParagraphs(p.content);
     } else {
-      function lorem(){return "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Etiam mattis, tortor in tincidunt aliquet, mauris sem bibendum elit, et tristique mi sapien at odio."}
-      bodyEl.innerHTML = para(p.excerpt || '') + para(lorem()) + para(lorem());
+      bodyEl.innerHTML = `<p class="mt-3">${p.excerpt || ''}</p>`;
+    }
+
+    // 2) Post-procesim i lehtë për UX/SEO
+    //    - imazhe responsive
+    //    - iframes në container të sigurt
+    //    - linke të jashtme hapen në tab të ri + rel="nofollow noopener"
+    (() => {
+      // imazhet
+      bodyEl.querySelectorAll('img').forEach(img => {
+        img.classList.add('img-fluid', 'rounded-3', 'my-3');
+        if (!img.alt) img.alt = p.title || 'Image';
+        // shmangje stretching të tepërt
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.referrerPolicy = 'no-referrer';
+      });
+
+      // iframes
+      bodyEl.querySelectorAll('iframe').forEach(f => {
+        f.classList.add('w-100', 'my-3');
+        f.setAttribute('loading','lazy');
+        // opsionale: vendos një aspect ratio wrapper nëse do
+      });
+
+      // linke
+      const thisHost = location.host.replace(/^www\./,'');
+      bodyEl.querySelectorAll('a[href]').forEach(a => {
+        try {
+          const u = new URL(a.href, location.href);
+          const isExternal = u.host.replace(/^www\./,'') !== thisHost;
+          if (isExternal) {
+            a.target = '_blank';
+            a.rel = 'nofollow noopener';
+          }
+        } catch(e) {}
+      });
+    })();
+
+    // 3) Shto "Read the original" në fund nëse body s’e ka tashmë dhe ekziston p.source
+    if (p.source && !/Source:|Read the full article/i.test(bodyEl.innerHTML)) {
+      const srcBlock = document.createElement('p');
+      srcBlock.className = 'small text-muted mt-4';
+      srcBlock.innerHTML = `Read the original &rarr; <a href="${p.source}" target="_blank" rel="nofollow noopener">Open source</a>`;
+      bodyEl.appendChild(srcBlock);
     }
 
     // Related: të së njëjtës kategori, jo i njëjti slug; shuffle të lehtë; deri 6
@@ -141,6 +196,7 @@
         <div class="text-muted">${r.date||''}</div>
       </li>`).join('');
     document.getElementById('related').innerHTML = related || `<li class="text-muted">No related posts yet.</li>`;
+
 
     // ---- SEO: përditëso meta/OG/Canonical ----
     const base = "https://aventuroo.netlify.app";
