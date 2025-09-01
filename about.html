@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AventurOO • Contact</title>
+  <title>AventurOO • About</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact AventurOO — send us feedback, suggestions or partnership inquiries.">
-  <link rel="canonical" href="https://aventuroo.netlify.app/contact.html">
+  <meta name="description" content="Learn more about AventurOO — our story, mission, and the categories we cover: Travel, Stories, Culture, Lifestyle, Deals and Guides.">
+  <link rel="canonical" href="https://aventuroo.netlify.app/about.html">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Contact AventurOO">
-  <meta property="og:description" content="Send us feedback or partnership inquiries.">
-  <meta property="og:url" content="https://aventuroo.netlify.app/contact.html">
+  <meta property="og:title" content="About AventurOO">
+  <meta property="og:description" content="Discover the story and mission behind AventurOO.">
+  <meta property="og:url" content="https://aventuroo.netlify.app/about.html">
   <meta property="og:image" content="https://aventuroo.netlify.app/assets/img/og-default.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -29,52 +29,36 @@
 
   <main class="container py-5">
     <div class="row g-4">
-      <div class="col-lg-7">
-        <h1 class="fw-bold reveal-up">Contact us</h1>
-        <p class="lead">Kemi kënaqësi të dëgjojmë nga ju. Përdorni formën më poshtë për pyetje, ide ose bashkëpunime.</p>
+      <div class="col-lg-8">
+        <h1 class="fw-bold reveal-up">About AventurOO</h1>
+        <p class="lead">AventurOO është një hapësirë për udhëtime, histori, kulturë dhe stil jete. Qëllimi ynë është të mbledhim përmbajtje të dobishme dhe frymëzuese — si nga redaksia jonë, ashtu edhe nga burime të jashtme të verifikuara.</p>
 
-        <!-- Netlify form -->
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="row g-3 mt-2">
-          <!-- Kërkohet nga Netlify -->
-          <input type="hidden" name="form-name" value="contact">
-          <p class="d-none">
-            <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
-          </p>
+        <h2 class="h5 mt-4">What we publish</h2>
+        <ul class="mt-2">
+          <li><strong>Travel</strong> — udhëzues dhe destinacione.</li>
+          <li><strong>Stories</strong> — rrëfime dhe përvoja nga udhëtimet.</li>
+          <li><strong>Culture</strong> — evente, tradita dhe art.</li>
+          <li><strong>Lifestyle</strong> — mirëqenie, ushqim, këshilla në lëvizje.</li>
+          <li><strong>Deals</strong> &amp; <strong>Guides</strong> — oferta dhe udhëzues praktikë.</li>
+        </ul>
 
-          <div class="col-md-6">
-            <label class="form-label small text-muted">Name</label>
-            <input type="text" class="form-control" name="name" placeholder="Your name" required>
-          </div>
-          <div class="col-md-6">
-            <label class="form-label small text-muted">Email</label>
-            <input type="email" class="form-control" name="email" placeholder="your@email.com" required>
-          </div>
-          <div class="col-12">
-            <label class="form-label small text-muted">Subject</label>
-            <input type="text" class="form-control" name="subject" placeholder="How can we help?">
-          </div>
-          <div class="col-12">
-            <label class="form-label small text-muted">Message</label>
-            <textarea class="form-control" name="message" rows="5" placeholder="Write your message…" required></textarea>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-brand">Send message</button>
-          </div>
-        </form>
+        <h2 class="h5 mt-4">How it works</h2>
+        <p>Faqja përditësohet automatikisht me artikuj për kategori të ndryshme, ndërsa postimet tona redaksionale shfaqen kudo në sajt dhe mund të lexohen të plota te <code>article.html</code>.</p>
 
-        <div class="alert alert-success mt-3 d-none" id="thanks" role="alert">
-          <i class="fa-regular fa-circle-check me-2"></i> Faleminderit! Mesazhi u dërgua.
+        <div class="alert alert-info mt-4" role="alert">
+          <i class="fa-regular fa-paper-plane me-2"></i>
+          Keni ide ose dëshironi të kontribuoni? Na shkruani nga <a href="contact.html" class="alert-link">faqja e kontaktit</a>.
         </div>
       </div>
 
-      <aside class="col-lg-5">
+      <aside class="col-lg-4">
         <div class="card border-0 shadow-soft">
           <div class="card-body">
-            <div class="small text-uppercase text-muted mb-2">Contact info</div>
+            <div class="small text-uppercase text-muted mb-2">Quick facts</div>
             <ul class="list-unstyled small mb-0">
-              <li class="mb-2"><i class="fa-regular fa-envelope me-2"></i><a class="link-secondary text-decoration-none" href="mailto:hello@aventuroo.com">hello@aventuroo.com</a></li>
-              <li class="mb-2"><i class="fa-brands fa-whatsapp me-2"></i><a class="link-secondary text-decoration-none" href="https://wa.me/355000000000" target="_blank" rel="noopener">WhatsApp</a></li>
-              <li class="mb-2"><i class="fa-regular fa-clock me-2"></i>Mon–Fri, 10:00–18:00</li>
+              <li class="mb-2"><i class="fa-regular fa-calendar me-2"></i>Launched: 2025</li>
+              <li class="mb-2"><i class="fa-regular fa-compass me-2"></i>Focus: Travel & Lifestyle</li>
+              <li class="mb-2"><i class="fa-regular fa-newspaper me-2"></i>Mix: Editorial + curated feeds</li>
             </ul>
           </div>
         </div>
@@ -88,27 +72,17 @@
   <script src="assets/js/site.js"></script>
   <script src="assets/js/animate.js"></script>
   <script>
-    renderHeader('Contact'); 
+    renderHeader('About'); 
     renderFooter();
-
-    // Optional: shfaq njoftim lokal pas submit (për Netlify forms)
-    document.addEventListener('submit', function(e){
-      if(e.target && e.target.getAttribute('name') === 'contact'){
-        // le të lejojmë Netlify të bëjë redirect-in default në /?success=true nëse e konfiguron,
-        // ose thjesht shfaqim mesazhin lokal:
-        const thanks = document.getElementById('thanks');
-        if (thanks) thanks.classList.remove('d-none');
-      }
-    });
   </script>
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"ContactPage",
-    "name":"Contact AventurOO",
-    "url":"https://aventuroo.netlify.app/contact.html",
+    "@type":"AboutPage",
+    "name":"About AventurOO",
+    "url":"https://aventuroo.netlify.app/about.html",
     "inLanguage":"en"
   }
   </script>
