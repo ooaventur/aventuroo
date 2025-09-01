@@ -18,7 +18,7 @@ SEEN_DB = ROOT / "autopost" / "seen.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 # sa postime të reja për ekzekutim
-MAX_PER_RUN = 3
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "6"))
 HTTP_TIMEOUT = 15
 UA = "Mozilla/5.0 (AventurOO Autoposter)"
 
