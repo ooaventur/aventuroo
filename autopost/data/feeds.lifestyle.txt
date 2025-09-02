@@ -1,1 +1,5 @@
-https://www.cntraveler.com/feed/rss
+# Feeds për kategorinë Lifestyle
+Lifestyle|https://www.theguardian.com/lifeandstyle/rss
+Lifestyle|https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml
+Lifestyle|https://www.bbcgoodfood.com/feed
+Lifestyle|https://www.mindbodygreen.com/rss
