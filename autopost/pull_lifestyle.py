@@ -15,10 +15,10 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
-# --- Shtesa për rrjet/SSL & log ---
+# --- Shtesa për rrjet/SSL & kohë ---
 import ssl, time
 import certifi
-# ----------------------------------
+# -----------------------------------
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -35,13 +35,9 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
-# --- Log i thjeshtë (në console + file) ---
-DEBUG = os.getenv("DEBUG", "1") not in ("", "0", "false", "False")
+# --- Log i thjeshtë (console + file) ---
 DEBUG_LOG = (DATA_DIR / "debug_lifestyle.log")
-
 def dlog(msg: str):
-    if not DEBUG: 
-        print(msg); return
     line = f"[{datetime.datetime.now().isoformat(timespec='seconds')}] {msg}"
     print(line)
     try:
@@ -50,7 +46,7 @@ def dlog(msg: str):
             f.write(line + "\n")
     except Exception:
         pass
-# -------------------------------------------
+# --------------------------------------
 
 try:
     import trafilatura
@@ -62,7 +58,8 @@ try:
 except Exception:
     Document = None
 
-# --- SHTESË: fetch_bytes me headers + retry/backoff ---
+
+# --- fetch_bytes: headers + SSL + retry/backoff ---
 def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes:
     """
     Shkarkon bytes nga një URL me headers miqësore dhe retry/backoff.
@@ -87,7 +84,7 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
 
         except urllib.error.HTTPError as e:
             dlog(f"[fetch_bytes][HTTP {e.code}] {url}")
-            # 403 -> provo një UA më 'browser-like' pastaj ri-provo
+            # 403 -> provo një UA më 'browser-like' dhe ri-provo
             if e.code == 403 and "Chrome" not in headers["User-Agent"]:
                 headers["User-Agent"] = (
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -98,14 +95,16 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
                 continue
             # 5xx -> retry me backoff
             if 500 <= e.code < 600 and attempt < retries:
-                time.sleep(backoff); backoff = min(backoff * 2, 8.0)
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 8.0)
                 continue
-            return b""
+            return b""  # 4xx të tjera ose s’u zgjidh pas retry-ve
 
         except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
             dlog(f"[fetch_bytes][NET] {url} -> {e}")
             if attempt < retries:
-                time.sleep(backoff); backoff = min(backoff * 2, 8.0)
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 8.0)
                 continue
             return b""
 
@@ -114,9 +113,11 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
             return b""
 
     return b""
-# -----------------------------------------------------------
+# --------------------------------------------------
+
 
 # ... (funksionet e tjera mbeten te pandryshuara) ...
+
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
@@ -151,8 +152,10 @@ def main():
 
     for raw in FEEDS.read_text(encoding="utf-8").splitlines():
         raw = raw.strip()
-        if not raw or raw.startswith("#"): continue
-        if "|" not in raw: continue
+        if not raw or raw.startswith("#"): 
+            continue
+        if "|" not in raw: 
+            continue
         cat, url = raw.split("|", 1)
         category = (cat or "").strip().title()
         feed_url = (url or "").strip()
@@ -160,9 +163,10 @@ def main():
             continue
 
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+            dlog(f"[SKIP][MAX_TOTAL_REACHED]")
             break
 
-        # --- SHTUAR: log + mbrojtje rreth fetch_bytes ---
+        # --- LOG + mbrojtje rreth fetch_bytes ---
         dlog(f"[FEED] {feed_url}")
         try:
             xml = fetch_bytes(feed_url)
@@ -173,7 +177,7 @@ def main():
         if not xml:
             dlog(f"[FEED][SKIP_EMPTY] {feed_url}")
             continue
-        # -------------------------------------------------
+        # ----------------------------------------
 
         for it in parse_feed(xml):
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
@@ -240,7 +244,7 @@ def main():
             dlog(f"[ADD] {title} -> {link}")
 
     if not new_entries:
-        print("New posts this run: 0"); 
+        print("New posts this run: 0")
         dlog(f"[SUMMARY] new=0 total_seen={len(seen)} per_cat={per_cat}")
         dlog(f"[LOG] Shiko {DEBUG_LOG} për detaje.")
         return
