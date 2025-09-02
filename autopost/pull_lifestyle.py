@@ -15,10 +15,8 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
-# --- Shtesa për rrjet/SSL & kohë ---
 import ssl, time
 import certifi
-# -----------------------------------
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -35,8 +33,8 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
-# --- Log i thjeshtë (console + file) ---
-DEBUG_LOG = (DATA_DIR / "debug_lifestyle.log")
+# LOG: kalova në .txt që të mos bllokohet nga .gitignore (*.log)
+DEBUG_LOG = (DATA_DIR / "debug_lifestyle.txt")
 def dlog(msg: str):
     line = f"[{datetime.datetime.now().isoformat(timespec='seconds')}] {msg}"
     print(line)
@@ -46,7 +44,6 @@ def dlog(msg: str):
             f.write(line + "\n")
     except Exception:
         pass
-# --------------------------------------
 
 try:
     import trafilatura
@@ -58,15 +55,13 @@ try:
 except Exception:
     Document = None
 
-
-# --- fetch_bytes: headers + SSL + retry/backoff ---
+# -------------------- fetch_bytes --------------------
 def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes:
     """
-    Shkarkon bytes nga një URL me headers miqësore dhe retry/backoff.
-    Kthen b"" nëse dështon, që feed-i të anashkalohet pa rrëzuar job-in.
+    Merr bytes nga URL me headers dhe retry/backoff.
+    Kthen b"" nëse dështon pas retry-ve (që feed-i të anashkalohet).
     """
     timeout = timeout or HTTP_TIMEOUT
-
     headers = {
         "User-Agent": UA,
         "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, text/html;q=0.7, */*;q=0.5",
@@ -74,8 +69,8 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
         "Connection": "close",
     }
     ctx = ssl.create_default_context(cafile=certifi.where())
-
     backoff = 1.0
+
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers=headers, method="GET")
@@ -84,28 +79,21 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
 
         except urllib.error.HTTPError as e:
             dlog(f"[fetch_bytes][HTTP {e.code}] {url}")
-            # 403 -> provo një UA më 'browser-like' dhe ri-provo
             if e.code == 403 and "Chrome" not in headers["User-Agent"]:
                 headers["User-Agent"] = (
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/124.0 Safari/537.36"
                 )
-                time.sleep(1.0)
-                continue
-            # 5xx -> retry me backoff
+                time.sleep(1.0); continue
             if 500 <= e.code < 600 and attempt < retries:
-                time.sleep(backoff)
-                backoff = min(backoff * 2, 8.0)
-                continue
-            return b""  # 4xx të tjera ose s’u zgjidh pas retry-ve
+                time.sleep(backoff); backoff = min(backoff * 2, 8.0); continue
+            return b""
 
         except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
             dlog(f"[fetch_bytes][NET] {url} -> {e}")
             if attempt < retries:
-                time.sleep(backoff)
-                backoff = min(backoff * 2, 8.0)
-                continue
+                time.sleep(backoff); backoff = min(backoff * 2, 8.0); continue
             return b""
 
         except Exception as e:
@@ -113,11 +101,74 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
             return b""
 
     return b""
-# --------------------------------------------------
+# ----------------------------------------------------
 
+# -------------------- parse_feed --------------------
+def parse_feed(xml_bytes: bytes):
+    """
+    Pranon RSS/Atom (bytes) dhe kthen listë item-esh:
+    {title, link, summary, element}
+    """
+    out = []
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError as e:
+        dlog(f"[parse_feed][XML_PARSE_ERR] {e}")
+        return out
+
+    tag = root.tag.lower()
+
+    # RSS: <rss><channel><item>...</item></channel></rss>
+    if "rss" in tag or root.find("./channel") is not None:
+        channel = root.find("./channel") or root
+        for item in channel.findall("./item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            if not link:
+                # disa RSS përdorin <guid isPermaLink="true">
+                guid = item.findtext("guid") or ""
+                if "://" in guid:
+                    link = guid.strip()
+            summary = (item.findtext("description") or "").strip()
+            out.append({"title": title, "link": link, "summary": summary, "element": item})
+        return out
+
+    # Atom: <feed><entry>...</entry></feed>
+    # namespaces të zakonshme
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    entries = root.findall(".//a:entry", ns) or root.findall(".//entry")
+    if entries:
+        for entry in entries:
+            title = (entry.findtext("a:title", namespaces=ns) or entry.findtext("title") or "").strip()
+            link_el = entry.find("a:link[@rel='alternate']", ns) or entry.find("a:link", ns) or entry.find("link")
+            link = ""
+            if link_el is not None:
+                link = (link_el.get("href") or link_el.text or "").strip()
+            summary = (entry.findtext("a:summary", namespaces=ns) or entry.findtext("summary") or
+                       entry.findtext("a:content", namespaces=ns) or entry.findtext("content") or "").strip()
+            out.append({"title": title, "link": link, "summary": summary, "element": entry})
+        return out
+
+    # Fallback: kërko <item> ose <entry> pa u bazuar te rrënja
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        summary = (item.findtext("description") or "").strip()
+        out.append({"title": title, "link": link, "summary": summary, "element": item})
+    if out:
+        return out
+
+    for entry in root.findall(".//entry"):
+        title = (entry.findtext("title") or "").strip()
+        link_el = entry.find("link")
+        link = (link_el.get("href") if link_el is not None else (link_el.text if link_el is not None else "")) or ""
+        summary = (entry.findtext("summary") or entry.findtext("content") or "").strip()
+        out.append({"title": title, "link": link, "summary": summary, "element": entry})
+
+    return out
+# ----------------------------------------------------
 
 # ... (funksionet e tjera mbeten te pandryshuara) ...
-
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
@@ -152,10 +203,8 @@ def main():
 
     for raw in FEEDS.read_text(encoding="utf-8").splitlines():
         raw = raw.strip()
-        if not raw or raw.startswith("#"): 
-            continue
-        if "|" not in raw: 
-            continue
+        if not raw or raw.startswith("#"): continue
+        if "|" not in raw: continue
         cat, url = raw.split("|", 1)
         category = (cat or "").strip().title()
         feed_url = (url or "").strip()
@@ -166,18 +215,15 @@ def main():
             dlog(f"[SKIP][MAX_TOTAL_REACHED]")
             break
 
-        # --- LOG + mbrojtje rreth fetch_bytes ---
         dlog(f"[FEED] {feed_url}")
         try:
             xml = fetch_bytes(feed_url)
         except Exception as e:
             dlog(f"[FEED][FAIL] {feed_url} -> {e}")
             continue
-
         if not xml:
             dlog(f"[FEED][SKIP_EMPTY] {feed_url}")
             continue
-        # ----------------------------------------
 
         for it in parse_feed(xml):
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
@@ -200,17 +246,15 @@ def main():
 
             # body html
             body_html, inner_img = extract_body_html(link)
-            # absolutize & sanitize
             base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
             body_html = absolutize(body_html, base)
             body_html = sanitize_article_html(body_html)
-            # kufizo ~450 fjale si preview
             body_html = limit_words_html(body_html, SUMMARY_WORDS)
 
             # cover
             cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
 
-            # excerpt = paragrafi i pare pa etiketa
+            # excerpt
             first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
             excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
             if len(excerpt) > 280:
