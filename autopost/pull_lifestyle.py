@@ -10,6 +10,7 @@ AventurOO – Autopost (Lifestyle)
 - Rrit cilësinë e imazheve (srcset → më i madhi, Guardian width=1600)
 - Zgjidh 'mixed content' me https ose proxy opsional
 - Kap lazy-load (data-src, data-original, etj.) dhe i vendos te src
+- Fut vetem HERO (cover) sipër dhe heq te gjitha imazhet e tjera nga body
 - Shton linkun e burimit ne fund
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
@@ -442,9 +443,9 @@ def main():
             if len(excerpt) > 280:
                 excerpt = excerpt[:277] + "…"
 
-            # 5.1) Nëse body nuk ka imazh, fut hero me cover
-            has_img = bool(re.search(r'<img\b[^>]*src=', body_html or "", flags=re.I))
-            if cover and not has_img:
+            # 5.1) Vetëm HERO: hiq te gjitha <img> nga body dhe fut cover sipër
+            if cover:
+                body_html = re.sub(r'<img\b[^>]*>', '', body_html or "", flags=re.I)
                 hero = f'<p><img src="{cover}" alt="{strip_text(title)}" loading="eager" decoding="async" style="max-width:100%;height:auto;border-radius:12px"/></p>'
                 body_html = hero + "\n" + (body_html or "")
 
