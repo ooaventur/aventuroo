@@ -15,6 +15,8 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
+import ssl, time
+import certifi
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -40,6 +42,56 @@ try:
     from readability import Document
 except Exception:
     Document = None
+
+
+# -------------------- SHTESE: fetch_bytes --------------------
+def fetch_bytes(url: str, timeout: int | None = None, retries: int = 2) -> bytes:
+    """
+    Shkarkon bytes nga një URL me headers miqësore dhe retry.
+    Kthen përmbajtjen ose hedh gabimin e fundit pas retry-ve.
+    """
+    timeout = timeout or HTTP_TIMEOUT
+
+    headers = {
+        "User-Agent": UA,
+        "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, text/html;q=0.7, */*;q=0.5",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "close",
+    }
+
+    ctx = ssl.create_default_context(cafile=certifi.where())
+
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=headers, method="GET")
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                return resp.read()
+
+        except urllib.error.HTTPError as e:
+            # disa hoste kthejne 403 nese UA s’duket si browser i plote
+            if e.code == 403 and "Chrome" not in headers["User-Agent"]:
+                headers["User-Agent"] = (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0 Safari/537.36"
+                )
+                last_err = e
+                time.sleep(1.2)
+                continue
+            last_err = e
+
+        except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
+            last_err = e
+
+        except Exception as e:
+            last_err = e
+
+        time.sleep(1.2)  # backoff i vogel para ri-provimit
+
+    raise last_err
+# ------------------ FUND SHTESE: fetch_bytes ------------------
+
 
 # ... (funksionet e tjera mbeten te pandryshuara) ...
 
