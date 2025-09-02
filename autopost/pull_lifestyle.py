@@ -3,14 +3,12 @@
 """
 AventurOO – Autopost (Lifestyle)
 - Lexon vetem rreshtat "Lifestyle|<RSS>" nga autopost/data/feeds.txt
-- Nxjerr trupin e artikullit si HTML te paster (paragrafe, bold, linke, imazhe)
+- Nxjerr trupin e artikullit si HTML te paster (paragrafe, bold, linke, pa imazhe)
 - Preferon trafilatura (HTML), pastaj fallback readability-lxml
-- Absolutizon URL-t relative te <a> dhe <img>
+- Absolutizon URL-t relative te <a> dhe <img> (edhe pse <img> hiqen me pas)
 - Heq script/style/iframes/embed te panevojshem
-- Rrit cilësinë e imazheve (srcset → më i madhi, Guardian width=1600)
-- Zgjidh 'mixed content' me https ose proxy opsional
-- Kap lazy-load (data-src, data-original, etj.) dhe i vendos te src
-- Fut vetem HERO (cover) sipër dhe heq te gjitha imazhet e tjera nga body
+- Rrit cilësinë e imazheve (srcset → më i madhi, Guardian width=1600) vetëm për 'cover'
+- Zgjidh 'mixed content' me https ose proxy opsional për 'cover'
 - Shton linkun e burimit ne fund
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
@@ -38,10 +36,10 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
-# Opsione imazhesh
+# Opsione imazhesh (vetëm për 'cover')
 IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
-IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # lëre "" nëse nuk do proxy
-FORCE_PROXY = os.getenv("FORCE_PROXY", "0")  # "1" = kalo çdo imazh përmes proxy
+IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # lëre "" nëse s'do proxy
+FORCE_PROXY = os.getenv("FORCE_PROXY", "0")  # "1" = kalo çdo imazh përmes proxy (për cover)
 
 try:
     import trafilatura
@@ -171,7 +169,7 @@ def limit_words_html(html: str, max_words: int) -> str:
         return f"<p>{trimmed}</p>"
     return "\n".join(out)
 
-# ---- Image helpers ----
+# ---- Image helpers për 'cover' ----
 def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
     try:
         from urllib.parse import urlencode, urlparse, parse_qsl, urlunparse
@@ -209,24 +207,6 @@ def pick_largest_media_url(it_elem) -> str:
             best_url = u
     return best_url or ""
 
-def pick_largest_from_srcset(srcset: str) -> str:
-    best_url, best_w = "", -1
-    for part in srcset.split(","):
-        cand = part.strip()
-        if not cand:
-            continue
-        m = re.match(r"(.+?)\s+(\d+)(w|x)", cand)
-        url_only = cand.split()[0] if " " in cand else cand
-        if m:
-            w = int(m.group(2))
-            if w > best_w:
-                best_w = w
-                best_url = url_only
-        else:
-            if best_w < 0:
-                best_url, best_w = url_only, 0
-    return best_url
-
 def _to_https(u: str) -> str:
     if not u:
         return u
@@ -246,49 +226,18 @@ def _proxy_if_mixed(u: str) -> str:
     return u
 
 def sanitize_img_url(u: str) -> str:
+    """Sanitizo URL e cover-it: https → (ops.) proxy → Guardian upscale."""
     u = (u or "").strip()
     if not u:
         return u
-    # nëse duam të detyrojmë proxy për çdo imazh
     if FORCE_PROXY == "1" and IMG_PROXY:
         u2 = u.replace("https://", "").replace("http://", "")
         return f"{IMG_PROXY}{u2}"
-    # përndryshe: https → guardian upscale → proxy vetëm nëse ngel http
     u = _to_https(u)
     u = guardian_upscale_url(u)
     if u.startswith("http://"):
         u = _proxy_if_mixed(u)
     return u
-
-def upgrade_images_in_body(html: str) -> str:
-    if not html:
-        return html
-    def repl_img(m):
-        tag = m.group(0)
-        mset = re.search(r'\ssrcset=["\']([^"\']+)["\']', tag, flags=re.I)
-        candidates = []
-        if mset:
-            cand = pick_largest_from_srcset(mset.group(1))
-            if cand:
-                candidates.append(cand)
-        for attr in ("data-src", "data-original", "data-lazy-src", "data-srcset", "data-image", "data-url"):
-            mx = re.search(rf'\s{attr}=["\']([^"\']+)["\']', tag, flags=re.I)
-            if mx:
-                candidates.append(mx.group(1))
-        msrc = re.search(r'\ssrc=["\']([^"\']+)["\']', tag, flags=re.I)
-        if msrc:
-            candidates.append(msrc.group(1))
-        new_src = next((c for c in candidates if c), None)
-        if new_src:
-            new_src = sanitize_img_url(new_src)
-            if msrc:
-                tag = re.sub(r'\ssrc=["\'][^"\']+["\']', f' src="{new_src}"', tag, flags=re.I)
-            else:
-                tag = tag[:-1] + f' src="{new_src}">'
-            tag = re.sub(r'\s(width|height)=["\']\d+["\']', "", tag, flags=re.I)
-            tag = re.sub(r'\sdata-[a-z0-9\-]+=["\'][^"\']*["\']', "", tag, flags=re.I)
-        return tag
-    return re.sub(r'<img\b[^>]*>', repl_img, html, flags=re.I)
 
 # ---- Extract body ----
 def extract_body_html(url: str) -> tuple[str, str]:
@@ -422,19 +371,17 @@ def main():
             base = f"{parsed.scheme}://{parsed.netloc}"
             body_html = absolutize(body_html, base)
             body_html = sanitize_article_html(body_html)
-            body_html = upgrade_images_in_body(body_html)
 
             # 3) Kufizo sipas SUMMARY_WORDS
             body_html = limit_words_html(body_html, SUMMARY_WORDS)
 
-            # 4) Cover image
+            # 4) Cover image (vetëm ky do të shfaqet në faqe)
             cover = (
                 pick_largest_media_url(it.get("element"))
                 or find_cover_from_item(it.get("element"), link)
                 or inner_img
                 or FALLBACK_COVER
             )
-            cover = guardian_upscale_url(cover)
             cover = sanitize_img_url(cover)
 
             # 5) Excerpt
@@ -443,19 +390,16 @@ def main():
             if len(excerpt) > 280:
                 excerpt = excerpt[:277] + "…"
 
-            # 5.1) Vetëm HERO: hiq te gjitha <img> nga body dhe fut cover sipër
-            if cover:
-                body_html = re.sub(r'<img\b[^>]*>', '', body_html or "", flags=re.I)
-                hero = f'<p><img src="{cover}" alt="{strip_text(title)}" loading="eager" decoding="async" style="max-width:100%;height:auto;border-radius:12px"/></p>'
-                body_html = hero + "\n" + (body_html or "")
+            # 6) HEQ te gjitha imazhet nga body (që të mos ketë dyfishim me cover)
+            body_html = re.sub(r'<img\b[^>]*>', '', body_html or "", flags=re.I)
 
-            # 6) Footer burimi
+            # 7) Footer burimi
             body_final = (body_html or "") + f"""
 <p class="small text-muted mt-4">
   Source: <a href="{link}" target="_blank" rel="nofollow noopener">Read the full article</a>
 </p>"""
 
-            # 7) Persisto
+            # 8) Persisto
             date = today_iso()
             slug = slugify(title)[:70]
 
