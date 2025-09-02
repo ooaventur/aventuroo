@@ -1,5 +1,9 @@
 # Feeds për kategorinë Lifestyle
 
-Lifestyle|https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml
-Lifestyle|https://www.bbcgoodfood.com/feed
-Lifestyle|https://www.mindbodygreen.com/rss
+
+Lifestyle|https://www.theguardian.com/food/rss
+Lifestyle|https://www.theguardian.com/fashion/rss
+Lifestyle|https://www.theguardian.com/lifeandstyle/relationships/rss
+Lifestyle|https://www.theguardian.com/lifeandstyle/health-and-wellbeing/rss
+Lifestyle|https://www.theguardian.com/lifeandstyle/women/rss
+Lifestyle|https://www.theguardian.com/lifeandstyle/family/rss
