@@ -11,6 +11,13 @@ AventurOO – Autopost (Lifestyle)
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
 
+import urllib.request
+
+def fetch_bytes(url: str) -> bytes:
+    """Shkarkon të dhënat bruto nga një URL dhe i kthen si bytes."""
+    with urllib.request.urlopen(url, timeout=18) as resp:
+        return resp.read()
+
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
 from html import unescape
 from urllib.parse import urlparse, urljoin
