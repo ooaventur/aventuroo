@@ -8,8 +8,8 @@ AventurOO – Autopost (Lifestyle)
 - Absolutizon URL-t relative te <a> dhe <img>
 - Heq script/style/iframes/embed te panevojshem
 - Rrit cilësinë e imazheve (srcset → më i madhi, Guardian width=1600)
-- Zgjidh 'mixed content' (http në faqe https) me https ose proxy opsional
-- Kap edhe lazy-load (data-src, data-original, etj.) dhe i vendos te src
+- Zgjidh 'mixed content' me https ose proxy opsional
+- Kap lazy-load (data-src, data-original, etj.) dhe i vendos te src
 - Shton linkun e burimit ne fund
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
@@ -36,6 +36,11 @@ HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
+
+# Opsione imazhesh
+IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
+IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # lëre "" nëse nuk do proxy
+FORCE_PROXY = os.getenv("FORCE_PROXY", "0")  # "1" = kalo çdo imazh përmes proxy
 
 try:
     import trafilatura
@@ -166,9 +171,6 @@ def limit_words_html(html: str, max_words: int) -> str:
     return "\n".join(out)
 
 # ---- Image helpers ----
-IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
-IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # lëre "" nqs s'do proxy
-
 def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
     try:
         from urllib.parse import urlencode, urlparse, parse_qsl, urlunparse
@@ -235,19 +237,22 @@ def _to_https(u: str) -> str:
     return u
 
 def _proxy_if_mixed(u: str) -> str:
-    """Nëse URL mbetet http, ktheje përmes proxy https (zgjidh mixed-content)."""
     if not u:
         return u
     if u.startswith("http://") and IMG_PROXY:
-        base = u[len("http://"):]  # weserv kërkon pa skemë
+        base = u[len("http://"):]
         return f"{IMG_PROXY}{base}"
     return u
 
 def sanitize_img_url(u: str) -> str:
-    """HTTPS kur mundet, Guardian upscale, pastaj proxy si fallback nëse mbetet http."""
     u = (u or "").strip()
     if not u:
         return u
+    # nëse duam të detyrojmë proxy për çdo imazh
+    if FORCE_PROXY == "1" and IMG_PROXY:
+        u2 = u.replace("https://", "").replace("http://", "")
+        return f"{IMG_PROXY}{u2}"
+    # përndryshe: https → guardian upscale → proxy vetëm nëse ngel http
     u = _to_https(u)
     u = guardian_upscale_url(u)
     if u.startswith("http://"):
@@ -257,45 +262,31 @@ def sanitize_img_url(u: str) -> str:
 def upgrade_images_in_body(html: str) -> str:
     if not html:
         return html
-
     def repl_img(m):
         tag = m.group(0)
-
-        # 1) zgjidh src më të mirë: srcset → më i madhi; pastaj data-*; pastaj src
         mset = re.search(r'\ssrcset=["\']([^"\']+)["\']', tag, flags=re.I)
         candidates = []
-
         if mset:
             cand = pick_largest_from_srcset(mset.group(1))
             if cand:
                 candidates.append(cand)
-
-        # lazy-load atributet tipike
         for attr in ("data-src", "data-original", "data-lazy-src", "data-srcset", "data-image", "data-url"):
             mx = re.search(rf'\s{attr}=["\']([^"\']+)["\']', tag, flags=re.I)
             if mx:
                 candidates.append(mx.group(1))
-
         msrc = re.search(r'\ssrc=["\']([^"\']+)["\']', tag, flags=re.I)
         if msrc:
             candidates.append(msrc.group(1))
-
         new_src = next((c for c in candidates if c), None)
-
         if new_src:
             new_src = sanitize_img_url(new_src)
             if msrc:
                 tag = re.sub(r'\ssrc=["\'][^"\']+["\']', f' src="{new_src}"', tag, flags=re.I)
             else:
                 tag = tag[:-1] + f' src="{new_src}">'
-
-            # heq dimensione fikse (parandalon shtrembërimin)
             tag = re.sub(r'\s(width|height)=["\']\d+["\']', "", tag, flags=re.I)
-            # heq lazy atributet e panevojshme
             tag = re.sub(r'\sdata-[a-z0-9\-]+=["\'][^"\']*["\']', "", tag, flags=re.I)
-
         return tag
-
     return re.sub(r'<img\b[^>]*>', repl_img, html, flags=re.I)
 
 # ---- Extract body ----
@@ -322,7 +313,6 @@ def extract_body_html(url: str) -> tuple[str, str]:
                         first_img = m.group(1)
         except Exception as e:
             print("trafilatura error:", e)
-
     # 2) readability-lxml
     if not body_html and Document is not None:
         try:
@@ -335,8 +325,7 @@ def extract_body_html(url: str) -> tuple[str, str]:
                     first_img = m.group(1)
         except Exception as e:
             print("readability error:", e)
-
-    # 3) Fallback total: tekst i thjeshtë
+    # 3) Fallback total
     if not body_html:
         try:
             raw = http_get(url)
@@ -344,7 +333,6 @@ def extract_body_html(url: str) -> tuple[str, str]:
             return f"<p>{txt}</p>", ""
         except Exception:
             return "", ""
-
     return body_html, first_img
 
 def slugify(s: str) -> str:
@@ -433,7 +421,7 @@ def main():
             base = f"{parsed.scheme}://{parsed.netloc}"
             body_html = absolutize(body_html, base)
             body_html = sanitize_article_html(body_html)
-            body_html = upgrade_images_in_body(body_html)   # rrit cilësinë e fotove + lazy-load fix + https/proxy
+            body_html = upgrade_images_in_body(body_html)
 
             # 3) Kufizo sipas SUMMARY_WORDS
             body_html = limit_words_html(body_html, SUMMARY_WORDS)
@@ -446,13 +434,19 @@ def main():
                 or FALLBACK_COVER
             )
             cover = guardian_upscale_url(cover)
-            cover = sanitize_img_url(cover)  # shumë e rëndësishme për https/mixed-content
+            cover = sanitize_img_url(cover)
 
             # 5) Excerpt
             first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
             excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
             if len(excerpt) > 280:
                 excerpt = excerpt[:277] + "…"
+
+            # 5.1) Nëse body nuk ka imazh, fut hero me cover
+            has_img = bool(re.search(r'<img\b[^>]*src=', body_html or "", flags=re.I))
+            if cover and not has_img:
+                hero = f'<p><img src="{cover}" alt="{strip_text(title)}" loading="eager" decoding="async" style="max-width:100%;height:auto;border-radius:12px"/></p>'
+                body_html = hero + "\n" + (body_html or "")
 
             # 6) Footer burimi
             body_final = (body_html or "") + f"""
