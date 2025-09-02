@@ -15,8 +15,10 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
+# --- Shtesa për rrjet/SSL & log ---
 import ssl, time
 import certifi
+# ----------------------------------
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -33,6 +35,23 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
+# --- Log i thjeshtë (në console + file) ---
+DEBUG = os.getenv("DEBUG", "1") not in ("", "0", "false", "False")
+DEBUG_LOG = (DATA_DIR / "debug_lifestyle.log")
+
+def dlog(msg: str):
+    if not DEBUG: 
+        print(msg); return
+    line = f"[{datetime.datetime.now().isoformat(timespec='seconds')}] {msg}"
+    print(line)
+    try:
+        DATA_DIR.mkdir(exist_ok=True)
+        with DEBUG_LOG.open("a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass
+# -------------------------------------------
+
 try:
     import trafilatura
 except Exception:
@@ -43,12 +62,11 @@ try:
 except Exception:
     Document = None
 
-
-# -------------------- fetch_bytes --------------------
+# --- SHTESË: fetch_bytes me headers + retry/backoff ---
 def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes:
     """
     Shkarkon bytes nga një URL me headers miqësore dhe retry/backoff.
-    Kthen b"" nëse dështon, që të anashkalohet feed-i problematik.
+    Kthen b"" nëse dështon, që feed-i të anashkalohet pa rrëzuar job-in.
     """
     timeout = timeout or HTTP_TIMEOUT
 
@@ -58,7 +76,6 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
         "Accept-Language": "en-US,en;q=0.9",
         "Connection": "close",
     }
-
     ctx = ssl.create_default_context(cafile=certifi.where())
 
     backoff = 1.0
@@ -69,7 +86,8 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
                 return resp.read()
 
         except urllib.error.HTTPError as e:
-            # 403 -> provo me UA "Chrome"
+            dlog(f"[fetch_bytes][HTTP {e.code}] {url}")
+            # 403 -> provo një UA më 'browser-like' pastaj ri-provo
             if e.code == 403 and "Chrome" not in headers["User-Agent"]:
                 headers["User-Agent"] = (
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -78,34 +96,27 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes
                 )
                 time.sleep(1.0)
                 continue
-
-            # 5xx -> provo përsëri me backoff
+            # 5xx -> retry me backoff
             if 500 <= e.code < 600 and attempt < retries:
-                time.sleep(backoff)
-                backoff = min(backoff * 2, 8.0)
+                time.sleep(backoff); backoff = min(backoff * 2, 8.0)
                 continue
-
-            print(f"[fetch_bytes][HTTP {e.code}] {url}")
             return b""
 
         except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
+            dlog(f"[fetch_bytes][NET] {url} -> {e}")
             if attempt < retries:
-                time.sleep(backoff)
-                backoff = min(backoff * 2, 8.0)
+                time.sleep(backoff); backoff = min(backoff * 2, 8.0)
                 continue
-            print(f"[fetch_bytes][NET] {url} -> {e}")
             return b""
 
         except Exception as e:
-            print(f"[fetch_bytes][ERR] {url} -> {e}")
+            dlog(f"[fetch_bytes][ERR] {url} -> {e}")
             return b""
 
     return b""
-# -----------------------------------------------------
-
+# -----------------------------------------------------------
 
 # ... (funksionet e tjera mbeten te pandryshuara) ...
-
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
@@ -151,81 +162,87 @@ def main():
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
             break
 
+        # --- SHTUAR: log + mbrojtje rreth fetch_bytes ---
+        dlog(f"[FEED] {feed_url}")
         try:
             xml = fetch_bytes(feed_url)
         except Exception as e:
-            print(f"[FEED][FAIL] {feed_url} -> {e}")
+            dlog(f"[FEED][FAIL] {feed_url} -> {e}")
             continue
 
         if not xml:
-            print(f"[FEED][EMPTY] {feed_url}")
+            dlog(f"[FEED][SKIP_EMPTY] {feed_url}")
             continue
+        # -------------------------------------------------
 
-        try:
-            for it in parse_feed(xml):
-                if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
-                    break
-                if per_cat.get(category, 0) >= MAX_PER_CAT:
-                    continue
+        for it in parse_feed(xml):
+            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+                dlog(f"[SKIP][MAX_TOTAL] {feed_url}")
+                break
+            if per_cat.get(category, 0) >= MAX_PER_CAT:
+                dlog(f"[SKIP][PER_CAT_CAP] {category} {feed_url}")
+                continue
 
-                title = (it.get("title") or "").strip()
-                link  = (it.get("link") or "").strip()
-                if not title or not link:
-                    continue
+            title = (it.get("title") or "").strip()
+            link  = (it.get("link") or "").strip()
+            if not title or not link:
+                dlog(f"[SKIP][MISSING] title/link -> {feed_url}")
+                continue
 
-                key = hashlib.sha1(link.encode("utf-8")).hexdigest()
-                if key in seen:
-                    continue
+            key = hashlib.sha1(link.encode("utf-8")).hexdigest()
+            if key in seen:
+                dlog(f"[SKIP][SEEN] {title} -> {link}")
+                continue
 
-                # body html
-                body_html, inner_img = extract_body_html(link)
-                # absolutize & sanitize
-                base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
-                body_html = absolutize(body_html, base)
-                body_html = sanitize_article_html(body_html)
-                body_html = limit_words_html(body_html, SUMMARY_WORDS)
+            # body html
+            body_html, inner_img = extract_body_html(link)
+            # absolutize & sanitize
+            base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
+            body_html = absolutize(body_html, base)
+            body_html = sanitize_article_html(body_html)
+            # kufizo ~450 fjale si preview
+            body_html = limit_words_html(body_html, SUMMARY_WORDS)
 
-                # cover
-                cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
+            # cover
+            cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
 
-                # excerpt
-                first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
-                excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
-                if len(excerpt) > 280:
-                    excerpt = excerpt[:277] + "…"
+            # excerpt = paragrafi i pare pa etiketa
+            first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
+            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
+            if len(excerpt) > 280:
+                excerpt = excerpt[:277] + "…"
 
-                body_final = (body_html or "") + f"""
+            # footer i burimit
+            body_final = (body_html or "") + f"""
 <p class="small text-muted mt-4">
   Source: <a href="{link}" target="_blank" rel="nofollow noopener">Read the full article</a>
 </p>"""
 
-                date = today_iso()
-                slug = slugify(title)[:70]
+            date = today_iso()
+            slug = slugify(title)[:70]
 
-                entry = {
-                    "slug": slug,
-                    "title": title,
-                    "category": category,
-                    "date": date,
-                    "excerpt": excerpt,
-                    "cover": cover,
-                    "source": link,
-                    "author": DEFAULT_AUTHOR,
-                    "body": body_final
-                }
-                new_entries.append(entry)
+            entry = {
+                "slug": slug,
+                "title": title,
+                "category": category,
+                "date": date,
+                "excerpt": excerpt,
+                "cover": cover,
+                "source": link,
+                "author": DEFAULT_AUTHOR,
+                "body": body_final
+            }
+            new_entries.append(entry)
 
-                seen[key] = {"title": title, "url": link, "category": category, "created": date}
-                per_cat[category] = per_cat.get(category, 0) + 1
-                added_total += 1
-                print(f"[Lifestyle] + {title}")
-
-        except Exception as e:
-            print(f"[FEED][PARSE_FAIL] {feed_url} -> {e}")
-            continue
+            seen[key] = {"title": title, "url": link, "category": category, "created": date}
+            per_cat[category] = per_cat.get(category, 0) + 1
+            added_total += 1
+            dlog(f"[ADD] {title} -> {link}")
 
     if not new_entries:
-        print("New posts this run: 0")
+        print("New posts this run: 0"); 
+        dlog(f"[SUMMARY] new=0 total_seen={len(seen)} per_cat={per_cat}")
+        dlog(f"[LOG] Shiko {DEBUG_LOG} për detaje.")
         return
 
     posts_idx = new_entries + posts_idx
@@ -235,7 +252,8 @@ def main():
     POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
     SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
     print("New posts this run:", len(new_entries))
-
+    dlog(f"[SUMMARY] new={len(new_entries)} total_seen={len(seen)} per_cat={per_cat}")
+    dlog(f"[LOG] Shiko {DEBUG_LOG} për detaje.")
 
 if __name__ == "__main__":
     main()
