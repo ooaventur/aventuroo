@@ -45,10 +45,12 @@ except Exception:
 
 
 # -------------------- SHTESE: fetch_bytes --------------------
-def fetch_bytes(url: str, timeout: int | None = None, retries: int = 2) -> bytes:
+def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes:
     """
-    Shkarkon bytes nga një URL me headers miqësore dhe retry.
-    Kthen përmbajtjen ose hedh gabimin e fundit pas retry-ve.
+    Shkarkon bytes nga një URL me headers miqësore dhe retry/backoff.
+    - Provon sërish për 5xx dhe timeouts me backoff (1s -> 2s -> 4s -> max 8s).
+    - Provon një herë UA si Chrome në rast 403.
+    - KTHEN b"" nëse dështon pas retry-ve, që loop-i yt ta anashkalojë feed-in pa prishur job-in.
     """
     timeout = timeout or HTTP_TIMEOUT
 
@@ -61,7 +63,7 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 2) -> bytes
 
     ctx = ssl.create_default_context(cafile=certifi.where())
 
-    last_err = None
+    backoff = 1.0
     for attempt in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers=headers, method="GET")
@@ -69,27 +71,46 @@ def fetch_bytes(url: str, timeout: int | None = None, retries: int = 2) -> bytes
                 return resp.read()
 
         except urllib.error.HTTPError as e:
-            # disa hoste kthejne 403 nese UA s’duket si browser i plote
+            # 403 -> provo një UA më "browser-like" një herë dhe ri-provo
             if e.code == 403 and "Chrome" not in headers["User-Agent"]:
                 headers["User-Agent"] = (
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/124.0 Safari/537.36"
                 )
-                last_err = e
                 time.sleep(1.2)
                 continue
-            last_err = e
 
-        except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
-            last_err = e
+            # 5xx -> retry me backoff; respekto 'Retry-After' nëse ekziston
+            if 500 <= e.code < 600 and attempt < retries:
+                retry_after = 0.0
+                try:
+                    ra = e.headers.get("Retry-After")
+                    if ra:
+                        retry_after = float(ra)
+                except Exception:
+                    pass
+                time.sleep(max(backoff, retry_after))
+                backoff = min(backoff * 2, 8.0)
+                continue
 
-        except Exception as e:
-            last_err = e
+            # 4xx të tjera ose s'u zgjidh -> kthe b"" që loop-i të vazhdojë
+            return b""
 
-        time.sleep(1.2)  # backoff i vogel para ri-provimit
+        except (urllib.error.URLError, socket.timeout, TimeoutError):
+            # rrjet/timeouts -> retry me backoff
+            if attempt < retries:
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 8.0)
+                continue
+            return b""
 
-    raise last_err
+        except Exception:
+            # çdo problem tjetër -> mos e rrëzo job-in
+            return b""
+
+    # nëse arrihet këtu, s'ka përmbajtje
+    return b""
 # ------------------ FUND SHTESE: fetch_bytes ------------------
 
 
@@ -130,7 +151,7 @@ def main():
         raw = raw.strip()
         if not raw or raw.startswith("#"): continue
         if "|" not in raw: continue
-        cat, url = raw.split("|", 1)
+        cat, url = raw split("|", 1)
         category = (cat or "").strip().title()
         feed_url = (url or "").strip()
         if category != "Lifestyle" or not feed_url:
