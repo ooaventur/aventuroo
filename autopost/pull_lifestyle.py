@@ -7,6 +7,7 @@ AventurOO – Autopost (Lifestyle)
 - Preferon trafilatura (HTML), pastaj fallback readability-lxml
 - Absolutizon URL-t relative te <a> dhe <img>
 - Heq script/style/iframes/embed te panevojshem
+- Rrit cilësinë e imazheve (srcset → më i madhi, Guardian width=1600)
 - Shton linkun e burimit ne fund
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
@@ -22,7 +23,7 @@ DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-CATEGORY = "Lifestyle"  # kjo skedë punon vetëm për këtë kategori
+CATEGORY = "Lifestyle"
 SEEN_DB = ROOT / "autopost" / f"seen_{CATEGORY.lower()}.json"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
@@ -162,6 +163,86 @@ def limit_words_html(html: str, max_words: int) -> str:
         return f"<p>{trimmed}</p>"
     return "\n".join(out)
 
+# ---- Image helpers ----
+IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
+
+def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
+    try:
+        from urllib.parse import urlencode, urlparse, parse_qsl, urlunparse
+        pr = urlparse(u)
+        if "i.guim.co.uk" not in pr.netloc:
+            return u
+        q = dict(parse_qsl(pr.query, keep_blank_values=True))
+        q["width"] = str(max(int(q.get("width", "0") or 0), target))
+        q.setdefault("quality", "85")
+        q.setdefault("auto", "format")
+        q.setdefault("fit", "max")
+        pr = pr._replace(query=urlencode(q))
+        return urlunparse(pr)
+    except Exception:
+        return u
+
+def pick_largest_media_url(it_elem) -> str:
+    if it_elem is None:
+        return ""
+    best_url, best_score = "", -1
+    ns = {"media":"http://search.yahoo.com/mrss/"}
+    for tag in it_elem.findall(".//media:content", ns) + it_elem.findall(".//media:thumbnail", ns):
+        u = (tag.attrib.get("url") or "").strip()
+        if not u: 
+            continue
+        w = int(tag.attrib.get("width", "0") or 0)
+        h = int(tag.attrib.get("height", "0") or 0)
+        score = (w*h) if (w and h) else w or h or 0
+        if score > best_score:
+            best_url, best_score = u, score
+    enc = it_elem.find("enclosure")
+    if enc is not None and str(enc.attrib.get("type","")).startswith("image"):
+        u = (enc.attrib.get("url") or "").strip()
+        if u and best_score < 0:
+            best_url = u
+    return guardian_upscale_url(best_url) if best_url else ""
+
+def pick_largest_from_srcset(srcset: str) -> str:
+    best_url, best_w = "", -1
+    for part in srcset.split(","):
+        cand = part.strip()
+        if not cand:
+            continue
+        m = re.match(r"(.+?)\s+(\d+)(w|x)", cand)
+        url_only = cand.split()[0] if " " in cand else cand
+        if m:
+            w = int(m.group(2))
+            if w > best_w:
+                best_w = w
+                best_url = url_only
+        else:
+            if best_w < 0:
+                best_url, best_w = url_only, 0
+    return best_url
+
+def upgrade_images_in_body(html: str) -> str:
+    if not html:
+        return html
+    def repl_img(m):
+        tag = m.group(0)
+        mset = re.search(r'\ssrcset=["\']([^"\']+)["\']', tag, flags=re.I)
+        msrc = re.search(r'\ssrc=["\']([^"\']+)["\']', tag, flags=re.I)
+        new_src = None
+        if mset:
+            candidate = pick_largest_from_srcset(mset.group(1))
+            if candidate:
+                new_src = candidate
+        elif msrc:
+            new_src = msrc.group(1)
+        if new_src:
+            new_src = guardian_upscale_url(new_src)
+            tag = re.sub(r'\ssrc=["\'][^"\']+["\']', f' src="{new_src}"', tag, flags=re.I)
+            tag = re.sub(r'\s(width|height)=["\']\d+["\']', "", tag, flags=re.I)
+        return tag
+    return re.sub(r'<img\b[^>]*>', repl_img, html, flags=re.I)
+
+# ---- Extract body ----
 def extract_body_html(url: str) -> tuple[str, str]:
     """Kthen (body_html, first_img_in_body) duke provuar trafilatura → readability."""
     body_html = ""
@@ -288,85 +369,6 @@ def main():
             if key in seen:
                 continue
 
-# ---- Image helpers ----
-IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
-
-def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
-    try:
-        from urllib.parse import urlencode, urlparse, parse_qsl, urlunparse
-        pr = urlparse(u)
-        if "i.guim.co.uk" not in pr.netloc:
-            return u
-        q = dict(parse_qsl(pr.query, keep_blank_values=True))
-        q["width"] = str(max(int(q.get("width", "0") or 0), target))
-        q.setdefault("quality", "85")
-        q.setdefault("auto", "format")
-        q.setdefault("fit", "max")
-        pr = pr._replace(query=urlencode(q))
-        return urlunparse(pr)
-    except Exception:
-        return u
-
-def pick_largest_media_url(it_elem) -> str:
-    if it_elem is None:
-        return ""
-    best_url, best_score = "", -1
-    ns = {"media":"http://search.yahoo.com/mrss/"}
-    for tag in it_elem.findall(".//media:content", ns) + it_elem.findall(".//media:thumbnail", ns):
-        u = (tag.attrib.get("url") or "").strip()
-        if not u: 
-            continue
-        w = int(tag.attrib.get("width", "0") or 0)
-        h = int(tag.attrib.get("height", "0") or 0)
-        score = (w*h) if (w and h) else w or h or 0
-        if score > best_score:
-            best_url, best_score = u, score
-    enc = it_elem.find("enclosure")
-    if enc is not None and str(enc.attrib.get("type","")).startswith("image"):
-        u = (enc.attrib.get("url") or "").strip()
-        if u and best_score < 0:
-            best_url = u
-    return guardian_upscale_url(best_url) if best_url else ""
-
-def pick_largest_from_srcset(srcset: str) -> str:
-    best_url, best_w = "", -1
-    for part in srcset.split(","):
-        cand = part.strip()
-        if not cand:
-            continue
-        m = re.match(r"(.+?)\s+(\d+)(w|x)", cand)
-        url_only = cand.split()[0] if " " in cand else cand
-        if m:
-            w = int(m.group(2))
-            if w > best_w:
-                best_w = w
-                best_url = url_only
-        else:
-            if best_w < 0:
-                best_url, best_w = url_only, 0
-    return best_url
-
-def upgrade_images_in_body(html: str) -> str:
-    if not html:
-        return html
-    def repl_img(m):
-        tag = m.group(0)
-        mset = re.search(r'\ssrcset=["\']([^"\']+)["\']', tag, flags=re.I)
-        msrc = re.search(r'\ssrc=["\']([^"\']+)["\']', tag, flags=re.I)
-        new_src = None
-        if mset:
-            candidate = pick_largest_from_srcset(mset.group(1))
-            if candidate:
-                new_src = candidate
-        elif msrc:
-            new_src = msrc.group(1)
-        if new_src:
-            new_src = guardian_upscale_url(new_src)
-            tag = re.sub(r'\ssrc=["\'][^"\']+["\']', f' src="{new_src}"', tag, flags=re.I)
-            tag = re.sub(r'\s(width|height)=["\']\d+["\']', "", tag, flags=re.I)
-        return tag
-    return re.sub(r'<img\b[^>]*>', repl_img, html, flags=re.I)
-
             # 1) Body HTML
             body_html, inner_img = extract_body_html(link)
 
@@ -375,12 +377,19 @@ def upgrade_images_in_body(html: str) -> str:
             base = f"{parsed.scheme}://{parsed.netloc}"
             body_html = absolutize(body_html, base)
             body_html = sanitize_article_html(body_html)
+            body_html = upgrade_images_in_body(body_html)   # rrit cilësinë e fotove
 
             # 3) Kufizo sipas SUMMARY_WORDS
             body_html = limit_words_html(body_html, SUMMARY_WORDS)
 
             # 4) Cover image
-            cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
+            cover = (
+                pick_largest_media_url(it.get("element"))
+                or find_cover_from_item(it.get("element"), link)
+                or inner_img
+                or FALLBACK_COVER
+            )
+            cover = guardian_upscale_url(cover)
 
             # 5) Excerpt
             first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
@@ -418,11 +427,9 @@ def upgrade_images_in_body(html: str) -> str:
 
     if not new_entries:
         print("New posts this run: 0")
-        # gjithsesi ruaj seen edhe nese s'ka te reja
         SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
         return
 
-    # prepend të rejat
     posts_idx = new_entries + posts_idx
     if MAX_POSTS_PERSIST > 0:
         posts_idx = posts_idx[:MAX_POSTS_PERSIST]
