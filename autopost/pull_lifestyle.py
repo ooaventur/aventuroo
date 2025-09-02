@@ -288,6 +288,85 @@ def main():
             if key in seen:
                 continue
 
+# ---- Image helpers ----
+IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
+
+def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
+    try:
+        from urllib.parse import urlencode, urlparse, parse_qsl, urlunparse
+        pr = urlparse(u)
+        if "i.guim.co.uk" not in pr.netloc:
+            return u
+        q = dict(parse_qsl(pr.query, keep_blank_values=True))
+        q["width"] = str(max(int(q.get("width", "0") or 0), target))
+        q.setdefault("quality", "85")
+        q.setdefault("auto", "format")
+        q.setdefault("fit", "max")
+        pr = pr._replace(query=urlencode(q))
+        return urlunparse(pr)
+    except Exception:
+        return u
+
+def pick_largest_media_url(it_elem) -> str:
+    if it_elem is None:
+        return ""
+    best_url, best_score = "", -1
+    ns = {"media":"http://search.yahoo.com/mrss/"}
+    for tag in it_elem.findall(".//media:content", ns) + it_elem.findall(".//media:thumbnail", ns):
+        u = (tag.attrib.get("url") or "").strip()
+        if not u: 
+            continue
+        w = int(tag.attrib.get("width", "0") or 0)
+        h = int(tag.attrib.get("height", "0") or 0)
+        score = (w*h) if (w and h) else w or h or 0
+        if score > best_score:
+            best_url, best_score = u, score
+    enc = it_elem.find("enclosure")
+    if enc is not None and str(enc.attrib.get("type","")).startswith("image"):
+        u = (enc.attrib.get("url") or "").strip()
+        if u and best_score < 0:
+            best_url = u
+    return guardian_upscale_url(best_url) if best_url else ""
+
+def pick_largest_from_srcset(srcset: str) -> str:
+    best_url, best_w = "", -1
+    for part in srcset.split(","):
+        cand = part.strip()
+        if not cand:
+            continue
+        m = re.match(r"(.+?)\s+(\d+)(w|x)", cand)
+        url_only = cand.split()[0] if " " in cand else cand
+        if m:
+            w = int(m.group(2))
+            if w > best_w:
+                best_w = w
+                best_url = url_only
+        else:
+            if best_w < 0:
+                best_url, best_w = url_only, 0
+    return best_url
+
+def upgrade_images_in_body(html: str) -> str:
+    if not html:
+        return html
+    def repl_img(m):
+        tag = m.group(0)
+        mset = re.search(r'\ssrcset=["\']([^"\']+)["\']', tag, flags=re.I)
+        msrc = re.search(r'\ssrc=["\']([^"\']+)["\']', tag, flags=re.I)
+        new_src = None
+        if mset:
+            candidate = pick_largest_from_srcset(mset.group(1))
+            if candidate:
+                new_src = candidate
+        elif msrc:
+            new_src = msrc.group(1)
+        if new_src:
+            new_src = guardian_upscale_url(new_src)
+            tag = re.sub(r'\ssrc=["\'][^"\']+["\']', f' src="{new_src}"', tag, flags=re.I)
+            tag = re.sub(r'\s(width|height)=["\']\d+["\']', "", tag, flags=re.I)
+        return tag
+    return re.sub(r'<img\b[^>]*>', repl_img, html, flags=re.I)
+
             # 1) Body HTML
             body_html, inner_img = extract_body_html(link)
 
