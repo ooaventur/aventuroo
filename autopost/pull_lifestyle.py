@@ -15,6 +15,8 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
+import ssl, time
+import certifi
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -41,7 +43,69 @@ try:
 except Exception:
     Document = None
 
+
+# -------------------- fetch_bytes --------------------
+def fetch_bytes(url: str, timeout: int | None = None, retries: int = 3) -> bytes:
+    """
+    Shkarkon bytes nga një URL me headers miqësore dhe retry/backoff.
+    Kthen b"" nëse dështon, që të anashkalohet feed-i problematik.
+    """
+    timeout = timeout or HTTP_TIMEOUT
+
+    headers = {
+        "User-Agent": UA,
+        "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, text/html;q=0.7, */*;q=0.5",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "close",
+    }
+
+    ctx = ssl.create_default_context(cafile=certifi.where())
+
+    backoff = 1.0
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=headers, method="GET")
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                return resp.read()
+
+        except urllib.error.HTTPError as e:
+            # 403 -> provo me UA "Chrome"
+            if e.code == 403 and "Chrome" not in headers["User-Agent"]:
+                headers["User-Agent"] = (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0 Safari/537.36"
+                )
+                time.sleep(1.0)
+                continue
+
+            # 5xx -> provo përsëri me backoff
+            if 500 <= e.code < 600 and attempt < retries:
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 8.0)
+                continue
+
+            print(f"[fetch_bytes][HTTP {e.code}] {url}")
+            return b""
+
+        except (urllib.error.URLError, socket.timeout, TimeoutError) as e:
+            if attempt < retries:
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 8.0)
+                continue
+            print(f"[fetch_bytes][NET] {url} -> {e}")
+            return b""
+
+        except Exception as e:
+            print(f"[fetch_bytes][ERR] {url} -> {e}")
+            return b""
+
+    return b""
+# -----------------------------------------------------
+
+
 # ... (funksionet e tjera mbeten te pandryshuara) ...
+
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
@@ -87,72 +151,82 @@ def main():
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
             break
 
-        xml = fetch_bytes(feed_url)
+        try:
+            xml = fetch_bytes(feed_url)
+        except Exception as e:
+            print(f"[FEED][FAIL] {feed_url} -> {e}")
+            continue
+
         if not xml:
-            print("Feed empty:", feed_url); continue
+            print(f"[FEED][EMPTY] {feed_url}")
+            continue
 
-        for it in parse_feed(xml):
-            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
-                break
-            if per_cat.get(category, 0) >= MAX_PER_CAT:
-                continue
+        try:
+            for it in parse_feed(xml):
+                if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+                    break
+                if per_cat.get(category, 0) >= MAX_PER_CAT:
+                    continue
 
-            title = (it.get("title") or "").strip()
-            link  = (it.get("link") or "").strip()
-            if not title or not link:
-                continue
+                title = (it.get("title") or "").strip()
+                link  = (it.get("link") or "").strip()
+                if not title or not link:
+                    continue
 
-            key = hashlib.sha1(link.encode("utf-8")).hexdigest()
-            if key in seen:
-                continue
+                key = hashlib.sha1(link.encode("utf-8")).hexdigest()
+                if key in seen:
+                    continue
 
-            # body html
-            body_html, inner_img = extract_body_html(link)
-            # absolutize & sanitize
-            base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
-            body_html = absolutize(body_html, base)
-            body_html = sanitize_article_html(body_html)
-            # kufizo ~450 fjale si preview
-            body_html = limit_words_html(body_html, SUMMARY_WORDS)
+                # body html
+                body_html, inner_img = extract_body_html(link)
+                # absolutize & sanitize
+                base = f"{urlparse(link).scheme}://{urlparse(link).netloc}"
+                body_html = absolutize(body_html, base)
+                body_html = sanitize_article_html(body_html)
+                body_html = limit_words_html(body_html, SUMMARY_WORDS)
 
-            # cover
-            cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
+                # cover
+                cover = find_cover_from_item(it.get("element"), link) or inner_img or FALLBACK_COVER
 
-            # excerpt = paragrafi i pare pa etiketa
-            first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
-            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
-            if len(excerpt) > 280:
-                excerpt = excerpt[:277] + "…"
+                # excerpt
+                first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
+                excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
+                if len(excerpt) > 280:
+                    excerpt = excerpt[:277] + "…"
 
-            # footer i burimit
-            body_final = (body_html or "") + f"""
+                body_final = (body_html or "") + f"""
 <p class="small text-muted mt-4">
   Source: <a href="{link}" target="_blank" rel="nofollow noopener">Read the full article</a>
 </p>"""
 
-            date = today_iso()
-            slug = slugify(title)[:70]
+                date = today_iso()
+                slug = slugify(title)[:70]
 
-            entry = {
-                "slug": slug,
-                "title": title,
-                "category": category,
-                "date": date,
-                "excerpt": excerpt,
-                "cover": cover,
-                "source": link,
-                "author": DEFAULT_AUTHOR,
-                "body": body_final
-            }
-            new_entries.append(entry)
+                entry = {
+                    "slug": slug,
+                    "title": title,
+                    "category": category,
+                    "date": date,
+                    "excerpt": excerpt,
+                    "cover": cover,
+                    "source": link,
+                    "author": DEFAULT_AUTHOR,
+                    "body": body_final
+                }
+                new_entries.append(entry)
 
-            seen[key] = {"title": title, "url": link, "category": category, "created": date}
-            per_cat[category] = per_cat.get(category, 0) + 1
-            added_total += 1
-            print(f"[Lifestyle] + {title}")
+                seen[key] = {"title": title, "url": link, "category": category, "created": date}
+                per_cat[category] = per_cat.get(category, 0) + 1
+                added_total += 1
+                print(f"[Lifestyle] + {title}")
+
+        except Exception as e:
+            print(f"[FEED][PARSE_FAIL] {feed_url} -> {e}")
+            continue
 
     if not new_entries:
-        print("New posts this run: 0"); return
+        print("New posts this run: 0")
+        return
 
     posts_idx = new_entries + posts_idx
     if MAX_POSTS_PERSIST > 0:
@@ -161,6 +235,7 @@ def main():
     POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
     SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
     print("New posts this run:", len(new_entries))
+
 
 if __name__ == "__main__":
     main()
