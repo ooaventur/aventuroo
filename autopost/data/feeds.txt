@@ -1,10 +1,34 @@
 travel|https://www.lonelyplanet.com/blog.rss
 travel|https://www.traveloffpath.com/feed/
-stories|https://www.bbc.com/travel/feed.rss
+
 culture|https://hyperallergic.com/feed/
 Culture|https://www.smithsonianmag.com/rss/latest_articles/
 guides|https://www.thebrokebackpacker.com/feed/
 deals|https://www.secretflying.com/feed/
+
+
+
+
+Stories|https://gointothestory.blcklst.com/feed
+Stories|https://bang2write.com/feed/
+Stories|https://coffeeandcrumbs.net/feed/
+Stories|https://www.everydayfiction.com/rss
+Stories|https://longreads.com/feed/
+Stories|https://narratively.com/feed/
+Stories|https://www.storyclubmagazine.com/feed/
+Stories|https://brevitymag.com/feed/
+Stories|https://therumpus.net/feed/
+Stories|https://www.hippocampusmagazine.com/feed/
+Stories|https://granta.com/feed/
+Stories|https://www.creativenonfiction.org/rss
+Stories|https://www.fictionaut.com/rss
+Stories|https://thestorytellingnonprofit.com/feed/
+Stories|https://www.thedrumpus.net/essays/feed/
+Stories|https://www.flashfictiononline.com/feed/
+Stories|https://humansofnewyork.com/feed/
+Stories|https://thestoryexchange.org/feed/
+Stories|https://chookooloonks.com/feed/
+
 
 
 # Lifestyle RSS feeds
