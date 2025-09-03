@@ -74,17 +74,24 @@
 <script>
   renderHeader('Stories'); renderFooter();
 
-  let all = []; let perPage = 6; let page = 1;
+  let all = []; let perPage = 12; let page = 1;
+
+  function qp(name){ return new URL(location.href).searchParams.get(name); }
 
   function sortPosts(arr, how){
     if (how==='title') return arr.sort((a,b)=>a.title.localeCompare(b.title));
-    if (how==='old')   return arr.sort((a,b)=>(a.date||'').localeCompare(b.date||''));
-    return arr.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    if (how==='old')   return arr.sort((a,b)=>(a.date||'').localeCompare(b.date||'')); // YYYY-MM-DD ok
+    return arr.sort((a,b)=>(b.date||'').localeCompare(a.date||'')); // newest
   }
 
   function filtered(){
-    const s = document.getElementById('sort').value;
-    return sortPosts(all.filter(p => (p.category||'').toLowerCase()==='stories'), s);
+    const s   = document.getElementById('sort').value;
+    const sub = qp('sub'); // p.sh. 'Stories-Flash'
+    const base = (p) => (p.category||'').startsWith('Stories'); // merr të gjitha Stories*
+
+    // Nëse ka nën-kategori në URL → filtro vetëm atë
+    const arr = sub ? all.filter(p => (p.category||'') === sub) : all.filter(base);
+    return sortPosts(arr, s);
   }
 
   function render(){
@@ -122,8 +129,10 @@
     const r = await fetch('data/posts.json');
     all = r.ok ? await r.json() : [];
     render();
-    // FIX: interpolimi i dates te Popular
-    document.getElementById('popular').innerHTML = all.slice(0,5).map(p=>`
+
+    // Popular: po i lëmë 5 të parët nga posts.json; mund të duash t'i sortosh me 'newest' këtu
+    const popular = all.slice(0,5);
+    document.getElementById('popular').innerHTML = popular.map(p=>`
       <li class='mb-2'>
         <a class='link-secondary text-decoration-none' href="article.html?slug=${p.slug}">${p.title}</a>
         <div class='text-muted'>${p.date}</div>
@@ -132,7 +141,7 @@
   }
   load();
 </script>
-
+  
 <!-- Skripti që sjell artikujt nga burimet e jashtme (Stories) -->
 <script src="assets/js/external-feed.js" defer></script>
 </body>
