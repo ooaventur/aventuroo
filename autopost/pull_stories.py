@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-AventurOO – Autopost (Stories)
-- Lexon vetem rreshtat "Stories|<RSS>" nga autopost/data/feeds.txt
+AventurOO – Autopost (Stories + subcats)
+- Lexon vetem rreshtat ku Kategoria fillon me "Stories" nga autopost/data/feeds.txt
+  p.sh. "Stories", "Stories-Flash", "Stories-Literary", etj.
 - Nxjerr trupin e artikullit si HTML te paster (paragrafe, bold, linke, pa imazhe)
 - Preferon trafilatura (HTML), pastaj fallback readability-lxml
 - Absolutizon URL-t relative te <a> dhe <img> (edhe pse <img> hiqen me pas)
@@ -24,8 +25,9 @@ DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
-CATEGORY = "Stories"
-SEEN_DB = ROOT / "autopost" / f"seen_{CATEGORY.lower()}.json"
+# Ndryshim kyç: prano çdo kategori që fillon me "Stories"
+CATEGORY_PREFIX = "Stories"
+SEEN_DB = ROOT / "autopost" / f"seen_{CATEGORY_PREFIX.lower()}.json"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
@@ -336,7 +338,9 @@ def main():
         cat, url = raw.split("|", 1)
         category = (cat or "").strip().title()
         feed_url = (url or "").strip()
-        if category != CATEGORY or not feed_url:
+
+        # 🔁 Ndryshimi: prano vetëm kategoritë që fillojnë me "Stories"
+        if not feed_url or not category.startswith(CATEGORY_PREFIX):
             continue
 
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
@@ -406,7 +410,7 @@ def main():
             entry = {
                 "slug": slug,
                 "title": title,
-                "category": category,
+                "category": category,  # ruaj nën-kategorinë p.sh. "Stories-Flash"
                 "date": date,
                 "excerpt": excerpt,
                 "cover": cover,
@@ -419,7 +423,7 @@ def main():
             seen[key] = {"title": title, "url": link, "category": category, "created": date}
             per_cat[category] = per_cat.get(category, 0) + 1
             added_total += 1
-            print(f"[{CATEGORY}] + {title}")
+            print(f"[{category}] + {title}")
 
     if not new_entries:
         print("New posts this run: 0")
