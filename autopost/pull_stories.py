@@ -30,14 +30,15 @@ from .utils import (
 )
 
 # ------------------ Konfigurime ------------------
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
+REPO_ROOT = PACKAGE_ROOT.parent.parent.parent
+DATA_DIR = REPO_ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
-FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
+FEEDS = PACKAGE_ROOT / "data" / "feeds.txt"
 
 # Ndryshim kyç: prano çdo kategori që fillon me "Stories"
 CATEGORY_PREFIX = "Stories"
-SEEN_DB = ROOT / "autopost" / f"seen_{CATEGORY_PREFIX.lower()}.json"
+SEEN_DB = PACKAGE_ROOT / f"seen_{CATEGORY_PREFIX.lower()}.json"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
