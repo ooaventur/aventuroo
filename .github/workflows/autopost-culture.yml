@@ -35,7 +35,7 @@ jobs:
       - name: Ensure files
         run: |
           mkdir -p src/aventuroo/autopost data
-          [ -s src/aventuroo/autopost/seen.json ] || echo "{}" > src/aventuroo/autopost/seen_culture.json
+          [ -s src/aventuroo/autopost/seen_culture.json ] || echo "{}" > src/aventuroo/autopost/seen_culture.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Culture autoposter
