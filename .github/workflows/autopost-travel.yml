@@ -34,7 +34,7 @@ jobs:
       - name: Ensure files
         run: |
           mkdir -p src/aventuroo/autopost data
-          [ -s src/aventuroo/autopost/seen.json ] || echo "{}" > src/aventuroo/autopost/seen_travel.json
+          [ -s src/aventuroo/autopost/seen_travel.json ] || echo "{}" > src/aventuroo/autopost/seen_travel.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Travel autoposter
