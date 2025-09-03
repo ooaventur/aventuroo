@@ -14,9 +14,19 @@ AventurOO – Autopost (Lifestyle)
 """
 
 import os, re, json, hashlib, pathlib
-from urllib.parse import urlparse, urljoin
-from xml.etree import ElementTree as ET
-from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
+from urllib.parse import urlparse
+from .utils import (
+    fetch_bytes,
+    strip_text,
+    parse_feed,
+    find_cover_from_item,
+    absolutize,
+    sanitize_article_html,
+    limit_words_html,
+    extract_body_html,
+    slugify,
+    today_iso,
+)
 # ------------------ Konfigurime ------------------
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -30,8 +40,6 @@ MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
 SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "1000"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
-HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
-UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
@@ -109,52 +117,6 @@ def sanitize_img_url(u: str) -> str:
     if u.startswith("http://"):
         u = _proxy_if_mixed(u)
     return u
-
-# ---- Extract body ----
-def extract_body_html(url: str) -> tuple[str, str]:
-    """Kthen (body_html, first_img_in_body) duke provuar trafilatura → readability → fallback tekst."""
-    body_html = ""
-    first_img = ""
-    # 1) trafilatura
-    if trafilatura is not None:
-        try:
-            downloaded = trafilatura.fetch_url(url)
-            if downloaded:
-                th = trafilatura.extract(
-                    downloaded,
-                    output_format="html",
-                    include_images=True,
-                    include_links=True,
-                    include_formatting=True
-                )
-                if th:
-                    body_html = th
-                    m = re.search(r'<img[^>]+src=["\'](http[^"\']+)["\']', th, flags=re.I)
-                    if m:
-                        first_img = m.group(1)
-        except Exception as e:
-            print("trafilatura error:", e)
-    # 2) readability-lxml
-    if not body_html and Document is not None:
-        try:
-            raw = http_get(url)
-            doc = Document(raw)
-            body_html = doc.summary(html_partial=True)
-            if body_html and not first_img:
-                m = re.search(r'<img[^>]+src=["\'](http[^"\']+)["\']', body_html, flags=re.I)
-                if m:
-                    first_img = m.group(1)
-        except Exception as e:
-            print("readability error:", e)
-    # 3) Fallback total
-    if not body_html:
-        try:
-            raw = http_get(url)
-            txt = strip_text(raw)
-            return f"<p>{txt}</p>", ""
-        except Exception:
-            return "", ""
-    return body_html, first_img
 
 # ------------------ Main ------------------
 def main():
