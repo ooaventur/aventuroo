@@ -2,25 +2,32 @@ name: Autopost • Lifestyle
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "20,50 * * * *"
+    - cron: "20,50 * * * *"  # UTC
 
 permissions:
   contents: write
 
+concurrency:
+  group: autopost-lifestyle
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
-    env:  
+    env:
       SUMMARY_WORDS: "700"
       MAX_PER_CAT: "6"
       HTTP_TIMEOUT: "18"
       AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
       FALLBACK_COVER: "assets/img/cover-fallback.jpg"
+      PYTHONUTF8: "1"
+      PYTHONPATH: "${{ github.workspace }}/src"   # <<< KËTU vendoset që Python të gjejë 'aventuroo'
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # që të lejojmë pull/rebase
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -36,8 +43,18 @@ jobs:
           mkdir -p src/aventuroo/autopost data
           [ -s src/aventuroo/autopost/seen_lifestyle.json ] || echo "{}" > src/aventuroo/autopost/seen_lifestyle.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
+          # Sigurohu që paketa ekziston
+          [ -f src/aventuroo/__init__.py ] || touch src/aventuroo/__init__.py
+          [ -f src/aventuroo/autopost/__init__.py ] || touch src/aventuroo/autopost/__init__.py
+
+      - name: Debug PYTHONPATH (opsionale)
+        run: |
+          echo "PYTHONPATH=$PYTHONPATH"
+          python -c "import sys; print('sys.path=', sys.path[:5])"
 
       - name: Run Lifestyle autoposter
+        env:
+          PYTHONPATH: "${{ github.workspace }}/src"   # backup, nëse lart humbet për ndonjë arsye
         run: python -m aventuroo.autopost.pull_lifestyle
 
       - name: Commit & push
@@ -50,9 +67,9 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "autopost(lifestyle): body html + attribution"
-            # nëse ka ndryshime në remote, bëj rebase që të shmanget non-fast-forward
-            git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
-            git push
+            exit 0
           fi
+
+          git commit -m "autopost(lifestyle): body html + attribution"
+          git pull --rebase origin main || true
+          git push origin HEAD:main
