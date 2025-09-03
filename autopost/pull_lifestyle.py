@@ -13,8 +13,7 @@ AventurOO – Autopost (Lifestyle)
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
-from html import unescape
+import os, re, json, hashlib, pathlib
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
 from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
@@ -156,16 +155,6 @@ def extract_body_html(url: str) -> tuple[str, str]:
         except Exception:
             return "", ""
     return body_html, first_img
-
-def slugify(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.lower()
-    s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"[\s_-]+", "-", s)
-    return s.strip("-") or "post"
-
-def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
 
 # ------------------ Main ------------------
 def main():
