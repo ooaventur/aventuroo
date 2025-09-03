@@ -2,147 +2,164 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AventurOO • Stories</title>
+  <title>AventurOO — Stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS (nëse e ke tashmë globalisht, mund ta heqësh këtu) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Ikona/opsionale -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <style>
+    .shadow-soft { box-shadow: 0 8px 24px rgba(0,0,0,.05); }
+    .badge-cat { background:#f1f3f5; color:#333; border-radius: 999px; padding: .35rem .6rem; font-size:.75rem; }
+    .line-clamp-3 {
+      display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+    }
+    .ad-banner { 
+      background:#f8f9fa; border:1px dashed #ced4da; 
+      border-radius:12px; padding:18px; text-align:center; 
+      color:#6c757d; font-weight:600;
+    }
+    /* Siguro 4 kolona në desktop (≥992px) → 2 rreshta x 4 artikuj */
+    @media (min-width: 992px){
+      .story-card { width: 25%; }
+    }
+  </style>
 </head>
-<body class="cat-stories">
-<div id="site-header"></div>
+<body>
 
-<div class="ad-box text-center py-3">
-  <div class="container"><div class="py-3">[728×90 Banner Ad Placeholder]</div></div>
-</div>
+  <div id="site-header"></div>
 
-<section class="container py-4">
-  <div class="d-flex align-items-center justify-content-between mb-3">
-    <div>
-      <h1 class="fw-bold reveal-up">Stories</h1>
-      <p class="muted">Latest stories and narratives.</p>
-    </div>
-    <div class="d-flex align-items-center gap-2">
-      <span class="muted small">Sort</span>
-      <select id="sort" class="form-select form-select-sm" style="width:auto" onchange="render()">
-        <option value="new">Newest</option>
-        <option value="old">Oldest</option>
-        <option value="title">Title A–Z</option>
-      </select>
-    </div>
-  </div>
+  <main class="container my-4">
+    <header class="mb-4">
+      <h1 class="h3 fw-bold mb-0">Stories</h1>
+      <p class="text-muted mb-0">Explore all sub-categories and the latest stories.</p>
+    </header>
 
-  <div class="row g-4">
-    <div class="col-lg-8">
-      <!-- Lista jote ekzistuese (nga data/posts.json, vetëm category=stories) -->
-      <div id="list" class="row g-4"></div>
+    <!-- Këtu do të krijohen seksionet e nën-kategorive -->
+    <div id="stories-sections" class="vstack gap-5"></div>
+  </main>
 
-      <div class="d-flex align-items-center justify-content-between mt-4">
-        <button id="prevBtn" class="btn btn-outline-brand btn-sm" onclick="prevPage()">← Previous</button>
-        <div id="pageInfo" class="small muted"></div>
-        <button id="nextBtn" class="btn btn-outline-brand btn-sm" onclick="nextPage()">Next →</button>
-      </div>
+  <div id="site-footer"></div>
 
-      <!-- >>> Seksioni automatik nga burime të jashtme (Stories) <<< -->
-      <hr class="my-5">
-      <div class="d-flex align-items-center justify-content-between mb-3">
-        <h3 class="fw-bold mb-0">Fresh from the web</h3>
-        <a href="index.html" class="small muted">← Back to Home</a>
-      </div>
-      <div class="row g-4 external-category-feed" data-category-feed="stories"></div>
-      <!-- >>> Fund i seksionit automatik <<< -->
-    </div>
+  <!-- Bootstrap Bundle (dropdown i navbar-it) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <!-- Site header/footer -->
+  <script src="site.js"></script>
 
-    <aside class="col-lg-4">
-      <div class="ad-box rounded-4 d-flex align-items-center justify-content-center mb-3" style="height:250px;">[300×250 Ad]</div>
-      <div class="card border-0 shadow-soft mb-3">
-        <div class="card-body">
-          <div class="small text-uppercase text-muted mb-2">Popular</div>
-          <ul id="popular" class="list-unstyled small mb-0"></ul>
+  <script>
+    // Inicializo header/footer
+    renderHeader('Stories');
+    renderFooter();
+
+    // Konfigurim i nën-kategorive (label në UI, key = vlera që vjen nga posts.json)
+    const SUBCATS = [
+      { label: 'Flash Fiction',   key: 'Stories-Flash'     },
+      { label: 'Literary',        key: 'Stories-Literary'  },
+      { label: 'Nonfiction',      key: 'Stories-Nonfiction'},
+      { label: 'Personal',        key: 'Stories-Personal'  },
+      { label: 'Fantasy/Horror',  key: 'Stories-Fantasy'   },
+    ];
+
+    // Renditje (më të rejat të parat) — funksion robust për data "YYYY-MM-DD"
+    function sortByDateDesc(arr){
+      return arr.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||''));
+    }
+
+    // Krijo HTML për një kartë
+    function cardHTML(p){
+      const title = p.title || 'Untitled';
+      const img   = p.cover || 'assets/img/cover-fallback.jpg';
+      const slug  = encodeURIComponent(p.slug || '');
+      const excerpt = (p.excerpt || '').toString();
+
+      return `
+        <div class="story-card col-12 col-md-6 col-lg-3 d-flex">
+          <article class="card border-0 shadow-soft w-100 h-100">
+            <a href="article.html?slug=${slug}" class="ratio ratio-16x9">
+              <img src="${img}" class="card-img-top object-fit-cover" alt="${title}">
+            </a>
+            <div class="card-body d-flex flex-column">
+              <span class="badge-cat">${p.category || ''}</span>
+              <h5 class="card-title fw-bold mt-2">
+                <a class="stretched-link text-decoration-none link-dark" href="article.html?slug=${slug}">
+                  ${title}
+                </a>
+              </h5>
+              <p class="card-text text-muted line-clamp-3">${excerpt}</p>
+              <div class="mt-auto small text-muted d-flex justify-content-between">
+                <span>${p.date || ''}</span>
+                <span>Read →</span>
+              </div>
+            </div>
+          </article>
         </div>
-      </div>
-      <div class="ad-box rounded-4 d-flex align-items-center justify-content-center" style="height:600px;">[300×600 Skyscraper Ad]</div>
-    </aside>
-  </div>
-</section>
+      `;
+    }
 
-<div id="site-footer"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/site.js"></script>
-<script src="assets/js/animate.js"></script>
-<script>
-  renderHeader('Stories'); renderFooter();
-
-  let all = []; let perPage = 12; let page = 1;
-
-  function qp(name){ return new URL(location.href).searchParams.get(name); }
-
-  function sortPosts(arr, how){
-    if (how==='title') return arr.sort((a,b)=>a.title.localeCompare(b.title));
-    if (how==='old')   return arr.sort((a,b)=>(a.date||'').localeCompare(b.date||'')); // YYYY-MM-DD ok
-    return arr.sort((a,b)=>(b.date||'').localeCompare(a.date||'')); // newest
-  }
-
-  function filtered(){
-    const s   = document.getElementById('sort').value;
-    const sub = qp('sub'); // p.sh. 'Stories-Flash'
-    const base = (p) => (p.category||'').startsWith('Stories'); // merr të gjitha Stories*
-
-    // Nëse ka nën-kategori në URL → filtro vetëm atë
-    const arr = sub ? all.filter(p => (p.category||'') === sub) : all.filter(base);
-    return sortPosts(arr, s);
-  }
-
-  function render(){
-    const posts = filtered();
-    const total = Math.max(1, Math.ceil(posts.length/perPage));
-    page = Math.min(page, total);
-    const slice = posts.slice((page-1)*perPage, (page-1)*perPage + perPage);
-
-    document.getElementById('list').innerHTML = slice.map(p=>`
-      <div class="col-sm-6">
-        <article class="card border-0 shadow-soft h-100">
-          <a href="article.html?slug=${p.slug}"><img src="${p.cover}" class="card-img-top" alt="${p.title}"></a>
-          <div class="card-body d-flex flex-column">
-            <span class="badge badge-cat">${p.category}</span>
-            <h5 class="card-title mt-2"><a href="article.html?slug=${p.slug}" class="link-dark">${p.title}</a></h5>
-            <p class="card-text muted line-clamp-3">${p.excerpt}</p>
-            <div class="mt-auto d-flex justify-content-between small muted">
-              <span>${p.date}</span>
-              <a class="link-primary" href="article.html?slug=${p.slug}">Read →</a>
+    // Seksioni për çdo nën-kategori: titull bold, 8 artikuj (2 rreshta × 4), dhe një banner ad në fund
+    function sectionHTML(label, posts){
+      const cards = posts.map(cardHTML).join('');
+      return `
+        <section class="story-sub mb-2">
+          <div class="d-flex align-items-baseline justify-content-between mb-3">
+            <h2 class="h4 fw-bold mb-0">${label}</h2>
+            <!-- opsionale: link "see all" te stories.html?sub=<key> -->
+          </div>
+          <div class="row g-4">${cards}</div>
+          <div class="mt-4">
+            <!-- Banner AD: zëvendësoje me kodin e reklamës tënde -->
+            <div class="ad-banner">
+              970×250 — Banner Ad (replace with your ad code)
             </div>
           </div>
-        </article>
-      </div>
-    `).join('');
+        </section>
+      `;
+    }
 
-    document.getElementById('pageInfo').textContent = `Page ${page} of ${total}`;
-    document.getElementById('prevBtn').disabled = page<=1;
-    document.getElementById('nextBtn').disabled = page>=total;
-  }
+    async function loadAndRender(){
+      try{
+        const res = await fetch('data/posts.json', { cache: 'no-store' });
+        const all = res.ok ? await res.json() : [];
 
-  function prevPage(){ if(page>1){ page--; render(); } }
-  function nextPage(){ page++; render(); }
+        // Për çdo nën-kategori, merr postet, filtro, rendit, merr 8 më të fundit
+        const container = document.getElementById('stories-sections');
+        container.innerHTML = SUBCATS.map(sc => {
+          const items = sortByDateDesc(
+            all.filter(p => (p.category||'') === sc.key)
+          ).slice(0, 8);
 
-  async function load(){
-    const r = await fetch('data/posts.json');
-    all = r.ok ? await r.json() : [];
-    render();
+          // Nëse nuk ka artikuj, e shfaqim seksionin me një njoftim të vogël
+          if (!items.length){
+            return `
+              <section class="story-sub mb-2">
+                <div class="d-flex align-items-baseline justify-content-between mb-3">
+                  <h2 class="h4 fw-bold mb-0">${sc.label}</h2>
+                </div>
+                <div class="alert alert-light border d-flex align-items-center" role="alert">
+                  <i class="fa-regular fa-file-lines me-2"></i>
+                  Nuk ka ende artikuj në këtë nën-kategori.
+                </div>
+                <div class="mt-4">
+                  <div class="ad-banner">970×250 — Banner Ad</div>
+                </div>
+              </section>
+            `;
+          }
 
-    // Popular: po i lëmë 5 të parët nga posts.json; mund të duash t'i sortosh me 'newest' këtu
-    const popular = all.slice(0,5);
-    document.getElementById('popular').innerHTML = popular.map(p=>`
-      <li class='mb-2'>
-        <a class='link-secondary text-decoration-none' href="article.html?slug=${p.slug}">${p.title}</a>
-        <div class='text-muted'>${p.date}</div>
-      </li>
-    `).join('');
-  }
-  load();
-</script>
-  
-<!-- Skripti që sjell artikujt nga burimet e jashtme (Stories) -->
-<script src="assets/js/external-feed.js" defer></script>
+          return sectionHTML(sc.label, items);
+        }).join('');
+
+      } catch(err){
+        console.error('Load posts error:', err);
+        document.getElementById('stories-sections').innerHTML =
+          `<div class="alert alert-danger">Nuk arrita të lexoj postimet.</div>`;
+      }
+    }
+
+    loadAndRender();
+  </script>
 </body>
 </html>
