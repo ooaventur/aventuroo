@@ -1,8 +1,18 @@
+<script>
 function renderHeader(active){
+  // Nën-kategori për Stories
+  const storySubs = [
+    { label: 'Flash Fiction',   val: 'Stories-Flash' },
+    { label: 'Literary',        val: 'Stories-Literary' },
+    { label: 'Nonfiction',      val: 'Stories-Nonfiction' },
+    { label: 'Personal',        val: 'Stories-Personal' },
+    { label: 'Fantasy/Horror',  val: 'Stories-Fantasy' },
+  ];
+
   const nav = [
     {title:'Home', url:'index.html'},
     {title:'Travel', url:'travel.html'},
-    {title:'Stories', url:'stories.html'},
+    {title:'Stories', url:'stories.html', subs: storySubs},
     {title:'Culture', url:'culture.html'},
     {title:'Lifestyle', url:'lifestyle.html'},
     {title:'Guides', url:'guides.html'},
@@ -11,11 +21,35 @@ function renderHeader(active){
     {title:'Contact', url:'contact.html'}
   ];
 
-  const links = nav.map(n => `
-    <li class="nav-item">
-      <a class="nav-link ${active===n.title?'active fw-semibold':''}" href="${n.url}">${n.title}</a>
-    </li>
-  `).join('');
+  const links = nav.map(n => {
+    // Link i thjeshtë (pa dropdown)
+    if (!n.subs) {
+      return `
+        <li class="nav-item">
+          <a class="nav-link ${active===n.title?'active fw-semibold':''}" href="${n.url}">${n.title}</a>
+        </li>`;
+    }
+
+    // Dropdown për Stories
+    const subLinks = n.subs.map(s =>
+      `<li><a class="dropdown-item" href="${n.url}?sub=${encodeURIComponent(s.val)}">${s.label}</a></li>`
+    ).join('');
+
+    return `
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle ${active===n.title?'active fw-semibold':''}"
+           href="${n.url}"
+           id="navStories"
+           role="button"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">
+          ${n.title}
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navStories">
+          ${subLinks}
+        </ul>
+      </li>`;
+  }).join('');
 
   document.getElementById('site-header').innerHTML = `
   <header class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
@@ -84,3 +118,4 @@ function renderFooter(){
     </div>
   </footer>`;
 }
+</script>
