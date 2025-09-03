@@ -13,62 +13,6 @@ from urllib.parse import urljoin
 from xml.etree import ElementTree as ET
 import datetime
 
-
-# Minimal utilities so tests can import:
-# aventuroo.autopost.utils.slugify, aventuroo.autopost.utils.parse_feed
-
-import re
-from xml.etree import ElementTree as ET
-
-def slugify(s: str) -> str:
-    """Lowercase, replace non-alnum with '-', trim."""
-    s = (s or "").lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    return s.strip("-") or "post"
-
-def parse_feed(xml_bytes: bytes):
-    """
-    Parse RSS/Atom bytes and return a list of dicts:
-    [{"title": ..., "link": ..., "summary": ..., "element": <Element>}]
-    """
-    if not xml_bytes:
-        return []
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
-
-    items = []
-
-    # RSS 2.0
-    for it in root.findall(".//item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        desc = (it.findtext("description") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": desc, "element": it})
-
-    # Atom
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
-    for e in root.findall(".//atom:entry", ns):
-        title = (e.findtext("atom:title", default="") or "").strip()
-        link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
-        link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (
-            e.findtext("atom:summary", default="")
-            or e.findtext("atom:content", default="")
-            or ""
-        ).strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": summary, "element": e})
-
-    return items
-
-
-
-
-
-
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 
