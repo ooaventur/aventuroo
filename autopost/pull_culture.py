@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 AventurOO – Autopost (Culture)
-- Lexon vetem rreshtat "Culture|<RSS>" nga autopost/data/feeds.txt
+- Lexon vetem rreshtat "Culture|<RSS>" nga src/aventuroo/autopost/data/feeds.txt
 - Nxjerr trupin e artikullit si HTML te paster (paragrafe, bold, linke, imazhe)
 - Preferon trafilatura (HTML), pastaj fallback readability-lxml
 - Absolutizon URL-t relative te <a> dhe <img>
