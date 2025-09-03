@@ -15,6 +15,7 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
+
       SUMMARY_WORDS: "700"
       MAX_PER_CAT: "6"
       HTTP_TIMEOUT: "18"
@@ -40,12 +41,9 @@ jobs:
 
       - name: Ensure files
         run: |
-          mkdir -p src/aventuroo/autopost data
-          [ -s src/aventuroo/autopost/seen_lifestyle.json ] || echo "{}" > src/aventuroo/autopost/seen_lifestyle.json
+          mkdir -p autopost data
+          [ -s autopost/seen_lifestyle.json ] || echo "{}" > autopost/seen_lifestyle.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
-          # Sigurohu që paketa ekziston
-          [ -f src/aventuroo/__init__.py ] || touch src/aventuroo/__init__.py
-          [ -f src/aventuroo/autopost/__init__.py ] || touch src/aventuroo/autopost/__init__.py
 
       - name: Debug PYTHONPATH (opsionale)
         run: |
@@ -55,13 +53,8 @@ jobs:
       - name: Run Lifestyle autoposter
         env:
           PYTHONPATH: "${{ github.workspace }}/src"   # backup, nëse lart humbet për ndonjë arsye
-        run: python -m aventuroo.autopost.pull_lifestyle
-
-
-
-      - name: Debug sys.path
-        run: python -c "import sys; print(sys.path)"
-
+        working-directory: .
+        run: python -m autopost.pull_lifestyle
 
       - name: Commit & push
         shell: bash
