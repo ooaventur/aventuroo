@@ -17,11 +17,6 @@ jobs:
       AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
       FALLBACK_COVER: "assets/img/cover-fallback.jpg"
 
-
-- name: Run Lifestyle autoposter
-  run: python autopost/pull_lifestyle.py
-
-
     steps:
       - uses: actions/checkout@v4
         with:
