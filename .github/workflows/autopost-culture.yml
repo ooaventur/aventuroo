@@ -39,7 +39,7 @@ jobs:
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Culture autoposter
-        run: python3 autopost/pull_culture.py
+        run: python -m autopost.pull_culture
 
       - name: Commit & push
         shell: bash
