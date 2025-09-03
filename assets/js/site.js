@@ -1,6 +1,7 @@
 <script>
+// Header me dropdown për Stories
 function renderHeader(active){
-  // Nën-kategori për Stories
+  // Nën-kategori për Stories — emrat duhet të përputhen me kategoritë që ke në feeds.txt
   const storySubs = [
     { label: 'Flash Fiction',   val: 'Stories-Flash' },
     { label: 'Literary',        val: 'Stories-Literary' },
@@ -12,7 +13,7 @@ function renderHeader(active){
   const nav = [
     {title:'Home', url:'index.html'},
     {title:'Travel', url:'travel.html'},
-    {title:'Stories', url:'stories.html', subs: storySubs},
+    {title:'Stories', url:'stories.html', subs: storySubs},  // ← dropdown
     {title:'Culture', url:'culture.html'},
     {title:'Lifestyle', url:'lifestyle.html'},
     {title:'Guides', url:'guides.html'},
@@ -22,27 +23,22 @@ function renderHeader(active){
   ];
 
   const links = nav.map(n => {
-    // Link i thjeshtë (pa dropdown)
+    // Link normal (pa dropdown)
     if (!n.subs) {
       return `
         <li class="nav-item">
           <a class="nav-link ${active===n.title?'active fw-semibold':''}" href="${n.url}">${n.title}</a>
         </li>`;
     }
-
     // Dropdown për Stories
     const subLinks = n.subs.map(s =>
       `<li><a class="dropdown-item" href="${n.url}?sub=${encodeURIComponent(s.val)}">${s.label}</a></li>`
     ).join('');
-
     return `
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle ${active===n.title?'active fw-semibold':''}"
-           href="${n.url}"
-           id="navStories"
-           role="button"
-           data-bs-toggle="dropdown"
-           aria-expanded="false">
+           href="${n.url}" id="navStories" role="button"
+           data-bs-toggle="dropdown" aria-expanded="false">
           ${n.title}
         </a>
         <ul class="dropdown-menu" aria-labelledby="navStories">
@@ -72,6 +68,7 @@ function renderHeader(active){
   </header>`;
 }
 
+// Footer identik me versionin tënd
 function renderFooter(){
   document.getElementById('site-footer').innerHTML = `
   <footer class="bg-light py-5 mt-5 border-top">
