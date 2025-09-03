@@ -1,1 +1,22 @@
+diff --git a/autopost/data/feeds.txt b/autopost/data/feeds.txt
+index 8b137891791fe96927ad78e64b0aad7bded08bdc..1f5b6a74f37e54ba465d7c286bc24d28d26340a9 100644
+--- a/autopost/data/feeds.txt
++++ b/autopost/data/feeds.txt
+@@ -1 +1,14 @@
+-
++# Culture
++Culture|https://www.smithsonianmag.com/rss/latest_articles/
++Culture|https://hyperallergic.com/feed/
++# Travel
++Travel|https://www.lonelyplanet.com/blog.rss
++Travel|https://www.traveloffpath.com/feed/
++# Lifestyle
++Lifestyle|https://cupofjo.com/feed/
++Lifestyle|https://theblondeabroad.com/feed/
++# Stories
++Stories-Flash|https://flashfictionmagazine.com/feed
++Stories-Literary|https://granta.com/feed/
++Stories-Nonfiction|https://longreads.com/feed/
++Stories-Fantasy|http://escapepod.org/feed
+
 
