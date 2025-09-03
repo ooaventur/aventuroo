@@ -34,12 +34,12 @@ jobs:
 
       - name: Ensure files
         run: |
-          mkdir -p autopost data
-          [ -s autopost/seen.json ] || echo "{}" > autopost/seen_culture.json
+          mkdir -p src/aventuroo/autopost data
+          [ -s src/aventuroo/autopost/seen.json ] || echo "{}" > src/aventuroo/autopost/seen_culture.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Culture autoposter
-        run: python -m autopost.pull_culture
+        run: python -m aventuroo.autopost.pull_culture
 
       - name: Commit & push
         shell: bash
