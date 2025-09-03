@@ -1,4 +1,3 @@
-<script>
 // Header me dropdown për Stories
 function renderHeader(active){
   // Nën-kategori për Stories — emrat duhet të përputhen me kategoritë që ke në feeds.txt
@@ -115,4 +114,3 @@ function renderFooter(){
     </div>
   </footer>`;
 }
-</script>
