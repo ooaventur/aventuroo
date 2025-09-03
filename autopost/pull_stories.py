@@ -158,17 +158,7 @@ def extract_body_html(url: str) -> tuple[str, str]:
         except Exception:
             return "", ""
     return body_html, first_img
-
-def slugify(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.lower()
-    s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"[\s_-]+", "-", s)
-    return s.strip("-") or "post"
-
-def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
-
+  
 # ------------------ Main ------------------
 def main():
     DATA_DIR.mkdir(exist_ok=True)
