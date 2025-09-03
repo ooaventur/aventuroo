@@ -1,3 +1,6 @@
++4
+-2
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # RSS → data/posts.json (AventurOO)
@@ -5,7 +8,7 @@
 # - heq çdo "code/script" nga teksti; filtron paragrafët e shkurtër/jo-kuptimplotë
 # - shkruan: title, category, date, author, cover, source, excerpt (~450 fjalë), content (tekst i pastër me \n\n)
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
+import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
 from html import unescape
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
@@ -31,40 +34,7 @@ SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
-FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
-
-# ---- HTTP helpers ----
-def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-            return r.read()
-    except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout) as e:
-        print("Fetch error:", url, "->", e)
-        return b""
-
-def http_get_text(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-        raw = r.read()
-    for enc in ("utf-8", "utf-16", "iso-8859-1"):
-        try:
-            return raw.decode(enc)
-        except Exception:
-            continue
-    return raw.decode("utf-8", "ignore")
-
-# ---- RSS parsing ----
-def parse(xml_bytes: bytes):
-    if not xml_bytes:
-        return []
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
-    items = []
-    # RSS
-    for it in root.findall(".//item"):
+@@ -68,52 +68,54 @@ def parse(xml_bytes: bytes):
         title = (it.findtext("title") or "").strip()
         link  = (it.findtext("link") or "").strip()
         desc  = (it.findtext("description") or "").strip()
@@ -90,8 +60,10 @@ def strip_html(s: str) -> str:
     return s
 
 def slugify(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
     s = s.lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_-]+", "-", s)
     return s.strip("-") or "post"
 
 def today_iso() -> str:
