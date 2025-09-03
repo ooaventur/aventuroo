@@ -1,6 +1,6 @@
 // Header me dropdown për Stories
 function renderHeader(active){
-  // Nën-kategori për Stories — emrat duhet të përputhen me kategoritë që ke në feeds.txt
+  // Nën-kategori për Stories — emrat duhet të përputhen me kategoritë në feeds.txt
   const storySubs = [
     { label: 'Flash Fiction',   val: 'Stories-Flash' },
     { label: 'Literary',        val: 'Stories-Literary' },
@@ -12,7 +12,7 @@ function renderHeader(active){
   const nav = [
     {title:'Home', url:'index.html'},
     {title:'Travel', url:'travel.html'},
-    {title:'Stories', url:'stories.html', subs: storySubs},  // ← dropdown
+    {title:'Stories', url:'stories.html', subs: storySubs}, // ← dropdown
     {title:'Culture', url:'culture.html'},
     {title:'Lifestyle', url:'lifestyle.html'},
     {title:'Guides', url:'guides.html'},
@@ -22,7 +22,6 @@ function renderHeader(active){
   ];
 
   const links = nav.map(n => {
-    // Link normal (pa dropdown)
     if (!n.subs) {
       return `
         <li class="nav-item">
