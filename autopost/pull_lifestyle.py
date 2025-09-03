@@ -17,7 +17,7 @@ import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, s
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
-
+from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
 # ------------------ Konfigurime ------------------
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -40,138 +40,6 @@ DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 IMG_TARGET_WIDTH = int(os.getenv("IMG_TARGET_WIDTH", "1600"))
 IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # lëre "" nëse s'do proxy
 FORCE_PROXY = os.getenv("FORCE_PROXY", "0")  # "1" = kalo çdo imazh përmes proxy (për cover)
-
-try:
-    import trafilatura
-except Exception:
-    trafilatura = None
-
-try:
-    from readability import Document
-except Exception:
-    Document = None
-
-# ------------------ Utilitare HTTP/HTML ------------------
-def http_get(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-        raw = r.read()
-    for enc in ("utf-8", "utf-16", "iso-8859-1"):
-        try:
-            return raw.decode(enc)
-        except Exception:
-            continue
-    return raw.decode("utf-8", "ignore")
-
-def fetch_bytes(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-            return r.read()
-    except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout) as e:
-        print("Fetch error:", url, "->", e)
-        return b""
-
-def strip_text(s: str) -> str:
-    s = unescape(s or "")
-    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
-    s = re.sub(r"<[^>]+>", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-def parse_feed(xml_bytes: bytes):
-    if not xml_bytes:
-        return []
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
-    items = []
-    # RSS 2.0
-    for it in root.findall(".//item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        desc = (it.findtext("description") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": desc, "element": it})
-    # Atom
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
-    for e in root.findall(".//atom:entry", ns):
-        title = (e.findtext("atom:title", default="", namespaces=ns) or "").strip()
-        link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
-        link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (
-            e.findtext("atom:summary", default="", namespaces=ns)
-            or e.findtext("atom:content", default="", namespaces=ns)
-            or ""
-        ).strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": summary, "element": e})
-    return items
-
-def find_cover_from_item(it_elem, page_url: str = "") -> str:
-    if it_elem is not None:
-        enc = it_elem.find("enclosure")
-        if enc is not None and str(enc.attrib.get("type","")).startswith("image"):
-            u = enc.attrib.get("url", "")
-            if u: return u
-        ns = {"media":"http://search.yahoo.com/mrss/"}
-        m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
-        if m is not None and m.attrib.get("url"):
-            return m.attrib.get("url")
-    # og:image si fallback
-    if page_url:
-        try:
-            html = http_get(page_url)
-            m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
-            if m: return m.group(1)
-        except Exception:
-            pass
-    return ""
-
-def absolutize(html: str, base: str) -> str:
-    def rep_href(m):
-        url = m.group(1)
-        if url.startswith(("http://", "https://", "mailto:", "#", "//")):
-            return f'href="{url}"'
-        return f'href="{urljoin(base, url)}"'
-    def rep_src(m):
-        url = m.group(1)
-        if url.startswith(("http://", "https://", "data:", "//")):
-            return f'src="{url}"'
-        return f'src="{urljoin(base, url)}"'
-    html = re.sub(r'href=["\']([^"\']+)["\']', rep_href, html, flags=re.I)
-    html = re.sub(r'src=["\']([^"\']+)["\']', rep_src, html, flags=re.I)
-    return html
-
-def sanitize_article_html(html: str) -> str:
-    if not html:
-        return ""
-    html = re.sub(r"(?is)<script.*?</script>", "", html)
-    html = re.sub(r"(?is)<style.*?</style>", "", html)
-    html = re.sub(r"(?is)<noscript.*?</noscript>", "", html)
-    html = re.sub(r"(?is)<iframe.*?</iframe>", "", html)
-    html = re.sub(r'(?is)<(aside|figure)[^>]*class="[^"]*(share|related|promo|newsletter)[^"]*"[^>]*>.*?</\1>', "", html)
-    return html.strip()
-
-def limit_words_html(html: str, max_words: int) -> str:
-    text = strip_text(html)
-    words = text.split()
-    if len(words) <= max_words:
-        return html
-    parts = re.findall(r"(?is)<p[^>]*>.*?</p>|<h2[^>]*>.*?</h2>|<h3[^>]*>.*?</h3>|<ul[^>]*>.*?</ul>|<ol[^>]*>.*?</ol>|<blockquote[^>]*>.*?</blockquote>", html)
-    out, count = [], 0
-    for block in parts:
-        t = strip_text(block)
-        w = len(t.split())
-        if count + w > max_words:
-            break
-        out.append(block)
-        count += w
-    if not out:
-        trimmed = " ".join(words[:max_words]) + "…"
-        return f"<p>{trimmed}</p>"
-    return "\n".join(out)
 
 # ---- Image helpers për 'cover' ----
 def guardian_upscale_url(u: str, target=IMG_TARGET_WIDTH) -> str:
