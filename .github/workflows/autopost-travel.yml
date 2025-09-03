@@ -38,7 +38,7 @@ jobs:
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Travel autoposter
-        run: python3 autopost/pull_travel.py
+        run: python -m autopost.pull_travel
 
       - name: Commit & push
         shell: bash
