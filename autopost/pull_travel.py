@@ -11,10 +11,8 @@ AventurOO – Autopost (Travel)
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
-from html import unescape
-from urllib.parse import urlparse, urljoin
-from xml.etree import ElementTree as ET
+import os, re, json, hashlib, pathlib
+from urllib.parse import urlparse
 from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -27,8 +25,6 @@ MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
 SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "1000"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
-HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "18"))
-UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 
