@@ -1,3 +1,4 @@
 trafilatura
 lxml
 certifi
+readability-lxml
