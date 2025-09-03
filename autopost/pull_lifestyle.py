@@ -29,7 +29,7 @@ from .utils import (
 )
 # ------------------ Konfigurime ------------------
 PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
-REPO_ROOT = PACKAGE_ROOT.parent.parent.parent
+REPO_ROOT = PACKAGE_ROOT.parent  # rrënja e repo-s
 DATA_DIR = REPO_ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 FEEDS = PACKAGE_ROOT / "data" / "feeds.txt"
