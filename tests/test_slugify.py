@@ -3,17 +3,11 @@ import pathlib
 
 import pytest
 
-sys.path.append(str(pathlib.Path(__file__).resolve().parents[1] / "autopost"))
+sys.path.append(str(pathlib.Path(__file__).resolve().parents[1]))
 
-import pull_travel, pull_lifestyle, pull_culture, pull_stories, rss_to_html
+from autopost.utils import slugify
 
-SLUGIFY_FUNCS = [
-    pull_travel.slugify,
-    pull_lifestyle.slugify,
-    pull_culture.slugify,
-    pull_stories.slugify,
-    rss_to_html.slugify,
-]
+SLUGIFY_FUNCS = [slugify]
 
 @pytest.mark.parametrize("slugify_func", SLUGIFY_FUNCS)
 def test_slugify_non_english(slugify_func):
