@@ -12,13 +12,26 @@ AventurOO – Autopost (Culture)
 """
 import os, re, json, hashlib, pathlib
 from urllib.parse import urlparse
-from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
+from .utils import (
+    http_get,
+    fetch_bytes,
+    strip_text,
+    parse_feed,
+    find_cover_from_item,
+    absolutize,
+    sanitize_article_html,
+    limit_words_html,
+    extract_body_html,
+    slugify,
+    today_iso,
+)
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
+REPO_ROOT = PACKAGE_ROOT.parent.parent.parent
+DATA_DIR = REPO_ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
-SEEN_DB = ROOT / "autopost" / "seen_culture.json"
-FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
+SEEN_DB = PACKAGE_ROOT / "seen_culture.json"
+FEEDS = PACKAGE_ROOT / "data" / "feeds.txt"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL   = int(os.getenv("MAX_TOTAL", "0"))
