@@ -38,7 +38,7 @@ jobs:
           [ -s data/posts.json ] || echo "[]" > data/posts.json
 
       - name: Run Stories autoposter
-        run: python3 autopost/pull_stories.py
+        run: python -m autopost.pull_stories
 
       - name: Commit & push
         shell: bash
