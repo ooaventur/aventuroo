@@ -13,7 +13,7 @@ AventurOO – Autopost (Lifestyle)
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
+import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
 from html import unescape
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
