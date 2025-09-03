@@ -57,6 +57,12 @@ jobs:
           PYTHONPATH: "${{ github.workspace }}/src"   # backup, nëse lart humbet për ndonjë arsye
         run: python -m aventuroo.autopost.pull_lifestyle
 
+
+
+      - name: Debug sys.path
+        run: python -c "import sys; print(sys.path)"
+
+
       - name: Commit & push
         shell: bash
         run: |
