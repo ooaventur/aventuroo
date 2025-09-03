@@ -97,10 +97,14 @@ def parse_feed(xml_bytes: bytes):
     # Atom
     ns = {"atom": "http://www.w3.org/2005/Atom"}
     for e in root.findall(".//atom:entry", ns):
-        title = (e.findtext("atom:title", default="") or "").strip()
+        title = (e.findtext("atom:title", default="", namespaces=ns) or "").strip()
         link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
         link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
+        summary = (
+            e.findtext("atom:summary", default="", namespaces=ns)
+            or e.findtext("atom:content", default="", namespaces=ns)
+            or ""
+        ).strip()
         if title and link:
             items.append({"title": title, "link": link, "summary": summary, "element": e})
     return items
