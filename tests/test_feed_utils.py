@@ -1,7 +1,7 @@
 import pathlib
 
 
-from autopost.utils import slugify, parse_feed
+from aventuroo.autopost.utils import slugify, parse_feed
 
 
 def load_bytes(name: str) -> bytes:
