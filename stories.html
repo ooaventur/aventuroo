@@ -4,10 +4,23 @@
   <meta charset="utf-8">
   <title>AventurOO • Stories</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap / Fonts / Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <!-- Styles -->
   <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    .shadow-soft { box-shadow: 0 8px 24px rgba(0,0,0,.05); }
+    .badge-cat { background:#f1f3f5; color:#333; border-radius:999px; padding:.35rem .6rem; font-size:.75rem; }
+    .line-clamp-3 {
+      display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
+    }
+    .ad-banner {
+      background:#f8f9fa; border:1px dashed #ced4da; border-radius:12px;
+      padding:18px; text-align:center; color:#6c757d; font-weight:600;
+    }
+  </style>
 </head>
 <body class="cat-stories">
 <div id="site-header"></div>
@@ -22,28 +35,17 @@
       <h1 class="fw-bold reveal-up">Stories</h1>
       <p class="muted">Latest stories and narratives.</p>
     </div>
-    <div class="d-flex align-items-center gap-2">
-      <span class="muted small">Sort</span>
-      <select id="sort" class="form-select form-select-sm" style="width:auto" onchange="render()">
-        <option value="new">Newest</option>
-        <option value="old">Oldest</option>
-        <option value="title">Title A–Z</option>
-      </select>
-    </div>
+    <!-- (E lemë bosh anën e djathtë që të mos prekim elemente të tjera të faqes) -->
+    <div class="d-flex align-items-center gap-2"></div>
   </div>
 
   <div class="row g-4">
     <div class="col-lg-8">
-      <!-- Lista jote ekzistuese (nga data/posts.json, vetëm category=stories) -->
-      <div id="list" class="row g-4"></div>
+      <!-- >>> Seksionet e nën-kategorive (auto) <<< -->
+      <div id="stories-sections" class="vstack gap-5"></div>
+      <!-- >>> Fund i seksioneve <<< -->
 
-      <div class="d-flex align-items-center justify-content-between mt-4">
-        <button id="prevBtn" class="btn btn-outline-brand btn-sm" onclick="prevPage()">← Previous</button>
-        <div id="pageInfo" class="small muted"></div>
-        <button id="nextBtn" class="btn btn-outline-brand btn-sm" onclick="nextPage()">Next →</button>
-      </div>
-
-      <!-- >>> Seksioni automatik nga burime të jashtme (Stories) <<< -->
+      <!-- >>> Seksioni automatik nga burime të jashtme (Stories) — i pandryshuar <<< -->
       <hr class="my-5">
       <div class="d-flex align-items-center justify-content-between mb-3">
         <h3 class="fw-bold mb-0">Fresh from the web</h3>
@@ -68,82 +70,113 @@
 
 <div id="site-footer"></div>
 
+<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/site.js"></script>
 <script src="assets/js/animate.js"></script>
+
 <script>
+  // Header/Footer
   renderHeader('Stories'); renderFooter();
 
-  let all = []; let perPage = 6; let page = 1;
+  // Nën-kategoritë që dëshiron të shfaqen (ndrysho label/key sipas feeds.txt/post.json)
+  const SUBCATS = [
+    { label: 'Flash Fiction',   key: 'Stories-Flash'     },
+    { label: 'Literary',        key: 'Stories-Literary'  },
+    { label: 'Nonfiction',      key: 'Stories-Nonfiction'},
+    { label: 'Personal',        key: 'Stories-Personal'  },
+    { label: 'Fantasy/Horror',  key: 'Stories-Fantasy'   },
+  ];
 
-  function qp(name){ return new URL(location.href).searchParams.get(name); }
-
-  function sortPosts(arr, how){
-    if (how==='title') return arr.sort((a,b)=>a.title.localeCompare(b.title));
-    if (how==='old')   return arr.sort((a,b)=>(a.date||'').localeCompare(b.date||''));
-    return arr.sort((a,b)=>(b.date||'').localeCompare(a.date||'')); // newest
+  // Renditje zbritëse sipas datës (YYYY-MM-DD)
+  function sortByDateDesc(arr){
+    return arr.slice().sort((a,b)=> (b.date||'').localeCompare(a.date||''));
   }
 
-  function filtered(){
-    const s   = document.getElementById('sort').value;
-    const sub = qp('sub');
-    const base = (p) => (p.category||'').startsWith('Stories');
-    const arr  = sub ? all.filter(p => (p.category||'') === sub) : all.filter(base);
-    return sortPosts(arr, s);
-  }
-
-  function render(){
-    const posts = filtered();
-    const total = Math.max(1, Math.ceil(posts.length/perPage));
-    page = Math.min(page, total);
-    const slice = posts.slice((page-1)*perPage, (page-1)*perPage + perPage);
-
-    document.getElementById('list').innerHTML = slice.map(p=>`
-      <div class="col-sm-6">
-        <article class="card border-0 shadow-soft h-100">
-          <a href="article.html?slug=${p.slug}"><img src="${p.cover}" class="card-img-top" alt="${p.title}"></a>
+  // HTML i kartës së një postimi
+  function cardHTML(p){
+    const title = p.title || 'Untitled';
+    const img   = p.cover || 'assets/img/cover-fallback.jpg';
+    const slug  = encodeURIComponent(p.slug || '');
+    const excerpt = (p.excerpt || '').toString();
+    return `
+      <div class="col-12 col-md-6 col-lg-3 d-flex">
+        <article class="card border-0 shadow-soft w-100 h-100">
+          <a href="article.html?slug=${slug}" class="ratio ratio-16x9">
+            <img src="${img}" class="card-img-top object-fit-cover" alt="${title}">
+          </a>
           <div class="card-body d-flex flex-column">
-            <span class="badge badge-cat">${p.category}</span>
-            <h5 class="card-title mt-2"><a href="article.html?slug=${p.slug}" class="link-dark">${p.title}</a></h5>
-            <p class="card-text muted line-clamp-3">${p.excerpt}</p>
-            <div class="mt-auto d-flex justify-content-between small muted">
-              <span>${p.date}</span>
-              <a class="link-primary" href="article.html?slug=${p.slug}">Read →</a>
+            <span class="badge-cat">${p.category || ''}</span>
+            <h5 class="card-title fw-bold mt-2">
+              <a class="stretched-link text-decoration-none link-dark" href="article.html?slug=${slug}">
+                ${title}
+              </a>
+            </h5>
+            <p class="card-text muted line-clamp-3">${excerpt}</p>
+            <div class="mt-auto small muted d-flex justify-content-between">
+              <span>${p.date || ''}</span>
+              <span>Read →</span>
             </div>
           </div>
         </article>
       </div>
-    `).join('');
-
-    document.getElementById('pageInfo').textContent = `Page ${page} of ${total}`;
-    document.getElementById('prevBtn').disabled = page<=1;
-    document.getElementById('nextBtn').disabled = page>=total;
+    `;
   }
 
-  function prevPage(){ if(page>1){ page--; render(); } }
-  function nextPage(){ page++; render(); }
-
-  async function load(){
-    const r = await fetch('data/posts.json');
-    all = r.ok ? await r.json() : [];
-    render();
-
-    // Popular = 5 më të fundit nga Stories
-    const popular = all.filter(p => (p.category||'').startsWith('Stories'))
-                       .sort((a,b)=>(b.date||'').localeCompare(a.date||''))
-                       .slice(0,5);
-    document.getElementById('popular').innerHTML = popular.map(p=>`
-      <li class='mb-2'>
-        <a class='link-secondary text-decoration-none' href="article.html?slug=${p.slug}">${p.title}</a>
-        <div class='text-muted'>${p.date}</div>
-      </li>
-    `).join('');
+  // Seksioni i plotë për një nën-kategori: titull bold, 8 artikuj (2 rreshta × 4), + banner ad poshtë
+  function sectionHTML(label, posts){
+    const cards = posts.slice(0,8).map(cardHTML).join('');
+    return `
+      <section class="story-sub mb-2">
+        <div class="d-flex align-items-baseline justify-content-between mb-3">
+          <h2 class="h4 fw-bold mb-0">${label}</h2>
+          <!-- Opsionale: buton "See all" -> stories.html?sub=<key> -->
+        </div>
+        <div class="row g-4">${cards}</div>
+        <div class="mt-4">
+          <!-- Zëvendëso me kodin real të reklamës -->
+          <div class="ad-banner">970×250 — Banner Ad</div>
+        </div>
+      </section>
+    `;
   }
-  load();
+
+  async function loadAndRender(){
+    try{
+      const res = await fetch('data/posts.json', { cache: 'no-store' });
+      const all = res.ok ? await res.json() : [];
+
+      // Ndërto seksionet për çdo nën-kategori
+      const html = SUBCATS.map(sc => {
+        const items = sortByDateDesc(all.filter(p => (p.category||'') === sc.key));
+        return sectionHTML(sc.label, items);
+      }).join('');
+
+      document.getElementById('stories-sections').innerHTML = html;
+
+      // Sidebar: Popular = 5 më të fundit nga të gjitha Stories*
+      const popular = all
+        .filter(p => (p.category||'').startsWith('Stories'))
+        .sort((a,b)=>(b.date||'').localeCompare(a.date||''))
+        .slice(0,5);
+
+      document.getElementById('popular').innerHTML = popular.map(p=>`
+        <li class='mb-2'>
+          <a class='link-secondary text-decoration-none' href="article.html?slug=${p.slug}">${p.title}</a>
+          <div class='text-muted'>${p.date}</div>
+        </li>
+      `).join('');
+
+    } catch(err){
+      console.error('Load posts error:', err);
+      document.getElementById('stories-sections').innerHTML =
+        `<div class="alert alert-danger">Nuk arrita të lexoj postimet.</div>`;
+    }
+  }
+  loadAndRender();
 </script>
 
-
-<!-- Skripti që sjell artikujt nga burimet e jashtme (Stories) -->
+<!-- Skripti i jashtëm për “Fresh from the web” (i pandryshuar) -->
 <script src="assets/js/external-feed.js" defer></script>
 </body>
 </html>
