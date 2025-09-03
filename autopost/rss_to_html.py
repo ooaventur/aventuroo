@@ -68,23 +68,6 @@ def parse(xml_bytes: bytes):
     return items
 
 # ---- utils ----
-def strip_html(s: str) -> str:
-    s = unescape(s or "")
-    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
-    s = re.sub(r"<[^>]+>", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-def slugify(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.lower()
-    s = re.sub(r"[^\w\s-]", "", s)
-    s = re.sub(r"[\s_-]+", "-", s)
-    return s.strip("-") or "post"
-
-def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
-
 def find_image_from_item(it_elem, page_url: str = "") -> str:
     if it_elem is not None:
         enc = it_elem.find("enclosure")
