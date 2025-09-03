@@ -1,6 +1,6 @@
 import pytest
 
-from autopost.utils import slugify
+from aventuroo.autopost.utils import slugify
 
 SLUGIFY_FUNCS = [slugify]
 
