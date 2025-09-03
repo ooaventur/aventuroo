@@ -1,6 +1,3 @@
-+4
--2
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # RSS → data/posts.json (AventurOO)
@@ -34,10 +31,20 @@ SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
 HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
-@@ -68,52 +68,54 @@ def parse(xml_bytes: bytes):
+
+def parse(xml_bytes: bytes):
+    if not xml_bytes:
+        return []
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return []
+    items = []
+    # RSS 2.0
+    for it in root.findall(".//item"):
         title = (it.findtext("title") or "").strip()
-        link  = (it.findtext("link") or "").strip()
-        desc  = (it.findtext("description") or "").strip()
+        link = (it.findtext("link") or "").strip()
+        desc = (it.findtext("description") or "").strip()
         if title and link:
             items.append({"title": title, "link": link, "summary": desc, "element": it})
     # Atom
@@ -46,7 +53,11 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
         title = (e.findtext("atom:title", default="") or "").strip()
         link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
         link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
+        summary = (
+            e.findtext("atom:summary", default="")
+            or e.findtext("atom:content", default="")
+            or ""
+        ).strip()
         if title and link:
             items.append({"title": title, "link": link, "summary": summary, "element": e})
     return items
