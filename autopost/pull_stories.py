@@ -14,8 +14,7 @@ AventurOO – Autopost (Stories + subcats)
 - Shkruan ne data/posts.json: {slug,title,category,date,excerpt,cover,source,author,body}
 """
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
-from html import unescape
+import os, re, json, hashlib, pathlib
 from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
 from .utils import http_get, fetch_bytes, strip_text, parse_feed, find_cover_from_item, absolutize, sanitize_article_html, limit_words_html, extract_body_html, slugify, today_iso
