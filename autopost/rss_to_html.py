@@ -23,11 +23,12 @@ except Exception:
     trafilatura = None
 
 # ---- Paths ----
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
+PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
+REPO_ROOT = PACKAGE_ROOT.parent.parent.parent
+DATA_DIR = REPO_ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
-SEEN_DB = ROOT / "autopost" / "seen.json"
-FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
+SEEN_DB = PACKAGE_ROOT / "seen.json"
+FEEDS = PACKAGE_ROOT / "data" / "feeds.txt"
 
 # ---- Env / Defaults ----
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
