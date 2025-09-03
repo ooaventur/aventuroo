@@ -3,7 +3,7 @@ import sys
 
 sys.path.append(str(pathlib.Path(__file__).resolve().parents[1]))
 
-from autopost.pull_lifestyle import slugify, parse_feed
+from autopost.utils import slugify, parse_feed
 
 
 def load_bytes(name: str) -> bytes:
