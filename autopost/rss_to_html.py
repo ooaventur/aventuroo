@@ -5,10 +5,15 @@
 # - heq çdo "code/script" nga teksti; filtron paragrafët e shkurtër/jo-kuptimplotë
 # - shkruan: title, category, date, author, cover, source, excerpt (~450 fjalë), content (tekst i pastër me \n\n)
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, unicodedata
-from html import unescape
-from urllib.parse import urlparse
+import os, re, json, hashlib, pathlib
 from xml.etree import ElementTree as ET
+from .utils import (
+    fetch_bytes as fetch,
+    http_get as http_get_text,
+    strip_html,
+    slugify,
+    today_iso,
+)
 
 # ---- external extractor ----
 try:
