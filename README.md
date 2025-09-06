@@ -21,6 +21,16 @@ Static HTML pages under the project root power the web front-end, while autopost
    - `HTTP_TIMEOUT`, `AP_USER_AGENT` – Networking options.
    - `FALLBACK_COVER`, `DEFAULT_AUTHOR` – Defaults for missing metadata.
 
+## Building HTML Pages
+Static pages use Jinja2 templates with shared partials for the `<head>` and footer.
+To generate final `.html` files into `dist/`, run:
+
+```bash
+python build.py
+```
+
+The `dist/` directory can then be served or deployed.
+
 ## Running Autopost Scripts
 RSS feeds for each category are listed in `autopost/data/feeds.txt` (see also `feeds.culture.txt`, `feeds.lifestyle.txt`, `feeds.stories.txt`, `feeds.travel.txt`).
 
