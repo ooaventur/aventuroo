@@ -63,13 +63,58 @@
     </div>
   </section>
 
-  <!-- Latest Stories -->
+  <!-- Travel -->
   <section class="container my-5">
     <div class="d-flex align-items-center justify-content-between mb-3">
-      <h3 class="fw-bold mb-0">Latest Stories</h3>
-      <a href="stories.html" class="small muted">View all →</a>
+      <h3 class="fw-bold mb-0">Travel</h3>
+      <a href="travel.html" class="small muted">More →</a>
     </div>
-    <div id="grid" class="row g-4"></div>
+    <div id="travel-grid" class="row g-4"></div>
+  </section>
+
+  <!-- Stories -->
+  <section class="container my-5">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h3 class="fw-bold mb-0">Stories</h3>
+      <a href="stories.html" class="small muted">More →</a>
+    </div>
+    <div id="stories-grid" class="row g-4"></div>
+  </section>
+
+  <!-- Culture -->
+  <section class="container my-5">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h3 class="fw-bold mb-0">Culture</h3>
+      <a href="culture.html" class="small muted">More →</a>
+    </div>
+    <div id="culture-grid" class="row g-4"></div>
+  </section>
+
+  <!-- Lifestyle -->
+  <section class="container my-5">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h3 class="fw-bold mb-0">Lifestyle</h3>
+      <a href="lifestyle.html" class="small muted">More →</a>
+    </div>
+    <div id="lifestyle-grid" class="row g-4"></div>
+  </section>
+
+  <!-- Guides -->
+  <section class="container my-5">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h3 class="fw-bold mb-0">Guides</h3>
+      <a href="guides.html" class="small muted">More →</a>
+    </div>
+    <div id="guides-grid" class="row g-4"></div>
+  </section>
+
+  <!-- Deals -->
+  <section class="container my-5">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h3 class="fw-bold mb-0">Deals</h3>
+      <a href="deals.html" class="small muted">More →</a>
+    </div>
+    <div id="deals-grid" class="row g-4"></div>
   </section>
 
   <!-- Fresh from feeds -->
@@ -95,8 +140,8 @@
       return res.ok?res.json():[];
     }
 
-    function renderGrid(list){
-      document.getElementById('grid').innerHTML=list.slice(0,9).map(p=>`
+    function renderGrid(list, id){
+      document.getElementById(id).innerHTML=list.slice(0,6).map(p=>`
         <div class="col-sm-6 col-lg-4">
           <article class="card border-0 shadow-soft h-100">
             <a href="article.html?slug=${p.slug}">
@@ -117,6 +162,13 @@
         </div>`).join('');
     }
 
+    function renderSection(posts, category, id){
+      const items = posts.filter(p => (p.category || '').toLowerCase() === category.toLowerCase())
+                         .sort((a,b)=>(b.date||'').localeCompare(a.date||''))
+                         .slice(0,6);
+      renderGrid(items, id);
+    }
+
     function renderPopular(list){
       document.getElementById('popular').innerHTML=list.slice(0,5).map(p=>`
         <li class="mb-2">
@@ -126,7 +178,12 @@
     }
 
     loadPosts().then(ps=>{
-      renderGrid(ps);
+      renderSection(ps, 'Travel', 'travel-grid');
+      renderSection(ps, 'Stories', 'stories-grid');
+      renderSection(ps, 'Culture', 'culture-grid');
+      renderSection(ps, 'Lifestyle', 'lifestyle-grid');
+      renderSection(ps, 'Guides', 'guides-grid');
+      renderSection(ps, 'Deals', 'deals-grid');
       renderPopular(ps);
     });
   </script>
