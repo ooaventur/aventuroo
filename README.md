@@ -23,16 +23,26 @@ Static HTML pages under the project root power the web front-end, while autopost
 
 ## Running Autopost Scripts
 RSS feeds for each category are listed in `autopost/data/feeds.txt` (see also `feeds.culture.txt`, `feeds.lifestyle.txt`, `feeds.stories.txt`, `feeds.travel.txt`).
-Use the scripts to populate `data/posts.json`:
+
+### Run everything at once
+
+To pull from all categories and render HTML snippets in one go, run:
+
+```bash
+python -m autopost.run_all
+# or
+python -m autopost
+```
+
+### Run individual scripts
+
+You can also run the pullers separately to populate `data/posts.json` and then convert to HTML:
+
 ```bash
 python -m autopost.pull_travel
 python -m autopost.pull_culture
 python -m autopost.pull_lifestyle
 python -m autopost.pull_stories
-```
-
-`autopost/rss_to_html.py` can then turn `posts.json` entries into HTML snippets:
-```bash
 python -m autopost.rss_to_html
 ```
 
