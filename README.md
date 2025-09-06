@@ -1,6 +1,3 @@
-+9
--9
-
 # AventurOO
 
 AventurOO is a lightweight content site that aggregates travel, culture, lifestyle, and story articles.  
