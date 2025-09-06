@@ -7,3 +7,6 @@ seen*.json
 
 # Log files
 *.log
+
+# Build output
+dist/
