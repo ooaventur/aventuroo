@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "exploring-the-albanian-alps",
+    "title": "Exploring the Albanian Alps",
+    "category": "Travel",
+    "date": "2024-08-01",
+    "excerpt": "A trek through the breathtaking Valbona Valley and beyond.",
+    "cover": "https://picsum.photos/seed/alps/800/400",
+    "source": "https://example.com/albanian-alps",
+    "author": "AventurOO Editorial",
+    "body": "<p>Hidden in the north of Albania, the Accursed Mountains offer hikers dramatic peaks and welcoming villages.</p>"
+  },
+  {
+    "slug": "short-story-lake-mystery",
+    "title": "The Lake Mystery",
+    "category": "Stories",
+    "date": "2024-07-20",
+    "excerpt": "A chilling tale set on the shores of Lake Ohrid.",
+    "cover": "https://picsum.photos/seed/lake/800/400",
+    "source": "https://example.com/lake-mystery",
+    "author": "M. K.",
+    "body": "<p>It was a calm evening when the ripples on the lake began to glow.</p>"
+  },
+  {
+    "slug": "traditional-albanian-cuisine",
+    "title": "Traditional Albanian Cuisine",
+    "category": "Culture",
+    "date": "2024-06-10",
+    "excerpt": "Discover the flavors behind Albania's favorite dishes.",
+    "cover": "https://picsum.photos/seed/cuisine/800/400",
+    "source": "https://example.com/albanian-cuisine",
+    "author": "E. D.",
+    "body": "<p>From byrek to tavë kosi, Albanian cuisine is a celebration of simple ingredients and bold flavors.</p>"
+  },
+  {
+    "slug": "balance-work-and-travel",
+    "title": "Balancing Work and Travel",
+    "category": "Lifestyle",
+    "date": "2024-05-15",
+    "excerpt": "Tips for remote workers who want to see the world.",
+    "cover": "https://picsum.photos/seed/lifestyle/800/400",
+    "source": "https://example.com/work-travel",
+    "author": "AventurOO Editorial",
+    "body": "<p>Working from anywhere is easier with a solid routine and reliable Wi-Fi.</p>"
+  },
+  {
+    "slug": "budget-backpacking-guide",
+    "title": "Budget Backpacking Guide",
+    "category": "Guides",
+    "date": "2024-04-01",
+    "excerpt": "How to stretch your euros while exploring Europe.",
+    "cover": "https://picsum.photos/seed/backpacking/800/400",
+    "source": "https://example.com/backpacking-guide",
+    "author": "A. B.",
+    "body": "<p>With a bit of planning, you can travel far without breaking the bank.</p>"
+  },
+  {
+    "slug": "spring-flight-deals",
+    "title": "Spring Flight Deals",
+    "category": "Deals",
+    "date": "2024-03-05",
+    "excerpt": "Discounted flights to kick off your spring adventures.",
+    "cover": "https://picsum.photos/seed/deals/800/400",
+    "source": "https://example.com/spring-deals",
+    "author": "Deal Hunter",
+    "body": "<p>Airlines are slashing prices for spring getaways across Europe.</p>"
+  }
+]
