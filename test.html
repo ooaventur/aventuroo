@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AventurOO • UI Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO/OG bazike për test -->
+  <meta name="description" content="UI test page for AventurOO header, footer and search." />
+  <meta property="og:title" content="AventurOO • UI Test" />
+  <meta property="og:description" content="Test the shared header, footer and site search." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/" />
+
+  <!-- Bootstrap & Icons (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+  <!-- Stile të vogla për testim (opsionale) -->
+  <style>
+    .hero {
+      background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+      border-bottom: 1px solid #e9ecef;
+    }
+    .post-card:hover { transform: translateY(-2px); transition: .2s ease; }
+    .nav-link.active { color:#0d6efd !important; }
+  </style>
+</head>
+<body>
+  <noscript>
+    <div class="alert alert-warning text-center m-0">
+      This page needs JavaScript enabled to render the shared header and footer.
+    </div>
+  </noscript>
+
+  <!-- HEADER i përbashkët -->
+  <div id="site-header"></div>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Hero / prezantim -->
+    <section class="hero py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <h1 class="display-6 fw-bold mb-2">AventurOO UI Test</h1>
+            <p class="lead text-secondary mb-3">
+              Kjo faqe teston <strong>site.js</strong>: header-i me dropdown, kërkimi, dhe footer-i i përbashkët.
+            </p>
+            <div class="d-flex gap-2">
+              <a class="btn btn-primary" href="/stories/">Shko te Stories</a>
+              <a class="btn btn-outline-secondary" href="/travel/">Shko te Travel</a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h2 class="h5">Provo kërkimin</h2>
+                <p class="small text-muted mb-2">Ky formular është i njëjtë me atë në header. Shkruaj një fjalë kyçe dhe shtyp Enter.</p>
+                <form id="quick-search" class="d-flex" role="search">
+                  <input class="form-control me-2" name="q" type="search" placeholder="Search…" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">
+                    <i class="fa-solid fa-magnifying-glass me-1"></i> Search
+                  </button>
+                </form>
+                <div id="qs-hint" class="form-text mt-2">Do të hapet: <code>/search/?q=...&nbsp;</code></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shembull grid kartash (thjesht për të parë stilin) -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="h5 mb-3">Sample cards</h2>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card post-card h-100 shadow-sm">
+              <img class="card-img-top" src="https://picsum.photos/640/360?1" alt="">
+              <div class="card-body">
+                <h3 class="h6 mb-1">Card title one</h3>
+                <p class="small text-secondary mb-0">Short description to test typography and spacing.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card post-card h-100 shadow-sm">
+              <img class="card-img-top" src="https://picsum.photos/640/360?2" alt="">
+              <div class="card-body">
+                <h3 class="h6 mb-1">Card title two</h3>
+                <p class="small text-secondary mb-0">Another description for visual balance.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card post-card h-100 shadow-sm">
+              <img class="card-img-top" src="https://picsum.photos/640/360?3" alt="">
+              <div class="card-body">
+                <h3 class="h6 mb-1">Card title three</h3>
+                <p class="small text-secondary mb-0">Use this area to check grid responsiveness.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER i përbashkët -->
+  <div id="site-footer"></div>
+
+  <!-- JS: Bootstrap + site.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- KUJDES: path-i poshtë duhet të përputhet me repo-n tënde -->
+  <script src="/assets/js/site.js"></script>
+
+  <script>
+    // Rendero header/footer nga site.js
+    // Nëse ke parametrin "active" në renderHeader, vendose p.sh. 'Home' ose lëre bosh.
+    renderHeader(); 
+    renderFooter();
+
+    // Quick-search (dërgon te /search/?q=...)
+    (function(){
+      const f = document.getElementById('quick-search');
+      const hint = document.getElementById('qs-hint');
+      f.addEventListener('submit', function(e){
+        e.preventDefault();
+        const q = new FormData(f).get('q')?.toString().trim() || '';
+        const url = new URL('/search/', location.origin);
+        if (q) url.searchParams.set('q', q);
+        hint.innerHTML = 'Do të hapet: <code>' + url.pathname + url.search + '</code>';
+        location.href = url.toString();
+      });
+    })();
+  </script>
+</body>
+</html>
