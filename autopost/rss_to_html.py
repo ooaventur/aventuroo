@@ -24,7 +24,7 @@ except Exception:
 
 # ---- Paths ----
 PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent
-REPO_ROOT = PACKAGE_ROOT.parent  # rrënja e repo-s
+REPO_ROOT = PACKAGE_ROOT.parent.parent.parent  # rrënja e repo-s
 DATA_DIR = REPO_ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 SEEN_DB = PACKAGE_ROOT / "seen.json"
