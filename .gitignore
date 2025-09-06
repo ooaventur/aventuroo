@@ -3,7 +3,7 @@ __pycache__/
 
 # Runtime JSON files
 seen*.json
-posts.json
+/posts.json
 
 # Log files
 *.log
