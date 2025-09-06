@@ -1,0 +1,9 @@
+# Byte-compiled / cache files
+__pycache__/
+
+# Runtime JSON files
+seen*.json
+posts.json
+
+# Log files
+*.log
