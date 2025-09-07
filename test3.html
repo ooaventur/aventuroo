@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <title>AventurOO • Mega Menu (Header 15 style)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      /* Brand – ndrysho këto 3 për ta bërë “tënden” */
+      --brand: #0d6efd;
+      --brand-600: #0b5ed7;
+      --ink: #111827;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --bg-soft: #f7f8fb;
+      --border: #e5e7eb;
+    }
+    html,body{
+      background:var(--bg);
+      color:var(--ink);
+      font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    }
+    .brand-serif{ font-family:"Playfair Display",serif; }
+
+    /* Topbar */
+    .topbar{
+      background:var(--bg-soft);
+      border-bottom:1px solid var(--border);
+      font-size:.9rem;
+    }
+    .topbar a{ color:var(--muted); text-decoration:none; }
+    .topbar a:hover{ color:var(--brand); }
+
+    /* Navbar */
+    .navbar{
+      background:#fff;
+      border-bottom:1px solid var(--border);
+    }
+    .navbar-brand img{ height:36px; }
+    .navbar .nav-link{
+      font-weight:600;
+      color:#2b2f38;
+      padding:.75rem 1rem;
+    }
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus{
+      color:var(--brand);
+    }
+    .btn-cta{
+      background:var(--brand);
+      color:#fff;
+      font-weight:600;
+      padding:.55rem 1rem;
+      border-radius:.6rem;
+      border:1px solid var(--brand-600);
+    }
+    .btn-cta:hover{ background:var(--brand-600); color:#fff; }
+
+    /* Mega dropdown */
+    .dropdown-mega{ position:static; }
+    .dropdown-mega .dropdown-menu{
+      width:100%;
+      border:none; border-top:1px solid var(--border);
+      border-radius:0;
+      padding:2rem 0;
+      margin-top:0;
+      box-shadow:0 .5rem 1.25rem rgba(0,0,0,.06);
+    }
+    .mega-title{
+      font-size:.9rem; font-weight:700; letter-spacing:.02em; text-transform:uppercase;
+      color:#374151; margin-bottom:.75rem;
+    }
+    .mega-link{
+      display:flex; align-items:center; gap:.55rem;
+      padding:.4rem 0; color:#475569; text-decoration:none; border-radius:.4rem;
+    }
+    .mega-link i{ width:1.1rem; text-align:center; }
+    .mega-link:hover{ color:var(--brand); background:#f8f9fb; }
+    .mega-badge{
+      display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.04em;
+      padding:.15rem .45rem; border-radius:.35rem; background:#eef2ff; color:#3730a3;
+    }
+    .mega-img{
+      background:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
+      border-radius:.8rem; min-height:220px; position:relative; overflow:hidden;
+    }
+    .mega-img::after{
+      content:"";
+      position:absolute; inset:0; background:linear-gradient(120deg, rgba(0,0,0,.35), rgba(0,0,0,0));
+    }
+    .mega-img .caption{
+      position:absolute; left:1rem; bottom:1rem; color:#fff;
+    }
+    .search-inline{
+      width:260px; max-width:40vw;
+    }
+    @media (max-width: 991.98px){
+      .dropdown-mega .dropdown-menu{ padding:1rem 0; }
+      .search-inline{ width:100%; max-width:100%; margin-top:.75rem; }
+    }
+
+    /* Sticky header demo (opsionale) */
+    .sticky-top{ top:0; z-index:1020; }
+  </style>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-3">
+        <a href="mailto:hello@aventuroo.com"><i class="fa-regular fa-envelope me-1"></i> hello@aventuroo.com</a>
+        <a href="tel:+355xxxxxxxx"><i class="fa-solid fa-phone me-1"></i> +355 xx xxx xxx</a>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+<!-- NAVBAR -->
+<header class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
+  <div class="container">
+    <!-- LOGO (zëvendësoje src më vonë) -->
+    <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+      <img src="https://dummyimage.com/200x60/ffffff/000000&text=AventurOO" alt="AventurOO logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <!-- MENU -->
+      <ul class="navbar-nav mx-lg-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+
+        <!-- MEGA MENU: Stories -->
+        <li class="nav-item dropdown dropdown-mega">
+          <a class="nav-link dropdown-toggle" href="/stories/" data-bs-toggle="dropdown" aria-expanded="false">
+            Stories
+          </a>
+          <div class="dropdown-menu bg-dark text-white">
+            <div class="container py-4">
+              <div class="row g-4">
+                <div class="col-6 col-lg-3">
+                  <h6 class="text-uppercase small fw-bold text-secondary">Genres</h6>
+                  <a class="dropdown-item text-white" href="/stories/flash/">Flash Fiction</a>
+                  <a class="dropdown-item text-white" href="/stories/literary/">Literary</a>
+                  <a class="dropdown-item text-white" href="/stories/nonfiction/">Nonfiction</a>
+                  <a class="dropdown-item text-white" href="/stories/personal/">Personal</a>
+                  <a class="dropdown-item text-white" href="/stories/fantasy/">Fantasy/Horror</a>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <h6 class="text-uppercase small fw-bold text-secondary">Popular</h6>
+                  <a class="dropdown-item text-white" href="#">Most Read</a>
+                  <a class="dropdown-item text-white" href="#">Editor's Picks</a>
+                  <a class="dropdown-item text-white" href="#">Trending</a>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="p-3 rounded" style="background:#222;">
+                    <h6 class="text-uppercase small fw-bold text-secondary">Featured</h6>
+                    <p class="small">Discover our featured story of the week.</p>
+                    <a class="btn btn-sm btn-outline-light" href="/stories/featured/">Lexo tani</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="/travel/">Travel</a></li>
+        <li class="nav-item"><a class="nav-link" href="/culture/">Culture</a></li>
+        <li class="nav-item"><a class="nav-link" href="/lifestyle/">Lifestyle</a></li>
+        <li class="nav-item"><a class="nav-link" href="/guides/">Guides</a></li>
+        <li class="nav-item"><a class="nav-link" href="/deals/">Deals</a></li>
+      </ul>
+
+      <!-- Search + CTA -->
+      <div class="d-lg-flex align-items-center gap-2">
+        <form id="site-search" class="d-flex search-inline" role="search">
+          <input class="form-control bg-dark text-white border-secondary" name="q" type="search" placeholder="Kërko…" aria-label="Search">
+        </form>
+        <a class="btn btn-light ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <!-- HERO (placeholder – zëvendëso imazhin sipas dëshirës) -->
+  <section class="py-5 bg-light border-bottom">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <h1 class="display-6 fw-bold mb-2 brand-serif">Mega Menu Demo</h1>
+          <p class="lead text-muted">Header modern me mega-dropdown, tipografi dhe ngjyra të personalizueshme.</p>
+          <a class="btn btn-outline-secondary" href="/stories/">Shfleto Stories</a>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content demo -->
+  <main class="py-5">
+    <div class="container">
+      <p class="text-muted">Zëvendëso logon (src te <code>.navbar-brand img</code>) dhe imazhet në mega-menu/hero me të tuat.  
+      Linket çojnë në rrugë shembull – rregulloji sipas strukturës tënde.</p>
+    </div>
+  </main>
+
+  <!-- Footer i thjeshtë demo -->
+  <footer class="py-5 border-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center">
+      <div class="small text-muted">&copy; <span id="y"></span> AventurOO. All rights reserved.</div>
+      <ul class="nav small">
+        <li class="nav-item"><a class="nav-link text-muted" href="/privacy.html">Privacy</a></li>
+        <li class="nav-item"><a class="nav-link text-muted" href="/terms.html">Terms</a></li>
+        <li class="nav-item"><a class="nav-link text-muted" href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Viti në footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Kërkimi – dërgon te /search/?q=...
+    const form = document.getElementById('site-search');
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      const q = new FormData(form).get('q')?.toString().trim() || '';
+      const url = new URL('/search/', location.origin);
+      if (q) url.searchParams.set('q', q);
+      location.href = url.toString();
+    });
+  </script>
+</body>
+</html>
