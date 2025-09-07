@@ -1653,3 +1653,14 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
     width: 15.625rem;
   }
 }
+/* ▼ Shtoje pas gjithë CSS-it tënd ekzistues */
+#js-header.slideshow {
+  height: 100vh;      /* ruaj sjelljen aktuale */
+  max-height: 600px;  /* por mos e kalo 600px */
+  overflow: hidden;   /* fshih çdo tepricë */
+}
+/* Opsionale: bëje padding-top më të arsyeshëm kur lartësia kufizohet */
+#js-header .slideshow__slide-caption-text {
+  padding-top: clamp(80px, 33vh, 220px);
+}
+
