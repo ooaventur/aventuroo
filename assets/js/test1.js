@@ -38,9 +38,64 @@ function renderPostGrid02(items) {
   }).join('');
 }
 
-// Auto-render if global POSTS array is present
+// --- Posts loading with simple caching and fetch guard ---
+let postsCache = null;
+let postsFetchPromise = null;
+const POSTS_LS_KEY = 'posts-json-cache';
+
+async function loadPosts() {
+  // Return cached data if available
+  if (postsCache) return postsCache;
+
+  // If a request is already in-flight, return the same promise
+  if (postsFetchPromise) return postsFetchPromise;
+
+  // Try to read from localStorage first
+  try {
+    const cached = localStorage.getItem(POSTS_LS_KEY);
+    if (cached) {
+      postsCache = JSON.parse(cached);
+      return postsCache;
+    }
+  } catch (e) {
+    console.warn('Failed to parse cached posts:', e);
+  }
+
+  // Fetch posts.json with network error handling
+  postsFetchPromise = fetch('/posts.json')
+    .then(r => {
+      if (!r.ok) throw new Error('Network response was not ok');
+      return r.json();
+    })
+    .then(data => {
+      postsCache = data;
+      try {
+        localStorage.setItem(POSTS_LS_KEY, JSON.stringify(data));
+      } catch (e) {
+        console.warn('Failed to cache posts:', e);
+      }
+      return data;
+    })
+    .catch(err => {
+      console.error('Failed to load posts:', err);
+      const grid = document.getElementById('pg02-grid');
+      if (grid) {
+        grid.innerHTML = '<div class="text-muted">Failed to load posts.</div>';
+      }
+      return [];
+    })
+    .finally(() => {
+      postsFetchPromise = null;
+    });
+
+  return postsFetchPromise;
+}
+
+// Auto-render if global POSTS array is present, otherwise fetch
 if (typeof POSTS !== 'undefined') {
   renderPostGrid02(POSTS.slice(0, 6));
+} else {
+  loadPosts().then(data => renderPostGrid02(data.slice(0, 6)));
 }
 
 // Topbar search handler with null check
