@@ -1654,3 +1654,24 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
   }
 }
 
+.site-footer {
+  background: #0b0b0d;   /* sfondi i zi */
+  color: #f8f9fa;        /* tekst i bardhë */
+  font-size: 0.9rem;
+}
+.site-footer a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #ffffff;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.footer-subtitle {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #e5e5e5;
+}
