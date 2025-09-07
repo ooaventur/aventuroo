@@ -1695,3 +1695,7 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
   overflow: hidden;   /* fshih çdo tepricë */
 }
 
+/* Opsionale: bëje padding-top më të arsyeshëm kur lartësia kufizohet */
+#js-header .slideshow__slide-caption-text {
+  padding-top: clamp(80px, 33vh, 220px);
+}
