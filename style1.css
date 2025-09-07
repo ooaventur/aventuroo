@@ -478,12 +478,20 @@ button:hover, .c-header-filters_button:hover,
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-  body {
-    overflow: hidden;
-    height: 100%;
+/* ▼ Fix: lejo scroll në desktop */
+@media (min-width: 1200px){
+  body{
+    overflow: auto !important;
+    height: auto !important;
   }
 }
+
+/* (opsionale) nëse ke përdorur .o-scroll nga template */
+.o-scroll{
+  height: auto !important;
+  overflow: visible !important;
+}
+
 @media (min-width: 1200px) {
   .o-scroll {
     height: 100%;
