@@ -14,7 +14,6 @@
 
   <style>
     :root{
-      /* Brand – ndrysho këto 3 për ta bërë “tënden” */
       --brand: #0d6efd;
       --brand-600: #0b5ed7;
       --ink: #111827;
@@ -39,12 +38,27 @@
     .topbar a{ color:var(--muted); text-decoration:none; }
     .topbar a:hover{ color:var(--brand); }
 
+    /* Kërkimi në topbar – i vogël dhe i thjeshtë */
+    .topbar-search .form-control{
+      height: 32px;
+      padding: .25rem .5rem;
+      font-size: .9rem;
+      background: #fff;
+      border: 1px solid var(--border);
+    }
+    .topbar-search .form-control::placeholder{ color:#98a2b3; }
+    .topbar-search .btn{
+      height: 32px;
+      padding: .25rem .6rem;
+      font-size: .85rem;
+    }
+
     /* Navbar */
     .navbar{
       background:#fff;
       border-bottom:1px solid var(--border);
     }
-    .navbar-brand img{ height:36px; }
+    .navbar-brand img{ height:38px; }         /* ↑ logo placeholder, ndro src më vonë */
     .navbar .nav-link{
       font-weight:600;
       color:#2b2f38;
@@ -54,15 +68,12 @@
     .navbar .nav-link:focus{
       color:var(--brand);
     }
+
+    /* Buton CTA më i thjeshtë, i vogël */
     .btn-cta{
-      background:var(--brand);
-      color:#fff;
-      font-weight:600;
-      padding:.55rem 1rem;
-      border-radius:.6rem;
-      border:1px solid var(--brand-600);
+      padding:.35rem .75rem;
+      font-size:.9rem;
     }
-    .btn-cta:hover{ background:var(--brand-600); color:#fff; }
 
     /* Mega dropdown */
     .dropdown-mega{ position:static; }
@@ -99,152 +110,167 @@
     .mega-img .caption{
       position:absolute; left:1rem; bottom:1rem; color:#fff;
     }
-    .search-inline{
-      width:260px; max-width:40vw;
-    }
+    .search-inline{ width:260px; max-width:40vw; } /* (kjo është ajo në navbar, po e lëm siç është) */
+
     @media (max-width: 991.98px){
       .dropdown-mega .dropdown-menu{ padding:1rem 0; }
       .search-inline{ width:100%; max-width:100%; margin-top:.75rem; }
+      .topbar .flex-wrap-lg{ flex-wrap: wrap; gap:.5rem; }
     }
-
-    /* Sticky header demo (opsionale) */
-    .sticky-top{ top:0; z-index:1020; }
   </style>
 </head>
 <body>
 
-  <!-- TOPBAR -->
+  <!-- TOPBAR (me kërkim të vogël në të djathtë) -->
   <div class="topbar py-2">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="d-flex gap-3">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap-lg">
+      <div class="d-flex align-items-center gap-3">
         <a href="mailto:hello@aventuroo.com"><i class="fa-regular fa-envelope me-1"></i> hello@aventuroo.com</a>
         <a href="tel:+355xxxxxxxx"><i class="fa-solid fa-phone me-1"></i> +355 xx xxx xxx</a>
       </div>
-      <div class="d-flex gap-3">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+      <div class="d-flex align-items-center gap-3">
+        <!-- Social -->
+        <div class="d-flex gap-3">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <!-- Search i vogël -->
+        <form id="topbar-search" class="topbar-search d-flex align-items-center gap-2" role="search">
+          <input class="form-control form-control-sm" name="q" type="search" placeholder="Kërko…" aria-label="Search">
+          <button class="btn btn-outline-secondary btn-sm" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
       </div>
     </div>
   </div>
 
-<!-- NAVBAR -->
-<header class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
-  <div class="container">
-    <!-- LOGO (zëvendësoje src më vonë) -->
-    <a class="navbar-brand d-flex align-items-center gap-2" href="/">
-      <img src="https://dummyimage.com/200x60/ffffff/000000&text=AventurOO" alt="AventurOO logo">
-    </a>
+  <!-- NAVBAR -->
+  <header class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <!-- LOGO (placeholder – NDRO SRC më vonë) -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+        <img src="https://dummyimage.com/160x44/111827/ffffff&text=LOGO" alt="AventurOO logo">
+      </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="mainNav">
-      <!-- MENU -->
-      <ul class="navbar-nav mx-lg-auto align-items-lg-center">
-        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <!-- MENU -->
+        <ul class="navbar-nav mx-lg-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
 
-        <!-- MEGA MENU: Stories -->
-        <li class="nav-item dropdown dropdown-mega">
-          <a class="nav-link dropdown-toggle" href="/stories/" data-bs-toggle="dropdown" aria-expanded="false">
-            Stories
-          </a>
-          <div class="dropdown-menu bg-dark text-white">
-            <div class="container py-4">
-              <div class="row g-4">
-                <div class="col-6 col-lg-3">
-                  <h6 class="text-uppercase small fw-bold text-secondary">Genres</h6>
-                  <a class="dropdown-item text-white" href="/stories/flash/">Flash Fiction</a>
-                  <a class="dropdown-item text-white" href="/stories/literary/">Literary</a>
-                  <a class="dropdown-item text-white" href="/stories/nonfiction/">Nonfiction</a>
-                  <a class="dropdown-item text-white" href="/stories/personal/">Personal</a>
-                  <a class="dropdown-item text-white" href="/stories/fantasy/">Fantasy/Horror</a>
-                </div>
-                <div class="col-6 col-lg-3">
-                  <h6 class="text-uppercase small fw-bold text-secondary">Popular</h6>
-                  <a class="dropdown-item text-white" href="#">Most Read</a>
-                  <a class="dropdown-item text-white" href="#">Editor's Picks</a>
-                  <a class="dropdown-item text-white" href="#">Trending</a>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <div class="p-3 rounded" style="background:#222;">
-                    <h6 class="text-uppercase small fw-bold text-secondary">Featured</h6>
-                    <p class="small">Discover our featured story of the week.</p>
-                    <a class="btn btn-sm btn-outline-light" href="/stories/featured/">Lexo tani</a>
+          <!-- MEGA: Stories -->
+          <li class="nav-item dropdown dropdown-mega">
+            <a class="nav-link dropdown-toggle" href="/stories/" data-bs-toggle="dropdown" aria-expanded="false">
+              Stories
+            </a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-12 col-lg-3">
+                    <div class="mega-title">Genres <span class="mega-badge ms-1">New</span></div>
+                    <a class="mega-link" href="/stories/flash/"><i class="fa-regular fa-bolt"></i> Flash Fiction</a>
+                    <a class="mega-link" href="/stories/literary/"><i class="fa-regular fa-book"></i> Literary</a>
+                    <a class="mega-link" href="/stories/nonfiction/"><i class="fa-regular fa-file-lines"></i> Nonfiction</a>
+                    <a class="mega-link" href="/stories/personal/"><i class="fa-regular fa-user"></i> Personal</a>
+                    <a class="mega-link" href="/stories/fantasy/"><i class="fa-regular fa-ghost"></i> Fantasy/Horror</a>
                   </div>
-                </div>
+                  <div class="col-12 col-lg-3">
+                    <div class="mega-title">Popular</div>
+                    <a class="mega-link" href="/stories/most-read/"><i class="fa-regular fa-fire"></i> Most Read</a>
+                    <a class="mega-link" href="/stories/editors-picks/"><i class="fa-regular fa-star"></i> Editor’s Picks</a>
+                    <a class="mega-link" href="/stories/trending/"><i class="fa-regular fa-chart-line"></i> Trending</a>
+                    <a class="mega-link" href="/stories/new-authors/"><i class="fa-regular fa-pen-nib"></i> New Authors</a>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <div class="mega-title">Resources</div>
+                    <a class="mega-link" href="/guides/writing-tips/"><i class="fa-regular fa-lightbulb"></i> Writing Tips</a>
+                    <a class="mega-link" href="/guides/interviews/"><i class="fa-regular fa-microphone"></i> Author Interviews</a>
+                    <a class="mega-link" href="/guides/publishing/"><i class="fa-regular fa-paper-plane"></i> Publishing Advice</a>
+                    <a class="mega-link" href="/guides/newsletter/"><i class="fa-regular fa-envelope"></i> Newsletter</a>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <div class="mega-img">
+                      <div class="caption">
+                        <div class="brand-serif h5 mb-1">Featured Story</div>
+                        <div class="small text-white-50">Discover our latest pick</div>
+                        <a class="btn btn-sm btn-light mt-2" href="/stories/featured/">Lexo tani</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- row -->
+              </div> <!-- container -->
+            </div> <!-- dropdown-menu -->
+          </li>
+
+          <!-- Items të tjerë -->
+          <li class="nav-item dropdown dropdown-mega">
+            <a class="nav-link dropdown-toggle" href="/travel/" data-bs-toggle="dropdown">Travel</a>
+            <div class="dropdown-menu">
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-6 col-lg-3">
+                    <div class="mega-title">By Region</div>
+                    <a class="mega-link" href="/travel/europe/"><i class="fa-regular fa-globe-europe"></i> Europe</a>
+                    <a class="mega-link" href="/travel/asia/"><i class="fa-regular fa-globe-asia"></i> Asia</a>
+                    <a class="mega-link" href="/travel/americas/"><i class="fa-regular fa-earth-americas"></i> Americas</a>
+                    <a class="mega-link" href="/travel/africa/"><i class="fa-regular fa-earth-africa"></i> Africa</a>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <div class="mega-title">Themes</div>
+                    <a class="mega-link" href="/travel/family/"><i class="fa-regular fa-people-group"></i> Family</a>
+                    <a class="mega-link" href="/travel/adventure/"><i class="fa-regular fa-person-hiking"></i> Adventure</a>
+                    <a class="mega-link" href="/travel/luxury/"><i class="fa-regular fa-gem"></i> Luxury</a>
+                    <a class="mega-link" href="/travel/budget/"><i class="fa-regular fa-wallet"></i> Budget</a>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="mega-title">Top Deals</div>
+                    <div class="row g-3">
+                      <div class="col-12 col-md-6">
+                        <a class="mega-link" href="/deals/italy-7days/"><i class="fa-regular fa-ticket"></i> Italy 7-Day Pass</a>
+                        <a class="mega-link" href="/deals/swiss-rail/"><i class="fa-regular fa-train"></i> Swiss Rail Offer</a>
+                        <a class="mega-link" href="/deals/iberia-flight/"><i class="fa-regular fa-plane"></i> Iberia Weekend</a>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <a class="mega-link" href="/deals/berlin-city/"><i class="fa-regular fa-city"></i> Berlin City Card</a>
+                        <a class="mega-link" href="/deals/amalfi-boat/"><i class="fa-regular fa-sailboat"></i> Amalfi Boat Tour</a>
+                        <a class="mega-link" href="/deals/santorini-sunset/"><i class="fa-regular fa-sun"></i> Santorini Sunset</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- row -->
               </div>
             </div>
-          </div>
-        </li>
+          </li>
 
-        <li class="nav-item"><a class="nav-link" href="/travel/">Travel</a></li>
-        <li class="nav-item"><a class="nav-link" href="/culture/">Culture</a></li>
-        <li class="nav-item"><a class="nav-link" href="/lifestyle/">Lifestyle</a></li>
-        <li class="nav-item"><a class="nav-link" href="/guides/">Guides</a></li>
-        <li class="nav-item"><a class="nav-link" href="/deals/">Deals</a></li>
-      </ul>
+          <li class="nav-item"><a class="nav-link" href="/culture/">Culture</a></li>
+          <li class="nav-item"><a class="nav-link" href="/lifestyle/">Lifestyle</a></li>
+          <li class="nav-item"><a class="nav-link" href="/guides/">Guides</a></li>
+          <li class="nav-item"><a class="nav-link" href="/deals/">Deals</a></li>
+        </ul>
 
-      <!-- Search + CTA -->
-      <div class="d-lg-flex align-items-center gap-2">
-        <form id="site-search" class="d-flex search-inline" role="search">
-          <input class="form-control bg-dark text-white border-secondary" name="q" type="search" placeholder="Kërko…" aria-label="Search">
-        </form>
-        <a class="btn btn-light ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Get in touch</a>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-  <!-- HERO (placeholder – zëvendëso imazhin sipas dëshirës) -->
-  <section class="py-5 bg-light border-bottom">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-7">
-          <h1 class="display-6 fw-bold mb-2 brand-serif">Mega Menu Demo</h1>
-          <p class="lead text-muted">Header modern me mega-dropdown, tipografi dhe ngjyra të personalizueshme.</p>
-          <a class="btn btn-outline-secondary" href="/stories/">Shfleto Stories</a>
-        </div>
-        <div class="col-lg-5">
-          <img class="img-fluid rounded shadow-sm" src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1200&auto=format&fit=crop" alt="">
+        <!-- CTA djathtas – e thjeshtë dhe e vogël -->
+        <div class="d-lg-flex align-items-center">
+          <a class="btn btn-outline-secondary btn-cta ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Contact</a>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Content demo -->
-  <main class="py-5">
-    <div class="container">
-      <p class="text-muted">Zëvendëso logon (src te <code>.navbar-brand img</code>) dhe imazhet në mega-menu/hero me të tuat.  
-      Linket çojnë në rrugë shembull – rregulloji sipas strukturës tënde.</p>
-    </div>
-  </main>
-
-  <!-- Footer i thjeshtë demo -->
-  <footer class="py-5 border-top">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center">
-      <div class="small text-muted">&copy; <span id="y"></span> AventurOO. All rights reserved.</div>
-      <ul class="nav small">
-        <li class="nav-item"><a class="nav-link text-muted" href="/privacy.html">Privacy</a></li>
-        <li class="nav-item"><a class="nav-link text-muted" href="/terms.html">Terms</a></li>
-        <li class="nav-item"><a class="nav-link text-muted" href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </footer>
+  </header>
 
   <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    // Viti në footer
-    document.getElementById('y').textContent = new Date().getFullYear();
-
-    // Kërkimi – dërgon te /search/?q=...
-    const form = document.getElementById('site-search');
-    form.addEventListener('submit', function(e){
+    // Kërkimi në TOPBAR – dërgon te /search/?q=...
+    const topSearch = document.getElementById('topbar-search');
+    topSearch.addEventListener('submit', function(e){
       e.preventDefault();
-      const q = new FormData(form).get('q')?.toString().trim() || '';
+      const q = new FormData(topSearch).get('q')?.toString().trim() || '';
       const url = new URL('/search/', location.origin);
       if (q) url.searchParams.set('q', q);
       location.href = url.toString();
