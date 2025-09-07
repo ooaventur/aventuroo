@@ -2,7 +2,7 @@
 <html lang="sq">
 <head>
   <meta charset="utf-8">
-  <title>AventurOO • Mega Menu (Header 15 style)</title>
+  <title>AventurOO • Mega Menu (Dark Header)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Fonts -->
@@ -16,249 +16,182 @@
     :root{
       --brand: #0d6efd;
       --brand-600: #0b5ed7;
-      --ink: #111827;
-      --muted: #6b7280;
-      --bg: #ffffff;
-      --bg-soft: #f7f8fb;
-      --border: #e5e7eb;
+      --ink: #f8f9fa;      /* tekst i bardhë */
+      --muted: #adb5bd;    /* gri e lehtë */
+      --bg-dark: #0b0b0d;  /* sfondi i zi */
+      --border-dark: #1f1f1f;
     }
     html,body{
-      background:var(--bg);
-      color:var(--ink);
+      background:#fff;
       font-family:"Plus Jakarta Sans",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
     }
-    .brand-serif{ font-family:"Playfair Display",serif; }
 
-    /* Topbar */
+    /* Topbar dark */
     .topbar{
-      background:var(--bg-soft);
-      border-bottom:1px solid var(--border);
-      font-size:.9rem;
+      background:var(--bg-dark);
+      border-bottom:1px solid var(--border-dark);
+      font-size:.8rem;
+      color:var(--muted);
     }
     .topbar a{ color:var(--muted); text-decoration:none; }
-    .topbar a:hover{ color:var(--brand); }
+    .topbar a:hover{ color:var(--ink); }
 
-    /* Kërkimi në topbar – i vogël dhe i thjeshtë */
+    /* Kërkimi në topbar */
     .topbar-search .form-control{
-      height: 32px;
-      padding: .25rem .5rem;
-      font-size: .9rem;
-      background: #fff;
-      border: 1px solid var(--border);
+      height:25px;
+      padding:.2rem .5rem;
+      font-size:.85rem;
+      background:#111;
+      border:1px solid #333;
+      color:#f8f9fa;
     }
-    .topbar-search .form-control::placeholder{ color:#98a2b3; }
+    .topbar-search .form-control::placeholder{ color:#888; }
     .topbar-search .btn{
-      height: 32px;
-      padding: .25rem .6rem;
-      font-size: .85rem;
+      height:25px;
+      padding:.2rem .5rem;
+      font-size:.8rem;
+      color:#f8f9fa;
+      border:1px solid #444;
     }
 
-    /* Navbar */
+    /* Navbar dark */
     .navbar{
-      background:#fff;
-      border-bottom:1px solid var(--border);
+      background:var(--bg-dark) !important;
+      border-bottom:1px solid var(--border-dark);
     }
-    .navbar-brand img{ height:38px; }         /* ↑ logo placeholder, ndro src më vonë */
+    .navbar-brand img{ height:38px; }
     .navbar .nav-link{
       font-weight:600;
-      color:#2b2f38;
+      color:var(--muted);
       padding:.75rem 1rem;
     }
     .navbar .nav-link:hover,
     .navbar .nav-link:focus{
-      color:var(--brand);
+      color:var(--ink);
     }
 
-    /* Buton CTA më i thjeshtë, i vogël */
+    /* Buton CTA i thjeshtë */
     .btn-cta{
       padding:.35rem .75rem;
       font-size:.9rem;
+      color:#f8f9fa;
+      border:1px solid #555;
+      background:none;
+    }
+    .btn-cta:hover{
+      background:#222;
+      color:#fff;
     }
 
-    /* Mega dropdown */
+    /* Mega dropdown dark */
     .dropdown-mega{ position:static; }
     .dropdown-mega .dropdown-menu{
       width:100%;
-      border:none; border-top:1px solid var(--border);
+      border:none; border-top:1px solid var(--border-dark);
       border-radius:0;
       padding:2rem 0;
       margin-top:0;
-      box-shadow:0 .5rem 1.25rem rgba(0,0,0,.06);
+      background:#111;
     }
     .mega-title{
-      font-size:.9rem; font-weight:700; letter-spacing:.02em; text-transform:uppercase;
-      color:#374151; margin-bottom:.75rem;
+      font-size:.9rem; font-weight:700; text-transform:uppercase;
+      color:#ccc; margin-bottom:.75rem;
     }
     .mega-link{
       display:flex; align-items:center; gap:.55rem;
-      padding:.4rem 0; color:#475569; text-decoration:none; border-radius:.4rem;
+      padding:.4rem 0; color:#bbb; text-decoration:none; border-radius:.4rem;
     }
-    .mega-link i{ width:1.1rem; text-align:center; }
-    .mega-link:hover{ color:var(--brand); background:#f8f9fb; }
-    .mega-badge{
-      display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.04em;
-      padding:.15rem .45rem; border-radius:.35rem; background:#eef2ff; color:#3730a3;
-    }
+    .mega-link:hover{ color:#fff; background:#1a1a1a; }
     .mega-img{
       background:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
       border-radius:.8rem; min-height:220px; position:relative; overflow:hidden;
     }
     .mega-img::after{
-      content:"";
-      position:absolute; inset:0; background:linear-gradient(120deg, rgba(0,0,0,.35), rgba(0,0,0,0));
+      content:""; position:absolute; inset:0;
+      background:linear-gradient(120deg, rgba(0,0,0,.5), rgba(0,0,0,0));
     }
     .mega-img .caption{
       position:absolute; left:1rem; bottom:1rem; color:#fff;
-    }
-    .search-inline{ width:260px; max-width:40vw; } /* (kjo është ajo në navbar, po e lëm siç është) */
-
-    @media (max-width: 991.98px){
-      .dropdown-mega .dropdown-menu{ padding:1rem 0; }
-      .search-inline{ width:100%; max-width:100%; margin-top:.75rem; }
-      .topbar .flex-wrap-lg{ flex-wrap: wrap; gap:.5rem; }
     }
   </style>
 </head>
 <body>
 
-  <!-- TOPBAR (me kërkim të vogël në të djathtë) -->
-  <div class="topbar py-2">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap-lg">
-      <div class="d-flex align-items-center gap-3">
-        <a href="mailto:hello@aventuroo.com"><i class="fa-regular fa-envelope me-1"></i> hello@aventuroo.com</a>
-        <a href="tel:+355xxxxxxxx"><i class="fa-solid fa-phone me-1"></i> +355 xx xxx xxx</a>
-      </div>
+<div class="topbar py-2">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    
+    <!-- (opsionalisht mund të vendosësh të majtën këtu, për shembull email ose tel) -->
+    <div></div>
 
-      <div class="d-flex align-items-center gap-3">
-        <!-- Social -->
-        <div class="d-flex gap-3">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        </div>
+    <!-- Ikonat + Search në të djathtë -->
+    <div class="d-flex align-items-center gap-3 ms-auto">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
 
-        <!-- Search i vogël -->
-        <form id="topbar-search" class="topbar-search d-flex align-items-center gap-2" role="search">
-          <input class="form-control form-control-sm" name="q" type="search" placeholder="Kërko…" aria-label="Search">
-          <button class="btn btn-outline-secondary btn-sm" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </form>
-      </div>
+      <!-- Search i vogël -->
+      <form id="topbar-search" class="topbar-search d-flex align-items-center gap-1" role="search">
+        <input class="form-control form-control-sm" name="q" type="search" placeholder="Search…" aria-label="Search">
+        <button class="btn btn-sm btn-outline-secondary" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
     </div>
   </div>
+</div>
+
 
   <!-- NAVBAR -->
-  <header class="navbar navbar-expand-lg sticky-top">
+  <header class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-      <!-- LOGO (placeholder – NDRO SRC më vonë) -->
-      <a class="navbar-brand d-flex align-items-center gap-2" href="/">
-        <img src="https://dummyimage.com/160x44/111827/ffffff&text=LOGO" alt="AventurOO logo">
-      </a>
-
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+      AVENTUR <span style="font-size: calc(1em + 5px);">OO</span>
+    </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="mainNav">
-        <!-- MENU -->
-        <ul class="navbar-nav mx-lg-auto align-items-lg-center">
+        <ul class="navbar-nav mx-lg-auto">
           <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
 
-          <!-- MEGA: Stories -->
+          <!-- Stories Mega -->
           <li class="nav-item dropdown dropdown-mega">
-            <a class="nav-link dropdown-toggle" href="/stories/" data-bs-toggle="dropdown" aria-expanded="false">
-              Stories
-            </a>
+            <a class="nav-link dropdown-toggle" href="/stories/" data-bs-toggle="dropdown">Stories</a>
             <div class="dropdown-menu">
               <div class="container">
                 <div class="row g-4">
-                  <div class="col-12 col-lg-3">
-                    <div class="mega-title">Genres <span class="mega-badge ms-1">New</span></div>
-                    <a class="mega-link" href="/stories/flash/"><i class="fa-regular fa-bolt"></i> Flash Fiction</a>
-                    <a class="mega-link" href="/stories/literary/"><i class="fa-regular fa-book"></i> Literary</a>
-                    <a class="mega-link" href="/stories/nonfiction/"><i class="fa-regular fa-file-lines"></i> Nonfiction</a>
-                    <a class="mega-link" href="/stories/personal/"><i class="fa-regular fa-user"></i> Personal</a>
-                    <a class="mega-link" href="/stories/fantasy/"><i class="fa-regular fa-ghost"></i> Fantasy/Horror</a>
+                  <div class="col-6 col-lg-3">
+                    <div class="mega-title">Genres</div>
+                    <a class="mega-link" href="/stories/flash/">Flash Fiction</a>
+                    <a class="mega-link" href="/stories/literary/">Literary</a>
+                    <a class="mega-link" href="/stories/nonfiction/">Nonfiction</a>
                   </div>
-                  <div class="col-12 col-lg-3">
+                  <div class="col-6 col-lg-3">
                     <div class="mega-title">Popular</div>
-                    <a class="mega-link" href="/stories/most-read/"><i class="fa-regular fa-fire"></i> Most Read</a>
-                    <a class="mega-link" href="/stories/editors-picks/"><i class="fa-regular fa-star"></i> Editor’s Picks</a>
-                    <a class="mega-link" href="/stories/trending/"><i class="fa-regular fa-chart-line"></i> Trending</a>
-                    <a class="mega-link" href="/stories/new-authors/"><i class="fa-regular fa-pen-nib"></i> New Authors</a>
-                  </div>
-                  <div class="col-12 col-lg-3">
-                    <div class="mega-title">Resources</div>
-                    <a class="mega-link" href="/guides/writing-tips/"><i class="fa-regular fa-lightbulb"></i> Writing Tips</a>
-                    <a class="mega-link" href="/guides/interviews/"><i class="fa-regular fa-microphone"></i> Author Interviews</a>
-                    <a class="mega-link" href="/guides/publishing/"><i class="fa-regular fa-paper-plane"></i> Publishing Advice</a>
-                    <a class="mega-link" href="/guides/newsletter/"><i class="fa-regular fa-envelope"></i> Newsletter</a>
-                  </div>
-                  <div class="col-12 col-lg-3">
-                    <div class="mega-img">
-                      <div class="caption">
-                        <div class="brand-serif h5 mb-1">Featured Story</div>
-                        <div class="small text-white-50">Discover our latest pick</div>
-                        <a class="btn btn-sm btn-light mt-2" href="/stories/featured/">Lexo tani</a>
-                      </div>
-                    </div>
-                  </div>
-                </div> <!-- row -->
-              </div> <!-- container -->
-            </div> <!-- dropdown-menu -->
-          </li>
-
-          <!-- Items të tjerë -->
-          <li class="nav-item dropdown dropdown-mega">
-            <a class="nav-link dropdown-toggle" href="/travel/" data-bs-toggle="dropdown">Travel</a>
-            <div class="dropdown-menu">
-              <div class="container">
-                <div class="row g-4">
-                  <div class="col-6 col-lg-3">
-                    <div class="mega-title">By Region</div>
-                    <a class="mega-link" href="/travel/europe/"><i class="fa-regular fa-globe-europe"></i> Europe</a>
-                    <a class="mega-link" href="/travel/asia/"><i class="fa-regular fa-globe-asia"></i> Asia</a>
-                    <a class="mega-link" href="/travel/americas/"><i class="fa-regular fa-earth-americas"></i> Americas</a>
-                    <a class="mega-link" href="/travel/africa/"><i class="fa-regular fa-earth-africa"></i> Africa</a>
-                  </div>
-                  <div class="col-6 col-lg-3">
-                    <div class="mega-title">Themes</div>
-                    <a class="mega-link" href="/travel/family/"><i class="fa-regular fa-people-group"></i> Family</a>
-                    <a class="mega-link" href="/travel/adventure/"><i class="fa-regular fa-person-hiking"></i> Adventure</a>
-                    <a class="mega-link" href="/travel/luxury/"><i class="fa-regular fa-gem"></i> Luxury</a>
-                    <a class="mega-link" href="/travel/budget/"><i class="fa-regular fa-wallet"></i> Budget</a>
+                    <a class="mega-link" href="#">Most Read</a>
+                    <a class="mega-link" href="#">Editor’s Picks</a>
                   </div>
                   <div class="col-12 col-lg-6">
-                    <div class="mega-title">Top Deals</div>
-                    <div class="row g-3">
-                      <div class="col-12 col-md-6">
-                        <a class="mega-link" href="/deals/italy-7days/"><i class="fa-regular fa-ticket"></i> Italy 7-Day Pass</a>
-                        <a class="mega-link" href="/deals/swiss-rail/"><i class="fa-regular fa-train"></i> Swiss Rail Offer</a>
-                        <a class="mega-link" href="/deals/iberia-flight/"><i class="fa-regular fa-plane"></i> Iberia Weekend</a>
-                      </div>
-                      <div class="col-12 col-md-6">
-                        <a class="mega-link" href="/deals/berlin-city/"><i class="fa-regular fa-city"></i> Berlin City Card</a>
-                        <a class="mega-link" href="/deals/amalfi-boat/"><i class="fa-regular fa-sailboat"></i> Amalfi Boat Tour</a>
-                        <a class="mega-link" href="/deals/santorini-sunset/"><i class="fa-regular fa-sun"></i> Santorini Sunset</a>
+                    <div class="mega-img">
+                      <div class="caption">
+                        <div class="h5 mb-1">Featured Story</div>
+                        <div class="small text-white-50">Discover our latest pick</div>
                       </div>
                     </div>
                   </div>
-                </div> <!-- row -->
+                </div>
               </div>
             </div>
           </li>
 
+          <li class="nav-item"><a class="nav-link" href="/travel/">Travel</a></li>
           <li class="nav-item"><a class="nav-link" href="/culture/">Culture</a></li>
           <li class="nav-item"><a class="nav-link" href="/lifestyle/">Lifestyle</a></li>
-          <li class="nav-item"><a class="nav-link" href="/guides/">Guides</a></li>
-          <li class="nav-item"><a class="nav-link" href="/deals/">Deals</a></li>
         </ul>
 
-        <!-- CTA djathtas – e thjeshtë dhe e vogël -->
-        <div class="d-lg-flex align-items-center">
-          <a class="btn btn-outline-secondary btn-cta ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Contact</a>
-        </div>
+        <!-- CTA e thjeshtë -->
+        <a class="btn btn-cta ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Contact</a>
       </div>
     </div>
   </header>
@@ -266,7 +199,7 @@
   <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    // Kërkimi në TOPBAR – dërgon te /search/?q=...
+    // Kërkimi në TOPBAR
     const topSearch = document.getElementById('topbar-search');
     topSearch.addEventListener('submit', function(e){
       e.preventDefault();
