@@ -1675,3 +1675,23 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
   margin-bottom: 0.75rem;
   color: #e5e5e5;
 }
+
+
+/* Rregullim i pozicionimit të teksteve në slideshow */
+#js-header .slideshow__slide-caption-text {
+  height: 100%;
+  padding-top: 0;            /* hiq padding-un ekzistues */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* qendro në mes vertikalisht */
+  align-items: center;       /* opsionale: qendro edhe horizontalisht */
+  text-align: flex-start;        /* opsionale: teksti qendror */
+}
+
+/* ▼ Shtoje pas gjithë CSS-it tënd ekzistues */
+#js-header.slideshow {
+  height: 100vh;      /* ruaj sjelljen aktuale */
+  max-height: 500px;  /* por mos e kalo 600px */
+  overflow: hidden;   /* fshih çdo tepricë */
+}
+
