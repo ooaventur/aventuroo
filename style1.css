@@ -1656,7 +1656,7 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
 /* ▼ Shtoje pas gjithë CSS-it tënd ekzistues */
 #js-header.slideshow {
   height: 100vh;      /* ruaj sjelljen aktuale */
-  max-height: 600px;  /* por mos e kalo 600px */
+  max-height: 450px;  /* por mos e kalo 600px */
   overflow: hidden;   /* fshih çdo tepricë */
 }
 /* Opsionale: bëje padding-top më të arsyeshëm kur lartësia kufizohet */
