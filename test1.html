@@ -2,7 +2,7 @@
 <html lang="sq">
 <head>
   <meta charset="utf-8">
-  <title>AventurOO • Mega Menu (Dark Header)</title>
+  <title>AventurOO • Mega Menu (Dark Header) + Slider 12</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Fonts -->
@@ -11,6 +11,9 @@
   <!-- Bootstrap & Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS (për sliderin) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   <style>
     :root{
@@ -59,16 +62,13 @@
       background:var(--bg-dark) !important;
       border-bottom:1px solid var(--border-dark);
     }
-    .navbar-brand img{ height:38px; }
     .navbar .nav-link{
       font-weight:600;
       color:var(--muted);
       padding:.75rem 1rem;
     }
     .navbar .nav-link:hover,
-    .navbar .nav-link:focus{
-      color:var(--ink);
-    }
+    .navbar .nav-link:focus{ color:var(--ink); }
 
     /* Buton CTA i thjeshtë */
     .btn-cta{
@@ -78,10 +78,7 @@
       border:1px solid #555;
       background:none;
     }
-    .btn-cta:hover{
-      background:#222;
-      color:#fff;
-    }
+    .btn-cta:hover{ background:#222; color:#fff; }
 
     /* Mega dropdown dark */
     .dropdown-mega{ position:static; }
@@ -110,111 +107,76 @@
       content:""; position:absolute; inset:0;
       background:linear-gradient(120deg, rgba(0,0,0,.5), rgba(0,0,0,0));
     }
-    .mega-img .caption{
-      position:absolute; left:1rem; bottom:1rem; color:#fff;
+    .mega-img .caption{ position:absolute; left:1rem; bottom:1rem; color:#fff; }
+
+    /* ======================= */
+    /*    SLIDER 12  (DEMO)    */
+    /* ======================= */
+    .slider-12 .slide-card{
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,.08);
     }
+    .slider-12 .media{ position: relative; width:100%; padding-top:56.25%; background:#111; }
+    .slider-12 .media img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+    .slider-12 .overlay{
+      position:absolute; inset:0;
+      background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.65) 100%);
+      display:flex; align-items:end; padding:14px;
+    }
+    .slider-12 .title{
+      color:#fff; margin:0; font-weight:700; line-height:1.25;
+      font-size:clamp(0.95rem,1.6vw,1.15rem);
+      text-shadow:0 2px 8px rgba(0,0,0,.35);
+    }
+    .slider-12 .meta{ color:#e5e7eb; font-size:.8rem; opacity:.9; }
+    .slider-12 .read{
+      display:inline-block; margin-top:6px; font-size:.8rem; color:#fff; text-decoration:none;
+      padding:.3rem .55rem; border:1px solid rgba(255,255,255,.6); border-radius:999px;
+    }
+    .slider-12 .read:hover{ background:rgba(255,255,255,.12); }
+    .slider-12 .swiper-slide{ width:72%; }
+    @media (min-width:576px){ .slider-12 .swiper-slide{ width:48%; } }
+    @media (min-width:992px){ .slider-12 .swiper-slide{ width:22%; } }
+    .slider-12 .swiper-button-prev,
+    .slider-12 .swiper-button-next{
+      color:#111; width:38px; height:38px; background:#fff; border-radius:999px;
+      box-shadow:0 6px 18px rgba(0,0,0,.12);
+    }
+    .slider-12 .swiper-button-prev:after,
+    .slider-12 .swiper-button-next:after{ font-size:16px; }
+    .slider-12 .swiper-pagination-bullet{ background:#111; }
   </style>
-
-<style>
-/* Karta me kënd të rrumbullakosur + hije e lehtë */
-.slider-12 .slide-card{
-  position: relative;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0,0,0,.08);
-}
-
-/* Raport 16:9 */
-.slider-12 .media{
-  position: relative; width: 100%;
-  padding-top: 56.25%; /* 16:9 */
-  background: #111;
-}
-.slider-12 .media img{
-  position: absolute; inset: 0;
-  width:100%; height:100%; object-fit: cover;
-}
-
-/* Overlay me gradient & tekst */
-.slider-12 .overlay{
-  position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,.65) 100%);
-  display: flex; align-items: end; padding: 14px;
-}
-.slider-12 .title{
-  color:#fff; margin:0;
-  /* madhësi si “slide 12”: kompakte, responsive */
-  font-weight:700; line-height:1.25;
-  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
-  text-shadow: 0 2px 8px rgba(0,0,0,.35);
-}
-.slider-12 .meta{
-  color: #e5e7eb; font-size: .8rem;
-  opacity:.9;
-}
-
-/* Buton “Read article” i thjeshtë */
-.slider-12 .read{
-  display:inline-block; margin-top:6px;
-  font-size:.8rem; color:#fff; text-decoration:none;
-  padding:.3rem .55rem; border:1px solid rgba(255,255,255,.6);
-  border-radius: 999px;
-}
-.slider-12 .read:hover{ background: rgba(255,255,255,.12); }
-
-/* Swiper specifics */
-.slider-12 .swiper-slide{ width: 72%; }              /* mobile: 1.3 karta */
-@media (min-width: 576px){ .slider-12 .swiper-slide{ width: 48%; } } /* ~2 */
-@media (min-width: 992px){ .slider-12 .swiper-slide{ width: 22%; } } /* ~4-5 */
-
-.slider-12 .swiper-button-prev,
-.slider-12 .swiper-button-next{
-  color:#111; width:38px; height:38px;
-  background:#fff; border-radius:999px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.12);
-}
-.slider-12 .swiper-button-prev:after,
-.slider-12 .swiper-button-next:after{ font-size:16px; }
-.slider-12 .swiper-pagination-bullet{ background:#111; }
-</style>
-
-
-
-
-  
 </head>
 <body>
 
-<div class="topbar py-2">
-  <div class="container d-flex justify-content-between align-items-center flex-wrap">
-    
-    <!-- (opsionalisht mund të vendosësh të majtën këtu, për shembull email ose tel) -->
-    <div></div>
+  <!-- TOPBAR (djathas: social + search i vogël) -->
+  <div class="topbar py-2">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <div></div>
+      <div class="d-flex align-items-center gap-3 ms-auto">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
 
-    <!-- Ikonat + Search në të djathtë -->
-    <div class="d-flex align-items-center gap-3 ms-auto">
-      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-
-      <!-- Search i vogël -->
-      <form id="topbar-search" class="topbar-search d-flex align-items-center gap-1" role="search">
-        <input class="form-control form-control-sm" name="q" type="search" placeholder="Search…" aria-label="Search">
-        <button class="btn btn-sm btn-outline-secondary" type="submit">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
+        <form id="topbar-search" class="topbar-search d-flex align-items-center gap-1" role="search">
+          <input class="form-control form-control-sm" name="q" type="search" placeholder="Search…" aria-label="Search">
+          <button class="btn btn-sm btn-outline-secondary" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
     </div>
   </div>
-</div>
 
-
-  <!-- NAVBAR -->
+  <!-- NAVBAR (pa ndryshime; vetëm OO = +3px) -->
   <header class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container">
-    <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
-      AVENTUR <span style="font-size: calc(1em + 5px);">OO</span>
-    </a>
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        AVENTUR <span style="font-size: calc(1em + 3px);">OO</span>
+      </a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -248,9 +210,9 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
+                </div> <!-- row -->
+              </div> <!-- container -->
+            </div> <!-- dropdown-menu -->
           </li>
 
           <li class="nav-item"><a class="nav-link" href="/travel/">Travel</a></li>
@@ -258,138 +220,109 @@
           <li class="nav-item"><a class="nav-link" href="/lifestyle/">Lifestyle</a></li>
         </ul>
 
-        <!-- CTA e thjeshtë -->
         <a class="btn btn-cta ms-lg-2 mt-3 mt-lg-0" href="/contact.html">Contact</a>
       </div>
     </div>
   </header>
 
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
-<section class="container py-4">
-  <div class="d-flex justify-content-between align-items-end mb-3">
-    <h2 class="h5 m-0">Latest</h2>
-    <a class="small text-decoration-none" href="/stories/">See all →</a>
-  </div>
-
-  <!-- Slider 12 -->
-  <div class="swiper slider-12">
-    <div class="swiper-wrapper" id="slider12-slides">
-      <!-- slides injected by JS -->
+  <!-- ======================== -->
+  <!--      SLIDER 12 DEMO      -->
+  <!-- ======================== -->
+  <section class="container py-5">
+    <div class="d-flex justify-content-between align-items-end mb-3">
+      <h2 class="h5 m-0">Latest</h2>
+      <a class="small text-decoration-none" href="#">See all →</a>
     </div>
 
-    <!-- Controls -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-pagination d-lg-none"></div>
-  </div>
-</section>
+    <div class="swiper slider-12">
+      <div class="swiper-wrapper" id="slider12-slides">
+        <!-- slides injected by JS -->
+      </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination d-lg-none"></div>
+    </div>
+  </section>
 
-
-
-
-
-
-  
   <!-- JS -->
-
-<script>
-(async function(){
-  // >>> KONFIGURIM: ku i lexon postet
-  const POST_SOURCES = [
-    '/stories/data/posts.json',
-    '/travel/data/posts.json',
-    '/culture/data/posts.json',
-    '/lifestyle/data/posts.json'
-  ];
-
-  // Lexo & bashko të gjitha
-  let all = [];
-  const arrs = await Promise.allSettled(
-    POST_SOURCES.map(async url => {
-      const r = await fetch(url, {cache:'no-store'});
-      if(!r.ok) throw new Error(url);
-      const a = await r.json();
-      const base = url.split('/').slice(0,-2).join('/'); // p.sh. /stories
-      return a.map(p => ({...p, __base: base}));
-    })
-  );
-  arrs.forEach(x => { if(x.status==='fulfilled') all = all.concat(x.value) });
-
-  // Sorto sipas datës (nëse mungon, fut në fund)
-  function toTime(d){ return d ? new Date(d).getTime() : 0; }
-  all.sort((a,b) => toTime(b.date) - toTime(a.date));
-
-  // Mer 5 të fundit
-  const last5 = all.slice(0,5);
-
-  // Ndërto slides
-  const wrap = document.getElementById('slider12-slides');
-  wrap.innerHTML = last5.map(p => {
-    // link i postit: /{category}/{slug}/
-    const href = `${p.__base}/${(p.slug||'').replace(/^\/+/,'')}/`.replace(/\/+$/,'/');
-    // cover absolut/relativ
-    const cover = p.cover ? (p.cover.startsWith('http') ? p.cover : `${p.__base}/${p.cover}`) : 'https://picsum.photos/800/450';
-    const date = p.date ? new Date(p.date).toLocaleDateString() : '';
-
-    return `
-      <div class="swiper-slide">
-        <article class="slide-card">
-          <a class="stretched-link" href="${href}" aria-label="${p.title||'Read'}"></a>
-          <div class="media">
-            <img src="${cover}" alt="">
-            <div class="overlay">
-              <div>
-                <h3 class="title">${p.title||''}</h3>
-                ${date ? `<div class="meta">${date}</div>`:''}
-                <a class="read" href="${href}">Read article</a>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>`;
-  }).join('');
-
-  // Inic. Swiper
-  new Swiper('.slider-12', {
-    slidesPerView: 'auto',
-    spaceBetween: 14,
-    loop: false,
-    grabCursor: true,
-    navigation: {
-      nextEl: '.slider-12 .swiper-button-next',
-      prevEl: '.slider-12 .swiper-button-prev'
-    },
-    pagination: {
-      el: '.slider-12 .swiper-pagination',
-      clickable: true
-    },
-    keyboard: { enabled: true }
-  });
-})();
-</script>
-
-
-
-
-
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   <script>
     // Kërkimi në TOPBAR
     const topSearch = document.getElementById('topbar-search');
-    topSearch.addEventListener('submit', function(e){
-      e.preventDefault();
-      const q = new FormData(topSearch).get('q')?.toString().trim() || '';
-      const url = new URL('/search/', location.origin);
-      if (q) url.searchParams.set('q', q);
-      location.href = url.toString();
-    });
+    if (topSearch) {
+      topSearch.addEventListener('submit', function(e){
+        e.preventDefault();
+        const q = new FormData(topSearch).get('q')?.toString().trim() || '';
+        const url = new URL('/search/', location.origin);
+        if (q) url.searchParams.set('q', q);
+        location.href = url.toString();
+      });
+    }
+
+    // Slider 12 – 3 artikuj prezantues (hardcoded)
+    const DEMO_POSTS = [
+      {
+        title: "Hidden Alleys of Lisbon",
+        slug: "hidden-alleys-lisbon",
+        cover: "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1400&auto=format&fit=crop",
+        date: "2025-08-14",
+        href: "#"
+      },
+      {
+        title: "A Weekend in the Dolomites",
+        slug: "weekend-dolomites",
+        cover: "https://images.unsplash.com/photo-1517824806704-9040b037703b?q=80&w=1400&auto=format&fit=crop",
+        date: "2025-07-30",
+        href: "#"
+      },
+      {
+        title: "Night Markets of Taipei",
+        slug: "night-markets-taipei",
+        cover: "https://images.unsplash.com/photo-1518544887871-2df6f42b4d49?q=80&w=1400&auto=format&fit=crop",
+        date: "2025-07-10",
+        href: "#"
+      }
+    ];
+
+    (function initSlider12(){
+      const wrap = document.getElementById('slider12-slides');
+      wrap.innerHTML = DEMO_POSTS.map(p => `
+        <div class="swiper-slide">
+          <article class="slide-card">
+            <a class="stretched-link" href="${p.href}" aria-label="${p.title}"></a>
+            <div class="media">
+              <img src="${p.cover}" alt="">
+              <div class="overlay">
+                <div>
+                  <h3 class="title">${p.title}</h3>
+                  <div class="meta">${new Date(p.date).toLocaleDateString()}</div>
+                  <a class="read" href="${p.href}">Read article</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      `).join('');
+
+      new Swiper('.slider-12', {
+        slidesPerView: 'auto',
+        spaceBetween: 14,
+        loop: false,
+        grabCursor: true,
+        navigation: {
+          nextEl: '.slider-12 .swiper-button-next',
+          prevEl: '.slider-12 .swiper-button-prev'
+        },
+        pagination: {
+          el: '.slider-12 .swiper-pagination',
+          clickable: true
+        },
+        keyboard: { enabled: true }
+      });
+    })();
   </script>
 </body>
 </html>
