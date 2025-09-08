@@ -1,4 +1,4 @@
-name: Autopost • Culture 
+name: Autopost • Culture
 
 on:
   workflow_dispatch: {}
@@ -8,20 +8,28 @@ on:
 permissions:
   contents: write
 
+# Parandalon që të nisen 2 run-e njëkohësisht në të njëjtën degë
+concurrency:
+  group: autopost-culture-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   run:
     runs-on: ubuntu-latest
-    env:  
+    env:
       SUMMARY_WORDS: "700"
       MAX_PER_CAT: "6"
       HTTP_TIMEOUT: "18"
       AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
       FALLBACK_COVER: "assets/img/cover-fallback.jpg"
-      
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # që të lejojmë pull/rebase
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -34,9 +42,12 @@ jobs:
 
       - name: Ensure files
         run: |
-          mkdir -p autopost data
-          [ -s autopost/seen.json ] || echo "{}" > autopost/seen_culture.json
+          mkdir -p autopost data autopost/data
+          # KRIJO SAKTE seen.json sepse skripti lexon kete emër
+          [ -s autopost/seen.json ] || echo "{}" > autopost/seen.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
+          # Opsionale: sigurohu që feeds.txt ekziston
+          [ -s autopost/data/feeds.txt ] || echo "# Culture|https://example.com/rss" > autopost/data/feeds.txt
 
       - name: Run Culture autoposter
         run: python3 autopost/pull_culture.py
@@ -44,16 +55,39 @@ jobs:
       - name: Commit & push
         shell: bash
         run: |
+          set -e
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # SIGUROHEMI QE JEMI NE DEGEN main (jo detached HEAD)
+          git fetch origin main
+          git checkout -B main origin/main
+
           git add -A
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "autopost(culture): body html + attribution"
-            # nëse ka ndryshime në remote, bëj rebase që të shmanget non-fast-forward
-            git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
-            git push
+            exit 0
           fi
+
+          git commit -m "autopost(culture): body html + attribution"
+
+          # Provo pull --rebase; nese ka konflikt tek posts.json, mbaj versionin e gjeneruar (ours)
+          (git pull --rebase origin main) || {
+            echo "Rebase conflict; preferring local posts.json"
+            git checkout --ours -- data/posts.json || true
+            git add data/posts.json || true
+            git rebase --continue || true
+          }
+
+          # Retry push (nese dikush shtyn midis pull dhe push)
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $i"
+              break
+            fi
+            echo "Push failed, retrying in 3s..."
+            sleep 3
+            git fetch origin main
+            git rebase origin/main || true
+          done
