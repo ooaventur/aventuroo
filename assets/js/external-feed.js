@@ -28,7 +28,7 @@
       <div class="col-sm-6 col-lg-4">
         <article class="card border-0 shadow-soft h-100">
           <a href="${link}" target="_blank" rel="noopener">
-            <img src="${safeImg}" class="card-img-top" alt="${safeTitle}">
+            <img src="${safeImg}" class="card-img-top" alt="${safeTitle}" loading="lazy">
           </a>
           <div class="card-body d-flex flex-column">
             <span class="badge bg-light text-dark">From the web</span>
