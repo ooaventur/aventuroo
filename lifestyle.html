@@ -97,6 +97,8 @@
     return sortPosts(all.filter(p => (p.category||'').toLowerCase()==='lifestyle'), s);
   }
 
+  function formatDate(s){ try{const d=new Date(s); return d.toLocaleDateString('sq-AL',{year:'numeric',month:'short',day:'2-digit'});}catch{return s||'';} }
+
   function render(){
     const posts=filtered();
     const total=Math.max(1,Math.ceil(posts.length/perPage));
@@ -132,11 +134,10 @@
     const r = await fetch('data/posts.json');
     all = r.ok ? await r.json() : [];
     render();
-    // FIX: interpolimi i datës te "Popular"
     document.getElementById('popular').innerHTML = all.slice(0,5).map(p=>`
       <li class='mb-2'>
         <a class='link-secondary text-decoration-none' href="article.html?slug=${p.slug}">${p.title}</a>
-        <div class='text-muted'>${p.date}</div>
+        <div class='text-muted'>${formatDate(p.date)}</div>
       </li>
     `).join('');
   }
