@@ -44,7 +44,7 @@ jobs:
         run: |
           mkdir -p autopost data autopost/data
           # KRIJO SAKTE seen.json sepse skripti lexon kete emër
-          [ -s autopost/seen.json ] || echo "{}" > autopost/seen.json
+          [ -s autopost/seen_culture.json ] || echo "{}" > autopost/seen_culture.json
           [ -s data/posts.json ] || echo "[]" > data/posts.json
           # Opsionale: sigurohu që feeds.txt ekziston
           [ -s autopost/data/feeds.txt ] || echo "# Culture|https://example.com/rss" > autopost/data/feeds.txt
