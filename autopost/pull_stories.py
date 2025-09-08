@@ -19,16 +19,6 @@ from urllib.parse import urlparse, urljoin
 from xml.etree import ElementTree as ET
 
 
-
-
-
-
-
-
-
-
-
-
 # ------------------ Konfigurime ------------------
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
