@@ -82,7 +82,7 @@
 <script src="assets/js/site.js"></script>
 <script src="assets/js/animate.js"></script>
 <script>
-  renderHeader('Lifestyle'); renderFooter();
+  renderHeader('Culture'); renderFooter();
 
   let all=[]; let perPage=6; let page=1;
 
@@ -94,7 +94,7 @@
 
   function filtered(){
     const s=document.getElementById('sort').value;
-    return sortPosts(all.filter(p => (p.category||'').toLowerCase()==='lifestyle'), s);
+    return sortPosts(all.filter(p => (p.category||'').toLowerCase()==='culture'), s);
   }
 
   function formatDate(s){ try{const d=new Date(s); return d.toLocaleDateString('sq-AL',{year:'numeric',month:'short',day:'2-digit'});}catch{return s||'';} }
@@ -144,7 +144,7 @@
   load();
 </script>
 
-<!-- Skripti që sjell artikujt nga burimet e jashtme (Lifestyle) -->
+<!-- Skripti që sjell artikujt nga burimet e jashtme (Culture) -->
 <script src="assets/js/external-feed.js" defer></script>
 </body>
 </html>
