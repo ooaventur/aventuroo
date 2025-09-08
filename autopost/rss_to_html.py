@@ -5,17 +5,19 @@
 # - heq çdo "code/script" nga teksti; filtron paragrafët e shkurtër/jo-kuptimplotë
 # - shkruan: title, category, date, author, cover, source, excerpt (~450 fjalë), content (tekst i pastër me \n\n)
 
-import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket
-from html import unescape
-from urllib.parse import urlparse
-from xml.etree import ElementTree as ET
+import os, re, json, hashlib, pathlib
 
-# ---- external extractor ----
-try:
-    import trafilatura
-    from trafilatura.settings import use_config
-except Exception:
-    trafilatura = None
+from autopost.common import (
+    fetch_bytes,
+    http_get,
+    parse_feed,
+    strip_text,
+    slugify,
+    today_iso,
+    find_cover_from_item,
+    trafilatura,
+    HTTP_TIMEOUT,
+)
 
 # ---- Paths ----
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -29,92 +31,7 @@ MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
 MAX_TOTAL = int(os.getenv("MAX_TOTAL", "0"))          # 0 = pa limit total / run
 SUMMARY_WORDS = int(os.getenv("SUMMARY_WORDS", "450"))
 MAX_POSTS_PERSIST = int(os.getenv("MAX_POSTS_PERSIST", "200"))
-HTTP_TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "15"))
-UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
-
-# ---- HTTP helpers ----
-def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-            return r.read()
-    except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout) as e:
-        print("Fetch error:", url, "->", e)
-        return b""
-
-def http_get_text(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as r:
-        raw = r.read()
-    for enc in ("utf-8", "utf-16", "iso-8859-1"):
-        try:
-            return raw.decode(enc)
-        except Exception:
-            continue
-    return raw.decode("utf-8", "ignore")
-
-# ---- RSS parsing ----
-def parse(xml_bytes: bytes):
-    if not xml_bytes:
-        return []
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
-    items = []
-    # RSS
-    for it in root.findall(".//item"):
-        title = (it.findtext("title") or "").strip()
-        link  = (it.findtext("link") or "").strip()
-        desc  = (it.findtext("description") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": desc, "element": it})
-    # Atom
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
-    for e in root.findall(".//atom:entry", ns):
-        title = (e.findtext("atom:title", default="") or "").strip()
-        link_el = e.find("atom:link[@rel='alternate']", ns) or e.find("atom:link", ns)
-        link = (link_el.attrib.get("href") if link_el is not None else "").strip()
-        summary = (e.findtext("atom:summary", default="") or e.findtext("atom:content", default="") or "").strip()
-        if title and link:
-            items.append({"title": title, "link": link, "summary": summary, "element": e})
-    return items
-
-# ---- utils ----
-def strip_html(s: str) -> str:
-    s = unescape(s or "")
-    s = re.sub(r"(?is)<script.*?</script>|<style.*?</style>|<!--.*?-->", " ", s)
-    s = re.sub(r"<[^>]+>", " ", s)
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-def slugify(s: str) -> str:
-    s = s.lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    return s.strip("-") or "post"
-
-def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
-
-def find_image_from_item(it_elem, page_url: str = "") -> str:
-    if it_elem is not None:
-        enc = it_elem.find("enclosure")
-        if enc is not None and str(enc.attrib.get("type", "")).startswith("image"):
-            u = enc.attrib.get("url", "")
-            if u: return u
-        ns = {"media": "http://search.yahoo.com/mrss/"}
-        m = it_elem.find("media:content", ns) or it_elem.find("media:thumbnail", ns)
-        if m is not None and m.attrib.get("url"):
-            return m.attrib.get("url")
-    # og:image nga trafilatura metadata (më poshtë) ose fallback
-    return ""
-
-def shorten_words(text: str, max_words: int) -> str:
-    words = (text or "").split()
-    if len(words) <= max_words:
-        return (text or "").strip()
-    return " ".join(words[:max_words]) + "…"
 
 # ---- anti-script/code cleaner për paragrafë ----
 CODE_PATTERNS = [
@@ -124,48 +41,46 @@ CODE_PATTERNS = [
 ]
 CODE_RE = re.compile("|".join(CODE_PATTERNS), re.I)
 
+
 def clean_paragraphs(text: str) -> list:
-    """Ndaj në paragrafë, filtro kod/skript/mbishkrime shumë të shkurtra."""
     if not text:
         return []
-    # normalizo newline
     t = re.sub(r"\r\n?", "\n", text).strip()
-    # ndaj sipas blloqeve
     blocks = [b.strip() for b in re.split(r"\n{2,}", t) if b.strip()]
     cleaned = []
     for b in blocks:
-        # hiq rreshta shumë të shkurtër (tituj nav, etj.)
         if len(b) < 30:
             continue
         if CODE_RE.search(b):
             continue
         cleaned.append(b)
-    # nëse filtrimi e boshatis, kthehu te versioni para filtrit (por i gjatë)
     if not cleaned and blocks:
         cleaned = [x for x in blocks if len(x) > 30][:10]
     return cleaned
 
-# ---- Trafilatura extract ----
+
 def extract_with_trafilatura(url: str) -> dict:
-    """
-    Kthen {text, title, author, image, description}
-    - text është body i artikullit (plain text, paragrafë me \n)
-    """
     if trafilatura is None:
         return {}
+    from trafilatura.settings import use_config
     cfg = use_config()
     cfg.set("DEFAULT", "EXTRACTION_TIMEOUT", str(HTTP_TIMEOUT))
     downloaded = trafilatura.fetch_url(url, config=cfg)
     if not downloaded:
         return {}
-    result = trafilatura.extract(downloaded, config=cfg, include_comments=False, include_tables=False, include_images=False, with_metadata=True)
+    result = trafilatura.extract(
+        downloaded,
+        config=cfg,
+        include_comments=False,
+        include_tables=False,
+        include_images=False,
+        with_metadata=True,
+    )
     if not result:
         return {}
-    # trafilatura kthen një string JSON kur with_metadata=True
     try:
         data = json.loads(result)
     except Exception:
-        # në disa versione kthehet tekst i thjeshtë (pa metadata)
         data = {"text": str(result)}
     return {
         "text": data.get("text") or "",
@@ -175,11 +90,17 @@ def extract_with_trafilatura(url: str) -> dict:
         "description": data.get("description") or "",
     }
 
-# ----------------- MAIN -----------------
+
+def shorten_words(text: str, max_words: int) -> str:
+    words = (text or "").split()
+    if len(words) <= max_words:
+        return (text or "").strip()
+    return " ".join(words[:max_words]) + "…"
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
 
-    # SEEN
     if SEEN_DB.exists():
         try:
             seen = json.loads(SEEN_DB.read_text(encoding="utf-8"))
@@ -190,7 +111,6 @@ def main():
     else:
         seen = {}
 
-    # POSTS
     if POSTS_JSON.exists():
         try:
             posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
@@ -201,66 +121,51 @@ def main():
     else:
         posts_idx = []
 
-    # feeds
     if not FEEDS.exists():
-        print("ERROR: feeds.txt NOT FOUND at", FEEDS)
+        print("ERROR: feeds.txt not found:", FEEDS)
         return
 
     added_total = 0
     per_cat = {}
     new_entries = []
 
-    for line in FEEDS.read_text(encoding="utf-8").splitlines():
-        raw = line.strip()
+    for raw in FEEDS.read_text(encoding="utf-8").splitlines():
+        raw = raw.strip()
         if not raw or raw.startswith("#"):
             continue
-        if "|" in raw:
-            cat, url = raw.split("|", 1)
-            category = (cat or "News").strip().title()
-            feed_url = url.strip()
-        else:
-            category = "News"
-            feed_url = raw
-        if not feed_url:
+        if "|" not in raw:
             continue
-
+        cat, url = raw.split("|", 1)
+        category = (cat or "").strip().title()
+        feed_url = (url or "").strip()
+        if not category or not feed_url:
+            continue
         if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
             break
 
-        xml = fetch(feed_url)
+        xml = fetch_bytes(feed_url)
         if not xml:
-            print("Feed empty:", feed_url); continue
-        items = parse(xml)
-        if not items:
-            print("No items in feed:", feed_url); continue
+            continue
 
-        for it in items:
+        for it in parse_feed(xml):
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
                 break
             if per_cat.get(category, 0) >= MAX_PER_CAT:
                 continue
-
             title = (it.get("title") or "").strip()
-            link  = (it.get("link") or "").strip()
+            link = (it.get("link") or "").strip()
             if not title or not link:
                 continue
-
             key = hashlib.sha1(link.encode("utf-8")).hexdigest()
             if key in seen:
                 continue
 
-            # ---- author nga feed (dc/author/atom) ----
-            author = ""
+            author = "AventurOO Editorial"
             it_elem = it.get("element")
             try:
-                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
-                dc = it_elem.find("dc:creator", ns_dc) if it_elem is not None else None
-                if dc is not None and (dc.text or "").strip():
-                    author = dc.text.strip()
-                if not author and it_elem is not None:
-                    a = it_elem.find("author")
-                    if a is not None and (a.text or "").strip():
-                        author = a.text.strip()
+                a = it_elem.find("author") if it_elem is not None else None
+                if a is not None and (a.text or "").strip():
+                    author = a.text.strip()
                 if not author and it_elem is not None:
                     ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
                     an = it_elem.find("atom:author/atom:name", ns_atom)
@@ -271,7 +176,6 @@ def main():
             if not author:
                 author = "AventurOO Editorial"
 
-            # ---- ekstrakt me trafilatura ----
             text_raw = ""
             lead_image = ""
             description = ""
@@ -281,33 +185,28 @@ def main():
                     text_raw = ext.get("text") or ""
                     lead_image = ext.get("image") or ""
                     description = ext.get("description") or ""
-                    # autor nga metadata nëse s'erdhi nga RSS
                     if author == "AventurOO Editorial" and ext.get("author"):
                         author = ext["author"].strip()
                 except Exception as e:
                     print("trafilatura error:", e)
 
-            # fallback nëse s'ka tekst
             if not text_raw:
                 try:
-                    html = http_get_text(link)
-                    text_raw = strip_html(html)
+                    html = http_get(link)
+                    text_raw = strip_text(html)
                 except Exception:
                     text_raw = ""
 
-            # pastro paragrafët (hiq code/script), strukturo
             paragraphs = clean_paragraphs(text_raw)
             content_text = "\n\n".join(paragraphs).strip()
 
-            # excerpt
             base_excerpt = content_text if content_text else (description or (it.get("summary") or ""))
-            excerpt_text = shorten_words(strip_html(base_excerpt), SUMMARY_WORDS)
+            excerpt_text = shorten_words(strip_text(base_excerpt), SUMMARY_WORDS)
 
-            # cover
             cover = ""
             if not lead_image:
                 try:
-                    cover = find_image_from_item(it_elem, link)
+                    cover = find_cover_from_item(it_elem, link)
                 except Exception:
                     cover = ""
             cover = lead_image or cover or FALLBACK_COVER
@@ -323,8 +222,8 @@ def main():
                 "author": author,
                 "source": link,
                 "cover": cover,
-                "excerpt": excerpt_text,   # ~450 fjalë, për listime
-                "content": content_text    # body i pastruar, paragrafë me \n\n
+                "excerpt": excerpt_text,
+                "content": content_text,
             }
             new_entries.append(entry)
 
