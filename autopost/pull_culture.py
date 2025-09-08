@@ -30,7 +30,7 @@ from autopost.common import (
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
-SEEN_DB = ROOT / "autopost" / "seen.json"
+SEEN_DB = ROOT / "autopost" / "seen_culture.json"
 FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
 
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
