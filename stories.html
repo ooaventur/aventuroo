@@ -108,7 +108,7 @@
     document.getElementById('list').innerHTML = slice.map(p=>`
       <div class="col-sm-6">
         <article class="card border-0 shadow-soft h-100">
-          <a href="article.html?slug=${p.slug}"><img src="${p.cover}" class="card-img-top" alt="${p.title}"></a>
+          <a href="article.html?slug=${p.slug}"><img src="${p.cover}" class="card-img-top" alt="${p.title} loading="lazy""></a>
           <div class="card-body d-flex flex-column">
             <span class="badge badge-cat">${p.category}</span>
             <h5 class="card-title mt-2"><a href="article.html?slug=${p.slug}" class="link-dark">${p.title}</a></h5>
