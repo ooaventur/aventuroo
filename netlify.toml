@@ -1,0 +1,11 @@
+# Sitemaps → application/xml
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+  Content-Type = "application/xml; charset=utf-8"
+
+# RSS feeds → application/rss+xml
+[[headers]]
+  for = "/**/rss.xml"
+  [headers.values]
+  Content-Type = "application/rss+xml; charset=utf-8"
