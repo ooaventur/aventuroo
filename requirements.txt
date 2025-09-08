@@ -1,4 +1,4 @@
-trafilatura
-lxml
 certifi
+lxml
 readability-lxml>=0.8.1
+trafilatura
