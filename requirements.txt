@@ -1,5 +1,0 @@
-trafilatura==2.0.0
-lxml==5.4.0
-certifi==2025.8.3
-readability-lxml==0.8.4.1
-pydantic==2.8.2
