@@ -84,3 +84,23 @@ function renderFooter(){
     </div>
   </footer>`;
 }
+
+
+
+(function(){
+  // Script kryesor
+  const gaScript = document.createElement("script");
+  gaScript.async = true;
+  gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-XEHE15B5J6";
+  document.head.appendChild(gaScript);
+
+  // Konfigurimi
+  const inlineScript = document.createElement("script");
+  inlineScript.innerHTML = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XEHE15B5J6');
+  `;
+  document.head.appendChild(inlineScript);
+})();
