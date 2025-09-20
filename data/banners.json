@@ -1,0 +1,17 @@
+[
+  {
+    "image": "/images/ad.png",
+    "href": "/shopping/",
+    "alt": "Discover the latest shopping deals"
+  },
+  {
+    "image": "/images/ads.png",
+    "href": "/travel/",
+    "alt": "Plan your next adventure"
+  },
+  {
+    "image": "/images/sponsored.png",
+    "href": "/tech-ai/",
+    "alt": "Explore trending tech stories"
+  }
+]
