@@ -53,7 +53,6 @@ def _env_int(name: str, default: int) -> int:
 # ------------------ Config ------------------
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-POSTS_JSON = DATA_DIR / "posts.json"
 # Use your uploaded feeds file:
 FEEDS = pathlib.Path(
     os.getenv("FEEDS_FILE") or (ROOT / "autopost" / "feeds_news.txt")
@@ -75,7 +74,11 @@ HTTP_TIMEOUT = _env_int("HTTP_TIMEOUT", 18)
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
+ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
 
+HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
+HOT_DEFAULT_PARENT_SLUG = "general"
+HOT_DEFAULT_CHILD_SLUG = "index"
 
 TRACKING_PARAM_PREFIXES = ("utm_",)
 TRACKING_PARAM_NAMES = {
@@ -101,14 +104,20 @@ IMG_PROXY = os.getenv("IMG_PROXY", "https://images.weserv.nl/?url=")  # "" if yo
 FORCE_PROXY = os.getenv("FORCE_PROXY", "0")  # "1" => route every cover via proxy
 
 try:
-    import trafilatura
+    # Prefer importlib so we don't crash on import-time issues in some environments.
+    import importlib
+    trafilatura = importlib.import_module("trafilatura")
 except Exception:
     trafilatura = None
+    print("[WARN] Optional package 'trafilatura' not available. Install with: pip install trafilatura")
 
 try:
-    from readability import Document
+    import importlib
+    _readability_mod = importlib.import_module("readability")
+    Document = getattr(_readability_mod, "Document", None)
 except Exception:
     Document = None
+    print("[WARN] Optional package 'readability-lxml' not available. Install with: pip install readability-lxml")
 
 # ------------------ HTTP/HTML utils ------------------
 def http_get(url: str) -> str:
@@ -875,6 +884,34 @@ def _normalize_post_entry(entry):
     return normalized
 
 
+def _normalize_hot_entry(entry: dict | None) -> dict | None:
+    if not isinstance(entry, dict):
+        return None
+
+    slug_value = (entry.get("slug") or "").strip()
+    if not slug_value:
+        return None
+
+    normalized: dict[str, str] = {"slug": slug_value}
+
+    for key in HOT_ENTRY_FIELDS:
+        if key == "slug":
+            continue
+        value = entry.get(key)
+        if value is None:
+            continue
+        if isinstance(value, str):
+            value = value.strip()
+        if key == "date":
+            value = _normalize_date_string(str(value)) or today_iso()
+        normalized[key] = value
+
+    if "date" not in normalized:
+        normalized["date"] = today_iso()
+
+    return normalized
+
+
 def _normalize_date_string(value: str) -> str:
     value = (value or "").strip()
     if not value:
@@ -962,292 +999,356 @@ def _entry_sort_key(entry) -> str:
 
 def today_iso() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
+ 
+def _determine_bucket_slugs(entry: dict) -> tuple[str, str]:
+    if not isinstance(entry, dict):
+        return HOT_DEFAULT_PARENT_SLUG, ""
 
+    raw_category_slug = (entry.get("category_slug") or "").strip()
+    cat_slug = ""
+    sub_slug = ""
+    if raw_category_slug:
+        cat_slug, sub_slug = split_category_slug(raw_category_slug)
+
+    if not cat_slug:
+        cat_slug = slugify_taxonomy(entry.get("category"))
+    if not sub_slug:
+        sub_slug = slugify_taxonomy(entry.get("subcategory"))
+
+    cat_slug = cat_slug or HOT_DEFAULT_PARENT_SLUG
+    sub_slug = sub_slug or ""
+    return cat_slug, sub_slug
+
+
+def _hot_bucket_path(base_dir: pathlib.Path, parent_slug: str, child_slug: str) -> pathlib.Path:
+    parent = slugify_taxonomy(parent_slug) or HOT_DEFAULT_PARENT_SLUG
+    child = slugify_taxonomy(child_slug) or HOT_DEFAULT_CHILD_SLUG
+    return base_dir / "hot" / parent / f"{child}.json"
+
+
+def _load_hot_entries(path: pathlib.Path) -> list[dict]:
+    if not path.exists():
+        return []
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    if not isinstance(raw, list):
+        return []
+    normalized: list[dict] = []
+    for item in raw:
+        normalized_item = _normalize_hot_entry(item)
+        if normalized_item is not None:
+            normalized.append(normalized_item)
+    return normalized
+
+
+def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> str:
+    base = ARCHIVE_BASE_URL.rstrip("/")
+    if not base:
+        return ""
+
+    slug_clean = (slug or "").strip().strip("/")
+    parent_clean = slugify_taxonomy(parent_slug)
+    child_clean = slugify_taxonomy(child_slug)
+
+    parts = [base]
+    if parent_clean:
+        parts.append(parent_clean)
+    if child_clean:
+        parts.append(child_clean)
+    if slug_clean:
+        parts.append(slug_clean)
+
+    url = "/".join(parts)
+    if slug_clean:
+        url += "/"
+    return url
 # ------------------ Main ------------------
 def main():
-    DATA_DIR.mkdir(exist_ok=True, parents=True)
-    SEEN_DB.parent.mkdir(exist_ok=True, parents=True)
-
-    # seen
-    if SEEN_DB.exists():
-        try:
-            seen = json.loads(SEEN_DB.read_text(encoding="utf-8"))
-            if not isinstance(seen, dict):
-                seen = {}
-        except json.JSONDecodeError:
-            seen = {}
-    else:
-        seen = {}
-
-    # posts index
-    if POSTS_JSON.exists():
-        try:
-            posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
-            if not isinstance(posts_idx, list):
-                posts_idx = []
-        except json.JSONDecodeError:
-            posts_idx = []
-    else:
-        posts_idx = []
-
-    posts_idx = [
-        normalized for normalized in (
-            _normalize_post_entry(item) for item in posts_idx
-        )
-        if normalized is not None
-    ]
-
-    if not FEEDS.exists():
-        print("ERROR: feeds file not found:", FEEDS)
-        return
-
-    added_total = 0
-    target_words = globals().get("TARGET_WORDS")
-    if not isinstance(target_words, int) or target_words <= 0:
-        target_words = SUMMARY_WORDS
-    per_cat = {}
-    new_entries = []
-
-    current_sub_label = ""
-    current_sub_slug = ""
-
-    for raw in FEEDS.read_text(encoding="utf-8").splitlines():
-        raw = raw.strip()
-        if not raw:
-            continue
-        if raw.startswith("#"):
-            # Support comments like: # === NEWS / POLITICS ===
-            m = re.search(r"#\s*===\s*[^/]+/\s*(.+?)\s*===", raw, flags=re.I)
-            if m:
-                current_sub_label = m.group(1).strip().title()
-                current_sub_slug = slugify_taxonomy(current_sub_label)
-            continue
-
-        if "|" not in raw:
-            continue
-        parts = [p.strip() for p in raw.split("|") if p.strip()]
-        if len(parts) < 2:
-            continue
-
-        feed_url = ""
-        category_label = ""
-        subcategory_label = ""
-        category_slug_value = ""
-
-        # Support: category|subcategory|url OR legacy: category|url OR category/sub|url
-        if len(parts) == 3:
-            category_label = parts[0]
-            subcategory_label = parts[1]
-            feed_url = parts[2]
-        else:
-            cat_str = parts[0]
-            feed_url = parts[1]
-            segments = [seg.strip() for seg in cat_str.split("/") if seg.strip()]
-            if segments:
-                category_label = segments[0]
-                if len(segments) > 1:
-                    subcategory_label = segments[-1]
-                slug_parts = [slugify_taxonomy(seg) for seg in segments if slugify_taxonomy(seg)]
-                if slug_parts:
-                    category_slug_value = "/".join(slug_parts)
-            else:
-                category_label = cat_str
-
-        category_label = (category_label or "").strip()
-        subcategory_label = (subcategory_label or "").strip()
-        feed_url = (feed_url or "").strip()
-        feed_url = re.split(r"\s+#", feed_url, 1)[0].strip()
-        if not feed_url:
-            continue
-
-        derived_cat_slug = ""
-        derived_sub_slug = ""
-        if category_slug_value:
-            derived_cat_slug, derived_sub_slug = split_category_slug(category_slug_value)
-
-        cat_slug = derived_cat_slug or slugify_taxonomy(category_label)
-        sub_slug = derived_sub_slug or slugify_taxonomy(subcategory_label)
-
-        if not subcategory_label and current_sub_label:
-            subcategory_label = current_sub_label
-            sub_slug = sub_slug or current_sub_slug or slugify_taxonomy(subcategory_label)
-
-        if not category_label and cat_slug:
-            category_label = category_label_from_slug(cat_slug)
-        if not subcategory_label and sub_slug:
-            subcategory_label = subcategory_label_from_slug(sub_slug, cat_slug)
-        else:
-            subcategory_label = (subcategory_label or "").strip()
-
-        category_label = _normalize_label_from_slug(category_label, cat_slug)
-        if sub_slug:
-            subcategory_label = _normalize_label_from_slug(subcategory_label, sub_slug, cat_slug)
-        else:
-            subcategory_label = (subcategory_label or "").strip()
-
-        slug_parts = [p for p in (cat_slug, sub_slug) if p]
-        if slug_parts:
-            category_slug_value = "/".join(slug_parts)
-        else:
-            category_slug_value = (category_slug_value or "").strip().strip("/")
-
-        # Optional filter by env CATEGORY (leave empty to accept all)
-        if CATEGORY and category_label != CATEGORY:
-            continue
-
-        print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
-        xml = fetch_bytes(feed_url)
-        if not xml:
-            print("Feed empty:", feed_url)
-            continue
-
-        for it in parse_feed(xml):
-            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
-                break
-
-            key_limit = category_slug_value or cat_slug or (category_label or "_")
-            if per_cat.get(key_limit, 0) >= MAX_PER_CAT:
-                continue
-
-            title = (it.get("title") or "").strip()
-            link  = (it.get("link") or "").strip()
-            if not title or not link:
-                continue
-
-            key = link_hash(link)
-            if key in seen:
-                continue
-
-            # 1) Body HTML
-            body_html, inner_img = extract_body_html(link)
-
-            # Skip unavailable content
-            body_text = strip_text(body_html).lower()
-            if ("there was an error" in body_text or
-                "this content is not available" in body_text):
+     DATA_DIR.mkdir(exist_ok=True, parents=True)
+     SEEN_DB.parent.mkdir(exist_ok=True, parents=True)
+ 
+     # seen
+     if SEEN_DB.exists():
+         try:
+             seen = json.loads(SEEN_DB.read_text(encoding="utf-8"))
+             if not isinstance(seen, dict):
+                 seen = {}
+         except json.JSONDecodeError:
+             seen = {}
+     else:
+         seen = {}
+ 
+     # posts index
+     if POSTS_JSON.exists():
+         try:
+             posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
+             if not isinstance(posts_idx, list):
+                 posts_idx = []
+         except json.JSONDecodeError:
+             posts_idx = []
+     else:
+         posts_idx = []
+ 
+     # posts.json removed in favor of hot shards.
+ 
+     if not FEEDS.exists():
+         print("ERROR: feeds file not found:", FEEDS)
+         return
+ 
+     added_total = 0
+     target_words = globals().get("TARGET_WORDS")
+     if not isinstance(target_words, int) or target_words <= 0:
+         target_words = SUMMARY_WORDS
+     per_cat = {}
++    per_feed_counts: dict[str, int] = {}
+     new_entries = []
+ 
+     current_sub_label = ""
+     current_sub_slug = ""
+ 
+     for raw in FEEDS.read_text(encoding="utf-8").splitlines():
+         raw = raw.strip()
+         if not raw:
+             continue
+         if raw.startswith("#"):
+             # Support comments like: # === NEWS / POLITICS ===
+             m = re.search(r"#\s*===\s*[^/]+/\s*(.+?)\s*===", raw, flags=re.I)
+             if m:
+                 current_sub_label = m.group(1).strip().title()
+                 current_sub_slug = slugify_taxonomy(current_sub_label)
+             continue
+ 
+         if "|" not in raw:
+             continue
+         parts = [p.strip() for p in raw.split("|") if p.strip()]
+         if len(parts) < 2:
+             continue
+ 
+         feed_url = ""
+         category_label = ""
+         subcategory_label = ""
+         category_slug_value = ""
+ 
+         # Support: category|subcategory|url OR legacy: category|url OR category/sub|url
+         if len(parts) == 3:
+             category_label = parts[0]
+             subcategory_label = parts[1]
+             feed_url = parts[2]
+         else:
+             cat_str = parts[0]
+             feed_url = parts[1]
+             segments = [seg.strip() for seg in cat_str.split("/") if seg.strip()]
+             if segments:
+                 category_label = segments[0]
+                 if len(segments) > 1:
+                     subcategory_label = segments[-1]
+                 slug_parts = [slugify_taxonomy(seg) for seg in segments if slugify_taxonomy(seg)]
+                 if slug_parts:
+                     category_slug_value = "/".join(slug_parts)
+             else:
+                 category_label = cat_str
+ 
+         category_label = (category_label or "").strip()
+         subcategory_label = (subcategory_label or "").strip()
+         feed_url = (feed_url or "").strip()
+         feed_url = re.split(r"\s+#", feed_url, 1)[0].strip()
+         if not feed_url:
+             continue
+ 
+         derived_cat_slug = ""
+         derived_sub_slug = ""
+         if category_slug_value:
+             derived_cat_slug, derived_sub_slug = split_category_slug(category_slug_value)
+ 
+         cat_slug = derived_cat_slug or slugify_taxonomy(category_label)
+         sub_slug = derived_sub_slug or slugify_taxonomy(subcategory_label)
+ 
+         if not subcategory_label and current_sub_label:
+             subcategory_label = current_sub_label
+             sub_slug = sub_slug or current_sub_slug or slugify_taxonomy(subcategory_label)
+ 
+         if not category_label and cat_slug:
+             category_label = category_label_from_slug(cat_slug)
+         if not subcategory_label and sub_slug:
+             subcategory_label = subcategory_label_from_slug(sub_slug, cat_slug)
+         else:
+             subcategory_label = (subcategory_label or "").strip()
+ 
+         category_label = _normalize_label_from_slug(category_label, cat_slug)
+         if sub_slug:
+             subcategory_label = _normalize_label_from_slug(subcategory_label, sub_slug, cat_slug)
+         else:
+             subcategory_label = (subcategory_label or "").strip()
+ 
+         slug_parts = [p for p in (cat_slug, sub_slug) if p]
+         if slug_parts:
+             category_slug_value = "/".join(slug_parts)
+         else:
+             category_slug_value = (category_slug_value or "").strip().strip("/")
+ 
+         # Optional filter by env CATEGORY (leave empty to accept all)
+         if CATEGORY and category_label != CATEGORY:
+             continue
+ 
+         print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
+         xml = fetch_bytes(feed_url)
++        per_feed_counts[feed_url] = 0
+         if not xml:
+             print("Feed empty:", feed_url)
+             continue
+ 
+         for it in parse_feed(xml):
++            if MAX_PER_FEED > 0 and per_feed_counts.get(feed_url, 0) >= MAX_PER_FEED:
++                break
++
+             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+                 break
+ 
+             key_limit = category_slug_value or cat_slug or (category_label or "_")
+             if per_cat.get(key_limit, 0) >= MAX_PER_CAT:
+                 continue
+ 
+             title = (it.get("title") or "").strip()
+             link  = (it.get("link") or "").strip()
+             if not title or not link:
+                 continue
+ 
+             key = link_hash(link)
+             if key in seen:
+                 continue
+ 
+             # 1) Body HTML
+             body_html, inner_img = extract_body_html(link)
+ 
+             # Skip unavailable content
+             body_text = strip_text(body_html).lower()
+             if ("there was an error" in body_text or            host = (urlparse(link).hostname or "").lower().replace("www.", "")
+                "this content is not available" in body_text): host.split(".")[0].replace("-", " ").title() if host else ""
                 print(f"[SKIP] {link} -> unavailable content")
                 continue
-
-            # 2) Absolutize & sanitize
-            parsed = urlparse(link)
-            base = f"{parsed.scheme}://{parsed.netloc}"
+ 
+             # 2) Absolutize & sanitize
+             parsed = urlparse(link)gory_label,
+            base = f"{parsed.scheme}://{parsed.netloc}"   "subcategory": subcategory_label,
             body_html = absolutize(body_html, base)
             body_html = sanitize_article_html(body_html)
-
+xcerpt,
             # 3) Trim to target word count while keeping whole blocks when possible
-            body_html = limit_words_html(body_html, target_words)
-
-            # 4) Cover image (cover only; images inside body removed)
+            body_html = limit_words_html(body_html, target_words)                "source": link,
+_domain": host,
+            # 4) Cover image (cover only; images inside body removed)name,
             cover = resolve_cover_url(
-                pick_largest_media_url(it.get("element"))
-                or find_cover_from_item(it.get("element"), link)
+                pick_largest_media_url(it.get("element"))  "rights": rights,
+                or find_cover_from_item(it.get("element"), link)                "body": body_final
                 or inner_img
-                or ""
-            )
+                or ""osts_idx.sort(key=_entry_sort_key, reverse=True)
+            )PERSIST > 0:
 
 
-            # 5) Excerpt
+            # 5) Excerptntries.append(entry)_idx = [
             first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
-            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
-            if len(excerpt) > 280:
-                excerpt = excerpt[:277] + "…"
+            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)ug") or category_slug_value or cat_slug       _normalize_post_entry(item) for item in posts_idx
+            if len(excerpt) > 280:   normalized_category_label = entry.get("category") or category_label        )
+                excerpt = excerpt[:277] + "…"y_label = entry.get("subcategory") or subcategory_label
 
-
-            body_final = (body_html or "") + f"""
-<p class="small text-muted mt-4">
-  Source: <a href="{link}" target="_blank" rel="nofollow noopener noreferrer">Read the full article</a>
-</p>"""
+            seen[key] = {
+            body_final = (body_html or "") + f"""e, indent=2), encoding="utf-8")
+<p class="small text-muted mt-4">")
+  Source: <a href="{link}" target="_blank" rel="nofollow noopener noreferrer">Read the full article</a>ug or slugify_taxonomy(normalized_category_label),"New posts this run:", len(new_entries))
+</p>"""                "subcategory": normalized_subcategory_label,
 
             # 8) Metadata (author/rights)
             author = ""
-            rights = "Unknown"
-            it_elem = it.get("element")
-            if it_elem is not None:
-                a = it_elem.find("author")
-                if a is not None and (a.text or "").strip():
-                    author = a.text.strip()
-                if not author:
-                    ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
-                    an = it_elem.find("atom:author/atom:name", ns_atom)
-                    if an is not None and (an.text or "").strip():
-                        author = an.text.strip()
-                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
-                if not author:
-                    c = it_elem.find("dc:creator", ns_dc)
-                    if c is not None and (c.text or "").strip():
-                        author = c.text.strip()
-                r = it_elem.find("dc:rights", ns_dc) or it_elem.find("copyright")
-                if r is not None and (r.text or "").strip():
-                    rights = r.text.strip()
 
-            if not author:
-                host_fallback = (urlparse(link).hostname or "").lower().replace("www.", "")
-                pretty_site = host_fallback.split(".")[0].replace("-", " ").title() if host_fallback else ""
-                author = pretty_site or DEFAULT_AUTHOR
 
-            date = parse_item_date(it_elem)
-            slug = slugify(title)[:70]
-            host = (urlparse(link).hostname or "").lower().replace("www.", "")
-            source_name = host.split(".")[0].replace("-", " ").title() if host else ""
 
-            entry = {
-                "slug": slug,
-                "title": title,
-                "category": category_label,
-                "subcategory": subcategory_label,
-                "category_slug": category_slug_value,
-                "date": date,
-                "excerpt": excerpt,
-                "cover": cover,
-                "source": link,
-                "source_domain": host,
-                "source_name": source_name,
-                "author": author,
-                "rights": rights,
-                "body": body_final
-            }
-            entry = _normalize_post_entry(entry)
-            if entry is None:
-                continue
 
-            new_entries.append(entry)
 
-            normalized_category_slug = entry.get("category_slug") or category_slug_value or cat_slug
-            normalized_category_label = entry.get("category") or category_label
-            normalized_subcategory_label = entry.get("subcategory") or subcategory_label
 
-            seen[key] = {
-                "title": title,
-                "url": link,
-                "category": normalized_category_slug or slugify_taxonomy(normalized_category_label),
-                "subcategory": normalized_subcategory_label,
-                "created": date,
-            }
-            limit_key_final = normalized_category_slug or key_limit
-            per_cat[limit_key_final] = per_cat.get(limit_key_final, 0) + 1
-            added_total += 1
-            print(f"[{normalized_category_label}/{normalized_subcategory_label or '-'}] + {title}")
 
-    if not new_entries:
-        print("New posts this run: 0")
-        SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
-        return
 
-    posts_idx = new_entries + posts_idx
-    posts_idx.sort(key=_entry_sort_key, reverse=True)
-    if MAX_POSTS_PERSIST > 0:
-        posts_idx = posts_idx[:MAX_POSTS_PERSIST]
 
-    posts_idx = [
-        normalized for normalized in (
-            _normalize_post_entry(item) for item in posts_idx
-        )
-        if normalized is not None
-    ]
 
-    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
-    SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("New posts this run:", len(new_entries))
 
-if __name__ == "__main__":
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    main()if __name__ == "__main__":    print("New posts this run:", len(new_entries))    SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")    ]        if normalized is not None        )            _normalize_post_entry(item) for item in posts_idx        normalized for normalized in (    posts_idx = [        posts_idx = posts_idx[:MAX_POSTS_PERSIST]    if MAX_POSTS_PERSIST > 0:    posts_idx.sort(key=_entry_sort_key, reverse=True)    posts_idx = new_entries + posts_idx        return        SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")        print("New posts this run: 0")    if not new_entries:            print(f"[{normalized_category_label}/{normalized_subcategory_label or '-'}] + {title}")            added_total += 1            per_cat[limit_key_final] = per_cat.get(limit_key_final, 0) + 1            limit_key_final = normalized_category_slug or key_limit            }                "created": date,                "subcategory": normalized_subcategory_label,                "category": normalized_category_slug or slugify_taxonomy(normalized_category_label),                "url": link,                "title": title,            seen[key] = {            normalized_subcategory_label = entry.get("subcategory") or subcategory_label            date = parse_item_date(it_elem)                author = pretty_site or DEFAULT_AUTHOR                pretty_site = host_fallback.split(".")[0].replace("-", " ").title() if host_fallback else ""                host_fallback = (urlparse(link).hostname or "").lower().replace("www.", "")            if not author:                    rights = r.text.strip()                if r is not None and (r.text or "").strip():                r = it_elem.find("dc:rights", ns_dc) or it_elem.find("copyright")                        author = c.text.strip()                    if c is not None and (c.text or "").strip():                    c = it_elem.find("dc:creator", ns_dc)                if not author:                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}                        author = an.text.strip()                    if an is not None and (an.text or "").strip():                    an = it_elem.find("atom:author/atom:name", ns_atom)                    ns_atom = {"atom": "http://www.w3.org/2005/Atom"}                if not author:                    author = a.text.strip()                if a is not None and (a.text or "").strip():                a = it_elem.find("author")            if it_elem is not None:            it_elem = it.get("element")            rights = "Unknown"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    main()if __name__ == "__main__":    print("New posts this run:", len(new_entries))    SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")    ]        if normalized is not None        )            _normalize_post_entry(item) for item in posts_idx        normalized for normalized in (    posts_idx = [    posts_idx = new_entries + posts_idx        return        SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")        print("New posts this run: 0")    if not new_entries:            print(f"[{normalized_category_label}/{normalized_subcategory_label or '-'}] + {title}")            added_total += 1            per_cat[limit_key_final] = per_cat.get(limit_key_final, 0) + 1            limit_key_final = normalized_category_slug or key_limit            }                "created": date,if __name__ == "__main__":
     main()
