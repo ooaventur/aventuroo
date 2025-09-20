@@ -13,12 +13,12 @@ Reads feeds in the form:
 • Picks a clear cover image (largest media/proper https/proxy/fallback).
 • Writes data/posts.json items with:
   {slug,title,category,subcategory,date,excerpt,cover,source,source_domain,source_name,author,rights,body}
-• Applies per-(Category/Subcategory) limits.
+• Applies dynamic per-(Category/Subcategory) limits based on feed counts.
 
 Run:
   python3 "autopost/pull_news.py"
 Env knobs (optional):
-  MAX_PER_CAT, MAX_PER_FEED, MAX_TOTAL, MAX_POSTS_PERSIST, HTTP_TIMEOUT, FALLBACK_COVER, DEFAULT_AUTHOR
+  MAX_PER_FEED, MAX_TOTAL, MAX_POSTS_PERSIST, HTTP_TIMEOUT, FALLBACK_COVER, DEFAULT_AUTHOR
   IMG_TARGET_WIDTH, IMG_PROXY, FORCE_PROXY, TARGET_WORDS, HOT_MAX_ITEMS, HOT_PAGINATION_SIZE
 """
 
@@ -78,7 +78,6 @@ SEEN_DB = ROOT / "autopost" / SEEN_DB_FILENAME
 
 
 MAX_PER_FEED = _env_int("MAX_PER_FEED", 5)
-MAX_PER_CAT = _env_int("MAX_PER_CAT", 5)
 MAX_TOTAL   = _env_int("MAX_TOTAL", 0)
 SUMMARY_WORDS = _env_int("SUMMARY_WORDS", 900)  # kept for compatibility
 TARGET_WORDS = _env_int("TARGET_WORDS", SUMMARY_WORDS)
@@ -899,6 +898,74 @@ def _normalize_post_entry(entry):
     else:
         normalized.pop("category_slug", None)
 
+
+def _parse_metadata_tokens(tokens: list[str]) -> dict[str, str]:
+    """Parse ``key=value`` metadata tokens into a dictionary."""
+
+    metadata: dict[str, str] = {}
+    for token in tokens:
+        token = (token or "").strip()
+        if not token:
+            continue
+        if "=" not in token:
+            continue
+        key, value = token.split("=", 1)
+        key = key.strip().casefold()
+        value = value.strip()
+        if key:
+            metadata[key] = value
+    return metadata
+
+
+def _parse_metadata_text(text: str) -> dict[str, str]:
+    """Tokenize whitespace/pipe/comma separated metadata pairs."""
+
+    if not text:
+        return {}
+    tokens = re.split(r"[|,\s]+", text)
+    return _parse_metadata_tokens(tokens)
+
+
+def _resolve_per_feed_cap(metadata: dict[str, str]) -> Optional[int]:
+    """Translate metadata into a per-feed cap when present."""
+
+    if not metadata:
+        return None
+
+    cap_keys = (
+        "max",
+        "cap",
+        "per_feed",
+        "per-feed",
+        "per_feed_cap",
+        "per-feed-cap",
+        "max_per_feed",
+        "limit",
+    )
+    for key in cap_keys:
+        value = metadata.get(key)
+        if not value:
+            continue
+        value = value.strip()
+        if not value:
+            continue
+        match = re.search(r"\d+", value)
+        if match:
+            try:
+                return int(match.group())
+            except ValueError:
+                continue
+        try:
+            return int(value)
+        except ValueError:
+            continue
+
+    importance = metadata.get("importance", "").strip().casefold()
+    if importance in {"high", "critical", "priority", "boosted"}:
+        return 10
+
+    return None
+
     return normalized
 
 
@@ -1189,27 +1256,44 @@ def _run_autopost() -> list[dict]:
     target_words = globals().get("TARGET_WORDS")
     if not isinstance(target_words, int) or target_words <= 0:
         target_words = SUMMARY_WORDS
-    per_cat = {}
-    per_feed_counts = {}
-    new_entries = []
+    per_cat: dict[str, int] = {}
+    per_feed_counts: dict[str, int] = {}
+    new_entries: list[dict] = []
 
     category_filter_raw = CATEGORY
     category_filter_norm = slugify_taxonomy(category_filter_raw)
     category_filter_lower = category_filter_raw.casefold() if category_filter_raw else ""
 
+    default_per_feed_cap = MAX_PER_FEED if MAX_PER_FEED > 0 else 5
+
     current_sub_label = ""
     current_sub_slug = ""
+    current_comment_meta: dict[str, str] = {}
+    feed_entries: list[dict] = []
+    subcategory_stats: dict[str, dict[str, int]] = {}
 
     for raw in FEEDS.read_text(encoding="utf-8").splitlines():
         raw = raw.strip()
         if not raw:
             continue
         if raw.startswith("#"):
-            # Support comments like: # === NEWS / POLITICS ===
-            m = re.search(r"#\s*===\s*[^/]+/\s*(.+?)\s*===", raw, flags=re.I)
-            if m:
-                current_sub_label = m.group(1).strip().title()
+            header_match = re.search(r"#\s*===\s*(.+?)\s*===", raw, flags=re.I)
+            if header_match:
+                header_text = header_match.group(1).strip()
+                parts = [p.strip() for p in header_text.split("/", 1)]
+                if len(parts) == 2:
+                    current_sub_label = parts[1].strip().title()
+                else:
+                    current_sub_label = header_text.title()
                 current_sub_slug = slugify_taxonomy(current_sub_label)
+                current_comment_meta = {}
+                comment_meta = _parse_metadata_text(raw[header_match.end():])
+                if comment_meta:
+                    current_comment_meta.update(comment_meta)
+            else:
+                extra_meta = _parse_metadata_text(raw.lstrip("#"))
+                if extra_meta:
+                    current_comment_meta.update(extra_meta)
             continue
 
         if "|" not in raw:
@@ -1218,36 +1302,51 @@ def _run_autopost() -> list[dict]:
         if len(parts) < 2:
             continue
 
-        feed_url = ""
+        url_idx = -1
+        for idx, part in enumerate(parts):
+            if re.match(r"[a-z][a-z0-9+\-.]*://", part, flags=re.I):
+                url_idx = idx
+                break
+        if url_idx == -1:
+            url_idx = len(parts) - 1
+
+        feed_url = parts[url_idx]
+        feed_url = re.split(r"\s+#", feed_url or "", 1)[0].strip()
+        if not feed_url:
+            continue
+
+        pre_tokens = parts[:url_idx]
+        post_tokens = parts[url_idx + 1 :]
+        metadata_tokens: list[str] = list(post_tokens)
+
         category_label = ""
         subcategory_label = ""
         category_slug_value = ""
 
-        # Support: category|subcategory|url OR legacy: category|url OR category/sub|url
-        if len(parts) == 3:
-            category_label = parts[0]
-            subcategory_label = parts[1]
-            feed_url = parts[2]
-        else:
-            cat_str = parts[0]
-            feed_url = parts[1]
-            segments = [seg.strip() for seg in cat_str.split("/") if seg.strip()]
+        for token in pre_tokens:
+            if "=" in token:
+                metadata_tokens.append(token)
+                continue
+            if not category_label:
+                category_label = token
+                continue
+            if not subcategory_label:
+                subcategory_label = token
+                continue
+            metadata_tokens.append(token)
+
+        if category_label and "/" in category_label:
+            segments = [seg.strip() for seg in category_label.split("/") if seg.strip()]
             if segments:
                 category_label = segments[0]
-                if len(segments) > 1:
+                if len(segments) > 1 and not subcategory_label:
                     subcategory_label = segments[-1]
                 slug_parts = [slugify_taxonomy(seg) for seg in segments if slugify_taxonomy(seg)]
                 if slug_parts:
                     category_slug_value = "/".join(slug_parts)
-            else:
-                category_label = cat_str
 
         category_label = (category_label or "").strip()
         subcategory_label = (subcategory_label or "").strip()
-        feed_url = (feed_url or "").strip()
-        feed_url = re.split(r"\s+#", feed_url, 1)[0].strip()
-        if not feed_url:
-            continue
 
         derived_cat_slug = ""
         derived_sub_slug = ""
@@ -1285,7 +1384,6 @@ def _run_autopost() -> list[dict]:
         if not category_label_lower and category_label_norm:
             category_label_lower = category_label_norm
 
-        # Optional filter by env CATEGORY (leave empty to accept all)
         if category_filter_raw:
             if category_filter_norm and category_label_norm:
                 if category_label_norm != category_filter_norm:
@@ -1293,6 +1391,73 @@ def _run_autopost() -> list[dict]:
             else:
                 if category_label_lower != category_filter_lower:
                     continue
+
+        line_metadata = _parse_metadata_tokens(metadata_tokens)
+        combined_metadata = dict(current_comment_meta)
+        combined_metadata.update(line_metadata)
+        per_feed_cap_override = _resolve_per_feed_cap(combined_metadata)
+        numeric_override = any(
+            key in combined_metadata and (combined_metadata.get(key) or "").strip()
+            for key in ("max", "cap", "per_feed", "per-feed", "per_feed_cap", "per-feed-cap", "max_per_feed", "limit")
+        )
+
+        key_limit = category_slug_value or cat_slug or (category_label or "_")
+        if not key_limit:
+            key_limit = "_"
+
+        sub_stats = subcategory_stats.setdefault(
+            key_limit,
+            {"feed_count": 0, "per_feed_cap": default_per_feed_cap},
+        )
+        sub_stats["feed_count"] += 1
+        if per_feed_cap_override is not None:
+            if numeric_override:
+                sub_stats["per_feed_cap"] = per_feed_cap_override
+            else:
+                current_cap = sub_stats.get("per_feed_cap", default_per_feed_cap)
+                if per_feed_cap_override > current_cap:
+                    sub_stats["per_feed_cap"] = per_feed_cap_override
+
+        feed_entries.append(
+            {
+                "feed_url": feed_url,
+                "category_label": category_label,
+                "subcategory_label": subcategory_label,
+                "category_slug_value": category_slug_value,
+                "cat_slug": cat_slug,
+                "sub_slug": sub_slug,
+                "key_limit": key_limit,
+            }
+        )
+
+    per_cat_limit: dict[str, int] = {}
+    per_feed_caps: dict[str, int] = {}
+    for key, stats in subcategory_stats.items():
+        feed_count = int(stats.get("feed_count", 0) or 0)
+        cap_value = stats.get("per_feed_cap", default_per_feed_cap)
+        try:
+            cap_int = int(cap_value)
+        except (TypeError, ValueError):
+            cap_int = default_per_feed_cap
+        per_feed_caps[key] = cap_int
+        if feed_count <= 0 or cap_int <= 0:
+            per_cat_limit[key] = 0
+        else:
+            per_cat_limit[key] = feed_count * cap_int
+
+    for entry in feed_entries:
+        key_limit = entry["key_limit"]
+        cat_limit = per_cat_limit.get(key_limit, 0)
+        if cat_limit > 0 and per_cat.get(key_limit, 0) >= cat_limit:
+            continue
+
+        feed_url = entry["feed_url"]
+        category_label = entry["category_label"]
+        subcategory_label = entry["subcategory_label"]
+        cat_slug = entry["cat_slug"]
+        sub_slug = entry["sub_slug"]
+        category_slug_value = entry["category_slug_value"]
+        per_feed_cap_value = per_feed_caps.get(key_limit, default_per_feed_cap)
 
         print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
         xml = fetch_bytes(feed_url)
@@ -1302,16 +1467,14 @@ def _run_autopost() -> list[dict]:
             continue
 
         for it in parse_feed(xml):
-            # enforce per-feed limit
-            if MAX_PER_FEED > 0 and per_feed_counts.get(feed_url, 0) >= MAX_PER_FEED:
+            if per_feed_cap_value > 0 and per_feed_counts.get(feed_url, 0) >= per_feed_cap_value:
                 break
 
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
                 break
 
-            key_limit = category_slug_value or cat_slug or (category_label or "_")
-            if per_cat.get(key_limit, 0) >= MAX_PER_CAT:
-                continue
+            if cat_limit > 0 and per_cat.get(key_limit, 0) >= cat_limit:
+                break
 
             title = (it.get("title") or "").strip()
             link = (it.get("link") or "").strip()
