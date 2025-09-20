@@ -1,0 +1,12 @@
+Lifestyle|Health|https://rss.nytimes.com/services/xml/rss/nyt/Health.xml
+Lifestyle|Health|https://www.healthline.com/rss
+Lifestyle|Beauty & Style|https://www.allure.com/feed/rss
+Lifestyle|Beauty & Style|https://www.harpersbazaar.com/rss/fashion/
+Lifestyle|Home & Design|https://www.architecturaldigest.com/feed/rss
+Lifestyle|Home & Design|https://www.apartmenttherapy.com/main.rss
+Lifestyle|Home & Design|https://design-milk.com/feed/
+Lifestyle|Inspiration|https://www.goodnewsnetwork.org/category/news/inspiring/feed/
+Lifestyle|Inspiration|https://www.success.com/feed/
+Lifestyle|Outdoor|https://www.outsideonline.com/feed/
+Lifestyle|Outdoor|https://www.adventure-journal.com/feed/
+Lifestyle|Outdoor|https://www.backpacker.com/feed/
