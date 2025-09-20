@@ -78,53 +78,17 @@
     return list;
   }
 
-  function uniqueStrings(values) {
-    var seen = Object.create(null);
-    var list = [];
-    if (!Array.isArray(values)) return list;
-    for (var i = 0; i < values.length; i++) {
-      var value = values[i];
-      if (typeof value !== 'string') continue;
-      var trimmed = value.trim();
-      if (!trimmed || seen[trimmed]) continue;
-      seen[trimmed] = true;
-      list.push(trimmed);
-    }
-    return list;
-  }
-
-  function padNumber(value, length) {
-    var number = parseInt(value, 10);
-    if (isNaN(number)) number = 0;
-    var str = String(Math.abs(number));
-    while (str.length < length) {
-      str = '0' + str;
-    }
-    return str;
-  }
-
-  function buildShardCandidates(parent, child) {
+  function buildShardUrls(parent, child) {
     var normalizedParent = slugify(parent) || 'index';
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
-    var segments = [normalizedParent];
-    if (normalizedChild !== 'index') {
-      segments.push(normalizedChild);
-    }
-    var joined = segments.join('/');
     var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
-    var basePath = prefix ? prefix + '/' + joined : joined;
-    var relative = basePath.replace(/^\//, '');
-    return uniqueStrings([
-      basePath + '.json',
-      relative + '.json',
-      basePath + '/index.json',
-      relative + '/index.json',
-      basePath + '.json.gz',
-      relative + '.json.gz',
-      basePath + '/index.json.gz',
-      relative + '/index.json.gz'
-    ]);
+    var path = prefix ? prefix + '/' + normalizedParent + '/' + normalizedChild + '.json' : normalizedParent + '/' + normalizedChild + '.json';
+    var relative = path.replace(/^\/+/, '');
+    return [
+      relative,
+      '/' + relative
+    ];
   }
 
   function fetchHotShard(parent, child) {
@@ -132,7 +96,7 @@
     if (HOT_POSTS_CACHE[scopeKey]) {
       return HOT_POSTS_CACHE[scopeKey];
     }
-    var candidates = buildShardCandidates(parent, child);
+    var candidates = buildShardUrls(parent, child);
     HOT_POSTS_CACHE[scopeKey] = fetchSequential(candidates)
       .then(function (payload) {
         return dedupePosts(sortPosts(normalizePostsPayload(payload)));

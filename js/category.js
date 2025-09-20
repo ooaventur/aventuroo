@@ -435,28 +435,19 @@
     return str;
   }
 
-  function buildShardCandidates(root, parent, child) {
+  function buildHotShardUrls(parent, child) {
     var normalizedParent = slugify(parent) || 'index';
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
-    var segments = [normalizedParent];
-    if (normalizedChild !== 'index') {
-      segments.push(normalizedChild);
-    }
-    var joined = segments.join('/');
-    var prefix = typeof root === 'string' ? root.replace(/\/+$/, '') : '';
-    var basePath = prefix ? prefix + '/' + joined : joined;
-    var relative = basePath.replace(/^\//, '');
-    return uniqueStrings([
-      basePath + '.json',
-      relative + '.json',
-      basePath + '/index.json',
-      relative + '/index.json',
-      basePath + '.json.gz',
-      relative + '.json.gz',
-      basePath + '/index.json.gz',
-      relative + '/index.json.gz'
-    ]);
+    var prefix = typeof HOT_SHARD_ROOT === 'string' ? HOT_SHARD_ROOT.replace(/\/+$/, '') : '';
+    var path = prefix
+      ? prefix + '/' + normalizedParent + '/' + normalizedChild + '.json'
+      : normalizedParent + '/' + normalizedChild + '.json';
+    var relative = path.replace(/^\/+/, '');
+    return [
+      relative,
+      '/' + relative
+    ];
   }
 
   function buildArchiveMonthCandidates(parent, child, year, month) {
@@ -490,7 +481,7 @@
     if (HOT_SHARD_CACHE[scopeKey]) {
       return HOT_SHARD_CACHE[scopeKey];
     }
-    var candidates = buildShardCandidates(HOT_SHARD_ROOT, parent, child);
+    var candidates = buildHotShardUrls(parent, child);
     HOT_SHARD_CACHE[scopeKey] = fetchSequential(candidates)
       .then(function (payload) {
         return sortPosts(normalizePostsPayload(payload));
@@ -1134,33 +1125,49 @@
             if (!perPage || perPage <= 0) perPage = 12;
             var fallbackCount = sortedHot.length;
             var totalItems = computeTotalItems(hotSummary, archiveSummary, scope, fallbackCount);
-            var totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
-            if (!totalItems && sortedHot.length) {
+            if (!totalItems) {
               totalItems = sortedHot.length;
-              totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
             }
+            if (totalItems < sortedHot.length) {
+              totalItems = sortedHot.length;
+            }
+            var totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
             var page = resolveRequestedPage(totalPages);
-            var targetCount = page > 0 ? page * perPage : perPage;
-            if (!targetCount || targetCount < perPage) {
-              targetCount = perPage;
+            var baseQuery = ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : '';
+
+            if (page <= 1) {
+              var initialDataset = {
+                filtered: sortedHot,
+                allPosts: sortedHot,
+                perPage: perPage,
+                totalItems: totalItems,
+                totalPages: totalPages,
+                page: page,
+                baseQuery: baseQuery
+              };
+              renderCategoryDataset(initialDataset);
+              return null;
             }
+
+            var targetCount = page * perPage;
             return loadAdditionalArchivePosts(scope, sortedHot.length, targetCount, archiveSummary)
               .then(function (archivePosts) {
                 var filteredArchive = filterPostsByScope(archivePosts, scope);
                 var combined = dedupePosts(sortPosts(sortedHot.concat(filteredArchive)));
-                if (!totalItems) {
-                  totalItems = combined.length;
-                  totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
+                var computedTotal = totalItems;
+                if (!computedTotal || computedTotal < combined.length) {
+                  computedTotal = combined.length;
+                  totalPages = perPage > 0 ? Math.ceil(computedTotal / perPage) : 0;
                   page = resolveRequestedPage(totalPages);
                 }
                 var dataset = {
                   filtered: combined,
                   allPosts: combined,
                   perPage: perPage,
-                  totalItems: totalItems,
+                  totalItems: computedTotal,
                   totalPages: totalPages,
                   page: page,
-                  baseQuery: ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : ''
+                  baseQuery: baseQuery
                 };
                 renderCategoryDataset(dataset);
               });
