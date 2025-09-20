@@ -41,6 +41,11 @@ from collections import defaultdict
 from email.utils import parsedate_to_datetime
 from typing import Any, Iterable, Iterator, Optional
 
+PROJECT_ROOT = pathlib.Path(__file__).resolve().parents[1]
+_PROJECT_ROOT_STR = str(PROJECT_ROOT)
+if _PROJECT_ROOT_STR not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT_STR)
+
 from autopost.health import HealthReport
 
 
