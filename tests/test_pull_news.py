@@ -89,6 +89,8 @@ class MaxPerFeedLimitTests(unittest.TestCase):
         original_seen_db = pull_news.SEEN_DB
         original_data_dir = pull_news.DATA_DIR
         original_max_per_feed = pull_news.MAX_PER_FEED
+        original_hot_max_items = pull_news.HOT_MAX_ITEMS
+        original_hot_page_size = pull_news.HOT_PAGE_SIZE
 
         try:
             with tempfile.TemporaryDirectory() as tmpdir:
@@ -101,6 +103,8 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                 pull_news.POSTS_JSON = tmp_path / "posts.json"
                 pull_news.SEEN_DB = tmp_path / "seen.json"
                 pull_news.MAX_PER_FEED = 2
+                pull_news.HOT_MAX_ITEMS = 10
+                pull_news.HOT_PAGE_SIZE = 5
 
                 patchers = [
                     mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
@@ -115,12 +119,27 @@ class MaxPerFeedLimitTests(unittest.TestCase):
 
                 data = json.loads(pull_news.POSTS_JSON.read_text(encoding="utf-8"))
                 self.assertEqual(len(data), 2)
+
+                hot_path = tmp_path / "hot" / "test" / "sub" / "index.json"
+                self.assertTrue(hot_path.exists())
+                hot_payload = json.loads(hot_path.read_text(encoding="utf-8"))
+                self.assertEqual(hot_payload["count"], 2)
+                self.assertEqual(len(hot_payload["items"]), 2)
+                slugs = [item["slug"] for item in hot_payload["items"]]
+                self.assertEqual(len(slugs), len(set(slugs)))
+                self.assertEqual(hot_payload["pagination"], {
+                    "total_items": 2,
+                    "per_page": 5,
+                    "total_pages": 1,
+                })
         finally:
             pull_news.FEEDS = original_feeds
             pull_news.POSTS_JSON = original_posts_json
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
             pull_news.MAX_PER_FEED = original_max_per_feed
+            pull_news.HOT_MAX_ITEMS = original_hot_max_items
+            pull_news.HOT_PAGE_SIZE = original_hot_page_size
 
 if __name__ == "__main__":
     unittest.main()
