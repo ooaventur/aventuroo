@@ -101,8 +101,12 @@ Retention knobs:
 - `HOT_PAGINATION_SIZE` – pagination size used when computing manifest counts
   (default: `12`).
 
-The GitHub Actions workflow `rotate-hot-archive.yml` runs the script on a
-schedule so pruning happens independently of the ingestion jobs.
+In day-to-day operation the rotation happens automatically. The
+`.github/workflows/autopost.yml` workflow runs on a staggered cron schedule and
+each matrix job finishes by calling the "Rotate hot shards into archive" step,
+which executes `scripts/rotate_hot_to_archive.py` immediately after the ingest
+scripts complete. That keeps the hot shards trimmed without requiring a separate
+maintenance workflow, while still allowing manual execution for ad-hoc cleanup.
 
 ## Autopost heartbeat & monitoring
 
