@@ -77,9 +77,9 @@ FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
 
-HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
-HOT_DEFAULT_PARENT_SLUG = "general"
-HOT_DEFAULT_CHILD_SLUG = "index"
+# HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
+# HOT_DEFAULT_PARENT_SLUG = "general"
+# HOT_DEFAULT_CHILD_SLUG = "index"
 
 TRACKING_PARAM_PREFIXES = ("utm_",)
 TRACKING_PARAM_NAMES = {
@@ -886,35 +886,6 @@ def _normalize_post_entry(entry):
     return normalized
 
 
-def _normalize_hot_entry(entry):
-    # keep this function compatible with older Python versions
-    if not isinstance(entry, dict):
-        return None
-
-    slug_value = (entry.get("slug") or "").strip()
-    if not slug_value:
-        return None
-
-    normalized = {"slug": slug_value}
-
-    for key in HOT_ENTRY_FIELDS:
-        if key == "slug":
-            continue
-        value = entry.get(key)
-        if value is None:
-            continue
-        if isinstance(value, str):
-            value = value.strip()
-        if key == "date":
-            value = _normalize_date_string(str(value)) or today_iso()
-        normalized[key] = value
-
-    if "date" not in normalized:
-        normalized["date"] = today_iso()
-
-    return normalized
-
-
 def _normalize_date_string(value: str) -> str:
     value = (value or "").strip()
     if not value:
@@ -1003,71 +974,6 @@ def _entry_sort_key(entry) -> str:
 def today_iso() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
  
-def _determine_bucket_slugs(entry: dict) -> tuple[str, str]:
-    if not isinstance(entry, dict):
-        return HOT_DEFAULT_PARENT_SLUG, ""
-
-    raw_category_slug = (entry.get("category_slug") or "").strip()
-    cat_slug = ""
-    sub_slug = ""
-    if raw_category_slug:
-        cat_slug, sub_slug = split_category_slug(raw_category_slug)
-
-    if not cat_slug:
-        cat_slug = slugify_taxonomy(entry.get("category"))
-    if not sub_slug:
-        sub_slug = slugify_taxonomy(entry.get("subcategory"))
-
-    cat_slug = cat_slug or HOT_DEFAULT_PARENT_SLUG
-    sub_slug = sub_slug or ""
-    return cat_slug, sub_slug
-
-
-def _hot_bucket_path(base_dir: pathlib.Path, parent_slug: str, child_slug: str) -> pathlib.Path:
-    parent = slugify_taxonomy(parent_slug) or HOT_DEFAULT_PARENT_SLUG
-    child = slugify_taxonomy(child_slug) or HOT_DEFAULT_CHILD_SLUG
-    return base_dir / "hot" / parent / f"{child}.json"
-
-
-def _load_hot_entries(path: pathlib.Path):
-    if not path.exists():
-        return []
-    try:
-        raw = json.loads(path.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return []
-    if not isinstance(raw, list):
-        return []
-    normalized = []
-    for item in raw:
-        normalized_item = _normalize_hot_entry(item)
-        if normalized_item is not None:
-            normalized.append(normalized_item)
-    return normalized
-
-
-def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> str:
-    base = ARCHIVE_BASE_URL.rstrip("/")
-    if not base:
-        return ""
-
-    slug_clean = (slug or "").strip().strip("/")
-    parent_clean = slugify_taxonomy(parent_slug)
-    child_clean = slugify_taxonomy(child_slug)
-
-    parts = [base]
-    if parent_clean:
-        parts.append(parent_clean)
-    if child_clean:
-        parts.append(child_clean)
-    if slug_clean:
-        parts.append(slug_clean)
-
-    url = "/".join(parts)
-    if slug_clean:
-        url += "/"
-    return url
-# ------------------ Main ------------------
 def main():
     DATA_DIR.mkdir(exist_ok=True, parents=True)
     SEEN_DB.parent.mkdir(exist_ok=True, parents=True)
@@ -1246,6 +1152,100 @@ def main():
 
             # 4) Cover image
             it_elem = it.get("element")
+            cover_candidate = ""
+            try:
+                cover_candidate = pick_largest_media_url(it_elem) or find_cover_from_item(it_elem, link) or inner_img or ""
+            except Exception:
+                cover_candidate = inner_img or ""
+            cover = resolve_cover_url(cover_candidate)
+
+            # 5) Excerpt
+            first_p = re.search(r"(?is)<p[^>]*>(.*?)</p>", body_html or "")
+            excerpt = strip_text(first_p.group(1)) if first_p else (it.get("summary") or title)
+            if isinstance(excerpt, str) and len(excerpt) > 280:
+                excerpt = excerpt[:277] + "…"
+
+            # 6) Date
+            date = parse_item_date(it_elem)
+
+            # 7) Author & rights (best-effort fallbacks)
+            author = DEFAULT_AUTHOR
+            rights = "Unknown"
+            try:
+                ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
+                c = it_elem.find("dc:creator", ns_dc) if it_elem is not None else None
+                if c is not None and (c.text or "").strip():
+                    author = c.text.strip()
+                else:
+                    a = it_elem.find("author") if it_elem is not None else None
+                    if a is not None and (a.text or "").strip():
+                        author = a.text.strip()
+                r = it_elem.find("dc:rights", ns_dc) if it_elem is not None else None
+                if r is not None and (r.text or "").strip():
+                    rights = r.text.strip()
+            except Exception:
+                pass
+
+            # 8) Build entry
+            slug_base = slugify(f"{title}-{date}")
+            entry = {
+                 "slug": slug_base,
+                 "title": title,
+                 "category": category_label,
+                 "subcategory": subcategory_label,
+                 "category_slug": category_slug_value or ("/".join(p for p in (cat_slug, sub_slug) if p) or ""),
+                 "date": date,
+                 "excerpt": excerpt,
+                 "cover": cover,
+                 "source": link,
+                 "source_domain": (urlparse(link).hostname or "").lower().replace("www.", ""),
+                 "source_name": category_label,
+                 "author": author,
+                 "rights": rights,
+                 "body": body_html,
+             }
+
+            # record seen and counters
+            seen[key] = {"url": link, "title": title, "date": date}
+            per_feed_counts[feed_url] = per_feed_counts.get(feed_url, 0) + 1
+            per_cat[key_limit] = per_cat.get(key_limit, 0) + 1
+            added_total += 1
+
+            print(f"[{category_label}/{subcategory_label or '-'}] + {title}")
+            new_entries.append(entry)
+
+            if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
+                break
+
+    # Merge new entries into posts index (new first), normalize and persist
+    if new_entries:
+        new_norm = []
+        for e in new_entries:
+            ne = _normalize_post_entry(e)
+            if ne is not None:
+                new_norm.append(ne)
+        posts_idx = new_norm + posts_idx
+        posts_idx = [p for p in posts_idx if p]  # drop any None
+        posts_idx.sort(key=_entry_sort_key, reverse=True)
+        if MAX_POSTS_PERSIST > 0:
+            posts_idx = posts_idx[:MAX_POSTS_PERSIST]
+
+    # Persist seen and posts
+    try:
+        SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as exc:
+        print("Failed to write seen DB:", exc)
+    try:
+        POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
+    except Exception as exc:
+        print("Failed to write posts index:", exc)
+
+    print("New posts this run:", len(new_entries))
+
+
+if __name__ == "__main__":
+    main()
+    main()
             cover_candidate = ""
             try:
                 cover_candidate = pick_largest_media_url(it_elem) or find_cover_from_item(it_elem, link) or inner_img or ""
