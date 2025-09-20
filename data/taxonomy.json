@@ -65,9 +65,9 @@
     { "slug": "marketplaces", "title": "Marketplaces", "group": "shopping" },
     { "slug": "multi-merchant", "title": "Multi-merchant Networks", "group": "shopping" },
 
-        { "slug": "test", "title": "test", "group": "test" },
 
     { "slug": "guides", "title": "Guides", "group": ["crypto", "food-drink"] }
   ]
 }
+
 
