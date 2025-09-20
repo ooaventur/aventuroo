@@ -1,1 +1,42 @@
 
+
+# === NEWS / GENERAL ===
+NEWS|News3|https://feeds.bbci.co.uk/news/rss.xml
+NEWS|News5|https://www.aljazeera.com/xml/rss/all.xml
+NEWS|News6|https://www.ft.com/?format=rss
+NEWS|News8|https://www.npr.org/rss/rss.php?id=1001
+
+# === TOP STORIES ===
+NEWS|TopStories11|https://feeds.bbci.co.uk/news/rss.xml?edition=uk
+14
+NEWS|TopStories16|https://www.cbsnews.com/laNEWS/rss/main
+NEWS|TopStories17|https://time.com/feed/
+NEWS|TopStories18|https://www.nbcnews.com/rss
+
+# === POLITICS ===
+NEWS|Politics24|https://feeds.bbci.co.uk/news/politics/rss.xml
+NEWS|Politics29|https://abcnews.go.com/abcnews/politicsheadlines
+
+# === ECONOMY ===
+NEWS|Economy33|https://feeds.bbci.co.uk/news/business/economy/rss.xml
+NEWS|Economy34|https://www.ft.com/economy?format=rss
+37
+NEWS|Economy39|https://www.npr.org/rss/rss.php?id=1006
+
+# === BUSINESS & FINANCE ===
+NEWS|Business41|https://www.ft.com/business?format=rss
+NEWS|Business42|https://feeds.bbci.co.uk/news/business/rss.xml
+NEWS|Business48|https://www.cnbc.com/id/10001147/device/rss/rss.html
+NEWS|Business49|https://www.forbes.com/business/feed/
+
+# === MARKETS & ECONOMY ===
+NEWS|Markets52|https://www.ft.com/markets?format=rss
+NEWS|Markets56|https://www.cnbc.com/id/10001147/device/rss/rss.html
+
+# === COMPANIES & STARTUPS ===
+NEWS|Companies61|https://techcrunch.com/startups/feed/
+
+# === PERSONAL FINANCE ===
+NEWS|Finance71|https://www.nerdwallet.com/blog/feed/
+NEWS|Finance74|https://www.money.com/feed/
+NEWS|Finance75|https://www.cnbc.com/id/100646281/device/rss/rss.html
