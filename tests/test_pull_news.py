@@ -77,6 +77,63 @@ class FeedUrlParsingTests(unittest.TestCase):
             pull_news.DATA_DIR = original_data_dir
 
 
+class CategoryFilterNormalizationTests(unittest.TestCase):
+    def test_category_filter_accepts_mixed_case_labels(self):
+        items = [
+            {
+                "title": "Crypto Headline",
+                "link": "https://example.com/article",
+                "summary": "",
+                "element": None,
+            }
+        ]
+
+        original_feeds = pull_news.FEEDS
+        original_posts_json = pull_news.POSTS_JSON
+        original_seen_db = pull_news.SEEN_DB
+        original_data_dir = pull_news.DATA_DIR
+        original_category = pull_news.CATEGORY
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                tmp_path = pathlib.Path(tmpdir)
+                feed_file = tmp_path / "feeds.txt"
+                feed_file.write_text("crypto|https://example.com/feed\n", encoding="utf-8")
+
+                pull_news.FEEDS = feed_file
+                pull_news.DATA_DIR = tmp_path
+                pull_news.POSTS_JSON = tmp_path / "posts.json"
+                pull_news.SEEN_DB = tmp_path / "seen.json"
+                pull_news.CATEGORY = "CRYPTO"
+
+                patchers = [
+                    mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
+                    mock.patch.object(pull_news, "parse_feed", return_value=items),
+                    mock.patch.object(
+                        pull_news,
+                        "extract_body_html",
+                        return_value=("<p>Body</p>", ""),
+                    ),
+                    mock.patch.object(pull_news, "pick_largest_media_url", return_value=""),
+                    mock.patch.object(pull_news, "find_cover_from_item", return_value=""),
+                    mock.patch.object(pull_news, "_update_hot_shards"),
+                ]
+
+                with contextlib.ExitStack() as stack:
+                    for patcher in patchers:
+                        stack.enter_context(patcher)
+                    new_entries = pull_news._run_autopost()
+
+                self.assertEqual(len(new_entries), 1)
+                self.assertEqual(new_entries[0]["category"], "Crypto")
+        finally:
+            pull_news.FEEDS = original_feeds
+            pull_news.POSTS_JSON = original_posts_json
+            pull_news.SEEN_DB = original_seen_db
+            pull_news.DATA_DIR = original_data_dir
+            pull_news.CATEGORY = original_category
+
+
 class MaxPerFeedLimitTests(unittest.TestCase):
     def test_max_per_feed_limit(self):
         items = [
