@@ -70,6 +70,8 @@ Environment variables recognised by the scripts include:
 - `MAX_PER_CAT`, `MAX_TOTAL`, `MAX_POSTS_PERSIST` – tune quantity limits.
 - `FALLBACK_COVER`, `DEFAULT_AUTHOR`, `IMG_PROXY`, etc. – control cover images
   and metadata.
+- `HOT_MAX_ITEMS`, `HOT_PAGINATION_SIZE` – size the hot shard payloads that
+  power rotation and pagination.
 
 All autopost runs reuse `autopost/seen_all.json` to avoid duplicates. Removing
 that file forces a full refresh.
