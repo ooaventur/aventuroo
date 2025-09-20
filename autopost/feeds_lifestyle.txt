@@ -1,12 +1,39 @@
-Lifestyle|Health|https://rss.nytimes.com/services/xml/rss/nyt/Health.xml
-Lifestyle|Health|https://www.healthline.com/rss
-Lifestyle|Beauty & Style|https://www.allure.com/feed/rss
-Lifestyle|Beauty & Style|https://www.harpersbazaar.com/rss/fashion/
-Lifestyle|Home & Design|https://www.architecturaldigest.com/feed/rss
-Lifestyle|Home & Design|https://www.apartmenttherapy.com/main.rss
-Lifestyle|Home & Design|https://design-milk.com/feed/
-Lifestyle|Inspiration|https://www.goodnewsnetwork.org/category/news/inspiring/feed/
-Lifestyle|Inspiration|https://www.success.com/feed/
-Lifestyle|Outdoor|https://www.outsideonline.com/feed/
-Lifestyle|Outdoor|https://www.adventure-journal.com/feed/
-Lifestyle|Outdoor|https://www.backpacker.com/feed/
+# === test1 ===
+lifestyle|https://www.huffpost.com/section/life/feed
+lifestyle|https://www.refinery29.com/en-us/rss.xml
+lifestyle|https://www.telegraph.co.uk/lifestyle/rss.xml
+lifestyle|https://www.npr.org/rss/rss.php?id=1057
+
+# === HEALTH ===
+test|Health11|https://www.sciencedaily.com/rss/health_medicine.xml
+
+# === BEAUTY & STYLE ===
+lifestyle/Beauty & Style|https://www.allure.com/feed/rss
+lifestyle/Beauty & Style|https://www.harpersbazaar.com/rss/all.xml/
+lifestyle/Beauty & Style|https://www.elle.com/rss/all.xml/
+lifestyle/Beauty & Style|https://www.refinery29.com/en-us/fashion/rss.xml
+lifestyle/Beauty & Style|https://www.cosmopolitan.com/rss/all.xml/
+lifestyle/Beauty & Style|https://www.whowhatwear.com/rss
+
+# === HOME & DESIGN ===
+lifestyle/Home & Design|https://www.architecturaldigest.com/feed/rss
+lifestyle/Home & Design|https://www.housebeautiful.com/rss/all.xml
+lifestyle/Home & Design|https://www.dezeen.com/feed/
+lifestyle/Home & Design|https://design-milk.com/feed/
+lifestyle/Home & Design|https://www.remodelista.com/feed/
+
+# === INSPIRATION ===
+lifestyle/Inspiration|https://www.brainpickings.org/feed/
+lifestyle/Inspiration|https://www.lifehack.org/feed
+lifestyle/Inspiration|https://www.success.com/feed/
+lifestyle/Inspiration|https://tinybuddha.com/feed/
+lifestyle/Inspiration|https://addicted2success.com/feed/
+lifestyle/Inspiration|https://www.goalcast.com/feed/
+
+# === OUTDOOR ===
+lifestyle/Outdoor|https://www.outsideonline.com/feed/
+lifestyle/Outdoor|https://www.backpacker.com/feed/
+lifestyle/Outdoor|https://gearjunkie.com/feed
+lifestyle/Outdoor|https://www.tetongravity.com/feed
+lifestyle/Outdoor|https://www.climbing.com/feed/
+lifestyle/Outdoor|https://www.bicycling.com/rss/all.xml
