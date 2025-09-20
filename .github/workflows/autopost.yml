@@ -29,55 +29,62 @@ jobs:
             max_per_cat: "10"
             summary_words: "900"
             order: "01"
+          - name: "Business & Finance"
+            script: pull_news.py
+            feeds: autopost/feeds_news.txt
+            category: "Business & Finance"
+            max_per_cat: "10"
+            summary_words: "900"
+            order: "02"
           - name: Crypto
             script: pull_crypto.py
             feeds: autopost/feeds_crypto.txt
             category: Crypto
             max_per_cat: "5"
             summary_words: "900"
-            order: "02"
+            order: "03"
           - name: Culture & Arts
             script: pull_cultute_arts.py
             feeds: autopost/feeds_cultute_arts.txt
             category: "Culture & Arts"
             max_per_cat: "10"
             summary_words: "900"
-            order: "03"
+            order: "04"
           - name: Entertainment
             script: pull_entertainment.py
             feeds: autopost/feeds_entertainment.txt
             category: Entertainment
             max_per_cat: "10"
             summary_words: "900"
-            order: "04"
+            order: "05"
           - name: Food & Drink
             script: pull_food_drink.py
             feeds: autopost/feeds_food_drink.txt
             category: "Food & Drink"
             max_per_cat: "10"
             summary_words: "900"
-            order: "05"
+            order: "06"
           - name: Lifestyle
             script: pull_lifestyle.py
             feeds: autopost/feeds_lifestyle.txt
             category: Lifestyle
             max_per_cat: "10"
             summary_words: "900"
-            order: "06"
+            order: "07"
           - name: Tech & AI
             script: pull_tech_ai.py
             feeds: autopost/feeds_tech_ai.txt
             category: "Tech & AI"
             max_per_cat: "10"
             summary_words: "900"
-            order: "07"
+            order: "08"
           - name: Travel
             script: pull_travel.py
             feeds: autopost/feeds_travel.txt
             category: Travel
             max_per_cat: "10"
             summary_words: "900"
-            order: "08"
+            order: "09"
     env:
       SUMMARY_WORDS: ${{ matrix.summary_words }}
       MAX_PER_CAT: ${{ matrix.max_per_cat }}
