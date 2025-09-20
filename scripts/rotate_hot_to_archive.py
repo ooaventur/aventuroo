@@ -41,6 +41,9 @@ from collections import defaultdict
 from email.utils import parsedate_to_datetime
 from typing import Any, Iterable, Iterator, Optional
 
+if __package__ in (None, ""):
+    sys.path.append(str(pathlib.Path(__file__).resolve().parents[1]))
+
 from autopost.health import HealthReport
 
 
