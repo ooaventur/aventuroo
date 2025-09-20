@@ -5,7 +5,7 @@ lifestyle|https://www.telegraph.co.uk/lifestyle/rss.xml
 lifestyle|https://www.npr.org/rss/rss.php?id=1057
 
 # === HEALTH ===
-test|Health11|https://www.sciencedaily.com/rss/health_medicine.xml
+lifestyle|Health|https://www.sciencedaily.com/rss/health_medicine.xml
 
 # === BEAUTY & STYLE ===
 lifestyle/Beauty & Style|https://www.allure.com/feed/rss
@@ -37,3 +37,4 @@ lifestyle/Outdoor|https://gearjunkie.com/feed
 lifestyle/Outdoor|https://www.tetongravity.com/feed
 lifestyle/Outdoor|https://www.climbing.com/feed/
 lifestyle/Outdoor|https://www.bicycling.com/rss/all.xml
+
