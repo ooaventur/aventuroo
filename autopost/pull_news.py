@@ -23,6 +23,7 @@ Env knobs (optional):
 """
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, sys, math
+from typing import Optional
 from html import unescape, escape
 from html.parser import HTMLParser
 from email.utils import parsedate_to_datetime
@@ -35,6 +36,16 @@ if __package__ in (None, ""):
 
 from autopost import SEEN_DB_FILENAME
 from autopost.common import limit_words_html
+from autopost.health import HealthReport
+
+
+_HEALTH_REPORT: Optional[HealthReport] = None
+
+
+def _record_health_error(message: str) -> None:
+    global _HEALTH_REPORT
+    if _HEALTH_REPORT is not None:
+        _HEALTH_REPORT.record_error(message)
 
 def _env_int(name: str, default: int) -> int:
     """Return an integer from the environment or ``default`` on failure."""
@@ -143,6 +154,7 @@ def fetch_bytes(url: str) -> bytes:
             return r.read()
     except (urllib.error.HTTPError, urllib.error.URLError, socket.timeout) as e:
         print("Fetch error:", url, "->", e)
+        _record_health_error(f"fetch_bytes failed: {url} -> {e}")
         return b""
 
 def strip_text(s: str) -> str:
@@ -157,7 +169,8 @@ def parse_feed(xml_bytes: bytes):
         return []
     try:
         root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
+    except ET.ParseError as exc:
+        _record_health_error(f"Failed to parse feed XML: {exc}")
         return []
     items = []
     # RSS 2.0
@@ -1139,7 +1152,7 @@ def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> st
         url += "/"
     return url
 # ------------------ Main ------------------
-def main():
+def _run_autopost() -> list[dict]:
     DATA_DIR.mkdir(exist_ok=True, parents=True)
     SEEN_DB.parent.mkdir(exist_ok=True, parents=True)
 
@@ -1169,7 +1182,8 @@ def main():
 
     if not FEEDS.exists():
         print("ERROR: feeds file not found:", FEEDS)
-        return
+        _record_health_error(f"Feeds file not found: {FEEDS}")
+        return []
 
     added_total = 0
     target_words = globals().get("TARGET_WORDS")
@@ -1312,7 +1326,8 @@ def main():
             # 3) Trim to target word count while keeping whole blocks when possible
             try:
                 body_html = limit_words_html(body_html, target_words)
-            except Exception:
+            except Exception as exc:
+                _record_health_error(f"limit_words_html failed for {link}: {exc}")
                 body_html = body_html or ""
 
             # 4) Cover image
@@ -1320,7 +1335,8 @@ def main():
             cover_candidate = ""
             try:
                 cover_candidate = pick_largest_media_url(it_elem) or find_cover_from_item(it_elem, link) or inner_img or ""
-            except Exception:
+            except Exception as exc:
+                _record_health_error(f"cover selection failed for {link}: {exc}")
                 cover_candidate = inner_img or ""
             cover = resolve_cover_url(cover_candidate)
 
@@ -1410,12 +1426,34 @@ def main():
         SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
     except Exception as exc:
         print("Failed to write seen DB:", exc)
+        _record_health_error(f"Failed to write seen DB: {exc}")
     try:
         POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
     except Exception as exc:
         print("Failed to write posts index:", exc)
+        _record_health_error(f"Failed to write posts index: {exc}")
 
     print("New posts this run:", len(new_entries))
+    return new_entries
+
+
+def main():
+    global _HEALTH_REPORT
+
+    health = HealthReport("autopost")
+    _HEALTH_REPORT = health
+    new_entries: list[dict] = []
+    try:
+        new_entries = _run_autopost()
+    except Exception as exc:
+        _record_health_error(f"Unhandled autopost error: {exc}")
+        raise
+    finally:
+        try:
+            health.write(items_published=len(new_entries))
+        except Exception as health_exc:
+            print(f"[WARN] Failed to write autopost health: {health_exc}")
+        _HEALTH_REPORT = None
 
 
 if __name__ == "__main__":

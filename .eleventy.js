@@ -8,7 +8,8 @@ module.exports = function (eleventyConfig) {
     "data",
     "assets",
     "autopost",
-    "_redirects"
+    "_redirects",
+    "_health"
   ];
 
   passthroughPaths.forEach((path) => {
