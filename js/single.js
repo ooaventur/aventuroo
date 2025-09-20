@@ -14,15 +14,8 @@
   var HOT_MANIFEST_SOURCES = basePath.resolveAll
     ? basePath.resolveAll(['/data/hot/manifest.json', 'data/hot/manifest.json'])
     : ['/data/hot/manifest.json', 'data/hot/manifest.json'];
-  var ARCHIVE_SUMMARY_SOURCES = basePath.resolveAll
-    ? basePath.resolveAll(['/data/archive/summary.json', 'data/archive/summary.json'])
-    : ['/data/archive/summary.json', 'data/archive/summary.json'];
-  var ARCHIVE_MANIFEST_SOURCES = basePath.resolveAll
-    ? basePath.resolveAll(['/data/archive/manifest.json', 'data/archive/manifest.json'])
-    : ['/data/archive/manifest.json', 'data/archive/manifest.json'];
 
   var HOT_SHARD_ROOT = '/data/hot';
-  var ARCHIVE_SHARD_ROOT = '/data/archive';
   var DEFAULT_SCOPE = { parent: 'index', child: 'index' };
 
   var ARCHIVE_ORIGIN = (function () {
@@ -48,10 +41,7 @@
   })();
 
   var HOT_SHARD_CACHE = Object.create(null);
-  var ARCHIVE_SHARD_CACHE = Object.create(null);
   var HOT_MANIFEST_PROMISE = null;
-  var ARCHIVE_SUMMARY_PROMISE = null;
-  var ARCHIVE_MANIFEST_PROMISE = null;
 
   var articleContainer = document.querySelector('.main-article');
   if (!articleContainer) {
@@ -197,60 +187,25 @@
     return list;
   }
 
-  function buildHotShardCandidates(parent, child) {
+  function buildHotShardUrls(parent, child) {
     var normalizedParent = slugify(parent) || 'index';
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
-    var segments = [normalizedParent];
-    if (normalizedChild !== 'index') {
-      segments.push(normalizedChild);
-    }
-    var joined = segments.join('/');
     var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
-    var basePath = prefix ? prefix + '/' + joined : joined;
-    var relative = basePath.replace(/^\//, '');
-    return uniqueStrings([
-      basePath + '.json',
-      relative + '.json',
-      basePath + '/index.json',
-      relative + '/index.json',
-      basePath + '.json.gz',
-      relative + '.json.gz',
-      basePath + '/index.json.gz',
-      relative + '/index.json.gz'
-    ]);
-  }
-
-  function buildArchiveMonthCandidates(parent, child, year, month) {
-    var normalizedParent = slugify(parent) || 'index';
-    var normalizedChild = child != null && child !== '' ? slugify(child) : '';
-    if (!normalizedChild) normalizedChild = 'index';
-    var segments = [normalizedParent];
-    if (normalizedChild !== 'index') {
-      segments.push(normalizedChild);
-    }
-    segments.push(padNumber(year, 4));
-    segments.push(padNumber(month, 2));
-    var prefix = ARCHIVE_SHARD_ROOT.replace(/\/+$/, '');
-    var joined = segments.join('/');
-    var basePath = prefix ? prefix + '/' + joined : joined;
-    var relative = basePath.replace(/^\//, '');
-    return uniqueStrings([
-      basePath + '.json',
-      relative + '.json',
-      basePath + '/index.json',
-      relative + '/index.json',
-      basePath + '.json.gz',
-      relative + '.json.gz',
-      basePath + '/index.json.gz',
-      relative + '/index.json.gz'
-    ]);
+    var path = prefix
+      ? prefix + '/' + normalizedParent + '/' + normalizedChild + '.json'
+      : normalizedParent + '/' + normalizedChild + '.json';
+    var relative = path.replace(/^\/+/, '');
+    return [
+      relative,
+      '/' + relative
+    ];
   }
 
   function fetchHotShard(parent, child) {
     var scopeKey = (parent || 'index') + '::' + (child || 'index');
     if (!HOT_SHARD_CACHE[scopeKey]) {
-      var candidates = buildHotShardCandidates(parent, child);
+      var candidates = buildHotShardUrls(parent, child);
       HOT_SHARD_CACHE[scopeKey] = fetchSequential(candidates)
         .then(function (payload) {
           return dedupePosts(sortPostsByDate(normalizePostsPayload(payload)));
@@ -261,22 +216,6 @@
         });
     }
     return HOT_SHARD_CACHE[scopeKey];
-  }
-
-  function fetchArchiveShard(parent, child, year, month) {
-    var scopeKey = (parent || 'index') + '::' + (child || 'index') + '::' + padNumber(year, 4) + padNumber(month, 2);
-    if (!ARCHIVE_SHARD_CACHE[scopeKey]) {
-      var candidates = buildArchiveMonthCandidates(parent, child, year, month);
-      ARCHIVE_SHARD_CACHE[scopeKey] = fetchSequential(candidates)
-        .then(function (payload) {
-          return dedupePosts(sortPostsByDate(normalizePostsPayload(payload)));
-        })
-        .catch(function (err) {
-          delete ARCHIVE_SHARD_CACHE[scopeKey];
-          throw err;
-        });
-    }
-    return ARCHIVE_SHARD_CACHE[scopeKey];
   }
 
   function getHotManifest() {
@@ -290,59 +229,6 @@
     return HOT_MANIFEST_PROMISE;
   }
 
-  function getArchiveSummary() {
-    if (!ARCHIVE_SUMMARY_PROMISE) {
-      ARCHIVE_SUMMARY_PROMISE = fetchSequential(ARCHIVE_SUMMARY_SOURCES)
-        .catch(function (err) {
-          console.warn('archive summary load error', err);
-          return null;
-        });
-    }
-    return ARCHIVE_SUMMARY_PROMISE;
-  }
-
-  function getArchiveManifest() {
-    if (!ARCHIVE_MANIFEST_PROMISE) {
-      ARCHIVE_MANIFEST_PROMISE = fetchSequential(ARCHIVE_MANIFEST_SOURCES)
-        .catch(function (err) {
-          console.warn('archive manifest load error', err);
-          return null;
-        });
-    }
-    return ARCHIVE_MANIFEST_PROMISE;
-  }
-
-  function findParentSummary(summary, parent) {
-    if (!summary || typeof summary !== 'object') return null;
-    var parents = Array.isArray(summary.parents) ? summary.parents : [];
-    var normalized = slugify(parent);
-    for (var i = 0; i < parents.length; i++) {
-      var entry = parents[i];
-      if (!entry) continue;
-      var entryParent = slugify(entry.parent || entry.slug || '');
-      if (entryParent === normalized) {
-        return entry;
-      }
-    }
-    return null;
-  }
-
-  function findChildSummary(summary, parent, child) {
-    var parentEntry = findParentSummary(summary, parent);
-    if (!parentEntry || !Array.isArray(parentEntry.children)) {
-      return null;
-    }
-    var normalized = child === 'index' || !child ? 'index' : slugify(child);
-    for (var i = 0; i < parentEntry.children.length; i++) {
-      var entry = parentEntry.children[i];
-      if (!entry) continue;
-      var entryChild = entry.child === 'index' ? 'index' : slugify(entry.child || entry.slug || '');
-      if (entryChild === normalized) {
-        return entry;
-      }
-    }
-    return null;
-  }
   function getPostParentSlug(post) {
     if (!post || typeof post !== 'object') return '';
     var raw = post.category_slug;
@@ -627,70 +513,27 @@
     var segments = pathname.split('/').filter(function (segment) { return !!segment; });
     if (!segments.length) return null;
 
-    var info = {
+    var slugSegment = segments[segments.length - 1];
+    var childSegment = segments.length >= 2 ? segments[segments.length - 2] : 'index';
+    var parentSegment = segments.length >= 3 ? segments[segments.length - 3] : 'index';
+
+    return {
       origin: parsed.origin || '',
-      parent: 'index',
-      child: 'index',
-      year: null,
-      month: null,
-      slug: ''
+      parent: slugify(parentSegment) || 'index',
+      child: slugify(childSegment) || 'index',
+      slug: slugify(slugSegment) || ''
     };
-
-    if (segments.length >= 5 && /^\d{4}$/.test(segments[2]) && /^\d{2}$/.test(segments[3])) {
-      info.parent = slugify(segments[0]) || 'index';
-      info.child = slugify(segments[1]) || 'index';
-      info.year = parseInt(segments[2], 10);
-      info.month = parseInt(segments[3], 10);
-      info.slug = slugify(segments[4] || '');
-    } else if (segments.length >= 4 && /^\d{4}$/.test(segments[1]) && /^\d{2}$/.test(segments[2])) {
-      info.parent = slugify(segments[0]) || 'index';
-      info.child = 'index';
-      info.year = parseInt(segments[1], 10);
-      info.month = parseInt(segments[2], 10);
-      info.slug = slugify(segments[3] || '');
-    } else {
-      for (var i = 0; i < segments.length - 2; i++) {
-        if (/^\d{4}$/.test(segments[i]) && /^\d{2}$/.test(segments[i + 1])) {
-          info.year = parseInt(segments[i], 10);
-          info.month = parseInt(segments[i + 1], 10);
-          var parentSegments = segments.slice(0, i);
-          if (parentSegments.length === 1) {
-            info.parent = slugify(parentSegments[0]) || 'index';
-            info.child = 'index';
-          } else if (parentSegments.length >= 2) {
-            info.parent = slugify(parentSegments[0]) || 'index';
-            info.child = slugify(parentSegments[parentSegments.length - 1]) || 'index';
-          }
-          info.slug = slugify(segments[i + 2] || '');
-          break;
-        }
-      }
-    }
-
-    if (!info.slug) {
-      info.slug = slugify(segments[segments.length - 1] || '');
-    }
-
-    return info;
   }
 
   function buildCanonicalPath(context, slugValue) {
-    var parent = context && context.parent ? context.parent : 'index';
-    var child = context && context.child ? context.child : 'index';
-    var year = context && typeof context.year === 'number' ? padNumber(context.year, 4) : '';
-    var month = context && typeof context.month === 'number' ? padNumber(context.month, 2) : '';
+    var parent = context && context.parent ? slugify(context.parent) : '';
+    if (!parent) parent = 'index';
+    var child = context && context.child != null && context.child !== '' ? slugify(context.child) : '';
+    if (!child) child = 'index';
     var finalSlug = slugify(context && context.slug ? context.slug : slugValue);
-    var parts = [];
-    parts.push(parent || 'index');
-    if (child && child !== 'index') {
-      parts.push(child);
-    } else {
-      parts.push('index');
-    }
-    if (year) parts.push(year);
-    if (month) parts.push(month);
-    if (finalSlug) parts.push(finalSlug);
-    return parts.join('/') + '/';
+    var segments = [parent || 'index', child || 'index'];
+    if (finalSlug) segments.push(finalSlug);
+    return segments.join('/') + '/';
   }
 
   function computeCanonicalUrl(post, context) {
@@ -712,139 +555,28 @@
   function ensureArchiveContextFromPost(post, fallbackScope) {
     if (!post) return null;
     var canonicalInfo = parseCanonicalUrl(post.canonical || post.archive_url || '');
-    if (canonicalInfo && canonicalInfo.year && canonicalInfo.month) {
-      if (!canonicalInfo.parent && fallbackScope) canonicalInfo.parent = fallbackScope.parent;
-      if (!canonicalInfo.child && fallbackScope) canonicalInfo.child = fallbackScope.child;
+    if (canonicalInfo) {
+      if ((!canonicalInfo.parent || canonicalInfo.parent === 'index') && fallbackScope && fallbackScope.parent) {
+        canonicalInfo.parent = fallbackScope.parent;
+      }
+      if ((!canonicalInfo.child || canonicalInfo.child === 'index') && fallbackScope && fallbackScope.child) {
+        canonicalInfo.child = fallbackScope.child;
+      }
+      if (!canonicalInfo.origin) {
+        canonicalInfo.origin = ARCHIVE_ORIGIN;
+      }
       return canonicalInfo;
     }
-    var timestamp = parseDateValue(post.date || post.published_at || post.created_at || post.updated_at);
-    if (!timestamp) return null;
-    var date = new Date(timestamp);
-    if (isNaN(date.getTime())) return null;
     var parent = fallbackScope && fallbackScope.parent ? fallbackScope.parent : getPostParentSlug(post) || 'index';
     var child = fallbackScope && fallbackScope.child ? fallbackScope.child : getPostChildSlug(post) || 'index';
     return {
       origin: ARCHIVE_ORIGIN,
       parent: parent || 'index',
       child: child || 'index',
-      year: date.getUTCFullYear ? date.getUTCFullYear() : date.getFullYear(),
-      month: (date.getUTCMonth ? date.getUTCMonth() : date.getMonth()) + 1,
       slug: slugify(post.slug || post.title || '')
     };
   }
 
-  function searchArchiveByMonths(scope, months, slugValue, attempted) {
-    if (!scope || !Array.isArray(months) || !months.length) {
-      return Promise.resolve(null);
-    }
-    var index = 0;
-
-    function next() {
-      if (index >= months.length) {
-        return Promise.resolve(null);
-      }
-      var info = months[index++] || {};
-      var year = info.year;
-      var month = info.month;
-      if (year == null || month == null) {
-        return next();
-      }
-      var key = (scope.parent || 'index') + '::' + (scope.child || 'index') + '::' + padNumber(year, 4) + padNumber(month, 2);
-      if (attempted && attempted[key]) {
-        return next();
-      }
-      if (attempted) attempted[key] = true;
-      return fetchArchiveShard(scope.parent, scope.child, year, month)
-        .then(function (items) {
-          var post = findPostBySlug(items, slugValue);
-          if (post) {
-            return {
-              post: post,
-              posts: items,
-              source: 'archive',
-              context: { parent: scope.parent || 'index', child: scope.child || 'index', year: year, month: month }
-            };
-          }
-          return next();
-        })
-        .catch(function (err) {
-          console.warn('archive shard load error', err);
-          return next();
-        });
-    }
-
-    return next();
-  }
-
-  function searchArchiveViaManifest(slugValue, attempted) {
-    return getArchiveManifest().then(function (manifest) {
-      if (!manifest || !Array.isArray(manifest.shards) || !manifest.shards.length) {
-        return null;
-      }
-      var shards = manifest.shards.slice();
-      var index = shards.length - 1;
-
-      function next() {
-        if (index < 0) {
-          return Promise.resolve(null);
-        }
-        var entry = shards[index--] || {};
-        var parent = entry.parent || 'index';
-        var child = entry.child || 'index';
-        var year = entry.year;
-        var month = entry.month;
-        if (year == null || month == null) {
-          return next();
-        }
-        var key = parent + '::' + child + '::' + padNumber(year, 4) + padNumber(month, 2);
-        if (attempted && attempted[key]) {
-          return next();
-        }
-        if (attempted) attempted[key] = true;
-        return fetchArchiveShard(parent, child, year, month)
-          .then(function (items) {
-            var post = findPostBySlug(items, slugValue);
-            if (post) {
-              return {
-                post: post,
-                posts: items,
-                source: 'archive',
-                context: { parent: parent, child: child, year: year, month: month }
-              };
-            }
-            return next();
-          })
-          .catch(function (err) {
-            console.warn('archive manifest shard error', err);
-            return next();
-          });
-      }
-
-      return next();
-    });
-  }
-
-  function loadArchivePost(slugValue, scope, attempted) {
-    attempted = attempted || Object.create(null);
-    return getArchiveSummary()
-      .then(function (summary) {
-        var months = [];
-        if (summary && scope) {
-          var childEntry = findChildSummary(summary, scope.parent, scope.child);
-          if (childEntry && Array.isArray(childEntry.months)) {
-            months = childEntry.months.slice();
-          }
-        }
-        if (months.length) {
-          return searchArchiveByMonths(scope, months, slugValue, attempted)
-            .then(function (result) {
-              if (result) return result;
-              return searchArchiveViaManifest(slugValue, attempted);
-            });
-        }
-        return searchArchiveViaManifest(slugValue, attempted);
-      });
-  }
 
   function searchHotShard(scope, slugValue) {
     if (!scope) return Promise.resolve(null);
@@ -903,6 +635,7 @@
     });
   }
 
+
   function loadHotPost(slugValue, scope) {
     return searchHotShard(scope, slugValue)
       .then(function (result) {
@@ -911,35 +644,183 @@
       });
   }
 
-  function ensureArchiveFromHot(hotResult, attempted) {
+  function buildCanonicalCandidates(canonicalUrl) {
+    var trimmed = typeof canonicalUrl === 'string' ? canonicalUrl.trim() : '';
+    if (!trimmed) return [];
+    var normalized = trimmed.replace(/\/index\.html?$/i, '').replace(/\/+$/, '');
+    var plain = normalized.replace(/\.json(?:\.gz)?$/i, '');
+    return uniqueStrings([
+      trimmed,
+      normalized,
+      plain,
+      plain + '.json',
+      plain + '/index.json',
+      plain + '.json.gz',
+      plain + '/index.json.gz'
+    ]);
+  }
+
+  function normalizeArchiveArticlePayload(payload, slugValue) {
+    var article = null;
+    var related = [];
+    var collection = [];
+
+    if (Array.isArray(payload)) {
+      collection = payload.slice();
+      article = findPostBySlug(collection, slugValue) || (collection.length ? collection[0] : null);
+      return { article: article, related: related, collection: collection };
+    }
+
+    if (payload && typeof payload === 'object') {
+      if (Array.isArray(payload.related)) {
+        related = payload.related.slice();
+      } else if (Array.isArray(payload.related_posts)) {
+        related = payload.related_posts.slice();
+      }
+
+      if (payload.post && typeof payload.post === 'object') {
+        article = payload.post;
+        if (!collection.length && Array.isArray(payload.posts)) {
+          collection = payload.posts.slice();
+        } else if (!collection.length && Array.isArray(payload.items)) {
+          collection = payload.items.slice();
+        }
+        if (!related.length && Array.isArray(payload.post.related)) {
+          related = payload.post.related.slice();
+        }
+      }
+
+      if (!article && payload.article && typeof payload.article === 'object') {
+        article = payload.article;
+      }
+
+      if (!article && Array.isArray(payload.posts)) {
+        collection = payload.posts.slice();
+        article = findPostBySlug(collection, slugValue) || collection[0] || article;
+      }
+
+      if (!article && Array.isArray(payload.items)) {
+        if (!collection.length) {
+          collection = payload.items.slice();
+        }
+        var match = findPostBySlug(payload.items, slugValue);
+        article = match || payload.items[0] || article;
+      }
+
+      if (!article && payload.data) {
+        var nested = normalizeArchiveArticlePayload(payload.data, slugValue);
+        if (nested.article && !article) article = nested.article;
+        if (!collection.length && nested.collection.length) collection = nested.collection;
+        if (!related.length && nested.related.length) related = nested.related;
+      }
+
+      if (!article && payload.entry && typeof payload.entry === 'object') {
+        article = payload.entry;
+      }
+
+      if (!article && (payload.slug || payload.title || payload.body || payload.content)) {
+        article = payload;
+      }
+    }
+
+    return { article: article, related: related, collection: collection };
+  }
+
+  function fetchCanonicalArticle(canonicalUrl, slugValue) {
+    var candidates = buildCanonicalCandidates(canonicalUrl);
+    if (!candidates.length) {
+      return Promise.resolve(null);
+    }
+    return fetchSequential(candidates)
+      .then(function (payload) {
+        var normalized = normalizeArchiveArticlePayload(payload, slugValue);
+        if (!normalized.article) {
+          return null;
+        }
+        return normalized;
+      })
+      .catch(function (err) {
+        console.warn('canonical article load error', err);
+        return null;
+      });
+  }
+
+  function mergeArchiveWithHot(archivePost, hotPost, slugValue) {
+    var archive = archivePost || {};
+    var hot = hotPost || {};
+    var merged = {};
+
+    merged.slug = slugify(archive.slug || hot.slug || slugValue || '');
+    merged.title = archive.title || hot.title || '';
+    merged.excerpt = archive.excerpt || archive.summary || archive.description || hot.excerpt || '';
+    merged.body = archive.body || archive.content || archive.html || archive.content_html || hot.body || '';
+    if (!merged.body && archive.body_html) merged.body = archive.body_html;
+    if (!merged.body && archive.summary_html) merged.body = archive.summary_html;
+    merged.cover = archive.cover || archive.image || hot.cover || '';
+    merged.category = archive.category || hot.category || '';
+    merged.subcategory = archive.subcategory || hot.subcategory || '';
+    merged.category_slug = archive.category_slug || hot.category_slug || '';
+    merged.date = archive.date || archive.published_at || archive.created_at || hot.date || hot.published_at || hot.created_at || '';
+    merged.published_at = archive.published_at || hot.published_at || '';
+    merged.updated_at = archive.updated_at || hot.updated_at || '';
+    merged.source = archive.source || hot.source || '';
+    merged.source_name = archive.source_name || hot.source_name || '';
+    merged.source_domain = archive.source_domain || hot.source_domain || '';
+    merged.author = archive.author || hot.author || '';
+    merged.rights = archive.rights || hot.rights || '';
+    merged.canonical = archive.canonical || hot.canonical || '';
+    merged.archive_url = archive.archive_url || hot.archive_url || merged.canonical || '';
+    merged.url = archive.url || hot.url || '';
+
+    if (!merged.excerpt && archive.summary_html) {
+      merged.excerpt = stripHtml(archive.summary_html);
+    }
+
+    return merged;
+  }
+
+  function loadCanonicalFromHot(hotResult, slugValue) {
     if (!hotResult || !hotResult.post) {
       return Promise.resolve(null);
     }
-    var context = ensureArchiveContextFromPost(hotResult.post, hotResult.scope);
-    if (!context || context.year == null || context.month == null) {
+    var slug = slugValue || hotResult.post.slug || hotResult.post.title || '';
+    var canonicalUrl = hotResult.post.canonical || hotResult.post.archive_url || '';
+    if (!canonicalUrl) {
       return Promise.resolve(null);
     }
-    var scope = { parent: context.parent || 'index', child: context.child || 'index' };
-    attempted = attempted || Object.create(null);
-    var key = (scope.parent || 'index') + '::' + (scope.child || 'index') + '::' + padNumber(context.year, 4) + padNumber(context.month, 2);
-    if (attempted[key]) {
-      return Promise.resolve(null);
-    }
-    attempted[key] = true;
-    return fetchArchiveShard(scope.parent, scope.child, context.year, context.month)
-      .then(function (items) {
-        var post = findPostBySlug(items, hotResult.post.slug || hotResult.post.title || '');
-        if (!post) return null;
+
+    return fetchCanonicalArticle(canonicalUrl, slug)
+      .then(function (normalized) {
+        if (!normalized || !normalized.article) {
+          return null;
+        }
+        var mergedPost = mergeArchiveWithHot(normalized.article, hotResult.post, slug);
+        var parsedCanonical = parseCanonicalUrl(normalized.article.canonical || canonicalUrl) || parseCanonicalUrl(canonicalUrl);
+        if (parsedCanonical && !parsedCanonical.origin) {
+          parsedCanonical.origin = ARCHIVE_ORIGIN;
+        }
+        var context = parsedCanonical || ensureArchiveContextFromPost(mergedPost, hotResult.scope);
+        var relatedPools = [];
+        if (Array.isArray(normalized.related) && normalized.related.length) {
+          relatedPools.push(normalized.related);
+        }
+        if (Array.isArray(normalized.collection) && normalized.collection.length) {
+          relatedPools.push(normalized.collection);
+        }
+        if (Array.isArray(hotResult.posts) && hotResult.posts.length) {
+          relatedPools.push(hotResult.posts);
+        }
         return {
-          post: post,
-          posts: items,
+          post: mergedPost,
+          posts: Array.isArray(normalized.collection) && normalized.collection.length ? normalized.collection : hotResult.posts,
           source: 'archive',
-          context: { parent: scope.parent, child: scope.child, year: context.year, month: context.month },
-          relatedSources: hotResult.posts ? [hotResult.posts] : []
+          context: context,
+          scope: hotResult.scope,
+          relatedSources: relatedPools
         };
       })
       .catch(function (err) {
-        console.warn('archive lookup via canonical failed', err);
+        console.warn('canonical article fetch failed', err);
         return null;
       });
   }
@@ -965,33 +846,22 @@
   }
   function loadArticleForSlug(slugValue, scope) {
     if (!slugValue) return Promise.resolve(null);
-    var attemptedArchive = Object.create(null);
-    return loadArchivePost(slugValue, scope, attemptedArchive)
-      .then(function (archiveResult) {
-        if (archiveResult) {
-          archiveResult.relatedSources = archiveResult.relatedSources || [];
-          return archiveResult;
+    return loadHotPost(slugValue, scope)
+      .then(function (hotResult) {
+        if (!hotResult) {
+          return loadLegacyPost(slugValue);
         }
-        return loadHotPost(slugValue, scope)
-          .then(function (hotResult) {
-            if (!hotResult) return null;
-            return ensureArchiveFromHot(hotResult, attemptedArchive)
-              .then(function (archiveFromHot) {
-                if (archiveFromHot) {
-                  var pools = archiveFromHot.relatedSources || [];
-                  if (Array.isArray(hotResult.posts) && hotResult.posts.length) {
-                    pools.push(hotResult.posts);
-                  }
-                  archiveFromHot.relatedSources = pools;
-                  return archiveFromHot;
-                }
-                hotResult.relatedSources = hotResult.relatedSources || [];
-                return hotResult;
-              })
-              .catch(function () {
-                hotResult.relatedSources = hotResult.relatedSources || [];
-                return hotResult;
-              });
+        return loadCanonicalFromHot(hotResult, slugValue)
+          .then(function (archiveResult) {
+            if (archiveResult) {
+              return archiveResult;
+            }
+            hotResult.relatedSources = hotResult.relatedSources || [];
+            return hotResult;
+          })
+          .catch(function () {
+            hotResult.relatedSources = hotResult.relatedSources || [];
+            return hotResult;
           });
       })
       .then(function (result) {

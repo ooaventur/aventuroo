@@ -16,6 +16,7 @@
   var MAX_MONTHS = 12;
 
   var INDEX_CACHE = Object.create(null);
+  var MONTH_CACHE = Object.create(null);
   var ARCHIVE_SUMMARY_PROMISE = null;
 
   function fetchSequential(urls) {
@@ -44,6 +45,8 @@
     if (Array.isArray(payload.entries)) return payload.entries.slice();
     if (Array.isArray(payload.results)) return payload.results.slice();
     if (Array.isArray(payload.data)) return payload.data.slice();
+    if (payload.entry && typeof payload.entry === 'object') return [payload.entry];
+    if (payload.post && typeof payload.post === 'object') return [payload.post];
     return [];
   }
 
@@ -87,17 +90,11 @@
     return String(value).replace(/<[^>]*>/g, ' ');
   }
 
-  function removeDiacritics(value) {
-    if (typeof value.normalize === 'function') {
-      return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    }
-    return value;
-  }
-
   function normalizeText(value) {
     if (value == null) return '';
-    var stringValue = removeDiacritics(String(value));
-    return stringValue
+    return String(value)
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
       .toLowerCase()
       .replace(/\s+/g, ' ')
       .trim();
@@ -114,28 +111,31 @@
 
     for (var i = 0; i < elements.length; i++) {
       var element = elements[i];
-      if (!element) continue;
-      if (!parent && element.getAttribute) {
-        var p = element.getAttribute('data-hot-parent') || element.getAttribute('data-cat');
-        if (!p && element.dataset) {
-          p = element.dataset.hotParent || element.dataset.cat;
+      if (!element || !element.getAttribute) continue;
+
+      if (!parent) {
+        var parentAttr = element.getAttribute('data-hot-parent') || element.getAttribute('data-cat');
+        if (!parentAttr && element.dataset) {
+          parentAttr = element.dataset.hotParent || element.dataset.cat;
         }
-        if (p) parent = slugify(p);
+        if (parentAttr) parent = slugify(parentAttr);
       }
-      if (!child && element.getAttribute) {
-        var c = element.getAttribute('data-hot-child') || element.getAttribute('data-sub');
-        if (!c && element.dataset) {
-          c = element.dataset.hotChild || element.dataset.sub;
+
+      if (!child) {
+        var childAttr = element.getAttribute('data-hot-child') || element.getAttribute('data-sub');
+        if (!childAttr && element.dataset) {
+          childAttr = element.dataset.hotChild || element.dataset.sub;
         }
-        if (c) child = slugify(c);
+        if (childAttr) child = slugify(childAttr);
       }
-      if (!child && element.getAttribute) {
-        var combined = element.getAttribute('data-hot-scope');
-        if (!combined && element.dataset) {
-          combined = element.dataset.hotScope;
+
+      if (!child) {
+        var scopeAttr = element.getAttribute('data-hot-scope');
+        if (!scopeAttr && element.dataset) {
+          scopeAttr = element.dataset.hotScope;
         }
-        if (combined) {
-          var trimmed = String(combined).trim().replace(/^\/+|\/+$/g, '');
+        if (scopeAttr) {
+          var trimmed = String(scopeAttr).trim().replace(/^\/+|\/+$/g, '');
           if (trimmed.indexOf('/') !== -1) {
             var parts = trimmed.split('/');
             if (!parent) parent = slugify(parts[0]);
@@ -171,7 +171,7 @@
         }
       }
     } catch (err) {
-      // ignore search param errors
+      // ignore URL errors
     }
 
     if (!parent && child) parent = 'index';
@@ -182,30 +182,15 @@
     return { parent: parent, child: child };
   }
 
-  function buildSearchIndexCandidates(parent, child, year, month) {
+  function buildIndexUrls(parent, child, year, month) {
     var normalizedParent = slugify(parent) || 'index';
-    var normalizedChild = child != null && child !== '' ? slugify(child) : '';
+    var normalizedChild = child != null && child !== '' ? slugify(child) : 'index';
     if (!normalizedChild) normalizedChild = 'index';
-    var yearMonth = padNumber(year, 4) + '-' + padNumber(month, 2);
-    var segments = [normalizedParent];
-    if (normalizedChild !== 'index') {
-      segments.push(normalizedChild);
-    }
-    segments.push(yearMonth);
+    var segment = padNumber(year, 4) + '-' + padNumber(month, 2);
     var prefix = SEARCH_INDEX_ROOT.replace(/\/+$/, '');
-    var joined = segments.join('/');
-    var basePath = prefix ? prefix + '/' + joined : joined;
-    var relative = basePath.replace(/^\//, '');
-    return [
-      basePath + '.json.gz',
-      relative + '.json.gz',
-      basePath + '.json',
-      relative + '.json',
-      basePath + '/index.json',
-      relative + '/index.json',
-      basePath + '/index.json.gz',
-      relative + '/index.json.gz'
-    ];
+    var path = prefix + '/' + normalizedParent + '/' + normalizedChild + '/' + segment + '.json.gz';
+    var relative = path.replace(/^\/+/, '');
+    return [relative, '/' + relative];
   }
 
   function padNumber(value, length) {
@@ -229,43 +214,36 @@
     return ARCHIVE_SUMMARY_PROMISE;
   }
 
-  function findParentSummary(summary, parent) {
+  function findChildSummary(summary, parent, child) {
     if (!summary || typeof summary !== 'object') return null;
     var parents = Array.isArray(summary.parents) ? summary.parents : [];
-    var normalized = slugify(parent);
+    var normalizedParent = slugify(parent);
+    var normalizedChild = child === 'index' || !child ? 'index' : slugify(child);
+
     for (var i = 0; i < parents.length; i++) {
       var entry = parents[i];
       if (!entry) continue;
       var entryParent = slugify(entry.parent || entry.slug || '');
-      if (entryParent === normalized) {
-        return entry;
+      if (entryParent !== normalizedParent) continue;
+      var children = Array.isArray(entry.children) ? entry.children : [];
+      for (var j = 0; j < children.length; j++) {
+        var childEntry = children[j];
+        if (!childEntry) continue;
+        var entryChild = childEntry.child === 'index' ? 'index' : slugify(childEntry.child || childEntry.slug || '');
+        if (entryChild === normalizedChild) {
+          return childEntry;
+        }
       }
     }
+
     return null;
   }
 
-  function findChildSummary(summary, parent, child) {
-    var parentEntry = findParentSummary(summary, parent);
-    if (!parentEntry || !Array.isArray(parentEntry.children)) {
-      return null;
-    }
-    var normalized = child === 'index' || !child ? 'index' : slugify(child);
-    for (var i = 0; i < parentEntry.children.length; i++) {
-      var entry = parentEntry.children[i];
-      if (!entry) continue;
-      var entryChild = entry.child === 'index' ? 'index' : slugify(entry.child || entry.slug || '');
-      if (entryChild === normalized) {
-        return entry;
-      }
-    }
-    return null;
-  }
-
-  function loadIndexForMonth(scope, year, month) {
-    var cacheKey = (scope.parent || 'index') + '::' + (scope.child || 'index') + '::' + padNumber(year, 4) + padNumber(month, 2);
-    if (!INDEX_CACHE[cacheKey]) {
-      var candidates = buildSearchIndexCandidates(scope.parent, scope.child, year, month);
-      INDEX_CACHE[cacheKey] = fetchSequential(candidates)
+  function loadMonthIndex(scope, year, month) {
+    var key = (scope.parent || 'index') + '::' + (scope.child || 'index') + '::' + padNumber(year, 4) + padNumber(month, 2);
+    if (!MONTH_CACHE[key]) {
+      var urls = buildIndexUrls(scope.parent, scope.child, year, month);
+      MONTH_CACHE[key] = fetchSequential(urls)
         .then(function (payload) {
           return normalizeEntries(payload);
         })
@@ -274,7 +252,7 @@
           return [];
         });
     }
-    return INDEX_CACHE[cacheKey];
+    return MONTH_CACHE[key];
   }
 
   function ensureIndexes(scope) {
@@ -282,12 +260,17 @@
     if (INDEX_CACHE[scopeKey]) {
       return INDEX_CACHE[scopeKey];
     }
+
     INDEX_CACHE[scopeKey] = getArchiveSummary()
       .then(function (summary) {
+        var months = [];
         var childEntry = summary ? findChildSummary(summary, scope.parent, scope.child) : null;
-        var months = childEntry && Array.isArray(childEntry.months) ? childEntry.months.slice() : [];
+        if (childEntry && Array.isArray(childEntry.months)) {
+          months = childEntry.months.slice();
+        }
         if (!months.length) {
-          months = [{ year: new Date().getFullYear(), month: new Date().getMonth() + 1 }];
+          var now = new Date();
+          months.push({ year: now.getFullYear(), month: now.getMonth() + 1 });
         }
         months.sort(function (a, b) {
           if (a.year === b.year) return b.month - a.month;
@@ -295,7 +278,7 @@
         });
         months = months.slice(0, MAX_MONTHS);
         var promises = months.map(function (info) {
-          return loadIndexForMonth(scope, info.year, info.month);
+          return loadMonthIndex(scope, info.year, info.month);
         });
         return Promise.all(promises).then(function (lists) {
           var combined = [];
@@ -308,16 +291,67 @@
           return combined;
         });
       });
+
     return INDEX_CACHE[scopeKey];
+  }
+
+  function resolveEntryParent(entry) {
+    if (!entry) return '';
+    if (entry.parent) return slugify(entry.parent);
+    if (entry.parent_slug) return slugify(entry.parent_slug);
+    if (entry.category_slug) {
+      var parts = String(entry.category_slug).split('/');
+      if (parts.length) return slugify(parts[0]);
+    }
+    if (entry.category) return slugify(entry.category);
+    return '';
+  }
+
+  function resolveEntryChild(entry) {
+    if (!entry) return '';
+    if (entry.child) return slugify(entry.child);
+    if (entry.child_slug) return slugify(entry.child_slug);
+    if (entry.subcategory_slug) return slugify(entry.subcategory_slug);
+    if (entry.subcategory) return slugify(entry.subcategory);
+    if (entry.category_slug) {
+      var parts = String(entry.category_slug).split('/');
+      if (parts.length > 1) return slugify(parts[parts.length - 1]);
+    }
+    return '';
+  }
+
+  function entryMatchesScope(entry, scope) {
+    if (!entry) return false;
+    var parent = scope.parent || 'index';
+    var child = scope.child || 'index';
+    if (parent === 'index' && child === 'index') return true;
+
+    if (child !== 'index') {
+      var entryChild = resolveEntryChild(entry);
+      if (entryChild && entryChild === child) {
+        if (parent === 'index') return true;
+        var entryParent = resolveEntryParent(entry);
+        return !parent || entryParent === parent;
+      }
+      return false;
+    }
+
+    if (parent === 'index') return true;
+    var resolvedParent = resolveEntryParent(entry);
+    return resolvedParent === parent;
   }
 
   function matchesQuery(entry, queryTokens) {
     if (!queryTokens.length) return true;
-    var haystack = normalizeText(
-      [entry.title, entry.excerpt, entry.summary, entry.category, entry.subcategory, stripHtml(entry.body)]
-        .filter(Boolean)
-        .join(' ')
-    );
+    var fields = [
+      entry.title,
+      entry.excerpt,
+      entry.summary,
+      entry.category,
+      entry.subcategory,
+      entry.body
+    ].filter(Boolean);
+    var haystack = normalizeText(fields.join(' '));
     if (!haystack) return false;
     for (var i = 0; i < queryTokens.length; i++) {
       if (haystack.indexOf(queryTokens[i]) === -1) {
@@ -327,7 +361,7 @@
     return true;
   }
 
-  function renderResults(entries, queryTokens) {
+  function renderResults(entries, scope, queryTokens) {
     var resultInfo = document.querySelector('.search-result');
     var resultsContainer = document.getElementById('search-results');
     if (!resultsContainer) return;
@@ -336,6 +370,7 @@
 
     var filtered = entries
       .filter(function (entry) { return entry && (entry.slug || entry.title); })
+      .filter(function (entry) { return entryMatchesScope(entry, scope); })
       .filter(function (entry) { return matchesQuery(entry, queryTokens); })
       .sort(function (a, b) { return parseDateValue(b.date) - parseDateValue(a.date); });
 
@@ -398,29 +433,40 @@
   function getQuery() {
     try {
       var params = new URLSearchParams(window.location.search || '');
-      return params.get('q') || '';
+      var value = params.get('q');
+      return value ? String(value).trim() : '';
     } catch (err) {
       return '';
     }
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    var query = getQuery();
+  function populateHeader(query, scope) {
     var input = document.querySelector('input[name="q"]');
     if (input) {
       input.value = query;
     }
+    var container = document.querySelector('.search .aside-title');
+    if (container && scope) {
+      var parts = [];
+      if (scope.parent && scope.parent !== 'index') parts.push(scope.parent.replace(/-/g, ' '));
+      if (scope.child && scope.child !== 'index') parts.push(scope.child.replace(/-/g, ' '));
+      if (parts.length) {
+        container.textContent = 'Search — ' + parts.join(' / ').replace(/\b\w/g, function (ch) { return ch.toUpperCase(); });
+      }
+    }
+  }
 
-    var scope = resolveScopeHint([document.body]);
+  var scope = resolveScopeHint([document.body]);
+  var query = getQuery();
+  populateHeader(query, scope);
 
-    ensureIndexes(scope)
-      .then(function (entries) {
-        var tokens = tokenize(query);
-        renderResults(entries || [], tokens);
-      })
-      .catch(function (err) {
-        console.error('Failed to load search indexes', err);
-        renderResults([], tokenize(query));
-      });
-  });
+  ensureIndexes(scope)
+    .then(function (entries) {
+      var tokens = tokenize(query);
+      renderResults(entries, scope, tokens);
+    })
+    .catch(function (err) {
+      console.error('search load error', err);
+      renderResults([], scope, []);
+    });
 })();
