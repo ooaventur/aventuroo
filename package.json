@@ -5,6 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "eleventy": "eleventy",
+    "postbuild": "node scripts/compress-site.js",
     "build": "eleventy"
   },
   "keywords": [],

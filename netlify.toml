@@ -1,3 +1,13 @@
 [build]
   command = "npm run build"
   publish = "_site"
+
+[[headers]]
+  for = "/archive/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/search/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
