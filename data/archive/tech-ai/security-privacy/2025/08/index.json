@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "slug": "oregon-man-charged-in-rapper-bot-ddos-service-2025-08-19",
+      "title": "Oregon Man Charged in ‘Rapper Bot’ DDoS Service",
+      "date": "2025-08-19",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/oregon-man-charged-in-rapper-bot-ddos-service-2025-08-19/",
+      "excerpt": "A 22-year-old Oregon man has been arrested on suspicion of operating “ Rapper Bot ,” a massive botnet used to power a service for launching distributed denial-of-service (DDoS) attacks against targets — including a March 2025 DDoS that knocked Twitter/X offline. The Justice De…",
+      "source": "https://krebsonsecurity.com/2025/08/oregon-man-charged-in-rapper-bot-ddos-service/"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-08-19",
+  "pagination": {
+    "total_items": 1,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

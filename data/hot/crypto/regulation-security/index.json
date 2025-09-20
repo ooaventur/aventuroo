@@ -19,6 +19,51 @@
       "source": "https://thedefiant.io/news/defi/circle-beats-usdh-to-the-punch-with-usdc-launch-on-hyperevm"
     },
     {
+      "slug": "web3-wallet-wars-rage-on-as-rabby-and-metamask-tease-tokens-2025-09-19",
+      "title": "Web3 Wallet Wars Rage On as Rabby and Metamask Tease Tokens",
+      "date": "2025-09-19",
+      "cover": "https://cdn.thedefiant.io/wallets-1-1-png-cb6544c8-d66e-4adf-a333-2b13d318cee3.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/web3-wallet-wars-rage-on-as-rabby-and-metamask-tease-tokens-2025-09-19/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/web3-wallet-wars-rage-on-as-rabby-and-metamask-tease-tokens"
+    },
+    {
+      "slug": "tokenized-real-world-assets-surpass-30-billion-amid-growing-institutional-adoption-2025-09-19",
+      "title": "Tokenized Real-World Assets Surpass $30 Billion Amid Growing Institutional Adoption",
+      "date": "2025-09-19",
+      "cover": "https://cdn.thedefiant.io/rwa-1-1-png-bb62c85e-7793-4747-9720-1375de5e8e33.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/tokenized-real-world-assets-surpass-30-billion-amid-growing-institutional-adoption-2025-09-19/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/defi/tokenized-real-world-assets-surpass-usd30-billion-amid-growing-institutional-adoption"
+    },
+    {
+      "slug": "stellar-s-flagship-meridian-conference-focused-on-rwas-and-emerging-markets-2025-09-19",
+      "title": "Stellar’s Flagship Meridian Conference Focused on RWAs and Emerging Markets",
+      "date": "2025-09-19",
+      "cover": "https://cdn.thedefiant.io/person-v2-21-png-86c35780-ed1b-4061-8d76-80c0f080b938.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/stellar-s-flagship-meridian-conference-focused-on-rwas-and-emerging-markets-2025-09-19/",
+      "excerpt": "Gino Matos •",
+      "source": "https://thedefiant.io/news/blockchains/stellar-s-flagship-meridian-conference-highlights-focus-on-rwas-stablecoins-and-emerging-markets"
+    },
+    {
+      "slug": "hypurr-nft-floor-hits-100-000-2025-09-19",
+      "title": "Hypurr NFT Floor Hits $100,000",
+      "date": "2025-09-19",
+      "cover": "https://cdn.thedefiant.io/hypurr-1-png-d69df31a-d404-40e6-9ae6-0e65cdb42397.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/hypurr-nft-floor-hits-100-000-2025-09-19/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/nfts-and-web3/hypurr-nft-floor-hits-usd100-000"
+    },
+    {
+      "slug": "crypto-markets-slip-as-geopolitical-concerns-resurface-2025-09-19",
+      "title": "Crypto Markets Slip as Geopolitical Concerns Resurface",
+      "date": "2025-09-19",
+      "cover": "https://cdn.thedefiant.io/btccrash-1-png-8d1945d4-989a-43c0-aa87-4ba8e68f4446.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-markets-slip-as-geopolitical-concerns-resurface-2025-09-19/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/markets/crypto-markets-slip-as-geopolitical-concerns-resurface"
+    },
+    {
       "slug": "us-crypto-tsar-david-sacks-denies-overstaying-his-job-amid-warren-scrutiny-2025-09-18",
       "title": "US crypto tsar David Sacks denies overstaying his job amid Warren scrutiny",
       "date": "2025-09-18",
@@ -91,11 +136,11 @@
       "source": "https://cointelegraph.com/news/bullish-bitlicense-nydfs-crypto-expansion?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

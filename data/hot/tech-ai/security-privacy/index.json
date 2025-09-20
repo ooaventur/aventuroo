@@ -19,6 +19,24 @@
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/scattered-lapsus-hunters-hacking-end"
     },
     {
+      "slug": "raven-stealer-scavenges-chromium-data-via-telegram-2025-09-17",
+      "title": "Raven Stealer Scavenges Chromium Data Via Telegram",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb3d93c6b507fea00/68caa6af0a60f3327ed5cd9c/Raven_ArtoHakola_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/raven-stealer-scavenges-chromium-data-via-telegram-2025-09-17/",
+      "excerpt": "The new lightweight stealer, distributed via underground forums and cracked software, demonstrates an important evolution in the stealth of commodity infostealing malware.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/raven-stealer-scavenges-chrome-data-telegram"
+    },
+    {
+      "slug": "north-korean-group-targets-south-with-military-id-deepfakes-2025-09-17",
+      "title": "North Korean Group Targets South With Military ID Deepfakes",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt63f91c6126fd75bf/68c9cbd0b0a4873f1f095668/north-south-korea-flags-Marian_Weyo-shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/north-korean-group-targets-south-with-military-id-deepfakes-2025-09-17/",
+      "excerpt": "The North Korea-linked group Kimsuky used ChatGPT to create deepfakes of military ID documents in an attempt to compromise South Korean targets.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/north-korean-group-south-military-id-deepfakes"
+    },
+    {
       "slug": "microsoft-disrupts-raccoono365-phishing-service-2025-09-17",
       "title": "Microsoft Disrupts 'RaccoonO365' Phishing Service",
       "date": "2025-09-17",
@@ -55,6 +73,33 @@
       "source": "https://krebsonsecurity.com/2025/09/self-replicating-worm-hits-180-software-packages/"
     },
     {
+      "slug": "self-replicating-shai-hulud-worm-targets-npm-packages-2025-09-16",
+      "title": "Self-Replicating 'Shai-hulud' Worm Targets NPM Packages",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc0a4921c30fc0161/68c9aff49be9ba756f76d788/sandworms_FlixPix_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/self-replicating-shai-hulud-worm-targets-npm-packages-2025-09-16/",
+      "excerpt": "The newly emerged worm has spread across hundreds of open source software packages, stealing credentials and infecting other components without much direct attacker input.",
+      "source": "https://www.darkreading.com/application-security/self-replicating-shai-hulud-worm-npm-packages"
+    },
+    {
+      "slug": "ray-security-takes-an-active-data-security-approach-2025-09-16",
+      "title": "Ray Security Takes an Active Data Security Approach",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce83f3107a4cc92c/66da6ace87ba922be2739242/Data_security(1800)_ber1a_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ray-security-takes-an-active-data-security-approach-2025-09-16/",
+      "excerpt": "The data security platform comes with a predictive capability that separates it from other offerings aimed at protecting enterprise data, the startup says.",
+      "source": "https://www.darkreading.com/endpoint-security/ray-security-protect-data-security"
+    },
+    {
+      "slug": "critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16",
+      "title": "Critical Bugs in Chaos Mesh Enable Cluster Takeover",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2a325c8fe0accf79/68c9c21c254e1141548fc2a6/chaos_ArtemisDiana_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16/",
+      "excerpt": "&quot;Chaotic Deputy&quot; is a set of four vulnerabilities in the chaos engineering platform that many organizations use to test the resilience of their Kubernetes environments.",
+      "source": "https://www.darkreading.com/cyber-risk/critical-bugs-chaos-mesh-cluster-takeover"
+    },
+    {
       "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
       "title": "Bulletproof Host Stark Industries Evades EU Sanctions",
       "date": "2025-09-11",
@@ -89,13 +134,49 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/gop-cries-censorship-over-spam-filters-that-work-2025-09-06/",
       "excerpt": "The chairman of the Federal Trade Commission (FTC) last week sent a letter to Google’s CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusi…",
       "source": "https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/"
+    },
+    {
+      "slug": "the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft-2025-09-01",
+      "title": "The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft",
+      "date": "2025-09-01",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft-2025-09-01/",
+      "excerpt": "The recent mass-theft of authentication tokens from Salesloft , whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit …",
+      "source": "https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/"
+    },
+    {
+      "slug": "affiliates-flock-to-soulless-scam-gambling-machine-2025-08-28",
+      "title": "Affiliates Flock to ‘Soulless’ Scam Gambling Machine",
+      "date": "2025-08-28",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/affiliates-flock-to-soulless-scam-gambling-machine-2025-08-28/",
+      "excerpt": "Last month, KrebsOnSecurity tracked the sudden emergence of hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. We’ve since learned that these scam gambling sites…",
+      "source": "https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/"
+    },
+    {
+      "slug": "dslroot-proxies-and-the-threat-of-legal-botnets-2025-08-26",
+      "title": "DSLRoot, Proxies, and the Threat of ‘Legal Botnets’",
+      "date": "2025-08-26",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dslroot-proxies-and-the-threat-of-legal-botnets-2025-08-26/",
+      "excerpt": "The cybersecurity community on Reddit responded in disbelief this month when a self-described Air National Guard member with top secret security clearance began questioning the arrangement they’d made with company called DSLRoot , which was paying $250 a month to plug a pair o…",
+      "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
+    },
+    {
+      "slug": "sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21",
+      "title": "SIM-Swapper, Scattered Spider Hacker Gets 10 Years",
+      "date": "2025-08-21",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21/",
+      "excerpt": "A 20-year-old Florida man at the center of a prolific cybercrime group known as “ Scattered Spider ” was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.",
+      "source": "https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/"
     }
   ],
-  "count": 10,
+  "count": 19,
   "updated_at": "2025-09-17",
   "pagination": {
-    "total_items": 10,
+    "total_items": 19,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

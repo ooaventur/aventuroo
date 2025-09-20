@@ -37,6 +37,15 @@
       "source": "https://www.bonappetit.com/story/quincy-olives-batched-dirty-martini"
     },
     {
+      "slug": "make-ahead-waffles-and-more-recipes-we-made-this-week-2025-09-19",
+      "title": "Make-Ahead Waffles and More Recipes We Made This Week",
+      "date": "2025-09-19",
+      "cover": "https://assets.bonappetit.com/photos/649a34620bcd58b2b9f88173/master/pass/20230509-0823-APPLIANCES-30817.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/make-ahead-waffles-and-more-recipes-we-made-this-week-2025-09-19/",
+      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.bonappetit.com/story/recipes-bon-appetit-editors-cooked-september-2025"
+    },
+    {
       "slug": "how-did-raising-cane-s-put-on-a-fashion-show-we-asked-the-designer-2025-09-19",
       "title": "How Did Raising Cane's Put on a Fashion Show? We Asked the Designer",
       "date": "2025-09-19",
@@ -44,6 +53,42 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/how-did-raising-cane-s-put-on-a-fashion-show-we-asked-the-designer-2025-09-19/",
       "excerpt": "Welcome to Deep Dish, a weekly roundup of food and entertainment news.",
       "source": "https://www.bonappetit.com/story/raising-canes-chicken-fashion-show"
+    },
+    {
+      "slug": "best-ever-chicken-and-dumplings-2025-09-19",
+      "title": "Best-Ever Chicken and Dumplings",
+      "date": "2025-09-19",
+      "cover": "https://assets.bonappetit.com/photos/58a35448476e2c92337165d3/master/pass/bas-best-chicken-and-dumplings.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/best-ever-chicken-and-dumplings-2025-09-19/",
+      "excerpt": "Craving something cozy? This from-scratch chicken and dumplings recipe delivers rich, homemade broth, tender chicken, and super fluffy dumplings—no shortcuts allowed.",
+      "source": "https://www.bonappetit.com/recipe/best-chicken-and-dumplings"
+    },
+    {
+      "slug": "this-3-ingredient-smoky-sauce-improves-any-bowl-of-noodles-2025-09-18",
+      "title": "This 3-Ingredient Smoky Sauce Improves Any Bowl of Noodles",
+      "date": "2025-09-18",
+      "cover": "https://assets.bonappetit.com/photos/68c07b79cdf965e8ccfe1f18/master/pass/20250701_1025_01_ITS_Smoky%20Brown%20Butter%20Pasta_049_FINAL.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/this-3-ingredient-smoky-sauce-improves-any-bowl-of-noodles-2025-09-18/",
+      "excerpt": "It’s That Simple is our series about recipes so easy, you can make them with your eyes closed. Think tiny ingredient lists, laid-back techniques, and results so delicious you’ll text home about them.",
+      "source": "https://www.bonappetit.com/story/this-3-ingredient-smoky-sauce-improves-any-bowl-of-noodles"
+    },
+    {
+      "slug": "the-best-drip-coffee-makers-test-kitchen-vetted-editor-approved-2025-2025-09-18",
+      "title": "The Best Drip Coffee Makers, Test Kitchen Vetted & Editor Approved (2025)",
+      "date": "2025-09-18",
+      "cover": "https://assets.bonappetit.com/photos/6721a1a1d64d2bb7387c9614/master/pass/best-drip-coffee-makers_LEDE_V5_102324_2223_VOG_NoBadge_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-drip-coffee-makers-test-kitchen-vetted-editor-approved-2025-2025-09-18/",
+      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.bonappetit.com/story/best-drip-coffee-makers"
+    },
+    {
+      "slug": "the-art-of-building-a-menu-with-shared-plates-2025-09-18",
+      "title": "The Art of Building a Menu With Shared Plates",
+      "date": "2025-09-18",
+      "cover": "https://assets.bonappetit.com/photos/68b7478d58c8c1807204acfb/master/pass/0902-BonAppetit-1920x1080-RGB-OP5b.png",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-art-of-building-a-menu-with-shared-plates-2025-09-18/",
+      "excerpt": "On the whole, I love the shared-plates phenomenon at restaurants. I delight in sampling as much of the menu as possible and in the community derived from the table tasting and reacting to dishes in unison. But the awkwardness of this format can ratchet up quickly as the number…",
+      "source": "https://www.bonappetit.com/story/share-plates-menu-chefs-trends"
     },
     {
       "slug": "cabbage-and-halloumi-skewers-2025-09-09",
@@ -55,10 +100,10 @@
       "source": "https://smittenkitchen.com/2025/09/cabbage-and-halloumi-skewers/"
     }
   ],
-  "count": 6,
+  "count": 11,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 6,
+    "total_items": 11,
     "per_page": 12,
     "total_pages": 1
   }

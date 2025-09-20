@@ -64,6 +64,15 @@
       "source": "https://www.creativeboom.com/inspiration/smash-takes-down-wetransfer-in-this-cheeky-but-clever-campaign/"
     },
     {
+      "slug": "expert-tips-on-getting-into-creative-flow-and-staying-there-2025-09-15",
+      "title": "Expert tips on getting into creative flow (and staying there)",
+      "date": "2025-09-15",
+      "cover": "https://www.creativeboom.com/upload/articles/de/dea27a1b72ca1328b8c039d4b5c05f8185030937_800.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/expert-tips-on-getting-into-creative-flow-and-staying-there-2025-09-15/",
+      "excerpt": "Finding focus in a fractured world requires intention, ritual and perhaps a bit of creative rebellion. We canvased our community on how to maximise your creative flow, and we share their practical, achievable tips below.",
+      "source": "https://www.creativeboom.com/tips/expert-tips-on-getting-into-creative-flow-and-staying-there/"
+    },
+    {
       "slug": "bukhara-s-big-debut-a-silk-road-city-reawakens-with-contemporary-art-2025-09-15",
       "title": "Bukhara's Big Debut: A Silk Road city reawakens with contemporary art",
       "date": "2025-09-15",
@@ -71,13 +80,49 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/arts/bukhara-s-big-debut-a-silk-road-city-reawakens-with-contemporary-art-2025-09-15/",
       "excerpt": "The ancient Uzbekistan city on the Silk Road swaps centuries of civilisation and traditional trade for an exuberant international contemporary art fest.",
       "source": "https://www.creativeboom.com/inspiration/the-beautiful-and-brilliant-bukhara-biennial/"
+    },
+    {
+      "slug": "beyond-the-beaches-helin-bereket-captures-the-solitude-of-australia-s-forgotten-towns-2025-09-15",
+      "title": "Beyond the Beaches: Helin Bereket captures the solitude of Australia's forgotten towns",
+      "date": "2025-09-15",
+      "cover": "https://www.creativeboom.com/upload/articles/4b/4b9b378dbdfd0321b9b91502e44f35ef035fc69c_800.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/beyond-the-beaches-helin-bereket-captures-the-solitude-of-australia-s-forgotten-towns-2025-09-15/",
+      "excerpt": "The Berlin-based photographer documents the haunting beauty of rural decline in her latest series, which explores abandoned spaces.",
+      "source": "https://www.creativeboom.com/inspiration/beyond-the-beaches-photographer-captures-australias-forgotten-towns/"
+    },
+    {
+      "slug": "sara-maese-is-creating-an-entire-universe-out-of-simple-forms-and-lovely-warm-colours-2025-09-11",
+      "title": "Sara Maese is creating an entire universe out of simple forms and lovely warm colours",
+      "date": "2025-09-11",
+      "cover": "https://www.creativeboom.com/upload/articles/6b/6b4707c41e80b1779abc362e86d400c867149201_800.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/sara-maese-is-creating-an-entire-universe-out-of-simple-forms-and-lovely-warm-colours-2025-09-11/",
+      "excerpt": "\"I have a good eye for colour and usually go with my gut,\" says this inspiring young illustrator from southern Spain.",
+      "source": "https://www.creativeboom.com/inspiration/sara-maese-is-creating-an-entire-universe-out-of-simple-forms-and-lovely-warm-colours/"
+    },
+    {
+      "slug": "gab-at-40-why-glasgow-s-much-loved-creative-gathering-still-has-its-spark-2025-09-10",
+      "title": "Gab at 40: Why Glasgow's much-loved creative gathering still has its spark",
+      "date": "2025-09-10",
+      "cover": "https://www.creativeboom.com/upload/articles/a3/a313334884788e4a5653ccf520dcfc545849b03b_800.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/gab-at-40-why-glasgow-s-much-loved-creative-gathering-still-has-its-spark-2025-09-10/",
+      "excerpt": "The ever-popular event in Scotland has just marked a milestone. Creative Boom headed north to find out why everyone keeps raving about Gab.",
+      "source": "https://www.creativeboom.com/insight/glasgows-gab-celebrates-its-40th-talk/"
+    },
+    {
+      "slug": "fee-greening-brings-her-magic-touch-to-briggs-s-dictionary-of-fairies-2025-09-10",
+      "title": "Fee Greening brings her magic touch to Briggs's Dictionary of Fairies",
+      "date": "2025-09-10",
+      "cover": "https://www.creativeboom.com/upload/articles/0f/0f0f6624e404610afebaacd29438925b677bfa2c_800.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/fee-greening-brings-her-magic-touch-to-briggs-s-dictionary-of-fairies-2025-09-10/",
+      "excerpt": "One of the most important tomes of British folklore is being republished – with inspiring imagery by fairy expert Fee Greening.",
+      "source": "https://www.creativeboom.com/inspiration/fee-greening-brings-her-magic-touch-to-briggss-dictionary-of-fairies/"
     }
   ],
-  "count": 8,
+  "count": 13,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 8,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

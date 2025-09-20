@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "slug": "deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark-2025-04-30",
+      "title": "DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with Recursive Proof Search and a New Benchmark",
+      "date": "2025-04-30",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark-2025-04-30/",
+      "excerpt": "DeepSeek AI has announced the release of DeepSeek-Prover-V2, a groundbreaking open-source large language model specifically designed for formal theorem proving within the Lean 4 environment. This latest iteration builds upon previous work by introducing an innovative recursive…",
+      "source": "https://syncedreview.com/2025/04/30/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark/"
+    },
+    {
+      "slug": "can-grpo-be-10x-efficient-kwai-ai-s-srpo-suggests-yes-with-srpo-2025-04-24",
+      "title": "Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO",
+      "date": "2025-04-24",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/can-grpo-be-10x-efficient-kwai-ai-s-srpo-suggests-yes-with-srpo-2025-04-24/",
+      "excerpt": "The remarkable success of OpenAI’s o1 series and DeepSeek-R1 has unequivocally demonstrated the power of large-scale reinforcement learning (RL) in eliciting sophisticated reasoning behaviors and significantly enhancing the capabilities of large language models (LLMs).",
+      "source": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/"
+    },
+    {
+      "slug": "zhipu-ai-s-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo-2025-04-16",
+      "title": "Zhipu.AI’s Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO",
+      "date": "2025-04-16",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/zhipu-ai-s-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo-2025-04-16/",
+      "excerpt": "Beijing, China – April 15, 2025 – In a strategic move that underscores its technological prowess and global ambitions, potentially paving the way for a future IPO, Chinese AI company Zhipu.AI has announced the comprehensive open-sourcing of its next-generation General Language…",
+      "source": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/"
+    },
+    {
+      "slug": "deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct-2025-04-11",
+      "title": "DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to Scaling Inference with SPCT",
+      "date": "2025-04-11",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct-2025-04-11/",
+      "excerpt": "DeepSeek AI, a prominent player in the large language model arena, has recently published a research paper detailing a new technique aimed at enhancing the scalability of general reward models (GRMs) during the inference phase. Simultaneously, the company has hinted at the imm…",
+      "source": "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/"
+    }
+  ],
+  "count": 4,
+  "updated_at": "2025-04-30",
+  "pagination": {
+    "total_items": 4,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

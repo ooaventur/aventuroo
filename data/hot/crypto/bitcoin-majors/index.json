@@ -10,6 +10,15 @@
       "source": "https://bitcoinist.com/us-treasury-seeks-public-comment-genius-stablecoin/"
     },
     {
+      "slug": "u-s-treasury-seeks-public-input-on-stablecoin-rules-under-genius-act-2025-09-20",
+      "title": "U.S. Treasury Seeks Public Input on Stablecoin Rules Under GENIUS Act",
+      "date": "2025-09-20",
+      "cover": "https://www.livebitcoinnews.com/wp-content/uploads/2025/09/U.S.-Treasury-Seeks-Public-Input-on-GENIUS-Act-Rules.png",
+      "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/u-s-treasury-seeks-public-input-on-stablecoin-rules-under-genius-act-2025-09-20/",
+      "excerpt": "U.S. Treasury invites public feedback on GENIUS Act to shape stablecoin rules, promoting innovation, safety, and financial stability.",
+      "source": "https://www.livebitcoinnews.com/u-s-treasury-seeks-public-input-on-stablecoin-rules-under-genius-act/"
+    },
+    {
       "slug": "ripple-meets-with-us-and-us-government-to-talk-crypto-here-s-what-happened-2025-09-20",
       "title": "Ripple Meets With US And US Government To Talk Crypto – Here’s What Happened",
       "date": "2025-09-20",
@@ -89,13 +98,49 @@
       "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/4-3-billion-bitcoin-and-ethereum-options-expire-today-market-impact-analysis-2025-09-19/",
       "excerpt": "Crypto traders are bracing for potential market volatility as over $4.3 billion in Bitcoin and Ethereum options contracts expire today, September 19, 2025. This expiry event comes just days after the Federal Reserve’s interest rate cut, adding an extra layer of market uncertai…",
       "source": "https://blockonomi.com/4-3-billion-bitcoin-and-ethereum-options-expire-today-market-impact-analysis/"
+    },
+    {
+      "slug": "metaplanet-president-sets-aggressive-bitcoin-buy-timeline-hints-at-stock-buybacks-2025-09-18",
+      "title": "Metaplanet President Sets Aggressive Bitcoin Buy Timeline, Hints at Stock Buybacks",
+      "date": "2025-09-18",
+      "cover": "https://blockonomi.com/wp-content/uploads/2024/10/metaplanet.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/metaplanet-president-sets-aggressive-bitcoin-buy-timeline-hints-at-stock-buybacks-2025-09-18/",
+      "excerpt": "Metaplanet president Simon Gerovich is setting the tone for the company’s next moves. He told investors the Bitcoin buy window is about speed, not delay. He made clear that Metaplanet will act fast while keeping price impact low.",
+      "source": "https://blockonomi.com/metaplanet-president-sets-aggressive-bitcoin-buy-timeline-hints-at-stock-buybacks/"
+    },
+    {
+      "slug": "fed-rate-cut-to-4-4-25-could-shift-7-trillion-from-money-markets-to-crypto-2025-09-18",
+      "title": "Fed Rate Cut to 4%-4.25% Could Shift $7 Trillion from Money Markets to Crypto",
+      "date": "2025-09-18",
+      "cover": "https://blockonomi.com/wp-content/uploads/2020/03/federal-reserve.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/fed-rate-cut-to-4-4-25-could-shift-7-trillion-from-money-markets-to-crypto-2025-09-18/",
+      "excerpt": "The Federal Reserve has implemented its first interest rate cut of 2025, lowering rates by 25 basis points to a range of 4%-4.25%. However, Federal Reserve Chair Jerome Powell revealed that the Federal Open Market Committee (FOMC) remains divided on the path forward for additi…",
+      "source": "https://blockonomi.com/fed-rate-cut-to-4-4-25-could-shift-7-trillion-from-money-markets-to-crypto/"
+    },
+    {
+      "slug": "bitcoin-btc-price-fed-rate-cut-drives-1-gain-while-altcoins-jump-3-5-2025-09-18",
+      "title": "Bitcoin (BTC) Price: Fed Rate Cut Drives 1% Gain While Altcoins Jump 3-5%",
+      "date": "2025-09-18",
+      "cover": "https://blockonomi.com/wp-content/uploads/2025/03/bitcoin-1.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/bitcoin-btc-price-fed-rate-cut-drives-1-gain-while-altcoins-jump-3-5-2025-09-18/",
+      "excerpt": "Bitcoin and the broader cryptocurrency market are responding positively to the Federal Reserve’s first interest rate cut of 2025. On September 17, Fed Chairman Jerome Powell announced a 25 basis point reduction in interest rates, ending a period of elevated rates.",
+      "source": "https://blockonomi.com/bitcoin-btc-price-fed-rate-cut-drives-1-gain-while-altcoins-jump-3-5/"
+    },
+    {
+      "slug": "arthur-hayes-links-bitcoin-s-future-to-fed-s-third-mandate-policy-2025-09-18",
+      "title": "Arthur Hayes Links Bitcoin’s Future to Fed’s “Third Mandate” Policy",
+      "date": "2025-09-18",
+      "cover": "https://blockonomi.com/wp-content/uploads/2025/04/Bitcoin.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/bitcoin-majors/arthur-hayes-links-bitcoin-s-future-to-fed-s-third-mandate-policy-2025-09-18/",
+      "excerpt": "Former BitMEX CEO Arthur Hayes has made a striking prediction that Bitcoin could reach $1 million, linking this forecast to recent developments at the Federal Reserve. This comes as Stephen Miran was confirmed to the Federal Reserve Board by a narrow 48-47 Senate vote on Septe…",
+      "source": "https://blockonomi.com/arthur-hayes-links-bitcoins-future-to-feds-third-mandate-policy/"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

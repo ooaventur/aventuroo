@@ -1,10 +1,20 @@
 {
-  "items": [],
-  "count": 0,
-  "updated_at": null,
+  "items": [
+    {
+      "slug": "a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht-2025-09-20",
+      "title": "A Coding Guide to End-to-End Robotics Learning with LeRobot: Training, Evaluating, and Visualizing Behavior Cloning Policies on PushT",
+      "date": "2025-09-20",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-72.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht-2025-09-20/",
+      "excerpt": "In this tutorial, we walk step by step through using Hugging Face’s LeRobot library to train and evaluate a behavior-cloning policy on the PushT dataset. We begin by setting up the environment in Google Colab, installing the required dependencies, and loading the dataset throu…",
+      "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 0,
+    "total_items": 1,
     "per_page": 12,
-    "total_pages": 0
+    "total_pages": 1
   }
 }

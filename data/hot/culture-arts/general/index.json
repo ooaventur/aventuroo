@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "picturing-a-chinatown-family-across-twenty-two-years-2025-09-20",
+      "title": "Picturing a Chinatown Family Across Twenty-two Years",
+      "date": "2025-09-20",
+      "cover": "https://media.newyorker.com/photos/68cc486cef10cf7e3a9f1fb7/master/pass/01_WANG:LAMS-OF-LUDLOW-ST:HOLTON_2014-Steven_s-Walk-In-Closet.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/picturing-a-chinatown-family-across-twenty-two-years-2025-09-20/",
+      "excerpt": "When Thomas Holton, a photography graduate student, strolled through Chinatown in the early two-thousands, snapping street shots, he found the resulting photos to be “superficial”—no different from the pictures any tourist might take. During one particular walk, he looked upwa…",
+      "source": "https://www.newyorker.com/culture/photo-booth/picturing-a-chinatown-family-across-twenty-two-years"
+    },
+    {
+      "slug": "how-donald-trump-s-culture-wars-playbook-felled-jimmy-kimmel-2025-09-19",
+      "title": "How Donald Trump’s Culture-Wars Playbook Felled Jimmy Kimmel",
+      "date": "2025-09-19",
+      "cover": "https://media.newyorker.com/photos/68cc6c649a17cdf3870ad28f/master/pass/Kang_Kimmel_GettyImages-2152762887.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/how-donald-trump-s-culture-wars-playbook-felled-jimmy-kimmel-2025-09-19/",
+      "excerpt": "On Wednesday, bowing to pressure from the Trump Administration, ABC pulled the late-night series “Jimmy Kimmel Live!” off the air. The show, which had run for more than two decades, was shelved indefinitely over a monologue addressing the murder of the conservative activist Ch…",
+      "source": "https://www.newyorker.com/culture/on-television/how-jimmy-kimmel-succumbed-to-donald-trumps-culture-wars-playbook"
+    },
+    {
       "slug": "required-reading-2025-09-18",
       "title": "Required Reading",
       "date": "2025-09-18",
@@ -17,6 +35,15 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/for-lygia-clark-art-was-a-means-of-survival-2025-09-18/",
       "excerpt": "BERLIN — Lygia Clark’s current retrospective at the Neue Nationalgalerie makes a compelling argument that art, therapy, and politics are far more intimately related than they are often discussed as being.",
       "source": "https://hyperallergic.com/1042604/for-lygia-clark-art-was-a-means-of-survival-neue-nationalgalerie/"
+    },
+    {
+      "slug": "borusan-contemporary-presents-edward-burtynsky-shifting-topography-2025-09-18",
+      "title": "Borusan Contemporary Presents Edward Burtynsky: Shifting Topography",
+      "date": "2025-09-18",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/Hyperallergic1-1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/borusan-contemporary-presents-edward-burtynsky-shifting-topography-2025-09-18/",
+      "excerpt": "Borusan Contemporary presents Edward Burtynsky: Shifting Topography , the Canadian artist’s first major solo exhibition in Türkiye, curated by Marcus Schubert. The show brings new work together with a comprehensive selection of works from Burtynsky’s oeuvre from the past 30 ye…",
+      "source": "https://hyperallergic.com/1041977/borusan-contemporary-presents-edward-burtynsky-shifting-topography/"
     },
     {
       "slug": "artfields-awards-over-100-000-in-prizes-to-southeastern-us-artists-2025-09-18",
@@ -46,6 +73,42 @@
       "source": "https://hyperallergic.com/1042667/neo-impressionism-show-for-the-one-percent-national-gallery-london/"
     },
     {
+      "slug": "hyperallergic-s-art-tarotscope-for-the-fall-equinox-2025-09-17",
+      "title": "Hyperallergic’s Art Tarotscope for the Fall Equinox",
+      "date": "2025-09-17",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/tarot-hands.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/hyperallergic-s-art-tarotscope-for-the-fall-equinox-2025-09-17/",
+      "excerpt": "Hyperallergic’s tarotscope series is a combination of tarot with astrology, a reading for the collective readership combined with cards for the major astrological signs, grouped by their elemental associations. These are developed by AX Mina, a Hyperallergic contributor and pr…",
+      "source": "https://hyperallergic.com/1042629/hyperallergic-art-tarotscope-for-fall-2025-equinox/"
+    },
+    {
+      "slug": "can-artists-stop-the-ai-slop-machine-2025-09-17",
+      "title": "Can Artists Stop the AI Slop Machine?",
+      "date": "2025-09-17",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/MollyC-Promo418-009.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/can-artists-stop-the-ai-slop-machine-2025-09-17/",
+      "excerpt": "In 2022, Molly Crabapple noticed that several images uncannily resembling her distinctive illustrations of the Aleppo skyline and portraits of protesters had spread across the web.",
+      "source": "https://hyperallergic.com/1042028/can-artists-stop-the-ai-slop-machine/"
+    },
+    {
+      "slug": "activists-arrested-at-brooklyn-navy-yard-in-protest-against-israeli-military-ties-2025-09-17",
+      "title": "Activists Arrested at Brooklyn Navy Yard in Protest Against Israeli Military Ties",
+      "date": "2025-09-17",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/DSC_0952.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/activists-arrested-at-brooklyn-navy-yard-in-protest-against-israeli-military-ties-2025-09-17/",
+      "excerpt": "Eight activists were arrested outside the Brooklyn Navy Yard in New York City on Wednesday morning, September 17, while forming a blockade in protest of two tenants they say are profiteering from Israel’s violence against Palestinians.",
+      "source": "https://hyperallergic.com/1042800/activists-arrested-at-brooklyn-navy-yard-in-protest-against-israeli-military-ties/"
+    },
+    {
+      "slug": "10-art-shows-to-see-in-the-bay-area-this-fall-2025-09-17",
+      "title": "10 Art Shows to See in the Bay Area This Fall",
+      "date": "2025-09-17",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/resurrection-of-eke-nnechukwu.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/10-art-shows-to-see-in-the-bay-area-this-fall-2025-09-17/",
+      "excerpt": "After a long, rainy summer, the Bay Area art scene is beginning to thaw out, with galleries returning from summer vacation and museums kicking off the fall. The country seems to be spiraling ever further towards authoritarian chaos, but a small flame of resistance burns bright…",
+      "source": "https://hyperallergic.com/1042570/10-art-shows-to-see-in-the-bay-area-fall-2025/"
+    },
+    {
       "slug": "restaurant-review-bong-2025-09-14",
       "title": "Restaurant Review: Bong",
       "date": "2025-09-14",
@@ -53,6 +116,15 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-bong-2025-09-14/",
       "excerpt": "Bong, a new, itsy-bitsy, absolutely electrifying Cambodian restaurant in Crown Heights, has more energy even while you’re waiting on the sidewalk for your table to be ready than most spots can muster on their most lit-up nights of the year. For the three evenings a week that i…",
       "source": "https://www.newyorker.com/culture/the-food-scene/bong-a-tiny-cambodian-spot-packs-an-outsized-punch"
+    },
+    {
+      "slug": "kash-patel-plays-a-g-man-on-tv-2025-09-13",
+      "title": "Kash Patel Plays a G-Man on TV",
+      "date": "2025-09-13",
+      "cover": "https://media.newyorker.com/photos/68c47e90d983117ec80bc0d0/master/pass/Cunningham_KashPatel_h_16378311.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/kash-patel-plays-a-g-man-on-tv-2025-09-13/",
+      "excerpt": "There’s little worse than watching a nervous actor onstage—especially when the poor guy isn’t just skittish but seems genuinely unprepared for the role that he’s playing. Incompetence has a way of unnerving its witnesses. An insecure performer robs an audience of its belief in…",
+      "source": "https://www.newyorker.com/culture/on-television/kash-patel-plays-a-g-man-on-tv"
     },
     {
       "slug": "the-muted-melancholy-synesthetics-of-the-history-of-sound-2025-09-11",
@@ -89,13 +161,31 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/the-political-trickery-of-eddington-2025-09-05/",
       "excerpt": "A filmmaker who wanted to make a politically contentious movie couldn’t do much better than to set it in mid-2020, when the United States, under the covid -19 lockdown and approaching a Presidential election, was tearing itself apart over masking mandates and then over the fal…",
       "source": "https://www.newyorker.com/culture/the-front-row/the-political-trickery-of-eddington"
+    },
+    {
+      "slug": "restaurant-review-lex-yard-at-the-waldorf-astoria-2025-08-31",
+      "title": "Restaurant Review: Lex Yard at the Waldorf-Astoria",
+      "date": "2025-08-31",
+      "cover": "https://media.newyorker.com/photos/68a48078372089b493f3192d/master/pass/1-LexYard-MorganLevy-5527.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-lex-yard-at-the-waldorf-astoria-2025-08-31/",
+      "excerpt": "The grand restoration of the Waldorf-Astoria, a nearly decadelong undertaking that was completed earlier this year, has resulted in hundreds of plush rooms and nicely appointed residences. Far more important to me, though—and to anyone else unlikely to stay upstairs—are the ho…",
+      "source": "https://www.newyorker.com/culture/the-food-scene/the-waldorf-astorias-fresh-bid-for-dining-relevance"
+    },
+    {
+      "slug": "restaurant-review-santo-taco-2025-08-24",
+      "title": "Restaurant Review: Santo Taco",
+      "date": "2025-08-24",
+      "cover": "https://media.newyorker.com/photos/68a4832ab769ebde1ecdd503/master/pass/1-santo_1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-santo-taco-2025-08-24/",
+      "excerpt": "Despite considerable evidence to the contrary, conventional wisdom has long held that New York City simply isn’t a taco town. Pablito’s Taqueria, in Sunset Park; Taqueria Al Pastor, in Bushwick; the Birria-Landia truck in Jackson Heights; Taqueria Sinaloense, in the Bronx, wit…",
+      "source": "https://www.newyorker.com/culture/the-food-scene/new-york-city-taco-town"
     }
   ],
-  "count": 10,
-  "updated_at": "2025-09-18",
+  "count": 20,
+  "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 20,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

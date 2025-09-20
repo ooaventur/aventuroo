@@ -73,6 +73,15 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250915202839.htm"
     },
     {
+      "slug": "stress-measured-in-hair-could-predict-depression-and-anxiety-in-children-2025-09-16",
+      "title": "Stress measured in hair could predict depression and anxiety in children",
+      "date": "2025-09-16",
+      "cover": "https://www.sciencedaily.com/images/1920/daughter-cuddling-mother-anxiety-comfort.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/stress-measured-in-hair-could-predict-depression-and-anxiety-in-children-2025-09-16/",
+      "excerpt": "Long-term stress levels, measured through hair samples, may provide important clues about mental health risks in children with chronic physical illnesses (CPI), according to new research from the University of Waterloo.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202834.htm"
+    },
+    {
       "slug": "semaglutide-may-silence-the-food-noise-in-your-head-2025-09-16",
       "title": "Semaglutide may silence the food noise in your head",
       "date": "2025-09-16",
@@ -82,6 +91,15 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250915202846.htm"
     },
     {
+      "slug": "new-drug-could-be-first-to-stop-deadly-fatty-liver-disease-2025-09-16",
+      "title": "New drug could be first to stop deadly fatty liver disease",
+      "date": "2025-09-16",
+      "cover": "https://www.sciencedaily.com/images/1920/human-liver-organ-damage.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-drug-could-be-first-to-stop-deadly-fatty-liver-disease-2025-09-16/",
+      "excerpt": "Researchers at University of California San Diego School of Medicine have identified a new investigational drug that shows promise in treating metabolic dysfunction-associated steatohepatitis (MASH), a serious form of fatty liver disease linked to obesity and type 2 diabetes t…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202836.htm"
+    },
+    {
       "slug": "eating-mediterranean-could-be-the-secret-to-healthy-gums-2025-09-16",
       "title": "Eating Mediterranean could be the secret to healthy gums",
       "date": "2025-09-16",
@@ -89,13 +107,40 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/eating-mediterranean-could-be-the-secret-to-healthy-gums-2025-09-16/",
       "excerpt": "People living in the UK and following a diet close to the Mediterranean diet are more likely to have better gum health, with potentially lower amounts of gum disease and inflammation.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250915202841.htm"
+    },
+    {
+      "slug": "scientists-test-an-anti-aging-cream-that-actually-works-2025-09-15",
+      "title": "Scientists test an anti-aging cream that actually works",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/happy-woman-face-skin-cream.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-test-an-anti-aging-cream-that-actually-works-2025-09-15/",
+      "excerpt": "Against the backdrop of high market demand for effective anti-ageing cosmetics, a team of Chinese researchers assessed the clinical effectiveness of a 0.1 % pterostilbene-containing skincare emulsion against a control emulsion over 28 days with 31 participants.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205851.htm"
+    },
+    {
+      "slug": "millions-have-diabetes-without-knowing-it-2025-09-15",
+      "title": "Millions have diabetes without knowing it",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/diabetes-test-blood-drop-finger.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/millions-have-diabetes-without-knowing-it-2025-09-15/",
+      "excerpt": "A large portion of the global population with diabetes remains undiagnosed or is not receiving optimal care, according to a new study published in The Lancet Diabetes & Endocrinology . The Institute for Health Metrics and Evaluation (IHME) at the University of Washington Schoo…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205845.htm"
+    },
+    {
+      "slug": "guava-s-secret-molecule-could-fight-liver-cancer-2025-09-15",
+      "title": "Guava’s secret molecule could fight liver cancer",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/fresh-ripe-guava.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/guava-s-secret-molecule-could-fight-liver-cancer-2025-09-15/",
+      "excerpt": "You may not be aware that most of the medicines that have been approved for treatment are rooted in nature.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205840.htm"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

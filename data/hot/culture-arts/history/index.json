@@ -37,6 +37,24 @@
       "source": "https://allthatsinteresting.com/villa-regia-vistula-river"
     },
     {
+      "slug": "the-rise-and-fall-of-the-kennedy-family-in-44-colorized-photos-2025-09-16",
+      "title": "The Rise And Fall Of The Kennedy Family In 44 Colorized Photos",
+      "date": "2025-09-16",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/jfk-and-jacqueline-kennedy-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-rise-and-fall-of-the-kennedy-family-in-44-colorized-photos-2025-09-16/",
+      "excerpt": "For much of the 20th century, one family name seemed synonymous with American politics, public service, and — tragically — loss: Kennedy.",
+      "source": "https://allthatsinteresting.com/kennedy-family-colorized-photos"
+    },
+    {
+      "slug": "smoke-dried-human-remains-uncovered-in-southeast-asia-may-be-the-world-s-oldest-known-mummies-2025-09-16",
+      "title": "Smoke-Dried Human Remains Uncovered In Southeast Asia May Be The World’s Oldest Known Mummies",
+      "date": "2025-09-16",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/featured-prehistoric-mummies-uncovered-in-asia.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/smoke-dried-human-remains-uncovered-in-southeast-asia-may-be-the-world-s-oldest-known-mummies-2025-09-16/",
+      "excerpt": "Proceedings of the National Academy of Sciences An example of one of the newly-studied smoke-dried mummies, this one found in Guangxi, China.",
+      "source": "https://allthatsinteresting.com/southeast-asia-prehistoric-mummies"
+    },
+    {
       "slug": "inside-the-controversial-life-of-john-phillips-the-singer-songwriter-behind-the-mamas-the-papas-2025-09-16",
       "title": "Inside The Controversial Life Of John Phillips, The Singer-Songwriter Behind The Mamas & The Papas",
       "date": "2025-09-16",
@@ -44,12 +62,39 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-the-controversial-life-of-john-phillips-the-singer-songwriter-behind-the-mamas-the-papas-2025-09-16/",
       "excerpt": "Trinity Mirror/Mirrorpix/Alamy Stock PhotoJohn Phillips of the Mamas & the Papas outside of his Bel Air home in 1969.",
       "source": "https://allthatsinteresting.com/john-phillips"
+    },
+    {
+      "slug": "iberian-harvester-ant-queens-can-give-birth-to-a-different-ant-species-to-breed-hybrid-ants-that-they-use-as-workers-2025-09-16",
+      "title": "Iberian Harvester Ant Queens Can Give Birth To A Different Ant Species — To Breed Hybrid Ants That They Use As Workers",
+      "date": "2025-09-16",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/harvester-and-messor-ants-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/iberian-harvester-ant-queens-can-give-birth-to-a-different-ant-species-to-breed-hybrid-ants-that-they-use-as-workers-2025-09-16/",
+      "excerpt": "Jonathan RomiguierIberian harvester ant queens can produce eggs that develop into two different species.",
+      "source": "https://allthatsinteresting.com/iberian-harvester-ant-reproduction"
+    },
+    {
+      "slug": "california-man-finds-a-long-lost-logbook-from-the-pearl-harbor-attacks-sitting-in-a-box-of-books-2025-09-16",
+      "title": "California Man Finds A Long-Lost Logbook From The Pearl Harbor Attacks Sitting In A Box Of Books",
+      "date": "2025-09-16",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/pearl-harbor-logbook-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/california-man-finds-a-long-lost-logbook-from-the-pearl-harbor-attacks-sitting-in-a-box-of-books-2025-09-16/",
+      "excerpt": "National ArchivesPages from the logbook detailing the attack on Pearl Harbor.",
+      "source": "https://allthatsinteresting.com/pearl-harbor-attack-logbook"
+    },
+    {
+      "slug": "archaeologists-just-found-a-complete-copy-of-the-famous-canopus-decree-that-helped-scholars-decipher-egyptian-hieroglyphics-2025-09-15",
+      "title": "Archaeologists Just Found A Complete Copy Of The Famous Canopus Decree That Helped Scholars Decipher Egyptian Hieroglyphics",
+      "date": "2025-09-15",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/new-canopus-decree-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-just-found-a-complete-copy-of-the-famous-canopus-decree-that-helped-scholars-decipher-egyptian-hieroglyphics-2025-09-15/",
+      "excerpt": "Egyptian Ministry of Tourism and AntiquitiesThe newly found Canopus Decree, which, unlike other versions, is written entirely in hieroglyphs.",
+      "source": "https://allthatsinteresting.com/egypt-tell-el-farain-canopus-decree"
     }
   ],
-  "count": 5,
+  "count": 10,
   "updated_at": "2025-09-17",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

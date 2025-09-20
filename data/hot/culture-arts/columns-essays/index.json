@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "table-of-contents-2025-09-20",
+      "title": "Table of contents",
+      "date": "2025-09-20",
+      "cover": "https://www.lrb.co.uk/storage/social_image_on_bg/images/1/0/5/8/30798501-1-eng-GB/a893943e387e-6f0a8dfb94b0a9c3496e4adbdebf4be0.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/table-of-contents-2025-09-20/",
+      "excerpt": "Browse other issues from this year",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n17"
+    },
+    {
       "slug": "sheila-fitzpatrick-diary-2025-09-20",
       "title": "Sheila Fitzpatrick: Diary",
       "date": "2025-09-20",
@@ -55,6 +64,15 @@
       "source": "https://www.nplusonemag.com/issue-51/fiction-drama/unfit/"
     },
     {
+      "slug": "two-days-talking-to-people-looking-for-jobs-at-ice-2025-09-10",
+      "title": "Two Days Talking to People Looking for Jobs at ICE",
+      "date": "2025-09-10",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/09/I51_Varoufuckice_Herr.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/two-days-talking-to-people-looking-for-jobs-at-ice-2025-09-10/",
+      "excerpt": "For two days in June, I attended a Department of Homeland Security job fair at the Dulles Expo Center in Chantilly, Virginia. I learned about the event while browsing the DHS website in order to find the phone number of someone who’d been detained by Immigration and Customs En…",
+      "source": "https://www.nplusonemag.com/issue-51/politics/yanis-two-days-talking-to-people-looking-for-jobs-at-ice-2/"
+    },
+    {
       "slug": "stupidology-2025-09-10",
       "title": "Stupidology",
       "date": "2025-09-10",
@@ -73,6 +91,15 @@
       "source": "https://www.nplusonemag.com/issue-51/the-intellectual-situation/large-language-muddle/"
     },
     {
+      "slug": "introduction-three-pieces-on-ice-2025-09-10",
+      "title": "Introduction: Three Pieces on ICE",
+      "date": "2025-09-10",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Issue-51_images2-scaled.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/introduction-three-pieces-on-ice-2025-09-10/",
+      "excerpt": "The hardening authoritarianism of the second Trump Administration has many faces, but the most chilling is one that can hardly be seen at all. Images of Immigration and Customs Enforcement (ICE) agents in balaclavas, descending on migrant workers, pro-Palestine protesters, and…",
+      "source": "https://www.nplusonemag.com/issue-51/politics/introduction-three-pieces-on-ice/"
+    },
+    {
       "slug": "ice-in-harlan-county-2025-09-10",
       "title": "ICE in Harlan County",
       "date": "2025-09-10",
@@ -89,13 +116,40 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/evasive-species-2025-09-10/",
       "excerpt": "Say there are two poetic traditions, which regard each other with a mixture of boredom, fear, and contempt. The first descends from the confessionalists of midcentury America: Robert Lowell, Sylvia Plath, Anne Sexton. It can convey, or assume, a progressive social agenda — exe…",
       "source": "https://www.nplusonemag.com/issue-51/reviews/evasive-species/"
+    },
+    {
+      "slug": "injury-to-buildings-and-vegetables-2025-09-04",
+      "title": "Injury to Buildings and Vegetables",
+      "date": "2025-09-04",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/09/Carnegie_Steel_Works_postcard_-_DPLA_-_34000630efe63f6dcc0aab48291d1908.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/injury-to-buildings-and-vegetables-2025-09-04/",
+      "excerpt": "After Milton Friedman published a 1975 compilation of writings titled There’s No Such Thing as a Free Lunch , the phrase (lifted from Robert Heinlein’s sci-fi novel about a lunar penal colony) became something of a libertarian shibboleth. For Friedman, the “free lunch myth” wa…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/injury-to-buildings-and-vegetables/"
+    },
+    {
+      "slug": "abolition-after-katrina-2025-09-03",
+      "title": "Abolition After Katrina",
+      "date": "2025-09-03",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/09/53964527571_2008e356ca_o-1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/abolition-after-katrina-2025-09-03/",
+      "excerpt": "David Stein: Can you give a brief overview of the narrative of Prison Capital ?",
+      "source": "https://www.nplusonemag.com/online-only/online-only/abolition-after-katrina/"
+    },
+    {
+      "slug": "god-dog-2025-09-02",
+      "title": "God Dog",
+      "date": "2025-09-02",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/09/c32fef63-4ec1-43d1-b442-bb514e119b22_2414.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/god-dog-2025-09-02/",
+      "excerpt": "“You’re not going to like this, but this bitch is gonna blow, ” said the man, looking downward.",
+      "source": "https://www.nplusonemag.com/online-only/online-only/god-dog/"
     }
   ],
-  "count": 10,
+  "count": 16,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 16,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }
