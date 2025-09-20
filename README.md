@@ -44,7 +44,10 @@ Run Eleventy directly with `npx` or by using the npm script:
 npx eleventy        # or: npm run build
 ```
 
-This generates the static site inside the `_site/` directory.
+This generates the static site inside the `_site/` directory. The default
+`npm run build` command runs Eleventy and then compresses every `.html` and
+`.json` output (including the archive/search trees) into `.gz` siblings so that
+the CDN can serve precompressed responses.
 
 ## Running the autopost scripts
 
@@ -123,4 +126,35 @@ base URL:
 
 If none of those are set, the build falls back to auto-detecting GitHub Pages
 deployments via `GITHUB_REPOSITORY`, otherwise the site is rendered for the
-root path (`/`)
+root path (`/`).
+
+## Serving precompressed assets
+
+Because the build step writes `.gz` files next to every HTML and JSON asset,
+your host needs to advertise them correctly:
+
+- The CDN must deliver the `.gz` variant when the client sends
+  `Accept-Encoding: gzip`.
+- The response should include `Cache-Control: public, max-age=31536000, immutable`
+  for those long-lived archive/search pages.
+
+Netlify already understands precompressed siblings. To attach the immutable
+cache header, the repository's `netlify.toml` enables it for the dated archive
+and search payloads:
+
+```toml
+[[headers]]
+  for = "/archive/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/search/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+```
+
+If you host elsewhere, configure the equivalent behaviour (for example, enable
+`gzip_static` in Nginx or `mod_deflate`/`mod_headers` in Apache) so requests to
+`archive/` or `search/` automatically serve the `.gz` payloads with the same
+cache policy.
