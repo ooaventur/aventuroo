@@ -1,48 +1,47 @@
-
 # === TRAVEL / GENERAL ===
-TRAVEL|3General|https://www.cntraveler.com/feed/rss
+Travel|General|https://www.cntraveler.com/feed/rss
 
 # === TRIP IDEAS ===
-TRAVEL|11Trip Ideas|https://www.intrepidtravel.com/adventures/feed/
-TRAVEL|13Trip Ideas|https://www.atlasobscura.com/feeds/latest
-TRAVEL|14Trip Ideas|https://www.adventure.com/feed/
-TRAVEL|15Trip Ideas|https://www.nomadicmatt.com/feed/
-TRAVEL|16Trip Ideas|https://www.tourradar.com/days-to-come/feed
-TRAVEL|20Trip Ideas|https://www.outsideonline.com/feed/
+Travel|Trip Ideas|https://www.intrepidtravel.com/adventures/feed/
+Travel|Trip Ideas|https://www.atlasobscura.com/feeds/latest
+Travel|Trip Ideas|https://www.adventure.com/feed/
+Travel|Trip Ideas|https://www.nomadicmatt.com/feed/
+Travel|Trip Ideas|https://www.tourradar.com/days-to-come/feed
+Travel|Trip Ideas|https://www.outsideonline.com/feed/
 
 # === DESTINATIONS ===
-TRAVEL|24Destinations|https://www.telegraph.co.uk/travel/rss.xml
-TRAVEL|26Destinations|https://admin.travelpulse.com/Content/rss/default.ashx?ptgpk=58561577&requrl=%2frss%2fnews.rss&preview=1
-TRAVEL|28Destinations|https://matadornetwork.com/feed/
+Travel|Destinations|https://www.telegraph.co.uk/travel/rss.xml
+Travel|Destinations|https://admin.travelpulse.com/Content/rss/default.ashx?ptgpk=58561577&requrl=%2frss%2fnews.rss&preview=1
+Travel|Destinations|https://matadornetwork.com/feed/
 
 # === TIPS & PLANNING ===
-TRAVEL|31Tips & Planning|https://www.smartertravel.com/feed/
-TRAVEL|32Tips & Planning|https://www.thepointsguy.com/feed/
-TRAVEL|33Tips & Planning|https://upgradedpoints.com/feed/
-TRAVEL|37Tips & Planning|https://www.traveloffpath.com/feed/
-TRAVEL|39Tips & Planning|https://boardingarea.com/feed/
+Travel|Tips & Planning|https://www.smartertravel.com/feed/
+Travel|Tips & Planning|https://www.thepointsguy.com/feed/
+Travel|Tips & Planning|https://upgradedpoints.com/feed/
+Travel|Tips & Planning|https://www.traveloffpath.com/feed/
+Travel|Tips & Planning|https://boardingarea.com/feed/
 
 # === STAYS (HOTELS) ===
-TRAVEL|43Stays (Hotels)|https://www.hotelmanagement.net/rss.xml
-TRAVEL|46Stays (Hotels)|https://boutiquehotelnews.com/feed/
-TRAVEL|47Stays (Hotels)|https://www.oyster.com/rss/
+Travel|Stays (Hotels)|https://www.hotelmanagement.net/rss.xml
+Travel|Stays (Hotels)|https://boutiquehotelnews.com/feed/
+Travel|Stays (Hotels)|https://www.oyster.com/rss/
 
 # === EXPERIENCES ===
-TRAVEL|54Experiences|https://www.intrepidtravel.com/adventures/feed/
-TRAVEL|55Experiences|https://www.atlasobscura.com/feeds/latest
-TRAVEL|57Experiences|https://www.tourradar.com/days-to-come/feed
-TRAVEL|59Experiences|https://www.adventure.com/feed/
-TRAVEL|60Experiences|https://matadornetwork.com/feed/
+Travel|Experiences|https://www.intrepidtravel.com/adventures/feed/
+Travel|Experiences|https://www.atlasobscura.com/feeds/latest
+Travel|Experiences|https://www.tourradar.com/days-to-come/feed
+Travel|Experiences|https://www.adventure.com/feed/
+Travel|Experiences|https://matadornetwork.com/feed/
 
 # === TRANSPORT ===
-TRAVEL|62Transport|https://simpleflying.com/feed/
-TRAVEL|64Transport|https://www.cruiseindustrynews.com/feed
-TRAVEL|66Transport|https://www.railjournal.com/feed/
-TRAVEL|67Transport|https://www.airlineweekly.com/feed/
-TRAVEL|70Transport|https://www.flyingmag.com/feed/
+Travel|Transport|https://simpleflying.com/feed/
+Travel|Transport|https://www.cruiseindustrynews.com/feed
+Travel|Transport|https://www.railjournal.com/feed/
+Travel|Transport|https://www.airlineweekly.com/feed/
+Travel|Transport|https://www.flyingmag.com/feed/
 
 # === THINGS TO DO ===
-TRAVEL|71Things To Do|https://www.atlasobscura.com/feeds/latest
-TRAVEL|78Things To Do|https://matadornetwork.com/feed/
-TRAVEL|79Things To Do|https://www.fodors.com/feed
-TRAVEL|80Things To Do|https://www.cntraveler.com/feed/rss
+Travel|Things To Do|https://www.atlasobscura.com/feeds/latest
+Travel|Things To Do|https://matadornetwork.com/feed/
+Travel|Things To Do|https://www.fodors.com/feed
+Travel|Things To Do|https://www.cntraveler.com/feed/rss

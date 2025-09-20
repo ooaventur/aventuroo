@@ -65,6 +65,17 @@
     { "slug": "marketplaces", "title": "Marketplaces", "group": "shopping" },
     { "slug": "multi-merchant", "title": "Multi-merchant Networks", "group": "shopping" },
 
+    { "slug": "general", "title": "General", "group": [
+      "news",
+      "business-finance",
+      "travel",
+      "culture-arts",
+      "food-drink",
+      "entertainment",
+      "tech-ai",
+      "crypto",
+      "lifestyle"
+    ] },
 
     { "slug": "guides", "title": "Guides", "group": ["crypto", "food-drink"] }
   ]
