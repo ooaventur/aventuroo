@@ -1,0 +1,203 @@
+name: Content refresh pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+    - cron: "30 1,4,7,10,13,16,19,22 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    name: Ingest feeds (${{ matrix.autoposter.name }})
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        autoposter:
+          - name: News
+            script: autopost/pull_news.py
+            feed_file: autopost/feeds_news.txt
+            category: News
+            max_per_cat: "10"
+            commit_message: "autopost(news): refresh hot shards"
+          - name: Crypto
+            script: autopost/pull_crypto.py
+            feed_file: autopost/feeds_crypto.txt
+            category: Crypto
+            max_per_cat: "5"
+            commit_message: "autopost(crypto): refresh hot shards"
+          - name: Culture & Arts
+            script: autopost/pull_cultute_arts.py
+            feed_file: autopost/feeds_cultute_arts.txt
+            category: "Culture & Arts"
+            max_per_cat: "10"
+            commit_message: "autopost(culture-arts): refresh hot shards"
+          - name: Entertainment
+            script: autopost/pull_entertainment.py
+            feed_file: autopost/feeds_entertainment.txt
+            category: Entertainment
+            max_per_cat: "10"
+            commit_message: "autopost(entertainment): refresh hot shards"
+          - name: Food & Drink
+            script: autopost/pull_food_drink.py
+            feed_file: autopost/feeds_food_drink.txt
+            category: "Food & Drink"
+            max_per_cat: "10"
+            commit_message: "autopost(food-drink): refresh hot shards"
+          - name: Lifestyle
+            script: autopost/pull_lifestyle.py
+            feed_file: autopost/feeds_lifestyle.txt
+            category: Lifestyle
+            max_per_cat: "10"
+            commit_message: "autopost(lifestyle): refresh hot shards"
+          - name: Tech & AI
+            script: autopost/pull_tech_ai.py
+            feed_file: autopost/feeds_tech_ai.txt
+            category: "Tech & AI"
+            max_per_cat: "10"
+            commit_message: "autopost(tech-ai): refresh hot shards"
+          - name: Travel
+            script: autopost/pull_travel.py
+            feed_file: autopost/feeds_travel.txt
+            category: Travel
+            max_per_cat: "10"
+            commit_message: "autopost(travel): refresh hot shards"
+    env:
+      SUMMARY_WORDS: "900"
+      TARGET_WORDS: "900"
+      MAX_PER_CAT: "10"
+      HTTP_TIMEOUT: "18"
+      AP_USER_AGENT: "Mozilla/5.0 (AventurOO Autoposter)"
+      FALLBACK_COVER: "assets/img/cover-fallback.jpg"
+      IMG_TARGET_WIDTH: "1600"
+      HOT_MAX_ITEMS: ${{ vars.HOT_MAX_ITEMS || '360' }}
+      HOT_PAGINATION_SIZE: ${{ vars.HOT_PAGINATION_SIZE || '18' }}
+      IMG_PROXY: ${{ secrets.IMG_PROXY_BASE_URL || vars.IMG_PROXY_BASE_URL || 'https://images.weserv.nl/?url=' }}
+      FORCE_PROXY: ${{ vars.FORCE_PROXY || '1' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install trafilatura readability-lxml lxml certifi
+
+      - name: Prepare workspace
+        run: |
+          mkdir -p autopost data
+          [ -s autopost/seen_all.json ] || echo "{}" > autopost/seen_all.json
+
+      - name: Ingest ${{ matrix.autoposter.name }} feeds
+        env:
+          FEEDS_FILE: ${{ matrix.autoposter.feed_file }}
+          CATEGORY: ${{ matrix.autoposter.category }}
+          MAX_PER_CAT: ${{ matrix.autoposter.max_per_cat }}
+        run: python3 ${{ matrix.autoposter.script }}
+
+      - name: Commit & push (${{ matrix.autoposter.name }})
+        shell: bash
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add autopost data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "${{ matrix.autoposter.commit_message }}"
+            git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
+            git push
+          fi
+
+  rotate:
+    name: Rotate & compress shards
+    needs: ingest
+    runs-on: ubuntu-latest
+    env:
+      HOT_RETENTION_DAYS: ${{ vars.HOT_RETENTION_DAYS || '45' }}
+      HOT_PAGINATION_SIZE: ${{ vars.HOT_PAGINATION_SIZE || '18' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Rotate hot shards into archive
+        run: python scripts/rotate_hot_to_archive.py
+
+      - name: Commit rotation output
+        shell: bash
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data scripts/rotate_hot_to_archive.py
+          if git diff --cached --quiet; then
+            echo "No rotation changes."
+          else
+            git commit -m "chore: rotate hot archive"
+            git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
+            git push
+          fi
+
+  build:
+    name: Build & publish Eleventy site
+    needs: rotate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Eleventy site
+        run: npm run build
+
+      - name: Upload hot shard bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: hot-shards
+          path: data/hot
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload archive bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-indexes
+          path: data/archive
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Upload Eleventy site bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: eleventy-site
+          path: _site
+          if-no-files-found: warn
+          retention-days: 7
