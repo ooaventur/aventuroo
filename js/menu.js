@@ -16,10 +16,10 @@
     var ctn = $('#menu-list');
     var srcAttr = ctn ? ctn.getAttribute('data-menu-src') : null;
     var list = [];
-    if (srcAttr) list.push(srcAttr);␊
-    list.push('data/menu.json', '/data/menu.json');␊
+    if (srcAttr) list.push(srcAttr);
+    list.push('data/menu.json', '/data/menu.json');
     return basePath.resolveAll ? basePath.resolveAll(list) : list;
-  }␊
+  }
 
   function fetchSequential(urls) {
     return new Promise(function(resolve, reject){
@@ -78,7 +78,7 @@
         var ul = el('ul', 'vertical-menu');
         col.links.forEach(function (lnk) {
           var li = document.createElement('li');
-          li.appendChild(buildLink({ title: lnk.title, href: lnk.href || '#', target: lnk.target }));␊
+          li.appendChild(buildLink({ title: lnk.title, href: lnk.href || '#', target: lnk.target }));
           ul.appendChild(li);
         });
         c.appendChild(ul);
@@ -126,9 +126,9 @@
     var liTitle = el('li', 'for-tablet nav-title');
     liTitle.appendChild(el('a', null, cfg.title || 'Menu'));
     var liLogin = el('li', 'for-tablet');
-    liLogin.appendChild(buildLink({ title: 'Login', href: cfg.loginHref || 'login.html' }));␊
-    var liRegister = el('li', 'for-tablet');␊
-    liRegister.appendChild(buildLink({ title: 'Register', href: cfg.registerHref || 'register.html' }));␊
+    liLogin.appendChild(buildLink({ title: 'Login', href: cfg.loginHref || 'login.html' }));
+    var liRegister = el('li', 'for-tablet');
+    liRegister.appendChild(buildLink({ title: 'Register', href: cfg.registerHref || 'register.html' }));
     root.appendChild(liTitle);
     root.appendChild(liLogin);
     root.appendChild(liRegister);
@@ -187,10 +187,10 @@
       .then(renderMenu)
       .catch(function (err) {
         console.error('Menu load error:', err);
-        renderMenu({␊
-          tabletHeader: { show: true },␊
+        renderMenu({
+          tabletHeader: { show: true },
           items: [{ title: 'Home', href: basePath.resolve ? basePath.resolve('/') : 'index.html' }]
-        });␊
-      });␊
-  });␊
-})();␊
+        });
+      });
+  });
+})();
