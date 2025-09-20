@@ -2462,5 +2462,495 @@
     "category": "food-drink/food-drink",
     "subcategory": "Food & Drink",
     "created": "2025-09-18"
+  },
+  "63e8bbee022c71d6030aa858424ce8fc79479ccf": {
+    "title": "xAI launches Grok-4-Fast: Unified Reasoning and Non-Reasoning Model with 2M-Token Context and Trained End-to-End with Tool-Use Reinforcement Learning (RL)",
+    "url": "https://www.marktechpost.com/2025/09/20/xai-launches-grok-4-fast-unified-reasoning-and-non-reasoning-model-with-2m-token-context-and-trained-end-to-end-with-tool-use-reinforcement-learning-rl/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-20"
+  },
+  "2b8b041ee8e0e99862cd75bde3d4780bc7e70e53": {
+    "title": "Xiaomi Released MiMo-Audio, a 7B Speech Language Model Trained on 100M+ Hours with High-Fidelity Discrete Tokens",
+    "url": "https://www.marktechpost.com/2025/09/20/xiaomi-released-mimo-audio-a-7b-speech-language-model-trained-on-100m-hours-with-high-fidelity-discrete-tokens/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-20"
+  },
+  "858cd41cf4475a9cea26eda743a1dd0f23c879af": {
+    "title": "Run MATLAB-Style Code Inside Python by Connecting Octave with the oct2py Library",
+    "url": "https://www.marktechpost.com/2025/09/20/run-matlab-style-code-inside-python-by-connecting-octave-with-the-oct2py-library/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-20"
+  },
+  "63e57b6bfb17b11431891e138316313b655604c1": {
+    "title": "Google’s Sensible Agent Reframes Augmented Reality (AR) Assistance as a Coupled “what+how” Decision—So What does that Change?",
+    "url": "https://www.marktechpost.com/2025/09/19/googles-sensible-agent-reframes-augmented-reality-ar-assistance-as-a-coupled-whathow-decision-so-what-does-that-change/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "857d6e19460353ec50c876d2cdb4b3cc0ead3774": {
+    "title": "Top Computer Vision CV Blogs & News Websites (2025)",
+    "url": "https://www.marktechpost.com/2025/09/19/top-computer-vision-cv-blogs-news-websites-2025/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "decdae3d6a2ca5453de532d1f6b82b24231e986e": {
+    "title": "Qwen3-ASR-Toolkit: An Advanced Open Source Python Command-Line Toolkit for Using the Qwen-ASR API Beyond the 3 Minutes/10 MB Limit",
+    "url": "https://www.marktechpost.com/2025/09/19/qwen3-asr-toolkit-an-advanced-open-source-python-command-line-toolkit-for-using-the-qwen-asr-api-beyond-the-3-minutes-10-mb-limit/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "8b71a1bd667d4f057c8becaf53a571237b387cc8": {
+    "title": "Physical AI: Bridging Robotics, Material Science, and Artificial Intelligence for Next-Gen Embodied Systems",
+    "url": "https://www.marktechpost.com/2025/09/18/physical-ai-bridging-robotics-material-science-and-artificial-intelligence-for-next-gen-embodied-systems/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "56842360ea9135d65adc1d6b894264883598aaf4": {
+    "title": "Building AI agents is 5% AI and 100% software engineering",
+    "url": "https://www.marktechpost.com/2025/09/18/building-ai-agents-is-5-ai-and-100-software-engineering/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "6e11ff8d2908031c65065f6232658c488d787faa": {
+    "title": "MIT’s LEGO: A Compiler for AI Chips that Auto-Generates Fast, Efficient Spatial Accelerators",
+    "url": "https://www.marktechpost.com/2025/09/18/mits-lego-a-compiler-for-ai-chips-that-auto-generates-fast-efficient-spatial-accelerators/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-19"
+  },
+  "dfc10397bc4cf7fe3ea48c3c1a81226a79acc273": {
+    "title": "Bringing AI Agents Into Any UI: The AG-UI Protocol for Real-Time, Structured Agent–Frontend Streams",
+    "url": "https://www.marktechpost.com/2025/09/18/bringing-ai-agents-into-any-ui-the-ag-ui-protocol-for-real-time-structured-agent-frontend-streams/",
+    "category": "tech-ai/ai-news",
+    "subcategory": "AI News",
+    "created": "2025-09-18"
+  },
+  "8a4b5b8d6bafc0ba9d92a63d2294593327c7f251": {
+    "title": "Hands-on with the Meta Ray-Ban Display glasses",
+    "url": "https://www.cnbc.com/2025/09/20/hands-on-with-the-meta-ray-ban-display-glasses.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-20"
+  },
+  "946a9beb3301400a4aa1e3f6ac04d1ec35489305": {
+    "title": "Business travel and expense startup Navan files for initial public offering in booming deal market",
+    "url": "https://www.cnbc.com/2025/09/19/navan-files-for-ipo-public-offering.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-20"
+  },
+  "f7a1a48dd84ebe1a1879a9ffcd7c9581d5639233": {
+    "title": "Microsoft raises Xbox prices in U.S. due to economic environment",
+    "url": "https://www.cnbc.com/2025/09/19/microsoft-xbox-prices-tariffs-macroeconomic-conditions.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "f836953f6eb0983b22501a94d078a6188ca29968": {
+    "title": "StubHub's stock plunges 10% in third day on NYSE as post-IPO slump deepens",
+    "url": "https://www.cnbc.com/2025/09/19/stubhub-shares-stumble-for-third-day-as-post-ipo-slump-deepens.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "68e5dba46204f1f4a5ce8dd3d1d5a0cad69628e1": {
+    "title": "Elon Musk's xAI raising $10 billion at $200 billion valuation: sources",
+    "url": "https://www.cnbc.com/2025/09/19/musks-xai-10-billion-at-200-billion-valuation.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "333c44555f250f5353c7c4bbe1550b6a2cf6a309": {
+    "title": "Top Amazon reseller Pattern opens at $13.50 in Nasdaq debut after IPO raised $300 million",
+    "url": "https://www.cnbc.com/2025/09/19/amazon-reseller-pattern-debuts-on-nasdaq-after-ipo-raised-300-million.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "51c61a909c0291e342111214231e7b2516c2e594": {
+    "title": "Apple CEO Tim Cook says iPhone price hikes are not tied to tariffs",
+    "url": "https://www.cnbc.com/2025/09/19/apple-ceo-tim-cook-iphone-price-increase-tariffs.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "0e9aacaed58fef81c224eebb0621bf1f6693e8de": {
+    "title": "iPhone 17 goes on sale globally as Apple faces China rivals and AI doubts",
+    "url": "https://www.cnbc.com/2025/09/19/apple-iphone-17-launch-sale-globally-china-market-and-ai-strategy.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-19"
+  },
+  "f2589c1ad77dac586318d98bf8822135ac7fb864": {
+    "title": "Nvidia just spent over $900 million to hire Enfabrica CEO, license AI startup's technology",
+    "url": "https://www.cnbc.com/2025/09/18/nvidia-spent-over-900-million-on-enfabrica-ceo-ai-startup-technology.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-18"
+  },
+  "637478cfea3aa6d5bd5e23bb5945586a900c9432": {
+    "title": "CrowdStrike pops nearly 13% on upbeat long-term guidance at investor day",
+    "url": "https://www.cnbc.com/2025/09/18/crowdstrike-investor-day-stock.html",
+    "category": "tech-ai/big-tech",
+    "subcategory": "Big Tech",
+    "created": "2025-09-18"
+  },
+  "7c303bd3fdde4a1e2efc513dc5e0083c05510341": {
+    "title": "Patch Now: Max-Severity Fortra GoAnywhere Bug Allows Command Injection",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/patch-fortra-goanywhere-bug-command-injection",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "89d0726ff43f505441ce9358948719ca781be255": {
+    "title": "Capture the Flag Competition Leads to Cybersecurity Career",
+    "url": "https://www.darkreading.com/cybersecurity-careers/capture-the-flag-leads-cybersecurity-careers",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "b57ec6cd950a769b9820b0ddd4e4205649d25b67": {
+    "title": "'ShadowLeak' ChatGPT Attack Allows Hackers to Invisibly Steal Emails",
+    "url": "https://www.darkreading.com/vulnerabilities-threats/shadowleak-chatgpt-invisibly-steal-emails",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "2c12c25998dee39c9d6eef4ade4c3d96f2ddd33e": {
+    "title": "Plastic People, Plastic Cards: Synthetic Identities Plague Finance &amp; Lending Sector",
+    "url": "https://www.darkreading.com/cybersecurity-operations/synthetic-identities-finance-lending-sector",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "74795cb72a8362d5efb17f7a8405ad7fe4108857": {
+    "title": "Transforming Cyber Frameworks to Take Control of Cyber-Risk",
+    "url": "https://www.darkreading.com/cyber-risk/transforming-cyber-frameworks-cyber-risk",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "9541b79596dfae84b6f7a4eaf9a0346cb0bc5485": {
+    "title": "Iranian State APT Blitzes Telcos &amp; Satellite Companies",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/iranian-state-apt-telcos-satellite-companies",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "ef7f0932d05ac8fca088b85ad17929c0b4b6665b": {
+    "title": "Critical Azure Entra ID Flaw Highlights Microsoft IAM Issues",
+    "url": "https://www.darkreading.com/cloud-security/critical-azure-entra-id-flaw-microsoft-iam-issues",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-19"
+  },
+  "8d9647544e51293f590c0d4ce414fd4a7868adf1": {
+    "title": "7 Lessons for Securing AI Transformation From Digital Guru Jennifer Ewbank",
+    "url": "https://www.darkreading.com/cyber-risk/7-lessons-securing-ai-transformation-former-cia-digital-guru",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-18"
+  },
+  "8bc46d046ceff11b1e53e2f2e1020fb81b4b886e": {
+    "title": "TikTok Deal Won't End Enterprise Risks",
+    "url": "https://www.darkreading.com/cyber-risk/tiktok-deal-enterprise-risks",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-18"
+  },
+  "18bc399a022afac0f815a53868cd714d7578e51a": {
+    "title": "SonicWall Breached, Firewall Backup Data Exposed",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/sonicwall-breached-firewall-backup",
+    "category": "tech-ai/security-privacy",
+    "subcategory": "Security & Privacy",
+    "created": "2025-09-18"
+  },
+  "de097fd5de0010f651a386fa0d4a8bf3c60df0b2": {
+    "title": "Three ways of thinking about the Kirk assassination",
+    "url": "https://www.platformer.news/thursday-newsletter-4/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-19"
+  },
+  "e1304d356df47c72ab455098ba8839e6c78d383e": {
+    "title": "OpenAI’s risky step to protect teens",
+    "url": "https://www.platformer.news/openai-teen-accounts-safety-senate-hearing/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-17"
+  },
+  "e59904eddc301adffc9376465f90d3dd69d6e232": {
+    "title": "There might be a TikTok deal",
+    "url": "https://www.platformer.news/tiktok-deal-bytedance-china-trump-bessent/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-16"
+  },
+  "ac5600f5cc009c7df1d0ee38a3e137ce3c72e4b4": {
+    "title": "Are Republicans changing their minds about AI safety?",
+    "url": "https://www.platformer.news/ftc-chatbots-child-safety/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-12"
+  },
+  "119429d7a128c1b738d7d1487d64467fd8022847": {
+    "title": "AI as Normal Technology, revisited",
+    "url": "https://www.platformer.news/ai-normal-technology-timelines-education/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-10"
+  },
+  "fd18c20db289823c080dfa130998153d6394ee1c": {
+    "title": "Google makes a gaffe",
+    "url": "https://www.platformer.news/google-open-web-decline-atlassian-browser-company/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-09-09"
+  },
+  "adac89d50e820ef6f0e2093e78014d2f38d3199f": {
+    "title": "Everything Mark Zuckerberg has gotten from Donald Trump so far",
+    "url": "https://www.platformer.news/trump-zuckerberg-meta-partnership-eu-dsa-ai-dma/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-08-29"
+  },
+  "410d9e4323f6cbe4cc3ce2484fbbb91b9eb74051": {
+    "title": "A ChatGPT tragedy is only the beginning",
+    "url": "https://www.platformer.news/chatgpt-suicide-lawsuit-openai-safety/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-08-27"
+  },
+  "7e86470f766c8adb307cbe49cfb00b501b6d92fc": {
+    "title": "Musk sues over Grok flop",
+    "url": "https://www.platformer.news/musk-sues-apple-openai-grok/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-08-26"
+  },
+  "efa140d7b945f3fbd084eff460ba1edc6909a742": {
+    "title": "What I learned about productivity this year",
+    "url": "https://www.platformer.news/productivity-tools-ai-2025/",
+    "category": "tech-ai/internet-platforms",
+    "subcategory": "Internet & Platforms",
+    "created": "2025-08-22"
+  },
+  "428289bf9be417ac0f3470e6d0c68d4b57f7f954": {
+    "title": "Pick up Apple's 25W MagSafe charger while it's down to only $35",
+    "url": "https://www.engadget.com/deals/pick-up-apples-25w-magsafe-charger-while-its-down-to-only-35-143415024.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-20"
+  },
+  "5440f9db1a923f78c4fe3957a40bba1f5a6e0800": {
+    "title": "New subscribers to Apple Music can get three free months of the Family Plan",
+    "url": "https://www.engadget.com/deals/new-subscribers-to-apple-music-can-get-three-free-months-of-the-family-plan-151240893.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-20"
+  },
+  "8839a906c9dcd8e62d05e11d11878f68f0604ebd": {
+    "title": "Patapon's spiritual successor, co-op Lego and other new indie games worth checking out",
+    "url": "https://www.engadget.com/gaming/patapons-spiritual-successor-co-op-lego-and-other-new-indie-games-worth-checking-out-110022924.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-20"
+  },
+  "a4fc524016d790c41f5a23db01452c6832d3af8c": {
+    "title": "Trump administration to impose a $100,000-per-year fee for H-1B visas",
+    "url": "https://www.engadget.com/big-tech/trump-administration-to-impose-a-100000-per-year-fee-for-h-1b-visas-041417692.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-20"
+  },
+  "f1a67412257ecfac772abc7004dce563caefa0cd": {
+    "title": "US and China agree to agree on a TikTok deal",
+    "url": "https://www.engadget.com/social-media/us-and-china-agree-to-agree-on-a-tiktok-deal-231254041.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "4a1c77135e6ccc6ead0c579bff9ee88d251ed064": {
+    "title": "Ready to download iOS 26? See if your iPhone is eligible for the free update first",
+    "url": "https://www.engadget.com/mobile/ready-to-download-ios-26-see-if-your-iphone-is-eligible-for-the-free-update-first-191854926.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "7f37ef4c0c93cca6dbd27bc7a4b10058b61d0c28": {
+    "title": "iOS 26 is ready to download: Everything to know about the free iPhone software update",
+    "url": "https://www.engadget.com/mobile/ios-26-is-ready-to-download-everything-to-know-about-the-free-iphone-software-update-135749287.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "0f8f61d6efc6f21c0512f9c9bb22fd805d158e54": {
+    "title": "Microsoft is making Xbox consoles even more expensive in the US",
+    "url": "https://www.engadget.com/gaming/xbox/microsoft-is-making-xbox-consoles-even-more-expensive-in-the-us-192443699.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "7e4bebf81e34513997345a0dd81f456538d3a188": {
+    "title": "Elon Musk's Neuralink plans a brain speech trial in October",
+    "url": "https://www.engadget.com/science/elon-musks-neuralink-plans-a-brain-speech-trial-in-october-194004627.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "773575c03cd64c38dca5b0059ed69fc858706742": {
+    "title": "The best live TV streaming services to cut cable in 2025",
+    "url": "https://www.engadget.com/entertainment/streaming/best-live-tv-streaming-service-133000410.html?src=rss",
+    "category": "tech-ai/innovation-gadgets",
+    "subcategory": "Innovation & Gadgets",
+    "created": "2025-09-19"
+  },
+  "c2cf3b2b6c94c4189e1c8ee06813c3b6278c5c70": {
+    "title": "Helldivers 2 ranks at No.4 on revenue charts for August 2025 following Xbox launch | Newzoo Charts",
+    "url": "https://www.gamesindustry.biz/helldivers-2-ranks-at-no4-on-revenue-charts-for-august-2025-following-xbox-launch-newzoo-charts",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "470100fcbb9623f01fea18e370fdbe3f3cc0abd4": {
+    "title": "The industry can’t afford to overlook low-spec PCs | Opinion",
+    "url": "https://www.gamesindustry.biz/the-industry-cant-afford-to-overlook-low-spec-pcs-opinion",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "c4db25ceed9d34f811e409052f9a475d4e408966": {
+    "title": "Hollow Knight: Silksong | Critical Consensus",
+    "url": "https://www.gamesindustry.biz/hollow-knight-silksong-critical-consensus",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "adafbb86e8327404475f55eaaceb0ea371614360": {
+    "title": "Discord, Twitch, Reddit, and Steam CEOs invited to testify at \"radicalization of online forum users\" hearing",
+    "url": "https://www.gamesindustry.biz/discord-twitch-reddit-and-steam-ceos-invited-to-testify-at-radicalization-of-online-forum-users-hearing",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "439136bd3933d9f7fed82b91fda43ca304500011": {
+    "title": "Valve to end Steam support for 32-bit versions of Windows 10 OS",
+    "url": "https://www.gamesindustry.biz/valve-to-end-steam-support-for-32-bit-versions-of-windows-10-os",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "a1d4c7356b2ad980b5b5b7337cbfe146251e54fb": {
+    "title": "Infinity Festival to celebrate Innovators in the Age this October",
+    "url": "https://www.gamesindustry.biz/infinity-festival-to-celebrate-innovators-in-the-age-this-october",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-19"
+  },
+  "d469dd5fa140f96971f7f60ed7bd10cf5aba4b86": {
+    "title": "Tencent accuses Sony of seeking a \"monopoly on genre conventions\" as it responds to Light of Motiram copyright lawsuit",
+    "url": "https://www.gamesindustry.biz/tencent-accuses-sony-of-seeking-an-monopoly-on-genre-conventions-as-it-responds-to-light-of-motiram-copyright-lawsuit",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-18"
+  },
+  "da73bcd19cfbc4554cd51295c73419fc333a3832": {
+    "title": "BAFTA shares $375,000 in grants to \"86 talented creatives\" to launch their careers in the UK and U.S.",
+    "url": "https://www.gamesindustry.biz/bafta-shares-375000-in-grants-to-86-talented-creatives-to-launch-their-careers-in-the-uk-and-us",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-18"
+  },
+  "9c7438a01fc44e69bd36c295a31299517dba678a": {
+    "title": "Behind the scenes at Tencent",
+    "url": "https://www.gamesindustry.biz/behind-the-scenes-at-tencent",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-18"
+  },
+  "1e50e71c2f7cae2b7b5ca616c70a450891b3b732": {
+    "title": "Salix Games and Liquid Crimson to host spooky tabletop RPG stream for SpecialEffect",
+    "url": "https://www.gamesindustry.biz/salix-games-and-liquid-crimson-to-host-spooky-tabletop-rpg-stream-for-specialeffect",
+    "category": "tech-ai/gaming-tech",
+    "subcategory": "Gaming Tech / AI Gaming",
+    "created": "2025-09-18"
+  },
+  "4b3849372aed5051d1eeede183e495b9ddb56c59": {
+    "title": "Rumour Has It: Adele for the Super Bowl in 2026?",
+    "url": "https://www.musicradar.com/artists/rumour-has-it-adele-for-the-super-bowl-in-2026",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-20"
+  },
+  "e9f763351529a977a5d81792bc0a6b22a258b0a6": {
+    "title": "“The creative endeavours of musicians is ultimately funding lethal, dystopian technologies. Enough is more than enough. Another way is possible”: Massive Attack exit Spotify in protest at Daniel Ek’s military AI investments",
+    "url": "https://www.musicradar.com/artists/the-creative-endeavours-of-musicians-is-ultimately-funding-lethal-dystopian-technologies-enough-is-more-than-enough-another-way-is-possible-massive-attack-exit-spotify-in-protest-at-daniel-eks-military-ai-investments",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-20"
+  },
+  "50cb83f9b6bde824fa3fc7fa700acf7ede2b1de7": {
+    "title": "“There were some people that were broken up after the first song or two in the rehearsal. It was intense”: Derek Trucks on how Tedeschi Trucks Band got Leon Russell to reunite the original Mad Dogs to celebrate Joe Cocker with an all-star set",
+    "url": "https://www.musicradar.com/artists/derek-trucks-tedesci-trucks-band-and-leon-russell-mad-dogs-and-englishmen-revisited-lockn",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-20"
+  },
+  "9f9fc6a464599f237b6d84b840cf402d08a18909": {
+    "title": "\"The SE Studio Standard not only looks amazing, but it also delivers an incredible playing experience that keeps you coming back for more\": PRS SE Studio Standard review",
+    "url": "https://www.musicradar.com/guitars/electric-guitars/prs-se-studio-standard-review",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "b792ac4d6bf313f97a42291a7ab5be5a57530e8d": {
+    "title": "“We just wanted someone to pay attention. We didn’t care why”: How Interpol sparked a fire in 2000s indie with the thrilling mania of Obstacle 1",
+    "url": "https://www.musicradar.com/artists/we-just-wanted-someone-to-pay-attention-we-didnt-care-why-how-interpol-sparked-a-fire-in-2000s-indie-with-the-thrilling-mania-of-obstacle-1",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "6521fa1fdc762081e81cd6977efa311def60c59d": {
+    "title": "“Thank you to Lindsey Buckingham and Mick Fleetwood for bringing magic to the music”: Miley Cyrus reunites two members of Fleetwood Mac on her new single having previously collaborated with Stevie Nicks",
+    "url": "https://www.musicradar.com/artists/thank-you-to-lindsey-buckingham-and-mick-fleetwood-for-bringing-magic-to-the-music-miley-cyrus-reunites-two-members-of-fleetwood-mac-on-her-new-single-having-previously-collaborated-with-stevie-nicks",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "d28e220d1508b88d5fb91e999e9719e9c974d74c": {
+    "title": "“Prince was always borrowing my car because it was awesome. I imagine he was making out in the back seat when he got the seed of the idea. But it's not a red Corvette – it's a pink Mercury!”: The inside story of Prince's first major hit",
+    "url": "https://www.musicradar.com/artists/prince-was-always-borrowing-my-car-because-it-was-awesome-i-imagine-he-was-making-out-in-the-back-seat-when-he-got-the-seed-of-the-idea-but-its-not-a-red-corvette-its-a-pink-mercury-the-inside-story-of-princes-first-major-hit",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "7081878181466a7045dda6f59db3e6bfe9c3ff1d": {
+    "title": "“We were at the peak of our confidence. It felt like there wasn’t anything we couldn’t do”: Queen’s A Night at the Opera and Bo Rhap to get 50th anniversary reissues in October",
+    "url": "https://www.musicradar.com/artists/singles-albums/we-were-at-the-peak-of-our-confidence-it-felt-like-there-wasnt-anything-we-couldnt-do-queens-a-night-at-the-opera-and-bo-rhap-to-get-fiftieth-anniversary-reissues-in-october",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "a9d5fcad38ecea4da7062414b5143a19f78be2a8": {
+    "title": "MusicRadar deals of the week: This week is all about guitars with hundreds slashed off Gibson, Gretsch, Martin, Taylor and more",
+    "url": "https://www.musicradar.com/music-tech/gear-gadgets/musicradar-deals-of-the-week-this-week-is-all-about-guitars-with-hundreds-slashed-off-gibson-gretsch-martin-taylor-and-more",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-19"
+  },
+  "42bdffaacdac06ab26df9bba4d7bd3576b1ce82a": {
+    "title": "Thomann's Guitar Days sale just hit up to 70% off with £474 off an Epiphone semi-hollow, £132 off a Death By Audio pedal, plus loads more massive savings",
+    "url": "https://www.musicradar.com/guitars/electric-guitars/thomann-guitar-days-sale",
+    "category": "tech-ai/audio-creator",
+    "subcategory": "Audio & Creator Tools",
+    "created": "2025-09-18"
   }
 }
