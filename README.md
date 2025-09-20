@@ -74,6 +74,31 @@ Environment variables recognised by the scripts include:
 All autopost runs reuse `autopost/seen_all.json` to avoid duplicates. Removing
 that file forces a full refresh.
 
+## Hot shard rotation
+
+Autopost runs populate high-frequency shards in `data/hot/<parent>/<child>/index.json`.
+The `scripts/rotate_hot_to_archive.py` utility keeps those directories trimmed
+and moves older entries into the long-term archive under
+`data/archive/<parent>/<child>/<yyyy>/<mm>/index.json`. Each rotation pass also
+refreshes lightweight manifests (`manifest.json` / `summary.json`) for both
+trees so Eleventy knows how many static pages to generate per section and per
+archive month.
+
+Run the rotation manually with:
+
+```bash
+python scripts/rotate_hot_to_archive.py --retention-days 45
+```
+
+Retention knobs:
+
+- `HOT_RETENTION_DAYS` – number of days to keep in `data/hot` (default: `30`).
+- `HOT_PAGINATION_SIZE` – pagination size used when computing manifest counts
+  (default: `12`).
+
+The GitHub Actions workflow `rotate-hot-archive.yml` runs the script on a
+schedule so pruning happens independently of the ingestion jobs.
+
 ## Testing
 
 The Python tests validate the shared autopost utilities. Run the full suite
