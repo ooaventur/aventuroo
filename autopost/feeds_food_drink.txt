@@ -1,17 +1,18 @@
-# === FOOD & 1DRINK1 / GENERAL ===
-food-drink|https://www.delish.com/rss/all.xml/
-test|4General|https://www.tasteofhome.com/feed/
+# === FOOD & DRINK / GENERAL ===
+Food & Drink|food-drink|https://www.delish.com/rss/all.xml/
+Food & Drink|food-drink|https://www.tasteofhome.com/feed/
 
 # === FOOD ===
-test|5Food|https://www.bonappetit.com/feed/rss
-Food|7Food|https://smittenkitchen.com/feed/
-Food|9Food|https://cookieandkate.com/feed/
-Food|10Food|https://pinchofyum.com/feed
+Food|food|https://www.bonappetit.com/feed/rss
+Food|food|https://smittenkitchen.com/feed/
+Food|food|https://cookieandkate.com/feed/
+Food|food|https://pinchofyum.com/feed
 
 # === DRINK ===
-Drink|11Drink|https://imbibemagazine.com/feed/
-Drink|12Drink|https://vinepair.com/feed/
-Drink|13Drink|https://punchdrink.com/feed/
-Drink|14Drink|https://www.thedrinksbusiness.com/feed/
-Drink|16Drink|https://www.cocktailenthusiast.com/feed/
-Drink|17Drink|https://brewbound.com/feed/
+Drink|drink|https://imbibemagazine.com/feed/
+Drink|drink|https://vinepair.com/feed/
+Drink|drink|https://punchdrink.com/feed/
+Drink|drink|https://www.thedrinksbusiness.com/feed/
+Drink|drink|https://www.cocktailenthusiast.com/feed/
+Drink|drink|https://brewbound.com/feed/
+
