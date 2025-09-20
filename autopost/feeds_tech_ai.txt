@@ -1,42 +1,41 @@
+# === TECH & AI / AI NEWS ===
+Tech & AI|AI News|https://venturebeat.com/category/ai/feed/
+Tech & AI|AI News|https://www.marktechpost.com/feed/
+Tech & AI|AI News|https://www.unite.ai/feed/
+Tech & AI|AI News|https://syncedreview.com/feed/
 
+# === TECH & AI / BIG TECH ===
+Tech & AI|Big Tech|https://www.theverge.com/rss/tech/index.xml
+Tech & AI|Big Tech|https://www.reuters.com/rssFeed/technologyNews
+Tech & AI|Big Tech|https://www.cnbc.com/id/19854910/device/rss/rss.html
+Tech & AI|Big Tech|https://www.wsj.com/xml/rss/3_7455.xml
 
-# === NEWS / GENERAL ===
-NEWS|News3|https://feeds.bbci.co.uk/news/rss.xml
-NEWS|News5|https://www.aljazeera.com/xml/rss/all.xml
-NEWS|News6|https://www.ft.com/?format=rss
-NEWS|News8|https://www.npr.org/rss/rss.php?id=1001
+# === TECH & AI / SECURITY & PRIVACY ===
+Tech & AI|Security & Privacy|https://krebsonsecurity.com/feed/
+Tech & AI|Security & Privacy|https://www.darkreading.com/rss.xml
+Tech & AI|Security & Privacy|https://threatpost.com/feed/
+Tech & AI|Security & Privacy|https://www.bleepingcomputer.com/feed/
 
-# === TOP STORIES ===
-NEWS|TopStories11|https://feeds.bbci.co.uk/news/rss.xml?edition=uk
-14
-NEWS|TopStories16|https://www.cbsnews.com/laNEWS/rss/main
-NEWS|TopStories17|https://time.com/feed/
-NEWS|TopStories18|https://www.nbcnews.com/rss
+# === TECH & AI / INTERNET & PLATFORMS ===
+Tech & AI|Internet & Platforms|https://www.platformer.news/feed
+Tech & AI|Internet & Platforms|https://www.socialmediatoday.com/rss.xml
+Tech & AI|Internet & Platforms|https://www.digitaltrends.com/social-media/feed/
+Tech & AI|Internet & Platforms|https://www.theverge.com/rss/policy/index.xml
 
-# === POLITICS ===
-NEWS|Politics24|https://feeds.bbci.co.uk/news/politics/rss.xml
-NEWS|Politics29|https://abcnews.go.com/abcnews/politicsheadlines
+# === TECH & AI / INNOVATION & GADGETS ===
+Tech & AI|Innovation & Gadgets|https://www.engadget.com/rss.xml
+Tech & AI|Innovation & Gadgets|https://www.techradar.com/rss
+Tech & AI|Innovation & Gadgets|https://www.cnet.com/rss/all/
+Tech & AI|Innovation & Gadgets|https://www.theverge.com/rss/reviews/index.xml
 
-# === ECONOMY ===
-NEWS|Economy33|https://feeds.bbci.co.uk/news/business/economy/rss.xml
-NEWS|Economy34|https://www.ft.com/economy?format=rss
-37
-NEWS|Economy39|https://www.npr.org/rss/rss.php?id=1006
+# === TECH & AI / GAMING TECH ===
+Tech & AI|Gaming Tech|https://www.gamesindustry.biz/feed/
+Tech & AI|Gaming Tech|https://www.theverge.com/rss/games/index.xml
+Tech & AI|Gaming Tech|https://www.pcgamer.com/rss/
+Tech & AI|Gaming Tech|https://www.rockpapershotgun.com/feed
 
-# === BUSINESS & FINANCE ===
-NEWS|Business41|https://www.ft.com/business?format=rss
-NEWS|Business42|https://feeds.bbci.co.uk/news/business/rss.xml
-NEWS|Business48|https://www.cnbc.com/id/10001147/device/rss/rss.html
-NEWS|Business49|https://www.forbes.com/business/feed/
-
-# === MARKETS & ECONOMY ===
-NEWS|Markets52|https://www.ft.com/markets?format=rss
-NEWS|Markets56|https://www.cnbc.com/id/10001147/device/rss/rss.html
-
-# === COMPANIES & STARTUPS ===
-NEWS|Companies61|https://techcrunch.com/startups/feed/
-
-# === PERSONAL FINANCE ===
-NEWS|Finance71|https://www.nerdwallet.com/blog/feed/
-NEWS|Finance74|https://www.money.com/feed/
-NEWS|Finance75|https://www.cnbc.com/id/100646281/device/rss/rss.html
+# === TECH & AI / AUDIO & CREATOR ===
+Tech & AI|Audio & Creator|https://www.musicradar.com/feeds/all
+Tech & AI|Audio & Creator|https://www.digitalmusicnews.com/feed/
+Tech & AI|Audio & Creator|https://www.prosoundnetwork.com/feed
+Tech & AI|Audio & Creator|https://www.theverge.com/rss/creators/index.xml
