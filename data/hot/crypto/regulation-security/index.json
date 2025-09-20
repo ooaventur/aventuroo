@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "slug": "us-crypto-tsar-david-sacks-denies-overstaying-his-job-amid-warren-scrutiny-2025-09-18",
+      "title": "US crypto tsar David Sacks denies overstaying his job amid Warren scrutiny",
+      "date": "2025-09-18",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTVhMDktZjBiZS03ZDU0LWIzNjEtYTNiZTc0ODRjNWJj.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/us-crypto-tsar-david-sacks-denies-overstaying-his-job-amid-warren-scrutiny-2025-09-18/",
+      "excerpt": "A spokesperson for US AI and crypto czar David Sacks has refuted the idea that he may have breached his 130-day limit as a special government employee, following scrutiny from several US lawmakers.",
+      "source": "https://cointelegraph.com/news/donald-trump-crypto-tsar-david-sacks-elizabeth-warren-scrutiny?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "slug": "sec-approves-generic-listing-standards-for-faster-crypto-etf-approvals-2025-09-17",
+      "title": "SEC approves generic listing standards for faster crypto ETF approvals",
+      "date": "2025-09-17",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDMvMDE5NWE3ODQtNmJmNC03MTc1LWEyZGUtMDQwMTZhYjdmNTkz.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sec-approves-generic-listing-standards-for-faster-crypto-etf-approvals-2025-09-17/",
+      "excerpt": "The US Securities and Exchange Commission has approved standards that could speed up spot crypto ETF approvals, as each application would not need to be assessed individually. The decision, detailed in SEC filings on stock exchanges like the Nasdaq, NYSE Arca, and Cboe BZX, on…",
+      "source": "https://cointelegraph.com/news/sec-approves-generic-etf-listing-standards-clearing-path-for-digital-asset-listings-without-individual-approval?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "slug": "crypto-execs-meet-us-lawmakers-discuss-bitcoin-reserve-market-structure-bills-2025-09-17",
+      "title": "Crypto execs meet US lawmakers, discuss Bitcoin reserve, market structure bills",
+      "date": "2025-09-17",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDMvMDE5NWQ0MmItNWYzNi03YTMzLThlNTktZmFmMTY3MmY3YTE1.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-execs-meet-us-lawmakers-discuss-bitcoin-reserve-market-structure-bills-2025-09-17/",
+      "excerpt": "Members of the US Congress met with key figures in the cryptocurrency industry to discuss issues and potential laws related to the establishment of a strategic Bitcoin reserve and a market structure.",
+      "source": "https://cointelegraph.com/news/crypto-execs-bitcoin-reserve-market-structure-roundtable?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "slug": "federal-reserve-expected-to-slash-rates-today-here-039-s-how-it-may-impact-crypto-2025-09-17",
+      "title": "Federal Reserve expected to slash rates today; here&#039;s how it may impact crypto",
+      "date": "2025-09-17",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDEvMDE5NGIzY2UtMTQ3Yi03OThjLTgyNDYtNTJjZGM4YjFjYjUx.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/federal-reserve-expected-to-slash-rates-today-here-039-s-how-it-may-impact-crypto-2025-09-17/",
+      "excerpt": "The Federal Reserve, the central bank of the United States, is expected to begin slashing interest rates on Wednesday, with analysts expecting a 25 basis point (bps) cut and a boost to risk asset prices in the long term.",
+      "source": "https://cointelegraph.com/news/federal-reserve-expected-to-slash-rates-here-how-it-may-impact-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "slug": "bullish-paves-way-for-us-launch-with-new-york-bitlicense-2025-09-17",
+      "title": "Bullish paves way for US launch with New York BitLicense",
+      "date": "2025-09-17",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTU4NmUtMmVhNC03YmExLTg4ZWQtODU0ZGQxN2FmOTg0.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/bullish-paves-way-for-us-launch-with-new-york-bitlicense-2025-09-17/",
+      "excerpt": "Bullish, a digital asset platform and infrastructure provider that debuted on the New York Stock Exchange last month, has secured regulatory approval to expand its operations in the United States, a key milestone as exchanges seek a clearer footing in one of crypto’s most scru…",
+      "source": "https://cointelegraph.com/news/bullish-bitlicense-nydfs-crypto-expansion?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2025-09-20",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}
