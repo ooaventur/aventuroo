@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "slug": "scientists-uncover-exercise-s-secret-hunger-busting-molecule-2025-09-20",
+      "title": "Scientists uncover exercise’s secret hunger-busting molecule",
+      "date": "2025-09-20",
+      "cover": "https://www.sciencedaily.com/images/1920/weight-loss-molecule-woman.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-uncover-exercise-s-secret-hunger-busting-molecule-2025-09-20/",
+      "excerpt": "Researchers at Baylor College ofMedicine, Jan and Dan Duncan Neurological Research Institute (Duncan NRI) at Texas Children's Hospital, Stanford University School of Medicine and collaborating institutions provide new insights into how exercise helps lose weight. The researche…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250919085244.htm"
+    },
+    {
+      "slug": "scientists-discover-cancer-s-hidden-power-to-accelerate-aging-2025-09-20",
+      "title": "Scientists discover cancer’s hidden power to accelerate aging",
+      "date": "2025-09-20",
+      "cover": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-discover-cancer-s-hidden-power-to-accelerate-aging-2025-09-20/",
+      "excerpt": "A new study led by a team of researchers at Moffitt Cancer Center reveals that lymphoma can accelerate the biological aging of the immune system and other tissues, providing new insight into how cancer reshapes the body beyond tumor growth.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250919085239.htm"
+    },
+    {
+      "slug": "goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18",
+      "title": "Goodbye colonoscopy? Simple stool test detects 90% of colorectal cancers",
+      "date": "2025-09-18",
+      "cover": "https://www.sciencedaily.com/images/1920/colon-cancer-bacteria-viruses.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18/",
+      "excerpt": "Colorectal cancer is the second leading cause of cancer death worldwide. If detected early, it can be efficiently treated, but the cost and discomfort of colonoscopies -- the main diagnostic method currently in use -- often result in delayed diagnosis. Using machine learning a…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250916221920.htm"
+    },
+    {
+      "slug": "rogue-dna-rings-may-be-the-secret-spark-driving-deadly-brain-cancer-2025-09-18",
+      "title": "Rogue DNA rings may be the secret spark driving deadly brain cancer",
+      "date": "2025-09-18",
+      "cover": "https://www.sciencedaily.com/images/1920/rogue-dna-ring.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/rogue-dna-rings-may-be-the-secret-spark-driving-deadly-brain-cancer-2025-09-18/",
+      "excerpt": "An international team of scientists has revealed how rogue rings of DNA that float outside of our chromosomes -- known as extrachromosomal DNA, or ecDNA -- can drive the growth of a large proportion of glioblastomas, the most common and aggressive adult brain cancer. The disco…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250916221917.htm"
+    },
+    {
+      "slug": "scientists-reverse-stroke-damage-with-stem-cells-2025-09-17",
+      "title": "Scientists reverse stroke damage with stem cells",
+      "date": "2025-09-17",
+      "cover": "https://www.sciencedaily.com/images/1920/mouse-brain-after-stroke-and-neural-stem-cell-transplantation.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reverse-stroke-damage-with-stem-cells-2025-09-17/",
+      "excerpt": "Stem cell transplantation can reverse stroke damage, researchers at the University of Zurich report. Its beneficial effects include regeneration of neurons and restoration of motor functions, marking a milestone in the treatment of brain disorders.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250916221821.htm"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2025-09-20",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}
