@@ -1193,6 +1193,10 @@ def _run_autopost() -> list[dict]:
     per_feed_counts = {}
     new_entries = []
 
+    category_filter_raw = CATEGORY
+    category_filter_norm = slugify_taxonomy(category_filter_raw)
+    category_filter_lower = category_filter_raw.casefold() if category_filter_raw else ""
+
     current_sub_label = ""
     current_sub_slug = ""
 
@@ -1276,9 +1280,19 @@ def _run_autopost() -> list[dict]:
         else:
             category_slug_value = (category_slug_value or "").strip().strip("/")
 
+        category_label_norm = cat_slug or slugify_taxonomy(category_label)
+        category_label_lower = (category_label or "").strip().casefold()
+        if not category_label_lower and category_label_norm:
+            category_label_lower = category_label_norm
+
         # Optional filter by env CATEGORY (leave empty to accept all)
-        if CATEGORY and category_label != CATEGORY:
-            continue
+        if category_filter_raw:
+            if category_filter_norm and category_label_norm:
+                if category_label_norm != category_filter_norm:
+                    continue
+            else:
+                if category_label_lower != category_filter_lower:
+                    continue
 
         print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
         xml = fetch_bytes(feed_url)
