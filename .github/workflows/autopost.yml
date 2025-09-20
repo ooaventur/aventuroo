@@ -93,6 +93,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin
+          git reset --hard "origin/${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}"
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -169,6 +176,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync branch head
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin
+          git reset --hard "origin/${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}"
+
       - name: Download autopost states
         uses: actions/download-artifact@v4
         with:
@@ -196,6 +210,5 @@ jobs:
             echo "No changes."
           else
             git commit -m "autopost: update content"
-            git pull --rebase origin "${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}" || true
-            git push
+            git push origin "HEAD:${GITHUB_REF_NAME:-${GITHUB_HEAD_REF:-main}}"
           fi
