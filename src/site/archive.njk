@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+permalink: archive.html
+loadArchiveScript: true
+title: AventurOO Archive
+description: Dive into AventurOO's archive and browse previous coverage by month and section.
+---
+<section class="archive">
+  <div class="container">
+    <header class="archive__header">
+      <h1 class="archive__title">Archive</h1>
+      <p class="archive__description">Browse AventurOO's previous coverage by section and month. Select any month to open its archived stories.</p>
+    </header>
+    <div class="archive__content" data-archive-container>
+      <div class="archive__empty" data-archive-empty hidden>
+        <p>The archive is currently unavailable. Please check back soon.</p>
+      </div>
+      <div class="archive__list" data-archive-list aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<template data-archive-parent-template>
+  <section class="archive__section" data-archive-parent>
+    <header class="archive__section-header">
+      <h2 class="archive__section-title" data-archive-parent-title></h2>
+      <p class="archive__section-summary" data-archive-parent-summary></p>
+    </header>
+    <div class="archive__section-body" data-archive-parent-body></div>
+  </section>
+</template>
+
+<template data-archive-child-template>
+  <article class="archive__group" data-archive-child>
+    <header class="archive__group-header">
+      <h3 class="archive__group-title" data-archive-child-title></h3>
+      <p class="archive__group-summary" data-archive-child-summary></p>
+    </header>
+    <ul class="archive__months" data-archive-months></ul>
+  </article>
+</template>
+
+<template data-archive-month-template>
+  <li class="archive__month">
+    <a class="archive__month-link" data-archive-month-link href="#"></a>
+    <span class="archive__month-meta" data-archive-month-meta></span>
+  </li>
+</template>
