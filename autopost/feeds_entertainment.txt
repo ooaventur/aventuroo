@@ -1,0 +1,32 @@
+# === entertainment / GENERAL ===
+entertainment|https://www.indiewire.com/c/film/feed/
+entertainment|https://collider.com/feed/
+entertainment|https://www.slashfilm.com/feed/
+
+# === test / MOVIES ===
+entertainment/Movies|https://screenrant.com/feed/
+entertainment/Movies|https://www.firstshowing.net/feed/
+entertainment/Movies|https://www.comingsoon.net/category/movies/feed
+
+# === test / TV & STREAMING ===
+entertainment/TV & Streaming|https://tvline.com/feed/
+entertainment/TV & Streaming|https://variety.com/v/tv/feed/
+
+# === test / TRAILERS (LATEST) ===
+entertainment/Trailers (Latest)|https://www.indiewire.com/c/film/trailers/feed/
+entertainment/Trailers (Latest)|https://www.joblo.com/category/movie-trailers/feed/
+entertainment/Trailers (Latest)|https://www.firstshowing.net/category/trailers/feed/
+entertainment/Trailers (Latest)|https://wegotthiscovered.com/movies/feed/
+
+# === test / CINEMATOGRAPHY ===
+entertainment/Cinematography|https://nofilmschool.com/rss.xml
+entertainment/Cinematography|https://www.cinema5d.com/feed/
+entertainment/Cinematography|https://ymcinema.com/feed/
+entertainment/Cinematography|https://www.provideocoalition.com/feed/
+entertainment/Cinematography|https://britishcinematographer.co.uk/feed/
+entertainment/Cinematography|https://www.lensrentals.com/blog/feed/
+
+# === test / HISTORY & ESSAYS ===
+entertainment/History & Essays|https://www.history.com/news/rss
+entertainment/History & Essays|https://publicdomainreview.org/feed
+entertainment/History & Essays|https://prologue.blogs.archives.gov/feed
