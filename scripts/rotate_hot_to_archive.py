@@ -39,7 +39,17 @@ import re
 import sys
 from collections import defaultdict
 from email.utils import parsedate_to_datetime
-from typing import Any, Iterable, Iterator
+from typing import Any, Iterable, Iterator, Optional
+
+from autopost.health import HealthReport
+
+
+_HEALTH_REPORT: Optional[HealthReport] = None
+
+
+def _record_health_error(message: str) -> None:
+    if _HEALTH_REPORT is not None:
+        _HEALTH_REPORT.record_error(message)
 
 
 DEFAULT_RETENTION_DAYS = 30
@@ -86,6 +96,7 @@ def _env_int(name: str, fallback: int) -> int:
         return int(raw)
     except ValueError:
         print(f"[rotate] Warning: invalid {name}={raw!r}; using {fallback}", file=sys.stderr)
+        _record_health_error(f"Invalid {name} value: {raw!r}")
         return fallback
 
 
@@ -238,6 +249,7 @@ def _read_json(path: pathlib.Path) -> Any:
         return None
     except json.JSONDecodeError as exc:
         print(f"[rotate] Warning: {path} is not valid JSON ({exc}); ignoring", file=sys.stderr)
+        _record_health_error(f"Invalid JSON while reading {path}: {exc}")
         return None
 
 
@@ -253,6 +265,7 @@ def _read_json_allow_gzip(path: pathlib.Path) -> Any:
             return json.load(fh)
     except json.JSONDecodeError as exc:
         print(f"[rotate] Warning: {gz_path} is not valid JSON ({exc}); ignoring", file=sys.stderr)
+        _record_health_error(f"Invalid JSON while reading {gz_path}: {exc}")
         return None
 
 
@@ -716,7 +729,7 @@ def rotate(
     )
 
 
-def main(argv: Iterable[str] | None = None) -> RotationStats:
+def _run_rotation(argv: Iterable[str] | None = None) -> RotationStats:
     args = _parse_cli_args(argv)
     retention_days = args.retention_days
     if retention_days is None:
@@ -747,6 +760,29 @@ def main(argv: Iterable[str] | None = None) -> RotationStats:
         file=sys.stderr,
     )
     return stats
+
+
+def main(argv: Iterable[str] | None = None) -> RotationStats:
+    global _HEALTH_REPORT
+
+    health = HealthReport("autopost")
+    _HEALTH_REPORT = health
+    stats: RotationStats | None = None
+    try:
+        stats = _run_rotation(argv)
+        return stats
+    except Exception as exc:
+        _record_health_error(f"Rotation run failed: {exc}")
+        raise
+    finally:
+        try:
+            health.write(items_published=None)
+        except Exception as health_exc:
+            print(
+                f"[rotate] Warning: failed to write autopost health ({health_exc})",
+                file=sys.stderr,
+            )
+        _HEALTH_REPORT = None
 
 
 if __name__ == "__main__":

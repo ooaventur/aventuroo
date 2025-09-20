@@ -104,6 +104,80 @@ Retention knobs:
 The GitHub Actions workflow `rotate-hot-archive.yml` runs the script on a
 schedule so pruning happens independently of the ingestion jobs.
 
+## Autopost heartbeat & monitoring
+
+Every autopost ingestion run now writes `_health/autopost.json` with a lightweight
+heartbeat payload. The file is refreshed both by `autopost/pull_news.py` and by
+the hot-rotation job so the latest run timestamp survives the nightly pruning
+pass. The JSON schema is:
+
+```json
+{
+  "last_run": "2024-04-18T15:30:00Z",
+  "items_published": 12,
+  "errors": ["fetch_bytes failed: …"]
+}
+```
+
+- `last_run` – UTC timestamp written whenever the job finishes.
+- `items_published` – count of newly published stories (preserved by the
+  rotation task so the ingestion job remains authoritative).
+- `errors` – deduplicated list of warnings or failures observed during the run.
+
+Eleventy copies the `_health/` directory straight into `_site/` so the Netlify
+deployment exposes the heartbeat alongside the rest of the static assets.
+
+### Cloudflare Worker integration
+
+`scripts/monitoring/cloudflare-health-worker.js` contains a Worker that performs
+three duties:
+
+1. Strip caching for requests to `/_health/autopost.json` so consumers always
+   receive a fresh payload.
+2. Inspect the heartbeat on edge fetches (and on a scheduled trigger) to detect
+   stale `last_run` timestamps, low publication counts, or collected errors.
+3. Forward Alertmanager-compatible alerts to a webhook when thresholds are
+   breached.
+
+Configure the Worker with the following environment variables:
+
+- `HEALTH_ORIGIN` – base origin URL that exposes `/_health/autopost.json`.
+- `ALERTMANAGER_WEBHOOK` – Alertmanager receiver URL (optional; monitoring is
+  read-only when omitted).
+- `MIN_ITEMS_PUBLISHED` – minimum acceptable `items_published` before raising a
+  `AutopostLowPublication` alert (default: `1`).
+- `MAX_HEALTH_AGE_MINUTES` – maximum age of `last_run` before emitting an
+  `AutopostStale` alert (default: `120`).
+- `ALERTMANAGER_SERVICE` – label value used for the `service` label in emitted
+  alerts (defaults to `aventuroo-autopost`).
+- `ALERTMANAGER_SEVERITY` / `ALERTMANAGER_SEVERITY_LOW` – optional severity
+  overrides for the generated alerts.
+
+Deploy the Worker via Wrangler (or the Cloudflare dashboard) and attach it to
+the production zone. The Worker will also post alerts when invoked by a
+Cloudflare Cron Trigger, so schedule a job that runs slightly more frequently
+than the acceptable `MAX_HEALTH_AGE_MINUTES` window.
+
+### Alertmanager routing
+
+The Worker sends alerts as a JSON array compatible with Alertmanager’s v2
+webhook. A minimal receiver configuration might look like:
+
+```yaml
+route:
+  receiver: autopost-pager
+  match:
+    service: aventuroo-autopost
+
+receivers:
+  - name: autopost-pager
+    webhook_configs:
+      - url: https://hooks.internal.example/alertmanager
+```
+
+Any downstream Alertmanager template can then fan out notifications (PagerDuty,
+Slack, etc.) when the Worker reports stale data or ingestion failures.
+
 ## Testing
 
 The Python tests validate the shared autopost utilities. Run the full suite
