@@ -70,7 +70,7 @@ Environment variables recognised by the scripts include:
 
 - `FEEDS_FILE` – override the bundled feeds list.
 - `CATEGORY` – restrict processing to one category.
-- `MAX_PER_CAT`, `MAX_TOTAL`, `MAX_POSTS_PERSIST` – tune quantity limits.
+- `MAX_PER_FEED`, `MAX_TOTAL`, `MAX_POSTS_PERSIST` – tune quantity limits. Per-subcategory caps are now derived from `feed_count × per-feed cap` (5 by default, 10 when marked important).
 - `FALLBACK_COVER`, `DEFAULT_AUTHOR`, `IMG_PROXY`, etc. – control cover images
   and metadata.
 - `HOT_MAX_ITEMS`, `HOT_PAGINATION_SIZE` – size the hot shard payloads that
