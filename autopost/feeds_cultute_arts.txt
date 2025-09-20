@@ -1,0 +1,33 @@
+
+# === CULTURE & ARTS / GENERAL ===
+CULTURE & ARTS|3General|https://www.newyorker.com/feed/culture
+CULTURE & ARTS|6General|https://www.smithsonianmag.com/rss/arts-culture/
+CULTURE & ARTS|7General|https://hyperallergic.com/feed/
+
+# === CULTURE ===
+CULTURE & ARTS|8Culture|https://aeon.co/feed
+CULTURE & ARTS|9Culture|https://lithub.com/feed/
+CULTURE & ARTS|11Culture|https://www.guernicamag.com/feed/
+CULTURE & ARTS|12Culture|https://www.npr.org/rss/rss.php?id=1032
+CULTURE & ARTS|13Culture|https://harpers.org/feed/
+CULTURE & ARTS|14Culture|https://www.themarginalian.org/feed/ 
+
+# === ARTS ===
+CULTURE & ARTS|15Arts|https://www.artnews.com/c/art-news/news/feed/
+CULTURE & ARTS|16Arts|https://www.thisiscolossal.com/feed/
+CULTURE & ARTS|17Arts|https://www.creativeboom.com/feed/
+CULTURE & ARTS|18Arts|https://www.designboom.com/art/feed/
+CULTURE & ARTS|19Arts|https://news.artnet.com/feed
+
+# === HISTORY ===
+CULTURE & ARTS|22History|https://www.historyextra.com/feed/
+CULTURE & ARTS|23History|https://www.historynet.com/feed/
+CULTURE & ARTS|24History|https://www.archaeology.org/rss.xml
+CULTURE & ARTS|25History|https://allthatsinteresting.com/rss
+
+# === COLUMNS / ESSAYS ===
+CULTURE & ARTS|27Columns|https://www.lrb.co.uk/feeds/rss
+CULTURE & ARTS|28Columns|https://www.nplusonemag.com/rss/
+CULTURE & ARTS|29Columns|https://harpers.org/feed/
+CULTURE & ARTS|30Columns|https://aeon.co/feed
+
