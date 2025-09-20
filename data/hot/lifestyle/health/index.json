@@ -19,15 +19,6 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250919085239.htm"
     },
     {
-      "slug": "goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18",
-      "title": "Goodbye colonoscopy? Simple stool test detects 90% of colorectal cancers",
-      "date": "2025-09-18",
-      "cover": "https://www.sciencedaily.com/images/1920/colon-cancer-bacteria-viruses.webp",
-      "canonical": "https://archive.aventuroo.com/lifestyle/health/goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18/",
-      "excerpt": "Colorectal cancer is the second leading cause of cancer death worldwide. If detected early, it can be efficiently treated, but the cost and discomfort of colonoscopies -- the main diagnostic method currently in use -- often result in delayed diagnosis. Using machine learning a…",
-      "source": "https://www.sciencedaily.com/releases/2025/09/250916221920.htm"
-    },
-    {
       "slug": "rogue-dna-rings-may-be-the-secret-spark-driving-deadly-brain-cancer-2025-09-18",
       "title": "Rogue DNA rings may be the secret spark driving deadly brain cancer",
       "date": "2025-09-18",
@@ -37,6 +28,24 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250916221917.htm"
     },
     {
+      "slug": "goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18",
+      "title": "Goodbye colonoscopy? Simple stool test detects 90% of colorectal cancers",
+      "date": "2025-09-18",
+      "cover": "https://www.sciencedaily.com/images/1920/colon-cancer-bacteria-viruses.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/goodbye-colonoscopy-simple-stool-test-detects-90-of-colorectal-cancers-2025-09-18/",
+      "excerpt": "Colorectal cancer is the second leading cause of cancer death worldwide. If detected early, it can be efficiently treated, but the cost and discomfort of colonoscopies -- the main diagnostic method currently in use -- often result in delayed diagnosis. Using machine learning a…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250916221920.htm"
+    },
+    {
+      "slug": "stanford-scientists-reveal-simple-shift-that-could-prevent-strokes-and-obesity-nationwide-2025-09-17",
+      "title": "Stanford scientists reveal simple shift that could prevent strokes and obesity nationwide",
+      "date": "2025-09-17",
+      "cover": "https://www.sciencedaily.com/images/1920/tired-senior-driving-car.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/stanford-scientists-reveal-simple-shift-that-could-prevent-strokes-and-obesity-nationwide-2025-09-17/",
+      "excerpt": "Every spring, Americans dutifully adjust their clocks forward to daylight saving time, and every fall, back to standard time -- but no one seems very happy about it. The biannual time shift is not only inconvenient, it's also known to be acutely bad for our health. The collect…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202850.htm"
+    },
+    {
       "slug": "scientists-reverse-stroke-damage-with-stem-cells-2025-09-17",
       "title": "Scientists reverse stroke damage with stem cells",
       "date": "2025-09-17",
@@ -44,12 +53,48 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reverse-stroke-damage-with-stem-cells-2025-09-17/",
       "excerpt": "Stem cell transplantation can reverse stroke damage, researchers at the University of Zurich report. Its beneficial effects include regeneration of neurons and restoration of motor functions, marking a milestone in the treatment of brain disorders.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250916221821.htm"
+    },
+    {
+      "slug": "ozempic-wegovy-and-mounjaro-makes-food-taste-sweeter-and-saltier-and-that-may-quiet-cravings-2025-09-17",
+      "title": "Ozempic, Wegovy and Mounjaro makes food taste sweeter and saltier, and that may quiet cravings",
+      "date": "2025-09-17",
+      "cover": "https://www.sciencedaily.com/images/1920/eating-cake-licking-fingers.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/ozempic-wegovy-and-mounjaro-makes-food-taste-sweeter-and-saltier-and-that-may-quiet-cravings-2025-09-17/",
+      "excerpt": "New research being presented at the Annual Meeting of the European Association for the Study of Diabetes (EASD) in Vienna, Austria (September 15-19) shows that some individuals who are taking Ozempic, Wegovy or Mounjaro find that foods taste sweeter or saltier than before.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202848.htm"
+    },
+    {
+      "slug": "why-so-many-young-kids-with-adhd-are-getting-the-wrong-treatment-2025-09-16",
+      "title": "Why so many young kids with ADHD are getting the wrong treatment",
+      "date": "2025-09-16",
+      "cover": "https://www.sciencedaily.com/images/1920/adhd-medication-pills.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/why-so-many-young-kids-with-adhd-are-getting-the-wrong-treatment-2025-09-16/",
+      "excerpt": "Young children with attention deficit/hyperactivity disorder often receive medication just after being diagnosed, which contravenes treatment guidelines endorsed by the American Academy of Pediatrics, a Stanford Medicine-led study has found.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202839.htm"
+    },
+    {
+      "slug": "semaglutide-may-silence-the-food-noise-in-your-head-2025-09-16",
+      "title": "Semaglutide may silence the food noise in your head",
+      "date": "2025-09-16",
+      "cover": "https://www.sciencedaily.com/images/1920/diet-cravings-dessert.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/semaglutide-may-silence-the-food-noise-in-your-head-2025-09-16/",
+      "excerpt": "New research being presented at the Annual Meeting of the European Association for the Study of Diabetes (EASD) in Vienna, Austria (September 15-19) shows that individuals who are taking semaglutide for weight loss experience less food noise than before.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202846.htm"
+    },
+    {
+      "slug": "eating-mediterranean-could-be-the-secret-to-healthy-gums-2025-09-16",
+      "title": "Eating Mediterranean could be the secret to healthy gums",
+      "date": "2025-09-16",
+      "cover": "https://www.sciencedaily.com/images/1920/olive-oil-salad.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/eating-mediterranean-could-be-the-secret-to-healthy-gums-2025-09-16/",
+      "excerpt": "People living in the UK and following a diet close to the Mediterranean diet are more likely to have better gum health, with potentially lower amounts of gum disease and inflammation.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250915202841.htm"
     }
   ],
-  "count": 5,
+  "count": 10,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

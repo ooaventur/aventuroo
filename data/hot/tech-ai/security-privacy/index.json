@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "slug": "the-cloud-edge-is-the-new-attack-surface-2025-09-17",
+      "title": "The Cloud Edge Is the New Attack Surface",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2ec400e3e5e5dace/68c9b2db949e935a67149768/edge-of-the-clouds-rdonar-shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-cloud-edge-is-the-new-attack-surface-2025-09-17/",
+      "excerpt": "The cloud now acts as the connecting infrastructure for many companies' assets — from IoT devices to workstations to applications and workloads — exposing the edge to threats.",
+      "source": "https://www.darkreading.com/cloud-security/cloud-edge-new-attack-surface"
+    },
+    {
+      "slug": "scattered-lapsus-hunters-others-announce-end-of-hacking-spree-2025-09-17",
+      "title": "'Scattered Lapsus$ Hunters,' Others Announce End of Hacking Spree",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf58e118b31e843c0/68caf396e4218d4c5d35ce80/closedsign1800_Stephen_Dwyer_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/scattered-lapsus-hunters-others-announce-end-of-hacking-spree-2025-09-17/",
+      "excerpt": "Though the groups have shared their decision to go dark, threat researchers say there are signs that it's business as usual.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/scattered-lapsus-hunters-hacking-end"
+    },
+    {
+      "slug": "microsoft-disrupts-raccoono365-phishing-service-2025-09-17",
+      "title": "Microsoft Disrupts 'RaccoonO365' Phishing Service",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt277273fb9d8b7aaf/68cb03a2169b3f05fc744044/raccoon_mask_computer_Roman_Samborskyi_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-disrupts-raccoono365-phishing-service-2025-09-17/",
+      "excerpt": "Phishing-as-a-service (PhaaS) kits have become an increasingly popular way for lower-skill individuals who want to get into cybercrime.",
+      "source": "https://www.darkreading.com/application-security/microsoft-disrupts-raccoono365-phishing-service"
+    },
+    {
+      "slug": "mastering-digital-breadcrumbs-to-stay-ahead-of-evolving-threats-2025-09-17",
+      "title": "Mastering Digital Breadcrumbs to Stay Ahead of Evolving Threats",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt66e9cc6f37c4aa84/6724d210e4d84466cc87ce82/Speed(1800)_JHENG_YAO_LIN_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/mastering-digital-breadcrumbs-to-stay-ahead-of-evolving-threats-2025-09-17/",
+      "excerpt": "Digital forensics offers a challenging but rewarding career path for cybersecurity professionals willing to invest in specialized knowledge and continuous learning.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/mastering-digital-breadcrumbs-stay-ahead-of-evolving-threats"
+    },
+    {
+      "slug": "ai-powered-sign-up-fraud-is-scaling-fast-2025-09-17",
+      "title": "AI-Powered Sign-up Fraud Is Scaling Fast",
+      "date": "2025-09-17",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt518460f04a0051e6/68b0631e9f45761fb36d0fc3/Fraud_(1800)_Charlotte_Allen_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ai-powered-sign-up-fraud-is-scaling-fast-2025-09-17/",
+      "excerpt": "The AI era means attackers are smarter, faster, and hitting you where you least expect it — your sign-up funnel.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/ai-powered-sign-up-fraud-scaling-fast"
+    },
+    {
+      "slug": "self-replicating-worm-hits-180-software-packages-2025-09-16",
+      "title": "Self-Replicating Worm Hits 180+ Software Packages",
+      "date": "2025-09-16",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/self-replicating-worm-hits-180-software-packages-2025-09-16/",
+      "excerpt": "At least 187 code packages made available through the JavaScript repository NPM have been infected with a self-replicating worm that steals credentials from developers and publishes those secrets on GitHub , experts warn. The malware, which briefly infected multiple code packa…",
+      "source": "https://krebsonsecurity.com/2025/09/self-replicating-worm-hits-180-software-packages/"
+    },
+    {
+      "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
+      "title": "Bulletproof Host Stark Industries Evades EU Sanctions",
+      "date": "2025-09-11",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11/",
+      "excerpt": "In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd. , a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformat…",
+      "source": "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/"
+    },
+    {
+      "slug": "microsoft-patch-tuesday-september-2025-edition-2025-09-09",
+      "title": "Microsoft Patch Tuesday, September 2025 Edition",
+      "date": "2025-09-09",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-patch-tuesday-september-2025-edition-2025-09-09/",
+      "excerpt": "Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known “zero-day” or actively exploited vulnerabilities in this month’s bundle from Redmond, which nevertheless includes patches for 13 …",
+      "source": "https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/"
+    },
+    {
+      "slug": "18-popular-code-packages-hacked-rigged-to-steal-crypto-2025-09-08",
+      "title": "18 Popular Code Packages Hacked, Rigged to Steal Crypto",
+      "date": "2025-09-08",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/18-popular-code-packages-hacked-rigged-to-steal-crypto-2025-09-08/",
+      "excerpt": "At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quick…",
+      "source": "https://krebsonsecurity.com/2025/09/18-popular-code-packages-hacked-rigged-to-steal-crypto/"
+    },
+    {
+      "slug": "gop-cries-censorship-over-spam-filters-that-work-2025-09-06",
+      "title": "GOP Cries Censorship Over Spam Filters That Work",
+      "date": "2025-09-06",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/gop-cries-censorship-over-spam-filters-that-work-2025-09-06/",
+      "excerpt": "The chairman of the Federal Trade Commission (FTC) last week sent a letter to Google’s CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusi…",
+      "source": "https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/"
+    }
+  ],
+  "count": 10,
+  "updated_at": "2025-09-17",
+  "pagination": {
+    "total_items": 10,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

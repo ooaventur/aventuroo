@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "slug": "google-adds-gemini-to-chrome-for-all-users-in-push-to-bolster-ai-search-2025-09-19",
+      "title": "Google adds Gemini to Chrome for all users in push to bolster AI search",
+      "date": "2025-09-19",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108080282-1735317478356-gettyimages-2190936742-avils-notitle241227_npfH8.jpeg?v=1758150300&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/google-adds-gemini-to-chrome-for-all-users-in-push-to-bolster-ai-search-2025-09-19/",
+      "excerpt": "Google is adding more artificial intelligence into its Chrome browser as the search giant tries to fend off burgeoning competition from AI startups OpenAI and Perplexity .",
+      "source": "https://www.cnbc.com/2025/09/18/google-gemini-chrome-ai-search.html"
+    },
+    {
+      "slug": "nvidia-ceo-huang-says-5-billion-stake-in-rival-intel-will-be-an-incredible-investment-2025-09-18",
+      "title": "Nvidia CEO Huang says $5 billion stake in rival Intel will be 'an incredible investment'",
+      "date": "2025-09-18",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108200712-17582055012025-09-18t141517z_1604941985_rc2eugakg7bz_rtrmadp_0_intel-nvidia-stake.jpeg?v=1758205534&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/nvidia-ceo-huang-says-5-billion-stake-in-rival-intel-will-be-an-incredible-investment-2025-09-18/",
+      "excerpt": "Nvidia CEO Jensen Huang said that the company's $5 billion investment and technology collaboration with Intel comes after the two companies held discussions for nearly a year.",
+      "source": "https://www.cnbc.com/2025/09/18/nvidias-huang-calls-5-billion-intel-stake-an-incredible-investment.html"
+    },
+    {
+      "slug": "notion-rides-ai-boom-to-500-million-in-annual-revenue-but-microsoft-competition-looms-2025-09-18",
+      "title": "Notion rides AI boom to $500 million in annual revenue, but Microsoft competition looms",
+      "date": "2025-09-18",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108200461-1758171175651-Handout_Notion_founders_2.png?v=1758197544&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/notion-rides-ai-boom-to-500-million-in-annual-revenue-but-microsoft-competition-looms-2025-09-18/",
+      "excerpt": "OpenAI's public launch of ChatGPT in November 2022 is widely viewed as the event that kicked off the generative AI boom, which remains the dominant theme in the tech industry almost three years later.",
+      "source": "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html"
+    },
+    {
+      "slug": "meta-product-chief-chris-cox-says-smart-glasses-are-the-future-of-computing-2025-09-18",
+      "title": "Meta product chief Chris Cox says smart glasses are the future of computing",
+      "date": "2025-09-18",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108200607-1758197174388-gettyimages-2235448056-META_CONNECT.jpeg?v=1758197443&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/meta-product-chief-chris-cox-says-smart-glasses-are-the-future-of-computing-2025-09-18/",
+      "excerpt": "Meta Chief Product Officer Chris Cox said on Thursday that smart glasses are the future of computing devices.",
+      "source": "https://www.cnbc.com/2025/09/18/meta-ray-ban-glasses-chris-cox.html"
+    },
+    {
+      "slug": "how-robotic-beehives-use-ai-to-protect-bees-from-climate-change-2025-09-18",
+      "title": "How robotic beehives use AI to protect bees from climate change",
+      "date": "2025-09-18",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108200715-1758205753470-IMG_0022.jpeg?v=1758207177&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/how-robotic-beehives-use-ai-to-protect-bees-from-climate-change-2025-09-18/",
+      "excerpt": "Bees are critical for ensuring an abundant food supply year-round, but the bee population is in big trouble.",
+      "source": "https://www.cnbc.com/2025/09/18/robotic-beehives-ai-bees-climate-change.html"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2025-09-19",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

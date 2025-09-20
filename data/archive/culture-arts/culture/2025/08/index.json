@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "slug": "the-german-teacher-2025-08-15",
+      "title": "The German Teacher",
+      "date": "2025-08-15",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/mbe-p-1900-06003.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/the-german-teacher-2025-08-15/",
+      "excerpt": "It all started when the Ministry of Equality implemented its Diversity Program. I’d been out of a job since forever and the new law made it compulsory for all companies to diversify their staff. Things were getting pretty desperate, so I was immediately drawn to the first list…",
+      "source": "https://www.guernicamag.com/the-german-teacher/"
+    },
+    {
+      "slug": "freedom-2025-08-15",
+      "title": "Freedom",
+      "date": "2025-08-15",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/freedom-brigite-oury-la-violoncelliste.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/freedom-2025-08-15/",
+      "excerpt": "Anyone who has travelled knows that apples taste the sweetest on a street or on a square of some unknown city. The reason lies in the fact that the city does not expect",
+      "source": "https://www.guernicamag.com/freedom/"
+    },
+    {
+      "slug": "darkness-2025-08-15",
+      "title": "Darkness",
+      "date": "2025-08-15",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/darkness-rene-grgic-dakovic-my-palette.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/darkness-2025-08-15/",
+      "excerpt": "In his atelier in the attic in Martićeva Street, I ask the wise and quiet painter Oskar Herman what he thinks happens later. Darkness, darkness, he replies readily. Indeed, some of the dark colours on his paintings strike me much more than the others, as if he has finally inha…",
+      "source": "https://www.guernicamag.com/darkness/"
+    },
+    {
+      "slug": "boca-del-lobo-2025-08-15",
+      "title": "Boca del Lobo",
+      "date": "2025-08-15",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/boca-del-lobo-eileen-jimenez-cosecha-de-colibri.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/boca-del-lobo-2025-08-15/",
+      "excerpt": "I",
+      "source": "https://www.guernicamag.com/boca-del-lobo/"
+    }
+  ],
+  "count": 4,
+  "updated_at": "2025-08-15",
+  "pagination": {
+    "total_items": 4,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

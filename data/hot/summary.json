@@ -1,0 +1,333 @@
+{
+  "generated_at": "2025-09-22",
+  "per_page": 12,
+  "total_items": 404,
+  "parents": [
+    {
+      "parent": "crypto",
+      "items": 49,
+      "pages": 5,
+      "children": [
+        {
+          "child": "altcoins-web3",
+          "slug": "crypto/altcoins-web3",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "bitcoin-majors",
+          "slug": "crypto/bitcoin-majors",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "guides",
+          "slug": "crypto/guides",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "index",
+          "slug": "crypto",
+          "items": 9,
+          "pages": 1
+        },
+        {
+          "child": "regulation-security",
+          "slug": "crypto/regulation-security",
+          "items": 10,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "culture-arts",
+      "items": 34,
+      "pages": 3,
+      "children": [
+        {
+          "child": "arts",
+          "slug": "culture-arts/arts",
+          "items": 8,
+          "pages": 1
+        },
+        {
+          "child": "columns-essays",
+          "slug": "culture-arts/columns-essays",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "culture",
+          "slug": "culture-arts/culture",
+          "items": 1,
+          "pages": 1
+        },
+        {
+          "child": "general",
+          "slug": "culture-arts/general",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "history",
+          "slug": "culture-arts/history",
+          "items": 5,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "entertainment",
+      "items": 50,
+      "pages": 5,
+      "children": [
+        {
+          "child": "cinematography",
+          "slug": "entertainment/cinematography",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "general",
+          "slug": "entertainment/general",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "history-essays",
+          "slug": "entertainment/history-essays",
+          "items": 4,
+          "pages": 1
+        },
+        {
+          "child": "movies",
+          "slug": "entertainment/movies",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "trailers-latest",
+          "slug": "entertainment/trailers-latest",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "tv-streaming",
+          "slug": "entertainment/tv-streaming",
+          "items": 6,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "food-drink",
+      "items": 36,
+      "pages": 3,
+      "children": [
+        {
+          "child": "drink",
+          "slug": "food-drink/drink",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "food",
+          "slug": "food-drink/food",
+          "items": 6,
+          "pages": 1
+        },
+        {
+          "child": "food-drink",
+          "slug": "food-drink/food-drink",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "general",
+          "slug": "food-drink/general",
+          "items": 10,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "lifestyle",
+      "items": 86,
+      "pages": 8,
+      "children": [
+        {
+          "child": "beauty-style",
+          "slug": "lifestyle/beauty-style",
+          "items": 20,
+          "pages": 2
+        },
+        {
+          "child": "health",
+          "slug": "lifestyle/health",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "home-design",
+          "slug": "lifestyle/home-design",
+          "items": 20,
+          "pages": 2
+        },
+        {
+          "child": "index",
+          "slug": "lifestyle",
+          "items": 6,
+          "pages": 1
+        },
+        {
+          "child": "inspiration",
+          "slug": "lifestyle/inspiration",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "outdoor",
+          "slug": "lifestyle/outdoor",
+          "items": 20,
+          "pages": 2
+        }
+      ]
+    },
+    {
+      "parent": "news",
+      "items": 40,
+      "pages": 4,
+      "children": [
+        {
+          "child": "economy",
+          "slug": "news/economy",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "general",
+          "slug": "news/general",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "politics",
+          "slug": "news/politics",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "top-stories",
+          "slug": "news/top-stories",
+          "items": 10,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "tech-ai",
+      "items": 45,
+      "pages": 4,
+      "children": [
+        {
+          "child": "ai-news",
+          "slug": "tech-ai/ai-news",
+          "items": 0,
+          "pages": 0
+        },
+        {
+          "child": "audio-creator",
+          "slug": "tech-ai/audio-creator",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "big-tech",
+          "slug": "tech-ai/big-tech",
+          "items": 5,
+          "pages": 1
+        },
+        {
+          "child": "gaming-tech",
+          "slug": "tech-ai/gaming-tech",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "innovation-gadgets",
+          "slug": "tech-ai/innovation-gadgets",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "internet-platforms",
+          "slug": "tech-ai/internet-platforms",
+          "items": 0,
+          "pages": 0
+        },
+        {
+          "child": "security-privacy",
+          "slug": "tech-ai/security-privacy",
+          "items": 10,
+          "pages": 1
+        }
+      ]
+    },
+    {
+      "parent": "travel",
+      "items": 64,
+      "pages": 6,
+      "children": [
+        {
+          "child": "destinations",
+          "slug": "travel/destinations",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "experiences",
+          "slug": "travel/experiences",
+          "items": 5,
+          "pages": 1
+        },
+        {
+          "child": "general",
+          "slug": "travel/general",
+          "items": 5,
+          "pages": 1
+        },
+        {
+          "child": "stays-hotels",
+          "slug": "travel/stays-hotels",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "things-to-do",
+          "slug": "travel/things-to-do",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "tips-planning",
+          "slug": "travel/tips-planning",
+          "items": 5,
+          "pages": 1
+        },
+        {
+          "child": "transport",
+          "slug": "travel/transport",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "trip-ideas",
+          "slug": "travel/trip-ideas",
+          "items": 9,
+          "pages": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "slug": "adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models-2025-05-28",
+      "title": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "date": "2025-05-28",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models-2025-05-28/",
+      "excerpt": "Video world models, which predict future frames conditioned on actions, hold immense promise for artificial intelligence, enabling agents to plan and reason in dynamic environments. Recent advancements, particularly with video diffusion models, have shown impressive capabiliti…",
+      "source": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-05-28",
+  "pagination": {
+    "total_items": 1,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

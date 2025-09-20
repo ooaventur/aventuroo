@@ -1,0 +1,302 @@
+{
+  "generated_at": "2025-08-20",
+  "per_page": 12,
+  "total_items": 60,
+  "parents": [
+    {
+      "parent": "crypto",
+      "items": 1,
+      "pages": 1,
+      "children": [
+        {
+          "child": "index",
+          "slug": "crypto",
+          "items": 1,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2019,
+              "month": 6,
+              "items": 1,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "culture-arts",
+      "items": 9,
+      "pages": 1,
+      "children": [
+        {
+          "child": "culture",
+          "slug": "culture-arts/culture",
+          "items": 4,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 4,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "child": "history",
+          "slug": "culture-arts/history",
+          "items": 5,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2024,
+              "month": 3,
+              "items": 5,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "entertainment",
+      "items": 6,
+      "pages": 1,
+      "children": [
+        {
+          "child": "history-essays",
+          "slug": "entertainment/history-essays",
+          "items": 6,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 7,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "items": 2,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "food-drink",
+      "items": 4,
+      "pages": 1,
+      "children": [
+        {
+          "child": "food",
+          "slug": "food-drink/food",
+          "items": 4,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "items": 2,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "lifestyle",
+      "items": 19,
+      "pages": 2,
+      "children": [
+        {
+          "child": "index",
+          "slug": "lifestyle",
+          "items": 9,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 3,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 4,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 3,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 2,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 1,
+              "items": 1,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "child": "inspiration",
+          "slug": "lifestyle/inspiration",
+          "items": 10,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2024,
+              "month": 12,
+              "items": 10,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "tech-ai",
+      "items": 10,
+      "pages": 1,
+      "children": [
+        {
+          "child": "ai-news",
+          "slug": "tech-ai/ai-news",
+          "items": 5,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "items": 3,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "items": 1,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "child": "internet-platforms",
+          "slug": "tech-ai/internet-platforms",
+          "items": 5,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 5,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parent": "travel",
+      "items": 11,
+      "pages": 1,
+      "children": [
+        {
+          "child": "experiences",
+          "slug": "travel/experiences",
+          "items": 5,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "items": 3,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "child": "tips-planning",
+          "slug": "travel/tips-planning",
+          "items": 5,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 5,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "items": 3,
+              "pages": 1
+            }
+          ]
+        },
+        {
+          "child": "trip-ideas",
+          "slug": "travel/trip-ideas",
+          "items": 1,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 1,
+              "pages": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
