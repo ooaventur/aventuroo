@@ -19,7 +19,7 @@ Run:
   python3 "autopost/pull_news.py"
 Env knobs (optional):
   MAX_PER_CAT, MAX_PER_FEED, MAX_TOTAL, MAX_POSTS_PERSIST, HTTP_TIMEOUT, FALLBACK_COVER, DEFAULT_AUTHOR
-  IMG_TARGET_WIDTH, IMG_PROXY, FORCE_PROXY, TARGET_WORDS
+  IMG_TARGET_WIDTH, IMG_PROXY, FORCE_PROXY, TARGET_WORDS 
 """
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, sys
