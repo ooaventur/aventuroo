@@ -111,7 +111,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
+          python -m pip install --upgrade 'pip<24.3'
           pip install trafilatura readability-lxml lxml certifi
 
       - name: Restore autopost state marker
