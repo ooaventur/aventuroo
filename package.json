@@ -1,0 +1,17 @@
+{
+  "name": "aventurootest",
+  "version": "1.0.0",
+  "description": "Magz is a HTML5 & CSS3 magazine template is based on Bootstrap 3. This template was made with  by Kodinger Team. This template is released under the MIT License, free for personal and commercial use without any attribution. Just share this template with your friends.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "eleventy": "eleventy",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

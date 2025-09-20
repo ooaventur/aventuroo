@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Donec consequat arcu at ultrices sodales quam erat aliquet diam",
+    "category": "Film",
+    "date": "December 19, 2016",
+    "image": "images/news/img11.jpg",
+    "link": "single.html",
+    "excerpt": "Donec consequat, arcu at ultrices sodales, quam erat aliquet diam, sit amet interdum libero nunc accumsan nisi."
+  },
+  {
+    "title": "Maecenas accumsan tortor ut velit pharetra mollis",
+    "category": "Travel",
+    "date": "December 18, 2016",
+    "image": "images/news/img02.jpg",
+    "link": "single.html",
+    "excerpt": "Maecenas accumsan tortor ut velit pharetra mollis. Proin eu nisl et arcu iaculis placerat sollicitudin ut est. In fringilla dui."
+  },
+  {
+    "title": "Maecenas blandit ultricies lorem id tempor enim pulvinar at",
+    "category": "Healthy",
+    "date": "December 16, 2016",
+    "image": "images/news/img09.jpg",
+    "link": "single.html",
+    "excerpt": "Maecenas blandit ultricies lorem, id tempor enim pulvinar at. Curabitur sit amet tortor eu ipsum lacinia malesuada. Etiam sed vulputate magna."
+  }
+]

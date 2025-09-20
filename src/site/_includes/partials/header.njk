@@ -1,0 +1,196 @@
+<header class="primary">
+  <div class="firstbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12">
+          <div class="brand">
+            <a href="{{ '/' | url }}">
+              <img src="{{ '/images/logo.png' | url }}" alt="AventurOO Logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <form class="search" autocomplete="off" action="{{ '/search.html' | url }}" method="GET">
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Type something here">
+                <div class="input-group-btn">
+                  <button class="btn btn-primary" type="submit"><i class="ion-search"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="help-block">
+              <div>Popular:</div>
+              <ul>
+                <li><a href="{{ '/category.html' | url }}?cat=news">News</a></li>
+                <li><a href="{{ '/category.html' | url }}?cat=ai-news">AI</a></li>
+                <li><a href="{{ '/category.html' | url }}?cat=travel">Travel</a></li>
+                <li><a href="{{ '/category.html' | url }}?cat=lifestyle">Lifestyle</a></li>
+                <li><a href="{{ '/search.html' | url }}?q=AventurOO">AventurOO</a></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3 col-sm-12 text-right">
+          <ul class="nav-icons">
+            <li><a href="{{ '/register.html' | url }}"><i class="ion-person-add"></i><div>Register</div></a></li>
+            <li><a href="{{ '/login.html' | url }}"><i class="ion-person"></i><div>Login</div></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start nav -->
+  <nav class="menu">
+    <div class="container">
+      <div class="brand">
+        <a href="{{ '/' | url }}">
+          <img src="{{ '/images/logo.png' | url }}" alt="AventurOO Logo">
+        </a>
+      </div>
+      <div class="mobile-toggle">
+        <a href="#" data-toggle="menu" data-target="#menu-list"><i class="ion-navicon-round"></i></a>
+      </div>
+      <div class="mobile-toggle">
+        <a href="#" data-toggle="sidebar" data-target="#sidebar"><i class="ion-ios-arrow-left"></i></a>
+      </div>
+      <div id="menu-list">
+        <ul class="nav-list">
+          <li class="for-tablet nav-title"><a>Menu</a></li>
+          <li class="for-tablet"><a href="{{ '/login.html' | url }}">Login</a></li>
+          <li class="for-tablet"><a href="{{ '/register.html' | url }}">Register</a></li>
+          <li><a href="{{ '/' | url }}">HOME</a></li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/news/index.html' | url }}">News <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/news/top-stories.html' | url }}">Top Stories</a></li>
+              <li><a href="{{ '/news/politics.html' | url }}">Politics</a></li>
+              <li><a href="{{ '/news/economy.html' | url }}">Economy</a></li>
+              <li class="dropdown magz-dropdown">
+                <a href="{{ '/business-finance/index.html' | url }}">Business &amp; Finance <i class="ion-ios-arrow-right"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ '/business-finance/markets-economy.html' | url }}">Markets &amp; Economy</a></li>
+                  <li><a href="{{ '/business-finance/companies-startups.html' | url }}">Companies &amp; Startups</a></li>
+                  <li><a href="{{ '/business-finance/personal-finance.html' | url }}">Personal Finance</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown magz-dropdown magz-dropdown-megamenu"><a href="{{ '/tech-ai/index.html' | url }}">Tech &amp; AI <i class="ion-ios-arrow-right"></i></a>
+            <div class="dropdown-menu megamenu">
+              <div class="megamenu-inner">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h2 class="megamenu-title">AI &amp; BIG TECH</h2>
+                    <ul class="vertical-menu">
+                      <li><a href="{{ '/tech-ai/ai-news' | url }}">AI News</a></li>
+                      <li><a href="{{ '/tech-ai/big-tech' | url }}">Big Tech</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h2 class="megamenu-title">INNOVATION</h2>
+                    <ul class="vertical-menu">
+                      <li><a href="{{ '/tech-ai/innovation-gadgets' | url }}">Innovation &amp; Gadgets</a></li>
+                      <li><a href="{{ '/tech-ai/gaming-tech' | url }}">Gaming Tech / AI Gaming</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h2 class="megamenu-title">SECURITY</h2>
+                    <ul class="vertical-menu">
+                      <li><a href="{{ '/tech-ai/security-privacy' | url }}">Security &amp; Privacy</a></li>
+                      <li><a href="{{ '/tech-ai/internet-platforms' | url }}">Internet &amp; Platforms</a></li>
+                      <h2 class="megamenu-title">Creator</h2>
+                      <li><a href="{{ '/tech-ai/audio-creator-tools' | url }}">Audio &amp; Creator Tools</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h2 class="megamenu-title">CRYPTO</h2>
+                    <ul class="vertical-menu">
+                      <li><a href="{{ '/crypto/bitcoin-majors' | url }}">Bitcoin &amp; Majors</a></li>
+                      <li><a href="{{ '/crypto/altcoins-web3' | url }}">Altcoins &amp; Web3</a></li>
+                      <li><a href="{{ '/crypto/regulation-security' | url }}">Regulation &amp; Security</a></li>
+                      <li><a href="{{ '/crypto/guides-crypto' | url }}">Guides Crypto</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/entertainment/index.html' | url }}">Entertainment <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/entertainment/movies.html' | url }}">Movies</a></li>
+              <li><a href="{{ '/entertainment/tv-streaming.html' | url }}">TV-Streaming</a></li>
+              <li><a href="{{ '/entertainment/trailers.html' | url }}">Trailers</a></li>
+              <li><a href="{{ '/entertainment/cinematography.html' | url }}">Cinematography</a></li>
+              <li><a href="{{ '/entertainment/history-essays.html' | url }}">History &amp; Essays</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/lifestyle/index.html' | url }}">Lifestyle <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/lifestyle/health.html' | url }}">Health</a></li>
+              <li><a href="{{ '/lifestyle/beauty-style.html' | url }}">Beauty &amp; Style</a></li>
+              <li><a href="{{ '/lifestyle/home-design.html' | url }}">Home &amp; Design</a></li>
+              <li><a href="{{ '/lifestyle/inspiration.html' | url }}">Inspiration</a></li>
+              <li><a href="{{ '/lifestyle/outdoor.html' | url }}">Outdoor</a></li>
+              <li class="dropdown magz-dropdown">
+                <a href="{{ '/food-drink/index.html' | url }}">Food &amp; Drink <i class="ion-ios-arrow-right"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ '/food-drink/food.html' | url }}">Food</a></li>
+                  <li><a href="{{ '/food-drink/drink.html' | url }}">Drink</a></li>
+                  <li><a href="{{ '/food-drink/guides.html' | url }}">Guides</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/travel/index.html' | url }}">Travel <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/travel/trip-ideas.html' | url }}">Trip Ideas</a></li>
+              <li><a href="{{ '/travel/destinations.html' | url }}">Destinations</a></li>
+              <li><a href="{{ '/travel/tips-planning.html' | url }}">Tips &amp; Planning</a></li>
+              <li><a href="{{ '/travel/stays.html' | url }}">Stays (Hotels)</a></li>
+              <li><a href="{{ '/travel/experiences.html' | url }}">Experiences</a></li>
+              <li><a href="{{ '/travel/transport.html' | url }}">Transport</a></li>
+              <li><a href="{{ '/travel/things-to-do.html' | url }}">Things To Do</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/culture-arts/index.html' | url }}">Culture &amp; Arts <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/culture-arts/culture.html' | url }}">Culture</a></li>
+              <li><a href="{{ '/culture-arts/arts.html' | url }}">Arts</a></li>
+              <li><a href="{{ '/culture-arts/history.html' | url }}">History</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown magz-dropdown">
+            <a href="{{ '/shopping/index.html' | url }}">Shopping <i class="ion-ios-arrow-right"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ '/shopping/tech-deals.html' | url }}">Tech Deals</a></li>
+              <li><a href="{{ '/shopping/subscriptions.html' | url }}">Subscriptions</a></li>
+              <li><a href="{{ '/shopping/travel-deals.html' | url }}">Travel Deals</a></li>
+              <li><a href="{{ '/shopping/vpn-security.html' | url }}">VPN &amp; Security</a></li>
+              <li><a href="{{ '/shopping/marketplaces.html' | url }}">Marketplaces</a></li>
+              <li><a href="{{ '/shopping/multi-merchant-networks.html' | url }}">Multi-merchant Networks</a></li>
+            </ul>
+          </li>
+
+<li><a href="{{ '/test.html' | url }}">Test </a></li>
+
+          <li><a href="{{ '/about-us.html' | url }}">About Us </a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End nav -->
+</header>

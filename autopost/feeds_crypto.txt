@@ -1,0 +1,29 @@
+# === CRYPTO ===
+crypto|https://cointelegraph.com/rss
+crypto|https://cryptopotato.com/feed
+crypto|https://cryptoslate.com/feed/
+crypto|https://cryptonews.com/news/feed/
+crypto|https://thedefiant.io/feed/
+crypto|https://www.ccn.com/rss-feeds/crypto/
+crypto|https://news.bitcoin.com/feed/
+crypto|https://blockonomi.com/feed/
+
+crypto/bitcoin-majors|https://beincrypto.com/bitcoin-news/feed/  
+crypto/bitcoin-majors|https://bitcoinist.com/feed/  
+crypto/bitcoin-majors|https://blockonomi.com/bitcoin/feed  
+crypto/bitcoin-majors|https://livebitcoinnews.com/feed   
+crypto/bitcoin-majors|https://bitcoinmagazine.com/.rss/full/     
+
+crypto/altcoins-web3|https://altcoininvestor.com/latest/rss
+crypto/altcoins-web3|https://dailycoin.com/altcoins/feed
+crypto/altcoins-web3|https://e-cryptonews.com/category/altcoin-news/feed/
+crypto/altcoins-web3|https://beincrypto.com/altcoin-news/feed/
+crypto/altcoins-web3|https://www.ccn.com/news/crypto-news/feeds/
+
+crypto/regulation-security|https://cointelegraph.com/rss/tag/regulation
+crypto/regulation-security|https://thedefiant.io/feed/    # Shpesh për regulacion & defi
+
+crypto/guides|https://blockonomi.com/feed/
+crypto/guides|https://news.bitcoin.com/feed/
+crypto/guides|https://cryptobriefing.com/feed/
+crypto/guides|https://cryptopotato.com/feed/

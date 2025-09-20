@@ -1,0 +1,35 @@
+---
+permalink: sitemap.xml
+layout: null
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% set hostname = (site.url or 'https://aventuroo.com') %}
+  {% set excludedFileStems = [
+    '/403',
+    '/404',
+    '/500',
+    '/503'
+  ] %}
+  {% for entry in collections.all | sort(attribute='url') %}
+    {% set sitemapData = entry.data.sitemap %}
+    {% if entry.url and (excludedFileStems.indexOf(entry.filePathStem) === -1) and entry.outputPath and entry.outputPath.endsWith('.html') and sitemapData is not sameas(false) %}
+      {% set absoluteUrl = entry.url | url | toAbsoluteUrl(hostname) %}
+      <url>
+        <loc>{{ absoluteUrl }}</loc>
+        {% set lastmodSource = sitemapData and sitemapData.lastmod or entry.data.lastModified or entry.date %}
+        {% set lastmodIso = lastmodSource and lastmodSource.toISOString() %}
+        {% if lastmodIso %}
+          <lastmod>{{ lastmodIso.slice(0, 10) }}</lastmod>
+        {% endif %}
+        {% if sitemapData and sitemapData.changefreq %}
+          <changefreq>{{ sitemapData.changefreq }}</changefreq>
+        {% endif %}
+        {% if sitemapData and sitemapData.priority %}
+          <priority>{{ sitemapData.priority }}</priority>
+        {% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
