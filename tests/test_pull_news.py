@@ -1,9 +1,12 @@
 import contextlib
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
 from unittest import mock
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 from autopost import pull_news
 
@@ -35,7 +38,6 @@ class ResolveCoverUrlTests(unittest.TestCase):
 class FeedUrlParsingTests(unittest.TestCase):
     def test_inline_comment_in_feed_url_stripped(self):
         original_feeds = pull_news.FEEDS
-        original_posts_json = pull_news.POSTS_JSON
         original_seen_db = pull_news.SEEN_DB
         original_data_dir = pull_news.DATA_DIR
 
@@ -50,7 +52,6 @@ class FeedUrlParsingTests(unittest.TestCase):
 
                 pull_news.FEEDS = feed_file
                 pull_news.DATA_DIR = tmp_path
-                pull_news.POSTS_JSON = tmp_path / "posts.json"
                 pull_news.SEEN_DB = tmp_path / "seen.json"
 
                 fetched_urls = []
@@ -72,7 +73,6 @@ class FeedUrlParsingTests(unittest.TestCase):
                 self.assertEqual(fetched_urls, ["https://example.com/feed/"])
         finally:
             pull_news.FEEDS = original_feeds
-            pull_news.POSTS_JSON = original_posts_json
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
 
@@ -85,7 +85,6 @@ class MaxPerFeedLimitTests(unittest.TestCase):
         ]
 
         original_feeds = pull_news.FEEDS
-        original_posts_json = pull_news.POSTS_JSON
         original_seen_db = pull_news.SEEN_DB
         original_data_dir = pull_news.DATA_DIR
         original_max_per_feed = pull_news.MAX_PER_FEED
@@ -98,7 +97,6 @@ class MaxPerFeedLimitTests(unittest.TestCase):
 
                 pull_news.FEEDS = feed_file
                 pull_news.DATA_DIR = tmp_path
-                pull_news.POSTS_JSON = tmp_path / "posts.json"
                 pull_news.SEEN_DB = tmp_path / "seen.json"
                 pull_news.MAX_PER_FEED = 2
 
@@ -113,11 +111,22 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                         stack.enter_context(patcher)
                     pull_news.main()
 
-                data = json.loads(pull_news.POSTS_JSON.read_text(encoding="utf-8"))
+                parent_slug = pull_news.slugify_taxonomy("Test")
+                child_slug = pull_news.slugify_taxonomy("Sub")
+                hot_path = tmp_path / "hot" / parent_slug / f"{child_slug}.json"
+                self.assertTrue(hot_path.exists(), f"Expected {hot_path} to be created")
+
+                data = json.loads(hot_path.read_text(encoding="utf-8"))
                 self.assertEqual(len(data), 2)
+                for item in data:
+                    self.assertSetEqual(
+                        set(item.keys()),
+                        {"slug", "title", "date", "cover", "canonical", "excerpt", "source"},
+                    )
+                    self.assertTrue(item["canonical"].startswith("https://archive.aventuroo.com/"))
+                    self.assertNotIn("body", item)
         finally:
             pull_news.FEEDS = original_feeds
-            pull_news.POSTS_JSON = original_posts_json
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
             pull_news.MAX_PER_FEED = original_max_per_feed

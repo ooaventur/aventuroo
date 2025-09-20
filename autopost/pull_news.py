@@ -11,8 +11,8 @@ Reads feeds in the form:
 • Keeps roughly TARGET_WORDS words by whole paragraph/heading/blockquote/list blocks.
 • Strips ads/widgets (scripts, iframes, common ad/related/newsletter blocks).
 • Picks a clear cover image (largest media/proper https/proxy/fallback).
-• Writes data/posts.json items with:
-  {slug,title,category,subcategory,date,excerpt,cover,source,source_domain,source_name,author,rights,body}
+• Writes hot shards under data/hot/<parent>/<child>.json with:
+  {slug,title,date,cover,canonical,excerpt,source}
 • Applies per-(Category/Subcategory) limits.
 
 Run:
@@ -53,7 +53,6 @@ def _env_int(name: str, default: int) -> int:
 # ------------------ Config ------------------
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-POSTS_JSON = DATA_DIR / "posts.json"
 # Use your uploaded feeds file:
 FEEDS = pathlib.Path(
     os.getenv("FEEDS_FILE") or (ROOT / "autopost" / "feeds_news.txt")
@@ -75,6 +74,11 @@ HTTP_TIMEOUT = _env_int("HTTP_TIMEOUT", 18)
 UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
+ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
+
+HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
+HOT_DEFAULT_PARENT_SLUG = "general"
+HOT_DEFAULT_CHILD_SLUG = "index"
 
 
 TRACKING_PARAM_PREFIXES = ("utm_",)
@@ -875,6 +879,34 @@ def _normalize_post_entry(entry):
     return normalized
 
 
+def _normalize_hot_entry(entry: dict | None) -> dict | None:
+    if not isinstance(entry, dict):
+        return None
+
+    slug_value = (entry.get("slug") or "").strip()
+    if not slug_value:
+        return None
+
+    normalized: dict[str, str] = {"slug": slug_value}
+
+    for key in HOT_ENTRY_FIELDS:
+        if key == "slug":
+            continue
+        value = entry.get(key)
+        if value is None:
+            continue
+        if isinstance(value, str):
+            value = value.strip()
+        if key == "date":
+            value = _normalize_date_string(str(value)) or today_iso()
+        normalized[key] = value
+
+    if "date" not in normalized:
+        normalized["date"] = today_iso()
+
+    return normalized
+
+
 def _normalize_date_string(value: str) -> str:
     value = (value or "").strip()
     if not value:
@@ -963,6 +995,72 @@ def _entry_sort_key(entry) -> str:
 def today_iso() -> str:
     return datetime.datetime.utcnow().strftime("%Y-%m-%d")
 
+
+def _determine_bucket_slugs(entry: dict) -> tuple[str, str]:
+    if not isinstance(entry, dict):
+        return HOT_DEFAULT_PARENT_SLUG, ""
+
+    raw_category_slug = (entry.get("category_slug") or "").strip()
+    cat_slug = ""
+    sub_slug = ""
+    if raw_category_slug:
+        cat_slug, sub_slug = split_category_slug(raw_category_slug)
+
+    if not cat_slug:
+        cat_slug = slugify_taxonomy(entry.get("category"))
+    if not sub_slug:
+        sub_slug = slugify_taxonomy(entry.get("subcategory"))
+
+    cat_slug = cat_slug or HOT_DEFAULT_PARENT_SLUG
+    sub_slug = sub_slug or ""
+    return cat_slug, sub_slug
+
+
+def _hot_bucket_path(base_dir: pathlib.Path, parent_slug: str, child_slug: str) -> pathlib.Path:
+    parent = slugify_taxonomy(parent_slug) or HOT_DEFAULT_PARENT_SLUG
+    child = slugify_taxonomy(child_slug) or HOT_DEFAULT_CHILD_SLUG
+    return base_dir / "hot" / parent / f"{child}.json"
+
+
+def _load_hot_entries(path: pathlib.Path) -> list[dict]:
+    if not path.exists():
+        return []
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    if not isinstance(raw, list):
+        return []
+    normalized: list[dict] = []
+    for item in raw:
+        normalized_item = _normalize_hot_entry(item)
+        if normalized_item is not None:
+            normalized.append(normalized_item)
+    return normalized
+
+
+def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> str:
+    base = ARCHIVE_BASE_URL.rstrip("/")
+    if not base:
+        return ""
+
+    slug_clean = (slug or "").strip().strip("/")
+    parent_clean = slugify_taxonomy(parent_slug)
+    child_clean = slugify_taxonomy(child_slug)
+
+    parts = [base]
+    if parent_clean:
+        parts.append(parent_clean)
+    if child_clean:
+        parts.append(child_clean)
+    if slug_clean:
+        parts.append(slug_clean)
+
+    url = "/".join(parts)
+    if slug_clean:
+        url += "/"
+    return url
+
 # ------------------ Main ------------------
 def main():
     DATA_DIR.mkdir(exist_ok=True, parents=True)
@@ -979,24 +1077,6 @@ def main():
     else:
         seen = {}
 
-    # posts index
-    if POSTS_JSON.exists():
-        try:
-            posts_idx = json.loads(POSTS_JSON.read_text(encoding="utf-8"))
-            if not isinstance(posts_idx, list):
-                posts_idx = []
-        except json.JSONDecodeError:
-            posts_idx = []
-    else:
-        posts_idx = []
-
-    posts_idx = [
-        normalized for normalized in (
-            _normalize_post_entry(item) for item in posts_idx
-        )
-        if normalized is not None
-    ]
-
     if not FEEDS.exists():
         print("ERROR: feeds file not found:", FEEDS)
         return
@@ -1006,6 +1086,7 @@ def main():
     if not isinstance(target_words, int) or target_words <= 0:
         target_words = SUMMARY_WORDS
     per_cat = {}
+    per_feed_counts: dict[str, int] = {}
     new_entries = []
 
     current_sub_label = ""
@@ -1097,11 +1178,15 @@ def main():
 
         print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
         xml = fetch_bytes(feed_url)
+        per_feed_counts[feed_url] = 0
         if not xml:
             print("Feed empty:", feed_url)
             continue
 
         for it in parse_feed(xml):
+            if MAX_PER_FEED > 0 and per_feed_counts.get(feed_url, 0) >= MAX_PER_FEED:
+                break
+
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
                 break
 
@@ -1211,6 +1296,7 @@ def main():
                 continue
 
             new_entries.append(entry)
+            per_feed_counts[feed_url] = per_feed_counts.get(feed_url, 0) + 1
 
             normalized_category_slug = entry.get("category_slug") or category_slug_value or cat_slug
             normalized_category_label = entry.get("category") or category_label
@@ -1233,19 +1319,54 @@ def main():
         SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
         return
 
-    posts_idx = new_entries + posts_idx
-    posts_idx.sort(key=_entry_sort_key, reverse=True)
-    if MAX_POSTS_PERSIST > 0:
-        posts_idx = posts_idx[:MAX_POSTS_PERSIST]
+    hot_dir = DATA_DIR / "hot"
+    hot_dir.mkdir(parents=True, exist_ok=True)
 
-    posts_idx = [
-        normalized for normalized in (
-            _normalize_post_entry(item) for item in posts_idx
+    buckets: dict[tuple[str, str], list[dict]] = {}
+    for entry in new_entries:
+        parent_slug, child_slug = _determine_bucket_slugs(entry)
+        canonical_url = _build_archive_canonical(entry.get("slug"), parent_slug, child_slug)
+        trimmed = _normalize_hot_entry({
+            "slug": entry.get("slug"),
+            "title": entry.get("title"),
+            "date": entry.get("date"),
+            "cover": entry.get("cover"),
+            "canonical": canonical_url,
+            "excerpt": entry.get("excerpt"),
+            "source": entry.get("source"),
+        })
+        if trimmed is None:
+            continue
+        key = (parent_slug, child_slug)
+        buckets.setdefault(key, []).append(trimmed)
+
+    for (parent_slug, child_slug), items in buckets.items():
+        bucket_path = _hot_bucket_path(DATA_DIR, parent_slug, child_slug)
+        existing_items = _load_hot_entries(bucket_path)
+        combined = items + existing_items
+
+        normalized_combined: list[dict] = []
+        seen_slugs: set[str] = set()
+        for candidate in combined:
+            normalized_candidate = _normalize_hot_entry(candidate)
+            if normalized_candidate is None:
+                continue
+            slug_value = normalized_candidate["slug"]
+            if slug_value in seen_slugs:
+                continue
+            seen_slugs.add(slug_value)
+            normalized_combined.append(normalized_candidate)
+
+        normalized_combined.sort(key=_entry_sort_key, reverse=True)
+        if MAX_POSTS_PERSIST > 0:
+            normalized_combined = normalized_combined[:MAX_POSTS_PERSIST]
+
+        bucket_path.parent.mkdir(parents=True, exist_ok=True)
+        bucket_path.write_text(
+            json.dumps(normalized_combined, ensure_ascii=False, indent=2),
+            encoding="utf-8",
         )
-        if normalized is not None
-    ]
 
-    POSTS_JSON.write_text(json.dumps(posts_idx, ensure_ascii=False, indent=2), encoding="utf-8")
     SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
     print("New posts this run:", len(new_entries))
 
