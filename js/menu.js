@@ -77,8 +77,21 @@
       if (col.links && col.links.length) {
         var ul = el('ul', 'vertical-menu');
         col.links.forEach(function (lnk) {
+          if (lnk.heading) {
+            ul.appendChild(el('h2', 'megamenu-title', lnk.heading));
+            return;
+          }
           var li = document.createElement('li');
-          li.appendChild(buildLink({ title: lnk.title, href: lnk.href || '#', target: lnk.target }));
+          li.appendChild(buildLink({
+            title: lnk.title,
+            href: lnk.href || '#',
+            target: lnk.target,
+            icon: lnk.icon
+          }));
+          if (lnk.badge) {
+            var badge = el('div', 'badge', lnk.badge);
+            li.appendChild(badge);
+          }
           ul.appendChild(li);
         });
         c.appendChild(ul);
