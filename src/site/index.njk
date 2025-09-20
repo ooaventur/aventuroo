@@ -1,6 +1,11 @@
 ---
 layout: layouts/base.njk
 permalink: index.html
+featuredFallbackSlugs:
+  - opinion-robert-redford-will-always-light-up-our-screens-2025-09-20
+  - scientists-uncover-exercise-s-secret-hunger-busting-molecule-2025-09-20
+  - scientists-discover-cancer-s-hidden-power-to-accelerate-aging-2025-09-20
+  - sabrina-carpenter-goes-back-to-basics-with-a-look-fit-for-a-country-music-star-2025-09-20
 ---
 <section class="home">
         <div class="container">
@@ -32,7 +37,7 @@ permalink: index.html
                                                         </figure>
                                                         <div class="details">
                                                                 <div class="category"><a href="category.html">Computer</a></div>
-                                                                <h1><a href="single.html">Phasellus iaculis quam sed est elementum vel ornare ligula venenatis</a></h1>
+                                                                <h1><a href="{{ '/article.html' | url }}?slug={{ featuredFallbackSlugs[0] | urlencode }}">Phasellus iaculis quam sed est elementum vel ornare ligula venenatis</a></h1>
                                                                 <div class="time">December 26, 2016</div>
                                                         </div>
                                                 </article>
@@ -45,7 +50,7 @@ permalink: index.html
                                                         </figure>
                                                         <div class="details">
                                                                 <div class="category"><a href="category.html">Travel</a></div>
-                                                                <h1><a href="single.html">Class aptent taciti sociosqu ad litora torquent per conubia nostra</a></h1>
+                                                                <h1><a href="{{ '/article.html' | url }}?slug={{ featuredFallbackSlugs[1] | urlencode }}">Class aptent taciti sociosqu ad litora torquent per conubia nostra</a></h1>
                                                                 <div class="time">December 10, 2016</div>
                                                         </div>
                                                 </article>
@@ -58,7 +63,7 @@ permalink: index.html
                                                         </figure>
                                                         <div class="details">
                                                                 <div class="category"><a href="category.html">International</a></div>
-                                                                <h1><a href="single.html">Maecenas accumsan tortor ut velit pharetra mollis</a></h1>
+                                                                <h1><a href="{{ '/article.html' | url }}?slug={{ featuredFallbackSlugs[2] | urlencode }}">Maecenas accumsan tortor ut velit pharetra mollis</a></h1>
                                                                 <div class="time">October 12, 2016</div>
                                                         </div>
                                                 </article>
@@ -71,7 +76,7 @@ permalink: index.html
                                                         </figure>
                                                         <div class="details">
                                                                 <div class="category"><a href="category.html">Lifestyle</a></div>
-                                                                <h1><a href="single.html">Mauris elementum libero at pharetra auctor Fusce ullamcorper elit</a></h1>
+                                                                <h1><a href="{{ '/article.html' | url }}?slug={{ featuredFallbackSlugs[3] | urlencode }}">Mauris elementum libero at pharetra auctor Fusce ullamcorper elit</a></h1>
                                                                 <div class="time">November 27, 2016</div>
                                                         </div>
                                                 </article>
@@ -176,7 +181,7 @@ permalink: index.html
         <aside id="sidebar-top-ad">
           <div class="aside-body">
             <figure class="ads">
-              <a href="{{ '/single.html' | url }}">
+              <a href="{{ '/article.html' | url }}?slug={{ site.adFallbackSlug | urlencode }}">
                 <img src="{{ '/images/ad.png' | url }}" alt="Advertisement">
               </a>
               <figcaption>Advertisement</figcaption>
@@ -193,7 +198,7 @@ permalink: index.html
         <aside id="sidebar-third-ad">
           <div class="aside-body">
             <figure class="ads">
-              <a href="{{ '/single.html' | url }}">
+              <a href="{{ '/article.html' | url }}?slug={{ site.adFallbackSlug | urlencode }}">
                 <img src="{{ '/images/ad.png' | url }}" alt="Advertisement">
               </a>
               <figcaption>Advertisement</figcaption>

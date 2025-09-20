@@ -4,7 +4,7 @@
     "category": "Film",
     "date": "December 19, 2016",
     "image": "images/news/img11.jpg",
-    "link": "single.html",
+    "link": "article.html?slug=taylor-swift-s-latest-showgirl-look-is-another-bob-mackie-masterpiece-2025-09-20",
     "excerpt": "Donec consequat, arcu at ultrices sodales, quam erat aliquet diam, sit amet interdum libero nunc accumsan nisi."
   },
   {
@@ -12,7 +12,7 @@
     "category": "Travel",
     "date": "December 18, 2016",
     "image": "images/news/img02.jpg",
-    "link": "single.html",
+    "link": "article.html?slug=dua-lipa-shimmers-in-a-beaded-gucci-skirt-that-proves-florals-are-for-fall-2025-09-20",
     "excerpt": "Maecenas accumsan tortor ut velit pharetra mollis. Proin eu nisl et arcu iaculis placerat sollicitudin ut est. In fringilla dui."
   },
   {
@@ -20,7 +20,7 @@
     "category": "Healthy",
     "date": "December 16, 2016",
     "image": "images/news/img09.jpg",
-    "link": "single.html",
+    "link": "article.html?slug=luxury-apartment-living-off-road-and-off-grid-capability-noovo-next-campervan-2025-09-20",
     "excerpt": "Maecenas blandit ultricies lorem, id tempor enim pulvinar at. Curabitur sit amet tortor eu ipsum lacinia malesuada. Etiam sed vulputate magna."
   }
 ]
