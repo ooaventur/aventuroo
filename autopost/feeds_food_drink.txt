@@ -1,6 +1,6 @@
 # === FOOD & DRINK / GENERAL ===
-Food & Drink|General|https://www.delish.com/rss/all.xml/
-Food & Drink|General|https://www.tasteofhome.com/feed/
+Food & Drink|https://www.delish.com/rss/all.xml/
+Food & Drink|https://www.tasteofhome.com/feed/
 
 # === FOOD ===
 Food & Drink|Food|https://www.bonappetit.com/feed/rss
@@ -15,4 +15,3 @@ Food & Drink|Drink|https://punchdrink.com/feed/
 Food & Drink|Drink|https://www.thedrinksbusiness.com/feed/
 Food & Drink|Drink|https://www.cocktailenthusiast.com/feed/
 Food & Drink|Drink|https://brewbound.com/feed/
-
