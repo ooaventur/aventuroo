@@ -13,12 +13,12 @@ Reads feeds in the form:
 • Picks a clear cover image (largest media/proper https/proxy/fallback).
 • Writes data/posts.json items with:
   {slug,title,category,subcategory,date,excerpt,cover,source,source_domain,source_name,author,rights,body}
-• Applies per-(Category/Subcategory) limits.
+• Applies per-(Category/Subcategory) limits derived from feed counts (default 5 items per feed).
 
 Run:
   python3 "autopost/pull_news.py"
 Env knobs (optional):
-  MAX_PER_CAT, MAX_PER_FEED, MAX_TOTAL, MAX_POSTS_PERSIST, HTTP_TIMEOUT, FALLBACK_COVER, DEFAULT_AUTHOR
+  MAX_PER_FEED, MAX_TOTAL, MAX_POSTS_PERSIST, HTTP_TIMEOUT, FALLBACK_COVER, DEFAULT_AUTHOR
   IMG_TARGET_WIDTH, IMG_PROXY, FORCE_PROXY, TARGET_WORDS, HOT_MAX_ITEMS, HOT_PAGINATION_SIZE
 """
 
@@ -78,7 +78,6 @@ SEEN_DB = ROOT / "autopost" / SEEN_DB_FILENAME
 
 
 MAX_PER_FEED = _env_int("MAX_PER_FEED", 5)
-MAX_PER_CAT = _env_int("MAX_PER_CAT", 5)
 MAX_TOTAL   = _env_int("MAX_TOTAL", 0)
 SUMMARY_WORDS = _env_int("SUMMARY_WORDS", 900)  # kept for compatibility
 TARGET_WORDS = _env_int("TARGET_WORDS", SUMMARY_WORDS)
@@ -88,6 +87,8 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
+
+IMPORTANT_FEED_CAP = 10
 
 HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
 HOT_DEFAULT_PARENT_SLUG = "general"
@@ -1151,6 +1152,239 @@ def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> st
     if slug_clean:
         url += "/"
     return url
+
+
+def _parse_per_feed_cap_value(text: str) -> Optional[int]:
+    """Extract an integer per-feed cap from ``text`` if present."""
+
+    raw = (text or "").strip()
+    if not raw:
+        return None
+
+    m = re.search(r"(?i)(?:max|cap|limit|per[_-]?feed)\s*[=:]\s*(\d+)", raw)
+    if m:
+        try:
+            return int(m.group(1))
+        except ValueError:
+            return None
+
+    m = re.search(r"(?i)(?:importance|priority)\s*[=:]\s*([a-z0-9_-]+)", raw)
+    if m:
+        value = m.group(1).strip().lower()
+        if any(token in value for token in ("high", "top", "important", "boost")):
+            return IMPORTANT_FEED_CAP
+
+    return None
+
+
+def _merge_per_feed_cap(base: int, candidate: Optional[int]) -> int:
+    """Return a merged per-feed cap preferring higher positive values."""
+
+    if candidate is None:
+        return max(base, 0)
+
+    try:
+        candidate_val = int(candidate)
+    except (TypeError, ValueError):
+        return max(base, 0)
+
+    if candidate_val <= 0:
+        return 0
+
+    base_val = max(base, 0)
+    if base_val <= 0:
+        return candidate_val
+
+    return max(base_val, candidate_val)
+
+
+def _load_feed_specs(
+    *,
+    category_filter_raw: str,
+    category_filter_norm: str,
+    category_filter_lower: str,
+    default_per_feed_cap: int,
+) -> tuple[list[dict], dict[str, int]]:
+    """Parse feeds file into structured specs and per-category caps."""
+
+    default_cap = max(default_per_feed_cap, 0)
+    feed_specs: list[dict] = []
+    caps_by_key: dict[str, int] = {}
+    subcategory_feed_counts: defaultdict[str, int] = defaultdict(int)
+
+    current_sub_label = ""
+    current_sub_slug = ""
+    pending_comment_cap: Optional[int] = None
+    pending_comment_slug = ""
+
+    try:
+        raw_lines = FEEDS.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        raw_lines = []
+
+    for raw_line in raw_lines:
+        raw = raw_line.strip()
+        if not raw:
+            continue
+
+        if raw.startswith("#"):
+            comment_cap = _parse_per_feed_cap_value(raw)
+            m = re.search(r"#\s*===\s*[^/]+/\s*(.+?)\s*===", raw, flags=re.I)
+            if m:
+                current_sub_label = m.group(1).strip().title()
+                current_sub_slug = slugify_taxonomy(current_sub_label)
+                pending_comment_slug = current_sub_slug
+            if comment_cap is not None:
+                pending_comment_cap = comment_cap
+                if current_sub_slug:
+                    pending_comment_slug = current_sub_slug
+                elif not pending_comment_slug:
+                    pending_comment_slug = ""
+            elif m:
+                pending_comment_cap = None
+            continue
+
+        if "|" not in raw:
+            continue
+
+        parts_raw = [p.strip() for p in raw.split("|") if p.strip()]
+        if len(parts_raw) < 2:
+            continue
+
+        feed_url = parts_raw[-1]
+        feed_url = re.split(r"\s+#", feed_url, 1)[0].strip()
+        if not feed_url:
+            continue
+
+        meta_parts = parts_raw[:-1]
+        label_parts: list[str] = []
+        config_parts: list[str] = []
+        for token in meta_parts:
+            token_clean = token.strip()
+            low = token_clean.casefold()
+            if "=" in token_clean or "importance" in low or "priority" in low:
+                config_parts.append(token_clean)
+            else:
+                label_parts.append(token_clean)
+
+        config_cap = _parse_per_feed_cap_value(" ".join(config_parts))
+
+        category_label = ""
+        subcategory_label = ""
+        category_slug_value = ""
+
+        if len(label_parts) >= 2:
+            category_label = label_parts[0]
+            subcategory_label = label_parts[1]
+        elif label_parts:
+            cat_str = label_parts[0]
+            segments = [seg.strip() for seg in cat_str.split("/") if seg.strip()]
+            if segments:
+                category_label = segments[0]
+                if len(segments) > 1:
+                    subcategory_label = segments[-1]
+                slug_parts = [slugify_taxonomy(seg) for seg in segments if slugify_taxonomy(seg)]
+                if slug_parts:
+                    category_slug_value = "/".join(slug_parts)
+            else:
+                category_label = cat_str
+
+        category_label = (category_label or "").strip()
+        subcategory_label = (subcategory_label or "").strip()
+
+        derived_cat_slug = ""
+        derived_sub_slug = ""
+        if category_slug_value:
+            derived_cat_slug, derived_sub_slug = split_category_slug(category_slug_value)
+
+        cat_slug = derived_cat_slug or slugify_taxonomy(category_label)
+        sub_slug = derived_sub_slug or slugify_taxonomy(subcategory_label)
+
+        if not subcategory_label and current_sub_label:
+            subcategory_label = current_sub_label
+            sub_slug = sub_slug or current_sub_slug or slugify_taxonomy(subcategory_label)
+
+        if not category_label and cat_slug:
+            category_label = category_label_from_slug(cat_slug)
+        if not subcategory_label and sub_slug:
+            subcategory_label = subcategory_label_from_slug(sub_slug, cat_slug)
+        else:
+            subcategory_label = (subcategory_label or "").strip()
+
+        category_label = _normalize_label_from_slug(category_label, cat_slug)
+        if sub_slug:
+            subcategory_label = _normalize_label_from_slug(subcategory_label, sub_slug, cat_slug)
+        else:
+            subcategory_label = (subcategory_label or "").strip()
+
+        slug_parts = [p for p in (cat_slug, sub_slug) if p]
+        if slug_parts:
+            category_slug_value = "/".join(slug_parts)
+        else:
+            category_slug_value = (category_slug_value or "").strip().strip("/")
+
+        category_label_norm = cat_slug or slugify_taxonomy(category_label)
+        category_label_lower = (category_label or "").strip().casefold()
+        if not category_label_lower and category_label_norm:
+            category_label_lower = category_label_norm
+
+        if category_filter_raw:
+            if category_filter_norm and category_label_norm:
+                if category_label_norm != category_filter_norm:
+                    continue
+            else:
+                if category_label_lower != category_filter_lower:
+                    continue
+
+        key_limit = category_slug_value or cat_slug or (category_label or "_")
+
+        existing_cap = caps_by_key.get(key_limit)
+        comment_cap = None
+        if pending_comment_cap is not None:
+            if pending_comment_slug:
+                if sub_slug == pending_comment_slug:
+                    comment_cap = pending_comment_cap
+            else:
+                comment_cap = pending_comment_cap
+
+        per_feed_cap = default_cap
+        per_feed_cap = _merge_per_feed_cap(per_feed_cap, existing_cap)
+        per_feed_cap = _merge_per_feed_cap(per_feed_cap, comment_cap)
+        per_feed_cap = _merge_per_feed_cap(per_feed_cap, config_cap)
+
+        caps_by_key[key_limit] = per_feed_cap
+        subcategory_feed_counts[key_limit] += 1
+
+        feed_specs.append(
+            {
+                "category_label": category_label,
+                "subcategory_label": subcategory_label,
+                "category_slug_value": category_slug_value,
+                "cat_slug": cat_slug,
+                "sub_slug": sub_slug,
+                "feed_url": feed_url,
+                "per_feed_cap": per_feed_cap,
+                "key_limit": key_limit,
+            }
+        )
+
+        if comment_cap is not None:
+            pending_comment_cap = None
+            pending_comment_slug = ""
+
+    for spec in feed_specs:
+        key = spec.get("key_limit", "")
+        spec["per_feed_cap"] = caps_by_key.get(key, default_cap)
+
+    per_cat_limit: dict[str, int] = {}
+    for key, feed_count in subcategory_feed_counts.items():
+        cap_value = caps_by_key.get(key, default_cap)
+        if cap_value > 0 and feed_count > 0:
+            per_cat_limit[key] = cap_value * feed_count
+        else:
+            per_cat_limit[key] = 0
+
+    return feed_specs, per_cat_limit
 # ------------------ Main ------------------
 def _run_autopost() -> list[dict]:
     DATA_DIR.mkdir(exist_ok=True, parents=True)
@@ -1197,104 +1431,53 @@ def _run_autopost() -> list[dict]:
     category_filter_norm = slugify_taxonomy(category_filter_raw)
     category_filter_lower = category_filter_raw.casefold() if category_filter_raw else ""
 
-    current_sub_label = ""
-    current_sub_slug = ""
+    default_per_feed_cap = MAX_PER_FEED
+    if default_per_feed_cap < 0:
+        default_per_feed_cap = 0
 
-    for raw in FEEDS.read_text(encoding="utf-8").splitlines():
-        raw = raw.strip()
-        if not raw:
-            continue
-        if raw.startswith("#"):
-            # Support comments like: # === NEWS / POLITICS ===
-            m = re.search(r"#\s*===\s*[^/]+/\s*(.+?)\s*===", raw, flags=re.I)
-            if m:
-                current_sub_label = m.group(1).strip().title()
-                current_sub_slug = slugify_taxonomy(current_sub_label)
-            continue
+    feed_specs, per_cat_limit = _load_feed_specs(
+        category_filter_raw=category_filter_raw,
+        category_filter_norm=category_filter_norm,
+        category_filter_lower=category_filter_lower,
+        default_per_feed_cap=default_per_feed_cap,
+    )
 
-        if "|" not in raw:
-            continue
-        parts = [p.strip() for p in raw.split("|") if p.strip()]
-        if len(parts) < 2:
-            continue
-
-        feed_url = ""
-        category_label = ""
-        subcategory_label = ""
-        category_slug_value = ""
-
-        # Support: category|subcategory|url OR legacy: category|url OR category/sub|url
-        if len(parts) == 3:
-            category_label = parts[0]
-            subcategory_label = parts[1]
-            feed_url = parts[2]
-        else:
-            cat_str = parts[0]
-            feed_url = parts[1]
-            segments = [seg.strip() for seg in cat_str.split("/") if seg.strip()]
-            if segments:
-                category_label = segments[0]
-                if len(segments) > 1:
-                    subcategory_label = segments[-1]
-                slug_parts = [slugify_taxonomy(seg) for seg in segments if slugify_taxonomy(seg)]
-                if slug_parts:
-                    category_slug_value = "/".join(slug_parts)
-            else:
-                category_label = cat_str
-
-        category_label = (category_label or "").strip()
-        subcategory_label = (subcategory_label or "").strip()
-        feed_url = (feed_url or "").strip()
-        feed_url = re.split(r"\s+#", feed_url, 1)[0].strip()
+    for spec in feed_specs:
+        category_label = spec.get("category_label", "")
+        subcategory_label = spec.get("subcategory_label", "")
+        cat_slug = spec.get("cat_slug", "")
+        sub_slug = spec.get("sub_slug", "")
+        category_slug_value = spec.get("category_slug_value", "")
+        feed_url = spec.get("feed_url", "")
         if not feed_url:
             continue
 
-        derived_cat_slug = ""
-        derived_sub_slug = ""
-        if category_slug_value:
-            derived_cat_slug, derived_sub_slug = split_category_slug(category_slug_value)
+        key_limit = spec.get("key_limit", category_slug_value or cat_slug or (category_label or "_"))
+        try:
+            feed_cap_limit = int(spec.get("per_feed_cap", default_per_feed_cap))
+        except (TypeError, ValueError):
+            feed_cap_limit = default_per_feed_cap
+        if feed_cap_limit < 0:
+            feed_cap_limit = 0
+        cat_cap_limit = per_cat_limit.get(key_limit, 0)
+        if not isinstance(cat_cap_limit, int):
+            try:
+                cat_cap_limit = int(cat_cap_limit)
+            except (TypeError, ValueError):
+                cat_cap_limit = 0
+        if cat_cap_limit < 0:
+            cat_cap_limit = 0
 
-        cat_slug = derived_cat_slug or slugify_taxonomy(category_label)
-        sub_slug = derived_sub_slug or slugify_taxonomy(subcategory_label)
+        cap_display = "∞" if feed_cap_limit <= 0 else str(feed_cap_limit)
+        cat_cap_display = ""
+        if cat_cap_limit > 0:
+            cat_cap_display = f", total {cat_cap_limit}"
 
-        if not subcategory_label and current_sub_label:
-            subcategory_label = current_sub_label
-            sub_slug = sub_slug or current_sub_slug or slugify_taxonomy(subcategory_label)
+        print(
+            f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url} "
+            f"(per-feed {cap_display}{cat_cap_display})"
+        )
 
-        if not category_label and cat_slug:
-            category_label = category_label_from_slug(cat_slug)
-        if not subcategory_label and sub_slug:
-            subcategory_label = subcategory_label_from_slug(sub_slug, cat_slug)
-        else:
-            subcategory_label = (subcategory_label or "").strip()
-
-        category_label = _normalize_label_from_slug(category_label, cat_slug)
-        if sub_slug:
-            subcategory_label = _normalize_label_from_slug(subcategory_label, sub_slug, cat_slug)
-        else:
-            subcategory_label = (subcategory_label or "").strip()
-
-        slug_parts = [p for p in (cat_slug, sub_slug) if p]
-        if slug_parts:
-            category_slug_value = "/".join(slug_parts)
-        else:
-            category_slug_value = (category_slug_value or "").strip().strip("/")
-
-        category_label_norm = cat_slug or slugify_taxonomy(category_label)
-        category_label_lower = (category_label or "").strip().casefold()
-        if not category_label_lower and category_label_norm:
-            category_label_lower = category_label_norm
-
-        # Optional filter by env CATEGORY (leave empty to accept all)
-        if category_filter_raw:
-            if category_filter_norm and category_label_norm:
-                if category_label_norm != category_filter_norm:
-                    continue
-            else:
-                if category_label_lower != category_filter_lower:
-                    continue
-
-        print(f"[FEED] {category_label} / {subcategory_label or '-'} -> {feed_url}")
         xml = fetch_bytes(feed_url)
         per_feed_counts[feed_url] = 0
         if not xml:
@@ -1303,14 +1486,13 @@ def _run_autopost() -> list[dict]:
 
         for it in parse_feed(xml):
             # enforce per-feed limit
-            if MAX_PER_FEED > 0 and per_feed_counts.get(feed_url, 0) >= MAX_PER_FEED:
+            if feed_cap_limit > 0 and per_feed_counts.get(feed_url, 0) >= feed_cap_limit:
                 break
 
             if MAX_TOTAL > 0 and added_total >= MAX_TOTAL:
                 break
 
-            key_limit = category_slug_value or cat_slug or (category_label or "_")
-            if per_cat.get(key_limit, 0) >= MAX_PER_CAT:
+            if cat_cap_limit > 0 and per_cat.get(key_limit, 0) >= cat_cap_limit:
                 continue
 
             title = (it.get("title") or "").strip()
