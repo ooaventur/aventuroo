@@ -11,9 +11,246 @@
     }
   };
 
-  var POSTS_SOURCES = ['/data/posts.json', 'data/posts.json'];
+  var LEGACY_POSTS_SOURCES = ['/data/posts.json', 'data/posts.json'];
   var BEST_OF_WEEK_SOURCES = ['data/best-of-week.json', '/data/best-of-week.json'];
   var DEFAULT_IMAGE = basePath.resolve ? basePath.resolve('/images/logo.png') : '/images/logo.png';
+  var HOT_SHARD_ROOT = '/data/hot';
+  var DEFAULT_SCOPE = { parent: 'index', child: 'index' };
+  var HOT_POSTS_CACHE = Object.create(null);
+
+  function fetchSequential(urls) {
+    if (!window.AventurOODataLoader || typeof window.AventurOODataLoader.fetchSequential !== 'function') {
+      return Promise.reject(new Error('Data loader is not available'));
+    }
+    return window.AventurOODataLoader.fetchSequential(urls);
+  }
+
+  function normalizePostsPayload(payload) {
+    if (!payload) return [];
+    if (Array.isArray(payload)) return payload.slice();
+    if (typeof payload !== 'object') return [];
+    if (Array.isArray(payload.items)) return payload.items.slice();
+    if (Array.isArray(payload.posts)) return payload.posts.slice();
+    if (Array.isArray(payload.data)) return payload.data.slice();
+    if (Array.isArray(payload.results)) return payload.results.slice();
+    return [];
+  }
+
+  function getPostTimestamp(post) {
+    if (!post || typeof post !== 'object') return 0;
+    var sources = [post.date, post.updated_at, post.published_at, post.created_at];
+    for (var i = 0; i < sources.length; i++) {
+      var value = sources[i];
+      if (!value) continue;
+      var parsed = Date.parse(value);
+      if (!isNaN(parsed)) return parsed;
+    }
+    return 0;
+  }
+
+  function sortPosts(posts) {
+    if (!Array.isArray(posts)) return [];
+    return posts.slice().sort(function (a, b) {
+      return getPostTimestamp(b) - getPostTimestamp(a);
+    });
+  }
+
+  function resolvePostKey(post) {
+    if (!post || typeof post !== 'object') return '';
+    if (post.slug) return slugify(post.slug);
+    if (post.url) return String(post.url).trim().toLowerCase();
+    if (post.source) return String(post.source).trim().toLowerCase();
+    if (post.title) return slugify(post.title);
+    return '';
+  }
+
+  function dedupePosts(posts) {
+    if (!Array.isArray(posts)) return [];
+    var seen = Object.create(null);
+    var list = [];
+    for (var i = 0; i < posts.length; i++) {
+      var post = posts[i];
+      var key = resolvePostKey(post);
+      if (key && seen[key]) continue;
+      if (key) seen[key] = true;
+      list.push(post);
+    }
+    return list;
+  }
+
+  function uniqueStrings(values) {
+    var seen = Object.create(null);
+    var list = [];
+    if (!Array.isArray(values)) return list;
+    for (var i = 0; i < values.length; i++) {
+      var value = values[i];
+      if (typeof value !== 'string') continue;
+      var trimmed = value.trim();
+      if (!trimmed || seen[trimmed]) continue;
+      seen[trimmed] = true;
+      list.push(trimmed);
+    }
+    return list;
+  }
+
+  function padNumber(value, length) {
+    var number = parseInt(value, 10);
+    if (isNaN(number)) number = 0;
+    var str = String(Math.abs(number));
+    while (str.length < length) {
+      str = '0' + str;
+    }
+    return str;
+  }
+
+  function buildShardCandidates(parent, child) {
+    var normalizedParent = slugify(parent) || 'index';
+    var normalizedChild = child != null && child !== '' ? slugify(child) : '';
+    if (!normalizedChild) normalizedChild = 'index';
+    var segments = [normalizedParent];
+    if (normalizedChild !== 'index') {
+      segments.push(normalizedChild);
+    }
+    var joined = segments.join('/');
+    var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
+    var basePath = prefix ? prefix + '/' + joined : joined;
+    var relative = basePath.replace(/^\//, '');
+    return uniqueStrings([
+      basePath + '.json',
+      relative + '.json',
+      basePath + '/index.json',
+      relative + '/index.json',
+      basePath + '.json.gz',
+      relative + '.json.gz',
+      basePath + '/index.json.gz',
+      relative + '/index.json.gz'
+    ]);
+  }
+
+  function fetchHotShard(parent, child) {
+    var scopeKey = (parent || 'index') + '::' + (child || 'index');
+    if (HOT_POSTS_CACHE[scopeKey]) {
+      return HOT_POSTS_CACHE[scopeKey];
+    }
+    var candidates = buildShardCandidates(parent, child);
+    HOT_POSTS_CACHE[scopeKey] = fetchSequential(candidates)
+      .then(function (payload) {
+        return dedupePosts(sortPosts(normalizePostsPayload(payload)));
+      })
+      .catch(function (err) {
+        delete HOT_POSTS_CACHE[scopeKey];
+        throw err;
+      });
+    return HOT_POSTS_CACHE[scopeKey];
+  }
+
+  function getPostParentSlug(post) {
+    if (!post || typeof post !== 'object') return '';
+    var raw = post.category_slug;
+    if (raw && typeof raw === 'string') {
+      var parts = raw.split('/');
+      if (parts.length > 1) {
+        var parent = slugify(parts[0]);
+        if (parent) return parent;
+      }
+      var normalizedAll = slugify(raw);
+      if (normalizedAll && normalizedAll.indexOf('-') !== -1) {
+        var maybeParent = normalizedAll.split('-')[0];
+        if (maybeParent) return maybeParent;
+      }
+    }
+    if (post.category) {
+      var normalized = slugify(post.category);
+      if (normalized) return normalized;
+    }
+    return '';
+  }
+
+  function getPostChildSlug(post) {
+    if (!post || typeof post !== 'object') return '';
+    var raw = post.category_slug;
+    if (raw && typeof raw === 'string') {
+      var parts = raw.split('/');
+      if (parts.length > 1) {
+        var child = slugify(parts[parts.length - 1]);
+        if (child) return child;
+      }
+    }
+    if (post.subcategory) {
+      var normalized = slugify(post.subcategory);
+      if (normalized) return normalized;
+    }
+    return '';
+  }
+
+  function matchesScope(post, scope) {
+    if (!post) return false;
+    var parent = scope && scope.parent ? scope.parent : 'index';
+    var child = scope && scope.child ? scope.child : 'index';
+    if (parent === 'index' && child === 'index') return true;
+    if (child !== 'index') {
+      var childSlug = getPostChildSlug(post);
+      if (childSlug && childSlug === child) return true;
+      return false;
+    }
+    if (!parent || parent === 'index') return true;
+    var parentSlug = getPostParentSlug(post);
+    return parentSlug ? parentSlug === parent : false;
+  }
+
+  function filterPostsByScope(posts, scope) {
+    if (!Array.isArray(posts)) return [];
+    return posts.filter(function (post) { return matchesScope(post, scope); });
+  }
+
+  function resolveScopeHint(elements) {
+    var parent = '';
+    var child = '';
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      if (!element || !element.getAttribute) continue;
+      if (!parent) {
+        var p = element.getAttribute('data-hot-parent');
+        if (p) parent = slugify(p);
+      }
+      if (!child) {
+        var c = element.getAttribute('data-hot-child');
+        if (c) child = slugify(c);
+      }
+      if (!child) {
+        var combined = element.getAttribute('data-hot-scope');
+        if (combined) {
+          var trimmed = combined.trim().replace(/^\/+|\/+$/g, '');
+          if (trimmed.indexOf('/') !== -1) {
+            var parts = trimmed.split('/');
+            if (!parent) parent = slugify(parts[0]);
+            child = slugify(parts[parts.length - 1]);
+          } else {
+            child = slugify(trimmed);
+          }
+        }
+      }
+    }
+    if (!parent) parent = '';
+    if (!child) child = '';
+    if (parent && !child) child = 'index';
+    if (!parent && child) parent = 'index';
+    if (!parent) parent = DEFAULT_SCOPE.parent;
+    if (!child) child = DEFAULT_SCOPE.child;
+    return { parent: parent, child: child };
+  }
+
+  function loadPostsForScope(scope) {
+    return fetchHotShard(scope.parent, scope.child)
+      .catch(function (err) {
+        console.warn('best-of-week hot shard error', err);
+        return fetchSequential(LEGACY_POSTS_SOURCES)
+          .then(function (payload) {
+            var posts = dedupePosts(sortPosts(normalizePostsPayload(payload)));
+            return filterPostsByScope(posts, scope);
+          });
+      });
+  }
 
   function slugify(str) {
     return (str || '')
@@ -169,10 +406,7 @@
   }
 
   function loadJson(urls) {
-    if (!window.AventurOODataLoader || typeof window.AventurOODataLoader.fetchSequential !== 'function') {
-      return Promise.reject(new Error('Data loader is not available'));
-    }
-    return window.AventurOODataLoader.fetchSequential(urls);
+    return fetchSequential(urls);
   }
 
   function init() {
@@ -181,9 +415,11 @@
     var carousel = wrapper.querySelector('.owl-carousel');
     if (!carousel) return;
 
+    var scope = resolveScopeHint([wrapper, carousel, document.body]);
+
     Promise.all([
-      loadJson(POSTS_SOURCES).catch(function (err) {
-        console.error('Failed to load posts.json', err);
+      loadPostsForScope(scope).catch(function (err) {
+        console.error('Failed to load best-of-week posts', err);
         return [];
       }),
       loadJson(BEST_OF_WEEK_SOURCES).catch(function (err) {

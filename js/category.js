@@ -16,9 +16,14 @@
 
   var DEFAULT_IMAGE = basePath.resolve ? basePath.resolve('/images/logo.png') : '/images/logo.png';
   var HOME_URL = basePath.resolve ? basePath.resolve('/') : '/';
-  var POSTS_SOURCES = ['/data/posts.json', 'data/posts.json'];
+  var LEGACY_POSTS_SOURCES = ['/data/posts.json', 'data/posts.json'];
 
   var TAXONOMY_SOURCES = ['/data/taxonomy.json', 'data/taxonomy.json'];
+  var HOT_SUMMARY_SOURCES = ['/data/hot/summary.json', 'data/hot/summary.json'];
+  var ARCHIVE_SUMMARY_SOURCES = ['/data/archive/summary.json', 'data/archive/summary.json'];
+  var HOT_SHARD_ROOT = '/data/hot';
+  var ARCHIVE_SHARD_ROOT = '/data/archive';
+  var DEFAULT_SCOPE = { parent: 'index', child: 'index' };
 
 
 
@@ -183,6 +188,8 @@
       .join(' ');
   }
   var CATEGORY_TITLE_LOOKUP = Object.create(null);
+  var CATEGORY_PARENT_LOOKUP = Object.create(null);
+  CATEGORY_PARENT_LOOKUP.index = { parent: 'index', child: 'index' };
 
 
 
@@ -197,6 +204,44 @@
 
 
 
+
+  function registerCategoryParent(entry) {
+    if (!entry || typeof entry !== 'object') return;
+    var slug = slugify(entry.slug);
+    if (!slug) return;
+
+    var parent = '';
+    var group = entry.group;
+    if (Array.isArray(group)) {
+      for (var i = 0; i < group.length; i++) {
+        var candidate = slugify(group[i]);
+        if (candidate) {
+          parent = candidate;
+          break;
+        }
+      }
+    } else if (typeof group === 'string') {
+      parent = slugify(group);
+    }
+
+    if (!parent) {
+      parent = slug;
+    }
+
+    if (!CATEGORY_PARENT_LOOKUP[parent]) {
+      CATEGORY_PARENT_LOOKUP[parent] = { parent: parent, child: 'index' };
+    }
+
+    var child = parent === slug ? 'index' : slug;
+    CATEGORY_PARENT_LOOKUP[slug] = { parent: parent, child: child };
+
+    if (typeof entry.slug === 'string' && entry.slug.indexOf('/') !== -1) {
+      var normalizedComposite = slugify(entry.slug);
+      if (normalizedComposite && !CATEGORY_PARENT_LOOKUP[normalizedComposite]) {
+        CATEGORY_PARENT_LOOKUP[normalizedComposite] = { parent: parent, child: child };
+      }
+    }
+  }
 
   function populateCategoryLookup(data) {
     if (!data || typeof data !== 'object') return;
@@ -210,6 +255,7 @@
         title = titleize(slug);
       }
       CATEGORY_TITLE_LOOKUP[slug] = title;
+      registerCategoryParent(entry);
 
 
 
@@ -316,6 +362,384 @@
       return basePath.categoryUrl(slug);
     }
     return '/category.html?cat=' + encodeURIComponent(slug);
+  }
+
+  var HOT_SUMMARY_PROMISE = null;
+  var ARCHIVE_SUMMARY_PROMISE = null;
+  var HOT_SHARD_CACHE = Object.create(null);
+  var ARCHIVE_SHARD_CACHE = Object.create(null);
+
+  function normalizePostsPayload(payload) {
+    if (!payload) return [];
+    if (Array.isArray(payload)) return payload.slice();
+    if (typeof payload !== 'object') return [];
+    if (Array.isArray(payload.items)) return payload.items.slice();
+    if (Array.isArray(payload.posts)) return payload.posts.slice();
+    if (Array.isArray(payload.data)) return payload.data.slice();
+    if (Array.isArray(payload.results)) return payload.results.slice();
+    return [];
+  }
+
+  function sortPosts(posts) {
+    if (!Array.isArray(posts)) return [];
+    return posts.slice().sort(function (a, b) {
+      return getPostTimestamp(b) - getPostTimestamp(a);
+    });
+  }
+
+  function resolvePostKey(post) {
+    if (!post || typeof post !== 'object') return '';
+    if (post.slug) return slugify(post.slug);
+    if (post.url) return String(post.url).trim().toLowerCase();
+    if (post.source) return String(post.source).trim().toLowerCase();
+    if (post.title) return slugify(post.title);
+    return '';
+  }
+
+  function dedupePosts(posts) {
+    if (!Array.isArray(posts)) return [];
+    var seen = Object.create(null);
+    var result = [];
+    for (var i = 0; i < posts.length; i++) {
+      var post = posts[i];
+      var key = resolvePostKey(post);
+      if (key && seen[key]) continue;
+      if (key) seen[key] = true;
+      result.push(post);
+    }
+    return result;
+  }
+
+  function uniqueStrings(values) {
+    var seen = Object.create(null);
+    var list = [];
+    if (!Array.isArray(values)) return list;
+    for (var i = 0; i < values.length; i++) {
+      var value = values[i];
+      if (typeof value !== 'string') continue;
+      var trimmed = value.trim();
+      if (!trimmed || seen[trimmed]) continue;
+      seen[trimmed] = true;
+      list.push(trimmed);
+    }
+    return list;
+  }
+
+  function padNumber(value, length) {
+    var number = parseInt(value, 10);
+    if (isNaN(number)) number = 0;
+    var str = String(Math.abs(number));
+    while (str.length < length) {
+      str = '0' + str;
+    }
+    return str;
+  }
+
+  function buildShardCandidates(root, parent, child) {
+    var normalizedParent = slugify(parent) || 'index';
+    var normalizedChild = child != null && child !== '' ? slugify(child) : '';
+    if (!normalizedChild) normalizedChild = 'index';
+    var segments = [normalizedParent];
+    if (normalizedChild !== 'index') {
+      segments.push(normalizedChild);
+    }
+    var joined = segments.join('/');
+    var prefix = typeof root === 'string' ? root.replace(/\/+$/, '') : '';
+    var basePath = prefix ? prefix + '/' + joined : joined;
+    var relative = basePath.replace(/^\//, '');
+    return uniqueStrings([
+      basePath + '.json',
+      relative + '.json',
+      basePath + '/index.json',
+      relative + '/index.json',
+      basePath + '.json.gz',
+      relative + '.json.gz',
+      basePath + '/index.json.gz',
+      relative + '/index.json.gz'
+    ]);
+  }
+
+  function buildArchiveMonthCandidates(parent, child, year, month) {
+    var normalizedParent = slugify(parent) || 'index';
+    var normalizedChild = child != null && child !== '' ? slugify(child) : '';
+    if (!normalizedChild) normalizedChild = 'index';
+    var segments = [normalizedParent];
+    if (normalizedChild !== 'index') {
+      segments.push(normalizedChild);
+    }
+    segments.push(padNumber(year, 4));
+    segments.push(padNumber(month, 2));
+    var prefix = typeof ARCHIVE_SHARD_ROOT === 'string' ? ARCHIVE_SHARD_ROOT.replace(/\/+$/, '') : '';
+    var joined = segments.join('/');
+    var basePath = prefix ? prefix + '/' + joined : joined;
+    var relative = basePath.replace(/^\//, '');
+    return uniqueStrings([
+      basePath + '.json',
+      relative + '.json',
+      basePath + '/index.json',
+      relative + '/index.json',
+      basePath + '.json.gz',
+      relative + '.json.gz',
+      basePath + '/index.json.gz',
+      relative + '/index.json.gz'
+    ]);
+  }
+
+  function fetchHotShard(parent, child) {
+    var scopeKey = (parent || 'index') + '::' + (child || 'index');
+    if (HOT_SHARD_CACHE[scopeKey]) {
+      return HOT_SHARD_CACHE[scopeKey];
+    }
+    var candidates = buildShardCandidates(HOT_SHARD_ROOT, parent, child);
+    HOT_SHARD_CACHE[scopeKey] = fetchSequential(candidates)
+      .then(function (payload) {
+        return sortPosts(normalizePostsPayload(payload));
+      })
+      .catch(function (err) {
+        delete HOT_SHARD_CACHE[scopeKey];
+        throw err;
+      });
+    return HOT_SHARD_CACHE[scopeKey];
+  }
+
+  function fetchArchiveShard(parent, child, year, month) {
+    var scopeKey = (parent || 'index') + '::' + (child || 'index') + '::' + padNumber(year, 4) + padNumber(month, 2);
+    if (ARCHIVE_SHARD_CACHE[scopeKey]) {
+      return ARCHIVE_SHARD_CACHE[scopeKey];
+    }
+    var candidates = buildArchiveMonthCandidates(parent, child, year, month);
+    ARCHIVE_SHARD_CACHE[scopeKey] = fetchSequential(candidates)
+      .then(function (payload) {
+        return sortPosts(normalizePostsPayload(payload));
+      })
+      .catch(function (err) {
+        delete ARCHIVE_SHARD_CACHE[scopeKey];
+        throw err;
+      });
+    return ARCHIVE_SHARD_CACHE[scopeKey];
+  }
+
+  function getHotSummary() {
+    if (HOT_SUMMARY_PROMISE) {
+      return HOT_SUMMARY_PROMISE;
+    }
+    HOT_SUMMARY_PROMISE = fetchSequential(HOT_SUMMARY_SOURCES)
+      .catch(function (err) {
+        console.warn('hot summary load error', err);
+        return null;
+      });
+    return HOT_SUMMARY_PROMISE;
+  }
+
+  function getArchiveSummary() {
+    if (ARCHIVE_SUMMARY_PROMISE) {
+      return ARCHIVE_SUMMARY_PROMISE;
+    }
+    ARCHIVE_SUMMARY_PROMISE = fetchSequential(ARCHIVE_SUMMARY_SOURCES)
+      .catch(function (err) {
+        console.warn('archive summary load error', err);
+        return null;
+      });
+    return ARCHIVE_SUMMARY_PROMISE;
+  }
+
+  function findParentSummary(summary, parent) {
+    if (!summary || typeof summary !== 'object') return null;
+    var parents = Array.isArray(summary.parents) ? summary.parents : [];
+    var normalized = slugify(parent);
+    for (var i = 0; i < parents.length; i++) {
+      var entry = parents[i];
+      if (!entry) continue;
+      var entryParent = slugify(entry.parent || entry.slug || '');
+      if (entryParent === normalized) {
+        return entry;
+      }
+    }
+    return null;
+  }
+
+  function findChildSummary(summary, parent, child) {
+    var parentEntry = findParentSummary(summary, parent);
+    if (!parentEntry || !Array.isArray(parentEntry.children)) {
+      return null;
+    }
+    var normalized = child === 'index' || !child ? 'index' : slugify(child);
+    for (var i = 0; i < parentEntry.children.length; i++) {
+      var entry = parentEntry.children[i];
+      if (!entry) continue;
+      var entryChild = entry.child === 'index' ? 'index' : slugify(entry.child || entry.slug || '');
+      if (entryChild === normalized) {
+        return entry;
+      }
+    }
+    return null;
+  }
+
+  function resolveScopeFromSlug(slug) {
+    if (!slug) {
+      return DEFAULT_SCOPE;
+    }
+    var normalized = slugify(slug);
+    if (!normalized) {
+      return DEFAULT_SCOPE;
+    }
+    var mapping = CATEGORY_PARENT_LOOKUP[normalized];
+    if (mapping) {
+      return { parent: mapping.parent || 'index', child: mapping.child || 'index' };
+    }
+    if (normalized.indexOf('/') !== -1) {
+      var parts = normalized.split('/');
+      var parent = parts[0] || 'index';
+      var child = parts[parts.length - 1] || 'index';
+      return { parent: parent, child: child };
+    }
+    return { parent: normalized, child: 'index' };
+  }
+
+  function getPostParentSlug(post) {
+    if (!post || typeof post !== 'object') return '';
+    var raw = post.category_slug;
+    if (raw && typeof raw === 'string') {
+      var parts = raw.split('/');
+      if (parts.length > 1) {
+        var parent = slugify(parts[0]);
+        if (parent) return parent;
+      }
+      var normalizedAll = slugify(raw);
+      if (normalizedAll && normalizedAll.indexOf('-') !== -1) {
+        var maybeParent = normalizedAll.split('-')[0];
+        if (maybeParent) return maybeParent;
+      }
+    }
+    if (post.category) {
+      var normalized = slugify(post.category);
+      if (normalized) return normalized;
+    }
+    return '';
+  }
+
+  function getPostChildSlug(post) {
+    if (!post || typeof post !== 'object') return '';
+    var raw = post.category_slug;
+    if (raw && typeof raw === 'string') {
+      var parts = raw.split('/');
+      if (parts.length > 1) {
+        var child = slugify(parts[parts.length - 1]);
+        if (child) return child;
+      }
+    }
+    if (post.subcategory) {
+      var normalized = slugify(post.subcategory);
+      if (normalized) return normalized;
+    }
+    return '';
+  }
+
+  function matchesScope(post, scope) {
+    if (!post) return false;
+    if (!scope) return true;
+    var parent = scope.parent || 'index';
+    var child = scope.child || 'index';
+    if (parent === 'index' && child === 'index') {
+      return true;
+    }
+
+    if (child !== 'index') {
+      var childSlug = getPostChildSlug(post);
+      if (childSlug && childSlug === child) return true;
+      var slugs = resolvePostCategorySlugs(post);
+      if (slugs.indexOf(child) !== -1) return true;
+      return false;
+    }
+
+    if (!parent || parent === 'index') {
+      return true;
+    }
+
+    var parentSlug = getPostParentSlug(post);
+    if (parentSlug && parentSlug === parent) return true;
+
+    var relatedSlugs = resolvePostCategorySlugs(post);
+    for (var i = 0; i < relatedSlugs.length; i++) {
+      var slug = relatedSlugs[i];
+      var mapping = CATEGORY_PARENT_LOOKUP[slug];
+      if (mapping && mapping.parent === parent) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function filterPostsByScope(posts, scope) {
+    if (!Array.isArray(posts)) return [];
+    return posts.filter(function (post) { return matchesScope(post, scope); });
+  }
+
+  function loadAdditionalArchivePosts(scope, existingCount, targetCount, archiveSummary) {
+    if (!archiveSummary || !scope) {
+      return Promise.resolve([]);
+    }
+    var childInfo = findChildSummary(archiveSummary, scope.parent, scope.child);
+    if (!childInfo || !Array.isArray(childInfo.months) || !childInfo.months.length) {
+      return Promise.resolve([]);
+    }
+    var months = childInfo.months.slice();
+    var collected = [];
+    var index = 0;
+
+    function next() {
+      if (existingCount + collected.length >= targetCount) {
+        return Promise.resolve(collected);
+      }
+      if (index >= months.length) {
+        return Promise.resolve(collected);
+      }
+      var info = months[index++] || {};
+      var year = info.year != null ? info.year : 1970;
+      var month = info.month != null ? info.month : 1;
+      return fetchArchiveShard(scope.parent, scope.child, year, month)
+        .then(function (items) {
+          if (Array.isArray(items) && items.length) {
+            collected = collected.concat(items);
+          }
+        })
+        .catch(function (err) {
+          console.warn('archive shard load error', err);
+        })
+        .then(next);
+    }
+
+    return next();
+  }
+
+  function computePerPage(hotSummary, archiveSummary) {
+    if (hotSummary && typeof hotSummary.per_page === 'number' && hotSummary.per_page > 0) {
+      return hotSummary.per_page;
+    }
+    if (archiveSummary && typeof archiveSummary.per_page === 'number' && archiveSummary.per_page > 0) {
+      return archiveSummary.per_page;
+    }
+    return 12;
+  }
+
+  function computeTotalItems(hotSummary, archiveSummary, scope, fallbackCount) {
+    var total = 0;
+    if (hotSummary) {
+      var hotEntry = findChildSummary(hotSummary, scope.parent, scope.child);
+      if (hotEntry && typeof hotEntry.items === 'number') {
+        total += hotEntry.items;
+      }
+    }
+    if (archiveSummary) {
+      var archiveEntry = findChildSummary(archiveSummary, scope.parent, scope.child);
+      if (archiveEntry && typeof archiveEntry.items === 'number') {
+        total += archiveEntry.items;
+      }
+    }
+    if (!total && typeof fallbackCount === 'number' && fallbackCount > 0) {
+      total = fallbackCount;
+    }
+    return total;
   }
 
   var url = new URL(window.location.href);
@@ -593,6 +1017,157 @@
     }
   }
 
+  function resolveRequestedPage(totalPages) {
+    var pageParam = parseInt(url.searchParams.get('page'), 10);
+    var page = !isNaN(pageParam) && pageParam > 0 ? pageParam : 1;
+    if (totalPages > 0 && page > totalPages) {
+      page = totalPages;
+    }
+    if (page < 1) page = totalPages > 0 ? 1 : 1;
+    return page;
+  }
+
+  function updateLabelFromPosts(posts) {
+    if (!ctx.cat || !Array.isArray(posts) || !posts.length) {
+      return;
+    }
+    var bestLabelInfo = null;
+    for (var i = 0; i < posts.length; i++) {
+      var info = resolvePostCategoryLabelInfo(posts[i]);
+      if (!info.label) continue;
+      if (!bestLabelInfo || info.priority < bestLabelInfo.priority) {
+        bestLabelInfo = info;
+      }
+      if (bestLabelInfo && bestLabelInfo.priority === LABEL_PRIORITY_SUBCATEGORY) {
+        break;
+      }
+    }
+
+    if (bestLabelInfo && bestLabelInfo.label) {
+      var currentLabel = ctx.label ? String(ctx.label).trim() : '';
+      if (!currentLabel || slugify(currentLabel) === ctx.cat) {
+        ctx.label = bestLabelInfo.label;
+        patchHeader(ctx);
+      }
+    }
+  }
+
+  function renderCategoryDataset(dataset) {
+    dataset = dataset || {};
+    var filtered = Array.isArray(dataset.filtered) ? dataset.filtered.slice() : [];
+    var allPosts = Array.isArray(dataset.allPosts) ? dataset.allPosts.slice() : filtered.slice();
+    var perPage = dataset.perPage || 12;
+    if (perPage <= 0) perPage = 12;
+    var totalItems = typeof dataset.totalItems === 'number' ? dataset.totalItems : filtered.length;
+    if (totalItems < filtered.length) {
+      totalItems = filtered.length;
+    }
+    var totalPages = dataset.totalPages != null ? dataset.totalPages : (perPage > 0 ? Math.ceil(totalItems / perPage) : 0);
+    if (totalPages < 0) totalPages = 0;
+    var page = dataset.page || resolveRequestedPage(totalPages);
+    if (totalPages > 0 && page > totalPages) {
+      page = totalPages;
+    }
+    if (page < 1) page = totalPages > 0 ? 1 : 1;
+
+    updateLabelFromPosts(filtered);
+
+    renderRecentSidebar(allPosts.slice(0, 3));
+    renderMiniSidebar(allPosts.slice(3, 13));
+
+    var startIndex = (page - 1) * perPage;
+    var pagedPosts = filtered.slice(startIndex, startIndex + perPage);
+    renderList(pagedPosts);
+
+    if (typeof renderPagination === 'function') {
+      var baseQuery = dataset.baseQuery != null ? dataset.baseQuery : (ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : '');
+      renderPagination('pagination', totalItems, perPage, page, baseQuery);
+    }
+
+    var infoBox = document.getElementById('pagination-info');
+    if (infoBox) {
+      var displayPage = totalPages === 0 ? 0 : page;
+      infoBox.textContent = 'Showing ' + pagedPosts.length + ' results of ' + totalItems + ' — Page ' + displayPage + ' of ' + totalPages;
+    }
+  }
+
+  function loadLegacyDataset() {
+    return fetchSequential(LEGACY_POSTS_SOURCES)
+      .then(function (all) {
+        all = Array.isArray(all) ? all : [];
+        var allSorted = sortPosts(all);
+        var filtered = ctx.cat
+          ? all.filter(function (p) {
+              var slugs = resolvePostCategorySlugs(p);
+              return slugs.indexOf(ctx.cat) !== -1;
+            })
+          : all.slice();
+        filtered = sortPosts(filtered);
+        var perPage = 12;
+        var totalItems = filtered.length;
+        var totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
+        var page = resolveRequestedPage(totalPages);
+        var dataset = {
+          filtered: filtered,
+          allPosts: allSorted,
+          perPage: perPage,
+          totalItems: totalItems,
+          totalPages: totalPages,
+          page: page,
+          baseQuery: ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : ''
+        };
+        renderCategoryDataset(dataset);
+      });
+  }
+
+  function loadHotCategory() {
+    var scope = resolveScopeFromSlug(ctx.cat);
+    return Promise.all([getHotSummary(), getArchiveSummary()])
+      .then(function (summaries) {
+        var hotSummary = summaries[0];
+        var archiveSummary = summaries[1];
+        return fetchHotShard(scope.parent, scope.child)
+          .then(function (hotPosts) {
+            var filteredHot = filterPostsByScope(hotPosts, scope);
+            var sortedHot = sortPosts(filteredHot);
+            var perPage = computePerPage(hotSummary, archiveSummary);
+            if (!perPage || perPage <= 0) perPage = 12;
+            var fallbackCount = sortedHot.length;
+            var totalItems = computeTotalItems(hotSummary, archiveSummary, scope, fallbackCount);
+            var totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
+            if (!totalItems && sortedHot.length) {
+              totalItems = sortedHot.length;
+              totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
+            }
+            var page = resolveRequestedPage(totalPages);
+            var targetCount = page > 0 ? page * perPage : perPage;
+            if (!targetCount || targetCount < perPage) {
+              targetCount = perPage;
+            }
+            return loadAdditionalArchivePosts(scope, sortedHot.length, targetCount, archiveSummary)
+              .then(function (archivePosts) {
+                var filteredArchive = filterPostsByScope(archivePosts, scope);
+                var combined = dedupePosts(sortPosts(sortedHot.concat(filteredArchive)));
+                if (!totalItems) {
+                  totalItems = combined.length;
+                  totalPages = perPage > 0 ? Math.ceil(totalItems / perPage) : 0;
+                  page = resolveRequestedPage(totalPages);
+                }
+                var dataset = {
+                  filtered: combined,
+                  allPosts: combined,
+                  perPage: perPage,
+                  totalItems: totalItems,
+                  totalPages: totalPages,
+                  page: page,
+                  baseQuery: ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : ''
+                };
+                renderCategoryDataset(dataset);
+              });
+          });
+      });
+  }
+
   var ctx = getCatSub();
   patchHeader(ctx);
 
@@ -613,72 +1188,16 @@
 
   taxonomyPromise
     .then(function () {
-      return fetchSequential(POSTS_SOURCES);
-    })
-    .then(function (all) {
-      all = Array.isArray(all) ? all : [];
-      var allSorted = all.slice().sort(function (a, b) {
-        return getPostTimestamp(b) - getPostTimestamp(a);
-      });
-      var filtered = ctx.cat
-        ? all.filter(function (p) {
-          var slugs = resolvePostCategorySlugs(p);
-          return slugs.indexOf(ctx.cat) !== -1;
-        })
-        : all.slice();
-
-      if (ctx.cat && filtered.length) {
-        var bestLabelInfo = null;
-        for (var i = 0; i < filtered.length; i++) {
-          var info = resolvePostCategoryLabelInfo(filtered[i]);
-          if (!info.label) continue;
-          if (!bestLabelInfo || info.priority < bestLabelInfo.priority) {
-            bestLabelInfo = info;
-          }
-          if (bestLabelInfo && bestLabelInfo.priority === LABEL_PRIORITY_SUBCATEGORY) {
-            break;
-          }
-        }
-
-        if (bestLabelInfo && bestLabelInfo.label) {
-          var currentLabel = ctx.label ? String(ctx.label).trim() : '';
-          if (!currentLabel || slugify(currentLabel) === ctx.cat) {
-            ctx.label = bestLabelInfo.label;
-            patchHeader(ctx);
-          }
-        }
-      }
-
-      var sortedByDate = filtered.slice().sort(function (a, b) {
-        return getPostTimestamp(b) - getPostTimestamp(a);
-      });
-
-      renderRecentSidebar(allSorted.slice(0, 3));
-      var additionalPosts = allSorted.slice(3, 13);
-      renderMiniSidebar(additionalPosts);
-
-      var PER_PAGE = 12;
-      var pageParam = parseInt(url.searchParams.get('page'), 10);
-      var page = !isNaN(pageParam) && pageParam > 0 ? pageParam : 1;
-      var totalPages = Math.ceil(filtered.length / PER_PAGE);
-      if (totalPages > 0 && page > totalPages) page = totalPages;
-
-      var start = (page - 1) * PER_PAGE;
-      var pagedPosts = filtered.slice(start, start + PER_PAGE);
-      renderList(pagedPosts);
-
-      if (typeof renderPagination === 'function') {
-        var baseQuery = ctx.cat ? '?cat=' + encodeURIComponent(ctx.cat) : '';
-        renderPagination('pagination', filtered.length, PER_PAGE, page, baseQuery);
-      }
-
-      var infoBox = document.getElementById('pagination-info');
-      if (infoBox) {
-        var displayPage = totalPages === 0 ? 0 : page;
-        infoBox.textContent = 'Showing ' + pagedPosts.length + ' results of ' + filtered.length + ' — Page ' + displayPage + ' of ' + totalPages;
-      }
+      return loadHotCategory()
+        .catch(function (hotErr) {
+          console.warn('hot category load error', hotErr);
+          return loadLegacyDataset()
+            .catch(function (legacyErr) {
+              console.error('legacy category load error', legacyErr);
+            });
+        });
     })
     .catch(function (err) {
-      console.error('posts load error', err);
+      console.error('category load error', err);
     });
 })();
