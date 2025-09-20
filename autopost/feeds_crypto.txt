@@ -1,4 +1,4 @@
-# === CRYPTO ===
+# === CRYPTO 12 test===
 crypto|https://cointelegraph.com/rss
 crypto|https://cryptopotato.com/feed
 crypto|https://cryptoslate.com/feed/
