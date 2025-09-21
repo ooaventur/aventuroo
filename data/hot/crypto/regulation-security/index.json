@@ -269,12 +269,57 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/easy-gains-vanish-for-dats-as-they-face-critical-inflection-point-coinbase-2025-09-12/",
       "excerpt": "Denis Omelchenko •",
       "source": "https://thedefiant.io/news/tradfi-and-fintech/easy-gains-vanish-a-dats-now-face-increased-competition-coinbase-says"
+    },
+    {
+      "slug": "pendle-s-kinetiq-markets-surpass-1-billion-2025-09-11",
+      "title": "Pendle’s Kinetiq Markets Surpass $1 Billion",
+      "date": "2025-09-11",
+      "cover": "https://cdn.thedefiant.io/khype-1-1-png-05a0652a-a69f-4442-9865-3a3b4741bcb0.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/pendle-s-kinetiq-markets-surpass-1-billion-2025-09-11/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/pendle-s-kinetiq-markets-surpass-usd1-billion"
+    },
+    {
+      "slug": "opensea-quietly-increases-nft-fees-by-100-ahead-of-sea-token-launch-2025-09-11",
+      "title": "OpenSea Quietly Increases NFT Fees by 100% Ahead of SEA Token Launch",
+      "date": "2025-09-11",
+      "cover": "https://cdn.thedefiant.io/opensea-1-png-46bd2332-fbf9-4360-9f06-2602e7c0bece.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/opensea-quietly-increases-nft-fees-by-100-ahead-of-sea-token-launch-2025-09-11/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/nfts-and-web3/opensea-quietly-increases-nft-fees-by-100-ahead-of-sea-token-launch"
+    },
+    {
+      "slug": "megaeth-names-lombard-as-primary-bitcoin-partner-ahead-of-mainnet-launch-2025-09-11",
+      "title": "MegaETH Names Lombard as Primary Bitcoin Partner Ahead of Mainnet Launch",
+      "date": "2025-09-11",
+      "cover": "https://cdn.thedefiant.io/megalombard-1-png-e911f5db-dabb-4d03-8be6-2cb07ecad74a.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/megaeth-names-lombard-as-primary-bitcoin-partner-ahead-of-mainnet-launch-2025-09-11/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/blockchains/megaeth-names-lombard-as-primary-bitcoin-partner-ahead-of-mainnet-launch"
+    },
+    {
+      "slug": "ethereum-validator-exit-queue-spikes-150-as-kiln-unstakes-all-its-eth-2025-09-11",
+      "title": "Ethereum Validator Exit Queue Spikes 150% as Kiln Unstakes All Its ETH",
+      "date": "2025-09-11",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-11t184131-155-png-05cc56ab-a74e-4ecd-b6a5-b0ae06f02837.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/ethereum-validator-exit-queue-spikes-150-as-kiln-unstakes-all-its-eth-2025-09-11/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/hacks/ethereum-validator-exit-queue-spikes-150-as-kiln-unstakes-all-its-eth"
+    },
+    {
+      "slug": "consensys-lubin-teases-further-rewards-for-linea-holders-as-token-tanks-50-2025-09-11",
+      "title": "Consensys’ Lubin Teases ‘Further Rewards’ for LINEA Holders as Token Tanks 50%",
+      "date": "2025-09-11",
+      "cover": "https://cdn.thedefiant.io/lubin-1-png-e3df0741-fe9e-4684-9b90-9a9b330f0759.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/consensys-lubin-teases-further-rewards-for-linea-holders-as-token-tanks-50-2025-09-11/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/blockchains/consensys-lubin-teases-further-rewards-for-linea-holders-as-token-tanks-50"
     }
   ],
-  "count": 30,
+  "count": 35,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 30,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

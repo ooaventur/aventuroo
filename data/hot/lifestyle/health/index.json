@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "your-pancreas-may-be-making-its-own-version-of-ozempic-2025-09-21",
+      "title": "Your pancreas may be making its own version of Ozempic",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/ozempic-semaglutide-injection-pens.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/your-pancreas-may-be-making-its-own-version-of-ozempic-2025-09-21/",
+      "excerpt": "A new study from Duke University School of Medicine is challenging long-standing views on blood sugar regulation -- and pointing to a surprising new ally in the fight against type 2 diabetes.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250920214455.htm"
+    },
+    {
       "slug": "this-stunning-x-ray-advance-could-help-detect-cancer-earlier-2025-09-21",
       "title": "This stunning X-ray advance could help detect cancer earlier",
       "date": "2025-09-21",
@@ -17,6 +26,15 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/simple-therapies-outperform-drugs-for-knee-arthritis-pain-relief-2025-09-21/",
       "excerpt": "Knee braces, water therapy and exercise are the most promising non-drug therapies for treating knee osteoarthritis, according to a new meta-analysis publishing June 18, 2025 in the open-access journal PLOS One by Yuan Luo of the First People's Hospital of Neijiang, China.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250919085252.htm"
+    },
+    {
+      "slug": "scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21",
+      "title": "Scientists reveal the everyday habits that may shield you from dementia",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/coffee-couple-walking-dog.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21/",
+      "excerpt": "An estimated 7.2 million Americans over age 65 currently live with Alzheimer's disease (AD). That number is expected to nearly double to 13.8 million by 2060. These increases reflect more than demographic shifts; they point to a growing public health crisis that requires a new…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250920214459.htm"
     },
     {
       "slug": "new-breath-sensor-detects-diabetes-quickly-and-easily-2025-09-21",
@@ -269,12 +287,39 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/hidden-gut-molecule-found-to-wreck-kidneys-2025-09-13/",
       "excerpt": "A molecule made by bacteria in the gut can hitch a ride to the kidneys, where it sets off a chain reaction of inflammation, scarring and fibrosis -- a serious complication of diabetes and a leading cause of kidney failure -- according to a new study from researchers at the Uni…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250912195133.htm"
+    },
+    {
+      "slug": "fatty-liver-breakthrough-a-safe-cheap-vitamin-shows-promise-2025-09-13",
+      "title": "Fatty liver breakthrough: A safe, cheap vitamin shows promise",
+      "date": "2025-09-13",
+      "cover": "https://www.sciencedaily.com/images/1920/medical-breakthrough-liver-health.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/fatty-liver-breakthrough-a-safe-cheap-vitamin-shows-promise-2025-09-13/",
+      "excerpt": "Approximately 30% of the global population is affected by metabolic-associated fatty liver disease (MASLD), a condition that previously lacked targeted treatments. In a groundbreaking discovery, researchers have identified a genetic factor that exacerbates the disease, and rem…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250912195101.htm"
+    },
+    {
+      "slug": "one-daily-habit-could-save-you-from-chronic-back-pain-2025-09-12",
+      "title": "One daily habit could save you from chronic back pain",
+      "date": "2025-09-12",
+      "cover": "https://www.sciencedaily.com/images/1920/man-back-pain-outdoors.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/one-daily-habit-could-save-you-from-chronic-back-pain-2025-09-12/",
+      "excerpt": "A major study has investigated the relationship between walking and the risk of developing chronic lower back problems. The findings could save the healthcare system significant amounts of money while also alleviating many people's back pain - if we just follow the simple advi…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250911073206.htm"
+    },
+    {
+      "slug": "your-morning-coffee-could-secretly-be-weakening-antibiotics-2025-09-11",
+      "title": "Your morning coffee could secretly be weakening antibiotics",
+      "date": "2025-09-11",
+      "cover": "https://www.sciencedaily.com/images/1920/escherichia-coli-bacteria.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/your-morning-coffee-could-secretly-be-weakening-antibiotics-2025-09-11/",
+      "excerpt": "Ingredients of our daily diet - including caffeine - can influence the resistance of bacteria to antibiotics. This has been shown in a new study by a team of researchers at the Universities of Tübingen and Würzburg led by Professor Ana Rita Brochado. They discovered bacteria s…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm"
     }
   ],
-  "count": 30,
+  "count": 35,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 30,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

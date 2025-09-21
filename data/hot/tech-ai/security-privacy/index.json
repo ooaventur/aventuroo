@@ -325,6 +325,24 @@
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/vyro-ai-leak-cyber-hygiene"
     },
     {
+      "slug": "vidar-infostealer-back-with-a-vengeance-2025-09-11",
+      "title": "Vidar Infostealer Back With a Vengeance",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt20bc1ba96c2ce96d/68c2f984b8451f36288c22a5/Vidar_The_History_Collection_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/vidar-infostealer-back-with-a-vengeance-2025-09-11/",
+      "excerpt": "The pervasive Vidar infostealer has evolved with a suite of new evasion techniques and covert data exfiltration methods, according to researchers.",
+      "source": "https://www.darkreading.com/endpoint-security/vidar-infostealer-back-with-vengeance"
+    },
+    {
+      "slug": "k2-think-ai-model-jailbroken-mere-hours-after-release-2025-09-11",
+      "title": "'K2 Think' AI Model Jailbroken Mere Hours After Release",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt54986046ddc78e17/68c1e4c936615d517b284f9c/G42-ZUMA_Press_Inc.-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/k2-think-ai-model-jailbroken-mere-hours-after-release-2025-09-11/",
+      "excerpt": "Researchers discovered that measures designed to make AI more transparent to users and regulators can also make it easier for bad actors to abuse.",
+      "source": "https://www.darkreading.com/application-security/k2-think-llm-jailbroken"
+    },
+    {
       "slug": "gentlemen-ransomware-abuses-vulnerable-driver-to-kill-security-gear-2025-09-11",
       "title": "'Gentlemen' Ransomware Abuses Vulnerable Driver to Kill Security Gear",
       "date": "2025-09-11",
@@ -332,6 +350,24 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/gentlemen-ransomware-abuses-vulnerable-driver-to-kill-security-gear-2025-09-11/",
       "excerpt": "By weaponizing the ThrottleStop.sys driver, attackers are disrupting antivirus and endpoint detection and response (EDR) systems.",
       "source": "https://www.darkreading.com/vulnerabilities-threats/gentlemen-ransomware-vulnerable-driver-security-gear"
+    },
+    {
+      "slug": "f5-to-acquire-calypsoai-for-advanced-ai-security-capabilities-2025-09-11",
+      "title": "F5 to Acquire CalypsoAI for Advanced AI Security Capabilities",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb9b937f8191f7db1/68373d80713d870ca9cf4bdf/AI_(1800)_imageBROKER.com_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/f5-to-acquire-calypsoai-for-advanced-ai-security-capabilities-2025-09-11/",
+      "excerpt": "F5 plans to use CalypsoAI's platform to provide real-time threat defense against attacks and help enterprises safeguard themselves as they adopt the latest AI technologies.",
+      "source": "https://www.darkreading.com/cyber-risk/f5-calypsoai-advanced-ai-security-capabilities"
+    },
+    {
+      "slug": "cyberattack-on-kazakhstan-s-largest-oil-company-was-simulation-2025-09-11",
+      "title": "Cyberattack on Kazakhstan's Largest Oil Company Was 'Simulation'",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9a5e43be120c3ecc/68c1b350bfa0ddcc56fde255/Kazakhstan_Russia-Daniren-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cyberattack-on-kazakhstan-s-largest-oil-company-was-simulation-2025-09-11/",
+      "excerpt": "Researchers thought a Russian APT used a compromised employee email to attack Kazakhstan's biggest oil company. The company later confirmed it was a pen test.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/russian-apt-kazakhstan-largest-oil-company"
     },
     {
       "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
@@ -350,6 +386,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/apple-carplay-rce-exploit-left-unaddressed-in-most-cars-2025-09-11/",
       "excerpt": "Even when a vulnerability is serious and a fix is available, actually securing cars is more difficult than one would hope.",
       "source": "https://www.darkreading.com/vulnerabilities-threats/apple-carplay-rce-exploit"
+    },
+    {
+      "slug": "ai-enhanced-malware-sports-super-stealthy-tactics-2025-09-11",
+      "title": "AI-Enhanced Malware Sports Super-Stealthy Tactics",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd90ba881243f5ada/68c317002dcc0bcf548f4618/evilai_Lightspring_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ai-enhanced-malware-sports-super-stealthy-tactics-2025-09-11/",
+      "excerpt": "With legit sounding names, EvilAI's &quot;productivity&quot; apps are reviving classic threats like Trojans while adding new evasion capabilities against modern antivirus defenses.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/ai-backed-malware-hits-companies-worldwide"
     },
     {
       "slug": "microsoft-patch-tuesday-september-2025-edition-2025-09-09",
@@ -406,11 +451,11 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 45,
+  "count": 50,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 45,
+    "total_items": 50,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

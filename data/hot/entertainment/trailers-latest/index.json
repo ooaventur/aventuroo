@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "poll-what-s-the-best-batman-movie-2025-09-21",
+      "title": "Poll: What’s the Best Batman Movie?",
+      "date": "2025-09-21",
+      "cover": "https://www.joblo.com/wp-content/uploads/2024/09/the-batman-2-matt-reeves-update.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/poll-what-s-the-best-batman-movie-2025-09-21/",
+      "excerpt": "Yesterday was Batman Day, and it got me thinking about The Caped Crusader’s cinematic legacy. Honestly, outside of Spider-Man, no other superhero has ever captured the zeitgeist quite like Batman. Some of you might say, “What about Superman?” But let’s be real—at the box offic…",
+      "source": "https://www.joblo.com/poll-whats-the-best-batman-movie/"
+    },
+    {
+      "slug": "dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21",
+      "title": "Dick Tracy: Warren Beatty reprised the role in two weird TCM specials you probably never saw",
+      "date": "2025-09-21",
+      "cover": "https://www.youtube.com/embed/PdFbiRK-UaY",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21/",
+      "excerpt": "Dick Tracy is an iconic film for a generation of us here at JoBlo. Being born in ’81 (I know—I’m old now), I vividly remember what an event it was in the summer of 1990. Many of us saw it as the movie that would carry the torch for Batman , which had come out the year before a…",
+      "source": "https://www.joblo.com/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw/"
+    },
+    {
+      "slug": "black-phone-2-first-reactions-is-blumhouse-sequel-great-or-phoning-it-in-2025-09-21",
+      "title": "Black Phone 2 first reactions: Is Blumhouse sequel great or phoning it in?",
+      "date": "2025-09-21",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/09/black-phone-2.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/black-phone-2-first-reactions-is-blumhouse-sequel-great-or-phoning-it-in-2025-09-21/",
+      "excerpt": "2021’s The Black Phone was a massive hit for Blumhouse, taking in $90 million domestically and another $71 million in the foreign market based on a budget of no more than $18 million. With that, it’s really no surprise they greenlit a sequel . So how is Black Phone 2 faring up…",
+      "source": "https://www.joblo.com/black-phone-2-first-reaactions/"
+    },
+    {
       "slug": "all-theatrical-batman-films-ranked-from-1966-to-2022-2025-09-21",
       "title": "All Theatrical Batman Films Ranked: From 1966 to 2022",
       "date": "2025-09-21",
@@ -181,6 +208,15 @@
       "source": "https://www.joblo.com/fast-x-part-2-jason-momoa-script/"
     },
     {
+      "slug": "here-be-monsters-sea-set-survival-thriller-from-joachim-r-nning-acquired-by-paramount-2025-09-19",
+      "title": "Here Be Monsters: sea-set survival thriller from Joachim Rønning acquired by Paramount",
+      "date": "2025-09-19",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/09/joachim-ronning-directing.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/here-be-monsters-sea-set-survival-thriller-from-joachim-r-nning-acquired-by-paramount-2025-09-19/",
+      "excerpt": "Eight years ago, it was announced that director Joachim Rønning was attached to take the helm of a sci-fi thriller project called Here There Be Monsters , which he had written with his brother Andreas. Now, Deadline reports that the project, which has had its title shortened t…",
+      "source": "https://www.joblo.com/here-be-monsters/"
+    },
+    {
       "slug": "full-moon-wraps-up-the-trilogy-with-a-black-white-noir-release-of-the-puppet-master-film-axis-termination-2025-09-19",
       "title": "Full Moon wraps up the trilogy with a black & white noir release of the Puppet Master film Axis Termination",
       "date": "2025-09-19",
@@ -206,6 +242,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/dexter-original-sin-showrunner-not-happy-with-how-paramount-cancelled-the-prequel-series-2025-09-19/",
       "excerpt": "Dexter: Original Sin was",
       "source": "https://www.joblo.com/dexter-original-sin-cancelled-showrunner-not-happy/"
+    },
+    {
+      "slug": "box-office-update-him-and-big-bold-beautiful-journey-have-underwhelming-preview-nights-2025-09-19",
+      "title": "Box Office Update: Him and Big Bold Beautiful Journey have underwhelming preview nights",
+      "date": "2025-09-19",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/09/him-box-office.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/box-office-update-him-and-big-bold-beautiful-journey-have-underwhelming-preview-nights-2025-09-19/",
+      "excerpt": "Once again, the weekend box office is poised to be dominated by the anime smash Demon Slayer: Infinity Castle . In our predictions , we figured it would top the charts with about $25 million, and while it’s too early to tell how front-loaded last weekend was, our theory that H…",
+      "source": "https://www.joblo.com/him-and-big-bold-beautiful-journey/"
     },
     {
       "slug": "an-ai-hologram-of-stan-lee-will-speak-with-fans-at-l-a-comic-con-2025-09-19",
@@ -361,10 +406,10 @@
       "source": "https://wegotthiscovered.com/movies/willem-dafoe-bashes-strange-backlash-against-his-jesus-film-claims-critics-complained-about-the-idea-without-seeing-it/"
     }
   ],
-  "count": 40,
+  "count": 45,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 40,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

@@ -19,6 +19,15 @@
       "source": "https://publicdomainreview.org/essay/the-old-old-very-old-man"
     },
     {
+      "slug": "the-great-enigma-of-our-times-henry-george-s-poverty-and-progress-1881-edition-2025-05-21",
+      "title": "“The Great Enigma of Our Times”: Henry George’s Poverty and Progress (1881 edition)",
+      "date": "2025-05-21",
+      "cover": "https://pdr-assets.b-cdn.net/collections/progress-and-poverty/master-pnp-ggbain-37100-37132u-thumb.jpeg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-great-enigma-of-our-times-henry-george-s-poverty-and-progress-1881-edition-2025-05-21/",
+      "excerpt": "Until the mid-1880s, the American industrialist Tom L. Johnson had little interest in anything beyond his bottom line. At the age of fifteen, he had leveraged a family connection to the Du Pont dynasty to learn about the streetcar business. Soon, newspapers were describing Joh…",
+      "source": "https://publicdomainreview.org/collection/progress-and-poverty"
+    },
+    {
       "slug": "old-tricks-tiny-cryptic-9-2025-05-21",
       "title": "Old Tricks: Tiny Cryptic #9",
       "date": "2025-05-21",
@@ -28,6 +37,33 @@
       "source": "https://publicdomainreview.org/blog/2025/05/tiny-cryptic-9"
     },
     {
+      "slug": "in-the-penal-colony-now-and-then-3-2025-05-21",
+      "title": "In the Penal Colony: Now and Then #3",
+      "date": "2025-05-21",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/penal-colony-comp.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/in-the-penal-colony-now-and-then-3-2025-05-21/",
+      "excerpt": "3D visual of the proposed high-security prison in French Guiana from a handout released by the French Ministry of Justice — Source (not public domain).",
+      "source": "https://publicdomainreview.org/blog/2025/05/now-and-then-3"
+    },
+    {
+      "slug": "gilded-fish-illustrations-from-histoire-naturelle-des-dorades-de-la-chine-1780-2025-05-15",
+      "title": "Gilded Fish: Illustrations from Histoire naturelle des dorades de la Chine (1780)",
+      "date": "2025-05-15",
+      "cover": "https://pdr-assets.b-cdn.net/collections/chinese-fishes/histoirenaturell00bill_0117-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/gilded-fish-illustrations-from-histoire-naturelle-des-dorades-de-la-chine-1780-2025-05-15/",
+      "excerpt": "Goldfish have had a poor reputation over the last century or two. They’ve been casual prizes at fairground games; the lesser alternative to puppies or kittens; and idiomatically (and incorrectly ) accused of having limited memory capacity. It was not always so. Goldfish were o…",
+      "source": "https://publicdomainreview.org/collection/chinese-fishes"
+    },
+    {
+      "slug": "charles-butler-s-the-feminine-monarchie-or-the-history-of-bees-1634-edition-2025-05-13",
+      "title": "Charles Butler’s The Feminine Monarchie, or the History of Bees (1634 edition)",
+      "date": "2025-05-13",
+      "cover": "https://pdr-assets.b-cdn.net/collections/history-of-bees/b30337884_0012-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/charles-butler-s-the-feminine-monarchie-or-the-history-of-bees-1634-edition-2025-05-13/",
+      "excerpt": "Since at least the time of Ancient Greece and Rome, beehives have served as foils for the polis — as their workers, drones, and queens can seem to reflect classical ideals of governance, such as Plato’s tripartite division of city-states into the worker, soldier, and guardian …",
+      "source": "https://publicdomainreview.org/collection/history-of-bees"
+    },
+    {
       "slug": "the-second-continental-congress-convenes-2025-05-08",
       "title": "The Second Continental Congress Convenes",
       "date": "2025-05-08",
@@ -35,12 +71,21 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-second-continental-congress-convenes-2025-05-08/",
       "excerpt": "In celebration of the upcoming 250th anniversary of the United States, we’re focusing on key events in the history of independence. Today’s post looks at the early months of the Second Continental Congress.",
       "source": "https://prologue.blogs.archives.gov/2025/05/08/the-second-continental-congress-convenes/"
+    },
+    {
+      "slug": "as-bright-as-a-feather-ostriches-home-dyeing-and-the-global-plume-trade-2025-05-07",
+      "title": "As Bright as a Feather: Ostriches, Home Dyeing, and the Global Plume Trade",
+      "date": "2025-05-07",
+      "cover": "https://pdr-assets.b-cdn.net/essays/bright-as-a-feather/ostrich-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/as-bright-as-a-feather-ostriches-home-dyeing-and-the-global-plume-trade-2025-05-07/",
+      "excerpt": "In the 19th century, dyed ostrich feathers were haute couture, adorning the hats and boas of fashionistas on both sides of the Atlantic. Whitney Rakich examines the far-reaching ostrich industry through a peculiar do-it-yourself-style book: Alexander Paul’s The Practical Ostri…",
+      "source": "https://publicdomainreview.org/essay/bright-as-a-feather"
     }
   ],
-  "count": 4,
+  "count": 9,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 4,
+    "total_items": 9,
     "per_page": 12,
     "total_pages": 1
   }

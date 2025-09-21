@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "the-full-u-s-constitution-is-on-display-for-the-first-time-ever-2025-09-21",
+      "title": "The Full U.S. Constitution Is on Display for the First Time Ever",
+      "date": "2025-09-21",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/us-capitol-rotunda-1-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/the-full-u-s-constitution-is-on-display-for-the-first-time-ever-2025-09-21/",
+      "excerpt": "The complete U.S. Constitution has gone on display for the first time in history.",
+      "source": "https://news.artnet.com/art-world/national-archives-entire-us-constitution-on-view-2690024"
+    },
+    {
+      "slug": "from-paris-to-vegas-how-the-core-art-gallery-is-raising-the-stakes-2025-09-21",
+      "title": "From Paris to Vegas: How the Core Art Gallery Is Raising the Stakes",
+      "date": "2025-09-21",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/core-art-gallery-ritz-paris-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/from-paris-to-vegas-how-the-core-art-gallery-is-raising-the-stakes-2025-09-21/",
+      "excerpt": "The landscape of art collecting is constantly shifting, with today’s collectors craving not only works they connect with but experiences that feel immersive and unforgettable. The Core Art Gallery has stepped squarely into that space, pioneering inventive ways to present art a…",
+      "source": "https://news.artnet.com/art-world/the-core-art-gallery-2689532"
+    },
+    {
       "slug": "time-magazine-names-mickalene-thomas-miranda-july-and-other-artists-to-annual-100-list-2025-09-20",
       "title": "Time Magazine Names Mickalene Thomas, Miranda July, and Other Artists to Annual 100 List",
       "date": "2025-09-20",
@@ -208,11 +226,11 @@
       "source": "https://www.creativeboom.com/tips/creatives-share-their-tricks-for-taming-imposter-syndrome/"
     }
   ],
-  "count": 23,
-  "updated_at": "2025-09-20",
+  "count": 25,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 23,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

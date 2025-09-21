@@ -107,13 +107,58 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-the-perfect-weekend-in-bruges-europe-s-perfect-pocket-sized-city-2025-07-15/",
       "excerpt": "Discover the best restaurants, medieval sites and hotels in our expert guide",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/belgium/bruges/articles/bruges-travel-guide/"
+    },
+    {
+      "slug": "the-best-hotels-in-north-devon-2025-07-11",
+      "title": "The best hotels in North Devon",
+      "date": "2025-07-11",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/july/watersmeet-hotel-devon-hotel-guide-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-hotels-in-north-devon-2025-07-11/",
+      "excerpt": "From boutique rural retreats to great value beach-view stays, this is an unsung and generally cheaper part of the beautiful county",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/devon/articles/best-hotels-in-north-devon/"
+    },
+    {
+      "slug": "how-to-have-the-perfect-holiday-on-spain-s-wild-coast-2025-07-11",
+      "title": "How to have the perfect holiday on Spain's wild coast",
+      "date": "2025-07-11",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Costa Brava/costa-brava-destination-guide-main-page-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-have-the-perfect-holiday-on-spain-s-wild-coast-2025-07-11/",
+      "excerpt": "Discover the best beaches, restaurants and historic sites in our expert guide to the Costa Brava",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/catalonia/costa-brava/articles/costa-brava-travel-guide/"
+    },
+    {
+      "slug": "the-perfect-holiday-in-devon-the-quintessential-british-break-2025-07-07",
+      "title": "The perfect holiday in Devon, the quintessential British break",
+      "date": "2025-07-07",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/England/Devon/salcombe-GettyImages-1480743875.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-holiday-in-devon-the-quintessential-british-break-2025-07-07/",
+      "excerpt": "An insider guide to planning the ultimate trip to the county of craggy coves, country walks and cream teas",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/devon/articles/devon-insider-guide/"
+    },
+    {
+      "slug": "the-best-beach-hotels-in-portugal-2025-07-04",
+      "title": "The best beach hotels in Portugal",
+      "date": "2025-07-04",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/june/martinhal-hotel-beach-portugal.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-beach-hotels-in-portugal-2025-07-04/",
+      "excerpt": "Oceanfront retreats dot stretches of golden sand flanked by characterful towns in this family-friendly destination",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/portugal/articles/best-beach-hotels-portugal/"
+    },
+    {
+      "slug": "how-to-spend-a-weekend-in-miami-south-florida-s-cultural-cool-kid-2025-07-04",
+      "title": "How to spend a weekend in Miami, South Florida's cultural cool kid",
+      "date": "2025-07-04",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/North America/USA/miami-GettyImages-847714996.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-weekend-in-miami-south-florida-s-cultural-cool-kid-2025-07-04/",
+      "excerpt": "From golden beaches to vibrant bars – an insider guide to exploring the \"Magic City\"",
+      "source": "https://www.telegraph.co.uk/travel/destinations/north-america/united-states/florida/miami/articles/miami-travel-guide/"
     }
   ],
-  "count": 12,
+  "count": 17,
   "updated_at": "2025-07-27",
   "pagination": {
-    "total_items": 12,
+    "total_items": 17,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

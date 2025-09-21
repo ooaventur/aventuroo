@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "why-did-lockheed-martin-build-the-c-5-galaxy-with-a-t-tail-2025-09-21",
+      "title": "Why Did Lockheed Martin Build The C-5 Galaxy With A T-Tail?",
+      "date": "2025-09-21",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/galaxy.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/why-did-lockheed-martin-build-the-c-5-galaxy-with-a-t-tail-2025-09-21/",
+      "excerpt": "The Lockheed C-5 Galaxy was, in a way, a widebody aircraft before widebodies became prevalent. No, it doesn't feature two passenger aisles side by side, as it was primarily intended to carry machines of war, not businessmen or families. However, this enormous aircraft was larg…",
+      "source": "https://simpleflying.com/why-lockheed-martin-build-c-5-galaxy-t-tail/"
+    },
+    {
+      "slug": "up-to-16h-40m-cathay-pacific-s-10-longest-flights-examined-2025-09-21",
+      "title": "Up To 16h 40m: Cathay Pacific's 10 Longest Flights Examined",
+      "date": "2025-09-21",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/cathay-pacific-airbus-a350-1000-taxiing-to-its-stand.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/up-to-16h-40m-cathay-pacific-s-10-longest-flights-examined-2025-09-21/",
+      "excerpt": "Cathay Pacific is Asia's second-largest international operator by flights. When its full passenger operation in October is considered, OAG data shows that it has an average of 170 daily departures from its Hong Kong hub on a network spanning",
+      "source": "https://simpleflying.com/up-to-16h-40m-cathay-pacifics-10-longest-flights-examined/"
+    },
+    {
+      "slug": "up-to-110-daily-flights-the-us-canada-s-10-busiest-airports-for-european-flights-in-october-2025-09-21",
+      "title": "Up To 110 Daily Flights: The US & Canada's 10 Busiest Airports For European Flights In October",
+      "date": "2025-09-21",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/united-airlines-boeing-787-8-taxiing-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/up-to-110-daily-flights-the-us-canada-s-10-busiest-airports-for-european-flights-in-october-2025-09-21/",
+      "excerpt": "In October , the US and Canada will collectively have an average of 617 daily scheduled passenger departures to Europe. This finding is from analyzing every planned service using Cirium Diio data. Compared to last October, an additional 20 daily takeoffs are planned.",
+      "source": "https://simpleflying.com/up-to-110-daily-flights-the-us-canadas-10-busiest-airports-for-european-flights-in-october/"
+    },
+    {
       "slug": "united-airlines-boeing-757-diverts-twice-in-a-row-due-to-engine-failures-2025-09-21",
       "title": "United Airlines Boeing 757 Diverts Twice In A Row Due To Engine Failures",
       "date": "2025-09-21",
@@ -28,6 +55,15 @@
       "source": "https://simpleflying.com/busiest-transatlantic-routes-winter-2025/"
     },
     {
+      "slug": "these-are-the-busiest-boeing-777-300er-flights-in-october-2025-09-21",
+      "title": "These Are The Busiest Boeing 777-300ER Flights In October",
+      "date": "2025-09-21",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/adobe-express-file-2025-09-19t224632-583.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/these-are-the-busiest-boeing-777-300er-flights-in-october-2025-09-21/",
+      "excerpt": "This year marks the 22nd anniversary of the first flight of the Boeing 777-300ER, one of the most successful widebody airliners in the manufacturer’s portfolio. Boeing introduced the 777 program in the 1990s to bridge the gap between the twin-engined 767 and quad-engined 747, …",
+      "source": "https://simpleflying.com/busiest-boeing-777-flights-october-2025/"
+    },
+    {
       "slug": "phoenix-gets-1st-nonstop-long-haul-flights-to-asia-with-this-airline-2025-09-21",
       "title": "Phoenix Gets 1st Nonstop Long-Haul Flights To Asia With This Airline",
       "date": "2025-09-21",
@@ -53,6 +89,15 @@
       "canonical": "https://archive.aventuroo.com/travel/transport/no-regrets-why-delta-air-lines-has-easily-kept-flying-the-boeing-757-2025-09-21/",
       "excerpt": "In a unique story of aviation history, Delta Air Lines operates the largest fleet of",
       "source": "https://simpleflying.com/why-delta-air-lines-kept-flying-boeing-757/"
+    },
+    {
+      "slug": "nearly-100-full-exploring-cathay-pacific-s-brand-new-dallas-flights-2025-09-21",
+      "title": "Nearly 100% Full: Exploring Cathay Pacific's Brand-New Dallas Flights",
+      "date": "2025-09-21",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/shutterstock_1835755075-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/nearly-100-full-exploring-cathay-pacific-s-brand-new-dallas-flights-2025-09-21/",
+      "excerpt": "Cathay Pacific has decided to increase its operation between Hong Kong International Airport and",
+      "source": "https://simpleflying.com/nearly-full-exploring-cathay-dallas/"
     },
     {
       "slug": "mein-schiff-relax-to-offer-2026-andrea-berg-cruise-2025-09-21",
@@ -595,10 +640,10 @@
       "source": "https://airlineweekly.skift.com/2025/08/can-spirit-airlines-survive/"
     }
   ],
-  "count": 66,
+  "count": 71,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 66,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }

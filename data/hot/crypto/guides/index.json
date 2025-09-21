@@ -217,6 +217,15 @@
       "source": "https://cryptobriefing.com/xai-raises-10b-at-200b-valuation-says-cnbc/"
     },
     {
+      "slug": "white-house-considers-new-cftc-chair-amid-brian-quintenz-s-confirmation-issues-2025-09-19",
+      "title": "White House considers new CFTC chair amid Brian Quintenz’s confirmation issues",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19081247/3fb13fa7-859f-4e91-9b25-ccb6023d6ce9.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/white-house-considers-new-cftc-chair-amid-brian-quintenz-s-confirmation-issues-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/white-house-cftc-chair-quintenz-crypto-regulation/"
+    },
+    {
       "slug": "u-s-treasury-advances-genius-act-to-stablecoin-regulations-2025-09-19",
       "title": "U.S. Treasury advances GENIUS Act to stablecoin regulations",
       "date": "2025-09-19",
@@ -271,6 +280,24 @@
       "source": "https://cryptobriefing.com/metamask-perpetuals-hyperliquid-integration/"
     },
     {
+      "slug": "leverage-trading-the-risk-first-evolution-of-crypto-futures-and-leverage-platforms-in-2025-2025-09-19",
+      "title": "Leverage.Trading: The risk-first evolution of crypto futures and leverage platforms in 2025",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19084247/943e67fc-5972-4009-9b9f-ae4bf031c092.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/leverage-trading-the-risk-first-evolution-of-crypto-futures-and-leverage-platforms-in-2025-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/crypto-leverage-trading-risk-evolution/"
+    },
+    {
+      "slug": "grayscale-launches-etf-tracking-btc-eth-xrp-sol-on-nyse-arca-2025-09-19",
+      "title": "Grayscale launches ETF tracking BTC, ETH, XRP, SOL on NYSE Arca",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19074300/a6001b42-51de-4be3-9e7f-e46ad623c17a.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/grayscale-launches-etf-tracking-btc-eth-xrp-sol-on-nyse-arca-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/grayscale-crypto-etf-nyse-listing/"
+    },
+    {
       "slug": "ftx-to-distribute-1-6b-to-creditors-on-september-30-2025-09-19",
       "title": "FTX to distribute $1.6B to creditors on September 30",
       "date": "2025-09-19",
@@ -289,6 +316,15 @@
       "source": "https://cryptobriefing.com/kashkari-federal-reserve-rate-cut-neutrality-2025/"
     },
     {
+      "slug": "fed-s-kashkari-confident-in-achieving-inflation-targets-2025-09-19",
+      "title": "FED’s Kashkari confident in achieving inflation targets",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19091815/547ef28e-dfe9-4470-af37-a0edb3de52b7.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/fed-s-kashkari-confident-in-achieving-inflation-targets-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/fed-kashkari-confident-in-achieving-inflation-targets/"
+    },
+    {
       "slug": "enosys-introduces-xrp-backed-stablecoin-protocol-using-liquity-v2-fork-2025-09-19",
       "title": "Enosys introduces XRP-backed stablecoin protocol using Liquity V2 fork",
       "date": "2025-09-19",
@@ -296,6 +332,15 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/enosys-introduces-xrp-backed-stablecoin-protocol-using-liquity-v2-fork-2025-09-19/",
       "excerpt": "Share this article",
       "source": "https://cryptobriefing.com/enosys-xrp-backed-stablecoin-liquity-v2-fork-flare/"
+    },
+    {
+      "slug": "ecb-sees-progress-in-digital-euro-development-2025-09-19",
+      "title": "ECB sees progress in digital euro development",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19082926/0aed96f8-bdc3-4796-b3d0-9c0e4e25a92c.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/ecb-sees-progress-in-digital-euro-development-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/ecb-sees-progress-in-digital-euro-development/"
     },
     {
       "slug": "doublezero-plans-mainnet-beta-launch-2025-09-19",
@@ -325,11 +370,11 @@
       "source": "https://cryptobriefing.com/bitgo-files-s-1-for-potential-ipo/"
     }
   ],
-  "count": 36,
+  "count": 41,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 36,
+    "total_items": 41,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

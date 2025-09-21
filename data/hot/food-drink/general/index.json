@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "subway-bulks-up-with-a-delicious-high-protein-menu-upgrade-2025-09-21",
+      "title": "Subway Bulks Up With A Delicious High-Protein Menu Upgrade",
+      "date": "2025-09-21",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/subway-usa-royalty-free-image-1758382583.pjpeg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/subway-bulks-up-with-a-delicious-high-protein-menu-upgrade-2025-09-21/",
+      "excerpt": "Protein is having a main character year. There’s protein popcorn , protein sparkling drinks at warehouse clubs, protein cold foam , and now Subway is giving lunch the gym rat treatment.",
+      "source": "https://www.delish.com/food-news/a67978234/subway-fresh-fit-protein-sandwiches-new-menu/"
+    },
+    {
       "slug": "doritos-drops-limited-retro-stranger-things-flavor-fans-say-keep-it-forever-2025-09-21",
       "title": "Doritos Drops Limited Retro ‘Stranger Things’ Flavor & Fans Say Keep It Forever",
       "date": "2025-09-21",
@@ -370,10 +379,10 @@
       "source": "https://www.tasteofhome.com/collection/harry-potter-inspired-kitchen-items/"
     }
   ],
-  "count": 41,
+  "count": 42,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 41,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

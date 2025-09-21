@@ -190,6 +190,24 @@
       "source": "https://www.bonappetit.com/recipe/vinegar-chicken-with-figs"
     },
     {
+      "slug": "smoky-brown-butter-pasta-2025-09-16",
+      "title": "Smoky Brown-Butter Pasta",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/68c07b79cdf965e8ccfe1f18/master/pass/20250701_1025_01_ITS_Smoky%20Brown%20Butter%20Pasta_049_FINAL.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/smoky-brown-butter-pasta-2025-09-16/",
+      "excerpt": "Photograph by Elliott Jerome Brown Jr., Food Styling by Thu Buser, Prop Styling by Christina Allen",
+      "source": "https://www.bonappetit.com/recipe/smoky-brown-butter-pasta"
+    },
+    {
+      "slug": "shrimp-salad-2025-09-16",
+      "title": "Shrimp Salad",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e8356c1ef14d727ab4879/master/pass/shrimp-salad-toast_RECIPE_V3_061225_12640_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/shrimp-salad-2025-09-16/",
+      "excerpt": "Shrimp salad is a classic for a reason, and this recipe shows why. Juicy shrimp meet Old Bay seasoning , mayo, diced celery, red onion, and lemon for a fresher, brighter take on tuna or chicken salad, with streamlined flavors that let the shellfish shine.",
+      "source": "https://www.bonappetit.com/recipe/shrimp-salad"
+    },
+    {
       "slug": "meatball-tagine-2025-09-16",
       "title": "Meatball Tagine",
       "date": "2025-09-16",
@@ -206,6 +224,33 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/how-personal-stories-shaped-the-best-new-restaurants-of-2025-2025-09-16/",
       "excerpt": "Some of the best meals I’ve had this year were during my summer trip to Italy. I was blown away by Piazza Duomo Alba , a 20-year-old restaurant with charming pink walls and frescoes by artist Francisco Clemente. Chef Enrico Crippa’s dishes are celebrations of the rolling hills…",
       "source": "https://www.bonappetit.com/story/how-personal-stories-shaped-the-best-new-restaurants-of-2025"
+    },
+    {
+      "slug": "green-chutney-chicken-2025-09-16",
+      "title": "Green Chutney Chicken",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e7fe4b9ea764be8e38939/master/pass/green-chicken-chutney_RECIPE_V3_061225_12472_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/green-chutney-chicken-2025-09-16/",
+      "excerpt": "Photo by Travis Rainey, Food Styling by Thu Buser, Prop Styling by Alexandra Massillon",
+      "source": "https://www.bonappetit.com/recipe/green-chutney-chicken"
+    },
+    {
+      "slug": "gnocchi-piccata-2025-09-16",
+      "title": "Gnocchi Piccata",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e7ef1cee4bda245f55552/master/pass/gnocchi-piccata_RECIPE_V3_061225_12688_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/gnocchi-piccata-2025-09-16/",
+      "excerpt": "Imagine all the punchy, savory flavors of chicken piccata , only instead of chicken, the foundation is built upon plump, perfectly tender potato gnocchi. The trick to making this a one-pan affair is to use shelf-stable gnocchi (the kind found in the dried pasta section) instea…",
+      "source": "https://www.bonappetit.com/recipe/gnocchi-piccata"
+    },
+    {
+      "slug": "beet-salmon-salad-with-horseradish-yogurt-2025-09-16",
+      "title": "Beet-Salmon Salad With Horseradish Yogurt",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e7dc4c1ef14d727ab4839/master/pass/beet-salmon-salad-horseradish-yogurt_RECIPE_V3_061225_12615_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/beet-salmon-salad-with-horseradish-yogurt-2025-09-16/",
+      "excerpt": "Photo by Travis Rainey, Food Styling by Thu Buser, Prop Styling by Alexandra Massillon",
+      "source": "https://www.bonappetit.com/recipe/beet-salmon-salad-with-horseradish-yogurt"
     },
     {
       "slug": "all-your-restaurant-etiquette-questions-answered-2025-09-16",
@@ -271,10 +316,10 @@
       "source": "https://cookieandkate.com/chocolate-chip-muffins/?adt_ei=*|EMAIL|*"
     }
   ],
-  "count": 30,
+  "count": 35,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 30,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }
