@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "tether-clarifies-power-cut-situation-in-uruguay-2025-09-21",
+      "title": "Tether Clarifies Power‑Cut Situation in Uruguay",
+      "date": "2025-09-21",
+      "cover": "https://static.news.bitcoin.com/wp-content/uploads/2025/09/tether_in_uruguay.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/tether-clarifies-power-cut-situation-in-uruguay-2025-09-21/",
+      "excerpt": "You need to enable JavaScript to run this app.",
+      "source": "https://news.bitcoin.com/tether-clarifies-power%e2%80%91cut-situation-in-uruguay/"
+    },
+    {
       "slug": "robert-kiyosaki-sees-bitcoin-surging-with-trump-s-401-k-investment-reform-2025-09-21",
       "title": "Robert Kiyosaki Sees Bitcoin Surging With Trump’s 401(k) Investment Reform",
       "date": "2025-09-21",
@@ -172,6 +181,42 @@
       "source": "https://blockonomi.com/3-best-cryptos-to-invest-in-as-nasdaq-makes-huge-move-with-50m-investment-in-gemini/"
     },
     {
+      "slug": "xai-raises-10b-at-200b-valuation-cnbc-2025-09-19",
+      "title": "xAI raises $10B at $200B valuation: CNBC",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19135357/b3041c16-8980-487b-a194-4a43d81a9850.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/xai-raises-10b-at-200b-valuation-cnbc-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/xai-raises-10b-at-200b-valuation-says-cnbc/"
+    },
+    {
+      "slug": "u-s-treasury-advances-genius-act-to-stablecoin-regulations-2025-09-19",
+      "title": "U.S. Treasury advances GENIUS Act to stablecoin regulations",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19140846/612089f2-6d6c-455f-bca2-94d99c01e6d9.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/u-s-treasury-advances-genius-act-to-stablecoin-regulations-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/us-treasury-genius-act-stablecoin-regulations/"
+    },
+    {
+      "slug": "trust-wallet-to-support-xstocks-for-accessing-tokenized-u-s-equities-2025-09-19",
+      "title": "Trust Wallet to support xStocks for accessing tokenized U.S. equities",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19124937/961c2d7e-cbdf-4374-a6f2-256193772ee8.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/trust-wallet-to-support-xstocks-for-accessing-tokenized-u-s-equities-2025-09-19/",
+      "excerpt": "Photo: Trust Wallet",
+      "source": "https://cryptobriefing.com/trust-wallet-xstocksfi-tokenized-us-equities-integration/"
+    },
+    {
+      "slug": "senate-democrats-aim-for-bipartisan-crypto-market-legislation-2025-09-19",
+      "title": "Senate Democrats aim for bipartisan crypto market legislation",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19151255/0c51d889-7e09-45ce-a7b7-786496c9a793.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/senate-democrats-aim-for-bipartisan-crypto-market-legislation-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/senate-democrats-bipartisan-crypto-market-legislation/"
+    },
+    {
       "slug": "ftx-to-distribute-1-6b-to-creditors-on-september-30-2025-09-19",
       "title": "FTX to distribute $1.6B to creditors on September 30",
       "date": "2025-09-19",
@@ -190,6 +235,15 @@
       "source": "https://cryptobriefing.com/enosys-xrp-backed-stablecoin-liquity-v2-fork-flare/"
     },
     {
+      "slug": "doublezero-plans-mainnet-beta-launch-2025-09-19",
+      "title": "DoubleZero plans mainnet-beta launch",
+      "date": "2025-09-19",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/19125443/a6c482f9-f326-4ce2-b1a1-b1898ca8ce6e.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/doublezero-plans-mainnet-beta-launch-2025-09-19/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/doublezero-mainnet-beta-blockchain-infrastructure-launch/"
+    },
+    {
       "slug": "bitgo-files-s-1-for-potential-ipo-2025-09-19",
       "title": "BitGo files S-1 for potential IPO",
       "date": "2025-09-19",
@@ -199,11 +253,11 @@
       "source": "https://cryptobriefing.com/bitgo-files-s-1-for-potential-ipo/"
     }
   ],
-  "count": 22,
+  "count": 28,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 22,
+    "total_items": 28,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

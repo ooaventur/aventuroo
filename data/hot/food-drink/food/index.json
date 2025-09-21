@@ -100,6 +100,24 @@
       "source": "https://www.bonappetit.com/story/share-plates-menu-chefs-trends"
     },
     {
+      "slug": "turkey-pot-pie-with-puff-pastry-crust-2025-09-17",
+      "title": "Turkey Pot Pie With Puff Pastry Crust",
+      "date": "2025-09-17",
+      "cover": "https://assets.bonappetit.com/photos/6346e8081622797c0ab8c49f/master/pass/1012-alt-birds-4-lede.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/turkey-pot-pie-with-puff-pastry-crust-2025-09-17/",
+      "excerpt": "The puff pastry crust isn’t the only secret to the success of this turkey pot pie recipe. For the velvety sauce, you’ll need an ingredient that might be even less expected: American cheese . When combined with flour and water (you could use chicken stock or turkey broth, but y…",
+      "source": "https://www.bonappetit.com/recipe/puff-pastry-turkey-pot-pie"
+    },
+    {
+      "slug": "this-is-the-season-of-corn-powered-desserts-2025-09-17",
+      "title": "This is the Season of Corn-Powered Desserts",
+      "date": "2025-09-17",
+      "cover": "https://assets.bonappetit.com/photos/68c9ca05efc96bf3595b35f8/master/pass/0925_CornDesserts-wide.png",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/this-is-the-season-of-corn-powered-desserts-2025-09-17/",
+      "excerpt": "There’s something in the air—can you smell it? It’s sweet, slightly vegetal, even floral. It’s corn, and it’s living rent free in the minds of bakers and pastry chefs around the country.",
+      "source": "https://www.bonappetit.com/story/how-corn-dominated-dessert-menus-everywhere"
+    },
+    {
       "slug": "the-best-stuffing-mix-a-blind-taste-test-2025-09-17",
       "title": "The Best Stuffing Mix: A Blind Taste Test",
       "date": "2025-09-17",
@@ -118,6 +136,24 @@
       "source": "https://www.bonappetit.com/story/enoteca-maria-nonnas"
     },
     {
+      "slug": "how-state-fair-food-is-changing-across-the-country-2025-09-17",
+      "title": "How State Fair Food Is Changing Across the Country",
+      "date": "2025-09-17",
+      "cover": "https://assets.bonappetit.com/photos/68c9945ed0373af1ec3bb5a9/master/pass/Nguyen_007.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/how-state-fair-food-is-changing-across-the-country-2025-09-17/",
+      "excerpt": "When Mariam Mohamed got the call to be a vendor at the Minnesota State Fair, she couldn’t stop screaming for joy. After immigrating to the state nearly 40 years ago, and building a family in Minneapolis, she had walked the iconic fairgrounds with her children. But for the firs…",
+      "source": "https://www.bonappetit.com/story/state-fair-food-global"
+    },
+    {
+      "slug": "early-prime-day-kitchen-deals-up-to-39-off-cookware-more-2025-2025-09-17",
+      "title": "Early Prime Day Kitchen Deals, Up to 39% Off Cookware & More 2025",
+      "date": "2025-09-17",
+      "cover": "https://assets.bonappetit.com/photos/686ec870dc319ce4909aa264/master/pass/2025_APD_product%20text%204.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/early-prime-day-kitchen-deals-up-to-39-off-cookware-more-2025-2025-09-17/",
+      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.bonappetit.com/story/amazon-prime-day-kitchen-deals-2025-09-17"
+    },
+    {
       "slug": "best-induction-cookware-we-ve-ever-tested-2025-09-17",
       "title": "Best Induction Cookware We’ve Ever Tested",
       "date": "2025-09-17",
@@ -134,6 +170,15 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/behind-the-scenes-of-the-martini-expo-a-boozy-celebration-of-the-classic-cocktail-2025-09-17/",
       "excerpt": "When the doors to the Martini Expo swung open at noon, crowds flooded into the space, beelining toward the bar where they were offered a classic gin mini-tini, a wee pink Gibson, or a half-sized lychee martini. As you can imagine, it was the first of what would be many martini…",
       "source": "https://www.bonappetit.com/story/inside-the-first-ever-martini-expo"
+    },
+    {
+      "slug": "all-the-recipes-from-the-bon-app-tit-restaurants-issue-2025-09-17",
+      "title": "All the Recipes From the 'Bon Appétit' Restaurants Issue",
+      "date": "2025-09-17",
+      "cover": "https://assets.bonappetit.com/photos/687e7ef1cee4bda245f55552/master/pass/gnocchi-piccata_RECIPE_V3_061225_12688_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/all-the-recipes-from-the-bon-app-tit-restaurants-issue-2025-09-17/",
+      "excerpt": "In the October magazine issue of Bon Appétit, you’ll find premium restaurant coverage. For months, our editors have toured the country, eating meal after meal, to ultimately come up with the 20 Best New Restaurants of 2025 . Each restaurant offers personal storytelling through…",
+      "source": "https://www.bonappetit.com/gallery/bon-appetit-october-2025-issue"
     },
     {
       "slug": "22-easy-fall-recipes-for-busy-nights-2025-09-12",
@@ -181,11 +226,11 @@
       "source": "https://cookieandkate.com/chocolate-chip-muffins/?adt_ei=*|EMAIL|*"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

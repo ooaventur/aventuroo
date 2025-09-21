@@ -10,6 +10,15 @@
       "source": "https://www.intrepidtravel.com/adventures/solo-trip-to-morocco-changed-my-life/"
     },
     {
+      "slug": "home-and-travel-why-you-can-t-appreciate-one-without-the-other-2025-06-17",
+      "title": "Home and Travel: Why You Can’t Appreciate One Without the Other",
+      "date": "2025-06-17",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2017/10/madagascar9a.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/home-and-travel-why-you-can-t-appreciate-one-without-the-other-2025-06-17/",
+      "excerpt": "I used to think “home” was a dirty word. Out there — on the road — was where life happened, full of exciting adventures, fascinating people, and endless possibilities. No dreary commutes, 30-minute lunch breaks, mind-numbing meetings, or endless lists of to-dos squeezed into a…",
+      "source": "https://www.nomadicmatt.com/travel-blogs/home-and-travel/"
+    },
+    {
       "slug": "menu-of-dreams-my-perfect-day-of-dishes-from-around-the-world-2025-06-11",
       "title": "Menu of dreams: My perfect day of dishes from around the world",
       "date": "2025-06-11",
@@ -17,6 +26,15 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/menu-of-dreams-my-perfect-day-of-dishes-from-around-the-world-2025-06-11/",
       "excerpt": "When I travel to a new country, my favourite way to connect with its culture is through its food – not just what’s on the plate, but the stories behind it.",
       "source": "https://www.intrepidtravel.com/adventures/top-dishes-from-around-the-world/"
+    },
+    {
+      "slug": "american-express-business-gold-card-review-2025-06-11",
+      "title": "American Express® Business Gold Card Review",
+      "date": "2025-06-11",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2025/06/amexgoldbiz.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/american-express-business-gold-card-review-2025-06-11/",
+      "excerpt": "",
+      "source": "https://www.nomadicmatt.com/travel-blogs/american-express-business-gold-card-review/"
     },
     {
       "slug": "our-us-national-parks-need-protection-here-s-why-intrepid-is-stepping-up-2025-06-09",
@@ -46,10 +64,10 @@
       "source": "https://www.intrepidtravel.com/adventures/meet-costa-ricas-maleku-tribe/"
     }
   ],
-  "count": 5,
+  "count": 7,
   "updated_at": "2025-06-30",
   "pagination": {
-    "total_items": 5,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

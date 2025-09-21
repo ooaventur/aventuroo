@@ -190,6 +190,15 @@
       "source": "https://www.atlasobscura.com/places/stainborough-castle"
     },
     {
+      "slug": "samin-nosrat-s-favorite-san-francisco-restaurants-2025-09-16",
+      "title": "Samin Nosrat's Favorite San Francisco Restaurants",
+      "date": "2025-09-16",
+      "cover": "https://media.cntraveler.com/photos/68c96d1437ed68860861eb7f/master/pass/091625-Where-Chefs-Eat-Samin-Nosrat-PR-Global-07961_Samin_Details_HR2_sm.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/samin-nosrat-s-favorite-san-francisco-restaurants-2025-09-16/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/where-the-chefs-eat-samin-nosrats-favorite-san-francisco-restaurants"
+    },
+    {
       "slug": "point-arena-lighthouse-in-point-arena-california-2025-09-16",
       "title": "Point Arena Lighthouse in Point Arena, California",
       "date": "2025-09-16",
@@ -197,6 +206,15 @@
       "canonical": "https://archive.aventuroo.com/travel/things-to-do/point-arena-lighthouse-in-point-arena-california-2025-09-16/",
       "excerpt": "A nominal $5 entry fee gets you into this beautiful coastal must-see. Keep an eye out for Arena Mina, the local lighthouse cat, guest relations manager, and rodent control specialist.",
       "source": "https://www.atlasobscura.com/places/point-arena-lighthouse"
+    },
+    {
+      "slug": "hiking-haikus-and-hand-rolled-pasta-how-a-life-coaching-retreat-in-tuscany-transformed-one-writer-s-sense-of-self-2025-09-16",
+      "title": "Hiking, Haikus, and Hand-Rolled Pasta: How a Life Coaching Retreat in Tuscany Transformed One Writer's Sense of Self",
+      "date": "2025-09-16",
+      "cover": "https://media.cntraveler.com/photos/68c86cf1837a338a0489a471/master/pass/Healthfix-CNTUK-Sept25-alba-retreat-Alex-Barlow-and-monicaspezia-livinginside-Global.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/hiking-haikus-and-hand-rolled-pasta-how-a-life-coaching-retreat-in-tuscany-transformed-one-writer-s-sense-of-self-2025-09-16/",
+      "excerpt": "I picked a tip of lavender, raised it to my face and inhaled deeply through my nose. On the horizon, the barely visible town of Montalcino squinted back at me from above a landscape that, softened by the haze of woodsmoke, had the unwrinkled flow of silk. The only sounds were …",
+      "source": "https://www.cntraveler.com/story/how-a-life-coaching-retreat-in-tuscany-transformed-one-writers-sense-of-self"
     },
     {
       "slug": "here-lies-charlotte-temple-the-woman-who-never-existed-2025-09-16",
@@ -208,11 +226,11 @@
       "source": "https://www.atlasobscura.com/articles/podcast-grave-charlotte-temple"
     }
   ],
-  "count": 23,
+  "count": 25,
   "updated_at": "2025-09-19",
   "pagination": {
-    "total_items": 23,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

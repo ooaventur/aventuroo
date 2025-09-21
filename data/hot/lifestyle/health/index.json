@@ -163,6 +163,15 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250914205845.htm"
     },
     {
+      "slug": "half-of-adults-suffer-from-dry-eyes-but-most-never-get-help-2025-09-15",
+      "title": "Half of adults suffer from dry eyes, but most never get help",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/red-eye-close-up-before-and-after-treatment.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/half-of-adults-suffer-from-dry-eyes-but-most-never-get-help-2025-09-15/",
+      "excerpt": "Dry eyes can cause significant discomfort, and the symptoms become more common as we age. However, until now, it was unclear what proportion of the population suffered from the condition, with estimates ranging from 5-50%.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205829.htm"
+    },
+    {
       "slug": "guava-s-secret-molecule-could-fight-liver-cancer-2025-09-15",
       "title": "Guava’s secret molecule could fight liver cancer",
       "date": "2025-09-15",
@@ -179,13 +188,49 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/daily-eye-drops-could-make-reading-glasses-obsolete-2025-09-15/",
       "excerpt": "Everybody develops presbyopia as they age - a difficulty in focusing on near objects and text - and often have to resort to reading glasses. However, the solution might be as simple as using special eye drops two or three times a day.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250914205832.htm"
+    },
+    {
+      "slug": "cannabis-use-may-quadruple-diabetes-risk-2025-09-15",
+      "title": "Cannabis use may quadruple diabetes risk",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/marijuana-leaf-cannabis-chocolate-brownies.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/cannabis-use-may-quadruple-diabetes-risk-2025-09-15/",
+      "excerpt": "Cannabis use is linked to an almost quadrupling in the risk of developing diabetes, according to an analysis of real-world data from over 4 million adults, being presented at this year’s Annual Meeting of The European Association for the Study of Diabetes (EASD) in Vienna, Aus…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205803.htm"
+    },
+    {
+      "slug": "being-too-thin-can-be-deadlier-than-being-overweight-danish-study-reveals-2025-09-15",
+      "title": "Being too thin can be deadlier than being overweight, Danish study reveals",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/women-trying-on-jeans-different-body-types.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/being-too-thin-can-be-deadlier-than-being-overweight-danish-study-reveals-2025-09-15/",
+      "excerpt": "It is possible to be \"fat but fit,\" new research being presented at the annual meeting of the European Association for the Study of Diabetes (EASD) in Vienna, Austria (September 15-19) suggests.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205759.htm"
+    },
+    {
+      "slug": "sleepless-nights-may-raise-dementia-risk-by-40-mayo-clinic-reveals-2025-09-14",
+      "title": "Sleepless nights may raise dementia risk by 40%, Mayo Clinic reveals",
+      "date": "2025-09-14",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-missing-puzzle-pieces-degenerative-diseases.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/sleepless-nights-may-raise-dementia-risk-by-40-mayo-clinic-reveals-2025-09-14/",
+      "excerpt": "Highlights:",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250913232924.htm"
+    },
+    {
+      "slug": "1-in-8-americans-have-already-tried-ozempic-and-similar-weight-loss-medications-2025-09-14",
+      "title": "1 in 8 Americans have already tried Ozempic and similar weight loss medications",
+      "date": "2025-09-14",
+      "cover": "https://www.sciencedaily.com/images/1920/hand-holding-semaglutide-ozempic-injection.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/1-in-8-americans-have-already-tried-ozempic-and-similar-weight-loss-medications-2025-09-14/",
+      "excerpt": "Nearly 12% of Americans have used GLP-1 drugs for weight loss, including about one-fifth of women aged 50 to 64, according to a new RAND report.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250913232936.htm"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

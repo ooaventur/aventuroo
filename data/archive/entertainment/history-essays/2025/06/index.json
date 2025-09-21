@@ -19,6 +19,15 @@
       "source": "https://publicdomainreview.org/blog/2025/06/tiny-cryptic-11"
     },
     {
+      "slug": "the-language-of-form-lothar-schreyer-s-kreuzigung-1920-2025-06-18",
+      "title": "The Language of Form: Lothar Schreyer’s Kreuzigung (1920)",
+      "date": "2025-06-18",
+      "cover": "https://pdr-assets.b-cdn.net/collections/kreuzigung/kreuzigung-2.jpeg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-language-of-form-lothar-schreyer-s-kreuzigung-1920-2025-06-18/",
+      "excerpt": "When Kreuzigung , or Crucifixion, premiered in 1920, it was the culmination of at least one hundred rehearsals. Yet like most of the works by German expressionist dramaturg Lothar Schreyer, it would be performed only a handful of times. For Schreyer, the performances he choreo…",
+      "source": "https://publicdomainreview.org/collection/kreuzigung"
+    },
+    {
       "slug": "dancing-naked-on-the-head-of-a-pin-the-early-history-of-microphotography-2025-06-18",
       "title": "Dancing Naked on the Head of a Pin: The Early History of Microphotography",
       "date": "2025-06-18",
@@ -26,12 +35,48 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/dancing-naked-on-the-head-of-a-pin-the-early-history-of-microphotography-2025-06-18/",
       "excerpt": "In 1853, John Benjamin Dancer achieved a feat of seemingly impossible scale: he shrunk an image to the size of a sharpened pencil tip. Anika Burgess explores the invention of microphotography and its influence on erotic paraphernalia and military communications.",
       "source": "https://publicdomainreview.org/essay/dancing-naked-on-the-head-of-a-pin"
+    },
+    {
+      "slug": "strings-attached-helen-haiman-joseph-s-a-book-of-marionettes-1920-2025-06-12",
+      "title": "Strings Attached: Helen Haiman Joseph’s A Book of Marionettes (1920)",
+      "date": "2025-06-12",
+      "cover": "https://pdr-assets.b-cdn.net/collections/book-of-marionettes/bookofmarionette00joserich_0123-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/strings-attached-helen-haiman-joseph-s-a-book-of-marionettes-1920-2025-06-12/",
+      "excerpt": "Anybody who grew up with Shari Lewis’ Lamb Chop, Fred Rogers’ King Friday XIII, or Jim Henson’s Muppets will surely feel that they have entered a more expansive puppet realm at the outset of Helen Haiman Joseph’s A Book of Marionettes (1920). Late one evening in Cleveland, Ohi…",
+      "source": "https://publicdomainreview.org/collection/book-of-marionettes"
+    },
+    {
+      "slug": "off-with-their-heads-illustrations-of-blemmyes-ca-1175-1724-2025-06-11",
+      "title": "Off with Their Heads: Illustrations of Blemmyes (ca. 1175–1724)",
+      "date": "2025-06-11",
+      "cover": "https://pdr-assets.b-cdn.net/collections/blemmyes/blemmyes-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/off-with-their-heads-illustrations-of-blemmyes-ca-1175-1724-2025-06-11/",
+      "excerpt": "Before we “lost our cool”, we “lost our heads”. The latter idiom dates back to the eighteenth century, but the literal phrase from which it stems (read: decapitation) was in use since at least the time of Chaucer. Long before English existed as a language, however, a headless …",
+      "source": "https://publicdomainreview.org/collection/blemmyes"
+    },
+    {
+      "slug": "under-construction-tiny-cryptic-10-2025-06-05",
+      "title": "Under Construction: Tiny Cryptic #10",
+      "date": "2025-06-05",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/under-construction-tiny-cryptic-10-2025-06-05/",
+      "excerpt": "The tenth instalment in our series of extremely small and free-form cryptic crossword puzzles, published every two weeks to coincide with our latest essay on which the puzzle will be themed.",
+      "source": "https://publicdomainreview.org/blog/2025/06/tiny-cryptic-10"
+    },
+    {
+      "slug": "imagining-an-idle-countess-george-wightwick-s-the-palace-of-architecture-2025-06-05",
+      "title": "Imagining an Idle Countess: George Wightwick’s The Palace of Architecture",
+      "date": "2025-06-05",
+      "cover": "https://pdr-assets.b-cdn.net/essays/imagining-an-idle-countess/palace-thumb-1.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/imagining-an-idle-countess-george-wightwick-s-the-palace-of-architecture-2025-06-05/",
+      "excerpt": "In 1840, British architect George Wightwick published a world history of architecture in the Romantic mode, inviting readers to enter a vast garden where Buddhist iconography rubs shoulders with Greek temples and Egyptian pyramids gaze upon Gothic cathedrals. His intended audi…",
+      "source": "https://publicdomainreview.org/essay/imagining-an-idle-countess"
     }
   ],
-  "count": 3,
+  "count": 8,
   "updated_at": "2025-06-24",
   "pagination": {
-    "total_items": 3,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

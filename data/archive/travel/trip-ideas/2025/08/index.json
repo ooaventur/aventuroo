@@ -19,6 +19,15 @@
       "source": "https://www.nomadicmatt.com/travel-blogs/the-ruin-bars-of-budapest/"
     },
     {
+      "slug": "delta-skymiles-reserve-american-express-card-review-2025-08-20",
+      "title": "Delta SkyMiles® Reserve American Express Card Review",
+      "date": "2025-08-20",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2025/08/deletareserve.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/delta-skymiles-reserve-american-express-card-review-2025-08-20/",
+      "excerpt": "",
+      "source": "https://www.nomadicmatt.com/travel-blogs/delta-skymiles-reserve-review/"
+    },
+    {
       "slug": "delta-skymiles-platinum-american-express-card-review-2025-08-20",
       "title": "Delta SkyMiles® Platinum American Express Card Review",
       "date": "2025-08-20",
@@ -26,6 +35,24 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/delta-skymiles-platinum-american-express-card-review-2025-08-20/",
       "excerpt": "Terms apply to American Express benefits and offers. Enrollment may be required for select American Express benefits and offers. Visit americanexpress.com to learn more.",
       "source": "https://www.nomadicmatt.com/travel-blogs/delta-skymiles-platinum-review/"
+    },
+    {
+      "slug": "delta-skymiles-gold-american-express-card-review-2025-08-20",
+      "title": "Delta SkyMiles® Gold American Express Card Review",
+      "date": "2025-08-20",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2025/08/deltagold.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/delta-skymiles-gold-american-express-card-review-2025-08-20/",
+      "excerpt": "",
+      "source": "https://www.nomadicmatt.com/travel-blogs/delta-skymiles-gold-card-review/"
+    },
+    {
+      "slug": "my-31-favorite-places-to-visit-in-the-usa-2025-08-18",
+      "title": "My 31 Favorite Places to Visit in the USA",
+      "date": "2025-08-18",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2018/10/grandcanyonmatt.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/my-31-favorite-places-to-visit-in-the-usa-2025-08-18/",
+      "excerpt": "",
+      "source": "https://www.nomadicmatt.com/travel-blogs/best-places-united-states/"
     },
     {
       "slug": "meet-the-women-turning-periods-into-pathways-in-nepal-and-beyond-2025-08-13",
@@ -37,10 +64,10 @@
       "source": "https://www.intrepidtravel.com/adventures/turning-periods-into-pathways-in-nepal/"
     }
   ],
-  "count": 4,
+  "count": 7,
   "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 4,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

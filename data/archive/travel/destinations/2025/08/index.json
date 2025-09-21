@@ -71,12 +71,30 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-perfect-holiday-in-crete-2025-08-08/",
       "excerpt": "An insider guide to Greece's most storied isle, from its beautiful coastline to bustling beach clubs",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/greece/crete/articles/crete-travel-guide/"
+    },
+    {
+      "slug": "the-perfect-holiday-in-suffolk-east-anglia-s-easy-going-answer-to-the-cotswolds-2025-08-02",
+      "title": "The perfect holiday in Suffolk – East Anglia’s easy-going answer to the Cotswolds",
+      "date": "2025-08-02",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United Kingdom/suffolk-GettyImages-1285314905.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-holiday-in-suffolk-east-anglia-s-easy-going-answer-to-the-cotswolds-2025-08-02/",
+      "excerpt": "An insider guide to Constable’s picture-perfect muse, home to 50 miles of uncrowded coast in touching distance from London",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/east-anglia/suffolk/articles/an-expert-travel-guide-to-suffolk/"
+    },
+    {
+      "slug": "britain-s-greatest-scenic-train-journeys-2025-08-01",
+      "title": "Britain’s greatest scenic train journeys",
+      "date": "2025-08-01",
+      "cover": "https://www.telegraph.co.uk/content/dam/travel/2023/02/22/TELEMMGLPICT000326385062_trans_NvBQzQNjv4BqgsaO8O78rhmZrDxTlQBjdLdu0TL-Cg_AMOUqySXmFgU.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/britain-s-greatest-scenic-train-journeys-2025-08-01/",
+      "excerpt": "The best routes to take in the wonderful landscapes of Britain from the comfort of a rail carriage",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/best-train-journeys-uk-scotland-britain-railway-routes/"
     }
   ],
-  "count": 8,
+  "count": 10,
   "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 8,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

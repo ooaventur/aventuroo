@@ -8,12 +8,21 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/demand-your-voice-2025-08-21/",
       "excerpt": "Is it just history that I was in Jerusalem today and that I saw what I saw and I smelled pomegranates from the next street over but it was only my imagination",
       "source": "https://www.nplusonemag.com/online-only/online-only/demand-your-voice/"
+    },
+    {
+      "slug": "bucky-beats-the-blues-2025-08-19",
+      "title": "Bucky Beats the Blues",
+      "date": "2025-08-19",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Capitals_6_-_Florida_Panthers_3_54406326281.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/bucky-beats-the-blues-2025-08-19/",
+      "excerpt": "A self-congratulatory truism in the hockey world is that the Stanley Cup is the hardest major trophy to win. This is literally true, insofar as 82 to 110 games of full-contact skating cause untold amounts of immediate suffering, opioid addiction, and premature death. It is als…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/bucky-beats-the-blues/"
     }
   ],
-  "count": 1,
+  "count": 2,
   "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

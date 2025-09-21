@@ -10,6 +10,24 @@
       "source": "https://www.marktechpost.com/2025/09/20/llm-as-a-judge-where-do-its-signals-break-when-do-they-hold-and-what-should-evaluation-mean/"
     },
     {
+      "slug": "ibm-and-eth-z-rich-researchers-unveil-analog-foundation-models-to-tackle-noise-in-in-memory-ai-hardware-2025-09-21",
+      "title": "IBM and ETH Zürich Researchers Unveil Analog Foundation Models to Tackle Noise in In-Memory AI Hardware",
+      "date": "2025-09-21",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-76.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ibm-and-eth-z-rich-researchers-unveil-analog-foundation-models-to-tackle-noise-in-in-memory-ai-hardware-2025-09-21/",
+      "excerpt": "IBM researchers, together with ETH Zürich, have unveiled a new class of Analog Foundation Models (AFMs) designed to bridge the gap between large language models (LLMs) and Analog In-Memory Computing (AIMC) hardware. AIMC has long promised a radical leap in efficiency—running m…",
+      "source": "https://www.marktechpost.com/2025/09/21/ibm-and-eth-zurich-researchers-unveil-analog-foundation-models-to-tackle-noise-in-in-memory-ai-hardware/"
+    },
+    {
+      "slug": "building-a-hybrid-rule-based-and-machine-learning-framework-to-detect-and-defend-against-jailbreak-prompts-in-llm-systems-2025-09-21",
+      "title": "Building a Hybrid Rule-Based and Machine Learning Framework to Detect and Defend Against Jailbreak Prompts in LLM Systems",
+      "date": "2025-09-21",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-75.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/building-a-hybrid-rule-based-and-machine-learning-framework-to-detect-and-defend-against-jailbreak-prompts-in-llm-systems-2025-09-21/",
+      "excerpt": "In this tutorial, we introduce a Jailbreak Defense that we built step-by-step to detect and safely handle policy-evasion prompts. We generate realistic attack and benign examples, craft rule-based signals, and combine those with TF-IDF features into a compact, interpretable cl…",
+      "source": "https://www.marktechpost.com/2025/09/21/building-a-hybrid-rule-based-and-machine-learning-framework-to-detect-and-defend-against-jailbreak-prompts-in-llm-systems/"
+    },
+    {
       "slug": "an-internet-of-ai-agents-coral-protocol-introduces-coral-v1-an-mcp-native-runtime-and-registry-for-cross-framework-ai-agents-2025-09-20",
       "title": "An Internet of AI Agents? Coral Protocol Introduces Coral v1: An MCP-Native Runtime and Registry for Cross-Framework AI Agents",
       "date": "2025-09-20",
@@ -28,10 +46,10 @@
       "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
     }
   ],
-  "count": 3,
+  "count": 5,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 3,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }

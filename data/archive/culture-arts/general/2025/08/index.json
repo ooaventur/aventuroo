@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "a-season-of-unease-at-the-edinburgh-festival-2025-08-17",
+      "title": "A Season of Unease at the Edinburgh Festival",
+      "date": "2025-08-17",
+      "cover": "https://media.newyorker.com/photos/689e4e14f24ff3960235a94f/master/pass/SHAW---EDINBURGH_Make-It-Happen-Production-Photography---Photo-credit-Marc-Brenner-09.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-season-of-unease-at-the-edinburgh-festival-2025-08-17/",
+      "excerpt": "For a few weeks each August, the Edinburgh International Festival and the Edinburgh Festival Fringe fill every theatre, student center, lecture hall, and pub basement in the Scottish capital with performances. Visitors and artists are encouraged to binge in every sense: in jus…",
+      "source": "https://www.newyorker.com/culture/the-theatre/a-season-of-unease-at-the-edinburgh-festival"
+    },
+    {
       "slug": "and-just-like-that-carrie-bradshaw-bids-an-unsatisfying-farewell-2025-08-15",
       "title": "“And Just Like That . . . ,” Carrie Bradshaw Bids an Unsatisfying Farewell",
       "date": "2025-08-15",
@@ -10,10 +19,10 @@
       "source": "https://www.newyorker.com/culture/on-television/and-just-like-that-carrie-bradshaw-bids-an-unsatisfying-farewell"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-08-15",
+  "count": 2,
+  "updated_at": "2025-08-17",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

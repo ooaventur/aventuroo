@@ -10,6 +10,15 @@
       "source": "https://pinchofyum.com/instant-pot-spaghetti"
     },
     {
+      "slug": "pesto-pasta-2025-07-29",
+      "title": "Pesto Pasta",
+      "date": "2025-07-29",
+      "cover": "https://cookieandkate.com/images/2025/07/pesto-pasta.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/pesto-pasta-2025-07-29/",
+      "excerpt": "Make the best pesto pasta with this foolproof recipe! Basil pesto comes together quickly in the food processor for a fresh and simple meal.",
+      "source": "https://cookieandkate.com/pesto-pasta/?adt_ei=*|EMAIL|*"
+    },
+    {
       "slug": "chipwich-ice-cream-cake-2025-07-25",
       "title": "chipwich ice cream cake",
       "date": "2025-07-25",
@@ -28,6 +37,15 @@
       "source": "https://pinchofyum.com/chocolate-cherry-smoothie"
     },
     {
+      "slug": "pistachio-milk-2025-07-22",
+      "title": "Pistachio Milk",
+      "date": "2025-07-22",
+      "cover": "https://cookieandkate.com/images/2025/07/pistachio-milk-recipe.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/pistachio-milk-2025-07-22/",
+      "excerpt": "Pistachio milk is cold, creamy and full of delicious pistachio flavor. Make your own pistachio milk at home by following this simple recipe.",
+      "source": "https://cookieandkate.com/pistachio-milk/?adt_ei=*|EMAIL|*"
+    },
+    {
       "slug": "marry-me-chickpeas-and-orzo-2025-07-22",
       "title": "Marry Me Chickpeas and Orzo",
       "date": "2025-07-22",
@@ -35,6 +53,15 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/marry-me-chickpeas-and-orzo-2025-07-22/",
       "excerpt": "A perfect 20-minute dinner! Chickpeas and orzo in a luscious, creamy, max-flavor tomato sauce.",
       "source": "https://pinchofyum.com/marry-me-chickpeas-and-orzo"
+    },
+    {
+      "slug": "burrata-with-tomatoes-basil-2025-07-17",
+      "title": "Burrata with Tomatoes & Basil",
+      "date": "2025-07-17",
+      "cover": "https://cookieandkate.com/images/2025/07/burrata-with-tomatoes-recipe.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/burrata-with-tomatoes-basil-2025-07-17/",
+      "excerpt": "This burrata salad recipe features tomatoes, basil and pine nuts, with a drizzle of balsamic vinegar and olive oil. It's ready in 15 minutes!",
+      "source": "https://cookieandkate.com/burrata-with-tomatoes-basil/?adt_ei=*|EMAIL|*"
     },
     {
       "slug": "focaccia-with-zucchini-and-potatoes-2025-07-11",
@@ -46,6 +73,15 @@
       "source": "https://smittenkitchen.com/2025/07/focaccia-with-zucchini-and-potatoes/"
     },
     {
+      "slug": "32-fresh-summer-salads-2025-07-09",
+      "title": "32 Fresh Summer Salads",
+      "date": "2025-07-09",
+      "cover": "https://cookieandkate.com/images/2025/07/summer-salad-recipes.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/32-fresh-summer-salads-2025-07-09/",
+      "excerpt": "",
+      "source": "https://cookieandkate.com/summer-salads/?adt_ei=*|EMAIL|*"
+    },
+    {
       "slug": "burrata-with-crushed-cherries-and-pistachios-2025-07-03",
       "title": "burrata with crushed cherries and pistachios",
       "date": "2025-07-03",
@@ -53,12 +89,21 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/burrata-with-crushed-cherries-and-pistachios-2025-07-03/",
       "excerpt": "Last summer, a friend came to a barbecue and said, “We had soccer and then a birthday party and I had no time to make anything but I brought this” and started unloading items from a grocery bag. There were no clean cooking utensils so she and I proceeded to use our hands to br…",
       "source": "https://smittenkitchen.com/2025/07/burrata-with-crushed-cherries-and-pistachios/"
+    },
+    {
+      "slug": "crispy-smashed-potato-salad-2025-07-01",
+      "title": "Crispy Smashed Potato Salad",
+      "date": "2025-07-01",
+      "cover": "https://pinchofyum.com/wp-content/uploads/Smashed-Potato-Salad-2.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/crispy-smashed-potato-salad-2025-07-01/",
+      "excerpt": "Pickley salad, crispy potatoes, and creamy ranch – this smashed potato salad is the perfect summer combo!",
+      "source": "https://pinchofyum.com/crispy-smashed-potato-salad"
     }
   ],
-  "count": 6,
+  "count": 11,
   "updated_at": "2025-07-31",
   "pagination": {
-    "total_items": 6,
+    "total_items": 11,
     "per_page": 12,
     "total_pages": 1
   }

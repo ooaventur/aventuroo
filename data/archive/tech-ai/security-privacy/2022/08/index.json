@@ -44,12 +44,57 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cybercriminals-are-selling-access-to-chinese-surveillance-cameras-2022-08-25/",
       "excerpt": "New research indicates that over 80,000 Hikvision surveillance cameras in the world today are vulnerable to an 11 month-old command injection flaw.",
       "source": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/"
+    },
+    {
+      "slug": "twitter-whistleblower-complaint-the-tl-dr-version-2022-08-24",
+      "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+      "date": "2022-08-24",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2022/08/24101017/Twitter-vulnerability.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/twitter-whistleblower-complaint-the-tl-dr-version-2022-08-24/",
+      "excerpt": "A recently surfaced 84-page whistleblower report filed with the US government by Twitter’s former head of security Peiter “Mudge” Zatko last month blasts his former employer for its alleged shoddy security practices and being out of compliance with an FTC order to protect user…",
+      "source": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/"
+    },
+    {
+      "slug": "firewall-bug-under-active-attack-triggers-cisa-warning-2022-08-23",
+      "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+      "date": "2022-08-23",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2018/11/02102344/ddos-protection-title.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/firewall-bug-under-active-attack-triggers-cisa-warning-2022-08-23/",
+      "excerpt": "Software running Palo Alto Networks’ firewalls is under attack, prompting U.S. Cybersecurity and Infrastructure Security Agency (CISA) to issue a warning to public and federal IT security teams to apply available fixes. Federal agencies urged to patch the bug by September 9.",
+      "source": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/"
+    },
+    {
+      "slug": "fake-reservation-links-prey-on-weary-travelers-2022-08-22",
+      "title": "Fake Reservation Links Prey on Weary Travelers",
+      "date": "2022-08-22",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2018/05/02171204/traveling-1.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fake-reservation-links-prey-on-weary-travelers-2022-08-22/",
+      "excerpt": "A longtime threat group identified as TA558 has ramped up efforts to target the travel and hospitality industries. After a lull in activity, believed tied to COVID-related travel restrictions, the threat group has ramped up campaigns to exploit an uptick in travel and related …",
+      "source": "https://threatpost.com/reservation-links-prey-on-travelers/180462/"
+    },
+    {
+      "slug": "iphone-users-urged-to-update-to-patch-2-zero-days-2022-08-19",
+      "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+      "date": "2022-08-19",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2021/07/27112232/zero-day.jpeg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/iphone-users-urged-to-update-to-patch-2-zero-days-2022-08-19/",
+      "excerpt": "Apple is urging macOS, iPhone and iPad users immediately to install respective updates this week that includes fixes for two zero-days under active attack. The patches are for vulnerabilities that allow attackers to execute arbitrary code and ultimately take over devices.",
+      "source": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/"
+    },
+    {
+      "slug": "google-patches-chrome-s-fifth-zero-day-of-the-year-2022-08-18",
+      "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
+      "date": "2022-08-18",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2019/07/31115247/chrome_patch.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/google-patches-chrome-s-fifth-zero-day-of-the-year-2022-08-18/",
+      "excerpt": "Google has patched the fifth actively exploited zero-day vulnerability discovered in Chrome this year as one in a series of fixes included in a stable channel update released Wednesday.",
+      "source": "https://threatpost.com/google-patches-chromes-fifth-zero-day-of-the-year/180432/"
     }
   ],
-  "count": 5,
+  "count": 10,
   "updated_at": "2022-08-31",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

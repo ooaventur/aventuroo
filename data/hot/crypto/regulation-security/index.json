@@ -118,6 +118,24 @@
       "source": "https://thedefiant.io/news/defi/aster-token-soars-as-perpetual-dex-mania-rages-on"
     },
     {
+      "slug": "wormhole-jumps-11-on-revised-tokenomics-and-reserve-initiative-2025-09-17",
+      "title": "Wormhole Jumps 11% on Revised Tokenomics and Reserve Initiative",
+      "date": "2025-09-17",
+      "cover": "https://cdn.thedefiant.io/wormhole-1-1-png-31513fab-efaf-478b-a571-3ce07be12731.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/wormhole-jumps-11-on-revised-tokenomics-and-reserve-initiative-2025-09-17/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/defi/wormhole-jumps-11-on-revised-tokenomics-and-reserve-initiative"
+    },
+    {
+      "slug": "us-retail-investors-buy-nearly-twice-as-much-btc-as-eth-chainalysis-2025-09-17",
+      "title": "US Retail Investors Buy Nearly Twice as Much BTC as ETH: Chainalysis",
+      "date": "2025-09-17",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-17t131943-866-png-fdda7b8f-bb2d-4881-9741-9ba8cf2568ed.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/us-retail-investors-buy-nearly-twice-as-much-btc-as-eth-chainalysis-2025-09-17/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/cefi/us-retail-traders-prefer-bitcoin-chainalysis"
+    },
+    {
       "slug": "uk-fca-considers-waiving-some-tradfi-rules-for-crypto-companies-2025-09-17",
       "title": "UK FCA considers waiving some TradFi rules for crypto companies",
       "date": "2025-09-17",
@@ -179,13 +197,40 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/bullish-paves-way-for-us-launch-with-new-york-bitlicense-2025-09-17/",
       "excerpt": "Bullish, a digital asset platform and infrastructure provider that debuted on the New York Stock Exchange last month, has secured regulatory approval to expand its operations in the United States, a key milestone as exchanges seek a clearer footing in one of crypto’s most scru…",
       "source": "https://cointelegraph.com/news/bullish-bitlicense-nydfs-crypto-expansion?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
+    },
+    {
+      "slug": "botanix-launches-yield-bearing-bitcoin-standard-2025-09-17",
+      "title": "Botanix Launches Yield-Bearing Bitcoin Standard",
+      "date": "2025-09-17",
+      "cover": "https://cdn.thedefiant.io/botanix-1-png-41169937-b596-48c1-bef6-6d901ba492ce.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/botanix-launches-yield-bearing-bitcoin-standard-2025-09-17/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/botanix-launches-yield-bearing-bitcoin-standard"
+    },
+    {
+      "slug": "maple-s-200-million-plasma-vault-gets-filled-instantly-2025-09-16",
+      "title": "Maple’s $200 Million Plasma Vault Gets Filled Instantly",
+      "date": "2025-09-16",
+      "cover": "https://cdn.thedefiant.io/mapleplasma-1-png-0545f720-b266-4046-95a9-f31c86363792.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/maple-s-200-million-plasma-vault-gets-filled-instantly-2025-09-16/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/defi/maple-s-usd200-million-plasma-vault-gets-filled-instantly"
+    },
+    {
+      "slug": "crypto-majors-trade-sideways-amid-geopolitical-tension-2025-09-16",
+      "title": "Crypto Majors Trade Sideways amid Geopolitical Tension",
+      "date": "2025-09-16",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-16t171239-054-png-849963ea-34a9-494c-901e-54d9b5fc0095.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-majors-trade-sideways-amid-geopolitical-tension-2025-09-16/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/markets/crypto-markets-mostly-flat-sept-16"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

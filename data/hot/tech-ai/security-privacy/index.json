@@ -10,6 +10,24 @@
       "source": "https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/"
     },
     {
+      "slug": "steam-will-stop-running-on-windows-32-bit-in-january-2026-2025-09-19",
+      "title": "Steam will stop running on Windows 32-bit in January 2026",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/Steam-red.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/steam-will-stop-running-on-windows-32-bit-in-january-2026-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/software/steam-will-stop-running-on-windows-32-bit-in-january-2026/"
+    },
+    {
+      "slug": "openai-s-4-gpt-go-plan-may-expand-to-more-regions-2025-09-19",
+      "title": "OpenAI's $4 GPT Go plan may expand to more regions",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT-logo.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/openai-s-4-gpt-go-plan-may-expand-to-more-regions-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-4-gpt-go-plan-may-expand-to-more-regions/"
+    },
+    {
       "slug": "microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs-2025-09-19",
       "title": "Microsoft starts rolling out Gaming Copilot on Windows 11 PCs",
       "date": "2025-09-19",
@@ -17,6 +35,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs-2025-09-19/",
       "excerpt": "",
       "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs/"
+    },
+    {
+      "slug": "known-emerging-unstoppable-ransomware-attacks-still-evade-defenses-2025-09-19",
+      "title": "Known. Emerging. Unstoppable? Ransomware Attacks Still Evade Defenses",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/09/14/blue-report-header.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/known-emerging-unstoppable-ransomware-attacks-still-evade-defenses-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/known-emerging-unstoppable-ransomware-attacks-still-evade-defenses/"
     },
     {
       "slug": "fortra-warns-of-max-severity-flaw-in-goanywhere-mft-s-license-servlet-2025-09-19",
@@ -44,6 +71,24 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks-2025-09-19/",
       "excerpt": "",
       "source": "https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/"
+    },
+    {
+      "slug": "chatgpt-search-is-now-smarter-as-openai-takes-on-google-search-2025-09-18",
+      "title": "ChatGPT Search is now smarter as OpenAI takes on Google Search",
+      "date": "2025-09-18",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chatgpt-search-is-now-smarter-as-openai-takes-on-google-search-2025-09-18/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-search-is-now-smarter-as-openai-takes-on-google-search/"
+    },
+    {
+      "slug": "chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model-2025-09-18",
+      "title": "ChatGPT now gives you greater control over GPT-5 Thinking model",
+      "date": "2025-09-18",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/11/08/ChatGPT.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model-2025-09-18/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model/"
     },
     {
       "slug": "the-cloud-edge-is-the-new-attack-surface-2025-09-17",
@@ -181,6 +226,24 @@
       "source": "https://www.darkreading.com/cyber-risk/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management"
     },
     {
+      "slug": "lies-in-the-loop-attack-defeats-ai-coding-agents-2025-09-15",
+      "title": "'Lies-in-the-Loop' Attack Defeats AI Coding Agents",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb130ee86e40e85fd/68c7d88f7b16cc60ea23e0d6/AI(1800)_NicoElNino_Alamy.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/lies-in-the-loop-attack-defeats-ai-coding-agents-2025-09-15/",
+      "excerpt": "Researchers convince Anthropic's AI-assisted coding tool to engage in dangerous behavior by lying to it, paving the way for a supply chain attack.",
+      "source": "https://www.darkreading.com/application-security/-lies-in-the-loop-attack-ai-coding-agents"
+    },
+    {
+      "slug": "killsec-ransomware-hits-brazilian-healthcare-software-provider-2025-09-15",
+      "title": "KillSec Ransomware Hits Brazilian Healthcare Software Provider",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt437c013664db253f/68c86afe12e1751a85fef599/brazil1800_Lazyllama_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/killsec-ransomware-hits-brazilian-healthcare-software-provider-2025-09-15/",
+      "excerpt": "The ransomware gang breached a &quot;major element&quot; of the healthcare technology supply chain and stole sensitive patient data, according to researchers.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-brazil-healthcare-software-provider"
+    },
+    {
       "slug": "hybridpetya-ransomware-bypasses-secure-boot-2025-09-15",
       "title": "'HybridPetya' Ransomware Bypasses Secure Boot",
       "date": "2025-09-15",
@@ -188,6 +251,33 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hybridpetya-ransomware-bypasses-secure-boot-2025-09-15/",
       "excerpt": "The malware, which has traits of Petya ransomware and the infamous NotPetya wiper, is designed to target UEFI-based systems, according to researchers.",
       "source": "https://www.darkreading.com/vulnerabilities-threats/hybridpetya-ransomware-bypasses-secure-boot"
+    },
+    {
+      "slug": "fbi-warns-of-threat-actors-hitting-salesforce-customers-2025-09-15",
+      "title": "FBI Warns of Threat Actors Hitting Salesforce Customers",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb64f7341f353cdcf/68c853af9be9ba835e76d325/Salesforce_sign_in_NY_JHVEPhoto_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fbi-warns-of-threat-actors-hitting-salesforce-customers-2025-09-15/",
+      "excerpt": "The FBI's IC3 recently warned of two threat actors, UNC6040 and UNC6395, targeting Salesforce customers, separately and in tandem.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/fbi-warns-threat-actors-salesforce-customers"
+    },
+    {
+      "slug": "building-resilient-it-infrastructure-from-the-start-2025-09-15",
+      "title": "Building Resilient IT Infrastructure From the Start",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbfc0071caaaf7f37/68b0609e39fcc89fbfa12af7/Security_(1800)_NicoElNino_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/building-resilient-it-infrastructure-from-the-start-2025-09-15/",
+      "excerpt": "CISA's Secure by Design planted a flag. Now, it's on those who care about safeguarding systems to pick up the torch and take action to secure systems throughout the enterprise.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/building-resilient-it-infrastructure"
+    },
+    {
+      "slug": "french-advisory-sheds-light-on-apple-spyware-activity-2025-09-12",
+      "title": "French Advisory Sheds Light on Apple Spyware Activity",
+      "date": "2025-09-12",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt27726cb6156cdd92/68c477b4d3d85501aa17eb33/iphoneupdate_PAImages_AlamyRESIZED.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/french-advisory-sheds-light-on-apple-spyware-activity-2025-09-12/",
+      "excerpt": "CERT-FR's advisory follows last month's disclosure of a zero-day flaw Apple said was used in &quot;sophisticated&quot; attacks against targeted individuals.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/french-sheds-light-apple-spyware-activity"
     },
     {
       "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
@@ -253,11 +343,11 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 28,
+  "count": 38,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 28,
+    "total_items": 38,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }
