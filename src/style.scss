@@ -4132,3 +4132,67 @@ blockquote {
 .mfp-bg {
   z-index: 2001;
 }
+
+// Archive
+.archive__months {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.archive__month {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(25, 30, 33, .12);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(25, 30, 33, .08);
+  transition: $general-transition;
+  min-height: 100%;
+
+  &:hover,
+  &:focus-within {
+    border-color: color($colors, primary);
+    box-shadow: 0 12px 30px rgba(25, 30, 33, .16);
+    transform: translateY(-4px);
+  }
+}
+
+.archive__month-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  transition: $general-transition;
+
+  &:hover,
+  &:focus {
+    color: color($colors, primary);
+  }
+
+  &:focus-visible {
+    outline-offset: 4px;
+  }
+}
+
+.archive__month-meta {
+  font-size: 14px;
+  color: rgba(25, 30, 33, .65);
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .archive__months {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .archive__month {
+    padding: 16px;
+  }
+}
