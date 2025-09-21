@@ -4226,6 +4226,224 @@ blockquote {
   color: rgba(25, 30, 33, 0.6);
   font-size: 18px;
 }
+.archive-month__header .archive__title {
+  letter-spacing: 3px;
+}
+.archive-month__breadcrumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(25, 30, 33, 0.55);
+}
+.archive-month__breadcrumbs a {
+  font-weight: 700;
+  color: #F73F52;
+}
+.archive-month__breadcrumbs a:hover,
+.archive-month__breadcrumbs a:focus {
+  color: #C8081C;
+}
+.archive-month__layout {
+  display: grid;
+  gap: 40px;
+}
+.archive-month__main {
+  display: grid;
+  gap: 28px;
+}
+.archive-month__stories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+.archive-month__story {
+  margin: 0;
+}
+.archive-month__card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(25, 30, 33, 0.08);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+.archive-month__media {
+  background: rgba(25, 30, 33, 0.04);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.archive-month__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.archive-month__content {
+  padding: 24px 30px 30px;
+  display: grid;
+  gap: 14px;
+}
+.archive-month__story-title {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.archive-month__story-title a {
+  color: #191E21;
+}
+.archive-month__story-title a:hover,
+.archive-month__story-title a:focus {
+  color: #C8081C;
+}
+.archive-month__excerpt {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgba(25, 30, 33, 0.75);
+}
+.archive-month__meta {
+  margin: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+.archive-month__meta div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.archive-month__meta dt {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: rgba(25, 30, 33, 0.6);
+}
+.archive-month__meta dd {
+  margin: 0;
+  color: rgba(25, 30, 33, 0.75);
+}
+.archive-month__meta a {
+  color: #F73F52;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-size: 12px;
+}
+.archive-month__meta a:hover,
+.archive-month__meta a:focus {
+  color: #C8081C;
+}
+.archive-month__empty {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(25, 30, 33, 0.08);
+  padding: 40px 32px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(25, 30, 33, 0.68);
+  display: grid;
+  gap: 16px;
+}
+.archive-month__pagination {
+  text-align: center;
+  display: grid;
+  gap: 8px;
+  font-size: 15px;
+  color: rgba(25, 30, 33, 0.7);
+}
+.archive-month__pagination p {
+  margin: 0;
+}
+.archive-month__note {
+  font-size: 14px;
+  color: rgba(25, 30, 33, 0.6);
+  line-height: 1.6;
+}
+.archive-month__sidebar {
+  display: grid;
+  gap: 24px;
+}
+.archive-month__panel {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(25, 30, 33, 0.08);
+  padding: 28px 30px;
+  display: grid;
+  gap: 18px;
+}
+.archive-month__panel-title {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.archive-month__stats {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.archive-month__stats div {
+  display: grid;
+  gap: 4px;
+}
+.archive-month__stats dt {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: rgba(25, 30, 33, 0.6);
+}
+.archive-month__stats dd {
+  margin: 0;
+  font-size: 16px;
+  color: rgba(25, 30, 33, 0.85);
+}
+.archive-month__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.archive-month__links a {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: #F73F52;
+}
+.archive-month__links a:hover,
+.archive-month__links a:focus {
+  color: #C8081C;
+}
+@media (min-width: 992px) {
+  .archive-month__layout {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}
+@media (max-width: 767px) {
+  .archive-month__content {
+    padding: 20px;
+  }
+  .archive-month__panel {
+    padding: 24px;
+  }
+}
 @media (max-width: 767px) {
   .archive {
     padding: 40px 0 60px;
