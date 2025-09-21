@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "our-editors-share-their-fall-travel-plans-and-packing-lists-2025-09-21",
+      "title": "Our Editors Share Their Fall Travel Plans and Packing Lists",
+      "date": "2025-09-21",
+      "cover": "https://media.cntraveler.com/photos/68cdcef531d2f482a7477577/master/pass/091925-Where-Going-What-Packing-Fall-Lede.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/our-editors-share-their-fall-travel-plans-and-packing-lists-2025-09-21/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/our-editors-share-their-fall-travel-plans-and-packing-lists"
+    },
+    {
+      "slug": "6-best-hotel-tennis-camps-according-to-avid-players-2025-09-21",
+      "title": "6 Best Hotel Tennis Camps, According to Avid Players",
+      "date": "2025-09-21",
+      "cover": "https://media.cntraveler.com/clips/68cdbc2e949180c3cbbe5297/master/pass/091925-Hotel-Tennis-Camps-Mouratouglo%20Tennis-PR-Global-PUB%20ACADEMY%2030s%20SANS%20TEXTE%20-%20raw%20brut%20showreel%20.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/6-best-hotel-tennis-camps-according-to-avid-players-2025-09-21/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/hotels-with-tennis-camps"
+    },
+    {
       "slug": "this-is-the-happiest-state-in-the-us-according-to-a-new-study-2025-09-20",
       "title": "This Is the Happiest State in the US, According to a New Study",
       "date": "2025-09-20",
@@ -181,10 +199,10 @@
       "source": "https://www.cntraveler.com/gallery/best-countryside-airbnbs"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-09-20",
+  "count": 22,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 20,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

@@ -181,6 +181,51 @@
       "source": "https://www.bonappetit.com/gallery/bon-appetit-october-2025-issue"
     },
     {
+      "slug": "vinegar-chicken-with-figs-2025-09-16",
+      "title": "Vinegar Chicken With Figs",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e8476b9ea764be8e3894f/master/pass/vinegar-chicken-figs_RECIPE_V2_061225_12556_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/vinegar-chicken-with-figs-2025-09-16/",
+      "excerpt": "Photo by Travis Rainey, Food Styling by Thu Buser, Prop Styling by Alexandra Massillon",
+      "source": "https://www.bonappetit.com/recipe/vinegar-chicken-with-figs"
+    },
+    {
+      "slug": "meatball-tagine-2025-09-16",
+      "title": "Meatball Tagine",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687e8154b9ea764be8e3893b/master/pass/meatball-tagine_RECIPE_V4_061225_12514_VOG_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/meatball-tagine-2025-09-16/",
+      "excerpt": "Photo by Travis Rainey, Food Styling by Thu Buser, Prop Styling by Alexandra Massillon",
+      "source": "https://www.bonappetit.com/recipe/meatball-tagine"
+    },
+    {
+      "slug": "how-personal-stories-shaped-the-best-new-restaurants-of-2025-2025-09-16",
+      "title": "How Personal Stories Shaped the Best New Restaurants of 2025",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/68b891d4eca34a2848cde624/master/pass/BNR%202025_WEST_MEZCALERIA_Stephen%20Cardinale_3%20(2).jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/how-personal-stories-shaped-the-best-new-restaurants-of-2025-2025-09-16/",
+      "excerpt": "Some of the best meals I’ve had this year were during my summer trip to Italy. I was blown away by Piazza Duomo Alba , a 20-year-old restaurant with charming pink walls and frescoes by artist Francisco Clemente. Chef Enrico Crippa’s dishes are celebrations of the rolling hills…",
+      "source": "https://www.bonappetit.com/story/how-personal-stories-shaped-the-best-new-restaurants-of-2025"
+    },
+    {
+      "slug": "all-your-restaurant-etiquette-questions-answered-2025-09-16",
+      "title": "All Your Restaurant Etiquette Questions, Answered",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/68b9bf2bc29aa6f7cdc4f239/master/pass/P2W%20Best%20Behavior%202.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/all-your-restaurant-etiquette-questions-answered-2025-09-16/",
+      "excerpt": "Can I send a dish back just because I didn’t like it? How do we split the check without causing a fight in the group chat? In Code of Conduct, our restaurant etiquette column, we explore the do’s and don’ts and IDKs of being a good diner.",
+      "source": "https://www.bonappetit.com/story/restaurant-etiquette-questions-answered"
+    },
+    {
+      "slug": "a-pastry-chef-s-home-kitchen-must-haves-2025-09-16",
+      "title": "A Pastry Chef's Home Kitchen Must-Haves",
+      "date": "2025-09-16",
+      "cover": "https://assets.bonappetit.com/photos/687fb5d18404a0a99da24438/master/pass/250625_BonAppetit_Bristol-Joseph_0464_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/a-pastry-chef-s-home-kitchen-must-haves-2025-09-16/",
+      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.bonappetit.com/story/pastry-chef-tools-home-kitchen"
+    },
+    {
       "slug": "22-easy-fall-recipes-for-busy-nights-2025-09-12",
       "title": "22 Easy Fall Recipes for Busy Nights",
       "date": "2025-09-12",
@@ -226,10 +271,10 @@
       "source": "https://cookieandkate.com/chocolate-chip-muffins/?adt_ei=*|EMAIL|*"
     }
   ],
-  "count": 25,
+  "count": 30,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 25,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

@@ -217,6 +217,24 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250913232924.htm"
     },
     {
+      "slug": "most-quit-breakthrough-weight-loss-drug-within-a-year-2025-09-14",
+      "title": "Most quit breakthrough weight-loss drug within a year",
+      "date": "2025-09-14",
+      "cover": "https://www.sciencedaily.com/images/1920/ozempic-semaglutide-injection-pens.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/most-quit-breakthrough-weight-loss-drug-within-a-year-2025-09-14/",
+      "excerpt": "The new class of anti-obesity drugs, glucagon-like peptide-1 receptor agonists (GLP-1RAs), is proving remarkably effective at helping individuals lose weight. However, a new population-wide study being presented at this year's Annual Meeting of The European Association for the…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250913232157.htm"
+    },
+    {
+      "slug": "ai-can-now-predict-who-will-go-blind-years-before-doctors-can-2025-09-14",
+      "title": "AI can now predict who will go blind, years before doctors can",
+      "date": "2025-09-14",
+      "cover": "https://www.sciencedaily.com/images/1920/smart-vision.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/ai-can-now-predict-who-will-go-blind-years-before-doctors-can-2025-09-14/",
+      "excerpt": "Researchers have successfully used artificial intelligence (AI) to predict which patients need treatment to stabilise their corneas and preserve their eyesight, in a study presented today (Sunday) at the 43 rd Congress of the European Society of Cataract and Refractive Surgeon…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250913232921.htm"
+    },
+    {
       "slug": "1-in-8-americans-have-already-tried-ozempic-and-similar-weight-loss-medications-2025-09-14",
       "title": "1 in 8 Americans have already tried Ozempic and similar weight loss medications",
       "date": "2025-09-14",
@@ -224,12 +242,39 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/1-in-8-americans-have-already-tried-ozempic-and-similar-weight-loss-medications-2025-09-14/",
       "excerpt": "Nearly 12% of Americans have used GLP-1 drugs for weight loss, including about one-fifth of women aged 50 to 64, according to a new RAND report.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250913232936.htm"
+    },
+    {
+      "slug": "surprising-giant-dna-discovery-may-be-linked-to-gum-disease-and-cancer-2025-09-13",
+      "title": "Surprising giant DNA discovery may be linked to gum disease and cancer",
+      "date": "2025-09-13",
+      "cover": "https://www.sciencedaily.com/images/1920/genetic-mystery-dna-helix.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/surprising-giant-dna-discovery-may-be-linked-to-gum-disease-and-cancer-2025-09-13/",
+      "excerpt": "Researchers including those at the University of Tokyo have made a surprising discovery hiding in people's mouths: Inocles, giant DNA elements that had previously escaped detection. These appear to play a central role in helping bacteria adapt to the constantly changing enviro…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250912195128.htm"
+    },
+    {
+      "slug": "scientists-just-found-out-forever-chemicals-are-shockingly-acidic-2025-09-13",
+      "title": "Scientists just found out forever chemicals are shockingly acidic",
+      "date": "2025-09-13",
+      "cover": "https://www.sciencedaily.com/images/1920/pfas-forever-chemicals.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-just-found-out-forever-chemicals-are-shockingly-acidic-2025-09-13/",
+      "excerpt": "One of the ways that per- and polyfluoroalkyl substances (PFAS) earn their \"forever chemical\" nickname and persist in the environment is their acidity.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250913111036.htm"
+    },
+    {
+      "slug": "hidden-gut-molecule-found-to-wreck-kidneys-2025-09-13",
+      "title": "Hidden gut molecule found to wreck kidneys",
+      "date": "2025-09-13",
+      "cover": "https://www.sciencedaily.com/images/1920/chronic-kidney-disease.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/hidden-gut-molecule-found-to-wreck-kidneys-2025-09-13/",
+      "excerpt": "A molecule made by bacteria in the gut can hitch a ride to the kidneys, where it sets off a chain reaction of inflammation, scarring and fibrosis -- a serious complication of diabetes and a leading cause of kidney failure -- according to a new study from researchers at the Uni…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250912195133.htm"
     }
   ],
-  "count": 25,
+  "count": 30,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 25,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

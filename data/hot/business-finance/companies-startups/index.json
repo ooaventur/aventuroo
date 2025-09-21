@@ -89,13 +89,58 @@
       "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/raising-series-a-in-2026-insights-from-top-early-stage-vcs-at-techcrunch-disrupt-2025-2025-09-18/",
       "excerpt": "At TechCrunch Disrupt 2025 — taking place October 27–29 at Moscone West in San Francisco — get the unfiltered perspective on landing a Series A in today’s market. No smoke, no mirrors, just straight talk from the people signing the checks.",
       "source": "https://techcrunch.com/2025/09/18/term-sheets-traction-and-truth-bombs-inside-the-series-a-mindset-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "numeral-raises-35m-to-automate-sales-tax-with-ai-2025-09-18",
+      "title": "Numeral raises $35M to automate sales tax with AI",
+      "date": "2025-09-18",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/DSC3400-Enhanced-NR-1-1-1.jpg?resize=1200,1011",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/numeral-raises-35m-to-automate-sales-tax-with-ai-2025-09-18/",
+      "excerpt": "Sam Ross, the co-founder and CEO of Numeral , came up with the idea for his sales tax compliance startup while traveling the world after having worked as a product manager at Airbnb.",
+      "source": "https://techcrunch.com/2025/09/18/numeral-raises-35m-to-automate-sales-tax-with-ai/"
+    },
+    {
+      "slug": "from-scrappy-challenger-to-ipo-chris-britt-brings-chime-s-playbook-to-techcrunch-disrupt-2025-2025-09-18",
+      "title": "From scrappy challenger to IPO: Chris Britt brings Chime’s playbook to TechCrunch Disrupt 2025",
+      "date": "2025-09-18",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/TC25_Chris-Britt-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/from-scrappy-challenger-to-ipo-chris-britt-brings-chime-s-playbook-to-techcrunch-disrupt-2025-2025-09-18/",
+      "excerpt": "TechCrunch Disrupt 2025 takes place October 27–29 at Moscone West in San Francisco, bringing together 10,000+ startup and VC leaders to shape the future of tech. Few embody what it means to build with discipline in a tough market better than",
+      "source": "https://techcrunch.com/2025/09/18/from-scrappy-challenger-to-ipo-chris-britt-brings-chimes-playbook-to-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "building-the-future-of-open-ai-with-thomas-wolf-at-techcrunch-disrupt-2025-2025-09-18",
+      "title": "Building the future of Open AI with Thomas Wolf at TechCrunch Disrupt 2025",
+      "date": "2025-09-18",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/TC25_Thomas-Wolf-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/building-the-future-of-open-ai-with-thomas-wolf-at-techcrunch-disrupt-2025-2025-09-18/",
+      "excerpt": "AI is moving fast — but who decides how it’s built, shared, and scaled? At TechCrunch Disrupt 2025 , happening October 27-29 at San Francisco’s Moscone West, we’re diving in with",
+      "source": "https://techcrunch.com/2025/09/18/building-the-future-of-open-ai-with-thomas-wolf-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation-2025-09-17",
+      "title": "Nvidia AI chip challenger Groq raises even more than expected, hits $6.9B valuation",
+      "date": "2025-09-17",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/07/Groq-chip.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation-2025-09-17/",
+      "excerpt": "AI chip startup Groq confirmed Wednesday that it raised a fresh $750 million in funding at a post-money valuation of $6.9 billion.",
+      "source": "https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/"
+    },
+    {
+      "slug": "kleiner-perkins-backed-voice-ai-startup-keplar-aims-to-replace-traditional-market-research-2025-09-17",
+      "title": "Kleiner Perkins-backed voice AI startup Keplar aims to replace traditional market research",
+      "date": "2025-09-17",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/option_4-Edited.jpeg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/kleiner-perkins-backed-voice-ai-startup-keplar-aims-to-replace-traditional-market-research-2025-09-17/",
+      "excerpt": "For decades, Fortune 500 companies had to hire market research firms to get meaningful insights into customer satisfaction. These services come with a hefty price tag and often take weeks to complete.",
+      "source": "https://techcrunch.com/2025/09/17/kleiner-perkins-backed-voice-ai-startup-keplar-aims-to-replace-traditional-market-research/"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

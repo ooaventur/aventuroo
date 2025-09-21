@@ -62,12 +62,57 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-family-hotels-in-puglia-2025-07-22/",
       "excerpt": "The heel of Italy's boot is more rugged and underrated compared to its flashy neighbours – ideal for a carefree, bring-the-tribe holiday",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/puglia/articles/best-family-friendly-hotels-puglia/"
+    },
+    {
+      "slug": "the-best-boutique-hotels-in-edinburgh-2025-07-17",
+      "title": "The best boutique hotels in Edinburgh",
+      "date": "2025-07-17",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2023/september/gleneagles-townhouse-bar.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-boutique-hotels-in-edinburgh-2025-07-17/",
+      "excerpt": "It’s no secret that the Scottish capital has more than a handful of snug and stylish stays – these are the cream of the crop",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/scotland/edinburgh/articles/the-best-boutique-hotels-in-edinburgh/"
+    },
+    {
+      "slug": "the-32-best-things-to-do-in-edinburgh-2025-07-17",
+      "title": "The 32 best things to do in Edinburgh",
+      "date": "2025-07-17",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/2021/GettyImages-1207467401.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-32-best-things-to-do-in-edinburgh-2025-07-17/",
+      "excerpt": "Fill your time in the city at its top attractions, from castle spotting and whisky tasting to ghost hunting and optical illusions",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/scotland/edinburgh/articles/things-to-do-in-edinburgh/"
+    },
+    {
+      "slug": "how-to-spend-the-perfect-weekend-in-scotland-s-sensational-capital-2025-07-17",
+      "title": "How to spend the perfect weekend in Scotland's sensational capital",
+      "date": "2025-07-17",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Scotland/Edinburgh/edinburgh-GettyImages-1415814465.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-the-perfect-weekend-in-scotland-s-sensational-capital-2025-07-17/",
+      "excerpt": "Discover the best of Edinburgh with our insider guide to the country's vibrant heart",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/scotland/edinburgh/articles/edinburgh-travel-guide/"
+    },
+    {
+      "slug": "the-best-pubs-with-rooms-for-a-weekend-in-the-lake-district-2025-07-15",
+      "title": "The best pubs with rooms for a weekend in the Lake District",
+      "date": "2025-07-15",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2020/march/lake-district-budget-hotels-kirkstile-inn-3-p.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-pubs-with-rooms-for-a-weekend-in-the-lake-district-2025-07-15/",
+      "excerpt": "These cosy, characterful stays deliver year-round joy – book in post-hike during the winter or after a wild swimming dip in summer",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cumbria/lake-district/articles/the-lake-districts-best-pubs-and-inns-hotel/"
+    },
+    {
+      "slug": "how-to-spend-the-perfect-weekend-in-bruges-europe-s-perfect-pocket-sized-city-2025-07-15",
+      "title": "How to spend the perfect weekend in Bruges, Europe's perfect pocket-sized city",
+      "date": "2025-07-15",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/bruges-destination-guide-canal.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-the-perfect-weekend-in-bruges-europe-s-perfect-pocket-sized-city-2025-07-15/",
+      "excerpt": "Discover the best restaurants, medieval sites and hotels in our expert guide",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/belgium/bruges/articles/bruges-travel-guide/"
     }
   ],
-  "count": 7,
+  "count": 12,
   "updated_at": "2025-07-27",
   "pagination": {
-    "total_items": 7,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

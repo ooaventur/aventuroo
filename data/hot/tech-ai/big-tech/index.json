@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "apple-takes-control-of-all-core-chips-in-iphone-air-with-new-architecture-to-prioritize-ai-2025-09-21",
+      "title": "Apple takes control of all core chips in iPhone Air with new architecture to prioritize AI",
+      "date": "2025-09-21",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108201469-1758309950820-Apple_Chips_Interviews_3.jpg?v=1758310266&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/apple-takes-control-of-all-core-chips-in-iphone-air-with-new-architecture-to-prioritize-ai-2025-09-21/",
+      "excerpt": "iPhone Air is the big newcomer among Apple 's latest lineup that went on sale Friday, but inside the slim phone's raised plateau is another new piece of hardware that signals a renewed focus on artificial intelligence.",
+      "source": "https://www.cnbc.com/2025/09/21/apple-now-controls-all-core-iphone-chips-prioritizing-ai-workloads.html"
+    },
+    {
       "slug": "nba-star-kevin-durant-can-t-unlock-his-coinbase-bitcoin-account-his-agent-is-thrilled-2025-09-19",
       "title": "NBA star Kevin Durant can't unlock his Coinbase bitcoin account. His agent is thrilled",
       "date": "2025-09-19",
@@ -181,10 +190,10 @@
       "source": "https://www.cnbc.com/2025/09/17/amazon-ai-agent-sellers.html"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-09-19",
+  "count": 21,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 20,
+    "total_items": 21,
     "per_page": 12,
     "total_pages": 2
   }

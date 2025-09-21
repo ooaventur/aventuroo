@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "deep-sleep-in-tanygrisiau-wales-2025-09-21",
+      "title": "Deep Sleep in Tanygrisiau, Wales",
+      "date": "2025-09-21",
+      "cover": "https://img.atlasobscura.com/azVbXbvw0iPw8oFWW90ARGZCeriAMt7sq7GkADyBNO0/rt:fit/w:600/c:3002:2001:nowe:14:1592/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xNGJj/ODYwNC1mZmQ2LTQy/MGUtOGVkYi04Nzc3/MzFhNjljY2RmYjBk/ZmExNTQzYzhlNjM3/MThfSU1HXzYwNDUu/anBlZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/deep-sleep-in-tanygrisiau-wales-2025-09-21/",
+      "excerpt": "Nestled within the rugged landscape of Snowdonia National Park, Deep Sleep offers thrill-seekers and adventurers a unique opportunity: spending the night in one of the deepest hotel rooms on Earth. This remarkable experience takes place 1,375 feet (419 meters) underground in a…",
+      "source": "https://www.atlasobscura.com/places/deep-sleep"
+    },
+    {
       "slug": "alcazaba-in-m-laga-spain-2025-09-20",
       "title": "Alcazaba in Málaga, Spain",
       "date": "2025-09-20",
@@ -190,10 +199,10 @@
       "source": "https://www.nomadicmatt.com/travel-blogs/ludington-mi-guide/"
     }
   ],
-  "count": 21,
-  "updated_at": "2025-09-20",
+  "count": 22,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 21,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

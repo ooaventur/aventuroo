@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "bernard-sleigh-s-anciente-mappe-of-fairyland-ca-1920-edition-2025-05-28",
+      "title": "Bernard Sleigh’s Anciente Mappe of Fairyland (ca. 1920 edition)",
+      "date": "2025-05-28",
+      "cover": "https://pdr-assets.b-cdn.net/collections/an-anciente-mappe-of-fairyland/commonwealth_3f463773q_image_primary-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/bernard-sleigh-s-anciente-mappe-of-fairyland-ca-1920-edition-2025-05-28/",
+      "excerpt": "Maps of literary worlds typically fall into one of two camps: those endorsed by an author, printed as a frontispiece or miniature, and maps born from fandom culture, retrospective plottings of journeys undertaken first in the imagination. In the former category, we find Edwin …",
+      "source": "https://publicdomainreview.org/collection/an-anciente-mappe-of-fairyland"
+    },
+    {
+      "slug": "the-old-old-very-old-man-thomas-parr-and-the-longevity-trade-2025-05-21",
+      "title": "The Old, Old, Very Old Man: Thomas Parr and the Longevity Trade",
+      "date": "2025-05-21",
+      "cover": "https://pdr-assets.b-cdn.net/essays/the-old-old-very-old-man/parr-home-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-old-old-very-old-man-thomas-parr-and-the-longevity-trade-2025-05-21/",
+      "excerpt": "As the story goes, Old Tom Parr was relatively healthy for being 152 until a visit to noxious, polluted London in 1635 cut his long life short. Katherine Harvey investigates the early modern claims surrounding this supercentarian and the fraudulent longevity business that beca…",
+      "source": "https://publicdomainreview.org/essay/the-old-old-very-old-man"
+    },
+    {
+      "slug": "old-tricks-tiny-cryptic-9-2025-05-21",
+      "title": "Old Tricks: Tiny Cryptic #9",
+      "date": "2025-05-21",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/old-tricks-tiny-cryptic-9-2025-05-21/",
+      "excerpt": "The ninth instalment in our series of extremely small and free-form cryptic crossword puzzles, published every two weeks to coincide with our latest essay on which the puzzle will be themed.",
+      "source": "https://publicdomainreview.org/blog/2025/05/tiny-cryptic-9"
+    },
+    {
       "slug": "the-second-continental-congress-convenes-2025-05-08",
       "title": "The Second Continental Congress Convenes",
       "date": "2025-05-08",
@@ -10,10 +37,10 @@
       "source": "https://prologue.blogs.archives.gov/2025/05/08/the-second-continental-congress-convenes/"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-05-08",
+  "count": 4,
+  "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 1,
+    "total_items": 4,
     "per_page": 12,
     "total_pages": 1
   }

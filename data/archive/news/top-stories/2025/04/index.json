@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "slug": "bbc-news-app-2025-04-30",
+      "title": "BBC News app",
+      "date": "2025-04-30",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/2cf6/live/d1e71250-9509-11ee-8df3-1d2983d8814f.png",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/bbc-news-app-2025-04-30/",
+      "excerpt": "The BBC News app is available for Android and iOS devices",
+      "source": "https://www.bbc.co.uk/news/10628994?at_medium=RSS&at_campaign=rss"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-04-30",
+  "pagination": {
+    "total_items": 1,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

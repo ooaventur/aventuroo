@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "sinclair-s-abc-stations-did-not-air-charlie-kirk-special-as-planned-after-kimmel-suspension-carried-celebrity-family-feud-rerun-instead-2025-09-21",
+      "title": "Sinclair’s ABC Stations Did Not Air Charlie Kirk Special as Planned After Kimmel Suspension, Carried ‘Celebrity Family Feud’ Rerun Instead",
+      "date": "2025-09-21",
+      "cover": "https://variety.com/wp-content/uploads/2025/09/Sinclair-National-News-Desk-Special-Edition-The-Life-and-Legacy-of-Charlie-Kirk.png",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/sinclair-s-abc-stations-did-not-air-charlie-kirk-special-as-planned-after-kimmel-suspension-carried-celebrity-family-feud-rerun-instead-2025-09-21/",
+      "excerpt": "On Friday, Sinclair had planned to replace the “ Jimmy Kimmel Live!” timeslot on its ABC-affiliated stations with a special news segment on Charlie Kirk , the conservative activist who was assassinated earlier this month.",
+      "source": "https://variety.com/2025/tv/news/sinclair-abc-stations-drop-charlie-kirk-special-celebrity-family-feud-1236525562/"
+    },
+    {
       "slug": "christopher-nolan-elected-president-of-directors-guild-of-america-2025-09-21",
       "title": "Christopher Nolan Elected President of Directors Guild of America",
       "date": "2025-09-21",
@@ -127,10 +136,10 @@
       "source": "https://variety.com/2025/tv/news/nexstar-sinclair-jimmy-kimmel-live-disney-backfire-fcc-1236525294/"
     }
   ],
-  "count": 14,
+  "count": 15,
   "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 14,
+    "total_items": 15,
     "per_page": 12,
     "total_pages": 2
   }

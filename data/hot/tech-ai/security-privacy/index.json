@@ -73,6 +73,24 @@
       "source": "https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/"
     },
     {
+      "slug": "uk-arrests-scattered-spider-teens-linked-to-transport-for-london-hack-2025-09-18",
+      "title": "UK arrests 'Scattered Spider' teens linked to Transport for London hack",
+      "date": "2025-09-18",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/09/06/Transport-for-London.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/uk-arrests-scattered-spider-teens-linked-to-transport-for-london-hack-2025-09-18/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/uk-arrests-scattered-spider-teens-linked-to-transport-for-london-hack/"
+    },
+    {
+      "slug": "systembc-malware-turns-infected-vps-systems-into-proxy-highway-2025-09-18",
+      "title": "SystemBC malware turns infected VPS systems into proxy highway",
+      "date": "2025-09-18",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/18/VPS_Proxy_drk.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/systembc-malware-turns-infected-vps-systems-into-proxy-highway-2025-09-18/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/systembc-malware-turns-infected-vps-systems-into-proxy-highway/"
+    },
+    {
       "slug": "chatgpt-search-is-now-smarter-as-openai-takes-on-google-search-2025-09-18",
       "title": "ChatGPT Search is now smarter as OpenAI takes on Google Search",
       "date": "2025-09-18",
@@ -271,6 +289,24 @@
       "source": "https://www.darkreading.com/vulnerabilities-threats/building-resilient-it-infrastructure"
     },
     {
+      "slug": "without-federal-help-cyber-defense-is-up-to-the-rest-of-us-2025-09-12",
+      "title": "Without Federal Help, Cyber Defense Is Up to the Rest of Us",
+      "date": "2025-09-12",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce584e4d00778e9b/68b05dfdb45b20071429078a/CISA_(1800)_Borka_Kiss_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/without-federal-help-cyber-defense-is-up-to-the-rest-of-us-2025-09-12/",
+      "excerpt": "Together, we can foster a culture of collaboration and vigilance, ensuring that we are not just waiting for a hero to save us, but actively working to protect ourselves and our communities.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/without-federal-help-cyber-defense-cisa"
+    },
+    {
+      "slug": "undocumented-radios-found-in-solar-powered-devices-2025-09-12",
+      "title": "Undocumented Radios Found in Solar-Powered Devices",
+      "date": "2025-09-12",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce65e3c76aeb1ab9/68c3346f6818d468879cc958/solar-powered-road-sign-Michael_Vi-shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/undocumented-radios-found-in-solar-powered-devices-2025-09-12/",
+      "excerpt": "The US Transportation Department reportedly warns that solar-powered devices used in highway infrastructure have undocumented radios. Is the risk real?",
+      "source": "https://www.darkreading.com/ics-ot-security/undocumented-radios-found-solar-powered-devices"
+    },
+    {
       "slug": "french-advisory-sheds-light-on-apple-spyware-activity-2025-09-12",
       "title": "French Advisory Sheds Light on Apple Spyware Activity",
       "date": "2025-09-12",
@@ -280,6 +316,24 @@
       "source": "https://www.darkreading.com/vulnerabilities-threats/french-sheds-light-apple-spyware-activity"
     },
     {
+      "slug": "vyro-ai-leak-reveals-poor-cyber-hygiene-2025-09-11",
+      "title": "Vyro AI Leak Reveals Poor Cyber Hygiene",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc738c47be1a97a39/68c33123fe225d5c994837a9/faucet1800_Westend61_GmbH_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/vyro-ai-leak-reveals-poor-cyber-hygiene-2025-09-11/",
+      "excerpt": "The data leak underscores the larger issue of proprietary or sensitive data being shared with GenAI by users who should know better.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/vyro-ai-leak-cyber-hygiene"
+    },
+    {
+      "slug": "gentlemen-ransomware-abuses-vulnerable-driver-to-kill-security-gear-2025-09-11",
+      "title": "'Gentlemen' Ransomware Abuses Vulnerable Driver to Kill Security Gear",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9fbdb4576f96b787/68c322fafe3d500843de159c/gentlemen_Collection_Christophel_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/gentlemen-ransomware-abuses-vulnerable-driver-to-kill-security-gear-2025-09-11/",
+      "excerpt": "By weaponizing the ThrottleStop.sys driver, attackers are disrupting antivirus and endpoint detection and response (EDR) systems.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/gentlemen-ransomware-vulnerable-driver-security-gear"
+    },
+    {
       "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
       "title": "Bulletproof Host Stark Industries Evades EU Sanctions",
       "date": "2025-09-11",
@@ -287,6 +341,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11/",
       "excerpt": "In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd. , a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformat…",
       "source": "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/"
+    },
+    {
+      "slug": "apple-carplay-rce-exploit-left-unaddressed-in-most-cars-2025-09-11",
+      "title": "Apple CarPlay RCE Exploit Left Unaddressed in Most Cars",
+      "date": "2025-09-11",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c963dc2a2fba13a/68c31cd0c141330ce685afd9/CarPlay-The_Bold_Bureau-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/apple-carplay-rce-exploit-left-unaddressed-in-most-cars-2025-09-11/",
+      "excerpt": "Even when a vulnerability is serious and a fix is available, actually securing cars is more difficult than one would hope.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/apple-carplay-rce-exploit"
     },
     {
       "slug": "microsoft-patch-tuesday-september-2025-edition-2025-09-09",
@@ -343,10 +406,10 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 38,
+  "count": 45,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 38,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

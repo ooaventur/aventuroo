@@ -224,12 +224,57 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-majors-trade-sideways-amid-geopolitical-tension-2025-09-16/",
       "excerpt": "Jona Jaupi •",
       "source": "https://thedefiant.io/news/markets/crypto-markets-mostly-flat-sept-16"
+    },
+    {
+      "slug": "symbiotic-partners-with-chainlink-and-lombard-for-cross-chain-lbtc-transfers-2025-09-15",
+      "title": "Symbiotic Partners with Chainlink and Lombard for Cross-Chain LBTC Transfers",
+      "date": "2025-09-15",
+      "cover": "https://cdn.thedefiant.io/lbtc-1-png-931993e2-d5d2-4ac8-b522-3c98a0908b18.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/symbiotic-partners-with-chainlink-and-lombard-for-cross-chain-lbtc-transfers-2025-09-15/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/symbiotic-partners-with-chainlink-and-lombard-for-cross-chain-lbtc-transfers"
+    },
+    {
+      "slug": "coinbase-s-layer-2-base-teases-native-token-2025-09-15",
+      "title": "Coinbase’s Layer 2 Base Teases Native Token",
+      "date": "2025-09-15",
+      "cover": "https://cdn.thedefiant.io/basetoken-1-png-a89e1c1f-7b92-442a-b74e-99f07e1f87d0.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/coinbase-s-layer-2-base-teases-native-token-2025-09-15/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/blockchains/coinbase-s-layer-2-base-teases-native-token"
+    },
+    {
+      "slug": "polymarket-taps-chainlink-to-settle-price-bets-2025-09-12",
+      "title": "Polymarket Taps Chainlink to Settle Price Bets",
+      "date": "2025-09-12",
+      "cover": "https://cdn.thedefiant.io/polylink-1-png-2bf0f0b2-2b0a-4af0-811c-de412f96af5d.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/polymarket-taps-chainlink-to-settle-price-bets-2025-09-12/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/polymarket-taps-chainlink-to-settle-price-bets"
+    },
+    {
+      "slug": "ethena-s-usde-and-susde-go-live-on-avalanche-in-major-cross-chain-push-2025-09-12",
+      "title": "Ethena’s USDe and sUSDe Go Live on Avalanche in Major Cross-Chain Push",
+      "date": "2025-09-12",
+      "cover": "https://cdn.thedefiant.io/enavax-1-png-8b608594-3862-4598-86cb-da21559094c8.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/ethena-s-usde-and-susde-go-live-on-avalanche-in-major-cross-chain-push-2025-09-12/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/defi/ethena-s-usde-and-susde-go-live-on-avalanche-in-major-cross-chain-push"
+    },
+    {
+      "slug": "easy-gains-vanish-for-dats-as-they-face-critical-inflection-point-coinbase-2025-09-12",
+      "title": "Easy Gains Vanish for DATs as They Face 'Critical Inflection Point': Coinbase",
+      "date": "2025-09-12",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-12t180247-043-png-7014d361-fd29-400a-a255-36c51a9c198a.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/easy-gains-vanish-for-dats-as-they-face-critical-inflection-point-coinbase-2025-09-12/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/tradfi-and-fintech/easy-gains-vanish-a-dats-now-face-increased-competition-coinbase-says"
     }
   ],
-  "count": 25,
+  "count": 30,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 25,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

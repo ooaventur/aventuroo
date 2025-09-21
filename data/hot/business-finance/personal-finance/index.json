@@ -269,12 +269,21 @@
       "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/debt-struggles-are-hitting-consumers-at-all-income-levels-it-s-a-tipping-point-expert-says-2025-08-28/",
       "excerpt": "As credit card debt ticks higher, there are more signs that consumers — even those with higher incomes — are struggling to manage their balances.",
       "source": "https://www.cnbc.com/2025/08/28/-debt-struggles-hit-consumers-at-all-income-levels-heres-why.html"
+    },
+    {
+      "slug": "are-you-smart-enough-to-invest-in-private-assets-designing-an-investor-test-is-tricky-experts-say-2025-08-22",
+      "title": "Are you smart enough to invest in private assets? Designing an investor test is tricky, experts say",
+      "date": "2025-08-22",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108184879-1755019103267-gettyimages-1411001622-dscf0769.jpeg?v=1755019128&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/are-you-smart-enough-to-invest-in-private-assets-designing-an-investor-test-is-tricky-experts-say-2025-08-22/",
+      "excerpt": "If you want to access investments typically reserved for the wealthy, regulators may someday let you — provided you can pass a test .",
+      "source": "https://www.cnbc.com/2025/08/22/sec-test-for-private-assets.html"
     }
   ],
-  "count": 30,
+  "count": 31,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

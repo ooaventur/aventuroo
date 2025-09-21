@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "your-horoscope-this-week-september-21-to-27-2025-09-21",
+      "title": "Your Horoscope This Week: September 21 To 27",
+      "date": "2025-09-21",
+      "cover": "https://www.refinery29.com/images/11929999.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/your-horoscope-this-week-september-21-to-27-2025-09-21/",
+      "excerpt": "Illustrated by Wenjing Yang.",
+      "source": "https://www.refinery29.com/en-us/weekly-horoscope-21-september-27-2025-meaning-effects?utm_source=feed&utm_medium=rss"
+    },
+    {
       "slug": "opinion-robert-redford-will-always-light-up-our-screens-2025-09-20",
       "title": "Opinion: Robert Redford will always light up our screens",
       "date": "2025-09-20",
@@ -55,10 +64,10 @@
       "source": "https://www.npr.org/2025/08/23/nx-s1-5504862/opinion-wardrobe-diplomacy"
     }
   ],
-  "count": 6,
-  "updated_at": "2025-09-20",
+  "count": 7,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 6,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

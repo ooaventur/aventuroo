@@ -71,12 +71,30 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/imagining-an-idle-countess-george-wightwick-s-the-palace-of-architecture-2025-06-05/",
       "excerpt": "In 1840, British architect George Wightwick published a world history of architecture in the Romantic mode, inviting readers to enter a vast garden where Buddhist iconography rubs shoulders with Greek temples and Egyptian pyramids gaze upon Gothic cathedrals. His intended audi…",
       "source": "https://publicdomainreview.org/essay/imagining-an-idle-countess"
+    },
+    {
+      "slug": "drawing-on-tradition-elena-izcue-s-peruvian-art-in-the-school-1926-2025-06-05",
+      "title": "Drawing on Tradition: Elena Izcue’s Peruvian Art in the School (1926)",
+      "date": "2025-06-05",
+      "cover": "https://pdr-assets.b-cdn.net/collections/peruvian-art-in-the-school/ICAA-1146115_0023-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/drawing-on-tradition-elena-izcue-s-peruvian-art-in-the-school-1926-2025-06-05/",
+      "excerpt": "The 1930 course catalogue at Lima’s Escuela Nacional de Bellas Artes (National School of Fine Arts) announced a new class that would spark months of fierce debate in the popular press. In an open letter published in the newspaper El Comercio , Antonino Espinosa Saldaña heavily…",
+      "source": "https://publicdomainreview.org/collection/peruvian-art-in-the-school"
+    },
+    {
+      "slug": "charles-davy-s-conjectural-observations-on-the-origin-and-progress-of-alphabetic-writing-1772-2025-06-03",
+      "title": "Charles Davy’s Conjectural Observations on the Origin and Progress of Alphabetic Writing (1772)",
+      "date": "2025-06-03",
+      "cover": "https://pdr-assets.b-cdn.net/collections/conjectural-observations/conjecturalobser00davy_0138-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/charles-davy-s-conjectural-observations-on-the-origin-and-progress-of-alphabetic-writing-1772-2025-06-03/",
+      "excerpt": "“Writing, in the earliest ages of the world, was a delineation of the outlines of those things men wanted to remember, rudely graven either upon shells or stones, or marked upon the leaves or bark of trees”, begins Charles Davy’s 1772 Conjectural Observations on the Origin and…",
+      "source": "https://publicdomainreview.org/collection/conjectural-observations"
     }
   ],
-  "count": 8,
+  "count": 10,
   "updated_at": "2025-06-24",
   "pagination": {
-    "total_items": 8,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }
