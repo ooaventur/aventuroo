@@ -53,12 +53,30 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/splitting-hairs-chinese-immigrants-the-queue-and-the-boundaries-of-political-citizenship-2025-07-09/",
       "excerpt": "As Chinese immigration to California accelerated across the 19th century, the hairstyle known as the queue — a long, braided pony tail — became the subject of white Americans’ fascination, disgust, and legal regulation. Sarah Gold McBride explores why hair served as an index o…",
       "source": "https://publicdomainreview.org/essay/splitting-hairs"
+    },
+    {
+      "slug": "the-mowing-devil-1678-or-the-earliest-known-depiction-of-a-crop-circle-2025-07-03",
+      "title": "The Mowing-Devil (1678), or, the Earliest Known Depiction of a Crop Circle",
+      "date": "2025-07-03",
+      "cover": "https://pdr-assets.b-cdn.net/collections/the-mowing-devil/mowing-devil-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-mowing-devil-1678-or-the-earliest-known-depiction-of-a-crop-circle-2025-07-03/",
+      "excerpt": "At the height of the crop circle craze of the 1980s and 1990s, any number of explanations, natural and unnatural, were proposed for the perfectly crushed patches of cereal appearing across the English countryside and beyond. Were they left behind by alien visitors, flattened b…",
+      "source": "https://publicdomainreview.org/collection/the-mowing-devil"
+    },
+    {
+      "slug": "perspiration-bilocation-and-plagiarisation-the-heat-wave-1929-2025-07-01",
+      "title": "Perspiration, Bilocation, and Plagiarisation: “The Heat Wave” (1929)",
+      "date": "2025-07-01",
+      "cover": "https://pdr-assets.b-cdn.net/collections/the-heat-wave/mdp-39015074653117-451-1751367304-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/perspiration-bilocation-and-plagiarisation-the-heat-wave-1929-2025-07-01/",
+      "excerpt": "Marion Ryan and Robert Ord’s “The Heat Wave: A Strange Story of Ancient Rome and Modern New York” (1929) begins in a city dripping with sweat. Relief agencies dole out ice; churchgoers pray for rain; the grass in Central Park turns black from scorching; the paint on buildings …",
+      "source": "https://publicdomainreview.org/collection/the-heat-wave"
     }
   ],
-  "count": 6,
+  "count": 8,
   "updated_at": "2025-07-31",
   "pagination": {
-    "total_items": 6,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

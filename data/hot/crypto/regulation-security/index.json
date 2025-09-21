@@ -73,6 +73,51 @@
       "source": "https://cointelegraph.com/news/donald-trump-crypto-tsar-david-sacks-elizabeth-warren-scrutiny?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
     },
     {
+      "slug": "stablecoin-l1-plasma-unveils-launch-date-for-mainnet-beta-tge-2025-09-18",
+      "title": "Stablecoin L1 Plasma Unveils Launch Date for Mainnet Beta, TGE",
+      "date": "2025-09-18",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-18t155828-702-png-c2337c43-c800-46c2-a317-08b7b70ad188.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/stablecoin-l1-plasma-unveils-launch-date-for-mainnet-beta-tge-2025-09-18/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/blockchains/plasma-stablecoin-chain-mainnet-beta-tge-launch-date"
+    },
+    {
+      "slug": "eigencloud-surges-25-after-partnering-with-google-to-boost-trust-in-ai-payments-2025-09-18",
+      "title": "EigenCloud Surges 25% After Partnering with Google to Boost Trust in AI Payments",
+      "date": "2025-09-18",
+      "cover": "https://cdn.thedefiant.io/eigen-1-png-c2157f32-30c8-4097-abca-b8dcddffa788.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/eigencloud-surges-25-after-partnering-with-google-to-boost-trust-in-ai-payments-2025-09-18/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/defi/eigencloud-surges-25-after-partnering-with-google-to-boost-trust-in-ai-payments"
+    },
+    {
+      "slug": "crypto-rebounds-after-fed-rate-cut-bnb-hits-new-all-time-high-2025-09-18",
+      "title": "Crypto Rebounds After Fed Rate Cut, BNB Hits New All-Time High",
+      "date": "2025-09-18",
+      "cover": "https://cdn.thedefiant.io/altszn-1-1-png-bc2b5336-0a6d-4fd3-a1ef-922e5080702d.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-rebounds-after-fed-rate-cut-bnb-hits-new-all-time-high-2025-09-18/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/markets/crypto-rebounds-after-fed-rate-cut-bnb-hits-new-all-time-high"
+    },
+    {
+      "slug": "avalanche-ecosystem-takes-off-as-avax-surges-2025-09-18",
+      "title": "Avalanche Ecosystem Takes Off as AVAX Surges",
+      "date": "2025-09-18",
+      "cover": "https://cdn.thedefiant.io/avaxup-1-png-193d4fe8-df9f-4000-969f-c032fe4cb9a4.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/avalanche-ecosystem-takes-off-as-avax-surges-2025-09-18/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/blockchains/avalanche-ecosystem-takes-off-as-avax-surges"
+    },
+    {
+      "slug": "aster-token-soars-as-perpetual-dex-mania-rages-on-2025-09-18",
+      "title": "Aster Token Soars as Perpetual DEX Mania Rages On",
+      "date": "2025-09-18",
+      "cover": "https://cdn.thedefiant.io/perpmania-1-png-82465931-c81c-4f2c-af9e-d547812a484c.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/aster-token-soars-as-perpetual-dex-mania-rages-on-2025-09-18/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/aster-token-soars-as-perpetual-dex-mania-rages-on"
+    },
+    {
       "slug": "uk-fca-considers-waiving-some-tradfi-rules-for-crypto-companies-2025-09-17",
       "title": "UK FCA considers waiving some TradFi rules for crypto companies",
       "date": "2025-09-17",
@@ -136,10 +181,10 @@
       "source": "https://cointelegraph.com/news/bullish-bitlicense-nydfs-crypto-expansion?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound"
     }
   ],
-  "count": 15,
+  "count": 20,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 15,
+    "total_items": 20,
     "per_page": 12,
     "total_pages": 2
   }

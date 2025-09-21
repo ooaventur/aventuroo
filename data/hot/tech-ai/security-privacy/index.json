@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20",
+      "title": "Canada dismantles TradeOgre exchange, seizes $40 million in crypto",
+      "date": "2025-09-20",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/20/TradeOgre_.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/"
+    },
+    {
+      "slug": "microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs-2025-09-19",
+      "title": "Microsoft starts rolling out Gaming Copilot on Windows 11 PCs",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/Gaming_Copilot.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-rolling-out-gaming-copilot-on-windows-11-pcs/"
+    },
+    {
+      "slug": "fortra-warns-of-max-severity-flaw-in-goanywhere-mft-s-license-servlet-2025-09-19",
+      "title": "Fortra warns of max severity flaw in GoAnywhere MFT’s License Servlet",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/Fortra_headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fortra-warns-of-max-severity-flaw-in-goanywhere-mft-s-license-servlet-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/fortra-warns-of-max-severity-flaw-in-goanywhere-mfts-license-servlet/"
+    },
+    {
+      "slug": "fbi-warns-of-cybercriminals-using-fake-fbi-crime-reporting-portals-2025-09-19",
+      "title": "FBI warns of cybercriminals using fake FBI crime reporting portals",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/FBI.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fbi-warns-of-cybercriminals-using-fake-fbi-crime-reporting-portals-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fbi-crime-complaint-portals-used-for-cybercrime/"
+    },
+    {
+      "slug": "cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks-2025-09-19",
+      "title": "CISA exposes malware kits deployed in Ivanti EPMM attacks",
+      "date": "2025-09-19",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/07/12/hacker.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks-2025-09-19/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/cisa-exposes-malware-kits-deployed-in-ivanti-epmm-attacks/"
+    },
+    {
       "slug": "the-cloud-edge-is-the-new-attack-surface-2025-09-17",
       "title": "The Cloud Edge Is the New Attack Surface",
       "date": "2025-09-17",
@@ -64,6 +109,15 @@
       "source": "https://www.darkreading.com/vulnerabilities-threats/ai-powered-sign-up-fraud-scaling-fast"
     },
     {
+      "slug": "vane-viper-threat-group-tied-to-propellerads-commercial-entities-2025-09-16",
+      "title": "'Vane Viper' Threat Group Tied to PropellerAds, Commercial Entities",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf8fc948a5c84a9eb/68c999f29df09b021628a349/viper_RooMtheAgency_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/vane-viper-threat-group-tied-to-propellerads-commercial-entities-2025-09-16/",
+      "excerpt": "Researchers say the commercial adtech platform and several other companies form the infrastructure of a massive cybercrime operation.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/vane-viper-threat-group-propellerads"
+    },
+    {
       "slug": "self-replicating-worm-hits-180-software-packages-2025-09-16",
       "title": "Self-Replicating Worm Hits 180+ Software Packages",
       "date": "2025-09-16",
@@ -91,6 +145,24 @@
       "source": "https://www.darkreading.com/endpoint-security/ray-security-protect-data-security"
     },
     {
+      "slug": "innovative-filefix-phishing-attack-proves-plenty-potent-2025-09-16",
+      "title": "Innovative FileFix Phishing Attack Proves Plenty Potent",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc954dc73cf2b1c4/68c46ee8d2b80d658c49eb9b/File_Explorer-Alina_Vytiuk-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/innovative-filefix-phishing-attack-proves-plenty-potent-2025-09-16/",
+      "excerpt": "Highly deceptive FileFix uses code obfuscation and steganography and has been translated into at least 16 languages to power a global campaign.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/innovative-filefix-attack-potent"
+    },
+    {
+      "slug": "emerging-yurei-ransomware-claims-first-victims-2025-09-16",
+      "title": "Emerging Yurei Ransomware Claims First Victims",
+      "date": "2025-09-16",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt31d44096d41b9223/68c9763917033c421457742f/yurei-Science_History_Images-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/emerging-yurei-ransomware-claims-first-victims-2025-09-16/",
+      "excerpt": "The cybercrime group, named after Japanese ghosts but believed to be from Morocco, uses a modified version of the Prince-Ransomware binary that includes a flaw allowing for partial data recovery. However, an extortion threat remains.",
+      "source": "https://www.darkreading.com/threat-intelligence/emerging-yurei-ransomware-claims-first-victims"
+    },
+    {
       "slug": "critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16",
       "title": "Critical Bugs in Chaos Mesh Enable Cluster Takeover",
       "date": "2025-09-16",
@@ -98,6 +170,24 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16/",
       "excerpt": "&quot;Chaotic Deputy&quot; is a set of four vulnerabilities in the chaos engineering platform that many organizations use to test the resilience of their Kubernetes environments.",
       "source": "https://www.darkreading.com/cyber-risk/critical-bugs-chaos-mesh-cluster-takeover"
+    },
+    {
+      "slug": "securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management-2025-09-15",
+      "title": "SecurityScorecard Buys AI Automation Capabilities, Boosts Vendor Risk Management",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte32ef2932d7a4117/66a95345fd20b827be022197/survey(1800)_Yuri_Arcurs_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management-2025-09-15/",
+      "excerpt": "The company acquired HyperComply to help enterprises automate vendor security reviews and gain a real-time picture of the security of their entire supply chain.",
+      "source": "https://www.darkreading.com/cyber-risk/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management"
+    },
+    {
+      "slug": "hybridpetya-ransomware-bypasses-secure-boot-2025-09-15",
+      "title": "'HybridPetya' Ransomware Bypasses Secure Boot",
+      "date": "2025-09-15",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt61aad7e539d55a69/68c87fe124c78db4d305bbbc/bootkit_WhataWin_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hybridpetya-ransomware-bypasses-secure-boot-2025-09-15/",
+      "excerpt": "The malware, which has traits of Petya ransomware and the infamous NotPetya wiper, is designed to target UEFI-based systems, according to researchers.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/hybridpetya-ransomware-bypasses-secure-boot"
     },
     {
       "slug": "bulletproof-host-stark-industries-evades-eu-sanctions-2025-09-11",
@@ -161,22 +251,13 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dslroot-proxies-and-the-threat-of-legal-botnets-2025-08-26/",
       "excerpt": "The cybersecurity community on Reddit responded in disbelief this month when a self-described Air National Guard member with top secret security clearance began questioning the arrangement they’d made with company called DSLRoot , which was paying $250 a month to plug a pair o…",
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
-    },
-    {
-      "slug": "sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21",
-      "title": "SIM-Swapper, Scattered Spider Hacker Gets 10 Years",
-      "date": "2025-08-21",
-      "cover": "assets/img/cover-fallback.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21/",
-      "excerpt": "A 20-year-old Florida man at the center of a prolific cybercrime group known as “ Scattered Spider ” was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.",
-      "source": "https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/"
     }
   ],
-  "count": 19,
-  "updated_at": "2025-09-17",
+  "count": 28,
+  "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 19,
+    "total_items": 28,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

@@ -179,12 +179,21 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/hotel-renovations-in-the-caribbean-to-keep-your-eye-on-2025-08-23/",
       "excerpt": "These newly renovated resorts bring fresh energy, luxe upgrades and standout amenities to the Caribbean",
       "source": "https://www.travelpulse.com/agent-at-home/hotel-renovations-in-the-caribbean-to-keep-your-eye-on?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr"
+    },
+    {
+      "slug": "the-best-pubs-with-rooms-in-the-peak-district-2025-08-22",
+      "title": "The best pubs with rooms in the Peak District",
+      "date": "2025-08-22",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/august/the-pilsley-pub-hotel-hotel-guide-lead.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-pubs-with-rooms-in-the-peak-district-2025-08-22/",
+      "excerpt": "Check into one of the cosy country inns dotted across this scenic region for characterful accommodation, good food and fine local brews",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/derbyshire/peak-district/articles/best-pubs-with-rooms-peak-district/"
     }
   ],
-  "count": 20,
+  "count": 21,
   "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 20,
+    "total_items": 21,
     "per_page": 12,
     "total_pages": 2
   }

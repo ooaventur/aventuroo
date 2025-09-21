@@ -109,6 +109,33 @@
       "source": "https://matadornetwork.com/read/where-to-stay-in-sonoma-county/"
     },
     {
+      "slug": "the-best-places-to-stay-in-banff-national-park-2025-09-17",
+      "title": "The Best Places to Stay in Banff National Park",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/5bbe66816477eb358f143759/master/pass/Fairmont-Banff-Springs__2018_BSH-548.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-places-to-stay-in-banff-national-park-2025-09-17/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/where-to-stay-in-banff-national-park"
+    },
+    {
+      "slug": "the-best-museums-in-new-york-city-from-the-met-to-the-new-york-transit-museum-2025-09-17",
+      "title": "The Best Museums in New York City, From the Met to the New York Transit Museum",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/68cafcead4006acf69daf051/master/pass/091725-NYC-Museums-The%20Frick-PR-Global-14%20-%20East%20Gallery.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-museums-in-new-york-city-from-the-met-to-the-new-york-transit-museum-2025-09-17/",
+      "excerpt": "Charlie Hobbs and",
+      "source": "https://www.cntraveler.com/gallery/best-museums-in-new-york-city"
+    },
+    {
+      "slug": "the-best-hotels-for-christmas-in-london-9-festive-stays-2025-09-17",
+      "title": "The Best Hotels for Christmas in London: 9 Festive Stays",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/68c465406d4c502c7b2f2a81/master/pass/The%20Dorchester_Lobby_Festive%20tree%20wide_Dorchester%20Collection-dec24-pr.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-hotels-for-christmas-in-london-9-festive-stays-2025-09-17/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/gallery/the-best-christmas-hotels-in-london-for-a-festive-stay"
+    },
+    {
       "slug": "stay-like-bad-bunny-or-sinatra-at-this-iconic-luxury-resort-in-puerto-rico-2025-09-17",
       "title": "Stay Like Bad Bunny or Sinatra at This Iconic Luxury Resort in Puerto Rico",
       "date": "2025-09-17",
@@ -134,6 +161,24 @@
       "canonical": "https://archive.aventuroo.com/travel/things-to-do/29-hours-12-200-miles-the-new-longest-direct-flight-in-the-world-2025-09-17/",
       "excerpt": "The commercial aviation industry has come a long way since the introduction of jet passenger service in the 1950s, and in 2025, it’s hitting another milestone: there’s about to be a new longest direct flight in the world.",
       "source": "https://matadornetwork.com/read/longest-direct-flight-china-eastern/"
+    },
+    {
+      "slug": "21-best-things-to-do-in-san-diego-from-museum-visits-to-scenic-hikes-2025-09-17",
+      "title": "21 Best Things to Do in San Diego, From Museum Visits to Scenic Hikes",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/68cad50ab2b1766b543717e6/master/pass/091725-TTD-San-Diego-Torrey%20Pines%20Gilderport-GettyImages-76208181.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/21-best-things-to-do-in-san-diego-from-museum-visits-to-scenic-hikes-2025-09-17/",
+      "excerpt": "Marie Tutko and",
+      "source": "https://www.cntraveler.com/gallery/best-things-to-do-in-san-diego-from-museum-visits-to-scenic-hikes"
+    },
+    {
+      "slug": "11-best-hotels-in-newport-rhode-island-for-a-new-england-escape-2025-09-17",
+      "title": "11 Best Hotels in Newport, Rhode Island, for a New England Escape",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/68cabd4a8fa7f990f4f7f0ac/master/pass/091725-Francis-Malbone-House-PR-Global-FMH%20Exterior%20Spring%202024-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/11-best-hotels-in-newport-rhode-island-for-a-new-england-escape-2025-09-17/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/gallery/the-best-hotels-in-newport-rhode-island"
     },
     {
       "slug": "stainborough-castle-in-south-yorkshire-england-2025-09-16",
@@ -163,10 +208,10 @@
       "source": "https://www.atlasobscura.com/articles/podcast-grave-charlotte-temple"
     }
   ],
-  "count": 18,
+  "count": 23,
   "updated_at": "2025-09-19",
   "pagination": {
-    "total_items": 18,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }

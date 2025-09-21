@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "world-s-oldest-evidence-of-mummification-found-2025-09-19",
+      "title": "World's Oldest Evidence of Mummification Found",
+      "date": "2025-09-19",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/world-s-oldest-evidence-of-mummification-found-2025-09-19/",
+      "excerpt": "CANBERRA, AUSTRALIA—Mummification was practiced by various cultures across the world at different times, perhaps most famously by the Egyptians. But according to a statement released by The Australian National University (ANU), a groundbreaking new study recently revealed this…",
+      "source": "https://archaeology.org/news/2025/09/19/study-reveals-worlds-oldest-evidence-of-mummification/"
+    },
+    {
+      "slug": "downed-trees-reveal-ancient-irish-monument-2025-09-19",
+      "title": "Downed Trees Reveal Ancient Irish Monument",
+      "date": "2025-09-19",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/downed-trees-reveal-ancient-irish-monument-2025-09-19/",
+      "excerpt": "ACHILL ISLAND, IRELAND—When a severe storm recently struck Achill Island in Ireland’s County Mayo, the intense winds caused extensive damage, tearing off roofs and knocking down power lines. RTÉ News reports that flattened trees in one area in Cloughmore Townland unexpectedly …",
+      "source": "https://archaeology.org/news/2025/09/19/downed-trees-reveal-ancient-irish-monument/"
+    },
+    {
+      "slug": "2-000-year-old-roman-bridge-posts-reemerge-from-riverbed-2025-09-19",
+      "title": "2,000-Year-Old Roman Bridge Posts Reemerge from Riverbed",
+      "date": "2025-09-19",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/2-000-year-old-roman-bridge-posts-reemerge-from-riverbed-2025-09-19/",
+      "excerpt": "AEGERTEN, SWITZERLAND—Swiss archaeologists gained new insight into Roman engineering and provincial infrastructure when the remains of a 2,000-year-old bridge reemerged from a former riverbed during modern construction near Aegerten in the Canton of Bern, The Miami Herald repo…",
+      "source": "https://archaeology.org/news/2025/09/19/2000-year-old-roman-bridge-posts-reemerge-from-riverbed/"
+    },
+    {
+      "slug": "rare-wampum-beads-found-at-canada-s-colony-of-avalon-2025-09-18",
+      "title": "Rare Wampum Beads Found at Canada's Colony of Avalon",
+      "date": "2025-09-18",
+      "cover": "https://archaeology.org/wp-content/uploads/2025/09/News-20250918-Canada-Ferryland-Aerial.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/rare-wampum-beads-found-at-canada-s-colony-of-avalon-2025-09-18/",
+      "excerpt": "FERRYLAND, CANADA— CBC reports that an exceptionally rare set of Native American wampum beads were discovered during excavations at the seventeenth-century Colony of Avalon in Ferryland, Newfoundland, one of the earliest and best preserved English colonial sites in North Ameri…",
+      "source": "https://archaeology.org/news/2025/09/18/rare-wampum-beads-found-at-canadas-colony-of-avalon/"
+    },
+    {
+      "slug": "forgotten-medieval-castle-discovered-on-scottish-isle-2025-09-18",
+      "title": "Forgotten Medieval Castle Discovered on Scottish Isle",
+      "date": "2025-09-18",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/forgotten-medieval-castle-discovered-on-scottish-isle-2025-09-18/",
+      "excerpt": "ISLAY, SCOTLAND— BBC News reports that a forgotten medieval castle and royal stronghold were identified at the site of Finlaggan on the Hebridean island of Islay off the west coast of Scotland. The announcement comes after more than three decades of research by historians and …",
+      "source": "https://archaeology.org/news/2025/09/18/forgotten-medieval-royal-castle-discovered-on-scottish-isle/"
+    },
+    {
       "slug": "underwater-archaeologists-just-found-a-144-foot-schooner-that-sank-in-lake-michigan-during-a-storm-in-1886-2025-09-17",
       "title": "Underwater Archaeologists Just Found A 144-Foot Schooner That Sank In Lake Michigan During A Storm In 1886",
       "date": "2025-09-17",
@@ -91,11 +136,11 @@
       "source": "https://allthatsinteresting.com/egypt-tell-el-farain-canopus-decree"
     }
   ],
-  "count": 10,
-  "updated_at": "2025-09-17",
+  "count": 15,
+  "updated_at": "2025-09-19",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

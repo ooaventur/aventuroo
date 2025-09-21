@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "instant-pot-spaghetti-2025-07-31",
+      "title": "Instant Pot Spaghetti",
+      "date": "2025-07-31",
+      "cover": "https://www.youtube.com/embed/tPzzeDRG2jM",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/instant-pot-spaghetti-2025-07-31/",
+      "excerpt": "My whole family loves this Instant Pot Spaghetti! Silky, flavorful, and delightfully clingy. Easy enough for my kids to make it too!",
+      "source": "https://pinchofyum.com/instant-pot-spaghetti"
+    },
+    {
       "slug": "chipwich-ice-cream-cake-2025-07-25",
       "title": "chipwich ice cream cake",
       "date": "2025-07-25",
@@ -8,6 +17,24 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/chipwich-ice-cream-cake-2025-07-25/",
       "excerpt": "High on the list of cooking things that I’ve got far more opinions on than anyone has ever asked of me (and may have even, at times, prayed I’d stop yapping about), are homemade ice cream sandwiches. Why? Because it’s devastating when you realize something that should bring us…",
       "source": "https://smittenkitchen.com/2025/07/chipwich-ice-cream-cake/"
+    },
+    {
+      "slug": "chocolate-cherry-smoothie-2025-07-23",
+      "title": "Chocolate Cherry Smoothie",
+      "date": "2025-07-23",
+      "cover": "https://www.youtube.com/embed/vMH9wWdKJuQ",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chocolate-cherry-smoothie-2025-07-23/",
+      "excerpt": "Chocolate Cherry Smoothie every day, please! Packed with protein and so delightfully silky and smooth.",
+      "source": "https://pinchofyum.com/chocolate-cherry-smoothie"
+    },
+    {
+      "slug": "marry-me-chickpeas-and-orzo-2025-07-22",
+      "title": "Marry Me Chickpeas and Orzo",
+      "date": "2025-07-22",
+      "cover": "https://www.youtube.com/embed/WLY3dWeLXFs",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/marry-me-chickpeas-and-orzo-2025-07-22/",
+      "excerpt": "A perfect 20-minute dinner! Chickpeas and orzo in a luscious, creamy, max-flavor tomato sauce.",
+      "source": "https://pinchofyum.com/marry-me-chickpeas-and-orzo"
     },
     {
       "slug": "focaccia-with-zucchini-and-potatoes-2025-07-11",
@@ -28,10 +55,10 @@
       "source": "https://smittenkitchen.com/2025/07/burrata-with-crushed-cherries-and-pistachios/"
     }
   ],
-  "count": 3,
-  "updated_at": "2025-07-25",
+  "count": 6,
+  "updated_at": "2025-07-31",
   "pagination": {
-    "total_items": 3,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

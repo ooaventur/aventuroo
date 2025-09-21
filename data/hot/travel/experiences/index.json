@@ -46,6 +46,42 @@
       "source": "https://www.atlasobscura.com/places/founding-fathers-pub"
     },
     {
+      "slug": "the-last-dams-are-gone-the-salmon-are-back-and-there-s-rafting-on-this-born-again-oregon-river-2025-09-12",
+      "title": "The last dams are gone, the salmon are back, and there’s rafting on this born-again Oregon river",
+      "date": "2025-09-12",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/Klamath-River-Oregon-DSC_0212-1-copy-Photo-Travel-Southern-Oregon-Indigo-Creek-Outfitters.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/the-last-dams-are-gone-the-salmon-are-back-and-there-s-rafting-on-this-born-again-oregon-river-2025-09-12/",
+      "excerpt": "It’s not often, or ever, really, that a person these days can explore new territory in the mainland United States. How we came to be here paddling on this day trip down the ‘New Klamath’ is a story decades in the making, one that shows off a rare victory for environmental and …",
+      "source": "https://adventure.com/oregon-undammed-rafting-the-klamath-river/"
+    },
+    {
+      "slug": "in-vietnam-experts-and-advocates-are-working-to-end-human-trafficking-within-the-decade-2025-09-12",
+      "title": "In Vietnam, experts and advocates are working to end human trafficking within the decade",
+      "date": "2025-09-12",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/classroom.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/in-vietnam-experts-and-advocates-are-working-to-end-human-trafficking-within-the-decade-2025-09-12/",
+      "excerpt": "“Do you understand the pressure on my chest… the pain I feel?” Xuân questions her social worker. “I am truly suffering.”",
+      "source": "https://adventure.com/vietnam-blue-dragon-human-trafficking/"
+    },
+    {
+      "slug": "world-maps-get-africa-s-size-wrong-cartographers-explain-why-fixing-it-matters-2025-09-11",
+      "title": "World maps get Africa’s size wrong: Cartographers explain why fixing it matters",
+      "date": "2025-09-11",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/Africa-cartography_credit_NASAs-Earth-Observatory-_Blue-Marble_-series-_-Wikimedia-Commons.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/world-maps-get-africa-s-size-wrong-cartographers-explain-why-fixing-it-matters-2025-09-11/",
+      "excerpt": "Bringing about changes won’t be easy.",
+      "source": "https://adventure.com/africa-world-maps-size-cartography/"
+    },
+    {
+      "slug": "why-these-10-not-hot-destinations-are-at-the-very-top-of-our-bucket-list-for-2026-2025-09-09",
+      "title": "Why these 10 ‘Not Hot’ destinations are at the very top of our bucket list for 2026",
+      "date": "2025-09-09",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/Hero-Intrepid-Not-Hot-List-2026-josh-berendes-l7cwYgUwArg-unsplash-Vis-Croatia.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/why-these-10-not-hot-destinations-are-at-the-very-top-of-our-bucket-list-for-2026-2025-09-09/",
+      "excerpt": "With its surf beaches, active volcanoes and ancient Mayan ruins, El Salvador is emerging as one of the world’s fastest-growing travel destinations, thanks to an effective crackdown on crime. But beyond the beaches and a couple of hours from the capital San Salvador is the 22-m…",
+      "source": "https://adventure.com/not-hot-list-2026-intrepid-overtourism-undertourism/"
+    },
+    {
       "slug": "9-small-town-nevada-festivals-with-big-time-charm-2025-09-09",
       "title": "9 Small-Town Nevada Festivals With Big-Time Charm",
       "date": "2025-09-09",
@@ -80,13 +116,22 @@
       "canonical": "https://archive.aventuroo.com/travel/experiences/nyc-s-favorite-folk-sandwich-2025-09-06/",
       "excerpt": "Dylan Thuras: It’s a hot day in New York City. It’s pushing 90 degrees outside, and you need lunch. So you’ve come to Harlem, to 110th Street, and you’re here for a reason. You are in search of a particular store that sells a very particular sandwich.",
       "source": "https://www.atlasobscura.com/articles/podcast-chopped-cheese"
+    },
+    {
+      "slug": "is-this-off-grid-scottish-community-the-ultimate-model-for-sustainable-living-in-britain-today-2025-09-05",
+      "title": "Is this off-grid Scottish community the ultimate model for sustainable living in Britain today?",
+      "date": "2025-09-05",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/Knoydart-Scotland-Credit-Beyond-the-Ultimate-3.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/is-this-off-grid-scottish-community-the-ultimate-model-for-sustainable-living-in-britain-today-2025-09-05/",
+      "excerpt": "The farm, too, reflects this careful balancing act. Set up on land bought by the foundation in 2022, Knoydart Farm grows seasonal salad, herbs, tomatoes and potatoes for the pub, café and local veg boxes. It’s a Community Interest Company (CIC) with five paid staff, two poly t…",
+      "source": "https://adventure.com/off-grid-community-knoydart-scotland/"
     }
   ],
-  "count": 9,
+  "count": 14,
   "updated_at": "2025-09-18",
   "pagination": {
-    "total_items": 9,
+    "total_items": 14,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

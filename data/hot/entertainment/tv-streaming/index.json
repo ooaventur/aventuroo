@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "christopher-nolan-elected-president-of-directors-guild-of-america-2025-09-21",
+      "title": "Christopher Nolan Elected President of Directors Guild of America",
+      "date": "2025-09-21",
+      "cover": "https://variety.com/wp-content/uploads/2024/12/GettyImages-2074751584-e1734992373146.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/christopher-nolan-elected-president-of-directors-guild-of-america-2025-09-21/",
+      "excerpt": "Christopher Nolan has been elected president of the Directors Guild of America , taking over the reins as the union prepares for upcoming negotiations with the major studios.",
+      "source": "https://variety.com/2025/film/news/christopher-nolan-directors-guild-elect-president-1236525332/"
+    },
+    {
       "slug": "what-to-watch-this-week-50-premieres-finales-and-more-2025-09-20",
       "title": "What to Watch This Week: 50+ Premieres, Finales and More",
       "date": "2025-09-20",
@@ -26,6 +35,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/spain-s-small-screen-operators-like-movistar-plus-drive-much-of-the-local-features-business-2025-09-20/",
       "excerpt": "Why talk about TV at Spain at the Spanish-world’s biggest film festival? One reason: in 2024, San Sebastián hosted the world premieres of Movistar Plus+ Original Series “Querer” and “Celeste,” which both went on to win the two biggest prizes at 2025’s Series Mania, Europe’s mo…",
       "source": "https://variety.com/2025/tv/global/movistar-plus-netflix-san-sebastian-festival-1236524668/"
+    },
+    {
+      "slug": "shu-qi-and-lee-sinje-on-first-time-collaboration-in-netflix-s-the-resurrected-we-had-this-great-unspoken-chemistry-2025-09-20",
+      "title": "Shu Qi and Lee Sinje on First-Time Collaboration in Netflix’s ‘The Resurrected’: ‘We Had This Great Unspoken Chemistry’",
+      "date": "2025-09-20",
+      "cover": "https://variety.com/wp-content/uploads/2025/09/The-Resurrected.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/shu-qi-and-lee-sinje-on-first-time-collaboration-in-netflix-s-the-resurrected-we-had-this-great-unspoken-chemistry-2025-09-20/",
+      "excerpt": "Two of Asia’s most celebrated actors, Shu Qi and Lee Sinje , are performing with each other for the first time in Netflix’s new thriller drama “ The Resurrected ,” world premiering at the 30th Busan International Film Festival before streaming globally.",
+      "source": "https://variety.com/2025/tv/news/shu-qi-lee-sinje-netflix-resurrected-1236525436/"
     },
     {
       "slug": "netflix-expands-creative-asia-program-at-busan-film-festival-unveils-new-initiatives-across-apac-region-2025-09-20",
@@ -91,6 +109,15 @@
       "source": "https://variety.com/2025/tv/news/bill-maher-defends-jimmy-kimmel-slams-abc-always-be-caving-1236525144/"
     },
     {
+      "slug": "beauty-in-black-star-reacts-to-those-bloody-cliffhangers-teases-kimmie-and-mallory-s-brewing-showdown-2025-09-20",
+      "title": "Beauty in Black Star Reacts to Those Bloody Cliffhangers, Teases Kimmie and Mallory’s Brewing Showdown",
+      "date": "2025-09-20",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/beauty-in-black-ending-explained-kimmie.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/beauty-in-black-star-reacts-to-those-bloody-cliffhangers-teases-kimmie-and-mallory-s-brewing-showdown-2025-09-20/",
+      "excerpt": "By providing your information, you agree to our Terms of Use and our Privacy Policy. We use vendors that may also process your information to help provide our services. This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply.",
+      "source": "https://tvline.com/interviews/beauty-in-black-season-2-episode-8-ending-explained-1235515735/"
+    },
+    {
       "slug": "as-nexstar-and-sinclair-take-on-disney-over-jimmy-kimmel-the-fcc-is-happy-but-will-it-backfire-2025-09-20",
       "title": "As Nexstar and Sinclair Take on Disney Over Jimmy Kimmel, the FCC Is Happy — But Will It Backfire?",
       "date": "2025-09-20",
@@ -100,11 +127,11 @@
       "source": "https://variety.com/2025/tv/news/nexstar-sinclair-jimmy-kimmel-live-disney-backfire-fcc-1236525294/"
     }
   ],
-  "count": 11,
-  "updated_at": "2025-09-20",
+  "count": 14,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 11,
+    "total_items": 14,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

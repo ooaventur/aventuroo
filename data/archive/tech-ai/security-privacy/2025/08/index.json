@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21",
+      "title": "SIM-Swapper, Scattered Spider Hacker Gets 10 Years",
+      "date": "2025-08-21",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sim-swapper-scattered-spider-hacker-gets-10-years-2025-08-21/",
+      "excerpt": "A 20-year-old Florida man at the center of a prolific cybercrime group known as “ Scattered Spider ” was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.",
+      "source": "https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/"
+    },
+    {
       "slug": "oregon-man-charged-in-rapper-bot-ddos-service-2025-08-19",
       "title": "Oregon Man Charged in ‘Rapper Bot’ DDoS Service",
       "date": "2025-08-19",
@@ -10,10 +19,10 @@
       "source": "https://krebsonsecurity.com/2025/08/oregon-man-charged-in-rapper-bot-ddos-service/"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-08-19",
+  "count": 2,
+  "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

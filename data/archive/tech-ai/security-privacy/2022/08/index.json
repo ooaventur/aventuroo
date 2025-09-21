@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "slug": "student-loan-breach-exposes-2-5m-records-2022-08-31",
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "date": "2022-08-31",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2015/02/07005821/data.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/student-loan-breach-exposes-2-5m-records-2022-08-31/",
+      "excerpt": "EdFinancial and the Oklahoma Student Loan Authority (OSLA) are notifying over 2.5 million loanees that their personal data was exposed in a data breach.",
+      "source": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/"
+    },
+    {
+      "slug": "watering-hole-attacks-push-scanbox-keylogger-2022-08-30",
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "date": "2022-08-30",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/03/31170116/watering-hole-e1585688492540.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/watering-hole-attacks-push-scanbox-keylogger-2022-08-30/",
+      "excerpt": "A China-based threat actor has ramped up efforts to distribute the ScanBox reconnaissance framework to victims that include domestic Australian organizations and offshore energy firms in the South China Sea. The bait used by the advanced threat group (APT) is targeted messages…",
+      "source": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/"
+    },
+    {
+      "slug": "tentacles-of-0ktapus-threat-group-victimize-130-firms-2022-08-29",
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "date": "2022-08-29",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/06/02111030/octopus.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/tentacles-of-0ktapus-threat-group-victimize-130-firms-2022-08-29/",
+      "excerpt": "Targeted attacks on Twilio and Cloudflare employees are tied to a massive phishing campaign that resulted in 9,931 accounts at over 130 organizations being compromised. The campaigns are tied to focused abuse of identity and access management firm Okta, which gained the threat…",
+      "source": "https://threatpost.com/0ktapus-victimize-130-firms/180487/"
+    },
+    {
+      "slug": "ransomware-attacks-are-on-the-rise-2022-08-26",
+      "title": "Ransomware Attacks are on the Rise",
+      "date": "2022-08-26",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2019/12/24125329/Ransomware_700_420.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ransomware-attacks-are-on-the-rise-2022-08-26/",
+      "excerpt": "After a recent dip, ransomware attacks are back on the rise. According to data released by NCC Group, the resurgence is being led by old ransomware-as-a-service (RaaS) groups.",
+      "source": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/"
+    },
+    {
+      "slug": "cybercriminals-are-selling-access-to-chinese-surveillance-cameras-2022-08-25",
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "date": "2022-08-25",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/11/19110609/iot.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cybercriminals-are-selling-access-to-chinese-surveillance-cameras-2022-08-25/",
+      "excerpt": "New research indicates that over 80,000 Hikvision surveillance cameras in the world today are vulnerable to an 11 month-old command injection flaw.",
+      "source": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2022-08-31",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

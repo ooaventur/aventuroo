@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "this-stunning-x-ray-advance-could-help-detect-cancer-earlier-2025-09-21",
+      "title": "This stunning X-ray advance could help detect cancer earlier",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/head-scan-brain-cancer-tumor.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/this-stunning-x-ray-advance-could-help-detect-cancer-earlier-2025-09-21/",
+      "excerpt": "When German physicist Wilhelm Röntgen discovered X-rays in the late 1800s while experimenting with cathode ray tubes, it was a breakthrough that transformed science and medicine. So much so that the basic concept remains in use today. But a team of researchers at Sandia Nation…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250920214314.htm"
+    },
+    {
+      "slug": "simple-therapies-outperform-drugs-for-knee-arthritis-pain-relief-2025-09-21",
+      "title": "Simple therapies outperform drugs for knee arthritis pain relief",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/arthritis-knee-pain-sitting-senior.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/simple-therapies-outperform-drugs-for-knee-arthritis-pain-relief-2025-09-21/",
+      "excerpt": "Knee braces, water therapy and exercise are the most promising non-drug therapies for treating knee osteoarthritis, according to a new meta-analysis publishing June 18, 2025 in the open-access journal PLOS One by Yuan Luo of the First People's Hospital of Neijiang, China.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250919085252.htm"
+    },
+    {
+      "slug": "new-breath-sensor-detects-diabetes-quickly-and-easily-2025-09-21",
+      "title": "New breath sensor detects diabetes quickly and easily",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/new-diabetes-sensor.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-breath-sensor-detects-diabetes-quickly-and-easily-2025-09-21/",
+      "excerpt": "In the U.S., one in five of the 37 million adults who has diabetes doesn't know it. Current methods of diagnosing diabetes and prediabetes usually require a visit to a doctor's office or lab work, both of which can be expensive and time-consuming. Now, diagnosing diabetes and …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250919085248.htm"
+    },
+    {
+      "slug": "clear-skin-in-a-week-with-this-breakthrough-acne-patch-2025-09-21",
+      "title": "Clear skin in a week with this breakthrough acne patch",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/new-pimple-patch.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/clear-skin-in-a-week-with-this-breakthrough-acne-patch-2025-09-21/",
+      "excerpt": "Waking up with a pimple is no longer cause for panic, thanks to pimple patches -- small, sticker-like bandages that cover and help heal the unwanted zit. A team of researchers publishing in ACS Applied Materials & Interfaces has designed a two-stage pimple patch set with an ar…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250919085250.htm"
+    },
+    {
       "slug": "scientists-uncover-exercise-s-secret-hunger-busting-molecule-2025-09-20",
       "title": "Scientists uncover exercise’s secret hunger-busting molecule",
       "date": "2025-09-20",
@@ -134,12 +170,21 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/guava-s-secret-molecule-could-fight-liver-cancer-2025-09-15/",
       "excerpt": "You may not be aware that most of the medicines that have been approved for treatment are rooted in nature.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250914205840.htm"
+    },
+    {
+      "slug": "daily-eye-drops-could-make-reading-glasses-obsolete-2025-09-15",
+      "title": "Daily eye drops could make reading glasses obsolete",
+      "date": "2025-09-15",
+      "cover": "https://www.sciencedaily.com/images/1920/senior-man-eye-drops.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/daily-eye-drops-could-make-reading-glasses-obsolete-2025-09-15/",
+      "excerpt": "Everybody develops presbyopia as they age - a difficulty in focusing on near objects and text - and often have to resort to reading glasses. However, the solution might be as simple as using special eye drops two or three times a day.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250914205832.htm"
     }
   ],
-  "count": 15,
-  "updated_at": "2025-09-20",
+  "count": 20,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 15,
+    "total_items": 20,
     "per_page": 12,
     "total_pages": 2
   }

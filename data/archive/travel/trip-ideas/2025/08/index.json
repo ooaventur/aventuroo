@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "crying-over-baklava-an-afternoon-in-a-stranger-s-cave-home-in-turkey-2025-08-21",
+      "title": "Crying over baklava: An afternoon in a stranger’s cave home in Turkey",
+      "date": "2025-08-21",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/08/Intrepid-Travel-Turkey-Cappadocia-Homestay-lunch-with-Nuray-045A5786.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/crying-over-baklava-an-afternoon-in-a-stranger-s-cave-home-in-turkey-2025-08-21/",
+      "excerpt": "On a small group adventure in Turkey, Meghan and her fellow travellers experience a welcome – and some award-winning baklava – that moves them all to tears.",
+      "source": "https://www.intrepidtravel.com/adventures/baklava-cave-home-turkey/"
+    },
+    {
+      "slug": "the-best-ruin-bars-of-budapest-2025-08-20",
+      "title": "The Best Ruin Bars of Budapest",
+      "date": "2025-08-20",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2018/10/ruinbarbudapest.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/the-best-ruin-bars-of-budapest-2025-08-20/",
+      "excerpt": "Ruin bars are all the rage in Budapest and have been around since the founding of Szimpla Kert, the mecca of all ruin bars, in 2002. These bars are built in Budapest’s old District VII neighborhood (the old Jewish quarter) in the ruins of abandoned buildings, stores, or lots. …",
+      "source": "https://www.nomadicmatt.com/travel-blogs/the-ruin-bars-of-budapest/"
+    },
+    {
+      "slug": "delta-skymiles-platinum-american-express-card-review-2025-08-20",
+      "title": "Delta SkyMiles® Platinum American Express Card Review",
+      "date": "2025-08-20",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2025/08/deltaplatinum.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/delta-skymiles-platinum-american-express-card-review-2025-08-20/",
+      "excerpt": "Terms apply to American Express benefits and offers. Enrollment may be required for select American Express benefits and offers. Visit americanexpress.com to learn more.",
+      "source": "https://www.nomadicmatt.com/travel-blogs/delta-skymiles-platinum-review/"
+    },
+    {
       "slug": "meet-the-women-turning-periods-into-pathways-in-nepal-and-beyond-2025-08-13",
       "title": "Meet the women turning periods into pathways in Nepal and beyond",
       "date": "2025-08-13",
@@ -10,10 +37,10 @@
       "source": "https://www.intrepidtravel.com/adventures/turning-periods-into-pathways-in-nepal/"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-08-13",
+  "count": 4,
+  "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 1,
+    "total_items": 4,
     "per_page": 12,
     "total_pages": 1
   }

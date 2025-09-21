@@ -89,13 +89,58 @@
       "canonical": "https://archive.aventuroo.com/travel/general/17-best-hotels-in-seattle-washington-2025-2025-09-19/",
       "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
       "source": "https://www.cntraveler.com/gallery/the-best-hotels-in-seattle-washington"
+    },
+    {
+      "slug": "women-who-travel-podcast-an-old-friend-returns-2025-09-18",
+      "title": "Women Who Travel Podcast: An Old Friend Returns",
+      "date": "2025-09-18",
+      "cover": "https://media.cntraveler.com/photos/68cc59767c0fd62f5a5d1072/master/pass/group-16x9.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/women-who-travel-podcast-an-old-friend-returns-2025-09-18/",
+      "excerpt": "You can listen to our podcast on Apple Podcasts and Spotify each week. Follow this link if you're listening on Apple News .",
+      "source": "https://www.cntraveler.com/story/women-who-travel-podcast-an-old-friend-returns"
+    },
+    {
+      "slug": "the-11-best-airbnbs-in-seoul-from-traditional-hanoks-to-ritzy-high-rises-2025-09-18",
+      "title": "The 11 Best Airbnbs in Seoul, From Traditional Hanoks to Ritzy High Rises",
+      "date": "2025-09-18",
+      "cover": "https://media.cntraveler.com/photos/68cc1ecd81fa985d28caedc4/master/pass/091825-Airbnbs-Seoul-Lede-1163607090111771598.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-11-best-airbnbs-in-seoul-from-traditional-hanoks-to-ritzy-high-rises-2025-09-18/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/gallery/best-airbnbs-in-seoul"
+    },
+    {
+      "slug": "new-york-film-festival-2025-tickets-are-now-on-sale-2025-09-18",
+      "title": "New York Film Festival 2025 Tickets Are Now on Sale",
+      "date": "2025-09-18",
+      "cover": "https://media.cntraveler.com/photos/68cc0efee0b6a2cc71234583/master/pass/091825-NYFF-Tickets-2025-GettyImages-686370654.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/new-york-film-festival-2025-tickets-are-now-on-sale-2025-09-18/",
+      "excerpt": "In fall , one of the best things to do in New York City is to see a movie. Every year, a couple of months before Hollywood's awards season enters full swing, anyone who happens to be in New York has a chance to see a spate of cinema's top contenders before they’re released in …",
+      "source": "https://www.cntraveler.com/story/new-york-film-festival-2025"
+    },
+    {
+      "slug": "14-best-spas-in-new-york-city-according-to-our-wellness-obsessed-editors-2025-09-18",
+      "title": "14 Best Spas in New York City, According to Our Wellness-Obsessed Editors",
+      "date": "2025-09-18",
+      "cover": "https://media.cntraveler.com/photos/615486c44d2f698229de0ab8/master/pass/The%20Four%20Seasons%20Hotel%20New%20York%20Downtown_NYD_487.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/14-best-spas-in-new-york-city-according-to-our-wellness-obsessed-editors-2025-09-18/",
+      "excerpt": "CNT Editors",
+      "source": "https://www.cntraveler.com/gallery/best-spas-in-new-york-city"
+    },
+    {
+      "slug": "39-best-september-travel-deals-we-ve-bookmarked-this-month-2025-09-17",
+      "title": "39 Best September Travel Deals We’ve Bookmarked This Month",
+      "date": "2025-09-17",
+      "cover": "https://media.cntraveler.com/photos/68cb13e8fbd194474618cb48/master/pass/091725-Sept-Travel-Deals-Lede-Glacier-Natl-Park-GettyImages-1186157637.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/39-best-september-travel-deals-we-ve-bookmarked-this-month-2025-09-17/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/best-september-travel-deals"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

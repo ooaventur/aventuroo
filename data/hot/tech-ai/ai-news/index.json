@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "llm-as-a-judge-where-do-its-signals-break-when-do-they-hold-and-what-should-evaluation-mean-2025-09-21",
+      "title": "LLM-as-a-Judge: Where Do Its Signals Break, When Do They Hold, and What Should “Evaluation” Mean?",
+      "date": "2025-09-21",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-74.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/llm-as-a-judge-where-do-its-signals-break-when-do-they-hold-and-what-should-evaluation-mean-2025-09-21/",
+      "excerpt": "Most “correctness/faithfulness/completeness” rubrics are project-specific. Without task-grounded definitions, a scalar score can drift from business outcomes (e.g., “useful marketing post” vs. “high completeness”). Surveys of LLM-as-a-judge (LAJ) note that rubric ambiguity and…",
+      "source": "https://www.marktechpost.com/2025/09/20/llm-as-a-judge-where-do-its-signals-break-when-do-they-hold-and-what-should-evaluation-mean/"
+    },
+    {
+      "slug": "an-internet-of-ai-agents-coral-protocol-introduces-coral-v1-an-mcp-native-runtime-and-registry-for-cross-framework-ai-agents-2025-09-20",
+      "title": "An Internet of AI Agents? Coral Protocol Introduces Coral v1: An MCP-Native Runtime and Registry for Cross-Framework AI Agents",
+      "date": "2025-09-20",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-73.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/an-internet-of-ai-agents-coral-protocol-introduces-coral-v1-an-mcp-native-runtime-and-registry-for-cross-framework-ai-agents-2025-09-20/",
+      "excerpt": "Coral Protocol has released Coral v1 of its agent stack, aiming to standardize how developers",
+      "source": "https://www.marktechpost.com/2025/09/20/an-internet-of-ai-agents-coral-protocol-introduces-coral-v1-an-mcp-native-runtime-and-registry-for-cross-framework-ai-agents/"
+    },
+    {
       "slug": "a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht-2025-09-20",
       "title": "A Coding Guide to End-to-End Robotics Learning with LeRobot: Training, Evaluating, and Visualizing Behavior Cloning Policies on PushT",
       "date": "2025-09-20",
@@ -10,10 +28,10 @@
       "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-09-20",
+  "count": 3,
+  "updated_at": "2025-09-21",
   "pagination": {
-    "total_items": 1,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }

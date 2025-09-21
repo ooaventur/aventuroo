@@ -136,6 +136,15 @@
       "source": "https://www.nplusonemag.com/online-only/online-only/abolition-after-katrina/"
     },
     {
+      "slug": "the-haunting-of-cracker-barrel-2025-09-02",
+      "title": "The Haunting of Cracker Barrel",
+      "date": "2025-09-02",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/09/Screenshot-2025-09-02-at-11.11.44-AM-scaled-e1756826300439.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-haunting-of-cracker-barrel-2025-09-02/",
+      "excerpt": "A. S. Hamrah is this magazine’s film critic and the author of The Earth Dies Streaming: Film Writing, 2002–2018 and the forthcoming",
+      "source": "https://www.nplusonemag.com/online-only/online-only/the-haunting-of-cracker-barrel/"
+    },
+    {
       "slug": "god-dog-2025-09-02",
       "title": "God Dog",
       "date": "2025-09-02",
@@ -143,12 +152,39 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/god-dog-2025-09-02/",
       "excerpt": "“You’re not going to like this, but this bitch is gonna blow, ” said the man, looking downward.",
       "source": "https://www.nplusonemag.com/online-only/online-only/god-dog/"
+    },
+    {
+      "slug": "suddenly-weightless-2025-08-28",
+      "title": "Suddenly Weightless",
+      "date": "2025-08-28",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/27648095467_67dcbde655_o.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/suddenly-weightless-2025-08-28/",
+      "excerpt": "The poet Alice Notley died on May 17. But death was a place that she had visited before, a state with which she had long communed.",
+      "source": "https://www.nplusonemag.com/online-only/online-only/suddenly-weightless/"
+    },
+    {
+      "slug": "christien-tompkins-in-conversation-with-robin-d-g-kelley-2025-08-22",
+      "title": "Christien Tompkins in conversation with Robin D. G. Kelley",
+      "date": "2025-08-22",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Tompkins-event.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/christien-tompkins-in-conversation-with-robin-d-g-kelley-2025-08-22/",
+      "excerpt": "On Monday, September 8, join n+1 for a discussion of Rutgers anthropology professor Christien Tompkins ’s book A Burdensome Experiment: Race, Labor, and Schools in New Orleans after Katrina . Tompkins will be in conversation with UCLA history professor",
+      "source": "https://www.nplusonemag.com/online-only/events/christien-tompkins-in-conversation-with-robin-d-g-kelley/"
+    },
+    {
+      "slug": "alyssa-battistoni-in-conversation-2025-08-22",
+      "title": "Alyssa Battistoni in conversation",
+      "date": "2025-08-22",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Battistoni-event-2.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/alyssa-battistoni-in-conversation-2025-08-22/",
+      "excerpt": "On Thursday, September 4, join n+1 for a conversation with contributor Alyssa Battistoni about her new book, Free Gifts: Capitalism and the Politics of Nature , out now from Princeton University Press. Battistoni will discuss the book—which Daniel Denvir calls “a remarkable, i…",
+      "source": "https://www.nplusonemag.com/online-only/events/alyssa-battistoni-in-conversation/"
     }
   ],
-  "count": 16,
+  "count": 20,
   "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 16,
+    "total_items": 20,
     "per_page": 12,
     "total_pages": 2
   }
