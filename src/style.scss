@@ -4132,3 +4132,174 @@ blockquote {
 .mfp-bg {
   z-index: 2001;
 }
+.archive {
+  $primary: color($colors, primary);
+  $secondary: color($colors, secondary);
+  $ink: color($colors, dark);
+
+  padding: 60px 0 80px;
+  background-color: #f6f6f6;
+  font-family: 'Lato', sans-serif;
+
+  &__header {
+    text-align: center;
+    margin: 0 auto 50px;
+    max-width: 720px;
+  }
+
+  &__title {
+    font-size: 46px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba($ink, .68);
+    margin: 0;
+  }
+
+  &__content {
+    display: grid;
+    gap: 40px;
+  }
+
+  &__section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 25px 60px rgba($ink, .08);
+    display: grid;
+    gap: 32px;
+  }
+
+  &__section-header {
+    border-left: 6px solid color($colors, primary);
+    padding-left: 24px;
+  }
+
+  &__section-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0 0 10px;
+  }
+
+  &__section-summary {
+    margin: 0;
+    font-size: 18px;
+    color: rgba($ink, .65);
+    line-height: 1.6;
+  }
+
+  &__group {
+    background: linear-gradient(135deg, rgba($primary, .08), rgba($secondary, .05));
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid rgba($primary, .12);
+    display: grid;
+    gap: 20px;
+  }
+
+  &__group-header {
+    display: grid;
+    gap: 8px;
+  }
+
+  &__group-title {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &__group-summary {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba($ink, .68);
+  }
+
+  &__months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__month {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__month-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background-color: $primary;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 12px 30px rgba($primary, .25);
+
+    &:hover,
+    &:focus {
+      background-color: $secondary;
+      color: #fff;
+    }
+  }
+
+  &__month-meta {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba($ink, .55);
+  }
+
+  &__empty {
+    text-align: center;
+    color: rgba($ink, .6);
+    font-size: 18px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 40px 0 60px;
+
+    &__section {
+      padding: 28px;
+    }
+
+    &__title {
+      font-size: 38px;
+      letter-spacing: 2px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    &__content {
+      gap: 56px;
+    }
+
+    &__section {
+      padding: 50px 60px;
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    &__group {
+      padding: 36px 40px;
+    }
+
+    &__months {
+      gap: 16px;
+    }
+  }
+}
+

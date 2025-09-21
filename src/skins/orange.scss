@@ -602,4 +602,25 @@ $colors: (
       }
     }
   }
+
+  .archive {
+    &__section-header {
+      border-left-color: color($colors, primary);
+    }
+
+    &__group {
+      background: linear-gradient(135deg, rgba(color($colors, primary), .08), rgba(color($colors, secondary), .05));
+      border-color: rgba(color($colors, primary), .12);
+    }
+
+    &__month-link {
+      background-color: color($colors, primary);
+      box-shadow: 0 12px 30px rgba(color($colors, primary), .25);
+
+      &:hover,
+      &:focus {
+        background-color: color($colors, secondary);
+      }
+    }
+  }
 }
