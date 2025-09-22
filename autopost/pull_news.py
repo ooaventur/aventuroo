@@ -23,7 +23,7 @@ Env knobs (optional):
 """
 
 import os, re, json, hashlib, datetime, pathlib, urllib.request, urllib.error, socket, sys, math
-from typing import Optional
+from typing import Any, Optional
 from html import unescape, escape
 from html.parser import HTMLParser
 from email.utils import parsedate_to_datetime
@@ -1131,6 +1131,102 @@ def _update_hot_shards(
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def _legacy_index_path(base_dir: pathlib.Path | None = None) -> pathlib.Path:
+    base = base_dir if base_dir is not None else DATA_DIR
+    return base / "legacy" / "index.json"
+
+
+def _derive_year_month(value: str) -> tuple[int | None, int | None]:
+    normalized = _normalize_date_string(str(value)) if value else ""
+    if not normalized:
+        return None, None
+    parts = normalized.split("-")
+    if len(parts) < 2:
+        return None, None
+    try:
+        year = int(parts[0])
+        month = int(parts[1])
+    except ValueError:
+        return None, None
+    return year, month
+
+
+def _build_legacy_lookup_entry(entry: dict) -> tuple[str, dict] | None:
+    if not isinstance(entry, dict):
+        return None
+
+    slug_value = (entry.get("slug") or "").strip()
+    if not slug_value:
+        return None
+
+    parent_slug, child_slug = _determine_bucket_slugs(entry)
+    parent_slug = slugify_taxonomy(parent_slug) or HOT_DEFAULT_PARENT_SLUG
+    child_slug = slugify_taxonomy(child_slug) or HOT_DEFAULT_CHILD_SLUG
+
+    date_value = (
+        entry.get("date")
+        or entry.get("published_at")
+        or entry.get("updated")
+        or entry.get("updated_at")
+        or entry.get("created_at")
+        or ""
+    )
+    year, month = _derive_year_month(str(date_value))
+
+    archive_path = ""
+    if year is not None and month is not None:
+        archive_path = f"{parent_slug}/{child_slug}/{year:04d}/{month:02d}/index.json"
+
+    record: dict[str, Any] = {
+        "slug": slug_value,
+        "title": entry.get("title") or "",
+        "excerpt": entry.get("excerpt") or "",
+        "cover": entry.get("cover") or "",
+        "category": entry.get("category") or "",
+        "subcategory": entry.get("subcategory") or "",
+        "category_slug": entry.get("category_slug") or "",
+        "date": _normalize_date_string(str(entry.get("date") or "")) or (entry.get("date") or ""),
+        "canonical": entry.get("canonical") or "",
+        "source": entry.get("source") or "",
+        "source_name": entry.get("source_name") or "",
+        "source_domain": entry.get("source_domain") or "",
+        "author": entry.get("author") or "",
+        "rights": entry.get("rights") or "",
+        "parent": parent_slug,
+        "child": child_slug,
+    }
+
+    if archive_path:
+        record["archive_path"] = archive_path
+    if year is not None:
+        record["year"] = year
+    if month is not None:
+        record["month"] = month
+
+    trimmed = {key: value for key, value in record.items() if value not in ("", None)}
+    for required_key in ("parent", "child", "slug"):
+        trimmed[required_key] = record[required_key]
+
+    return slug_value, trimmed
+
+
+def _build_legacy_lookup(entries: list[dict]) -> dict[str, Any]:
+    lookup: dict[str, dict] = {}
+    for entry in entries:
+        built = _build_legacy_lookup_entry(entry)
+        if not built:
+            continue
+        slug_value, record = built
+        lookup[slug_value] = record
+
+    ordered = {slug: lookup[slug] for slug in sorted(lookup)}
+    return {
+        "generated_at": today_iso(),
+        "count": len(ordered),
+        "items": ordered,
+    }
+
+
 def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> str:
     base = ARCHIVE_BASE_URL.rstrip("/")
     if not base:
@@ -1628,6 +1724,18 @@ def _run_autopost() -> list[dict]:
     except Exception as exc:
         print("Failed to write posts index:", exc)
         _record_health_error(f"Failed to write posts index: {exc}")
+
+    try:
+        legacy_payload = _build_legacy_lookup(posts_idx)
+        legacy_index_path = _legacy_index_path()
+        legacy_index_path.parent.mkdir(parents=True, exist_ok=True)
+        legacy_index_path.write_text(
+            json.dumps(legacy_payload, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        print("Failed to write legacy lookup:", exc)
+        _record_health_error(f"Failed to write legacy lookup: {exc}")
 
     print("New posts this run:", len(new_entries))
     return new_entries
