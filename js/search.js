@@ -19,11 +19,11 @@
   var MONTH_CACHE = Object.create(null);
   var ARCHIVE_SUMMARY_PROMISE = null;
 
-  function fetchSequential(urls) {
+  function fetchSequential(urls, options) {
     if (!window.AventurOODataLoader || typeof window.AventurOODataLoader.fetchSequential !== 'function') {
       return Promise.reject(new Error('Data loader is not available'));
     }
-    return window.AventurOODataLoader.fetchSequential(urls);
+    return window.AventurOODataLoader.fetchSequential(urls, options);
   }
 
   function slugify(value) {

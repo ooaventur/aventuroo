@@ -20,11 +20,11 @@
   var HOT_SHARD_ROOT = '/data/hot';
   var DEFAULT_SCOPE = { parent: 'index', child: 'index' };
 
-  function fetchSequential(urls) {
+  function fetchSequential(urls, options) {
     if (!window.AventurOODataLoader || typeof window.AventurOODataLoader.fetchSequential !== 'function') {
       return Promise.reject(new Error('Data loader is not available'));
     }
-    return window.AventurOODataLoader.fetchSequential(urls);
+    return window.AventurOODataLoader.fetchSequential(urls, options);
   }
 
   function loadJson(urls) {
