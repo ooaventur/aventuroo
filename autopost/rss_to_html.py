@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# RSS → data/posts.json (AventurOO)
-# - përdor trafilatura për të nxjerrë trupin real të artikullit (jo nav/footer/skripte)
-# - heq çdo "code/script" nga teksti; filtron paragrafët e shkurtër/jo-kuptimplotë
-# - shkruan: title, category, date, author, cover, source, excerpt (~450 fjalë), content (tekst i pastër me \n\n)
+"""RSS → ``data/posts.json`` autoposter for AventurOO.
+
+The script reads feed specifications from the ``FEEDS_FILE`` environment
+variable when provided, otherwise it falls back to the repository default
+``autopost/feeds_news.txt``. Each line should follow ``Category|URL`` format
+and the resolved file must exist before running the job.
+
+- përdor trafilatura për të nxjerrë trupin real të artikullit (jo nav/footer/skripte)
+- heq çdo "code/script" nga teksti; filtron paragrafët e shkurtër/jo-kuptimplotë
+- shkruan: title, category, date, author, cover, source, excerpt (~450 fjalë), content (tekst i pastër me \n\n)
+"""
 
 import datetime
 import os, re, json, hashlib, pathlib, sys
@@ -32,7 +39,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
 SEEN_DB = ROOT / "autopost" / SEEN_DB_FILENAME
-FEEDS = ROOT / "autopost" / "data" / "feeds.txt"
+FEEDS = pathlib.Path(
+    os.getenv("FEEDS_FILE") or (ROOT / "autopost" / "feeds_news.txt")
+)
 
 # ---- Env / Defaults ----
 MAX_PER_CAT = int(os.getenv("MAX_PER_CAT", "6"))
@@ -247,7 +256,7 @@ def main():
         if isinstance(p, dict) and p.get("slug")
     }
     if not FEEDS.exists():
-        print("ERROR: feeds.txt not found:", FEEDS)
+        print("ERROR: feeds file not found:", FEEDS)
         return
 
     added_total = 0
