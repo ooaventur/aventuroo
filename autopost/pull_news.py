@@ -853,6 +853,7 @@ def _normalize_post_entry(entry):
         return None
 
     normalized = dict(entry)
+    source_name_value = normalized.get("source_name")
 
     category = (normalized.get("category") or "").strip()
     subcategory = (normalized.get("subcategory") or "").strip()
@@ -902,6 +903,13 @@ def _normalize_post_entry(entry):
         normalized["category_slug"] = category_slug
     else:
         normalized.pop("category_slug", None)
+
+    if isinstance(source_name_value, str):
+        normalized["source_name"] = source_name_value.strip()
+    elif source_name_value is None:
+        normalized.pop("source_name", None)
+    elif "source_name" in normalized:
+        normalized["source_name"] = str(source_name_value)
 
     return normalized
 
@@ -1009,6 +1017,231 @@ def parse_item_date(it_elem) -> str:
             return normalized
 
     return today_iso()
+
+
+_COMMON_COUNTRY_TLDS = {
+    "ar",
+    "au",
+    "br",
+    "ca",
+    "ch",
+    "cn",
+    "de",
+    "es",
+    "fr",
+    "hk",
+    "ie",
+    "in",
+    "it",
+    "jp",
+    "kr",
+    "mx",
+    "nl",
+    "nz",
+    "pt",
+    "ru",
+    "sg",
+    "tr",
+    "uk",
+    "us",
+}
+
+_COMMON_SECOND_LEVEL_TLDS = {
+    "ac",
+    "co",
+    "com",
+    "edu",
+    "go",
+    "gov",
+    "ne",
+    "net",
+    "or",
+    "org",
+}
+
+
+def _humanize_hostname_fragment(fragment: str) -> str:
+    fragment = re.sub(r"[_\-]+", " ", fragment or "")
+    fragment = re.sub(r"\s+", " ", fragment).strip()
+    if not fragment:
+        return ""
+
+    words = []
+    for piece in fragment.split(" "):
+        if not piece:
+            continue
+        if piece.isalpha() and len(piece) <= 3:
+            words.append(piece.upper())
+        else:
+            words.append(piece.capitalize())
+    return " ".join(words)
+
+
+_URLISH_PATTERN = re.compile(r"^[a-z][a-z0-9+.-]*://", re.IGNORECASE)
+_DOMAINISH_PATTERN = re.compile(
+    r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$",
+    re.IGNORECASE,
+)
+
+
+def _format_domain_as_publisher(link: str) -> str:
+    parsed = urlparse(link or "")
+    host = (parsed.hostname or "").strip().lower()
+    if not host and link:
+        stripped = link.strip()
+        if stripped and " " not in stripped and "://" not in stripped:
+            parsed = urlparse(f"//{stripped}", scheme="http")
+            host = (parsed.hostname or "").strip().lower()
+    if not host:
+        return ""
+
+    if host.startswith("www."):
+        host = host[4:]
+    host = host.strip(".")
+    if not host:
+        return ""
+
+    parts = [part for part in host.split(".") if part]
+    if not parts:
+        return ""
+
+    if len(parts) >= 3 and parts[-1] in _COMMON_COUNTRY_TLDS and parts[-2] in _COMMON_SECOND_LEVEL_TLDS:
+        base_parts = parts[:-2]
+    elif len(parts) >= 2:
+        base_parts = parts[:-1]
+    else:
+        base_parts = parts
+
+    if not base_parts:
+        base_parts = [parts[0]]
+
+    candidate = ""
+    for fragment in reversed(base_parts):
+        if fragment in _COMMON_SECOND_LEVEL_TLDS:
+            continue
+        candidate = fragment
+        break
+    if not candidate:
+        candidate = base_parts[-1]
+
+    humanized = _humanize_hostname_fragment(candidate)
+    if humanized:
+        return humanized
+
+    fallback = re.sub(r"[_\-]+", " ", host)
+    fallback = re.sub(r"\s+", " ", fallback).strip()
+    if not fallback:
+        return ""
+
+    pieces = [_humanize_hostname_fragment(part) for part in fallback.split(" ") if part]
+    return " ".join(piece for piece in pieces if piece)
+
+
+def _element_text_value(element) -> str:
+    if element is None:
+        return ""
+    parts = []
+    try:
+        for part in element.itertext():
+            chunk = (part or "").strip()
+            if chunk:
+                parts.append(chunk)
+    except Exception:
+        return ""
+    return " ".join(parts).strip()
+
+
+def _clean_publisher_candidate(value: str) -> tuple[str, bool]:
+    candidate = strip_text(value or "").strip()
+    if not candidate:
+        return "", False
+
+    lowered = candidate.lower()
+    if _URLISH_PATTERN.match(candidate):
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    if "/" not in candidate and " " not in candidate and _DOMAINISH_PATTERN.match(lowered):
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    if " " not in candidate and "@" not in candidate and candidate.count(".") >= 1:
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    return candidate, False
+
+
+def _derive_source_name(it_elem, *, link: str = "") -> str:
+    candidates: list[str] = []
+
+    if it_elem is not None:
+        try:
+            source_el = it_elem.find("source")
+        except Exception:
+            source_el = None
+
+        if source_el is not None:
+            text_value = _element_text_value(source_el)
+            if text_value:
+                candidates.append(text_value)
+            else:
+                for attr in ("title", "label", "name"):
+                    raw_attr = source_el.attrib.get(attr) if hasattr(source_el, "attrib") else None
+                    if raw_attr and raw_attr.strip():
+                        candidates.append(raw_attr.strip())
+                        break
+                if hasattr(source_el, "attrib"):
+                    for attr in ("url", "href"):
+                        raw_url = source_el.attrib.get(attr)
+                        if raw_url and raw_url.strip():
+                            formatted = _format_domain_as_publisher(raw_url)
+                            if formatted:
+                                candidates.append(formatted)
+                            break
+
+        try:
+            ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
+            publisher_text = it_elem.findtext("dc:publisher", default="", namespaces=ns_dc)
+            if publisher_text and publisher_text.strip():
+                candidates.append(publisher_text.strip())
+        except Exception:
+            pass
+
+        try:
+            ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
+            atom_source_title = it_elem.findtext("atom:source/atom:title", default="", namespaces=ns_atom)
+            if atom_source_title and atom_source_title.strip():
+                candidates.append(atom_source_title.strip())
+        except Exception:
+            pass
+
+    preferred: list[str] = []
+    domainish: list[str] = []
+    for candidate in candidates:
+        cleaned, is_domainish = _clean_publisher_candidate(str(candidate))
+        if not cleaned:
+            continue
+        if is_domainish:
+            if cleaned not in domainish:
+                domainish.append(cleaned)
+        else:
+            if cleaned not in preferred:
+                preferred.append(cleaned)
+
+    if preferred:
+        return preferred[0]
+    if domainish:
+        return domainish[0]
+
+    domain_label = _format_domain_as_publisher(link)
+    if domain_label:
+        return domain_label
+
+    return ""
 
 
 def _entry_sort_key(entry) -> str:
@@ -1703,6 +1936,8 @@ def _run_autopost() -> list[dict]:
             except Exception:
                 pass
 
+            publisher_name = _derive_source_name(it_elem, link=link)
+
             # 8) Build entry
             slug_base = slugify(f"{title}-{date}")
             entry = {
@@ -1716,7 +1951,7 @@ def _run_autopost() -> list[dict]:
                 "cover": cover,
                 "source": link,
                 "source_domain": (urlparse(link).hostname or "").lower().replace("www.", ""),
-                "source_name": category_label,
+                "source_name": publisher_name or category_label,
                 "author": author,
                 "rights": rights,
                 "body": body_html,
