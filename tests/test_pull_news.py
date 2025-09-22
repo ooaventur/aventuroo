@@ -70,6 +70,10 @@ class FeedUrlParsingTests(unittest.TestCase):
                     pull_news.main()
 
                 self.assertEqual(fetched_urls, ["https://example.com/feed/"])
+                legacy_index = tmp_path / "legacy" / "index.json"
+                self.assertTrue(legacy_index.exists())
+                payload = json.loads(legacy_index.read_text(encoding="utf-8"))
+                self.assertIsInstance(payload.get("items"), (dict, type(None)))
         finally:
             pull_news.FEEDS = original_feeds
             pull_news.POSTS_JSON = original_posts_json
@@ -126,6 +130,10 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
 
                 self.assertEqual(len(new_entries), 1)
                 self.assertEqual(new_entries[0]["category"], "Crypto")
+                legacy_index = tmp_path / "legacy" / "index.json"
+                self.assertTrue(legacy_index.exists())
+                lookup = json.loads(legacy_index.read_text(encoding="utf-8"))
+                self.assertIn(new_entries[0]["slug"], lookup.get("items", {}))
         finally:
             pull_news.FEEDS = original_feeds
             pull_news.POSTS_JSON = original_posts_json
@@ -176,6 +184,10 @@ class MaxPerFeedLimitTests(unittest.TestCase):
 
                 data = json.loads(pull_news.POSTS_JSON.read_text(encoding="utf-8"))
                 self.assertEqual(len(data), 2)
+                legacy_index = tmp_path / "legacy" / "index.json"
+                self.assertTrue(legacy_index.exists())
+                lookup = json.loads(legacy_index.read_text(encoding="utf-8"))
+                self.assertEqual(len(lookup.get("items", {})), 2)
 
                 hot_path = tmp_path / "hot" / "test" / "sub" / "index.json"
                 self.assertTrue(hot_path.exists())
