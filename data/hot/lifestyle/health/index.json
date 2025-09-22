@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21",
+      "title": "Scientists reveal the everyday habits that may shield you from dementia",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/coffee-couple-walking-dog.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21/",
+      "excerpt": "An estimated 7.2 million Americans over age 65 currently live with Alzheimer's disease (AD). That number is expected to nearly double to 13.8 million by 2060. These increases reflect more than demographic shifts; they point to a growing public health crisis that requires a new…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250920214459.htm"
+    },
+    {
       "slug": "your-pancreas-may-be-making-its-own-version-of-ozempic-2025-09-21",
       "title": "Your pancreas may be making its own version of Ozempic",
       "date": "2025-09-21",
@@ -26,15 +35,6 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/simple-therapies-outperform-drugs-for-knee-arthritis-pain-relief-2025-09-21/",
       "excerpt": "Knee braces, water therapy and exercise are the most promising non-drug therapies for treating knee osteoarthritis, according to a new meta-analysis publishing June 18, 2025 in the open-access journal PLOS One by Yuan Luo of the First People's Hospital of Neijiang, China.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250919085252.htm"
-    },
-    {
-      "slug": "scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21",
-      "title": "Scientists reveal the everyday habits that may shield you from dementia",
-      "date": "2025-09-21",
-      "cover": "https://www.sciencedaily.com/images/1920/coffee-couple-walking-dog.webp",
-      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21/",
-      "excerpt": "An estimated 7.2 million Americans over age 65 currently live with Alzheimer's disease (AD). That number is expected to nearly double to 13.8 million by 2060. These increases reflect more than demographic shifts; they point to a growing public health crisis that requires a new…",
-      "source": "https://www.sciencedaily.com/releases/2025/09/250920214459.htm"
     },
     {
       "slug": "new-breath-sensor-detects-diabetes-quickly-and-easily-2025-09-21",
@@ -317,7 +317,7 @@
     }
   ],
   "count": 35,
-  "updated_at": "2025-09-21",
+  "updated_at": "2025-09-22",
   "pagination": {
     "total_items": 35,
     "per_page": 12,
