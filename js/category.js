@@ -53,11 +53,63 @@
       .replace(/[_\W]+/g, '-')       // gjithçka jo-alfanumerike ose _ -> -
       .replace(/^-+|-+$/g, '');
   }
+  function resolveCanonicalCategoryFallback(post) {
+    if (!post || !post.canonical) {
+      return null;
+    }
+
+    var canonical = String(post.canonical).trim();
+    if (!canonical) {
+      return null;
+    }
+
+    var pathPortion = canonical;
+    var schemeIndex = pathPortion.indexOf('://');
+    if (schemeIndex !== -1) {
+      pathPortion = pathPortion.slice(schemeIndex + 3);
+      var hostSlashIndex = pathPortion.indexOf('/');
+      pathPortion = hostSlashIndex !== -1 ? pathPortion.slice(hostSlashIndex) : '';
+    }
+
+    if (pathPortion.charAt(0) !== '/') {
+      var manualSlashIndex = pathPortion.indexOf('/');
+      pathPortion = manualSlashIndex !== -1 ? pathPortion.slice(manualSlashIndex) : '';
+    }
+
+    var normalizedPath = pathPortion.split(/[?#]/)[0] || '';
+    normalizedPath = normalizedPath.replace(/^\/+|\/+$/g, '');
+    if (!normalizedPath) {
+      return null;
+    }
+
+    var segments = normalizedPath.split('/').filter(function (segment) { return segment; });
+    if (!segments.length) {
+      return null;
+    }
+
+    var parentRaw = segments[0];
+    var childRaw = segments.length > 1 ? segments[1] : '';
+    var parentSlug = slugify(parentRaw);
+    var childSlug = childRaw ? slugify(childRaw) : '';
+
+    if (!parentSlug && !childSlug) {
+      return null;
+    }
+
+    return {
+      parent: parentSlug,
+      child: childSlug,
+      rawParent: parentRaw,
+      rawChild: childRaw
+    };
+  }
+
   function resolvePostCategorySlugs(post) {
     if (!post) return [];
 
     var slugs = [];
     var seen = Object.create(null);
+    var hasCategoryData = false;
 
 
 
@@ -83,6 +135,7 @@
 
     var rawSlug = post.category_slug;
     if (rawSlug != null && String(rawSlug).trim()) {
+      hasCategoryData = true;
       appendSlug(rawSlug);
 
       var rawSegments = String(rawSlug).split('/');
@@ -93,7 +146,10 @@
     }
 
     var subcategory = post.subcategory;
-    appendSlug(subcategory);
+    if (subcategory != null && String(subcategory).trim()) {
+      hasCategoryData = true;
+      appendSlug(subcategory);
+    }
 
     if (subcategory != null && String(subcategory).indexOf('/') !== -1) {
       var subSegments = String(subcategory).split('/');
@@ -102,11 +158,22 @@
     }
 
     var category = post.category;
-    appendSlug(category);
+    if (category != null && String(category).trim()) {
+      hasCategoryData = true;
+      appendSlug(category);
+    }
     if (category != null && String(category).indexOf('/') !== -1) {
       var categorySegments = String(category).split('/');
       var lastCategorySegment = categorySegments[categorySegments.length - 1];
       appendSlug(lastCategorySegment);
+    }
+
+    if (!hasCategoryData) {
+      var canonicalFallback = resolveCanonicalCategoryFallback(post);
+      if (canonicalFallback) {
+        appendSlug(canonicalFallback.child);
+        appendSlug(canonicalFallback.parent);
+      }
     }
 
     return slugs;
@@ -171,6 +238,19 @@
         label: formattedCategory,
         priority: LABEL_PRIORITY_CATEGORY
       };
+    }
+
+    var canonicalFallback = resolveCanonicalCategoryFallback(post);
+    if (canonicalFallback) {
+      var fallbackSlug = canonicalFallback.child || canonicalFallback.parent;
+      if (fallbackSlug) {
+        var rawLabel = canonicalFallback.child ? canonicalFallback.rawChild : canonicalFallback.rawParent;
+        var formattedFallback = resolveCategoryLabelFromSlug(fallbackSlug, rawLabel);
+        return {
+          label: formattedFallback,
+          priority: LABEL_PRIORITY_FALLBACK
+        };
+      }
     }
 
     return { label: '', priority: LABEL_PRIORITY_FALLBACK };
@@ -614,6 +694,11 @@
       var normalized = slugify(post.category);
       if (normalized) return normalized;
     }
+
+    var canonicalFallback = resolveCanonicalCategoryFallback(post);
+    if (canonicalFallback && canonicalFallback.parent) {
+      return canonicalFallback.parent;
+    }
     return '';
   }
 
@@ -630,6 +715,11 @@
     if (post.subcategory) {
       var normalized = slugify(post.subcategory);
       if (normalized) return normalized;
+    }
+
+    var canonicalFallback = resolveCanonicalCategoryFallback(post);
+    if (canonicalFallback && canonicalFallback.child) {
+      return canonicalFallback.child;
     }
     return '';
   }
