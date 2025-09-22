@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series-2025-09-21",
+      "title": "Accsoon Brings Major Updates to SEE App, CineView Master 4K, and CineView M7 Series",
+      "date": "2025-09-21",
+      "cover": "https://www.cined.com/content/uploads/2025/09/Accsoon_CineView-Master-4K_1920x1080.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series-2025-09-21/",
+      "excerpt": "Podcast: IBC highlights: Show coverage & CineD awards & DJI Mini 5 Pro – Focus Check Episode 82 - TUNE IN now!",
+      "source": "https://www.cined.com/accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series/"
+    },
+    {
       "slug": "what-does-the-line-forget-it-jake-it-s-chinatown-actually-mean-2025-09-21",
       "title": "What Does the Line “Forget it, Jake. It’s Chinatown.\" Actually Mean?",
       "date": "2025-09-21",
@@ -17,15 +26,6 @@
       "canonical": "https://archive.aventuroo.com/entertainment/cinematography/the-opening-montage-that-made-up-an-instant-classic-2025-09-21/",
       "excerpt": "How Pixar condensed love, loss, and life into ten bold and flawless minutes of storytelling.",
       "source": "https://nofilmschool.com/up-opening-scene-montage"
-    },
-    {
-      "slug": "accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series-2025-09-21",
-      "title": "Accsoon Brings Major Updates to SEE App, CineView Master 4K, and CineView M7 Series",
-      "date": "2025-09-21",
-      "cover": "https://www.cined.com/content/uploads/2025/09/Accsoon_CineView-Master-4K_1920x1080.jpg",
-      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series-2025-09-21/",
-      "excerpt": "Podcast: IBC highlights: Show coverage & CineD awards & DJI Mini 5 Pro – Focus Check Episode 82 - TUNE IN now!",
-      "source": "https://www.cined.com/accsoon-brings-major-updates-to-see-app-cineview-master-4k-and-cineview-m7-series/"
     },
     {
       "slug": "15-political-thrillers-that-stand-the-test-of-time-2025-09-21",
@@ -758,7 +758,7 @@
     }
   ],
   "count": 84,
-  "updated_at": "2025-09-21",
+  "updated_at": "2025-09-22",
   "pagination": {
     "total_items": 84,
     "per_page": 12,

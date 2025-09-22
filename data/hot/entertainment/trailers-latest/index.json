@@ -10,15 +10,6 @@
       "source": "https://www.joblo.com/poll-whats-the-best-batman-movie/"
     },
     {
-      "slug": "dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21",
-      "title": "Dick Tracy: Warren Beatty reprised the role in two weird TCM specials you probably never saw",
-      "date": "2025-09-21",
-      "cover": "https://www.youtube.com/embed/PdFbiRK-UaY",
-      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21/",
-      "excerpt": "Dick Tracy is an iconic film for a generation of us here at JoBlo. Being born in ’81 (I know—I’m old now), I vividly remember what an event it was in the summer of 1990. Many of us saw it as the movie that would carry the torch for Batman , which had come out the year before a…",
-      "source": "https://www.joblo.com/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw/"
-    },
-    {
       "slug": "black-phone-2-first-reactions-is-blumhouse-sequel-great-or-phoning-it-in-2025-09-21",
       "title": "Black Phone 2 first reactions: Is Blumhouse sequel great or phoning it in?",
       "date": "2025-09-21",
@@ -26,6 +17,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/black-phone-2-first-reactions-is-blumhouse-sequel-great-or-phoning-it-in-2025-09-21/",
       "excerpt": "2021’s The Black Phone was a massive hit for Blumhouse, taking in $90 million domestically and another $71 million in the foreign market based on a budget of no more than $18 million. With that, it’s really no surprise they greenlit a sequel . So how is Black Phone 2 faring up…",
       "source": "https://www.joblo.com/black-phone-2-first-reaactions/"
+    },
+    {
+      "slug": "dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21",
+      "title": "Dick Tracy: Warren Beatty reprised the role in two weird TCM specials you probably never saw",
+      "date": "2025-09-21",
+      "cover": "https://www.youtube.com/embed/PdFbiRK-UaY",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw-2025-09-21/",
+      "excerpt": "Dick Tracy is an iconic film for a generation of us here at JoBlo. Being born in ’81 (I know—I’m old now), I vividly remember what an event it was in the summer of 1990. Many of us saw it as the movie that would carry the torch for Batman , which had come out the year before a…",
+      "source": "https://www.joblo.com/dick-tracy-warren-beatty-reprised-the-role-in-two-weird-tcm-specials-you-probably-never-saw/"
     },
     {
       "slug": "all-theatrical-batman-films-ranked-from-1966-to-2022-2025-09-21",
@@ -407,7 +407,7 @@
     }
   ],
   "count": 45,
-  "updated_at": "2025-09-21",
+  "updated_at": "2025-09-22",
   "pagination": {
     "total_items": 45,
     "per_page": 12,
