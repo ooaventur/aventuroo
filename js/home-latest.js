@@ -139,16 +139,24 @@
     return list;
   }
 
-  function buildShardUrls(parent, child) {
+  function normalizeScope(parent, child) {
     var normalizedParent = slugify(parent) || 'index';
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
+    return { parent: normalizedParent, child: normalizedChild };
+  }
+
+  function buildShardUrls(parent, child) {
+    var scope = normalizeScope(parent, child);
+    if (scope.parent === 'index' && scope.child === 'index') {
+      return [];
+    }
     var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
-    var basePath = prefix ? prefix + '/' + normalizedParent : normalizedParent;
-    var childIndexSegment = normalizedChild === 'index' ? 'index' : normalizedChild + '/index';
+    var basePath = prefix ? prefix + '/' + scope.parent : scope.parent;
+    var childIndexSegment = scope.child === 'index' ? 'index' : scope.child + '/index';
     var rawCandidates = [
       basePath + '/' + childIndexSegment + '.json',
-      basePath + '/' + normalizedChild + '.json'
+      basePath + '/' + scope.child + '.json'
     ];
     var urls = [];
     for (var i = 0; i < rawCandidates.length; i++) {
@@ -173,11 +181,15 @@
   }
 
   function fetchHotShard(parent, child) {
-    var scopeKey = (parent || 'index') + '::' + (child || 'index');
+    var scope = normalizeScope(parent, child);
+    if (scope.parent === 'index' && scope.child === 'index') {
+      return Promise.reject(new Error('Root hot shard is not available'));
+    }
+    var scopeKey = scope.parent + '::' + scope.child;
     if (HOT_POSTS_CACHE[scopeKey]) {
       return HOT_POSTS_CACHE[scopeKey];
     }
-    var candidates = buildShardUrls(parent, child);
+    var candidates = buildShardUrls(scope.parent, scope.child);
     HOT_POSTS_CACHE[scopeKey] = fetchSequential(candidates)
       .then(function (payload) {
         return dedupePosts(sortPosts(normalizePostsPayload(payload)));
