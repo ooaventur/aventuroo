@@ -6,7 +6,9 @@ $(function(){
         };
 
         var youtube_api_key = 'YOUR_API_KEY';
-        var HEADLINE_POSTS_SOURCES = basePath.resolveAll ? basePath.resolveAll(['data/posts.json', '/data/posts.json']) : ['data/posts.json', '/data/posts.json'];
+        var HEADLINE_POSTS_SOURCES = basePath.resolveAll
+                ? basePath.resolveAll(['data/headline.json', '/data/headline.json', 'data/posts.json', '/data/posts.json'])
+                : ['data/headline.json', '/data/headline.json', 'data/posts.json', '/data/posts.json'];
         var HEADLINE_MAX_ITEMS = 20;
 
         function fetchSequential(urls) {
