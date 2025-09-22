@@ -80,7 +80,8 @@ async function fetchFromOrigin(request, env) {
   };
 
   if (env.HEALTH_ORIGIN) {
-    init.headers.set("host", originUrl.hostname);
+    const hostHeader = originUrl.host || originUrl.hostname;
+    init.headers.set("host", hostHeader);
   }
 
   if (request.method !== "GET" && request.method !== "HEAD") {
