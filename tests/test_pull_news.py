@@ -150,6 +150,61 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
 
 
 class SourceNameDerivationTests(unittest.TestCase):
+    def test_derive_source_name_prefers_source_text(self):
+        item_element = ET.Element("item")
+        source_el = ET.SubElement(item_element, "source")
+        source_el.text = "The Example Times"
+
+        derived = pull_news._derive_source_name(
+            item_element, link="https://news.example.com/article"
+        )
+
+        self.assertEqual(derived, "The Example Times")
+
+    def test_derive_source_name_converts_source_url_to_name(self):
+        item_element = ET.Element("item")
+        source_el = ET.SubElement(item_element, "source")
+        source_el.text = "https://media.example.co.uk"
+
+        derived = pull_news._derive_source_name(
+            item_element, link="https://media.example.co.uk/story"
+        )
+
+        self.assertEqual(derived, "Example")
+
+    def test_derive_source_name_uses_dc_publisher(self):
+        item_element = ET.Element("item")
+        publisher_el = ET.SubElement(
+            item_element, "{http://purl.org/dc/elements/1.1/}publisher"
+        )
+        publisher_el.text = "Example Media Group"
+
+        derived = pull_news._derive_source_name(
+            item_element, link="https://example.com/story"
+        )
+
+        self.assertEqual(derived, "Example Media Group")
+
+    def test_derive_source_name_falls_back_to_domain(self):
+        item_element = ET.Element("item")
+
+        derived = pull_news._derive_source_name(
+            item_element, link="https://newsroom.bbc.co.uk/article"
+        )
+
+        self.assertEqual(derived, "BBC")
+
+    def test_source_metadata_with_bare_domain(self):
+        item_element = ET.Element("item")
+        source_el = ET.SubElement(item_element, "source")
+        source_el.text = "example.com"
+
+        derived = pull_news._derive_source_name(
+            item_element, link="https://example.com/story"
+        )
+
+        self.assertEqual(derived, "Example")
+
     def test_source_name_uses_domain_when_metadata_missing(self):
         item_element = ET.Element("item")
         items = [

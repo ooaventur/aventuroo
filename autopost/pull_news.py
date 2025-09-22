@@ -1077,9 +1077,21 @@ def _humanize_hostname_fragment(fragment: str) -> str:
     return " ".join(words)
 
 
+_URLISH_PATTERN = re.compile(r"^[a-z][a-z0-9+.-]*://", re.IGNORECASE)
+_DOMAINISH_PATTERN = re.compile(
+    r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)(?:\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)+$",
+    re.IGNORECASE,
+)
+
+
 def _format_domain_as_publisher(link: str) -> str:
     parsed = urlparse(link or "")
     host = (parsed.hostname or "").strip().lower()
+    if not host and link:
+        stripped = link.strip()
+        if stripped and " " not in stripped and "://" not in stripped:
+            parsed = urlparse(f"//{stripped}", scheme="http")
+            host = (parsed.hostname or "").strip().lower()
     if not host:
         return ""
 
@@ -1139,6 +1151,30 @@ def _element_text_value(element) -> str:
     return " ".join(parts).strip()
 
 
+def _clean_publisher_candidate(value: str) -> tuple[str, bool]:
+    candidate = strip_text(value or "").strip()
+    if not candidate:
+        return "", False
+
+    lowered = candidate.lower()
+    if _URLISH_PATTERN.match(candidate):
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    if "/" not in candidate and " " not in candidate and _DOMAINISH_PATTERN.match(lowered):
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    if " " not in candidate and "@" not in candidate and candidate.count(".") >= 1:
+        formatted = _format_domain_as_publisher(candidate)
+        if formatted:
+            return formatted, True
+
+    return candidate, False
+
+
 def _derive_source_name(it_elem, *, link: str = "") -> str:
     candidates: list[str] = []
 
@@ -1183,10 +1219,23 @@ def _derive_source_name(it_elem, *, link: str = "") -> str:
         except Exception:
             pass
 
+    preferred: list[str] = []
+    domainish: list[str] = []
     for candidate in candidates:
-        candidate_clean = strip_text(str(candidate))
-        if candidate_clean:
-            return candidate_clean
+        cleaned, is_domainish = _clean_publisher_candidate(str(candidate))
+        if not cleaned:
+            continue
+        if is_domainish:
+            if cleaned not in domainish:
+                domainish.append(cleaned)
+        else:
+            if cleaned not in preferred:
+                preferred.append(cleaned)
+
+    if preferred:
+        return preferred[0]
+    if domainish:
+        return domainish[0]
 
     domain_label = _format_domain_as_publisher(link)
     if domain_label:
