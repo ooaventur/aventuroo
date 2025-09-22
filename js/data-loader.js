@@ -2,6 +2,7 @@
   'use strict';
 
   var fetch = global.fetch;
+  var DEFAULT_FETCH_OPTIONS = { cache: 'default' };
 
   function applyBasePath(url) {
     if (!url) return '';
@@ -38,6 +39,14 @@
     return contentType.toLowerCase().indexOf('json') !== -1;
   }
 
+  function buildFetchSettings(overrides) {
+    var base = Object.assign({}, DEFAULT_FETCH_OPTIONS);
+    if (!overrides || typeof overrides !== 'object') {
+      return base;
+    }
+    return Object.assign(base, overrides);
+  }
+
   function fetchSequential(urls, options) {
     if (typeof fetch !== 'function') {
       return Promise.reject(new Error('Fetch API is not available'));
@@ -48,7 +57,7 @@
       return Promise.reject(new Error('No matching resource found'));
     }
 
-    var settings = Object.assign({ cache: 'default' }, options || {});
+    var settings = buildFetchSettings(options);
 
     return new Promise(function (resolve, reject) {
       var index = 0;
