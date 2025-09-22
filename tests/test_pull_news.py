@@ -4,6 +4,7 @@ import pathlib
 import tempfile
 import unittest
 from unittest import mock
+import xml.etree.ElementTree as ET
 
 from autopost import pull_news
 
@@ -145,6 +146,64 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
             pull_news.CATEGORY = original_category
+            pull_news.HEADLINE_JSON = original_headline_json
+
+
+class SourceNameDerivationTests(unittest.TestCase):
+    def test_source_name_uses_domain_when_metadata_missing(self):
+        item_element = ET.Element("item")
+        items = [
+            {
+                "title": "Interesting Story",
+                "link": "https://news.example.com/article",
+                "summary": "",
+                "element": item_element,
+            }
+        ]
+
+        original_feeds = pull_news.FEEDS
+        original_posts_json = pull_news.POSTS_JSON
+        original_seen_db = pull_news.SEEN_DB
+        original_data_dir = pull_news.DATA_DIR
+        original_headline_json = pull_news.HEADLINE_JSON
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                tmp_path = pathlib.Path(tmpdir)
+                feed_file = tmp_path / "feeds.txt"
+                feed_file.write_text("Test|Sub|https://example.com/feed\n", encoding="utf-8")
+
+                pull_news.FEEDS = feed_file
+                pull_news.DATA_DIR = tmp_path
+                pull_news.POSTS_JSON = tmp_path / "posts.json"
+                pull_news.SEEN_DB = tmp_path / "seen.json"
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
+
+                patchers = [
+                    mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
+                    mock.patch.object(pull_news, "parse_feed", return_value=items),
+                    mock.patch.object(pull_news, "extract_body_html", return_value=("<p>Body</p>", "")),
+                    mock.patch.object(pull_news, "pick_largest_media_url", return_value=""),
+                    mock.patch.object(pull_news, "find_cover_from_item", return_value=""),
+                    mock.patch.object(pull_news, "_update_hot_shards"),
+                ]
+
+                with contextlib.ExitStack() as stack:
+                    for patcher in patchers:
+                        stack.enter_context(patcher)
+                    new_entries = pull_news._run_autopost()
+
+                self.assertEqual(len(new_entries), 1)
+                self.assertEqual(new_entries[0]["source_name"], "Example")
+
+                posts_data = json.loads(pull_news.POSTS_JSON.read_text(encoding="utf-8"))
+                self.assertTrue(posts_data)
+                self.assertEqual(posts_data[0]["source_name"], "Example")
+        finally:
+            pull_news.FEEDS = original_feeds
+            pull_news.POSTS_JSON = original_posts_json
+            pull_news.SEEN_DB = original_seen_db
+            pull_news.DATA_DIR = original_data_dir
             pull_news.HEADLINE_JSON = original_headline_json
 
 
