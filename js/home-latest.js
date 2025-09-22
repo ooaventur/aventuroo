@@ -144,12 +144,32 @@
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
     var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
-    var path = prefix ? prefix + '/' + normalizedParent + '/' + normalizedChild + '.json' : normalizedParent + '/' + normalizedChild + '.json';
-    var relative = path.replace(/^\/+/, '');
-    return [
-      relative,
-      '/' + relative
+    var basePath = prefix ? prefix + '/' + normalizedParent : normalizedParent;
+    var childIndexSegment = normalizedChild === 'index' ? 'index' : normalizedChild + '/index';
+    var rawCandidates = [
+      basePath + '/' + childIndexSegment + '.json',
+      basePath + '/' + normalizedChild + '.json'
     ];
+    var urls = [];
+    for (var i = 0; i < rawCandidates.length; i++) {
+      var raw = rawCandidates[i];
+      if (!raw) continue;
+      var relative = raw.replace(/^\/+/, '');
+      if (!relative) continue;
+      urls.push(relative);
+      urls.push('/' + relative);
+    }
+    var seen = Object.create(null);
+    var deduped = [];
+    for (var j = 0; j < urls.length; j++) {
+      var candidate = urls[j];
+      if (typeof candidate !== 'string') continue;
+      var trimmed = candidate.trim();
+      if (!trimmed || seen[trimmed]) continue;
+      seen[trimmed] = true;
+      deduped.push(trimmed);
+    }
+    return deduped;
   }
 
   function fetchHotShard(parent, child) {
