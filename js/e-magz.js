@@ -554,11 +554,18 @@ window.initBestOfTheWeekCarousel = bestOfTheWeek;
 				complete: function() {
 				},
 				success: function(data) {
-					$this.find("[data-youtube-id]").each(function(i){
-						var $item = $(this);
-						$item.find(".duration").html(convert_time(data.items[i].contentDetails.duration));
-						$item.find("figure").removeClass("loading").append("<img src='"+data.items[i].snippet.thumbnails.medium.url+"'>");
-						$item.find(".title").removeClass("loading").html(data.items[i].snippet.title);
+                                        $this.find("[data-youtube-id]").each(function(i){
+                                                var $item = $(this);
+                                                var videoData = data && data.items && data.items[i];
+                                                var videoTitle = videoData && videoData.snippet && videoData.snippet.title;
+                                                if(videoTitle) {
+                                                        $item.attr('aria-label', 'Play video: ' + videoTitle);
+                                                }else if(!$item.attr('aria-label')) {
+                                                        $item.attr('aria-label', 'Play video');
+                                                }
+                                                $item.find(".duration").html(convert_time(data.items[i].contentDetails.duration));
+                                                $item.find("figure").removeClass("loading").append("<img src='"+data.items[i].snippet.thumbnails.medium.url+"'>");
+                                                $item.find(".title").removeClass("loading").html(data.items[i].snippet.title);
 						$item.find(".author").removeClass("loading").html(data.items[i].snippet.channelTitle);
 						if($item.data("action") == 'new_tab') {
 							$item.attr('href', 'https://youtube.com/watch?v=' + data.items[i].id).attr('target', '_blank');

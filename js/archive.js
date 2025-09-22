@@ -6,6 +6,7 @@
     resolve: function (value) { return value; }
   };
   var SUMMARY_SOURCES = ['/data/archive/summary.json', 'data/archive/summary.json'];
+  var DEFAULT_ARCHIVE_MONTH_TEXT = 'View archive month';
 
   function ready(fn) {
     if (document.readyState === 'loading') {
@@ -149,6 +150,8 @@
       element.className = 'archive__month';
       var linkFallback = document.createElement('a');
       linkFallback.className = 'archive__month-link';
+      linkFallback.textContent = DEFAULT_ARCHIVE_MONTH_TEXT;
+      linkFallback.setAttribute('aria-label', DEFAULT_ARCHIVE_MONTH_TEXT);
       element.appendChild(linkFallback);
       var metaFallback = document.createElement('span');
       metaFallback.className = 'archive__month-meta';
@@ -160,7 +163,14 @@
 
     if (linkEl) {
       var label = formatMonthLabel(monthInfo && monthInfo.year, monthInfo && monthInfo.month);
-      linkEl.textContent = label || '';
+      var fallbackLabel = (linkEl.textContent || '').trim() || DEFAULT_ARCHIVE_MONTH_TEXT;
+      var appliedLabel = label || fallbackLabel;
+      linkEl.textContent = appliedLabel;
+      if (label) {
+        linkEl.setAttribute('aria-label', 'View archive stories for ' + label);
+      } else {
+        linkEl.setAttribute('aria-label', appliedLabel);
+      }
       var href = buildArchiveUrl(parentKey, childKey, monthInfo && monthInfo.year, monthInfo && monthInfo.month);
       if (href) {
         linkEl.setAttribute('href', href);
