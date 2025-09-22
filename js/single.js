@@ -1053,7 +1053,7 @@
   function loadLegacyPost(slugValue) {
     var normalized = slugify(slugValue);
     if (!normalized) return Promise.resolve(null);
-    return fetchSequential(LEGACY_LOOKUP_SOURCES)
+    return fetchSequential(LEGACY_LOOKUP_SOURCES, { cache: 'no-store' })
       .then(function (payload) {
         var lookup = normalizeLegacyLookupPayload(payload);
         var entry = lookup[normalized];
