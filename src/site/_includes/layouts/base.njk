@@ -8,12 +8,17 @@
     <meta name="description" content="{{ metaDescription }}">
     <meta name="author" content="{{ author or 'AventurOO' }}">
     <meta name="keyword" content="AventurOO, news, top stories, politics, economy, business, finance, markets, startups, personal finance, crypto, bitcoin, altcoins, web3, regulation, guides, technology, tech, AI, artificial intelligence, big tech, cybersecurity, privacy, internet, platforms, gadgets, innovation, gaming, creator tools, entertainment, movies, film, TV, streaming, trailers, cinematography, lifestyle, health, beauty, style, home, design, inspiration, outdoor, food, drink, recipes, travel, trip ideas, destinations, tips, planning, hotels, experiences, transport, things to do, culture, arts, history, essays, shopping, deals, subscriptions, VPN, marketplaces, multi-merchant">
+    {% set canonicalHref = '' %}
+    {% set canonicalSource = canonicalUrl or page.url %}
+    {% if canonicalSource %}
+      {% set canonicalHref = canonicalSource | toAbsoluteUrl(site.url) %}
+      <link rel="canonical" href="{{ canonicalHref }}">
+    {% endif %}
     <!-- Shareable -->
     {% set pageTitle = title or 'AventurOO — Top News, Tech & AI, Travel & Deals' %}
     <meta property="og:title" content="{{ og_title or pageTitle }}" />
     <meta property="og:type" content="{{ og_type or 'article' }}" />
-    {% set canonicalUrl = og_url or 'https://aventuroo.com' %}
-    <meta property="og:url" content="{{ canonicalUrl }}" />
+    <meta property="og:url" content="{{ canonicalHref }}" />
     <meta property="og:image" content="{{ og_image or 'https://raw.githubusercontent.com/ooaventur/aventurootest/main/images/preview.png' }}" />
     <title>{{ pageTitle }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | url }}">
