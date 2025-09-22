@@ -70,6 +70,9 @@ DATE_FIELD_CANDIDATES = (
     "updatedAt",
 )
 
+HOT_GLOBAL_PARENT_SLUG = "index"
+HOT_GLOBAL_CHILD_SLUG = "index"
+
 
 @dataclasses.dataclass(slots=True)
 class ShardTemplate:
@@ -326,6 +329,10 @@ def _shard_parent_child(rel_parts: tuple[str, ...]) -> tuple[str, str]:
     return parent, child or "index"
 
 
+def _is_global_hot_shard(parent_slug: str, child_slug: str) -> bool:
+    return parent_slug == HOT_GLOBAL_PARENT_SLUG and child_slug == HOT_GLOBAL_CHILD_SLUG
+
+
 def _bucket_parent_child_year_month(rel_parts: tuple[str, ...]) -> tuple[str, str, int, int]:
     if len(rel_parts) < 4:
         return "index", "index", 1970, 1
@@ -473,7 +480,9 @@ def _generate_hot_metadata(
         items = _dedupe_items(items)
         items = _sort_items(items)
         count = len(items)
-        total_items += count
+        is_global = _is_global_hot_shard(parent, child)
+        if not is_global:
+            total_items += count
         dates = [_item_date(entry) for entry in items if _item_date(entry)]
         first_date = min(dates).isoformat() if dates else None
         last_date = max(dates) if dates else None
@@ -490,13 +499,15 @@ def _generate_hot_metadata(
                 "first_date": first_date,
                 "last_date": last_date.isoformat() if last_date else None,
                 "pages": _calc_pages(count, per_page),
+                "is_global": is_global,
             }
         )
 
-        parent_entry = parents[parent]
-        parent_entry["items"] += count
-        child_entry = parent_entry["children"].setdefault(child, {"items": 0})
-        child_entry["items"] += count
+        if not is_global:
+            parent_entry = parents[parent]
+            parent_entry["items"] += count
+            child_entry = parent_entry["children"].setdefault(child, {"items": 0})
+            child_entry["items"] += count
 
     shards.sort(key=lambda row: (row["parent"], row["child"]))
 

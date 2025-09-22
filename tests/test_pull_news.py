@@ -332,6 +332,21 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                     "total_pages": 1,
                 })
 
+                root_path = tmp_path / "hot" / "index" / "index.json"
+                self.assertTrue(root_path.exists())
+                root_payload = json.loads(root_path.read_text(encoding="utf-8"))
+                self.assertEqual(root_payload["count"], 2)
+                self.assertEqual(len(root_payload["items"]), 2)
+                self.assertEqual(
+                    sorted(item["slug"] for item in root_payload["items"]),
+                    sorted(item["slug"] for item in data[:2]),
+                )
+                self.assertEqual(root_payload["pagination"], {
+                    "total_items": 2,
+                    "per_page": 5,
+                    "total_pages": 1,
+                })
+
                 headline_path = tmp_path / "headline.json"
                 self.assertTrue(headline_path.exists())
                 headline_payload = json.loads(headline_path.read_text(encoding="utf-8"))

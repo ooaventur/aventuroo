@@ -95,6 +95,7 @@ IMPORTANT_FEED_CAP = 10
 HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
 HOT_DEFAULT_PARENT_SLUG = "general"
 HOT_DEFAULT_CHILD_SLUG = "index"
+HOT_GLOBAL_PARENT_SLUG = "index"
 HOT_MAX_ITEMS = _env_int("HOT_MAX_ITEMS", 240)
 HOT_PAGE_SIZE = _env_int("HOT_PAGINATION_SIZE", 12)
 HEADLINE_MAX_ITEMS = _env_int("HEADLINE_MAX_ITEMS", 20)
@@ -1341,6 +1342,11 @@ def _update_hot_shards(
         return
 
     buckets: dict[pathlib.Path, list[dict]] = defaultdict(list)
+    root_bucket_path = _hot_bucket_path(
+        base_dir, HOT_GLOBAL_PARENT_SLUG, HOT_DEFAULT_CHILD_SLUG
+    )
+    # Ensure the root bucket key exists even if no items are ultimately added to it.
+    _ = buckets[root_bucket_path]
 
     for entry in entries:
         parent_slug, child_slug = _determine_bucket_slugs(entry)
@@ -1349,6 +1355,8 @@ def _update_hot_shards(
             continue
         bucket_path = _hot_bucket_path(base_dir, parent_slug, child_slug)
         buckets[bucket_path].append(hot_entry)
+        if bucket_path != root_bucket_path:
+            buckets[root_bucket_path].append(hot_entry)
 
     for path, new_items in buckets.items():
         existing_items = _load_hot_entries(path)

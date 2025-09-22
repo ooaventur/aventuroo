@@ -87,6 +87,41 @@ class RotateHotToArchiveTests(unittest.TestCase):
             months = news_summary["children"][0]["months"]
             self.assertEqual([(m["year"], m["month"]) for m in months], [(2024, 4), (2024, 3)])
 
+    def test_hot_manifest_excludes_global_root_from_totals(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = pathlib.Path(tmpdir)
+            hot_dir = root / "data" / "hot"
+            archive_dir = root / "data" / "archive"
+
+            shared_items = [
+                {"slug": "a", "date": "2024-05-09", "title": "A"},
+                {"slug": "b", "date": "2024-05-08", "title": "B"},
+            ]
+
+            self._write_hot_shard(hot_dir, "index", shared_items)
+            self._write_hot_shard(hot_dir, "news", shared_items)
+
+            rotate_hot_to_archive.rotate(
+                hot_dir=hot_dir,
+                archive_dir=archive_dir,
+                retention_days=30,
+                per_page=12,
+                current_date=datetime.date(2024, 5, 10),
+            )
+
+            manifest = self._read_json(hot_dir / "manifest.json")
+            self.assertEqual(manifest["total_items"], 2)
+            global_entry = next(entry for entry in manifest["shards"] if entry["parent"] == "index")
+            self.assertTrue(global_entry["is_global"])
+            self.assertEqual(global_entry["items"], 2)
+            news_entry = next(entry for entry in manifest["shards"] if entry["slug"] == "news")
+            self.assertFalse(news_entry["is_global"])
+            self.assertEqual(news_entry["items"], 2)
+
+            summary = self._read_json(hot_dir / "summary.json")
+            self.assertEqual(summary["total_items"], 2)
+            self.assertEqual(sum(parent["items"] for parent in summary["parents"]), 2)
+
     def test_rotation_is_idempotent_for_existing_archive(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             root = pathlib.Path(tmpdir)
