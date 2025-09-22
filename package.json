@@ -14,5 +14,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "magnific-popup": "^1.1.0"
   }
 }
