@@ -5,7 +5,59 @@ $(function(){
                 articleUrl: function (slug) { return '/article.html?slug=' + encodeURIComponent(slug); }
         };
 
-        var youtube_api_key = 'YOUR_API_KEY';
+        var YOUTUBE_API_KEY_PLACEHOLDER = 'YOUR_API_KEY';
+
+        function isValidYoutubeApiKey(value) {
+                if (typeof value !== 'string') {
+                        return false;
+                }
+                var trimmed = value.trim();
+                if (!trimmed) {
+                        return false;
+                }
+                if (trimmed.toUpperCase() === YOUTUBE_API_KEY_PLACEHOLDER) {
+                        return false;
+                }
+                return true;
+        }
+
+        function resolveYoutubeApiKey(global) {
+                if (!global) {
+                        return '';
+                }
+
+                var candidates = [];
+                if (global.AventurOOConfig && typeof global.AventurOOConfig.youtubeApiKey === 'string') {
+                        candidates.push(global.AventurOOConfig.youtubeApiKey);
+                }
+                if (typeof global.__AVENTUROO_YOUTUBE_API_KEY__ === 'string') {
+                        candidates.push(global.__AVENTUROO_YOUTUBE_API_KEY__);
+                }
+                candidates.push(YOUTUBE_API_KEY_PLACEHOLDER);
+
+                for (var i = 0; i < candidates.length; i++) {
+                        var candidate = candidates[i];
+                        if (!isValidYoutubeApiKey(candidate)) {
+                                continue;
+                        }
+                        return candidate.trim();
+                }
+
+                return '';
+        }
+
+        var youtube_api_key = resolveYoutubeApiKey(typeof window !== 'undefined' ? window : null);
+        var youtube_api_warning_shown = false;
+
+        function warnMissingYoutubeApiKey() {
+                if (youtube_api_warning_shown) {
+                        return;
+                }
+                youtube_api_warning_shown = true;
+                if (typeof console !== 'undefined' && console && typeof console.warn === 'function') {
+                        console.warn('YouTube widget initialization skipped: missing or invalid YouTube API key.');
+                }
+        }
         var HEADLINE_POSTS_SOURCES = basePath.resolveAll
                 ? basePath.resolveAll(['data/headline.json', '/data/headline.json', 'data/posts.json', '/data/posts.json'])
                 : ['data/headline.json', '/data/headline.json', 'data/posts.json', '/data/posts.json'];
@@ -454,8 +506,19 @@ return botwCarousel;
 }
 
 window.initBestOfTheWeekCarousel = bestOfTheWeek;
-	var youtubeAPI = function() {
-		$("[data-youtube]").each(function(vl_i){
+        var youtubeAPI = function() {
+                var $widgets = $("[data-youtube]");
+                if (!$widgets.length) {
+                        return;
+                }
+                if (!isValidYoutubeApiKey(youtube_api_key)) {
+                        youtube_api_key = resolveYoutubeApiKey(typeof window !== 'undefined' ? window : null);
+                }
+                if (!isValidYoutubeApiKey(youtube_api_key)) {
+                        warnMissingYoutubeApiKey();
+                        return;
+                }
+                $widgets.each(function(vl_i){
 			var $this = $(this),
 					$options = $this.data("youtube"),
 					$options = JSON.parse("{"+$options+"}"),
