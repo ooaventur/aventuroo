@@ -195,7 +195,15 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                 legacy_index = tmp_path / "legacy" / "index.json"
                 self.assertTrue(legacy_index.exists())
                 lookup = json.loads(legacy_index.read_text(encoding="utf-8"))
-                self.assertEqual(len(lookup.get("items", {})), 2)
+                items_lookup = lookup.get("items", {})
+                self.assertEqual(len(items_lookup), 2)
+                self.assertEqual(lookup.get("count"), len(items_lookup))
+                self.assertTrue(items_lookup)
+                for record in items_lookup.values():
+                    self.assertIn("canonical", record)
+                    self.assertIn("archive_path", record)
+                    self.assertIn("parent", record)
+                    self.assertIn("child", record)
 
                 hot_path = tmp_path / "hot" / "test" / "sub" / "index.json"
                 self.assertTrue(hot_path.exists())
