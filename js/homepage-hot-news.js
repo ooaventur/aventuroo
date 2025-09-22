@@ -19,7 +19,7 @@
   var DEFAULT_CATEGORY_LABEL = 'Top Stories';
   var DEFAULT_IMAGE = basePath.resolve ? basePath.resolve('/images/logo.png') : '/images/logo.png';
   var HOT_SHARD_ROOT = '/data/hot';
-  var DEFAULT_SCOPE = { parent: 'index', child: 'index' };
+  var DEFAULT_SCOPE = { parent: 'news', child: 'top-stories' };
   var HOT_POSTS_CACHE = Object.create(null);
 
   function fetchSequential(urls, options) {
