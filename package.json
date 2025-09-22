@@ -16,6 +16,7 @@
     "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
+    "bootstrap": "^3.4.1",
     "magnific-popup": "^1.1.0"
   }
 }
