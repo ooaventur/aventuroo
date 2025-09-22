@@ -148,6 +148,82 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
             pull_news.HEADLINE_JSON = original_headline_json
 
 
+class EmptyBodySkipTests(unittest.TestCase):
+    def test_empty_body_item_skipped_without_touching_posts_index(self):
+        items = [
+            {
+                "title": "Empty Body",
+                "link": "https://example.com/article-empty",
+                "summary": "",
+                "element": None,
+            }
+        ]
+
+        existing_entry = {
+            "slug": "existing-entry",
+            "title": "Existing Story",
+            "category": "Existing",
+            "subcategory": "Existing Sub",
+            "category_slug": "existing/existing-sub",
+            "date": "2024-01-01T00:00:00Z",
+            "excerpt": "Existing excerpt",
+            "cover": "",
+            "source": "https://example.com/original",
+            "source_domain": "example.com",
+            "source_name": "Existing",
+            "author": "Author",
+            "rights": "All rights reserved",
+            "body": "<p>Existing body</p>",
+            "canonical": "https://archive.example/existing-entry/",
+        }
+
+        original_feeds = pull_news.FEEDS
+        original_posts_json = pull_news.POSTS_JSON
+        original_seen_db = pull_news.SEEN_DB
+        original_data_dir = pull_news.DATA_DIR
+        original_headline_json = pull_news.HEADLINE_JSON
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                tmp_path = pathlib.Path(tmpdir)
+                feed_file = tmp_path / "feeds.txt"
+                feed_file.write_text("Test|Sub|https://example.com/feed\n", encoding="utf-8")
+
+                pull_news.FEEDS = feed_file
+                pull_news.DATA_DIR = tmp_path
+                pull_news.POSTS_JSON = tmp_path / "posts.json"
+                pull_news.SEEN_DB = tmp_path / "seen.json"
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
+
+                pull_news.POSTS_JSON.write_text(
+                    json.dumps([existing_entry], ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+
+                patchers = [
+                    mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
+                    mock.patch.object(pull_news, "parse_feed", return_value=items),
+                    mock.patch.object(pull_news, "extract_body_html", return_value=("", "")),
+                ]
+
+                with contextlib.ExitStack() as stack:
+                    for patcher in patchers:
+                        stack.enter_context(patcher)
+                    before = pull_news.POSTS_JSON.read_text(encoding="utf-8")
+                    new_entries = pull_news._run_autopost()
+                    after = pull_news.POSTS_JSON.read_text(encoding="utf-8")
+
+                self.assertEqual(new_entries, [])
+                self.assertEqual(after, before)
+                self.assertEqual(json.loads(after), [existing_entry])
+        finally:
+            pull_news.FEEDS = original_feeds
+            pull_news.POSTS_JSON = original_posts_json
+            pull_news.SEEN_DB = original_seen_db
+            pull_news.DATA_DIR = original_data_dir
+            pull_news.HEADLINE_JSON = original_headline_json
+
+
 class MaxPerFeedLimitTests(unittest.TestCase):
     def test_max_per_feed_limit(self):
         items = [
