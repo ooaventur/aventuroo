@@ -1343,6 +1343,132 @@
     setCanonicalLink(finalCanonical);
   }
 
+  function restoreHtmlEntities(value) {
+    if (!value) return '';
+    return value
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&amp;/g, '&');
+  }
+
+  function sanitizeJsonLdText(value, fallback) {
+    var picked = pickSeoValue(value, fallback);
+    if (!picked) return '';
+    var cleaned = stripHtml(picked);
+    if (!cleaned) return '';
+    return restoreHtmlEntities(escapeHtml(cleaned));
+  }
+
+  function sanitizeJsonLdUrl(value, fallback) {
+    var picked = pickSeoValue(value, fallback);
+    if (!picked) return '';
+    var absolute = absolutizeUrl(picked) || picked;
+    if (!absolute) return '';
+    return restoreHtmlEntities(escapeHtml(absolute));
+  }
+
+  function sanitizeJsonLdDate(value) {
+    var picked = pickSeoValue(value, '');
+    if (!picked) return '';
+    var parsed = Date.parse(picked);
+    if (isNaN(parsed)) return '';
+    return new Date(parsed).toISOString();
+  }
+
+  function setStructuredData(post, context) {
+    if (!headElement) return;
+
+    var data = post || {};
+    var canonicalContext = context && context.context ? context.context : ensureArchiveContextFromPost(data, context && context.scope);
+    var canonicalUrl = computeCanonicalUrl(data, canonicalContext || {});
+    var fallbackCanonical = pickSeoValue(defaultSeoState.canonical, defaultSeoState.ogUrl);
+    var mainEntity = sanitizeJsonLdUrl(canonicalUrl, fallbackCanonical || (typeof window !== 'undefined' && window.location ? window.location.href : ''));
+
+    var structuredData = {
+      '@context': 'https://schema.org',
+      '@type': 'NewsArticle'
+    };
+
+    var headline = sanitizeJsonLdText(data.title, defaultSeoState.title);
+    if (headline) structuredData.headline = headline;
+
+    var description = sanitizeJsonLdText(data.excerpt, defaultSeoState.description);
+    if (description) structuredData.description = description;
+
+    if (mainEntity) {
+      structuredData.mainEntityOfPage = {
+        '@type': 'WebPage',
+        '@id': mainEntity
+      };
+    }
+
+    var imageUrl = sanitizeJsonLdUrl(context && context.image ? context.image : '', '');
+    if (imageUrl) {
+      structuredData.image = [imageUrl];
+    }
+
+    var publishedRaw = pickSeoValue(data.date, pickSeoValue(data.published_at, data.created_at));
+    var modifiedRaw = pickSeoValue(data.updated_at, pickSeoValue(data.modified_at, publishedRaw));
+
+    var datePublished = sanitizeJsonLdDate(publishedRaw);
+    if (datePublished) structuredData.datePublished = datePublished;
+
+    var dateModified = sanitizeJsonLdDate(modifiedRaw);
+    if (dateModified) structuredData.dateModified = dateModified;
+
+    var authorName = sanitizeJsonLdText(data.author, '');
+    if (!authorName) {
+      var authorSource = pickSeoValue(data.source_name, '');
+      if (!authorSource) {
+        var authorUrl = sanitizeJsonLdUrl(data.source, '');
+        var authorHost = authorUrl ? hostFrom(authorUrl) : '';
+        authorSource = titleizeHost(authorHost) || authorHost || '';
+      }
+      authorName = sanitizeJsonLdText(authorSource, '');
+    }
+    if (authorName) {
+      structuredData.author = {
+        '@type': 'Person',
+        'name': authorName
+      };
+    }
+
+    var publisherUrl = sanitizeJsonLdUrl(data.source, mainEntity);
+    var publisherName = sanitizeJsonLdText(data.source_name, '');
+    if (!publisherName) {
+      var publisherHost = publisherUrl ? hostFrom(publisherUrl) : (mainEntity ? hostFrom(mainEntity) : '');
+      publisherName = sanitizeJsonLdText(titleizeHost(publisherHost) || publisherHost || 'AventurOO', '');
+    }
+
+    if (publisherName || publisherUrl) {
+      var publisher = { '@type': 'Organization' };
+      if (publisherName) publisher.name = publisherName;
+      if (publisherUrl) publisher.url = publisherUrl;
+
+      var logoUrl = sanitizeJsonLdUrl(basePath.resolve ? basePath.resolve('/images/logo.png') : '/images/logo.png', '');
+      if (logoUrl) {
+        publisher.logo = {
+          '@type': 'ImageObject',
+          'url': logoUrl
+        };
+      }
+
+      structuredData.publisher = publisher;
+    }
+
+    var script = headElement.querySelector('script[type="application/ld+json"][data-auto="article"]');
+    if (!script) {
+      script = document.createElement('script');
+      script.setAttribute('type', 'application/ld+json');
+      script.setAttribute('data-auto', 'article');
+      headElement.appendChild(script);
+    }
+
+    script.textContent = JSON.stringify(structuredData);
+  }
+
   function hostFrom(url) {
     try {
       return new URL(url).hostname.replace(/^www\./, '');
@@ -1494,6 +1620,12 @@
     var ogImage = absolutizeUrl(bestImage) || bestImage;
 
     updateSeoMetadata(post, {
+      context: context,
+      image: ogImage,
+      scope: context && context.scope ? context.scope : null
+    });
+
+    setStructuredData(post, {
       context: context,
       image: ogImage,
       scope: context && context.scope ? context.scope : null
