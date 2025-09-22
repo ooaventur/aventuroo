@@ -2,6 +2,24 @@
   command = "npm run build"
   publish = "_site"
 
+[[redirects]]
+  from = "http://archive.aventuroo.com/*"
+  to = "https://archive.aventuroo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.archive.aventuroo.com/*"
+  to = "https://archive.aventuroo.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://:subdomain.netlify.app/*"
+  to = "https://:subdomain.netlify.app/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/archive/*"
   [headers.values]
