@@ -29,6 +29,17 @@
     return window.AventurOODataLoader.fetchSequential(urls, options);
   }
 
+  function slugify(value) {
+    return (value || '')
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/\.html?$/i, '')
+      .replace(/&/g, 'and')
+      .replace(/[_\W]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
   function normalizePostsPayload(payload) {
     if (!payload) return [];
     if (Array.isArray(payload)) return payload.slice();
