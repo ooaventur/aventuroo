@@ -1644,10 +1644,6 @@ def _run_autopost() -> list[dict]:
             if key in seen:
                 continue
 
-            feed_count_before = per_feed_counts.get(feed_url, 0)
-            cat_count_before = per_cat.get(key_limit) if key_limit in per_cat else None
-            added_total_before = added_total
-
             # 1) Body HTML
             body_html, inner_img = extract_body_html(link)
 
@@ -1669,18 +1665,6 @@ def _run_autopost() -> list[dict]:
             except Exception as exc:
                 _record_health_error(f"limit_words_html failed for {link}: {exc}")
                 body_html = body_html or ""
-
-            body_plain = strip_text(body_html or "")
-            if not body_plain:
-                _record_health_error(f"Empty body after sanitize for {link}")
-                per_feed_counts[feed_url] = feed_count_before
-                if cat_count_before is None:
-                    per_cat.pop(key_limit, None)
-                else:
-                    per_cat[key_limit] = cat_count_before
-                added_total = added_total_before
-                seen.pop(key, None)
-                continue
 
             # 4) Cover image
             it_elem = it.get("element")
