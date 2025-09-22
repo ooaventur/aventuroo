@@ -38,6 +38,7 @@ class FeedUrlParsingTests(unittest.TestCase):
         original_posts_json = pull_news.POSTS_JSON
         original_seen_db = pull_news.SEEN_DB
         original_data_dir = pull_news.DATA_DIR
+        original_headline_json = pull_news.HEADLINE_JSON
 
         try:
             with tempfile.TemporaryDirectory() as tmpdir:
@@ -52,6 +53,7 @@ class FeedUrlParsingTests(unittest.TestCase):
                 pull_news.DATA_DIR = tmp_path
                 pull_news.POSTS_JSON = tmp_path / "posts.json"
                 pull_news.SEEN_DB = tmp_path / "seen.json"
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
 
                 fetched_urls = []
 
@@ -79,6 +81,7 @@ class FeedUrlParsingTests(unittest.TestCase):
             pull_news.POSTS_JSON = original_posts_json
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
+            pull_news.HEADLINE_JSON = original_headline_json
 
 
 class CategoryFilterNormalizationTests(unittest.TestCase):
@@ -97,6 +100,7 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
         original_seen_db = pull_news.SEEN_DB
         original_data_dir = pull_news.DATA_DIR
         original_category = pull_news.CATEGORY
+        original_headline_json = pull_news.HEADLINE_JSON
 
         try:
             with tempfile.TemporaryDirectory() as tmpdir:
@@ -109,6 +113,7 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
                 pull_news.POSTS_JSON = tmp_path / "posts.json"
                 pull_news.SEEN_DB = tmp_path / "seen.json"
                 pull_news.CATEGORY = "CRYPTO"
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
 
                 patchers = [
                     mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
@@ -140,6 +145,7 @@ class CategoryFilterNormalizationTests(unittest.TestCase):
             pull_news.SEEN_DB = original_seen_db
             pull_news.DATA_DIR = original_data_dir
             pull_news.CATEGORY = original_category
+            pull_news.HEADLINE_JSON = original_headline_json
 
 
 class MaxPerFeedLimitTests(unittest.TestCase):
@@ -156,6 +162,7 @@ class MaxPerFeedLimitTests(unittest.TestCase):
         original_max_per_feed = pull_news.MAX_PER_FEED
         original_hot_max_items = pull_news.HOT_MAX_ITEMS
         original_hot_page_size = pull_news.HOT_PAGE_SIZE
+        original_headline_json = pull_news.HEADLINE_JSON
 
         try:
             with tempfile.TemporaryDirectory() as tmpdir:
@@ -170,6 +177,7 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                 pull_news.MAX_PER_FEED = 2
                 pull_news.HOT_MAX_ITEMS = 10
                 pull_news.HOT_PAGE_SIZE = 5
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
 
                 patchers = [
                     mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
@@ -201,6 +209,20 @@ class MaxPerFeedLimitTests(unittest.TestCase):
                     "per_page": 5,
                     "total_pages": 1,
                 })
+
+                headline_path = tmp_path / "headline.json"
+                self.assertTrue(headline_path.exists())
+                headline_payload = json.loads(headline_path.read_text(encoding="utf-8"))
+                self.assertEqual(len(headline_payload), 2)
+                self.assertEqual(
+                    [item["slug"] for item in headline_payload],
+                    [item["slug"] for item in data[:2]],
+                )
+                for entry in headline_payload:
+                    self.assertEqual(
+                        ["category", "cover", "date", "slug", "title"],
+                        sorted(entry.keys()),
+                    )
         finally:
             pull_news.FEEDS = original_feeds
             pull_news.POSTS_JSON = original_posts_json
@@ -209,6 +231,7 @@ class MaxPerFeedLimitTests(unittest.TestCase):
             pull_news.MAX_PER_FEED = original_max_per_feed
             pull_news.HOT_MAX_ITEMS = original_hot_max_items
             pull_news.HOT_PAGE_SIZE = original_hot_page_size
+            pull_news.HEADLINE_JSON = original_headline_json
 
 if __name__ == "__main__":
     unittest.main()

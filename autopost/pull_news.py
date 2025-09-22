@@ -13,6 +13,7 @@ Reads feeds in the form:
 • Picks a clear cover image (largest media/proper https/proxy/fallback).
 • Writes data/posts.json items with:
   {slug,title,category,subcategory,date,excerpt,cover,source,source_domain,source_name,author,rights,body}
+• Writes data/headline.json with lightweight headline entries {slug,title,category,date,cover} for recent posts.
 • Applies per-(Category/Subcategory) limits derived from feed counts (default 5 items per feed).
 
 Run:
@@ -66,6 +67,7 @@ def _env_int(name: str, default: int) -> int:
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 POSTS_JSON = DATA_DIR / "posts.json"
+HEADLINE_JSON = DATA_DIR / "headline.json"
 # Use your uploaded feeds file:
 FEEDS = pathlib.Path(
     os.getenv("FEEDS_FILE") or (ROOT / "autopost" / "feeds_news.txt")
@@ -95,6 +97,7 @@ HOT_DEFAULT_PARENT_SLUG = "general"
 HOT_DEFAULT_CHILD_SLUG = "index"
 HOT_MAX_ITEMS = _env_int("HOT_MAX_ITEMS", 240)
 HOT_PAGE_SIZE = _env_int("HOT_PAGINATION_SIZE", 12)
+HEADLINE_MAX_ITEMS = _env_int("HEADLINE_MAX_ITEMS", 20)
 
 TRACKING_PARAM_PREFIXES = ("utm_",)
 TRACKING_PARAM_NAMES = {
@@ -1227,6 +1230,47 @@ def _build_legacy_lookup(entries: list[dict]) -> dict[str, Any]:
     }
 
 
+def _build_headline_entries(entries: list[dict], max_items: int) -> list[dict]:
+    if max_items <= 0:
+        return []
+
+    results: list[dict] = []
+    for entry in entries:
+        if len(results) >= max_items:
+            break
+        if not isinstance(entry, dict):
+            continue
+
+        slug_raw = entry.get("slug")
+        if isinstance(slug_raw, str):
+            slug = slug_raw.strip()
+        elif slug_raw is None:
+            slug = ""
+        else:
+            slug = str(slug_raw).strip()
+        if not slug:
+            continue
+
+        def _normalize(value: Any) -> str:
+            if isinstance(value, str):
+                return value.strip()
+            if value is None:
+                return ""
+            return str(value).strip()
+
+        results.append(
+            {
+                "slug": slug,
+                "title": _normalize(entry.get("title")),
+                "cover": _normalize(entry.get("cover")),
+                "category": _normalize(entry.get("category")),
+                "date": _normalize(entry.get("date")),
+            }
+        )
+
+    return results
+
+
 def _build_archive_canonical(slug: str, parent_slug: str, child_slug: str) -> str:
     base = ARCHIVE_BASE_URL.rstrip("/")
     if not base:
@@ -1713,6 +1757,8 @@ def _run_autopost() -> list[dict]:
         if MAX_POSTS_PERSIST > 0:
             posts_idx = posts_idx[:MAX_POSTS_PERSIST]
 
+    headline_entries = _build_headline_entries(posts_idx, HEADLINE_MAX_ITEMS)
+
     # Persist seen and posts
     try:
         SEEN_DB.write_text(json.dumps(seen, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1724,6 +1770,14 @@ def _run_autopost() -> list[dict]:
     except Exception as exc:
         print("Failed to write posts index:", exc)
         _record_health_error(f"Failed to write posts index: {exc}")
+    try:
+        HEADLINE_JSON.write_text(
+            json.dumps(headline_entries, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    except Exception as exc:
+        print("Failed to write headline index:", exc)
+        _record_health_error(f"Failed to write headline index: {exc}")
 
     try:
         legacy_payload = _build_legacy_lookup(posts_idx)
