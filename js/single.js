@@ -45,6 +45,7 @@
 
   var HOT_SHARD_CACHE = Object.create(null);
   var HOT_MANIFEST_PROMISE = null;
+  var LEGACY_LOOKUP_PROMISE = null;
 
   var articleContainer = document.querySelector('.main-article');
   if (!articleContainer) {
@@ -1050,12 +1051,30 @@
       });
   }
 
+  function fetchLegacyLookup() {
+    if (!LEGACY_LOOKUP_PROMISE) {
+      LEGACY_LOOKUP_PROMISE = fetchSequential(LEGACY_LOOKUP_SOURCES, { cache: 'no-store' })
+        .then(function (payload) {
+          return normalizeLegacyLookupPayload(payload);
+        })
+        .catch(function (err) {
+          console.error('legacy lookup load error', err);
+          LEGACY_LOOKUP_PROMISE = null;
+          return Object.create(null);
+        });
+    }
+    return LEGACY_LOOKUP_PROMISE;
+  }
+
   function loadLegacyPost(slugValue) {
     var normalized = slugify(slugValue);
     if (!normalized) return Promise.resolve(null);
-    return fetchSequential(LEGACY_LOOKUP_SOURCES, { cache: 'no-store' })
-      .then(function (payload) {
-        var lookup = normalizeLegacyLookupPayload(payload);
+    return fetchLegacyLookup()
+      .then(function (lookup) {
+        if (!lookup || typeof lookup !== 'object') {
+          return null;
+        }
+
         var entry = lookup[normalized];
         if (!entry) return null;
 
@@ -1112,7 +1131,7 @@
         });
       })
       .catch(function (err) {
-        console.error('legacy lookup load error', err);
+        console.error('legacy lookup processing error', err);
         return null;
       })
       .then(function (result) {
