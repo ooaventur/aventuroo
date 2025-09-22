@@ -48,7 +48,7 @@
       return Promise.reject(new Error('No matching resource found'));
     }
 
-    var settings = Object.assign({ cache: 'no-store' }, options || {});
+    var settings = Object.assign({ cache: 'default' }, options || {});
 
     return new Promise(function (resolve, reject) {
       var index = 0;
