@@ -48,7 +48,11 @@
       return Promise.reject(new Error('No matching resource found'));
     }
 
-    var settings = Object.assign({ cache: 'default' }, options || {});
+    var userOptions = options && typeof options === 'object' ? options : null;
+    var settings = userOptions ? Object.assign({}, userOptions) : {};
+    if (!('cache' in settings) || settings.cache == null || settings.cache === '') {
+      settings.cache = 'default';
+    }
 
     return new Promise(function (resolve, reject) {
       var index = 0;

@@ -178,7 +178,7 @@
       return HOT_POSTS_CACHE[scopeKey];
     }
     var candidates = buildShardUrls(parent, child);
-    HOT_POSTS_CACHE[scopeKey] = fetchSequential(candidates)
+    HOT_POSTS_CACHE[scopeKey] = fetchSequential(candidates, { cache: 'no-store' })
       .then(function (payload) {
         return dedupePosts(sortPosts(normalizePostsPayload(payload)));
       })
@@ -289,7 +289,7 @@
     return fetchHotShard(scope.parent, scope.child)
       .catch(function (err) {
         console.warn('latest news hot shard error', err);
-        return fetchSequential(LEGACY_POSTS_SOURCES)
+        return fetchSequential(LEGACY_POSTS_SOURCES, { cache: 'no-store' })
           .then(function (payload) {
             var posts = dedupePosts(sortPosts(normalizePostsPayload(payload)));
             return filterPostsByScope(posts, scope);

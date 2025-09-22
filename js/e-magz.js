@@ -9,9 +9,14 @@ $(function(){
         var HEADLINE_POSTS_SOURCES = basePath.resolveAll ? basePath.resolveAll(['data/posts.json', '/data/posts.json']) : ['data/posts.json', '/data/posts.json'];
         var HEADLINE_MAX_ITEMS = 20;
 
-        function fetchSequential(urls) {
+        function fetchSequential(urls, options) {
                 if (typeof fetch !== 'function') {
                         return Promise.reject(new Error('Fetch API is not available'));
+                }
+                var userOptions = options && typeof options === 'object' ? options : null;
+                var settings = userOptions ? Object.assign({}, userOptions) : {};
+                if (!('cache' in settings) || settings.cache == null || settings.cache === '') {
+                        settings.cache = 'default';
                 }
                 return new Promise(function(resolve, reject) {
                         (function tryI(i) {
@@ -19,7 +24,7 @@ $(function(){
                                         reject(new Error('No matching resource found'));
                                         return;
                                 }
-                                fetch(urls[i], { cache: 'no-store' })
+                                fetch(urls[i], settings)
                                         .then(function(response) {
                                                 if (response && response.ok) {
                                                         resolve(response);
@@ -276,7 +281,7 @@ $(function(){
                         return;
                 }
 
-                fetchSequential(HEADLINE_POSTS_SOURCES)
+                fetchSequential(HEADLINE_POSTS_SOURCES, { cache: 'no-store' })
                         .then(function(response) {
                                 return response.json();
                         })
