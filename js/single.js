@@ -192,14 +192,22 @@
     var normalizedChild = child != null && child !== '' ? slugify(child) : '';
     if (!normalizedChild) normalizedChild = 'index';
     var prefix = HOT_SHARD_ROOT.replace(/\/+$/, '');
-    var path = prefix
-      ? prefix + '/' + normalizedParent + '/' + normalizedChild + '.json'
-      : normalizedParent + '/' + normalizedChild + '.json';
-    var relative = path.replace(/^\/+/, '');
-    return [
-      relative,
-      '/' + relative
+    var segments = [normalizedParent];
+    if (normalizedChild) {
+      segments.push(normalizedChild);
+    }
+    var joined = segments.join('/');
+    var basePath = prefix ? prefix + '/' + joined : joined;
+    var relative = basePath.replace(/^\//, '');
+    var candidates = [
+      basePath + '.json',
+      relative + '.json'
     ];
+    if (normalizedChild !== 'index') {
+      candidates.push(basePath + '/index.json');
+      candidates.push(relative + '/index.json');
+    }
+    return uniqueStrings(candidates);
   }
 
   function fetchHotShard(parent, child) {
