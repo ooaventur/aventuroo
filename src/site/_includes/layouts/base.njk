@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% set metaDescription = description or "AventurOO automatically brings together top news, travel ideas, technology & AI, crypto, culture/film, and helpful shopping deals—all in one place." %}
+    <meta name="description" content="{{ metaDescription }}">
+    <meta name="author" content="{{ author or 'AventurOO' }}">
+    <meta name="keyword" content="AventurOO, news, top stories, politics, economy, business, finance, markets, startups, personal finance, crypto, bitcoin, altcoins, web3, regulation, guides, technology, tech, AI, artificial intelligence, big tech, cybersecurity, privacy, internet, platforms, gadgets, innovation, gaming, creator tools, entertainment, movies, film, TV, streaming, trailers, cinematography, lifestyle, health, beauty, style, home, design, inspiration, outdoor, food, drink, recipes, travel, trip ideas, destinations, tips, planning, hotels, experiences, transport, things to do, culture, arts, history, essays, shopping, deals, subscriptions, VPN, marketplaces, multi-merchant">
+    {% set canonicalHref = '' %}
+    {% set canonicalSource = canonicalUrl or page.url %}
+    {% if canonicalSource %}
+      {% set canonicalHref = canonicalSource | toAbsoluteUrl(site.url) %}
+      <link rel="canonical" href="{{ canonicalHref }}">
+    {% endif %}
+    <!-- Shareable -->
+    {% set pageTitle = title or 'AventurOO — Top News, Tech & AI, Travel & Deals' %}
+    <meta property="og:title" content="{{ og_title or pageTitle }}" />
+    <meta property="og:type" content="{{ og_type or 'article' }}" />
+    <meta property="og:url" content="{{ canonicalHref }}" />
+    <meta property="og:image" content="{{ og_image or 'https://raw.githubusercontent.com/ooaventur/aventurootest/main/images/preview.png' }}" />
+    <title>{{ pageTitle }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon.png' | url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | url }}">
+    <link rel="manifest" href="{{ '/images/site.webmanifest' | url }}">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ '/scripts/bootstrap/bootstrap.min.css' | url }}">
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="{{ '/scripts/ionicons/css/ionicons.min.css' | url }}">
+    <!-- Toast -->
+    <link rel="stylesheet" href="{{ '/scripts/toast/jquery.toast.min.css' | url }}">
+    <!-- OwlCarousel -->
+    <link rel="stylesheet" href="{{ '/scripts/owlcarousel/dist/assets/owl.carousel.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/scripts/owlcarousel/dist/assets/owl.theme.default.min.css' | url }}">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{{ '/scripts/magnific-popup/dist/magnific-popup.css' | url }}">
+    <link rel="stylesheet" href="{{ '/scripts/sweetalert/dist/sweetalert.css' | url }}">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/skins/all.css' | url }}">
+  </head>
+  <body>
+    {% include "partials/header.njk" %}
+    {{ content | safe }}
+    {% include "partials/footer.njk" %}
+
+    <!-- JS -->
+    <script>
+      window.__AVENTUROO_BASE_PATH__ = "{{ basePath | default('') | escape }}";
+    </script>
+    <script src="{{ '/js/base-path.js' | url }}"></script>
+    <script src="{{ '/js/menu.js' | url }}"></script>
+    <script src="{{ '/js/jquery.js' | url }}"></script>
+    <script src="{{ '/js/jquery.migrate.js' | url }}"></script>
+    <script src="{{ '/js/footer-latest.js' | url }}"></script>
+    <script src="{{ '/scripts/bootstrap/bootstrap.min.js' | url }}"></script>
+    <script>var $target_end=$(".best-of-the-week");</script>
+    <script src="{{ '/scripts/jquery-number/jquery.number.min.js' | url }}"></script>
+    <script src="{{ '/scripts/owlcarousel/dist/owl.carousel.min.js' | url }}"></script>
+    <script src="{{ '/scripts/magnific-popup/dist/jquery.magnific-popup.min.js' | url }}"></script>
+    <script src="{{ '/scripts/easescroll/jquery.easeScroll.js' | url }}"></script>
+    <script src="{{ '/scripts/sweetalert/dist/sweetalert.min.js' | url }}"></script>
+    <script src="{{ '/scripts/toast/jquery.toast.min.js' | url }}"></script>
+    <script src="{{ '/js/data-loader.js' | url }}"></script>
+    <script src="{{ '/js/e-magz.js' | url }}"></script>
+    <script src="{{ '/js/best-of-week.js' | url }}"></script>
+    <script src="{{ '/js/category.js' | url }}"></script>
+    <script src="{{ '/js/pagination.js' | url }}"></script>
+    <script src="{{ '/js/homepage-hot-news.js' | url }}"></script>
+    <script src="{{ '/js/home-latest.js' | url }}"></script>
+    <script src="{{ '/js/single.js' | url }}"></script>
+    {% if loadSearchScript %}
+    <script src="{{ '/js/search.js' | url }}"></script>
+    {% endif %}
+    {% if loadArchiveScript %}
+    <script src="{{ '/js/archive.js' | url }}"></script>
+    {% endif %}
+  </body>
+</html>
