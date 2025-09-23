@@ -16,6 +16,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(path);
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/site/_headers": "_headers" });
+
   eleventyConfig.addFilter("toAbsoluteUrl", (url, base) => {
     if (!url) {
       return url;
