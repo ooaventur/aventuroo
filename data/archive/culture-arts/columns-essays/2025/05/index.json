@@ -26,12 +26,57 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/issue-50-reading-and-launch-celebration-2025-05-22/",
       "excerpt": "Please join n+1 at our office in Greenpoint for reading and drinks in celebration of Issue 50: HARSH REALM! Featuring readings by Gemma Sack, Gillian Linden, Iman Mersal, Sarah Miller, Andrew Liu, Lisa Borst, and Colin Vanderburg.",
       "source": "https://www.nplusonemag.com/online-only/events/issue-50-reading-and-launch-celebration/"
+    },
+    {
+      "slug": "our-butterfly-2025-05-20",
+      "title": "Our Butterfly",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/sebastiangladstone-emma-mcmillan-cocoon-2025.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/our-butterfly-2025-05-20/",
+      "excerpt": "A phone call from day care. Youssef refused to eat lunch, couldn’t nap in the afternoon, and one of the teachers had to take him for a walk so that the other kids could get to sleep. The director concluded her little report by saying that his mood would change from one moment …",
+      "source": "https://www.nplusonemag.com/issue-50/essays/our-butterfly/"
+    },
+    {
+      "slug": "new-tv-novels-2025-05-20",
+      "title": "New TV Novels",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/I50_Borst_Groebel.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/new-tv-novels-2025-05-20/",
+      "excerpt": "Novels are better than television. For a long time this thesis underwrote nearly all literature that tackled the subject of TV. In the canonical TV novels of the 20th century, the tube invaded your home ( White Noise ), fractured your family ( Memories of My Father Watching TV…",
+      "source": "https://www.nplusonemag.com/issue-50/reviews/new-tv-novels/"
+    },
+    {
+      "slug": "crise-en-abyme-2025-05-20",
+      "title": "Crise en Abyme",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/I50_Vanderburg_Bruguiere_1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/crise-en-abyme-2025-05-20/",
+      "excerpt": "“The notion of crisis and that of criticism are very closely linked,” declared Paul de Man in December 1966, in a lecture at the University of Texas, “so much so that one could state that all true criticism occurs in the mode of crisis.” For criticism, de Man explained, throws…",
+      "source": "https://www.nplusonemag.com/issue-50/reviews/crise-en-abyme/"
+    },
+    {
+      "slug": "creature-of-the-late-afternoon-2025-05-20",
+      "title": "Creature of the Late Afternoon",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/2024_01_29_HUR27108-1-scaled-e1746916519608.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/creature-of-the-late-afternoon-2025-05-20/",
+      "excerpt": "A few years ago, my mom’s brother in South Korea, the oldest son, announced that he would be getting rid of their parents’ graves. My grandparents had been buried separately, in far-flung cemeteries, and this uncle and his wife were their keepers. They made several annual visi…",
+      "source": "https://www.nplusonemag.com/issue-50/essays/creature-of-the-late-afternoon/"
+    },
+    {
+      "slug": "back-to-the-80s-2025-05-20",
+      "title": "Back to the ’80s?",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/10985501506_6a124e76a4_h.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/back-to-the-80s-2025-05-20/",
+      "excerpt": "In 2011, Donald Trump spoke before an audience of about a thousand in Las Vegas, teasing a prospective, if fanciful, presidential run. Halfway through a rant over Middle East policy and oil prices, he digressed for a moment to discuss trade with Asia:",
+      "source": "https://www.nplusonemag.com/issue-50/politics/back-to-the-80s-2/"
     }
   ],
-  "count": 3,
+  "count": 8,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 3,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

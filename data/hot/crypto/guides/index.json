@@ -10,6 +10,15 @@
       "source": "https://cryptobriefing.com/uxlink-security-breach-multisig-wallet-stolen-funds-2024/"
     },
     {
+      "slug": "uxlink-plunges-77-after-multisig-wallet-breach-2025-09-23",
+      "title": "UXLINK plunges 77% after multisig wallet breach",
+      "date": "2025-09-23",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/23001526/ab1e0c29-7869-4ef1-9c6d-bc04879fa5d4.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/uxlink-plunges-77-after-multisig-wallet-breach-2025-09-23/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/uxlink-multisig-breach-token/"
+    },
+    {
       "slug": "layerzero-foundation-initiates-buyback-of-50-million-zro-from-early-backers-2025-09-23",
       "title": "LayerZero Foundation initiates buyback of 50 million ZRO from early backers",
       "date": "2025-09-23",
@@ -28,6 +37,15 @@
       "source": "https://cryptobriefing.com/jim-cramer-investing-individual-stocks-apple-nvidia-surge/"
     },
     {
+      "slug": "hacker-loses-48m-uxlink-to-phishing-attack-2025-09-23",
+      "title": "Hacker loses $48M UXLINK to phishing attack",
+      "date": "2025-09-23",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/23021948/c20e85f0-3e85-4d98-99cc-cffb6a8665d5.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/hacker-loses-48m-uxlink-to-phishing-attack-2025-09-23/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/hacker-loses-48m-uxlink-to-phishing-attack/"
+    },
+    {
       "slug": "coinbase-adds-centrifuge-and-troll-to-asset-roadmap-2025-09-23",
       "title": "Coinbase adds Centrifuge and Troll to asset roadmap",
       "date": "2025-09-23",
@@ -35,6 +53,24 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/coinbase-adds-centrifuge-and-troll-to-asset-roadmap-2025-09-23/",
       "excerpt": "Share this article",
       "source": "https://cryptobriefing.com/coinbase-adds-centrifuge-and-troll-to-asset-roadmap/"
+    },
+    {
+      "slug": "blackrock-and-major-firms-report-76m-outflows-in-ethereum-etfs-2025-09-23",
+      "title": "BlackRock and major firms report $76M outflows in Ethereum ETFs",
+      "date": "2025-09-23",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/23023645/a61273c5-8a63-4141-aca7-cc90b4835317.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/blackrock-and-major-firms-report-76m-outflows-in-ethereum-etfs-2025-09-23/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/blackrock-major-firms-ethereum-etf-outflows-september-2025/"
+    },
+    {
+      "slug": "bitcoin-spot-etfs-see-363m-outflow-2025-09-23",
+      "title": "Bitcoin spot ETFs see $363M outflow",
+      "date": "2025-09-23",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/23020743/4ba48464-5974-44bb-9062-0710b44952d7.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/bitcoin-spot-etfs-see-363m-outflow-2025-09-23/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/bitcoin-spot-etf-363m-outflow-2025/"
     },
     {
       "slug": "us-and-uk-form-taskforce-to-redefine-global-rules-for-digital-assets-2025-09-22",
@@ -134,6 +170,15 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/coinbase-introduces-hybrid-futures-for-tech-stocks-and-crypto-etfs-2025-09-22/",
       "excerpt": "Coinbase has officially launched its crypto equity index futures, offering a new trading option for investors. The hybrid futures product combines the seven top technology stocks with the leading cryptocurrency exchange-traded funds (ETFs). This launch expands Coinbase’s offer…",
       "source": "https://blockonomi.com/coinbase-introduces-hybrid-futures-for-tech-stocks-and-crypto-etfs/"
+    },
+    {
+      "slug": "cleanspark-expands-capital-strategy-with-100m-bitcoin-backed-credit-from-coinbase-prime-2025-09-22",
+      "title": "CleanSpark expands capital strategy with $100M Bitcoin-backed credit from Coinbase Prime",
+      "date": "2025-09-22",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/22171951/0ad0a36b-a9e4-45cc-8c2a-06944515308a.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/cleanspark-expands-capital-strategy-with-100m-bitcoin-backed-credit-from-coinbase-prime-2025-09-22/",
+      "excerpt": "Share this article",
+      "source": "https://cryptobriefing.com/cleanspark-coinbase-prime-100m-credit-expansion/"
     },
     {
       "slug": "btc-miners-defy-odds-network-hashrate-hits-1-091-zh-s-despite-falling-revenues-2025-09-22",
@@ -532,11 +577,11 @@
       "source": "https://cryptobriefing.com/bitgo-files-s-1-for-potential-ipo/"
     }
   ],
-  "count": 59,
+  "count": 64,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 59,
+    "total_items": 64,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

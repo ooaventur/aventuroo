@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "nikolai-agnivtsev-s-little-screw-1925-2025-04-30",
+      "title": "Nikolai Agnivtsev’s Little Screw (1925)",
+      "date": "2025-04-30",
+      "cover": "https://pdr-assets.b-cdn.net/collections/little-screw/little-screw-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/nikolai-agnivtsev-s-little-screw-1925-2025-04-30/",
+      "excerpt": "In January 1918, just three months after the outbreak of the Russian Revolution, the writer L. Kormchii (Leonard Piragis) published an article titled “A Forgotten Weapon” in the Bolshevik newspaper Pravda . “The bourgeoisie knew all too well the importance of children’s litera…",
+      "source": "https://publicdomainreview.org/collection/little-screw"
+    },
+    {
+      "slug": "i-am-making-the-world-my-confessor-mary-maclane-the-wild-woman-from-butte-2025-04-23",
+      "title": "“I Am Making the World My Confessor”: Mary MacLane, the Wild Woman from Butte",
+      "date": "2025-04-23",
+      "cover": "https://pdr-assets.b-cdn.net/essays/i-am-making-the-world-my-confessor/maclane-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/i-am-making-the-world-my-confessor-mary-maclane-the-wild-woman-from-butte-2025-04-23/",
+      "excerpt": "In 1902, a woman named Mary MacLane from Butte, Montana, became an international sensation after publishing a scandalous journal recording life at the age of 19. Rereading this often-forgotten debut, Hunter Dukes finds a voice that hungers for worldly experience, brims with bi…",
+      "source": "https://publicdomainreview.org/essay/i-am-making-the-world-my-confessor"
+    },
+    {
+      "slug": "confessional-boxes-tiny-cryptic-7-2025-04-23",
+      "title": "Confessional Boxes: Tiny Cryptic #7",
+      "date": "2025-04-23",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/confessional-boxes-tiny-cryptic-7-2025-04-23/",
+      "excerpt": "The seventh instalment in our series of extremely small and free-form cryptic crossword puzzles, published every two weeks to coincide with our latest essay on which the puzzle will be themed.",
+      "source": "https://publicdomainreview.org/blog/2025/04/tiny-cryptic-7"
+    },
+    {
+      "slug": "oskar-kokoschka-hermine-moos-and-the-alma-mahler-doll-2025-04-22",
+      "title": "Oskar Kokoschka, Hermine Moos, and the Alma Mahler Doll",
+      "date": "2025-04-22",
+      "cover": "https://pdr-assets.b-cdn.net/collections/alma-mahler-doll/Alma_doll_as_Venus-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/oskar-kokoschka-hermine-moos-and-the-alma-mahler-doll-2025-04-22/",
+      "excerpt": "When Oskar Kokoschka fell in love with Alma Mahler, he fell harder than Satan into Hell. “What you are, I am: if you turn from me, I am once again like no one and have no world”, he wrote on April 26, 1912. “I live in you, and I only live truly and really for as long as you be…",
+      "source": "https://publicdomainreview.org/collection/alma-mahler-doll"
+    },
+    {
       "slug": "lexington-and-concord-22-hours-and-a-shot-heard-around-the-world-2025-04-18",
       "title": "Lexington and Concord: 22 Hours and a Shot Heard Around the World",
       "date": "2025-04-18",
@@ -8,6 +44,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/lexington-and-concord-22-hours-and-a-shot-heard-around-the-world-2025-04-18/",
       "excerpt": "In celebration of the upcoming 250th anniversary of the United States, the National Archives is highlighting key events in our nation’s journey to independence. This edition explores the first battles of the American Revolutionary War: Lexington and Concord. Today’s post comes…",
       "source": "https://prologue.blogs.archives.gov/2025/04/18/lexington-and-concord-22-hours-and-a-shot-heard-around-the-world/"
+    },
+    {
+      "slug": "photographs-of-the-samaritan-passover-on-mount-gerizim-1917-2025-04-16",
+      "title": "Photographs of the Samaritan Passover on Mount Gerizim (1917)",
+      "date": "2025-04-16",
+      "cover": "https://pdr-assets.b-cdn.net/collections/samaritan-passover/samaritan-passover-thumb3.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/photographs-of-the-samaritan-passover-on-mount-gerizim-1917-2025-04-16/",
+      "excerpt": "Men and boys in robes gather at Abraham’s altar, gazing out over a hazy valley, while women kneed a form of matzo on the ground. White, yurt-like huts have been assembled to house humans and sheep. They lay out prayer rugs and bend forward beneath their lord. Soon it will be t…",
+      "source": "https://publicdomainreview.org/collection/samaritan-passover"
     },
     {
       "slug": "presidential-transitions-roosevelt-to-truman-2025-04-09",
@@ -19,10 +64,10 @@
       "source": "https://prologue.blogs.archives.gov/2025/04/09/presidential-transitions-roosevelt-to-truman/"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-04-18",
+  "count": 7,
+  "updated_at": "2025-04-30",
   "pagination": {
-    "total_items": 2,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

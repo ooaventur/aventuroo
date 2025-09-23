@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "the-hidden-cost-of-china-s-vast-web-of-industrial-policies-2025-09-23",
+      "title": "The hidden cost of China’s vast web of industrial policies",
+      "date": "2025-09-23",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F81d86fb5-edd2-4c36-8820-132e49da474d.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/the-hidden-cost-of-china-s-vast-web-of-industrial-policies-2025-09-23/",
+      "excerpt": "Register to unlock this article",
+      "source": "https://www.ft.com/content/be774b0f-95d3-4ac3-b6a5-efcc592258dd"
+    },
+    {
       "slug": "not-quite-a-death-knell-india-s-tech-sector-and-trump-s-new-h-1b-rules-2025-09-23",
       "title": "Not quite a death knell: India’s tech sector and Trump’s new H-1B rules",
       "date": "2025-09-23",
@@ -8,6 +17,42 @@
       "canonical": "https://archive.aventuroo.com/news/economy/not-quite-a-death-knell-india-s-tech-sector-and-trump-s-new-h-1b-rules-2025-09-23/",
       "excerpt": "Subscribe to unlock this article",
       "source": "https://www.ft.com/content/0c4d9ad0-3eaf-4f36-bbde-106b73b65edb"
+    },
+    {
+      "slug": "hong-kong-and-southern-china-brace-for-super-typhoon-ragasa-2025-09-23",
+      "title": "Hong Kong and southern China brace for Super Typhoon Ragasa",
+      "date": "2025-09-23",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1c550859-6c7b-4a02-82b7-0b626a5211cd.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/hong-kong-and-southern-china-brace-for-super-typhoon-ragasa-2025-09-23/",
+      "excerpt": "Save now on essential digital access to quality FT journalism on any device. Saving based on monthly annualised price.",
+      "source": "https://www.ft.com/content/e65bd15e-663f-4097-a40e-6904a36f7bd3"
+    },
+    {
+      "slug": "firstft-trump-to-meet-argentina-s-milei-for-talks-2025-09-23",
+      "title": "FirstFT: Trump to meet Argentina’s Milei for talks",
+      "date": "2025-09-23",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7644fa78-1f42-409b-a53f-3d440200c2e4.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/firstft-trump-to-meet-argentina-s-milei-for-talks-2025-09-23/",
+      "excerpt": "Save now on essential digital access to quality FT journalism on any device. Saving based on monthly annualised price.",
+      "source": "https://www.ft.com/content/43d2df6b-1938-4a6b-b748-afcbfd1408c8"
+    },
+    {
+      "slug": "eu-weighs-delaying-ban-on-imports-linked-to-deforestation-2025-09-23",
+      "title": "EU weighs delaying ban on imports linked to deforestation",
+      "date": "2025-09-23",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8b86e962-d839-4df0-a3ad-dfb8d9129544.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/eu-weighs-delaying-ban-on-imports-linked-to-deforestation-2025-09-23/",
+      "excerpt": "Save now on essential digital access to quality FT journalism on any device. Saving based on monthly annualised price.",
+      "source": "https://www.ft.com/content/ab4053ec-0a90-46da-a291-31f1c455663e"
+    },
+    {
+      "slug": "cash-allocations-are-not-as-high-as-they-look-2025-09-23",
+      "title": "Cash allocations are not as high as they look",
+      "date": "2025-09-23",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1d6c3401-5302-4f14-af4b-a7662f1d132f.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/cash-allocations-are-not-as-high-as-they-look-2025-09-23/",
+      "excerpt": "Save now on essential digital access to quality FT journalism on any device. Saving based on monthly annualised price.",
+      "source": "https://www.ft.com/content/b4a31b77-5bf1-45a3-8b46-8b2b8615f685"
     },
     {
       "slug": "when-it-comes-to-tech-britain-must-avoid-becoming-nebraska-2025-09-22",
@@ -559,10 +604,10 @@
       "source": "https://www.bbc.com/news/articles/cqxzr0jdpngo?at_medium=RSS&at_campaign=rss"
     }
   ],
-  "count": 62,
+  "count": 67,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 62,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }

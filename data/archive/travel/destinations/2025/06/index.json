@@ -26,12 +26,57 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-vibrant-weekend-in-istanbul-2025-06-23/",
       "excerpt": "Where to eat, shop and stay during 48 hours in Istanbul, the city of two continents",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/turkey/istanbul/articles/istanbul-travel-guide/"
+    },
+    {
+      "slug": "the-best-aparthotels-in-london-2025-06-20",
+      "title": "The best aparthotels in London",
+      "date": "2025-06-20",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/june/the-emory-hotel-balcony-suite.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-aparthotels-in-london-2025-06-20/",
+      "excerpt": "When privacy (and a kitchen) are top of your travel wish list, these stylish serviced apartments tick all the boxes",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/london/articles/best-aparthotels-london/"
+    },
+    {
+      "slug": "the-best-bars-and-nightlife-in-lyon-2025-06-18",
+      "title": "The best bars and nightlife in Lyon",
+      "date": "2025-06-18",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Lyon/l-officine-lyon-nightlife-guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-bars-and-nightlife-in-lyon-2025-06-18/",
+      "excerpt": "These are the best places to drink in Lyon, from sun-blazed rooftops to cosy wine bars and creative cocktail joints",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/france/rhone-alpes/lyon/features/lyon-nightlife/"
+    },
+    {
+      "slug": "the-15-best-things-to-do-in-lyon-2025-06-18",
+      "title": "The 15 best things to do in Lyon",
+      "date": "2025-06-18",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Lyon/lyon-destination-guide-things-to-do.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-15-best-things-to-do-in-lyon-2025-06-18/",
+      "excerpt": "From cooking classes to contemporary art, these are the top attractions in Lyon",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/france/rhone-alpes/lyon/features/lyon-attractions/"
+    },
+    {
+      "slug": "how-to-have-the-perfect-holiday-in-france-s-gastronomic-capital-2025-06-18",
+      "title": "How to have the perfect holiday in France's gastronomic capital",
+      "date": "2025-06-18",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Lyon/lyon-destination-guide-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-have-the-perfect-holiday-in-france-s-gastronomic-capital-2025-06-18/",
+      "excerpt": "An insider guide to 48 hours in Lyon, the country's foodie, festival-loving city",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/france/rhone-alpes/lyon/features/lyon-travel-guide/"
+    },
+    {
+      "slug": "the-best-hotels-near-the-wimbledon-tennis-championships-in-2025-2025-06-17",
+      "title": "The best hotels near the Wimbledon Tennis Championships in 2025",
+      "date": "2025-06-17",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/june/wimbledon-hotel-guide-lead-image-25.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-hotels-near-the-wimbledon-tennis-championships-in-2025-2025-06-17/",
+      "excerpt": "Finding accommodation for Wimbledon tennis is fierce, book one of these places to stay now to be close to the action",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/london/articles/best-hotels-near-wimbledon-tennis-club/"
     }
   ],
-  "count": 3,
+  "count": 8,
   "updated_at": "2025-06-28",
   "pagination": {
-    "total_items": 3,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

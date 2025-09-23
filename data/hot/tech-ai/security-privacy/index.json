@@ -10,6 +10,24 @@
       "source": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate"
     },
     {
+      "slug": "why-attackers-are-moving-beyond-email-based-phishing-attacks-2025-09-22",
+      "title": "Why attackers are moving beyond email-based phishing attacks",
+      "date": "2025-09-22",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/09/17/header-image.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/why-attackers-are-moving-beyond-email-based-phishing-attacks-2025-09-22/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/"
+    },
+    {
+      "slug": "verified-steam-game-steals-streamer-s-cancer-treatment-donations-2025-09-22",
+      "title": "Verified Steam game steals streamer's cancer treatment donations",
+      "date": "2025-09-22",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/Steam.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/verified-steam-game-steals-streamer-s-cancer-treatment-donations-2025-09-22/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/"
+    },
+    {
       "slug": "new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software-2025-09-22",
       "title": "New EDR-Freeze tool uses Windows WER to suspend security software",
       "date": "2025-09-22",
@@ -19,6 +37,24 @@
       "source": "https://www.bleepingcomputer.com/news/security/new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software/"
     },
     {
+      "slug": "mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates-2025-09-22",
+      "title": "Mozilla now lets Firefox add-on devs roll back bad updates",
+      "date": "2025-09-22",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/03/22/Firefox-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates-2025-09-22/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/"
+    },
+    {
+      "slug": "microsoft-says-recent-updates-cause-drm-video-playback-issues-2025-09-22",
+      "title": "Microsoft says recent updates cause DRM video playback issues",
+      "date": "2025-09-22",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/22/Windows-11.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-says-recent-updates-cause-drm-video-playback-issues-2025-09-22/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/"
+    },
+    {
       "slug": "microsoft-lifts-windows-11-update-block-after-face-detection-fix-2025-09-22",
       "title": "Microsoft lifts Windows 11 update block after face detection fix",
       "date": "2025-09-22",
@@ -26,6 +62,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-lifts-windows-11-update-block-after-face-detection-fix-2025-09-22/",
       "excerpt": "",
       "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-windows-11-safeguard-hold-after-fixing-face-detection-bug/"
+    },
+    {
+      "slug": "lastpass-fake-password-managers-infect-mac-users-with-malware-2025-09-22",
+      "title": "LastPass: Fake password managers infect Mac users with malware",
+      "date": "2025-09-22",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/12/22/Lastpass.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/lastpass-fake-password-managers-infect-mac-users-with-malware-2025-09-22/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/"
     },
     {
       "slug": "iran-linked-hackers-target-europe-with-new-malware-2025-09-22",
@@ -98,6 +143,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20/",
       "excerpt": "",
       "source": "https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/"
+    },
+    {
+      "slug": "zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19",
+      "title": "Zero Trust: Strengths and Limitations in the AI Attack Era",
+      "date": "2025-09-19",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb8ef4941b5a90948/685aac76fd468cfd7f9adc82/Zero_trust_(1800)_ArtemisDiana_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19/",
+      "excerpt": "Zero Trust could help organizations fight back against attackers who use artificial intelligence, but new threats will require the architecture to evolve.",
+      "source": "https://www.darkreading.com/endpoint-security/zero-trust-strengths-and-limitations-in-the-ai-attack-era"
     },
     {
       "slug": "steam-will-stop-running-on-windows-32-bit-in-january-2026-2025-09-19",
@@ -487,6 +541,42 @@
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/ai-backed-malware-hits-companies-worldwide"
     },
     {
+      "slug": "the-quiet-revolution-in-kubernetes-security-2025-09-10",
+      "title": "The Quiet Revolution in Kubernetes Security",
+      "date": "2025-09-10",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte0090ff26429a37d/68b058bfeb57216eeaa94c87/Kubernetes_(1800)_dennizn_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-quiet-revolution-in-kubernetes-security-2025-09-10/",
+      "excerpt": "As Kubernetes becomes the foundation of enterprise infrastructure, the underlying operating system must evolve alongside it.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/quiet-revolution-kubernetes-security"
+    },
+    {
+      "slug": "students-pose-inside-threat-to-education-sector-2025-09-10",
+      "title": "Students Pose Inside Threat to Education Sector",
+      "date": "2025-09-10",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf257242becf10d9e/68c220108b3179369539323a/student-marcelo-mayo-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/students-pose-inside-threat-to-education-sector-2025-09-10/",
+      "excerpt": "The threats may not be malicious, but they are more than many security teams can handle.",
+      "source": "https://www.darkreading.com/insider-threats/students-inside-threat-education-sector"
+    },
+    {
+      "slug": "dormant-macos-backdoor-chillyhell-resurfaces-2025-09-10",
+      "title": "Dormant macOS Backdoor ChillyHell Resurfaces",
+      "date": "2025-09-10",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a01522567ce1eb3/68c16929b3e37c5f53c49db9/ch123_snowflake-on-ice-shutterstock.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dormant-macos-backdoor-chillyhell-resurfaces-2025-09-10/",
+      "excerpt": "With multiple persistence mechanisms, the modular malware can brute-force passwords, drop payloads, and communicate over different protocols.",
+      "source": "https://www.darkreading.com/endpoint-security/dormant-macos-backdoor-chillyhell-resurfaces"
+    },
+    {
+      "slug": "chinese-hackers-allegedly-pose-as-us-lawmaker-2025-09-10",
+      "title": "Chinese Hackers Allegedly Pose as US Lawmaker",
+      "date": "2025-09-10",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9a05ee149b113418/68c1ac9c595c7328f4508748/John_Moolenaar_SOPA_Images_Limited_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chinese-hackers-allegedly-pose-as-us-lawmaker-2025-09-10/",
+      "excerpt": "Chinese state-backed threat actors are suspected of posing as Michigan congressman John Moolenaar in a series of spear-phishing attacks.",
+      "source": "https://www.darkreading.com/cybersecurity-operations/chinese-hackers-allegedly-pose-us-lawmaker"
+    },
+    {
       "slug": "microsoft-patch-tuesday-september-2025-edition-2025-09-09",
       "title": "Microsoft Patch Tuesday, September 2025 Edition",
       "date": "2025-09-09",
@@ -541,11 +631,11 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 60,
+  "count": 70,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 60,
+    "total_items": 70,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

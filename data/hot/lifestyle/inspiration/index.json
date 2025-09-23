@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "brilliant-not-broken-a-powerful-reframe-for-neurodivergence-2025-09-23",
+      "title": "Brilliant, Not Broken: A Powerful Reframe for Neurodivergence",
+      "date": "2025-09-23",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/09/Neurodivergent.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/brilliant-not-broken-a-powerful-reframe-for-neurodivergence-2025-09-23/",
+      "excerpt": "",
+      "source": "https://tinybuddha.com/blog/brilliant-not-broken-a-powerful-reframe-for-neurodivergence/"
+    },
+    {
       "slug": "visionary-leadership-explained-key-traits-of-a-visionary-leader-2025-09-22",
       "title": "Visionary Leadership Explained: Key Traits of a Visionary Leader",
       "date": "2025-09-22",
@@ -44,6 +53,15 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/generation-stuck-how-to-launch-your-career-when-getting-an-entry-level-job-feels-impossible-2025-09-22/",
       "excerpt": "Jordanne Lindo thought she did everything right. The recent Wesleyan College graduate earned strong grades, completed solid internships and started her job search early, applying for full-time positions since last November while still in school. She even submitted applications…",
       "source": "https://www.success.com/career-strategies-gen-z-job-market/"
+    },
+    {
+      "slug": "amazon-s-new-ai-seller-assistant-helps-you-elevate-your-online-retail-business-2025-09-22",
+      "title": "Amazon’s New AI Seller Assistant Helps You Elevate Your Online Retail Business",
+      "date": "2025-09-22",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/amazon-ai-seller-assistant-business-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/amazon-s-new-ai-seller-assistant-helps-you-elevate-your-online-retail-business-2025-09-22/",
+      "excerpt": "Amazon is taking a significant step toward the future of online retail with a new AI Seller Assistant tool . First launched last year as a generative AI helper to answer questions and guide merchants through the platform, the assistant is now getting a major upgrade with new a…",
+      "source": "https://www.success.com/amazon-ai-seller-assistant-business/"
     },
     {
       "slug": "what-makes-an-entrepreneurial-leader-traits-of-the-world-s-best-innovators-2025-09-21",
@@ -316,11 +334,11 @@
       "source": "https://addicted2success.com/success-advice/the-most-overlooked-soft-skill-in-business/"
     }
   ],
-  "count": 35,
-  "updated_at": "2025-09-22",
+  "count": 37,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 35,
+    "total_items": 37,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

@@ -19,6 +19,15 @@
       "source": "https://www.cnbc.com/2025/09/22/nvidia-openai-ceos-huang-altman-trump-h1b-visas.html"
     },
     {
+      "slug": "oracle-names-clay-magouyrk-and-mike-sicilia-as-co-ceos-2025-09-22",
+      "title": "Oracle names Clay Magouyrk and Mike Sicilia as co-CEOs",
+      "date": "2025-09-22",
+      "cover": "https://image.cnbcfm.com/api/v1/image/107405932-1713984563726-gettyimages-2150017128-01-bb2_1497-_8mvpxvfy.jpeg?v=1758543876&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/oracle-names-clay-magouyrk-and-mike-sicilia-as-co-ceos-2025-09-22/",
+      "excerpt": "Oracle is promoting its presidents of cloud infrastructure, Clay Magouyrk, and industries, Mike Sicilia, to co-CEOs, the company announced Monday.",
+      "source": "https://www.cnbc.com/2025/09/22/oracle-names-co-ceos.html"
+    },
+    {
       "slug": "nvidia-plans-to-invest-up-to-100-billion-in-openai-as-part-of-data-center-buildout-2025-09-22",
       "title": "Nvidia plans to invest up to $100 billion in OpenAI as part of data center buildout",
       "date": "2025-09-22",
@@ -35,6 +44,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/india-is-betting-18-billion-to-build-a-chip-powerhouse-here-s-what-it-means-2025-09-22/",
       "excerpt": "India wants to become a global chip major, but the odds are steep: competition is fierce, and India is a late entrant in the race to make the most advanced chips.",
       "source": "https://www.cnbc.com/2025/09/23/india-is-betting-18-billion-to-build-a-chip-powerhouse-heres-what-it-means.html"
+    },
+    {
+      "slug": "apple-supplier-luxshare-shares-pop-10-on-report-of-openai-hardware-deal-2025-09-22",
+      "title": "Apple-supplier Luxshare shares pop 10% on report of OpenAI hardware deal",
+      "date": "2025-09-22",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108201823-1758510632817-gettyimages-2188832733-PSWAT_DSC02634.jpeg?v=1758510701&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/apple-supplier-luxshare-shares-pop-10-on-report-of-openai-hardware-deal-2025-09-22/",
+      "excerpt": "Shenzhen-listed Luxshare saw its shares jump about 10% on Monday, following a report that the Chinese device assembler had signed a deal with OpenAI to produce a consumer AI device.",
+      "source": "https://www.cnbc.com/2025/09/22/apple-supplier-luxshare-shares-pop-10percent-on-report-of-openai-hardware-deal.html"
     },
     {
       "slug": "apple-s-stock-turns-positive-for-the-year-after-iphone-17-launch-2025-09-22",
@@ -235,10 +253,10 @@
       "source": "https://www.cnbc.com/2025/09/17/amazon-ai-agent-sellers.html"
     }
   ],
-  "count": 26,
+  "count": 28,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 26,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

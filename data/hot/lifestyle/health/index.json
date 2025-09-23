@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "hidden-brain-signal-reveals-alzheimer-s-years-before-symptoms-2025-09-23",
+      "title": "Hidden brain signal reveals Alzheimer’s years before symptoms",
+      "date": "2025-09-23",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-disease-inflammation.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/hidden-brain-signal-reveals-alzheimer-s-years-before-symptoms-2025-09-23/",
+      "excerpt": "TSPO, a key biomarker of brain inflammation, could help detect Alzheimer's disease years before memory loss and other symptoms set in - potentially leading to advances in how the disease is diagnosed and treated, according to a study published in Acta Neuropathologica .",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250922074952.htm"
+    },
+    {
+      "slug": "dementia-like-clumps-found-in-cells-before-cancer-strikes-2025-09-23",
+      "title": "Dementia-like clumps found in cells before cancer strikes",
+      "date": "2025-09-23",
+      "cover": "https://www.sciencedaily.com/images/1920/malignant-cancer-cells.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/dementia-like-clumps-found-in-cells-before-cancer-strikes-2025-09-23/",
+      "excerpt": "Cancer Research UK-funded scientists have uncovered dementia-like behavior in pancreas cells at risk of turning into cancer. The findings provide clues that could help in the treatment and prevention of pancreatic cancer, a difficult-to-treat disease linked to 6,900 deaths in …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250922074954.htm"
+    },
+    {
+      "slug": "can-meditation-apps-really-reduce-stress-anxiety-and-insomnia-2025-09-23",
+      "title": "Can meditation apps really reduce stress, anxiety, and insomnia?",
+      "date": "2025-09-23",
+      "cover": "https://www.sciencedaily.com/images/1920/woman-mindfulness-meditation-app.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/can-meditation-apps-really-reduce-stress-anxiety-and-insomnia-2025-09-23/",
+      "excerpt": "Do you have a meditation app on your smartphone, computer or wearable device? Well, you're not alone.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250922075000.htm"
+    },
+    {
+      "slug": "why-alcohol-blocks-the-liver-from-healing-even-after-you-quit-2025-09-22",
+      "title": "Why alcohol blocks the liver from healing, even after you quit",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/man-suffering-liver-pain.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/why-alcohol-blocks-the-liver-from-healing-even-after-you-quit-2025-09-22/",
+      "excerpt": "Excessive alcohol consumption can disrupt the liver's unique regenerative abilities by trapping cells in limbo between their functional and regenerative states, even after a patient stops drinking, researchers at University of Illinois Urbana-Champaign and collaborators at Duk…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921090859.htm"
+    },
+    {
       "slug": "when-cancer-cells-feel-squeezed-they-become-more-dangerous-2025-09-22",
       "title": "When cancer cells feel squeezed, they become more dangerous",
       "date": "2025-09-22",
@@ -26,6 +62,15 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/sneezing-from-cats-or-dust-safe-uv-light-may-neutralize-allergens-in-minutes-2025-09-22/",
       "excerpt": "Cats. Dust mites. Mold. Trees.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250922074945.htm"
+    },
+    {
+      "slug": "new-crystal-camera-lets-doctors-see-inside-the-body-like-never-before-2025-09-22",
+      "title": "New crystal camera lets doctors see inside the body like never before",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/advanced-medical-scan-inside-human-body-anatomy.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-crystal-camera-lets-doctors-see-inside-the-body-like-never-before-2025-09-22/",
+      "excerpt": "Physicians rely on nuclear medicine scans, like SPECT scans, to watch the heart pump, track blood flow and detect diseases hidden deep inside the body. But today's scanners depend on expensive detectors that are difficult to make.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921090850.htm"
     },
     {
       "slug": "childhood-plastic-exposure-could-be-fueling-obesity-infertility-and-asthma-2025-09-22",
@@ -361,10 +406,10 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-09-22",
+  "count": 45,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 40,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

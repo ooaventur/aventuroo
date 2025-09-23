@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "how-to-create-reliable-conversational-ai-agents-using-parlant-2025-09-23",
+      "title": "How to Create Reliable Conversational AI Agents Using Parlant?",
+      "date": "2025-09-23",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-84.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-create-reliable-conversational-ai-agents-using-parlant-2025-09-23/",
+      "excerpt": "Parlant is a framework designed to help developers build production-ready AI agents that behave consistently and reliably. A common challenge when deploying large language model (LLM) agents is that they often perform well in testing but fail when interacting with real users. …",
+      "source": "https://www.marktechpost.com/2025/09/22/how-to-create-reliable-conversational-ai-agents-using-parlant/"
+    },
+    {
+      "slug": "understanding-the-universal-tool-calling-protocol-utcp-2025-09-22",
+      "title": "Understanding the Universal Tool Calling Protocol (UTCP)",
+      "date": "2025-09-22",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-78.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/understanding-the-universal-tool-calling-protocol-utcp-2025-09-22/",
+      "excerpt": "The Universal Tool Calling Protocol (UTCP) is a lightweight, secure, and scalable way for AI agents and applications to find and call tools directly, without the need for additional wrapper servers.",
+      "source": "https://www.marktechpost.com/2025/09/21/understanding-the-universal-tool-calling-protocol-utcp/"
+    },
+    {
       "slug": "top-15-model-context-protocol-mcp-servers-for-frontend-developers-2025-2025-09-22",
       "title": "Top 15 Model Context Protocol (MCP) Servers for Frontend Developers (2025)",
       "date": "2025-09-22",
@@ -35,6 +53,15 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-brings-mcp-to-azure-logic-apps-standard-in-public-preview-turning-connectors-into-agent-tools-2025-09-22/",
       "excerpt": "Microsoft has released a public preview that enables Azure Logic Apps (Standard) to run as Model Context Protocol (MCP) servers , exposing Logic Apps workflows as agent tools discoverable and callable by MCP-capable clients (e.g., VS Code + Copilot).",
       "source": "https://www.marktechpost.com/2025/09/22/microsoft-brings-mcp-to-azure-logic-apps-standard-in-public-preview-turning-connectors-into-agent-tools/"
+    },
+    {
+      "slug": "meta-ai-proposes-metacognitive-reuse-turning-llm-chains-of-thought-into-a-procedural-handbook-that-cuts-tokens-by-46-2025-09-22",
+      "title": "Meta AI Proposes ‘Metacognitive Reuse’: Turning LLM Chains-of-Thought into a Procedural Handbook that Cuts Tokens by 46%",
+      "date": "2025-09-22",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-77.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-ai-proposes-metacognitive-reuse-turning-llm-chains-of-thought-into-a-procedural-handbook-that-cuts-tokens-by-46-2025-09-22/",
+      "excerpt": "Meta researchers introduced a method that compresses repeated reasoning patterns into short, named procedures—“behaviors”—and then conditions models to use them at inference or distills them via fine-tuning. The result: up to 46% fewer reasoning tokens on MATH while matching o…",
+      "source": "https://www.marktechpost.com/2025/09/21/meta-ai-proposes-metacognitive-reuse-turning-llm-chains-of-thought-into-a-procedural-handbook-that-cuts-tokens-by-46/"
     },
     {
       "slug": "alibaba-qwen-team-just-released-fp8-builds-of-qwen3-next-80b-a3b-instruct-thinking-bringing-80b-3b-active-hybrid-moe-to-commodity-gpus-2025-09-22",
@@ -91,11 +118,11 @@
       "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
     }
   ],
-  "count": 10,
-  "updated_at": "2025-09-22",
+  "count": 13,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 10,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

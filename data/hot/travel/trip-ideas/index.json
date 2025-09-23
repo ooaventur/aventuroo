@@ -163,6 +163,15 @@
       "source": "https://www.nomadicmatt.com/travel-blogs/sweden-coast-itinerary/"
     },
     {
+      "slug": "discovering-the-joys-of-community-based-tourism-in-thailand-2025-09-15",
+      "title": "Discovering the joys of community-based tourism in Thailand",
+      "date": "2025-09-15",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/08/Intrepid-Travel-Thailand_Chaingmai-homestayevillage_Cycling-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/discovering-the-joys-of-community-based-tourism-in-thailand-2025-09-15/",
+      "excerpt": "There are plenty of reasons to love Thailand, but one of the standout moments on a Real Bangkok to Singapore trip had everything to do with the people.",
+      "source": "https://www.intrepidtravel.com/adventures/community-based-tourism-in-thailand/"
+    },
+    {
       "slug": "cracking-open-the-world-s-largest-time-capsule-2025-09-15",
       "title": "Cracking Open the World’s Largest Time Capsule",
       "date": "2025-09-15",
@@ -208,6 +217,24 @@
       "source": "https://www.atlasobscura.com/articles/podcast-last-limburger-plant"
     },
     {
+      "slug": "too-many-travellers-go-to-too-few-places-so-the-not-hot-list-is-here-to-help-2025-09-09",
+      "title": "Too many travellers go to too few places, so the Not Hot List is here to help",
+      "date": "2025-09-09",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/09/Tien-Shan-Mountains-Kyrgyzstan-head.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/too-many-travellers-go-to-too-few-places-so-the-not-hot-list-is-here-to-help-2025-09-09/",
+      "excerpt": "Intrepid’s Not Hot List is all about the lesser-known spots that deserve more attention. From under-explored places in popular destinations to entire countries few travellers ever venture to, it’s the list that should be on your travel radar for 2026.",
+      "source": "https://www.intrepidtravel.com/adventures/why-travel-to-underrated-destinations/"
+    },
+    {
+      "slug": "7-dishes-you-can-learn-to-cook-in-kitchens-around-the-globe-2025-09-09",
+      "title": "7 dishes you can learn to cook in kitchens around the globe",
+      "date": "2025-09-09",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/08/Intrepid-Travel-Italy-Amalfi-Coast-Sorrento-pizza-making-045A8152.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/7-dishes-you-can-learn-to-cook-in-kitchens-around-the-globe-2025-09-09/",
+      "excerpt": "Trying different cuisines around the world is one thing, but what about getting hands-on cooking lessons from the locals themselves?",
+      "source": "https://www.intrepidtravel.com/adventures/cooking-lessons-around-the-globe/"
+    },
+    {
       "slug": "surf-s-up-in-taghazout-how-this-moroccan-surf-town-stays-true-to-its-roots-2025-09-01",
       "title": "Surf’s up in Taghazout: How this Moroccan surf town stays true to its roots",
       "date": "2025-09-01",
@@ -244,10 +271,10 @@
       "source": "https://www.nomadicmatt.com/travel-blogs/ludington-mi-guide/"
     }
   ],
-  "count": 27,
+  "count": 30,
   "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 27,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

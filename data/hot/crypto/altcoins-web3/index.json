@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "upbit-flags-uxlink-trading-warning-token-as-hacker-gains-mint-role-2025-09-23",
+      "title": "Upbit Flags UXLINK Trading Warning Token As Hacker Gains Mint Role",
+      "date": "2025-09-23",
+      "cover": "https://assets.beincrypto.com/img/qD9kH8q1gCJX1Vjiv-Zcd3bweUA=/smart/4c47eded149444a69c6aecfe9e3f77f2",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/upbit-flags-uxlink-trading-warning-token-as-hacker-gains-mint-role-2025-09-23/",
+      "excerpt": "Upbit, the largest Korean exchange, has listed UXLINK only hours after the web3 social media app reportedly suffered an $11 million attack.",
+      "source": "https://beincrypto.com/upbit-uxlink-warning-hacker-mint/"
+    },
+    {
       "slug": "unleashing-crypto-wealth-how-to-maximize-profits-in-the-cryptocurrency-market-2025-09-22",
       "title": "Unleashing Crypto Wealth: How to Maximize Profits in the Cryptocurrency Market",
       "date": "2025-09-22",
@@ -71,6 +80,15 @@
       "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/3-altcoins-could-see-major-liquidations-in-the-last-week-of-september-2025-09-22/",
       "excerpt": "The altcoin derivatives market in the final week of September shows a sharp imbalance between the total accumulated volume of Long and Short positions. This imbalance results from over $200 billion in market capitalization being wiped out, dragging many altcoins lower.",
       "source": "https://beincrypto.com/altcoins-at-risk-of-price-drop-last-week-of-september/"
+    },
+    {
+      "slug": "truststrategy-launches-new-ai-powered-mobile-app-for-quant-trading-2025-09-21",
+      "title": "TrustStrategy Launches New AI-Powered Mobile App for Quant Trading",
+      "date": "2025-09-21",
+      "cover": "https://cdn.getmidnight.com/13448471d89a9cd8d7f71026a0334ec8/2025/09/quant-strategy.png",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/truststrategy-launches-new-ai-powered-mobile-app-for-quant-trading-2025-09-21/",
+      "excerpt": "TrustStrategy, a fintech company that uses AI for digital asset management, has released its mobile app in the market for quant trading and algorithmic trading for crypto investors globally. Available for iOS and Android, the TrustStrategy app offers autotrade functionality, a…",
+      "source": "https://altcoininvestor.com/truststrategy-launches-new-ai-powered-mobile-app/"
     },
     {
       "slug": "bitcoin-stalls-on-rate-cut-as-hopes-fade-will-this-week-be-different-2025-09-21",
@@ -343,10 +361,10 @@
       "source": "https://e-cryptonews.com/aave-drops-6-on-world-liberty-financial-token-rumors/"
     }
   ],
-  "count": 38,
-  "updated_at": "2025-09-22",
+  "count": 40,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 38,
+    "total_items": 40,
     "per_page": 12,
     "total_pages": 4
   }
