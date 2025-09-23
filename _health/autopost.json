@@ -1,26 +1,5 @@
 {
-  "last_run": "2025-09-22T22:51:56Z",
-  "items_published": 0,
-  "errors": [
-    "fetch_bytes failed: https://feeds.bbci.co.uk/news/rss.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.aljazeera.com/xml/rss/all.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.ft.com/?format=rss -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.npr.org/rss/rss.php?id=1001 -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://feeds.bbci.co.uk/news/rss.xml?edition=uk -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.cbsnews.com/latest/rss/main -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://time.com/feed/ -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.nbcnews.com/rss -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://feeds.bbci.co.uk/news/politics/rss.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://abcnews.go.com/abcnews/politicsheadlines -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://feeds.bbci.co.uk/news/business/economy/rss.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.ft.com/economy?format=rss -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.npr.org/rss/rss.php?id=1006 -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.ft.com/business?format=rss -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://feeds.bbci.co.uk/news/business/rss.xml -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.cnbc.com/id/10001147/device/rss/rss.html -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.forbes.com/business/feed/ -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://www.ft.com/markets?format=rss -> <urlopen error Tunnel connection failed: 403 Forbidden>",
-    "fetch_bytes failed: https://techcrunch.com/startups/feed/ -> <urlopen error Tunnel connection failed: 403 Forbidden>"
-  ]
+  "last_run": "2025-09-23T03:21:04Z",
+  "items_published": 79,
+  "errors": []
 }

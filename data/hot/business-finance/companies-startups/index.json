@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "what-early-stage-investors-really-look-for-in-founders-at-techcrunch-disrupt-2025-2025-09-22",
+      "title": "What Early-Stage Investors Really Look for in Founders at TechCrunch Disrupt 2025",
+      "date": "2025-09-22",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/07/TC25_Hudson-Chaddha-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/what-early-stage-investors-really-look-for-in-founders-at-techcrunch-disrupt-2025-2025-09-22/",
+      "excerpt": "TechCrunch Disrupt 2025 📍 October 27–29, Moscone West, San Francisco 🎟️ Register now — Regular Bird savings of up to $668 end September 26 at 11:59 p.m. PT",
+      "source": "https://techcrunch.com/2025/09/22/from-idea-to-first-check-raising-pre-seed-and-seed-capital-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025-2025-09-22",
+      "title": "Mirror founder Brynn Putnam to unveil her gaming hardware startup at TechCrunch Disrupt 2025",
+      "date": "2025-09-22",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/08/TC25_-Brynn-Putnam-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025-2025-09-22/",
+      "excerpt": "Seven years after unveiling Mirror at TechCrunch Disrupt 2018, Brynn Putnam is returning to the stage where it all began. The serial entrepreneur who turned a fitness concept into a $500 million acquisition by Lululemon will debut her latest venture at TechCrunch Disrupt 2025 …",
+      "source": "https://techcrunch.com/2025/09/22/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "inside-the-mind-of-elad-gil-early-stage-investing-and-next-gen-innovation-at-techcrunch-disrupt-2025-2025-09-22",
+      "title": "Inside the mind of Elad Gil: Early-stage investing and next-gen innovation at TechCrunch Disrupt 2025",
+      "date": "2025-09-22",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/08/TC25_-Elad-Gil-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/inside-the-mind-of-elad-gil-early-stage-investing-and-next-gen-innovation-at-techcrunch-disrupt-2025-2025-09-22/",
+      "excerpt": "Ahead of the curve — he practically lives there. Before most of the world had even asked ChatGPT its first question, Elad Gil was writing early checks into companies like Perplexity , Character.AI , and Harvey . That’s just a slice of his story. His track record spans seed and…",
+      "source": "https://techcrunch.com/2025/09/22/elad-gil-one-of-techs-sharpest-minds-on-early-bets-breakout-growth-and-whats-coming-next-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "clock-s-ticking-get-hands-on-experience-volunteering-at-techcrunch-disrupt-2025-2025-09-22",
+      "title": "Clock’s ticking: Get hands-on experience volunteering at TechCrunch Disrupt 2025",
+      "date": "2025-09-22",
+      "cover": "https://techcrunch.com/wp-content/uploads/2022/06/VOLUNTEER_1200x628.png?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/clock-s-ticking-get-hands-on-experience-volunteering-at-techcrunch-disrupt-2025-2025-09-22/",
+      "excerpt": "September 30 is the final deadline to apply to volunteer at",
+      "source": "https://techcrunch.com/2025/09/22/clocks-ticking-get-hands-on-experience-volunteering-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "a-comprehensive-list-of-2025-tech-layoffs-2025-09-22",
+      "title": "A comprehensive list of 2025 tech layoffs",
+      "date": "2025-09-22",
+      "cover": "https://techcrunch.com/wp-content/uploads/2023/02/layoffs-e1684946575831.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/a-comprehensive-list-of-2025-tech-layoffs-2025-09-22/",
+      "excerpt": "The tech layoff wave is still kicking in 2025. Last year saw more than 150,000 job cuts across 549 companies, according to independent layoffs tracker Layoffs.fyi . So far this year, more than 22,000 workers have been the victim of reductions across the tech industry, with a s…",
+      "source": "https://techcrunch.com/2025/09/22/tech-layoffs-2025-list/"
+    },
+    {
       "slug": "6-days-left-last-chance-for-regular-bird-savings-for-techcrunch-disrupt-2025-passes-2025-09-21",
       "title": "6 days left: Last chance for Regular Bird savings for TechCrunch Disrupt 2025 passes",
       "date": "2025-09-21",
@@ -181,11 +226,11 @@
       "source": "https://techcrunch.com/2025/09/17/the-new-face-of-defense-tech-takes-the-ai-stage-at-techcrunch-disrupt-2025/"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

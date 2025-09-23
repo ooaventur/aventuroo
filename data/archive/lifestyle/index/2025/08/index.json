@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "opinion-wardrobe-diplomacy-2025-08-23",
+      "title": "Opinion: Wardrobe diplomacy",
+      "date": "2025-08-23",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff1%2F44%2F834399e64ed6addc174a82590464%2Fgettyimages-2230826378.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/opinion-wardrobe-diplomacy-2025-08-23/",
+      "excerpt": "",
+      "source": "https://www.npr.org/2025/08/23/nx-s1-5504862/opinion-wardrobe-diplomacy"
+    },
+    {
       "slug": "opinion-remembering-ted-clark-great-colleague-better-friend-2025-08-16",
       "title": "Opinion: Remembering Ted Clark, great colleague — better friend",
       "date": "2025-08-16",
@@ -28,10 +37,10 @@
       "source": "https://www.npr.org/2025/08/02/nx-s1-5481259/opinion-a-little-league-heartbreak"
     }
   ],
-  "count": 3,
-  "updated_at": "2025-08-16",
+  "count": 4,
+  "updated_at": "2025-08-23",
   "pagination": {
-    "total_items": 3,
+    "total_items": 4,
     "per_page": 12,
     "total_pages": 1
   }

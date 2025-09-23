@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "the-best-carry-on-luggage-of-2025-tested-reviewed-2025-09-22",
+      "title": "The Best Carry-On Luggage of 2025, Tested & Reviewed",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68cc79ee60e833f10c4c7953/master/pass/250824_CNT_Luggage-Week_006-webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-carry-on-luggage-of-2025-tested-reviewed-2025-09-22/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/best-carry-on-luggage"
+    },
+    {
+      "slug": "i-m-a-shopping-editor-and-these-are-my-favorite-pieces-of-luggage-to-travel-with-2025-09-22",
+      "title": "I'm a Shopping Editor and These Are My Favorite Pieces of Luggage to Travel With",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68cc79edb6495858450c4cce/master/pass/250824_CNT_Luggage-Week_018-webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/i-m-a-shopping-editor-and-these-are-my-favorite-pieces-of-luggage-to-travel-with-2025-09-22/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/im-a-shopping-editor-and-these-are-my-favorite-pieces-of-luggage-to-travel-with"
+    },
+    {
+      "slug": "20-best-hotels-in-valencia-spain-2025-2025-09-22",
+      "title": "20 Best Hotels in Valencia, Spain (2025)",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/6661d568880d872867f42c4d/master/pass/BACON-STUDIO-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/20-best-hotels-in-valencia-spain-2025-2025-09-22/",
+      "excerpt": "María Casbas",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-valencia"
+    },
+    {
       "slug": "your-bryce-canyon-country-adventures-start-at-these-luxe-glampgrounds-2025-09-19",
       "title": "Your Bryce Canyon Country Adventures Start at These Luxe Glampgrounds",
       "date": "2025-09-19",
@@ -226,10 +253,10 @@
       "source": "https://www.atlasobscura.com/articles/podcast-grave-charlotte-temple"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-09-19",
+  "count": 28,
+  "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 25,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

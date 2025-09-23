@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "christien-tompkins-in-conversation-with-robin-d-g-kelley-2025-08-22",
+      "title": "Christien Tompkins in conversation with Robin D. G. Kelley",
+      "date": "2025-08-22",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Tompkins-event.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/christien-tompkins-in-conversation-with-robin-d-g-kelley-2025-08-22/",
+      "excerpt": "On Monday, September 8, join n+1 for a discussion of Rutgers anthropology professor Christien Tompkins ’s book A Burdensome Experiment: Race, Labor, and Schools in New Orleans after Katrina . Tompkins will be in conversation with UCLA history professor",
+      "source": "https://www.nplusonemag.com/online-only/events/christien-tompkins-in-conversation-with-robin-d-g-kelley/"
+    },
+    {
+      "slug": "alyssa-battistoni-in-conversation-2025-08-22",
+      "title": "Alyssa Battistoni in conversation",
+      "date": "2025-08-22",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Battistoni-event-2.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/alyssa-battistoni-in-conversation-2025-08-22/",
+      "excerpt": "On Thursday, September 4, join n+1 for a conversation with contributor Alyssa Battistoni about her new book, Free Gifts: Capitalism and the Politics of Nature , out now from Princeton University Press. Battistoni will discuss the book—which Daniel Denvir calls “a remarkable, i…",
+      "source": "https://www.nplusonemag.com/online-only/events/alyssa-battistoni-in-conversation/"
+    },
+    {
       "slug": "demand-your-voice-2025-08-21",
       "title": "Demand Your Voice",
       "date": "2025-08-21",
@@ -19,10 +37,10 @@
       "source": "https://www.nplusonemag.com/online-only/online-only/bucky-beats-the-blues/"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-08-21",
+  "count": 4,
+  "updated_at": "2025-08-22",
   "pagination": {
-    "total_items": 2,
+    "total_items": 4,
     "per_page": 12,
     "total_pages": 1
   }

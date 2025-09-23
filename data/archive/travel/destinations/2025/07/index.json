@@ -152,12 +152,30 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-weekend-in-miami-south-florida-s-cultural-cool-kid-2025-07-04/",
       "excerpt": "From golden beaches to vibrant bars – an insider guide to exploring the \"Magic City\"",
       "source": "https://www.telegraph.co.uk/travel/destinations/north-america/united-states/florida/miami/articles/miami-travel-guide/"
+    },
+    {
+      "slug": "the-six-best-spa-hotels-in-kent-2025-07-03",
+      "title": "The six best spa hotels in Kent",
+      "date": "2025-07-03",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/june/eastwell-manor-hotel-kent.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-six-best-spa-hotels-in-kent-2025-07-03/",
+      "excerpt": "From rustic massages by the seaside to full throttle wellness weekends, the Garden of England delivers a few delightful spa holidays",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/kent/articles/best-spa-hotels-kent/"
+    },
+    {
+      "slug": "the-most-luxurious-hotels-in-sicily-2025-07-01",
+      "title": "The most luxurious hotels in Sicily",
+      "date": "2025-07-01",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2023/January/San Domenico pool resized.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-luxurious-hotels-in-sicily-2025-07-01/",
+      "excerpt": "From Taormina to Palermo, here's our pick of the most amazing places to stay on this magical Italian outpost",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/sicily/articles/the-best-luxury-hotels-in-sicily/"
     }
   ],
-  "count": 17,
+  "count": 19,
   "updated_at": "2025-07-27",
   "pagination": {
-    "total_items": 17,
+    "total_items": 19,
     "per_page": 12,
     "total_pages": 2
   }

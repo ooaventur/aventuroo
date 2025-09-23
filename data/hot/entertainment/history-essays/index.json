@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "slug": "why-the-codex-gigas-is-known-as-the-devil-s-bible-2025-09-22",
+      "title": "Why the Codex Gigas Is Known as the Devil’s Bible",
+      "date": "2025-09-22",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/76867100_c8s0no?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/why-the-codex-gigas-is-known-as-the-devil-s-bible-2025-09-22/",
+      "excerpt": "The portrait of the Devil appears about halfway through the Codex Gigas, opposite an equally large image of the Heavenly City—paradise on one side, a crouching horned figure on the other. The Devil, crudely drawn in muted tones compared with the manuscript’s vivid illumination…",
+      "source": "https://www.history.com/articles/codex-gigas-devils-bible"
+    },
+    {
+      "slug": "prosperity-vs-poverty-in-the-gilded-age-photos-2025-09-22",
+      "title": "Prosperity vs. Poverty in the Gilded Age: Photos",
+      "date": "2025-09-22",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/2695926_lzevhn?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/prosperity-vs-poverty-in-the-gilded-age-photos-2025-09-22/",
+      "excerpt": "From the late 1870s to the early 1900s, the United States underwent a dramatic transformation, driven by rapid industrialization and its economic, social and political effects.",
+      "source": "https://www.history.com/articles/gilded-age-prosperity-poverty-photos"
+    },
+    {
+      "slug": "french-scholar-announces-he-s-cracked-the-rosetta-stone-code-2025-09-22",
+      "title": "French scholar announces he's cracked the Rosetta Stone code",
+      "date": "2025-09-22",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/463905113_lwhszs?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/french-scholar-announces-he-s-cracked-the-rosetta-stone-code-2025-09-22/",
+      "excerpt": "On September 27, 1822, French scholar Jean-François Champollion announces he has deciphered the world-renowned Rosetta Stone. His announcement is made at a presentation to the Académie des Inscriptions et Belles-Lettres in Paris, France. By decoding Egyptian hieroglyphics, Cha…",
+      "source": "https://www.history.com/this-day-in-history/rosetta-stone-code-cracked"
+    },
+    {
       "slug": "you-think-me-a-bold-cheat-mary-carleton-counterfeit-princess-2025-09-17",
       "title": "“You Think Me a Bold Cheat”: Mary Carleton, Counterfeit Princess",
       "date": "2025-09-17",
@@ -37,10 +64,10 @@
       "source": "https://publicdomainreview.org/collection/tamra-maew"
     }
   ],
-  "count": 4,
-  "updated_at": "2025-09-17",
+  "count": 7,
+  "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 4,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

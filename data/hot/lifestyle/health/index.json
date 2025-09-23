@@ -1,13 +1,49 @@
 {
   "items": [
     {
-      "slug": "scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21",
-      "title": "Scientists reveal the everyday habits that may shield you from dementia",
-      "date": "2025-09-21",
-      "cover": "https://www.sciencedaily.com/images/1920/coffee-couple-walking-dog.webp",
-      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21/",
-      "excerpt": "An estimated 7.2 million Americans over age 65 currently live with Alzheimer's disease (AD). That number is expected to nearly double to 13.8 million by 2060. These increases reflect more than demographic shifts; they point to a growing public health crisis that requires a new…",
-      "source": "https://www.sciencedaily.com/releases/2025/09/250920214459.htm"
+      "slug": "when-cancer-cells-feel-squeezed-they-become-more-dangerous-2025-09-22",
+      "title": "When cancer cells feel squeezed, they become more dangerous",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/cancer-cell-infecting-healthy-tissue.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/when-cancer-cells-feel-squeezed-they-become-more-dangerous-2025-09-22/",
+      "excerpt": "Cancer cells are notoriously flexible, taking on new features as they move around the body. Many of these changes are due to epigenetic modifications, which influence how DNA is packaged, and not due to mutations in the DNA itself. Such modifications are difficult to target fo…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921090904.htm"
+    },
+    {
+      "slug": "want-a-younger-brain-harvard-researchers-say-eat-like-this-2025-09-22",
+      "title": "Want a younger brain? Harvard researchers say eat like this",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/green-tea-and-salad.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/want-a-younger-brain-harvard-researchers-say-eat-like-this-2025-09-22/",
+      "excerpt": "Following a green-Mediterranean diet -- which includes green tea and the aquatic plant Mankai -- is associated with slower brain aging, according to a study.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921090902.htm"
+    },
+    {
+      "slug": "sneezing-from-cats-or-dust-safe-uv-light-may-neutralize-allergens-in-minutes-2025-09-22",
+      "title": "Sneezing from cats or dust? Safe UV light may neutralize allergens in minutes",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/sneezing-pet-allergies-cat.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/sneezing-from-cats-or-dust-safe-uv-light-may-neutralize-allergens-in-minutes-2025-09-22/",
+      "excerpt": "Cats. Dust mites. Mold. Trees.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250922074945.htm"
+    },
+    {
+      "slug": "childhood-plastic-exposure-could-be-fueling-obesity-infertility-and-asthma-2025-09-22",
+      "title": "Childhood plastic exposure could be fueling obesity, infertility, and asthma",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/baby-boy-biting-plastic-toy-in-mouth.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/childhood-plastic-exposure-could-be-fueling-obesity-infertility-and-asthma-2025-09-22/",
+      "excerpt": "Childhood exposure to chemicals used to make plastic household items presents growing health risks that can extend long into adulthood, experts from NYU Langone Health report.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250922074947.htm"
+    },
+    {
+      "slug": "a-hormone-that-silences-the-immune-system-may-unlock-new-cancer-treatments-2025-09-22",
+      "title": "A hormone that silences the immune system may unlock new cancer treatments",
+      "date": "2025-09-22",
+      "cover": "https://www.sciencedaily.com/images/1920/t-cells-cancer-cells.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-hormone-that-silences-the-immune-system-may-unlock-new-cancer-treatments-2025-09-22/",
+      "excerpt": "Researchers at UT Southwestern Medical Center have discovered how a hormone interacts with a receptor on the surface of immune cells to shield cancer cells from the body's natural defenses. The findings, published in Nature Immunology , could lead to new immunotherapy approach…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921091002.htm"
     },
     {
       "slug": "your-pancreas-may-be-making-its-own-version-of-ozempic-2025-09-21",
@@ -35,6 +71,15 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/simple-therapies-outperform-drugs-for-knee-arthritis-pain-relief-2025-09-21/",
       "excerpt": "Knee braces, water therapy and exercise are the most promising non-drug therapies for treating knee osteoarthritis, according to a new meta-analysis publishing June 18, 2025 in the open-access journal PLOS One by Yuan Luo of the First People's Hospital of Neijiang, China.",
       "source": "https://www.sciencedaily.com/releases/2025/09/250919085252.htm"
+    },
+    {
+      "slug": "scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21",
+      "title": "Scientists reveal the everyday habits that may shield you from dementia",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/coffee-couple-walking-dog.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-the-everyday-habits-that-may-shield-you-from-dementia-2025-09-21/",
+      "excerpt": "An estimated 7.2 million Americans over age 65 currently live with Alzheimer's disease (AD). That number is expected to nearly double to 13.8 million by 2060. These increases reflect more than demographic shifts; they point to a growing public health crisis that requires a new…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250920214459.htm"
     },
     {
       "slug": "new-breath-sensor-detects-diabetes-quickly-and-easily-2025-09-21",
@@ -316,11 +361,11 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm"
     }
   ],
-  "count": 35,
+  "count": 40,
   "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 35,
+    "total_items": 40,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }
