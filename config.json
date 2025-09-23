@@ -1,0 +1,102 @@
+{
+  "window_days": 30,
+  "archive_on_days": 45,
+  "categories": {
+    "news": {
+      "subcats": [
+        "top-stories",
+        "politics",
+        "economy",
+        "general"
+      ]
+    },
+    "business-finance": {
+      "subcats": [
+        "markets-economy",
+        "companies-startups",
+        "personal-finance",
+        "general"
+      ]
+    },
+    "crypto": {
+      "subcats": [
+        "bitcoin-majors",
+        "altcoins-web3",
+        "regulation-security",
+        "general",
+        "guides"
+      ]
+    },
+    "tech-ai": {
+      "subcats": [
+        "ai-news",
+        "big-tech",
+        "security-privacy",
+        "internet-platforms",
+        "innovation-gadgets",
+        "gaming-tech",
+        "audio-creator",
+        "general"
+      ]
+    },
+    "entertainment": {
+      "subcats": [
+        "movies",
+        "tv-streaming",
+        "trailers",
+        "cinematography",
+        "history-essays",
+        "general"
+      ]
+    },
+    "lifestyle": {
+      "subcats": [
+        "health",
+        "beauty-style",
+        "home-design",
+        "inspiration",
+        "outdoor",
+        "general"
+      ]
+    },
+    "food-drink": {
+      "subcats": [
+        "food",
+        "drink",
+        "general",
+        "guides"
+      ]
+    },
+    "travel": {
+      "subcats": [
+        "trip-ideas",
+        "destinations",
+        "tips-planning",
+        "stays-hotels",
+        "experiences",
+        "transport",
+        "things-to-do",
+        "general"
+      ]
+    },
+    "culture-arts": {
+      "subcats": [
+        "culture",
+        "arts",
+        "history",
+        "columns-essays",
+        "general"
+      ]
+    },
+    "shopping": {
+      "subcats": [
+        "tech-deals",
+        "subscriptions",
+        "travel-deals",
+        "vpn-security",
+        "marketplaces",
+        "multi-merchant"
+      ]
+    }
+  }
+}
