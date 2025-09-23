@@ -455,5 +455,17 @@ class MaxPerFeedLimitTests(unittest.TestCase):
             pull_news.HOT_PAGE_SIZE = original_hot_page_size
             pull_news.HEADLINE_JSON = original_headline_json
 
+
+class LinkNormalizationTests(unittest.TestCase):
+    def test_link_hash_ignores_fragment(self):
+        with_fragment = "https://example.com/story#ref=rss"
+        without_fragment = "https://example.com/story"
+
+        self.assertEqual(
+            pull_news.link_hash(with_fragment),
+            pull_news.link_hash(without_fragment),
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

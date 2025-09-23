@@ -362,7 +362,9 @@ def normalize_link(link: str) -> str:
     ]
     query = urlencode(filtered_params, doseq=True)
     normalized = urlunparse(
-        parsed._replace(scheme=scheme, netloc=netloc, path=path, query=query)
+        parsed._replace(
+            scheme=scheme, netloc=netloc, path=path, query=query, fragment=""
+        )
     )
     return normalized
 
