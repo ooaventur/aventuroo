@@ -1107,7 +1107,7 @@ section {
     margin-left: 55px;
     .form-group {
       margin-bottom: 0;
-      .input-group-btn {
+      .input-group {
         .btn {
           line-height: 0;
         }
@@ -1210,7 +1210,9 @@ section {
     height: 30px;
     border: 1px solid #ddd;
     margin-right: -5px;
-    &.right {
+    padding: 0;
+    &.right,
+    &.carousel-control-next {
       border-left: 0;
     }
   }
@@ -2477,21 +2479,23 @@ aside {
     span:before {
       font-size: 50px;
     }
-    &.left {
+    &.left,
+    &.carousel-control-prev {
       left: 0;
       right: initial;
     }
   }
-  &:hover .carousel-control.left {
+  &:hover .carousel-control.carousel-control-prev {
     left: 20px;
     right: initial;
   }
-  .carousel-control.right {
+  .carousel-control.carousel-control-next {
     right: 0;
     left: initial;
   }
   &:hover .carousel-control {
-    &.right {
+    &.right,
+    &.carousel-control-next {
       right: 20px;
       left: initial;
     }
@@ -3036,10 +3040,10 @@ footer.footer {
     }
     .input-group {
       position: relative;
-      display: inline-block;
+      display: inline-flex;
       width: 100%;
     }
-    .input-group-addon {
+    .input-group-text {
       background-color: transparent;
       border-color: transparent;
       position: absolute;
@@ -3048,6 +3052,9 @@ footer.footer {
       z-index: 9;
       height: 40px;
       line-height: 26px;
+      padding: 6px 12px;
+      display: flex;
+      align-items: center;
       i:before {
         transform: scale(1.4);
         -webkit-transform: scale(1.4);
