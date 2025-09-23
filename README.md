@@ -5,6 +5,18 @@ stack renders the public pages, while a collection of Python “autopost” scri
 pull curated RSS feeds, clean up the articles, and store them as JSON content
 for the static build.
 
+## Si funksionon pipeline-i
+
+1. **Autopost** – skriptet `autopost/*.py` lexojnë RSS, pastrojnë artikujt dhe
+   gjenerojnë skedarë JSON në dosjen `data/` (`posts.json`, `hot/`, `headline.json`,
+   etj.) që Eleventy mund të lexojë.
+2. **Rotacioni/arkivimi** – `scripts/rotate_hot_to_archive.py` zhvendos postimet e
+   vjetra nga `data/hot/` në `data/archive/` dhe përditëson manifestet që mbajnë
+   numrin e faqeve për secilin seksion.
+3. **Build-i i Eleventy** – `npm run build` (ose `npx @11ty/eleventy`) përpilon
+   të gjithë JSON-ët dhe template-t në `_site/`, gati për t’u shpërndarë nga
+   Netlify apo çdo host tjetër statik.
+
 ## Prerequisites
 
 - **Node.js 18+** (or another version supported by [Eleventy](https://www.11ty.dev/)).
@@ -48,6 +60,21 @@ This generates the static site inside the `_site/` directory. The default
 `npm run build` command runs Eleventy and then compresses every `.html` and
 `.json` output (including the archive/search trees) into `.gz` siblings so that
 the CDN can serve precompressed responses.
+
+## Testim lokal
+
+- **Instalo varësitë JavaScript:** `npm install`
+- **Bëj një build të plotë:** `npm run build`
+- **Shërbe faqen për shikim lokal:** `npx @11ty/eleventy --serve`
+- **Ekzekuto testet e Python-it:** `python -m unittest`
+- **Nis një autopost të thjeshtë:**
+
+  ```bash
+  python autopost/pull_news.py
+  ```
+
+  Shtesë: vendos `FEEDS_FILE=/rruga/ime/feeds.txt` ose `CATEGORY="Travel"`
+  për të kufizuar burimet ose për të testuar një seksion specifik.
 
 ## Client-side category loader helpers
 
@@ -113,6 +140,19 @@ Environment variables recognised by the scripts include:
 
 All autopost runs reuse `autopost/seen_all.json` to avoid duplicates. Removing
 that file forces a full refresh.
+
+## Struktura e dosjeve & JSON-et
+
+- `data/posts.json` – lista kryesore e artikujve që faqja rendit nëpër kategori.
+- `data/headline.json` – artikujt kryesorë për faqen hyrëse dhe për slider-at.
+- `data/hot/**` – shard-et aktive që mbajnë postimet më të reja për çdo kategori.
+- `data/archive/**` – arkiva mujore ku ruhen artikujt e zhvendosur nga hot.
+- `data/raw/` – ruan artikujt e papërpunuar për diagnostikim kur aktivizohet.
+- `_health/` – sinjale JSON (p.sh. `autopost.json`) për të parë nëse job-et kanë
+  funksionuar së fundi.
+- `autopost/seen_all.json` – kujtesa e deduplikimit që ndihmon skriptet të mos
+  ripërcjellin të njëjtin artikull.
+- `scripts/` – mjete ndihmëse si rotacioni i arkivit dhe monitorimi.
 
 ## Hot shard rotation
 
@@ -230,6 +270,23 @@ with:
 ```bash
 python -m unittest
 ```
+
+## Troubleshooting
+
+- **Mungon dosja `data/raw` ose rruga e ruajtjes** – Krijo dosjen me
+  `mkdir -p data/raw` ose sigurohu që përdoruesi i cron-it ka leje shkrimi. Kjo
+  dosje aktivizohet vetëm kur ruajmë artikujt bruto për auditim.
+- **`ERROR: feeds file not found`** – Kontrollo vlerën e `FEEDS_FILE`. Vendos një
+  rrugë absolute ose ruaj një kopje në `autopost/feeds_*.txt` para se të nisesh.
+- **Slug i dyfishtë gjatë autopost** – Slug-u krijohet automatikisht nga titulli.
+  Nëse haset një dublikatë, kontrollo nëse burimi ka publikuar të njëjtin titull
+  dy herë ose nëse `autopost/seen_all.json` është fshirë. Mund të shtosh një
+  sufiks të vogël në titull në `data/posts.json` dhe ta ripërsërisësh
+  ingestimin.
+- **Mungojnë paketat `trafilatura` / `readability-lxml`** – Ekzekuto
+  `pip install trafilatura readability-lxml` (ideal në një mjedis virtual me
+  `python -m venv .venv`). Pa to skriptet punojnë, por ekstraksioni i tekstit
+  është më pak i saktë.
 
 ## Deployment notes
 
