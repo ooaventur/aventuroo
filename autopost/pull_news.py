@@ -666,6 +666,37 @@ def slugify_taxonomy(value: str) -> str:
     return value.strip("-")
 
 
+def ensure_unique_slug(
+    slug: str, existing_slugs: set[str], max_length: int = 70
+) -> str:
+    """Return ``slug`` or a unique variant capped to ``max_length`` characters."""
+
+    cleaned = (slug or "").strip()
+    if not cleaned:
+        cleaned = "post"
+    cleaned = cleaned[:max_length].rstrip("-")
+    if not cleaned:
+        cleaned = "post"
+
+    candidate = cleaned
+    if candidate not in existing_slugs:
+        return candidate
+
+    suffix = 2
+    while True:
+        suffix_str = str(suffix)
+        base_length = max_length - len(suffix_str) - 1
+        base = cleaned[:base_length].rstrip("-") if base_length > 0 else ""
+        if base:
+            candidate = f"{base}-{suffix_str}"
+        else:
+            candidate = suffix_str[-max_length:]
+        candidate = candidate.rstrip("-") or suffix_str[-max_length:]
+        if candidate not in existing_slugs:
+            return candidate
+        suffix += 1
+
+
 def slug_to_label(slug: str) -> str:
     slug = (slug or "").strip()
     if not slug:
@@ -1793,6 +1824,15 @@ def _run_autopost() -> list[dict]:
     else:
         posts_idx = []
 
+    existing_slugs: set[str] = set()
+    for raw_entry in posts_idx:
+        normalized_entry = _normalize_post_entry(raw_entry)
+        if not normalized_entry:
+            continue
+        slug_value = (normalized_entry.get("slug") or "").strip()
+        if slug_value:
+            existing_slugs.add(slug_value)
+
     # Maintain posts.json for legacy clients; hot shards are updated alongside it.
 
     if not FEEDS.exists():
@@ -1807,6 +1847,7 @@ def _run_autopost() -> list[dict]:
     per_cat = {}
     per_feed_counts = {}
     new_entries = []
+    batch_slugs: set[str] = set()
 
     category_filter_raw = CATEGORY
     category_filter_norm = slugify_taxonomy(category_filter_raw)
@@ -1948,8 +1989,10 @@ def _run_autopost() -> list[dict]:
 
             # 8) Build entry
             slug_base = slugify(f"{title}-{date}")
+            slug = ensure_unique_slug(slug_base, existing_slugs)
+            canonical_path = _build_archive_canonical(slug, cat_slug, sub_slug)
             entry = {
-                "slug": slug_base,
+                "slug": slug,
                 "title": title,
                 "category": category_label,
                 "subcategory": subcategory_label,
@@ -1963,8 +2006,11 @@ def _run_autopost() -> list[dict]:
                 "author": author,
                 "rights": rights,
                 "body": body_html,
-                "canonical": _build_archive_canonical(slug_base, cat_slug, sub_slug),
+                "canonical": canonical_path,
             }
+
+            existing_slugs.add(slug)
+            batch_slugs.add(slug)
 
             # record seen and counters
             seen[key] = {"url": link, "title": title, "date": date}

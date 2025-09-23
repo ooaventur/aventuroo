@@ -262,6 +262,91 @@ class SourceNameDerivationTests(unittest.TestCase):
             pull_news.HEADLINE_JSON = original_headline_json
 
 
+class SlugUniquenessTests(unittest.TestCase):
+    def test_duplicate_titles_generate_unique_slugs_and_hot_entries(self):
+        item_element = ET.Element("item")
+        items = [
+            {
+                "title": "Repeat Story",
+                "link": "https://example.com/a",
+                "summary": "",
+                "element": item_element,
+            },
+            {
+                "title": "Repeat Story",
+                "link": "https://example.com/b",
+                "summary": "",
+                "element": item_element,
+            },
+        ]
+
+        original_feeds = pull_news.FEEDS
+        original_posts_json = pull_news.POSTS_JSON
+        original_seen_db = pull_news.SEEN_DB
+        original_data_dir = pull_news.DATA_DIR
+        original_headline_json = pull_news.HEADLINE_JSON
+
+        try:
+            with tempfile.TemporaryDirectory() as tmpdir:
+                tmp_path = pathlib.Path(tmpdir)
+                feed_file = tmp_path / "feeds.txt"
+                feed_file.write_text("Test|Sub|https://example.com/feed\n", encoding="utf-8")
+
+                pull_news.FEEDS = feed_file
+                pull_news.DATA_DIR = tmp_path
+                pull_news.POSTS_JSON = tmp_path / "posts.json"
+                pull_news.SEEN_DB = tmp_path / "seen.json"
+                pull_news.HEADLINE_JSON = tmp_path / "headline.json"
+
+                captured_hot_entries: list[dict] = []
+
+                def fake_update_hot_shards(
+                    entries, *, base_dir, max_items, per_page
+                ) -> None:
+                    del base_dir, max_items, per_page
+                    captured_hot_entries.extend(entries)
+
+                patchers = [
+                    mock.patch.object(pull_news, "fetch_bytes", return_value=b"<xml>"),
+                    mock.patch.object(pull_news, "parse_feed", return_value=items),
+                    mock.patch.object(
+                        pull_news,
+                        "extract_body_html",
+                        return_value=("<p>Body</p>", ""),
+                    ),
+                    mock.patch.object(pull_news, "pick_largest_media_url", return_value=""),
+                    mock.patch.object(pull_news, "find_cover_from_item", return_value=""),
+                    mock.patch.object(
+                        pull_news, "parse_item_date", return_value="2024-01-01"
+                    ),
+                    mock.patch.object(
+                        pull_news, "_update_hot_shards", side_effect=fake_update_hot_shards
+                    ),
+                ]
+
+                with contextlib.ExitStack() as stack:
+                    for patcher in patchers:
+                        stack.enter_context(patcher)
+                    new_entries = pull_news._run_autopost()
+
+                self.assertEqual(len(new_entries), 2)
+                slugs = [entry["slug"] for entry in new_entries]
+                self.assertEqual(len(slugs), len(set(slugs)))
+                canonicals = [entry["canonical"] for entry in new_entries]
+                self.assertEqual(len(canonicals), len(set(canonicals)))
+
+                hot_slugs = [entry["slug"] for entry in captured_hot_entries]
+                self.assertEqual(len(hot_slugs), 2)
+                self.assertEqual(len(hot_slugs), len(set(hot_slugs)))
+                self.assertEqual(set(hot_slugs), set(slugs))
+        finally:
+            pull_news.FEEDS = original_feeds
+            pull_news.POSTS_JSON = original_posts_json
+            pull_news.SEEN_DB = original_seen_db
+            pull_news.DATA_DIR = original_data_dir
+            pull_news.HEADLINE_JSON = original_headline_json
+
+
 class MaxPerFeedLimitTests(unittest.TestCase):
     def test_max_per_feed_limit(self):
         items = [
