@@ -1,10 +1,20 @@
 {
-  "items": [],
-  "count": 0,
-  "updated_at": null,
+  "items": [
+    {
+      "slug": "everything-that-s-weird-about-the-deal-to-spin-out-tiktok-2025-09-23",
+      "title": "Everything that's weird about the deal to spin out TikTok",
+      "date": "2025-09-23",
+      "cover": "https://www.platformer.news/content/images/2025/09/solen-feyissa-XfnfMlNpWDo-unsplash.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/everything-that-s-weird-about-the-deal-to-spin-out-tiktok-2025-09-23/",
+      "excerpt": "TikTok",
+      "source": "https://www.platformer.news/tiktok-deal-framework-questions/"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 0,
+    "total_items": 1,
     "per_page": 12,
-    "total_pages": 0
+    "total_pages": 1
   }
 }

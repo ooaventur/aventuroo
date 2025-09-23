@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "startups-and-founders-could-be-hardest-hit-by-100-000-h-1b-visas-2025-09-23",
+      "title": "Startups and founders could be hardest hit by $100,000 H-1B visas",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202332-17585664302025-09-22t182538z_650400807_rc26xgarsjew_rtrmadp_0_usa-trump-visa-india.jpeg?v=1758566477&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/startups-and-founders-could-be-hardest-hit-by-100-000-h-1b-visas-2025-09-23/",
+      "excerpt": "U.S. President Donald Trump's plans to place $100,000 fees on H-1B visa applications will disproportionately harm America's startup space, founders and venture capitalists told CNBC this week.",
+      "source": "https://www.cnbc.com/2025/09/23/startups-and-founders-could-be-hardest-hit-by-100000-h-1b-visas.html"
+    },
+    {
+      "slug": "chinese-ev-giant-byd-says-it-has-a-backup-plan-if-it-s-cut-off-from-nvidia-chips-2025-09-23",
+      "title": "Chinese EV giant BYD says it has a backup plan if it's cut off from Nvidia chips",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108181595-1754395400482-gettyimages-2216640808-2s4a4193_ksrfxl5k.jpeg?v=1756691911&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/chinese-ev-giant-byd-says-it-has-a-backup-plan-if-it-s-cut-off-from-nvidia-chips-2025-09-23/",
+      "excerpt": "BYD has a backup plan if it gets cut off from the Nvidia chips it currently uses in its cars, a top executive at the Chinese electric carmaker told CNBC on Tuesday.",
+      "source": "https://www.cnbc.com/2025/09/23/chinas-byd-says-it-has-a-backup-plan-if-cut-off-from-nvidia-chips.html"
+    },
+    {
+      "slug": "amazon-to-close-all-of-its-fresh-grocery-stores-in-uk-2025-09-23",
+      "title": "Amazon to close all of its Fresh grocery stores in UK",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/106933926-1630004596799-gettyimages-1234878527-AFP_9LP622.jpeg?v=1758634419&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amazon-to-close-all-of-its-fresh-grocery-stores-in-uk-2025-09-23/",
+      "excerpt": "Amazon plans to close all of its Fresh supermarkets in the U.K., in the latest recalibration of its grocery strategy.",
+      "source": "https://www.cnbc.com/2025/09/23/amazon-closing-fresh-grocery-stores-uk.html"
+    },
+    {
+      "slug": "amazon-faces-off-against-ftc-over-deceptive-prime-program-2025-09-23",
+      "title": "Amazon faces off against FTC over 'deceptive' Prime program",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108094121-1738164372981-gettyimages-1243766001-AMAZON_PRIME_DAY.jpeg?v=1743620116&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amazon-faces-off-against-ftc-over-deceptive-prime-program-2025-09-23/",
+      "excerpt": "Amazon and the Federal Trade Commission are squaring off in a long-awaited trial over whether the company duped users into paying for Prime memberships.",
+      "source": "https://www.cnbc.com/2025/09/23/amazon-faces-off-against-ftc-over-deceptive-prime-program.html"
+    },
+    {
+      "slug": "altman-huang-and-the-last-minute-negotiations-that-sealed-the-100-billion-openai-nvidia-deal-2025-09-23",
+      "title": "Altman, Huang and the last-minute negotiations that sealed the $100 billion OpenAI-Nvidia deal",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202501-1758585935917-Untitled-4.jpg?v=1758586002&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/altman-huang-and-the-last-minute-negotiations-that-sealed-the-100-billion-openai-nvidia-deal-2025-09-23/",
+      "excerpt": "ABILENE, Texas – Sam Altman had a deadline. OpenAI's CEO was headed to Texas to unveil his company's next big infrastructure push, and Nvidia CEO Jensen Huang wanted in on the action.",
+      "source": "https://www.cnbc.com/2025/09/23/altman-huang-negotiations-that-sealed-100-billion-openai-nvidia-deal.html"
+    },
+    {
       "slug": "apple-takes-control-of-all-core-chips-in-iphone-air-with-new-architecture-to-prioritize-ai-2025-09-21",
       "title": "Apple takes control of all core chips in iPhone Air with new architecture to prioritize AI",
       "date": "2025-09-21",
@@ -190,11 +235,11 @@
       "source": "https://www.cnbc.com/2025/09/17/amazon-ai-agent-sellers.html"
     }
   ],
-  "count": 21,
-  "updated_at": "2025-09-21",
+  "count": 26,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 21,
+    "total_items": 26,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

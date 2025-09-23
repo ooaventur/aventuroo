@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "this-is-your-dream-airbnb-according-to-your-zodiac-sign-2025-09-22",
+      "title": "This Is Your Dream Airbnb, According to Your Zodiac Sign",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68d1b7e04eb4f5116c72884b/master/pass/092225-Airbnb-Zodiac-Lede-899282881983430496.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/this-is-your-dream-airbnb-according-to-your-zodiac-sign-2025-09-22/",
+      "excerpt": "Paris Wilson",
+      "source": "https://www.cntraveler.com/gallery/best-airbnb-for-every-zodiac-sign"
+    },
+    {
+      "slug": "the-best-way-to-see-rome-on-a-running-tour-at-sunrise-2025-09-22",
+      "title": "The Best Way to See Rome? On a Running Tour at Sunrise",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68cd99c19d3068c229e9d311/master/pass/091925-Running-Tours-Rome-GettyImages-1199413068.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-way-to-see-rome-on-a-running-tour-at-sunrise-2025-09-22/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/the-best-way-to-see-rome-on-a-running-tour-at-sunrise"
+    },
+    {
+      "slug": "luggage-week-2025-the-essential-guide-to-suitcases-and-bags-2025-09-22",
+      "title": "Luggage Week 2025: The Essential Guide to Suitcases and Bags",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68cc79f11fd4f496c556ec28/master/pass/250824_CNT_Luggage-Week_003-webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/luggage-week-2025-the-essential-guide-to-suitcases-and-bags-2025-09-22/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/luggage-week-2025"
+    },
+    {
+      "slug": "italy-broke-my-heart-ten-years-later-i-went-back-2025-09-22",
+      "title": "Italy Broke My Heart—Ten Years Later, I Went Back",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/68d1c0339764f78330e37921/master/pass/092225-Fell-Out-Of-Love-Italy-PR-Global-GettyImages-1640307931webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/italy-broke-my-heart-ten-years-later-i-went-back-2025-09-22/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/italy-broke-my-heart-ten-years-later-i-went-back"
+    },
+    {
+      "slug": "20-best-hotels-in-valencia-spain-2025-2025-09-22",
+      "title": "20 Best Hotels in Valencia, Spain (2025)",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/6661d568880d872867f42c4d/master/pass/BACON-STUDIO-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/20-best-hotels-in-valencia-spain-2025-2025-09-22/",
+      "excerpt": "María Casbas",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-valencia"
+    },
+    {
       "slug": "your-bryce-canyon-country-adventures-start-at-these-luxe-glampgrounds-2025-09-19",
       "title": "Your Bryce Canyon Country Adventures Start at These Luxe Glampgrounds",
       "date": "2025-09-19",
@@ -226,10 +271,10 @@
       "source": "https://www.atlasobscura.com/articles/podcast-grave-charlotte-temple"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-09-19",
+  "count": 30,
+  "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 25,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

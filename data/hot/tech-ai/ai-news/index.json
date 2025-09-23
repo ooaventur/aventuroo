@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word-2025-09-23",
+      "title": "Meet VoXtream: An Open-Sourced Full-Stream Zero-Shot TTS Model for Real-Time Use that Begins Speaking from the First Word",
+      "date": "2025-09-23",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-86.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word-2025-09-23/",
+      "excerpt": "Real-time agents, live dubbing, and simultaneous translation die by a thousand milliseconds. Most “streaming” TTS (Text to Speech) stacks still wait for a chunk of text before they emit sound, so the human hears a beat of silence before the voice starts. VoXtream—released by K…",
+      "source": "https://www.marktechpost.com/2025/09/23/meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word/"
+    },
+    {
+      "slug": "how-to-create-reliable-conversational-ai-agents-using-parlant-2025-09-23",
+      "title": "How to Create Reliable Conversational AI Agents Using Parlant?",
+      "date": "2025-09-23",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-84.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-create-reliable-conversational-ai-agents-using-parlant-2025-09-23/",
+      "excerpt": "Parlant is a framework designed to help developers build production-ready AI agents that behave consistently and reliably. A common challenge when deploying large language model (LLM) agents is that they often perform well in testing but fail when interacting with real users. …",
+      "source": "https://www.marktechpost.com/2025/09/22/how-to-create-reliable-conversational-ai-agents-using-parlant/"
+    },
+    {
+      "slug": "perplexity-launches-an-ai-email-assistant-agent-for-gmail-and-outlook-aimed-at-scheduling-drafting-and-inbox-triage-2025-09-22",
+      "title": "Perplexity Launches an AI Email Assistant Agent for Gmail and Outlook, Aimed at Scheduling, Drafting, and Inbox Triage",
+      "date": "2025-09-22",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-82.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/perplexity-launches-an-ai-email-assistant-agent-for-gmail-and-outlook-aimed-at-scheduling-drafting-and-inbox-triage-2025-09-22/",
+      "excerpt": "Perplexity introduced “ Email Assistant ,” an AI agent that plugs into Gmail and Outlook to draft replies in your voice, auto-label and prioritize messages, and coordinate meetings end-to-end (availability checks, time suggestions, and calendar invites). The feature is restric…",
+      "source": "https://www.marktechpost.com/2025/09/22/perplexity-launches-an-ai-email-assistant-agent-for-gmail-and-outlook-aimed-at-scheduling-drafting-and-inbox-triage/"
+    },
+    {
+      "slug": "microsoft-brings-mcp-to-azure-logic-apps-standard-in-public-preview-turning-connectors-into-agent-tools-2025-09-22",
+      "title": "Microsoft Brings MCP to Azure Logic Apps (Standard) in Public Preview, Turning Connectors into Agent Tools",
+      "date": "2025-09-22",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-83.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-brings-mcp-to-azure-logic-apps-standard-in-public-preview-turning-connectors-into-agent-tools-2025-09-22/",
+      "excerpt": "Microsoft has released a public preview that enables Azure Logic Apps (Standard) to run as Model Context Protocol (MCP) servers , exposing Logic Apps workflows as agent tools discoverable and callable by MCP-capable clients (e.g., VS Code + Copilot).",
+      "source": "https://www.marktechpost.com/2025/09/22/microsoft-brings-mcp-to-azure-logic-apps-standard-in-public-preview-turning-connectors-into-agent-tools/"
+    },
+    {
+      "slug": "alibaba-qwen-team-just-released-fp8-builds-of-qwen3-next-80b-a3b-instruct-thinking-bringing-80b-3b-active-hybrid-moe-to-commodity-gpus-2025-09-22",
+      "title": "Alibaba Qwen Team Just Released FP8 Builds of Qwen3-Next-80B-A3B (Instruct & Thinking), Bringing 80B/3B-Active Hybrid-MoE to Commodity GPUs",
+      "date": "2025-09-22",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-81.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/alibaba-qwen-team-just-released-fp8-builds-of-qwen3-next-80b-a3b-instruct-thinking-bringing-80b-3b-active-hybrid-moe-to-commodity-gpus-2025-09-22/",
+      "excerpt": "Alibaba’s Qwen team has just released FP8-quantized checkpoints for its new Qwen3-Next-80B-A3B models in two post-training variants— Instruct and",
+      "source": "https://www.marktechpost.com/2025/09/22/alibaba-qwen-team-just-released-fp8-builds-of-qwen3-next-80b-a3b-instruct-thinking-bringing-80b-3b-active-hybrid-moe-to-commodity-gpus/"
+    },
+    {
       "slug": "llm-as-a-judge-where-do-its-signals-break-when-do-they-hold-and-what-should-evaluation-mean-2025-09-21",
       "title": "LLM-as-a-Judge: Where Do Its Signals Break, When Do They Hold, and What Should “Evaluation” Mean?",
       "date": "2025-09-21",
@@ -46,10 +91,10 @@
       "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-09-21",
+  "count": 10,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "vinod-khosla-on-ai-moonshots-and-building-enduring-startups-all-at-techcrunch-disrupt-2025-2025-09-23",
+      "title": "Vinod Khosla on AI, moonshots, and building enduring startups — all at TechCrunch Disrupt 2025",
+      "date": "2025-09-23",
+      "cover": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2181599313.jpg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/vinod-khosla-on-ai-moonshots-and-building-enduring-startups-all-at-techcrunch-disrupt-2025-2025-09-23/",
+      "excerpt": "Few investors speak as bluntly — or think as big — as Vinod Khosla. The Khosla Ventures’ founder has never shied away from calling out hype, doubling down on ambitious bets, and pushing founders to look beyond incremental progress.",
+      "source": "https://techcrunch.com/2025/09/23/vinod-khosla-on-ai-moonshots-and-building-enduring-startups-all-at-techcrunch-disrupt-2025/"
+    },
+    {
+      "slug": "strictlyvc-at-techcrunch-disrupt-2025-the-full-lp-track-agenda-revealed-2025-09-23",
+      "title": "StrictlyVC at TechCrunch Disrupt 2025: The full LP track agenda revealed",
+      "date": "2025-09-23",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/06/54599380127_df4ede7c18_c.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/strictlyvc-at-techcrunch-disrupt-2025-the-full-lp-track-agenda-revealed-2025-09-23/",
+      "excerpt": "StrictlyVC is back at",
+      "source": "https://techcrunch.com/2025/09/23/strictlyvc-at-disrupt-2025-the-full-lp-track-agenda-revealed/"
+    },
+    {
+      "slug": "mercor-s-brendan-foody-breaks-down-ai-s-impact-on-hiring-at-techcrunch-disrupt-2025-2025-09-23",
+      "title": "Mercor’s Brendan Foody breaks down AI’s impact on hiring at TechCrunch Disrupt 2025",
+      "date": "2025-09-23",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/TC25_Brendan-Foody-Speaker-16x9-Dark.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/mercor-s-brendan-foody-breaks-down-ai-s-impact-on-hiring-at-techcrunch-disrupt-2025-2025-09-23/",
+      "excerpt": "The future of work is no longer on the horizon — it’s being redefined in real time.",
+      "source": "https://techcrunch.com/2025/09/23/techcrunch-disrupt-2025-what-ai-means-for-who-gets-hired-next/"
+    },
+    {
+      "slug": "alloy-is-bringing-data-management-to-the-robotics-industry-2025-09-23",
+      "title": "Alloy is bringing data management to the robotics industry",
+      "date": "2025-09-23",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/ALY00_Stills-2-1.jpg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/alloy-is-bringing-data-management-to-the-robotics-industry-2025-09-23/",
+      "excerpt": "Robotics companies often have to deal with a simple but confounding problem: Robots produce a lot of data. Even a simple robot can easily produce up to a terabyte of data per day, since they continuously capture data from cameras and sensors.",
+      "source": "https://techcrunch.com/2025/09/23/alloy-is-bringing-data-management-to-the-robotics-industry/"
+    },
+    {
+      "slug": "ai-company-superpanel-raises-5-3m-seed-to-automate-legal-intake-2025-09-23",
+      "title": "AI company Superpanel raises $5.3M seed to automate legal intake",
+      "date": "2025-09-23",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/Superpanel-Founders.png?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/ai-company-superpanel-raises-5-3m-seed-to-automate-legal-intake-2025-09-23/",
+      "excerpt": "For Julien Emery, the problem has always been personal.",
+      "source": "https://techcrunch.com/2025/09/23/superpanel-raises-5-3m-seed-to-automate-legal-intake/"
+    },
+    {
       "slug": "6-days-left-last-chance-for-regular-bird-savings-for-techcrunch-disrupt-2025-passes-2025-09-21",
       "title": "6 days left: Last chance for Regular Bird savings for TechCrunch Disrupt 2025 passes",
       "date": "2025-09-21",
@@ -181,11 +226,11 @@
       "source": "https://techcrunch.com/2025/09/17/the-new-face-of-defense-tech-takes-the-ai-stage-at-techcrunch-disrupt-2025/"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-09-21",
+  "count": 25,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

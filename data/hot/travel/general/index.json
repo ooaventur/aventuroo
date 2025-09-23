@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "slug": "the-best-hard-shell-luggage-of-2025-tested-by-our-editors-2025-09-23",
+      "title": "The Best Hard-Shell Luggage of 2025, Tested by Our Editors",
+      "date": "2025-09-23",
+      "cover": "https://media.cntraveler.com/photos/68cc79f0b6495858450c4cd0/master/pass/250824_CNT_Luggage-Week_005-webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-hard-shell-luggage-of-2025-tested-by-our-editors-2025-09-23/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/best-hard-shell-luggage"
+    },
+    {
+      "slug": "the-best-checked-luggage-tested-reviewed-by-our-editors-2025-2025-09-23",
+      "title": "The Best Checked Luggage, Tested & Reviewed by Our Editors (2025)",
+      "date": "2025-09-23",
+      "cover": "https://media.cntraveler.com/photos/68cc79edb6495858450c4ccd/master/pass/250824_CNT_Luggage-Week_009-webres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-checked-luggage-tested-reviewed-by-our-editors-2025-2025-09-23/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/best-checked-luggage"
+    },
+    {
+      "slug": "new-york-city-s-most-iconic-foods-and-where-to-get-them-2025-09-23",
+      "title": "New York City's Most Iconic Foods—and Where to Get Them",
+      "date": "2025-09-23",
+      "cover": "https://media.cntraveler.com/photos/68d1a7c5e9fe61640c78df5a/master/pass/092225-NYC-Iconic-Dishes-Russ%20&%20Daughters-PR-Global-bagelwebres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/new-york-city-s-most-iconic-foods-and-where-to-get-them-2025-09-23/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/new-york-citys-most-iconic-foods-and-where-to-get-them"
+    },
+    {
+      "slug": "37-best-hotels-in-dubai-from-towering-skyscrapers-to-remote-desert-resorts-2025-09-23",
+      "title": "37 Best Hotels in Dubai, From Towering Skyscrapers to Remote Desert Resorts",
+      "date": "2025-09-23",
+      "cover": "https://media.cntraveler.com/photos/5a78ab28f5d3603bc3e2a032/master/pass/Jumeriah-Dar-Al-Masyaf__2018_Madinat-Jumeirah---Jumeirah-Dar-Al-Masyaf---private-pool.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/37-best-hotels-in-dubai-from-towering-skyscrapers-to-remote-desert-resorts-2025-09-23/",
+      "excerpt": "Laura Ratliff and",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-dubai"
+    },
+    {
+      "slug": "14-best-hotels-in-atlanta-2025-09-22",
+      "title": "14 Best Hotels in Atlanta",
+      "date": "2025-09-22",
+      "cover": "https://media.cntraveler.com/photos/67853fe3de479dfa2b98fe2e/master/pass/FORTH-Atlanta---Terrace-2---By-Matthew-Williams.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/14-best-hotels-in-atlanta-2025-09-22/",
+      "excerpt": "Lia Picard and",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-atlanta"
+    },
+    {
       "slug": "our-editors-share-their-fall-travel-plans-and-packing-lists-2025-09-21",
       "title": "Our Editors Share Their Fall Travel Plans and Packing Lists",
       "date": "2025-09-21",
@@ -199,11 +244,11 @@
       "source": "https://www.cntraveler.com/gallery/best-countryside-airbnbs"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-09-21",
+  "count": 27,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 22,
+    "total_items": 27,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

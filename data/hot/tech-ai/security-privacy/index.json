@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "slug": "dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate-2025-11-13",
+      "title": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "date": "2025-11-13",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4270edce6c855a0e/68d1c2be0a60f31b66d5e09e/DRVE_Event_20251113_(1).png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate-2025-11-13/",
+      "excerpt": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "source": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate"
+    },
+    {
+      "slug": "sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware-2025-09-23",
+      "title": "SonicWall releases SMA100 firmware update to wipe rootkit malware",
+      "date": "2025-09-23",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/04/18/SonicWall.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware-2025-09-23/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/sonicwall-releases-sma100-firmware-update-to-wipe-rootkit-malware/"
+    },
+    {
+      "slug": "solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug-2025-09-23",
+      "title": "SolarWinds releases third patch to fix Web Help Desk RCE bug",
+      "date": "2025-09-23",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/02/16/solarwinds_headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug-2025-09-23/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/"
+    },
+    {
+      "slug": "police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses-2025-09-23",
+      "title": "Police dismantles crypto fraud ring linked to €100 million in losses",
+      "date": "2025-09-23",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/28/police-arrest-hacker.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses-2025-09-23/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/police-dismantles-crypto-fraud-ring-linked-to-100-million-in-losses/"
+    },
+    {
+      "slug": "cisa-says-hackers-breached-federal-agency-using-geoserver-exploit-2025-09-23",
+      "title": "CISA says hackers breached federal agency using GeoServer exploit",
+      "date": "2025-09-23",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/01/13/CISA--headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisa-says-hackers-breached-federal-agency-using-geoserver-exploit-2025-09-23/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/cisa-says-hackers-breached-federal-agency-using-geoserver-exploit/"
+    },
+    {
+      "slug": "5-ways-to-streamline-identity-governance-with-this-free-tool-2025-09-23",
+      "title": "5 ways to streamline Identity Governance with this free tool",
+      "date": "2025-09-23",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/09/17/tenfold-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/5-ways-to-streamline-identity-governance-with-this-free-tool-2025-09-23/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/5-ways-to-streamline-identity-governance-with-this-free-tool/"
+    },
+    {
+      "slug": "iran-linked-hackers-target-europe-with-new-malware-2025-09-22",
+      "title": "Iran-Linked Hackers Target Europe With New Malware",
+      "date": "2025-09-22",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltadf85273d19e0ede/68d1ab774c68b01d432a44fa/iran_karen_roach_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/iran-linked-hackers-target-europe-with-new-malware-2025-09-22/",
+      "excerpt": "&quot;Nimbus Manticore&quot; is back at it, this time with improved variants of its flagship malware and targets that are outside its usual focus area.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware"
+    },
+    {
+      "slug": "attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22",
+      "title": "Attackers Use Phony GitHub Pages to Deliver Mac Malware",
+      "date": "2025-09-22",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt41cce174721d784d/68d19b447459c6584b5efbbf/Mac_lock_Igi_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22/",
+      "excerpt": "Threat actors are using a large-scale SEO poisoning campaign and fake GitHub repositories to deliver Atomic infostealers to Mac users.",
+      "source": "https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware"
+    },
+    {
+      "slug": "airport-chaos-shows-human-impact-of-3rd-party-attacks-2025-09-22",
+      "title": "Airport Chaos Shows Human Impact of 3rd-Party Attacks",
+      "date": "2025-09-22",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0fbc166be57186f1/68d134c0169b3f00b5744bb0/airport_Tupungato_shutterstock.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/airport-chaos-shows-human-impact-of-3rd-party-attacks-2025-09-22/",
+      "excerpt": "Major EU airports such as Heathrow were disrupted over the weekend after a cyberattack hit the provider of check-in kiosk software, which caused delays and flight cancellations.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/airport-chaos-human-impact-3rd-party-attacks"
+    },
+    {
+      "slug": "15-years-of-zero-trust-why-it-matters-more-than-ever-2025-09-22",
+      "title": "15 Years of Zero Trust: Why It Matters More Than Ever",
+      "date": "2025-09-22",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc224f5e38ff56e18/68cdbe9f243d1a8cbbd473b2/zerotrust_Olivier_Le_Moa_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/15-years-of-zero-trust-why-it-matters-more-than-ever-2025-09-22/",
+      "excerpt": "With the emergence of AI-driven attacks and quantum computing, and the explosion of hyperconnected devices, zero trust remains a core strategy for security operations.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever"
+    },
+    {
       "slug": "canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20",
       "title": "Canada dismantles TradeOgre exchange, seizes $40 million in crypto",
       "date": "2025-09-20",
@@ -451,10 +541,10 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 50,
-  "updated_at": "2025-09-20",
+  "count": 60,
+  "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 50,
+    "total_items": 60,
     "per_page": 12,
     "total_pages": 5
   }
