@@ -1,0 +1,7 @@
+/data/archive/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/data/*
+  Cache-Control: public, max-age=86400, immutable
+  Access-Control-Allow-Origin: *
