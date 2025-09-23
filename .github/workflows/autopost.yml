@@ -38,6 +38,9 @@ jobs:
       - name: Build feeds
         run: python scripts/build_feeds.py
 
+      - name: Validate feeds
+        run: python scripts/validate_feeds.py
+
       - name: Upload autopost debug artifact
         uses: actions/upload-artifact@v4
         with:
