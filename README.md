@@ -97,7 +97,12 @@ python scripts/rotate_hot_to_archive.py --retention-days 45
 
 Retention knobs:
 
-- `HOT_RETENTION_DAYS` – number of days to keep in `data/hot` (default: `30`).
+- `config.json` → `window_days` – fallback retention window when no CLI or
+  environment overrides are provided.
+- `config.json` → `archive_on_days` – exported for schedulers/cron jobs that
+  coordinate how frequently the rotation should run.
+- `HOT_RETENTION_DAYS` – overrides the retention window from `window_days` when
+  set (defaulting to the config value).
 - `HOT_PAGINATION_SIZE` – pagination size used when computing manifest counts
   (default: `12`).
 
