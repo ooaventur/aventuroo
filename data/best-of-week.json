@@ -1,1 +1,19 @@
-{}
+{
+  "items": [
+    {
+      "slug": "local-innovation-hub-launches-new-stem-programs-2025-02-17",
+      "excerpt": "River City mentors launch new robotics and coding labs for local students.",
+      "cover": "https://example.com/images/innovation-hub.jpg"
+    },
+    {
+      "slug": "community-garden-network-expands-to-ten-neighborhoods-2025-02-17",
+      "excerpt": "Community growers celebrate ten thriving neighborhood garden hubs.",
+      "cover": "https://example.com/images/community-garden.jpg"
+    },
+    {
+      "slug": "downtown-transit-center-adds-weekend-express-service-2025-02-17",
+      "excerpt": "New express buses connect arts venues with downtown every weekend.",
+      "cover": "https://example.com/images/transit-center.jpg"
+    }
+  ]
+}

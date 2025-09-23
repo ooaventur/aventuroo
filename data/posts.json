@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "local-innovation-hub-launches-new-stem-programs-2025-02-17",
+    "title": "Local Innovation Hub Launches New STEM Programs",
+    "category": "News",
+    "subcategory": "Local",
+    "category_slug": "news/local",
+    "date": "2025-02-17",
+    "excerpt": "The River City Innovation Hub announced a slate of new STEM workshops aimed at middle school students.",
+    "cover": "https://example.com/images/innovation-hub.jpg",
+    "source": "file:///workspace/aventuroo/autopost/local_articles/article1.html",
+    "source_domain": "",
+    "source_name": "News",
+    "author": "AventurOO Editorial",
+    "rights": "Unknown",
+    "body": "<div><body id=\"readabilityBody\">\n  <article>\n    <h1>Local Innovation Hub Launches New STEM Programs</h1>\n    <p>The River City Innovation Hub announced a slate of new STEM workshops aimed at middle school students.</p>\n    <p>The programs cover robotics, creative coding, and environmental science with an emphasis on hands-on experimentation.</p>\n    <p>Organizers say scholarships remain available for students from underserved neighborhoods across the metro area.</p>\n  </article>\n  <figure>\n    <img src=\"https://example.com/images/innovation-hub.jpg\" alt=\"Innovation Hub\">\n    <figcaption>Students collaborating on a robotics challenge.</figcaption>\n  </figure>\n</body>\n</div>",
+    "canonical": "https://archive.aventuroo.com/news/local/local-innovation-hub-launches-new-stem-programs-2025-02-17/"
+  },
+  {
+    "slug": "community-garden-network-expands-to-ten-neighborhoods-2025-02-17",
+    "title": "Community Garden Network Expands to Ten Neighborhoods",
+    "category": "News",
+    "subcategory": "Local",
+    "category_slug": "news/local",
+    "date": "2025-02-17",
+    "excerpt": "Volunteers celebrated the opening of five new community gardens that will provide fresh produce and nutrition classes.",
+    "cover": "https://example.com/images/community-garden.jpg",
+    "source": "file:///workspace/aventuroo/autopost/local_articles/article2.html",
+    "source_domain": "",
+    "source_name": "News",
+    "author": "AventurOO Editorial",
+    "rights": "Unknown",
+    "body": "<div><body id=\"readabilityBody\">\n  <article>\n    <h1>Community Garden Network Expands to Ten Neighborhoods</h1>\n    <p>Volunteers celebrated the opening of five new community gardens that will provide fresh produce and nutrition classes.</p>\n    <p>The expansion brings the total number of neighborhood gardens to ten, supporting more than 1,500 local families.</p>\n    <p>Upcoming workshops will focus on composting, seed saving, and drought-resistant planting strategies.</p>\n  </article>\n  <figure>\n    <img src=\"https://example.com/images/community-garden.jpg\" alt=\"Community Garden\">\n    <figcaption>Gardeners gather for the first spring planting event.</figcaption>\n  </figure>\n</body>\n</div>",
+    "canonical": "https://archive.aventuroo.com/news/local/community-garden-network-expands-to-ten-neighborhoods-2025-02-17/"
+  },
+  {
+    "slug": "downtown-transit-center-adds-weekend-express-service-2025-02-17",
+    "title": "Downtown Transit Center Adds Weekend Express Service",
+    "category": "News",
+    "subcategory": "Local",
+    "category_slug": "news/local",
+    "date": "2025-02-17",
+    "excerpt": "The transit authority introduced weekend express buses linking downtown with major cultural districts.",
+    "cover": "https://example.com/images/transit-center.jpg",
+    "source": "file:///workspace/aventuroo/autopost/local_articles/article3.html",
+    "source_domain": "",
+    "source_name": "News",
+    "author": "AventurOO Editorial",
+    "rights": "Unknown",
+    "body": "<div><body id=\"readabilityBody\">\n  <article>\n    <h1>Downtown Transit Center Adds Weekend Express Service</h1>\n    <p>The transit authority introduced weekend express buses linking downtown with major cultural districts.</p>\n    <p>The pilot schedule aims to shorten travel times for theater, museum, and stadium visitors throughout the summer.</p>\n    <p>Ridership data will be reviewed in September before the service is made permanent.</p>\n  </article>\n  <figure>\n    <img src=\"https://example.com/images/transit-center.jpg\" alt=\"Transit Center\">\n    <figcaption>New express buses staged outside the renovated transit center.</figcaption>\n  </figure>\n</body>\n</div>",
+    "canonical": "https://archive.aventuroo.com/news/local/downtown-transit-center-adds-weekend-express-service-2025-02-17/"
+  }
+]

@@ -1,0 +1,1 @@
+News|Local|file:///workspace/aventuroo/autopost/test_feed.xml

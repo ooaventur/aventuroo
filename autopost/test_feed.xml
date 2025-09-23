@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Aventuroo Local Test Feed</title>
+    <link>file:///workspace/aventuroo/autopost/test_feed.xml</link>
+    <description>Local stories for development verification</description>
+    <item>
+      <title>Local Innovation Hub Launches New STEM Programs</title>
+      <link>file:///workspace/aventuroo/autopost/local_articles/article1.html</link>
+      <pubDate>Mon, 17 Feb 2025 09:30:00 GMT</pubDate>
+      <guid>local-innovation-hub-2025</guid>
+      <description><![CDATA[Innovation hub introduces hands-on STEM workshops for students.]]></description>
+    </item>
+    <item>
+      <title>Community Garden Network Expands to Ten Neighborhoods</title>
+      <link>file:///workspace/aventuroo/autopost/local_articles/article2.html</link>
+      <pubDate>Mon, 17 Feb 2025 12:00:00 GMT</pubDate>
+      <guid>community-garden-network-2025</guid>
+      <description><![CDATA[Volunteers celebrate as community gardens reach more neighborhoods.]]></description>
+    </item>
+    <item>
+      <title>Downtown Transit Center Adds Weekend Express Service</title>
+      <link>file:///workspace/aventuroo/autopost/local_articles/article3.html</link>
+      <pubDate>Mon, 17 Feb 2025 15:45:00 GMT</pubDate>
+      <guid>downtown-transit-center-2025</guid>
+      <description><![CDATA[Transit authority launches express weekend buses linking cultural districts.]]></description>
+    </item>
+  </channel>
+</rss>
