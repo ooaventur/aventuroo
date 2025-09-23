@@ -91,6 +91,15 @@
       "source": "https://allthatsinteresting.com/japanese-internment-camps"
     },
     {
+      "slug": "the-history-of-witches-how-christianity-and-misogyny-turned-revered-healers-into-wicked-pariahs-2025-09-21",
+      "title": "The History Of Witches: How Christianity And Misogyny Turned Revered Healers Into Wicked Pariahs",
+      "date": "2025-09-21",
+      "cover": "https://www.youtube.com/embed/LiqFVEZZMso",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-history-of-witches-how-christianity-and-misogyny-turned-revered-healers-into-wicked-pariahs-2025-09-21/",
+      "excerpt": "A fearsome being of fairytale and myth, the witch has carved out a home in nearly every culture across the world and time. Indeed, the witch represents the dark side of the female presence: she has power that cannot be controlled.",
+      "source": "https://allthatsinteresting.com/history-of-witches"
+    },
+    {
       "slug": "denise-williams-the-florida-woman-who-almost-got-away-with-orchestrating-her-husband-s-brutal-murder-2025-09-21",
       "title": "Denise Williams, The Florida Woman Who Almost Got Away With Orchestrating Her Husband’s Brutal Murder",
       "date": "2025-09-21",
@@ -253,10 +262,10 @@
       "source": "https://allthatsinteresting.com/egypt-tell-el-farain-canopus-decree"
     }
   ],
-  "count": 28,
+  "count": 29,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 28,
+    "total_items": 29,
     "per_page": 12,
     "total_pages": 3
   }

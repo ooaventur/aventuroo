@@ -136,6 +136,15 @@
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever"
     },
     {
+      "slug": "microsoft-entra-id-flaw-allowed-hijacking-any-company-s-tenant-2025-09-21",
+      "title": "Microsoft Entra ID flaw allowed hijacking any company's tenant",
+      "date": "2025-09-21",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/21/MIcrosoft_Entra_ID.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-entra-id-flaw-allowed-hijacking-any-company-s-tenant-2025-09-21/",
+      "excerpt": "",
+      "source": "https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/"
+    },
+    {
       "slug": "canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20",
       "title": "Canada dismantles TradeOgre exchange, seizes $40 million in crypto",
       "date": "2025-09-20",
@@ -631,10 +640,10 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 70,
+  "count": 71,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 70,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }

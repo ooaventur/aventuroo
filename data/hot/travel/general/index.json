@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "new-york-city-s-most-iconic-foods-and-where-to-get-them-2025-09-23",
+      "title": "New York City's Most Iconic Foods—and Where to Get Them",
+      "date": "2025-09-23",
+      "cover": "https://media.cntraveler.com/photos/68d1a7c5e9fe61640c78df5a/master/pass/092225-NYC-Iconic-Dishes-Russ%20&%20Daughters-PR-Global-bagelwebres-final.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/new-york-city-s-most-iconic-foods-and-where-to-get-them-2025-09-23/",
+      "excerpt": "All products and listings featured on Condé Nast Traveler are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
+      "source": "https://www.cntraveler.com/story/new-york-citys-most-iconic-foods-and-where-to-get-them"
+    },
+    {
       "slug": "this-is-your-dream-airbnb-according-to-your-zodiac-sign-2025-09-22",
       "title": "This Is Your Dream Airbnb, According to Your Zodiac Sign",
       "date": "2025-09-22",
@@ -244,10 +253,10 @@
       "source": "https://www.cntraveler.com/gallery/best-countryside-airbnbs"
     }
   ],
-  "count": 27,
-  "updated_at": "2025-09-22",
+  "count": 28,
+  "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 27,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

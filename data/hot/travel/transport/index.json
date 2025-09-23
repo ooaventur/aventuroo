@@ -19,6 +19,15 @@
       "source": "https://simpleflying.com/why-delta-air-lines-cancel-order-boeing-787s/"
     },
     {
+      "slug": "uzbekistan-airways-orders-up-to-22-boeing-787-9-dreamliners-2025-09-23",
+      "title": "Uzbekistan Airways Orders Up To 22 Boeing 787-9 Dreamliners",
+      "date": "2025-09-23",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/boeing_787_dreamliner.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/uzbekistan-airways-orders-up-to-22-boeing-787-9-dreamliners-2025-09-23/",
+      "excerpt": "Uzbekistan Airways has placed an order for up to 22 examples of the mid-sized Boeing 787-9 from the US planemaker's Dreamliner family of widebody twinjets. Consisting of both firm orders and options for more down the line, the carrier plans to use the type to modernize its fle…",
+      "source": "https://simpleflying.com/uzbekistan-airways-boeing-787-order/"
+    },
+    {
       "slug": "united-airlines-longest-nonstop-routes-with-the-boeing-787-9-in-2025-2025-09-23",
       "title": "United Airlines’ Longest Nonstop Routes With The Boeing 787-9 In 2025",
       "date": "2025-09-23",
@@ -26,6 +35,33 @@
       "canonical": "https://archive.aventuroo.com/travel/transport/united-airlines-longest-nonstop-routes-with-the-boeing-787-9-in-2025-2025-09-23/",
       "excerpt": "",
       "source": "https://simpleflying.com/united-airlines-longest-nonstop-routes-boeing-787-9-2025/"
+    },
+    {
+      "slug": "spirit-airlines-furloughing-1-800-flight-attendants-ahead-of-holiday-travel-season-2025-09-23",
+      "title": "Spirit Airlines Furloughing 1,800 Flight Attendants Ahead Of Holiday Travel Season",
+      "date": "2025-09-23",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/shutterstock_2439227217.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/spirit-airlines-furloughing-1-800-flight-attendants-ahead-of-holiday-travel-season-2025-09-23/",
+      "excerpt": "CNBC is reporting that Spirit Airlines will be furloughing 1,800 flight attendants in its latest attempt to cut costs . December 1, 2025, following a period of voluntary leaves, which will begin on November 1. The airline says the move is necessary to align staffing with its r…",
+      "source": "https://simpleflying.com/spirit-airlines-furloughing-1800-flight-attendants-ahead-of-holiday-travel-season/"
+    },
+    {
+      "slug": "russia-plans-to-extend-first-private-railway-2025-09-23",
+      "title": "Russia plans to extend first private railway",
+      "date": "2025-09-23",
+      "cover": "https://www.railjournal.com/wp-content/uploads/2025/09/IPEM-Russian-wagons.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/russia-plans-to-extend-first-private-railway-2025-09-23/",
+      "excerpt": "INVESTORS are considering plans to extend the Pacific Railway, Russia’s first modern private railway, to serve the Tunguss coal basin in Siberia, according to Dmitry Demeshin, the governor of Khabarovsk Krai in the far east of the country.",
+      "source": "https://www.railjournal.com/freight/russia-plans-to-extend-first-private-railway/"
+    },
+    {
+      "slug": "riyadh-issues-eoi-for-qiddiya-high-speed-project-2025-09-23",
+      "title": "Riyadh issues EOI for Qiddiya high-speed project",
+      "date": "2025-09-23",
+      "cover": "https://www.railjournal.com/wp-content/uploads/2025/09/Qiddiya-City.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/riyadh-issues-eoi-for-qiddiya-high-speed-project-2025-09-23/",
+      "excerpt": "THE Royal Commission for Riyadh City (RCRC), in cooperation with the National Centre for Privatisation and PPP (NCP) and Qiddiya Investment Company (QIC), has announced the launch of the expression of interest (EOI) phase for the first stage of the Qiddiya high-speed rail proj…",
+      "source": "https://www.railjournal.com/regions/middle-east/riyadh-issues-eoi-for-qiddiya-high-speed-project/"
     },
     {
       "slug": "another-on-the-shelf-wizz-air-wins-yet-another-sustainability-award-2025-09-23",
@@ -865,11 +901,11 @@
       "source": "https://airlineweekly.skift.com/2025/08/can-spirit-airlines-survive/"
     }
   ],
-  "count": 96,
+  "count": 100,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 96,
+    "total_items": 100,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

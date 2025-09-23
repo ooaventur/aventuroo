@@ -467,12 +467,57 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/canadian-solana-treasury-firm-sol-strategies-debuts-on-nasdaq-2025-09-09/",
       "excerpt": "Jona Jaupi •",
       "source": "https://thedefiant.io/news/tradfi-and-fintech/canadian-solana-treasury-firm-sol-strategies-debuts-on-nasdaq"
+    },
+    {
+      "slug": "solana-based-agridex-sees-9m-in-stablecoin-trades-across-african-markets-2025-09-08",
+      "title": "Solana-Based AgriDex Sees $9M in Stablecoin Trades Across African Markets",
+      "date": "2025-09-08",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-08t200838-226-png-250467c6-e598-47ee-81bf-0a7e8eb4a21f.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/solana-based-agridex-sees-9m-in-stablecoin-trades-across-african-markets-2025-09-08/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/infrastructure/solana-based-agridex-marks-usd9m-in-stablecoin-trades-across-african-markets"
+    },
+    {
+      "slug": "megaeth-labs-unveils-megausd-stablecoin-for-real-time-apps-2025-09-08",
+      "title": "MegaETH Labs Unveils MegaUSD Stablecoin for Real-Time Apps",
+      "date": "2025-09-08",
+      "cover": "https://cdn.thedefiant.io/megausd-1-png-138abb9d-b3b3-4ac9-ac07-7105142d0c0b.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/megaeth-labs-unveils-megausd-stablecoin-for-real-time-apps-2025-09-08/",
+      "excerpt": "Jona Jaupi •",
+      "source": "https://thedefiant.io/news/defi/megaeth-labs-unveils-megausd-stablecoin-for-real-time-apps"
+    },
+    {
+      "slug": "enso-and-reservoir-launch-onestable-cross-chain-stablecoin-minting-protocol-2025-09-08",
+      "title": "Enso and Reservoir Launch OneStable Cross-Chain Stablecoin Minting Protocol",
+      "date": "2025-09-08",
+      "cover": "https://cdn.thedefiant.io/onestable-1-png-e715097a-e2d3-4f49-adaf-4c921e1397d1.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/enso-and-reservoir-launch-onestable-cross-chain-stablecoin-minting-protocol-2025-09-08/",
+      "excerpt": "Squiffs •",
+      "source": "https://thedefiant.io/news/defi/enso-and-reservoir-launch-onestable-cross-chain-stablecoin-minting-protocol"
+    },
+    {
+      "slug": "crypto-markets-show-mixed-moves-as-etfs-see-divergent-flows-2025-09-08",
+      "title": "Crypto Markets Show Mixed Moves as ETFs See Divergent Flows",
+      "date": "2025-09-08",
+      "cover": "https://cdn.thedefiant.io/person-v2---2025-09-08t150355-118-png-874db8ed-4d57-467f-85cd-db793fd48b86.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-markets-show-mixed-moves-as-etfs-see-divergent-flows-2025-09-08/",
+      "excerpt": "Denis Omelchenko •",
+      "source": "https://thedefiant.io/news/markets/crypto-markets-show-mixed-moves-as-etfs-see-divergent-flows"
+    },
+    {
+      "slug": "markets-bitcoin-flounders-ahead-of-fed-meeting-2025-09-07",
+      "title": "Markets - Bitcoin Flounders Ahead of Fed Meeting",
+      "date": "2025-09-07",
+      "cover": "https://cdn.thedefiant.io/defiant-alpha-1-market-analysis-png-4d700636-fc0f-45cd-87ee-756fb332d492.png",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/markets-bitcoin-flounders-ahead-of-fed-meeting-2025-09-07/",
+      "excerpt": "yyctrader •",
+      "source": "https://thedefiant.io/education/premium-tutorials/markets-bitcoin-flounders-ahead-of-fed-meeting"
     }
   ],
-  "count": 52,
+  "count": 57,
   "updated_at": "2025-09-22",
   "pagination": {
-    "total_items": 52,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

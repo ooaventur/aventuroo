@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "how-dehydration-secretly-fuels-anxiety-and-health-problems-2025-09-23",
+      "title": "How dehydration secretly fuels anxiety and health problems",
+      "date": "2025-09-23",
+      "cover": "https://www.sciencedaily.com/images/1920/man-drinking-water-on-sofa.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/how-dehydration-secretly-fuels-anxiety-and-health-problems-2025-09-23/",
+      "excerpt": "Drinking too little water could increase our vulnerability to stress-related health issues, according to a new study from scientists at LJMU.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250923021148.htm"
+    },
+    {
       "slug": "hidden-brain-signal-reveals-alzheimer-s-years-before-symptoms-2025-09-23",
       "title": "Hidden brain signal reveals Alzheimer’s years before symptoms",
       "date": "2025-09-23",
@@ -143,6 +152,15 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/clear-skin-in-a-week-with-this-breakthrough-acne-patch-2025-09-21/",
       "excerpt": "Waking up with a pimple is no longer cause for panic, thanks to pimple patches -- small, sticker-like bandages that cover and help heal the unwanted zit. A team of researchers publishing in ACS Applied Materials & Interfaces has designed a two-stage pimple patch set with an ar…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250919085250.htm"
+    },
+    {
+      "slug": "breakthrough-method-could-dramatically-cut-prescription-drug-prices-2025-09-21",
+      "title": "Breakthrough method could dramatically cut prescription drug prices",
+      "date": "2025-09-21",
+      "cover": "https://www.sciencedaily.com/images/1920/prescription-drug-prices.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/breakthrough-method-could-dramatically-cut-prescription-drug-prices-2025-09-21/",
+      "excerpt": "One of the main factors driving prices in pharmaceuticals, such as cholesterol-lowering drugs and antibiotics, is the cost of production and materials. Researchers at the University of Maine Forest Bioproducts Research Institute (FBRI) have discovered a sustainable method to p…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250921090838.htm"
     },
     {
       "slug": "scientists-uncover-exercise-s-secret-hunger-busting-molecule-2025-09-20",
@@ -388,6 +406,15 @@
       "source": "https://www.sciencedaily.com/releases/2025/09/250912195101.htm"
     },
     {
+      "slug": "toxic-forever-chemicals-found-in-95-of-beers-tested-in-the-u-s-2025-09-12",
+      "title": "Toxic “forever chemicals” found in 95% of beers tested in the U.S.",
+      "date": "2025-09-12",
+      "cover": "https://www.sciencedaily.com/images/1920/shocked-woman-holding-beer.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/toxic-forever-chemicals-found-in-95-of-beers-tested-in-the-u-s-2025-09-12/",
+      "excerpt": "Infamous for their environmental persistence and potential links to health conditions, per- and polyfluoroalkyl substances (PFAS), often called forever chemicals, are being discovered in unexpected places, including beer. Researchers publishing in ACS' Environmental Science & …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250911073204.htm"
+    },
+    {
       "slug": "one-daily-habit-could-save-you-from-chronic-back-pain-2025-09-12",
       "title": "One daily habit could save you from chronic back pain",
       "date": "2025-09-12",
@@ -404,13 +431,31 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/your-morning-coffee-could-secretly-be-weakening-antibiotics-2025-09-11/",
       "excerpt": "Ingredients of our daily diet - including caffeine - can influence the resistance of bacteria to antibiotics. This has been shown in a new study by a team of researchers at the Universities of Tübingen and Würzburg led by Professor Ana Rita Brochado. They discovered bacteria s…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250911080113.htm"
+    },
+    {
+      "slug": "blood-test-spots-hidden-mesothelioma-that-scans-can-t-see-2025-09-11",
+      "title": "Blood test spots hidden mesothelioma that scans can’t see",
+      "date": "2025-09-11",
+      "cover": "https://www.sciencedaily.com/images/1920/genetic-testing-dna-blood-test-tube.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/blood-test-spots-hidden-mesothelioma-that-scans-can-t-see-2025-09-11/",
+      "excerpt": "People with operable diffuse pleural mesothelioma may benefit from immunotherapy before and after surgery, based on results of a clinical trial exploring the sequence of treatment and the role of surgery for this difficult to treat cancer.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250910000314.htm"
+    },
+    {
+      "slug": "blocked-blood-flow-makes-cancer-grow-faster-2025-09-11",
+      "title": "Blocked blood flow makes cancer grow faster",
+      "date": "2025-09-11",
+      "cover": "https://www.sciencedaily.com/images/1920/blood-cells-cancer.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/blocked-blood-flow-makes-cancer-grow-faster-2025-09-11/",
+      "excerpt": "Cutting off blood flow can prematurely age the bone marrow, weakening the immune system's ability to fight cancer, according to a new study from NYU Langone Health.",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250910000311.htm"
     }
   ],
-  "count": 45,
+  "count": 50,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 45,
+    "total_items": 50,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

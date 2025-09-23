@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "white-collar-acclaimed-96-rt-crime-drama-leaving-netflix-october-1st-2025-09-23",
+      "title": "White Collar: Acclaimed 96% RT Crime Drama Leaving Netflix October 1st",
+      "date": "2025-09-23",
+      "cover": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/08/white-collar-neal-caffrey-phone.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/movies/white-collar-acclaimed-96-rt-crime-drama-leaving-netflix-october-1st-2025-09-23/",
+      "excerpt": "Now is the perfect time to watch this celebrated crime drama starring Emmy nominee Matt Bomer before it leaves Netflix at the end of September 2025.",
+      "source": "https://screenrant.com/netflix-white-collar-addictive-crime-drama-leaving-soon/"
+    },
+    {
       "slug": "the-thing-shaves-his-beard-in-fantastic-four-day-deleted-scene-2025-09-23",
       "title": "The Thing Shaves His Beard in Fantastic Four Day Deleted Scene",
       "date": "2025-09-23",
@@ -17,6 +26,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/movies/stephen-king-s-black-phone-2-verdict-would-excite-horror-fans-2025-09-23/",
       "excerpt": "Stephen King recently spoke about",
       "source": "https://www.comingsoon.net/movies/news/2030875-black-phone-2-stephen-king-review-better-than-original"
+    },
+    {
+      "slug": "star-trek-khan-the-untold-story-of-khan-s-descent-into-madness-2025-09-23",
+      "title": "Star Trek: Khan - The Untold Story Of Khan's Descent Into Madness",
+      "date": "2025-09-23",
+      "cover": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/09/khan-frustrated-in-star-trek.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/movies/star-trek-khan-the-untold-story-of-khan-s-descent-into-madness-2025-09-23/",
+      "excerpt": "Warning: SPOILERS For Star Trek: Khan Episode 3 - \"Do Your Worst\" Star Trek: Khan reveals a harsh and surprising truth about when Khan Noonien Singh (Naveen Andrews) started to go insane after Star Trek: The Original Series , and Captain James T. Kirk (William Shatner) isn't d…",
+      "source": "https://screenrant.com/star-trek-khan-hated-ceti-alpha-v-before-kirk/"
     },
     {
       "slug": "silent-hill-f-shrine-vault-puzzle-ema-locations-solution-2025-09-23",
@@ -107,6 +125,15 @@
       "canonical": "https://archive.aventuroo.com/entertainment/movies/evan-peters-take-on-quicksilver-s-return-amid-avengers-doomsday-rumors-2025-09-23/",
       "excerpt": "Evan Peters sparked buzz after addressing the possibility of returning as Quicksilver in the Marvel Cinematic Universe. The actor, best known for portraying the speedster in Fox’s X-Men films, reflected on his time with the character during a recent interview.",
       "source": "https://www.comingsoon.net/movies/news/2030937-evan-peters-quicksilver-return-magneto-avengers-doomsday"
+    },
+    {
+      "slug": "csi-the-best-investigators-in-the-franchise-ranked-from-worst-to-best-2025-09-23",
+      "title": "CSI: The Best Investigators In The Franchise, Ranked From Worst To Best",
+      "date": "2025-09-23",
+      "cover": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/09/csi.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/movies/csi-the-best-investigators-in-the-franchise-ranked-from-worst-to-best-2025-09-23/",
+      "excerpt": "CSI: Crime Scene Investigation kicked off an era of television shows that focused on forensics and the investigative process surrounding crimes instead of being a legal drama or a straight-up police procedural.",
+      "source": "https://screenrant.com/csi-franchise-best-investigators-ranked/"
     },
     {
       "slug": "crunchyroll-confirms-demon-slayer-infinity-castle-sequels-have-no-release-date-2025-09-23",
@@ -802,10 +829,10 @@
       "source": "https://www.firstshowing.net/2025/dakota-fanning-kathryn-hunter-in-vicious-original-horror-trailer/"
     }
   ],
-  "count": 89,
+  "count": 92,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 89,
+    "total_items": 92,
     "per_page": 12,
     "total_pages": 8
   }

@@ -1,6 +1,15 @@
 {
   "items": [
     {
+      "slug": "meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word-2025-09-23",
+      "title": "Meet VoXtream: An Open-Sourced Full-Stream Zero-Shot TTS Model for Real-Time Use that Begins Speaking from the First Word",
+      "date": "2025-09-23",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-86.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word-2025-09-23/",
+      "excerpt": "Real-time agents, live dubbing, and simultaneous translation die by a thousand milliseconds. Most “streaming” TTS (Text to Speech) stacks still wait for a chunk of text before they emit sound, so the human hears a beat of silence before the voice starts. VoXtream—released by K…",
+      "source": "https://www.marktechpost.com/2025/09/23/meet-voxtream-an-open-sourced-full-stream-zero-shot-tts-model-for-real-time-use-that-begins-speaking-from-the-first-word/"
+    },
+    {
       "slug": "how-to-create-reliable-conversational-ai-agents-using-parlant-2025-09-23",
       "title": "How to Create Reliable Conversational AI Agents Using Parlant?",
       "date": "2025-09-23",
@@ -118,10 +127,10 @@
       "source": "https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/"
     }
   ],
-  "count": 13,
+  "count": 14,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 13,
+    "total_items": 14,
     "per_page": 12,
     "total_pages": 2
   }

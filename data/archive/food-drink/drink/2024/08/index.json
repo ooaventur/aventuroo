@@ -8,12 +8,21 @@
       "canonical": "https://archive.aventuroo.com/food-drink/drink/beyonc-just-launched-a-new-whiskey-sirdavis-2024-08-22/",
       "excerpt": "Beyoncé Knowles-Carter has done a lot of impressive things over the course of her career. But that highlight list has, until now, excluded launching her own spirits brand, a particularly popular hobby among celebrities. That’s just changed with the introduction of SirDavis, a …",
       "source": "https://bevvy.co/articles/beyonce-new-whiskey-sir-davis/22804"
+    },
+    {
+      "slug": "woodford-reserve-released-a-new-blended-malt-whiskey-2024-08-07",
+      "title": "Woodford Reserve Released a New Blended Malt Whiskey",
+      "date": "2024-08-07",
+      "cover": "https://bevvy.co/articles/wp-content/uploads/2024/08/woodford-reserve-blended-malt.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/woodford-reserve-released-a-new-blended-malt-whiskey-2024-08-07/",
+      "excerpt": "Woodford Reserve is best known for its flagship bourbon, but in recent years the Kentucky distillery has expanded its purview to include a rye whiskey, wheat whiskey, and other unique expressions. The latest to debut is a Woodford Reserve Blended Malt, a new limited-edition bo…",
+      "source": "https://bevvy.co/articles/woodford-reserve-blended-malt-whiskey/22793"
     }
   ],
-  "count": 1,
+  "count": 2,
   "updated_at": "2024-08-22",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

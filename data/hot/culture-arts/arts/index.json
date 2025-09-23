@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "when-gagosian-goes-so-do-his-galleries-how-hockney-s-swimmer-swam-away-and-green-shoots-in-the-gallery-world-2025-09-23",
+      "title": "When Gagosian Goes So Do His Galleries, How Hockney’s Swimmer Swam Away, and Green Shoots in the Gallery World",
+      "date": "2025-09-23",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/hockney-pool-two-figures-christies-auction-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/when-gagosian-goes-so-do-his-galleries-how-hockney-s-swimmer-swam-away-and-green-shoots-in-the-gallery-world-2025-09-23/",
+      "excerpt": "Trump ’s escalating, multi-billion-dollar legal onslaughts against the likes of The Wall Street Journal , New York Times , ABC Network and others has and will continue to have directly measurable chilling effects on free speech, the integrity of the Constitution and the very f…",
+      "source": "https://news.artnet.com/market/kenny-schachter-gagosian-hockney-galleries-2691277"
+    },
+    {
+      "slug": "how-the-spanish-stonehenge-vanished-underwater-then-rose-again-2025-09-23",
+      "title": "How the ‘Spanish Stonehenge’ Vanished Underwater—Then Rose Again",
+      "date": "2025-09-23",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/08/dolmen-guadalperal-aerial-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/how-the-spanish-stonehenge-vanished-underwater-then-rose-again-2025-09-23/",
+      "excerpt": "In the summer of 2022, Europe experienced a record-breaking drought. Conditions were particularly tough in Spain, where temperatures reached heights not seen since the Middle Ages. Wildfires scorched nearly 100,000 acres, wheat and barley harvests declined by up to 30 percent,…",
+      "source": "https://news.artnet.com/art-world/huge-dolmen-of-guadalperal-2675850"
+    },
+    {
       "slug": "how-experience-design-is-rewriting-the-future-of-care-2025-09-23",
       "title": "How experience design is rewriting the future of care",
       "date": "2025-09-23",
@@ -505,10 +523,10 @@
       "source": "https://www.creativeboom.com/tips/creatives-share-their-tricks-for-taming-imposter-syndrome/"
     }
   ],
-  "count": 56,
+  "count": 58,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 56,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

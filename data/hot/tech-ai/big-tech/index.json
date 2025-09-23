@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "slug": "startups-and-founders-could-be-hardest-hit-by-100-000-h-1b-visas-2025-09-23",
+      "title": "Startups and founders could be hardest hit by $100,000 H-1B visas",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202332-17585664302025-09-22t182538z_650400807_rc26xgarsjew_rtrmadp_0_usa-trump-visa-india.jpeg?v=1758566477&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/startups-and-founders-could-be-hardest-hit-by-100-000-h-1b-visas-2025-09-23/",
+      "excerpt": "U.S. President Donald Trump's plans to place $100,000 fees on H-1B visa applications will disproportionately harm America's startup and venture space, founders and venture capitalists said.",
+      "source": "https://www.cnbc.com/2025/09/23/startups-and-founders-could-be-hardest-hit-by-100000-h-1b-visas.html"
+    },
+    {
+      "slug": "nvidia-and-openai-s-100-billion-deal-sparks-global-chip-stock-rally-2025-09-23",
+      "title": "Nvidia and OpenAI's $100-billion deal sparks global chip stock rally",
+      "date": "2025-09-23",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202218-1758557789239-gettyimages-2196128106-nazir-notitle250130_npQAU.jpeg?v=1758615461&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/nvidia-and-openai-s-100-billion-deal-sparks-global-chip-stock-rally-2025-09-23/",
+      "excerpt": "Major global semiconductor stocks rose on Tuesday after Nvidia announced plans to invest $100 billion in OpenAI.",
+      "source": "https://www.cnbc.com/2025/09/23/nvidia-openai-deal-sparks-global-chip-stock-rally.html"
+    },
+    {
       "slug": "here-s-everything-trump-said-he-s-changing-about-h-1b-visas-2025-09-23",
       "title": "Here's everything Trump said he's changing about H-1B visas",
       "date": "2025-09-23",
@@ -253,10 +271,10 @@
       "source": "https://www.cnbc.com/2025/09/17/amazon-ai-agent-sellers.html"
     }
   ],
-  "count": 28,
+  "count": 30,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 28,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

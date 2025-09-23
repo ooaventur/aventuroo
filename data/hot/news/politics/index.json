@@ -100,6 +100,24 @@
       "source": "https://www.bbc.com/news/articles/crkjlx5lr5po?at_medium=RSS&at_campaign=rss"
     },
     {
+      "slug": "lib-dems-have-moral-duty-to-defeat-farage-says-davey-2025-09-22",
+      "title": "Lib Dems have moral duty to defeat Farage, says Davey",
+      "date": "2025-09-22",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/7256/live/e3107cc0-97c7-11f0-af62-91486a511a31.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/lib-dems-have-moral-duty-to-defeat-farage-says-davey-2025-09-22/",
+      "excerpt": "Liberal Democrat leader Sir Ed Davey has said his party has a moral duty to keep Nigel Farage and his Reform UK party out of power.",
+      "source": "https://www.bbc.com/news/articles/c33rp46nr1jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "slug": "how-many-people-would-reform-s-migrant-plans-impact-2025-09-22",
+      "title": "How many people would Reform's migrant plans impact?",
+      "date": "2025-09-22",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/7ce4/live/090866f0-97d1-11f0-af62-91486a511a31.png",
+      "canonical": "https://archive.aventuroo.com/news/politics/how-many-people-would-reform-s-migrant-plans-impact-2025-09-22/",
+      "excerpt": "How many people currently in the UK would be affected by Reform's new policy to scrap the system of indefinite leave?",
+      "source": "https://www.bbc.com/news/videos/c2ejmwrwj7mo?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "slug": "gatwick-second-runway-plan-approved-by-transport-secretary-2025-09-22",
       "title": "Gatwick second runway plan approved by transport secretary",
       "date": "2025-09-22",
@@ -665,12 +683,39 @@
       "canonical": "https://archive.aventuroo.com/news/politics/with-trump-s-state-visit-days-away-blame-game-begins-over-mandelson-scandal-2025-09-13/",
       "excerpt": "\"What a week. What a mess.\" A senior Labour MP is not the only one in disbelief at the latest - you couldn't make it up - mishap for this government.",
       "source": "https://www.bbc.com/news/articles/cp8j2d5xm78o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "slug": "why-did-starmer-take-the-risk-of-appointing-peter-mandelson-2025-09-11",
+      "title": "Why did Starmer take the risk of appointing Peter Mandelson?",
+      "date": "2025-09-11",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/2ebe/live/4e627750-8f10-11f0-bf0b-13ad835103b3.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/why-did-starmer-take-the-risk-of-appointing-peter-mandelson-2025-09-11/",
+      "excerpt": "Sir Keir Starmer and his allies always knew the dangers of appointing Peter Mandelson as the UK's ambassador to the US.",
+      "source": "https://www.bbc.com/news/articles/cjd1egrlj0mo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "slug": "peter-mandelson-rise-and-fall-of-labour-s-political-fixer-2025-09-11",
+      "title": "Peter Mandelson: Rise and fall of Labour's political fixer",
+      "date": "2025-09-11",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/7af5/live/cabc01e0-8f06-11f0-b391-6936825093bd.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/peter-mandelson-rise-and-fall-of-labour-s-political-fixer-2025-09-11/",
+      "excerpt": "Peter Mandelson has been sacked as the UK's ambassador to the US, after revelations emerged about his friendship with the convicted paedophile Jeffrey Epstein.",
+      "source": "https://www.bbc.com/news/articles/cr4q61y399xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "slug": "being-deputy-labour-leader-is-a-ghastly-job-2025-09-10",
+      "title": "'Being deputy Labour leader is a ghastly job'",
+      "date": "2025-09-10",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/4d5a/live/488e34b0-8e37-11f0-8bfd-43c7ca883cc7.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/being-deputy-labour-leader-is-a-ghastly-job-2025-09-10/",
+      "excerpt": "The first-ever woman to become deputy leader of the Labour Party has said \"nobody in their right mind would want\" the position, which she described as \"a terrible job, really ghastly\".",
+      "source": "https://www.bbc.com/news/articles/c0r0qnqp154o?at_medium=RSS&at_campaign=rss"
     }
   ],
-  "count": 74,
+  "count": 79,
   "updated_at": "2025-09-23",
   "pagination": {
-    "total_items": 74,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }

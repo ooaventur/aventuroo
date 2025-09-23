@@ -28,6 +28,42 @@
       "source": "https://www.nplusonemag.com/online-only/events/issue-50-reading-and-launch-celebration/"
     },
     {
+      "slug": "the-other-route-2025-05-20",
+      "title": "The Other Route",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/RAW-25-007.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-other-route-2025-05-20/",
+      "excerpt": "I was standing next to my son in the cold. We weren’t speaking, but the silence was companionable. I thought it was, anyway, though the morning had been full of acrimony. There’d been a fight about the shower, a fight with his sister about toast (“I’m sorry to have to say this…",
+      "source": "https://www.nplusonemag.com/issue-50/fiction-drama/the-other-route/"
+    },
+    {
+      "slug": "the-fork-in-the-road-2025-05-20",
+      "title": "The Fork in the Road",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/CHIRA_024_Functional-Stereo-poem-palpable-in-the-Dark-Study-for-Stereo-poem.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-fork-in-the-road-2025-05-20/",
+      "excerpt": "In historical terms, the events we are witnessing are an attempt at Gleichschaltung. The Nazi term is usually translated “coordination,” sometimes “consolidation” or “streamlining.” In this phase of totalitarianism, the Movement, now elected to power, uses its hold on the legi…",
+      "source": "https://www.nplusonemag.com/issue-50/politics/the-fork-in-the-road-2/"
+    },
+    {
+      "slug": "struggle-unity-struggle-2025-05-20",
+      "title": "Struggle Unity Struggle",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/FTJ0018_01.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/struggle-unity-struggle-2025-05-20/",
+      "excerpt": "Come hear a talkback to a PowerPoint of a cassette tape of an essay by Bob Avakian! Would you like to attend a screening of a Betamax of a Super 8 of a lecture by Bob Avakian?",
+      "source": "https://www.nplusonemag.com/issue-50/essays/struggle-unity-struggle/"
+    },
+    {
+      "slug": "still-mad-about-our-packaging-2025-05-20",
+      "title": "Still Mad About Our Packaging?",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Issue-51_images2-scaled.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/still-mad-about-our-packaging-2025-05-20/",
+      "excerpt": "Dear Editors,",
+      "source": "https://www.nplusonemag.com/issue-50/letters/still-mad-about-our-packaging/"
+    },
+    {
       "slug": "our-butterfly-2025-05-20",
       "title": "Our Butterfly",
       "date": "2025-05-20",
@@ -35,6 +71,15 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/our-butterfly-2025-05-20/",
       "excerpt": "A phone call from day care. Youssef refused to eat lunch, couldn’t nap in the afternoon, and one of the teachers had to take him for a walk so that the other kids could get to sleep. The director concluded her little report by saying that his mood would change from one moment …",
       "source": "https://www.nplusonemag.com/issue-50/essays/our-butterfly/"
+    },
+    {
+      "slug": "officially-good-people-2025-05-20",
+      "title": "Officially Good People",
+      "date": "2025-05-20",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/I50_Sack_Erlanger-e1747663463635.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/officially-good-people-2025-05-20/",
+      "excerpt": "American critics tend to invoke a common repertoire of tropes in their descriptions of Norwegian authors: the profundity of the prosaic, the transcendence of the quotidian, the existential and the unremarkable. To read Karl Ove Knausgaard is to “find even the most mundane acti…",
+      "source": "https://www.nplusonemag.com/issue-50/reviews/officially-good-people/"
     },
     {
       "slug": "new-tv-novels-2025-05-20",
@@ -73,11 +118,11 @@
       "source": "https://www.nplusonemag.com/issue-50/politics/back-to-the-80s-2/"
     }
   ],
-  "count": 8,
+  "count": 13,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 8,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

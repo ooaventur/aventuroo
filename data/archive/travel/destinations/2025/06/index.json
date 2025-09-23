@@ -71,12 +71,48 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-hotels-near-the-wimbledon-tennis-championships-in-2025-2025-06-17/",
       "excerpt": "Finding accommodation for Wimbledon tennis is fierce, book one of these places to stay now to be close to the action",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/london/articles/best-hotels-near-wimbledon-tennis-club/"
+    },
+    {
+      "slug": "the-best-seaside-and-beach-hotels-in-the-uk-2025-06-16",
+      "title": "The best seaside and beach hotels in the UK",
+      "date": "2025-06-16",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2022/march/carbis-bay-cornwall-spa-2-p.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-seaside-and-beach-hotels-in-the-uk-2025-06-16/",
+      "excerpt": "Harbourside, clifftop and panoramic beach hideaways make up this pick of charm-filled coastal hotels on the UK’s most picturesque shorelines",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/articles/best-seaside-beach-hotels-uk/"
+    },
+    {
+      "slug": "how-to-spend-the-perfect-holiday-on-rhodes-2025-06-16",
+      "title": "How to spend the perfect holiday on Rhodes",
+      "date": "2025-06-16",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Greece/Rhodes/rhodes_destination_guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-the-perfect-holiday-on-rhodes-2025-06-16/",
+      "excerpt": "An expert guide to 48 hours on the charming island, from historic villages to idyllic beachfront bars",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/greece/rhodes/articles/expert-travel-guide-rhodes/"
+    },
+    {
+      "slug": "the-perfect-holiday-in-sicily-italy-s-island-of-rich-history-food-and-culture-2025-06-13",
+      "title": "The perfect holiday in Sicily, Italy's island of rich history, food and culture",
+      "date": "2025-06-13",
+      "cover": "https://www.telegraph.co.uk/content/dam/travel/2022/10/05/TELEMMGLPICT000311695843.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-holiday-in-sicily-italy-s-island-of-rich-history-food-and-culture-2025-06-13/",
+      "excerpt": "Our insider guide to Sicily – from picture-perfect baroque towns to scenic sandy beaches",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/sicily/articles/Travel-guide-Sicily/"
+    },
+    {
+      "slug": "the-best-boutique-hotels-in-majorca-2025-06-13",
+      "title": "The best boutique hotels in Majorca",
+      "date": "2025-06-13",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2021/Jan/pool-hotel-ten-majorca-p.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-boutique-hotels-in-majorca-2025-06-13/",
+      "excerpt": "This clutch of bijoux properties on the Balearic titan offer high-design with pleasingly lo-fi vibes; a smart, yet switched-off holiday",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/majorca/articles/best-boutique-hotels-in-majorca/"
     }
   ],
-  "count": 8,
+  "count": 12,
   "updated_at": "2025-06-28",
   "pagination": {
-    "total_items": 8,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }
