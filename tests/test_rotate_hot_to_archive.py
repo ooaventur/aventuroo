@@ -4,6 +4,7 @@ import json
 import pathlib
 import tempfile
 import unittest
+from unittest import mock
 
 from scripts import rotate_hot_to_archive
 
@@ -178,6 +179,59 @@ class RotateHotToArchiveTests(unittest.TestCase):
             self.assertEqual(manifest["total_items"], 0)
             archive_manifest = self._read_json(archive_dir / "manifest.json")
             self.assertEqual(archive_manifest["total_items"], 0)
+
+    def test_default_retention_uses_window_days_from_config(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_path = pathlib.Path(tmpdir) / "config.json"
+            config_path.write_text(json.dumps({"window_days": 42}), encoding="utf-8")
+
+            with mock.patch.object(rotate_hot_to_archive, "CONFIG_PATH", config_path):
+                rotate_hot_to_archive._CONFIG_CACHE = None
+                try:
+                    self.assertEqual(rotate_hot_to_archive._default_retention_days(), 42)
+                finally:
+                    rotate_hot_to_archive._CONFIG_CACHE = None
+
+    def test_missing_config_falls_back_to_default_retention(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_path = pathlib.Path(tmpdir) / "config.json"
+
+            with mock.patch.object(rotate_hot_to_archive, "CONFIG_PATH", config_path):
+                rotate_hot_to_archive._CONFIG_CACHE = None
+                try:
+                    self.assertEqual(
+                        rotate_hot_to_archive._default_retention_days(),
+                        rotate_hot_to_archive.DEFAULT_RETENTION_DAYS,
+                    )
+                finally:
+                    rotate_hot_to_archive._CONFIG_CACHE = None
+
+    def test_get_archive_on_days_reads_from_config(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_path = pathlib.Path(tmpdir) / "config.json"
+            config_path.write_text(
+                json.dumps({"window_days": 30, "archive_on_days": 55}),
+                encoding="utf-8",
+            )
+
+            with mock.patch.object(rotate_hot_to_archive, "CONFIG_PATH", config_path):
+                rotate_hot_to_archive._CONFIG_CACHE = None
+                try:
+                    self.assertEqual(rotate_hot_to_archive.get_archive_on_days(), 55)
+                finally:
+                    rotate_hot_to_archive._CONFIG_CACHE = None
+
+    def test_archive_on_days_defaults_to_window_days(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_path = pathlib.Path(tmpdir) / "config.json"
+            config_path.write_text(json.dumps({"window_days": 18}), encoding="utf-8")
+
+            with mock.patch.object(rotate_hot_to_archive, "CONFIG_PATH", config_path):
+                rotate_hot_to_archive._CONFIG_CACHE = None
+                try:
+                    self.assertEqual(rotate_hot_to_archive.get_archive_on_days(), 18)
+                finally:
+                    rotate_hot_to_archive._CONFIG_CACHE = None
 
 
 if __name__ == "__main__":

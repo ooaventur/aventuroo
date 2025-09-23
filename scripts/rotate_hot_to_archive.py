@@ -22,6 +22,11 @@ Environment knobs:
 Both values can also be supplied via the CLI flags with the same name. The
 script is idempotent, safe to run repeatedly, and keeps JSON as stable as
 possible so an automated runner will only produce diffs when content changes.
+
+Default retention settings are sourced from ``config.json`` at the repository
+root. ``window_days`` provides the fallback hot retention window when neither
+CLI nor environment overrides are present, and ``archive_on_days`` is exported
+for external schedulers that coordinate how frequently the rotation should run.
 """
 
 from __future__ import annotations
@@ -49,7 +54,10 @@ if _PROJECT_ROOT_STR not in sys.path:
 from autopost.health import HealthReport
 
 
+CONFIG_PATH = PROJECT_ROOT / "config.json"
+
 _HEALTH_REPORT: Optional[HealthReport] = None
+_CONFIG_CACHE: dict[str, Any] | None = None
 
 
 def _record_health_error(message: str) -> None:
@@ -72,6 +80,114 @@ DATE_FIELD_CANDIDATES = (
 
 HOT_GLOBAL_PARENT_SLUG = "index"
 HOT_GLOBAL_CHILD_SLUG = "index"
+
+
+def _load_site_config() -> dict[str, Any]:
+    """Load the repository-level configuration JSON."""
+
+    global _CONFIG_CACHE
+    if _CONFIG_CACHE is not None:
+        return _CONFIG_CACHE
+
+    try:
+        with CONFIG_PATH.open("r", encoding="utf-8") as fh:
+            data = json.load(fh)
+    except FileNotFoundError:
+        print(
+            f"[rotate] Warning: missing configuration file at {CONFIG_PATH}; using defaults",
+            file=sys.stderr,
+        )
+        _record_health_error(f"Missing configuration file: {CONFIG_PATH}")
+        data = {}
+    except json.JSONDecodeError as exc:
+        print(
+            f"[rotate] Warning: invalid JSON in {CONFIG_PATH} ({exc}); using defaults",
+            file=sys.stderr,
+        )
+        _record_health_error(f"Invalid configuration JSON: {exc}")
+        data = {}
+    except OSError as exc:
+        print(
+            f"[rotate] Warning: failed to read {CONFIG_PATH} ({exc}); using defaults",
+            file=sys.stderr,
+        )
+        _record_health_error(f"Failed to read configuration: {exc}")
+        data = {}
+
+    if data and not isinstance(data, dict):
+        print(
+            f"[rotate] Warning: configuration root must be an object; found {type(data).__name__}",
+            file=sys.stderr,
+        )
+        _record_health_error("Configuration root must be a JSON object")
+        data = {}
+
+    _CONFIG_CACHE = dict(data)
+    return _CONFIG_CACHE
+
+
+def _config_int(name: str) -> int | None:
+    data = _load_site_config()
+    value = data.get(name)
+    if value is None:
+        return None
+    if isinstance(value, bool):
+        value_repr = repr(value)
+        print(
+            f"[rotate] Warning: configuration value {name!r} cannot be boolean ({value_repr}); using fallback",
+            file=sys.stderr,
+        )
+        _record_health_error(f"Configuration value {name!r} is not an integer: {value_repr}")
+        return None
+    if isinstance(value, int):
+        return value
+    try:
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        value_repr = repr(value)
+        print(
+            f"[rotate] Warning: configuration value {name!r} must be an integer ({value_repr}); using fallback",
+            file=sys.stderr,
+        )
+        _record_health_error(f"Configuration value {name!r} is not an integer: {value_repr}")
+        return None
+
+
+def _default_retention_days() -> int:
+    configured = _config_int("window_days")
+    if configured is None:
+        return DEFAULT_RETENTION_DAYS
+    if configured < 0:
+        print(
+            f"[rotate] Warning: configuration value 'window_days' must be >= 0 (got {configured}); using fallback",
+            file=sys.stderr,
+        )
+        _record_health_error("Configuration window_days must be >= 0")
+        return DEFAULT_RETENTION_DAYS
+    return configured
+
+
+def _default_archive_on_days() -> int:
+    configured = _config_int("archive_on_days")
+    if configured is None:
+        return _default_retention_days()
+    if configured < 0:
+        print(
+            f"[rotate] Warning: configuration value 'archive_on_days' must be >= 0 (got {configured}); using fallback",
+            file=sys.stderr,
+        )
+        _record_health_error("Configuration archive_on_days must be >= 0")
+        return _default_retention_days()
+    return configured
+
+
+def get_archive_on_days() -> int:
+    """Return the configured archive sweep cadence in days."""
+
+    return _default_archive_on_days()
+
+
+ARCHIVE_ON_DAYS = get_archive_on_days()
 
 
 @dataclasses.dataclass(slots=True)
@@ -749,7 +865,7 @@ def _run_rotation(argv: Iterable[str] | None = None) -> RotationStats:
     args = _parse_cli_args(argv)
     retention_days = args.retention_days
     if retention_days is None:
-        retention_days = _env_int("HOT_RETENTION_DAYS", DEFAULT_RETENTION_DAYS)
+        retention_days = _env_int("HOT_RETENTION_DAYS", _default_retention_days())
     per_page = args.per_page
     if per_page is None:
         per_page = _env_int("HOT_PAGINATION_SIZE", DEFAULT_PAGINATION_SIZE)
