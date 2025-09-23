@@ -1,51 +1,6 @@
 {
   "items": [
     {
-      "slug": "what-is-a-dutch-oven-and-do-you-need-one-2025-09-22",
-      "title": "What Is a Dutch Oven and Do You Need One?",
-      "date": "2025-09-22",
-      "cover": "https://assets.bonappetit.com/photos/6797d540335c41b595d45477/master/pass/0325-BIG-BATCH-ENTERTAINING-FINAL-1341.jpg",
-      "canonical": "https://archive.aventuroo.com/food-drink/food/what-is-a-dutch-oven-and-do-you-need-one-2025-09-22/",
-      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
-      "source": "https://www.bonappetit.com/story/what-is-a-dutch-oven-and-do-you-need-one"
-    },
-    {
-      "slug": "the-best-new-restaurants-to-try-this-fall-2025-09-22",
-      "title": "The Best New Restaurants to Try This Fall",
-      "date": "2025-09-22",
-      "cover": "https://assets.bonappetit.com/photos/68d16168967f174321d2ecf7/master/pass/RoxiesR2_0225_Food_GS__Full-57.jpg",
-      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-new-restaurants-to-try-this-fall-2025-09-22/",
-      "excerpt": "Fidel Caballero debuted his contemporary Mexican restaurant Corima in January 2024, and in its first year of service, it gained a Michelin star, garnered Caballero a James Beard semifinalist nod, and landed on our Best New Restaurants of 2024 . Now Caballero is getting ready t…",
-      "source": "https://www.bonappetit.com/story/best-new-restaurant-openings-fall-2025"
-    },
-    {
-      "slug": "the-best-cookbooks-of-fall-2025-2025-09-22",
-      "title": "The Best Cookbooks of Fall 2025",
-      "date": "2025-09-22",
-      "cover": "https://assets.bonappetit.com/photos/68d152751ad8a07b5a9c760c/master/pass/BA%20Epi%20Fall%20Cookbooks.jpg",
-      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-cookbooks-of-fall-2025-2025-09-22/",
-      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
-      "source": "https://www.bonappetit.com/story/best-cookbooks-fall-2025"
-    },
-    {
-      "slug": "how-to-clean-a-cast-iron-skillet-the-right-way-2025-09-22",
-      "title": "How to Clean a Cast-Iron Skillet the Right Way",
-      "date": "2025-09-22",
-      "cover": "https://assets.bonappetit.com/photos/5ac502818206f61dfa2a41fe/master/pass/cast-iron-wash-sponge.jpg",
-      "canonical": "https://archive.aventuroo.com/food-drink/food/how-to-clean-a-cast-iron-skillet-the-right-way-2025-09-22/",
-      "excerpt": "All products featured on Bon Appétit are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.",
-      "source": "https://www.bonappetit.com/story/how-to-clean-a-cast-iron-skillet"
-    },
-    {
-      "slug": "how-to-boil-potatoes-perfectly-timing-and-salting-secrets-2025-09-22",
-      "title": "How to Boil Potatoes Perfectly: Timing and Salting Secrets",
-      "date": "2025-09-22",
-      "cover": "https://assets.bonappetit.com/photos/5d0cefa3da66cb4ee3cabdca/master/pass/Basically-Boiling-Potatoes.jpg",
-      "canonical": "https://archive.aventuroo.com/food-drink/food/how-to-boil-potatoes-perfectly-timing-and-salting-secrets-2025-09-22/",
-      "excerpt": "So many potato-based recipes start with the same step: “Boil the potatoes.” You see it time and again in recipes for mashed potatoes, potato salad, and more. But it’s not a straightforward technique. The time it takes to boil potatoes, not to mention the amount of salt used (y…",
-      "source": "https://www.bonappetit.com/story/how-to-boil-any-potato-article"
-    },
-    {
       "slug": "this-stick-blender-changed-the-way-i-meal-prep-2025-09-20",
       "title": "This Stick Blender Changed the Way I Meal Prep",
       "date": "2025-09-20",
@@ -361,11 +316,11 @@
       "source": "https://cookieandkate.com/chocolate-chip-muffins/?adt_ei=*|EMAIL|*"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-09-22",
+  "count": 35,
+  "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 40,
+    "total_items": 35,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 3
   }
 }

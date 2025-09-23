@@ -687,7 +687,7 @@ section.not-found h1 {
 }
 section.not-found p.lead {
   font-size: 16px;
-  color: #555;
+  color: #999;
 }
 section.not-found .search-form {
   display: inline-block;
@@ -703,7 +703,7 @@ section.not-found .link {
 section.search .search-result {
   margin-top: 10px;
   margin-bottom: 30px;
-  color: #555;
+  color: #999;
 }
 
 .form-control {

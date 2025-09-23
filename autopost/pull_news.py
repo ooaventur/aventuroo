@@ -169,29 +169,6 @@ def strip_text(s: str) -> str:
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
-
-def _is_cbs_video_url(url: str) -> bool:
-    parsed = urlparse(url or "")
-    netloc = parsed.netloc.lower()
-    if not netloc.endswith("cbsnews.com"):
-        return False
-
-    path_lower = parsed.path.lower()
-    video_markers = ("/video/", "/videos/", "/live-video/", "/live/video/")
-    if any(marker in path_lower for marker in video_markers):
-        return True
-    if path_lower.endswith("/video"):
-        return True
-
-    segments = [segment for segment in path_lower.split("/") if segment]
-    return any(
-        segment == "video"
-        or segment.startswith("video-")
-        or segment.endswith("-video")
-        for segment in segments
-    )
-
-
 def parse_feed(xml_bytes: bytes):
     if not xml_bytes:
         return []
@@ -1342,9 +1319,6 @@ def _merge_hot_entries(existing: list[dict], new_entries: list[dict], *, max_ite
     for item in new_entries + existing:
         if not isinstance(item, dict):
             continue
-        source_url = str(item.get("source", ""))
-        if _is_cbs_video_url(source_url):
-            continue
         slug = (item.get("slug") or "").strip()
         if not slug or slug in seen:
             continue
@@ -1819,20 +1793,6 @@ def _run_autopost() -> list[dict]:
     else:
         posts_idx = []
 
-    removed_video_slugs: set[str] = set()
-    if posts_idx:
-        filtered_posts: list[dict] = []
-        for entry in posts_idx:
-            entry = entry or {}
-            source_url = str(entry.get("source", ""))
-            if _is_cbs_video_url(source_url):
-                slug_value = str(entry.get("slug", "")).strip()
-                if slug_value:
-                    removed_video_slugs.add(slug_value)
-                continue
-            filtered_posts.append(entry)
-        posts_idx = filtered_posts
-
     # Maintain posts.json for legacy clients; hot shards are updated alongside it.
 
     if not FEEDS.exists():
@@ -1921,10 +1881,6 @@ def _run_autopost() -> list[dict]:
             if not title or not link:
                 continue
 
-            if _is_cbs_video_url(link):
-                print(f"[SKIP] {link} -> video segment")
-                continue
-
             key = link_hash(link)
             if key in seen:
                 continue
@@ -1933,14 +1889,9 @@ def _run_autopost() -> list[dict]:
             body_html, inner_img = extract_body_html(link)
 
             # Skip unavailable content (simple heuristics)
-            collapsed_body_text = strip_text(body_html)
-            body_text = collapsed_body_text.lower()
+            body_text = strip_text(body_html).lower()
             if "there was an error" in body_text or "this content is not available" in body_text:
                 print(f"[SKIP] {link} -> unavailable content")
-                continue
-
-            if collapsed_body_text and body_text.startswith("latest u.s.") and "charlie kirk" in body_text:
-                print(f"[SKIP] {link} -> navigation block detected")
                 continue
 
             # 2) Absolutize & sanitize
@@ -2048,23 +1999,6 @@ def _run_autopost() -> list[dict]:
         posts_idx.sort(key=_entry_sort_key, reverse=True)
         if MAX_POSTS_PERSIST > 0:
             posts_idx = posts_idx[:MAX_POSTS_PERSIST]
-
-    elif removed_video_slugs:
-        rebuild_candidates: list[dict] = []
-        for entry in posts_idx[:HOT_MAX_ITEMS] if posts_idx else []:
-            normalized = _normalize_post_entry(entry)
-            if normalized is not None:
-                rebuild_candidates.append(normalized)
-        if rebuild_candidates:
-            _update_hot_shards(
-                rebuild_candidates,
-                base_dir=DATA_DIR,
-                max_items=HOT_MAX_ITEMS,
-                per_page=HOT_PAGE_SIZE,
-            )
-            print(
-                f"[HOT] Rebuilt hot shards after removing {len(removed_video_slugs)} CBS video entries"
-            )
 
     headline_entries = _build_headline_entries(posts_idx, HEADLINE_MAX_ITEMS)
 

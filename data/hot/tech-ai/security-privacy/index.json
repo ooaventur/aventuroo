@@ -1,150 +1,6 @@
 {
   "items": [
     {
-      "slug": "dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate-2025-11-13",
-      "title": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
-      "date": "2025-11-13",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4270edce6c855a0e/68d1c2be0a60f31b66d5e09e/DRVE_Event_20251113_(1).png?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate-2025-11-13/",
-      "excerpt": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
-      "source": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate"
-    },
-    {
-      "slug": "why-attackers-are-moving-beyond-email-based-phishing-attacks-2025-09-22",
-      "title": "Why attackers are moving beyond email-based phishing attacks",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/posts/2025/09/17/header-image.png",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/why-attackers-are-moving-beyond-email-based-phishing-attacks-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/"
-    },
-    {
-      "slug": "verified-steam-game-steals-streamer-s-cancer-treatment-donations-2025-09-22",
-      "title": "Verified Steam game steals streamer's cancer treatment donations",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/19/Steam.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/verified-steam-game-steals-streamer-s-cancer-treatment-donations-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/"
-    },
-    {
-      "slug": "new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software-2025-09-22",
-      "title": "New EDR-Freeze tool uses Windows WER to suspend security software",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/08/20/Windows.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/new-edr-freeze-tool-uses-windows-wer-to-suspend-security-software/"
-    },
-    {
-      "slug": "mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates-2025-09-22",
-      "title": "Mozilla now lets Firefox add-on devs roll back bad updates",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2024/03/22/Firefox-headpic.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/"
-    },
-    {
-      "slug": "microsoft-says-recent-updates-cause-drm-video-playback-issues-2025-09-22",
-      "title": "Microsoft says recent updates cause DRM video playback issues",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/22/Windows-11.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-says-recent-updates-cause-drm-video-playback-issues-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-recent-updates-cause-drm-video-playback-issues/"
-    },
-    {
-      "slug": "microsoft-lifts-windows-11-update-block-after-face-detection-fix-2025-09-22",
-      "title": "Microsoft lifts Windows 11 update block after face detection fix",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/02/07/Windows_11.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-lifts-windows-11-update-block-after-face-detection-fix-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-windows-11-safeguard-hold-after-fixing-face-detection-bug/"
-    },
-    {
-      "slug": "lastpass-fake-password-managers-infect-mac-users-with-malware-2025-09-22",
-      "title": "LastPass: Fake password managers infect Mac users with malware",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2022/12/22/Lastpass.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/lastpass-fake-password-managers-infect-mac-users-with-malware-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/lastpass-fake-password-managers-infect-mac-users-with-malware/"
-    },
-    {
-      "slug": "iran-linked-hackers-target-europe-with-new-malware-2025-09-22",
-      "title": "Iran-Linked Hackers Target Europe With New Malware",
-      "date": "2025-09-22",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltadf85273d19e0ede/68d1ab774c68b01d432a44fa/iran_karen_roach_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/iran-linked-hackers-target-europe-with-new-malware-2025-09-22/",
-      "excerpt": "&quot;Nimbus Manticore&quot; is back at it, this time with improved variants of its flagship malware and targets that are outside its usual focus area.",
-      "source": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware"
-    },
-    {
-      "slug": "automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack-2025-09-22",
-      "title": "Automaker giant Stellantis confirms data breach after Salesforce hack",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/22/Stellantis.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/automaker-giant-stellantis-confirms-data-breach-after-salesforce-hack/"
-    },
-    {
-      "slug": "attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22",
-      "title": "Attackers Use Phony GitHub Pages to Deliver Mac Malware",
-      "date": "2025-09-22",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt41cce174721d784d/68d19b447459c6584b5efbbf/Mac_lock_Igi_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22/",
-      "excerpt": "Threat actors are using a large-scale SEO poisoning campaign and fake GitHub repositories to deliver Atomic infostealers to Mac users.",
-      "source": "https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware"
-    },
-    {
-      "slug": "american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media-2025-09-22",
-      "title": "American Archive of Public Broadcasting fixes bug exposing restricted media",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/22/digital-camera-media.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media/"
-    },
-    {
-      "slug": "airport-disruptions-in-europe-caused-by-a-ransomware-attack-2025-09-22",
-      "title": "Airport disruptions in Europe caused by a ransomware attack",
-      "date": "2025-09-22",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/22/Heathrow_Airport.png",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/airport-disruptions-in-europe-caused-by-a-ransomware-attack-2025-09-22/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/airport-disruptions-in-europe-caused-by-a-ransomware-attack/"
-    },
-    {
-      "slug": "airport-chaos-shows-human-impact-of-3rd-party-attacks-2025-09-22",
-      "title": "Airport Chaos Shows Human Impact of 3rd-Party Attacks",
-      "date": "2025-09-22",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0fbc166be57186f1/68d134c0169b3f00b5744bb0/airport_Tupungato_shutterstock.png?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/airport-chaos-shows-human-impact-of-3rd-party-attacks-2025-09-22/",
-      "excerpt": "Major EU airports such as Heathrow were disrupted over the weekend after a cyberattack hit the provider of check-in kiosk software, which caused delays and flight cancellations.",
-      "source": "https://www.darkreading.com/cyberattacks-data-breaches/airport-chaos-human-impact-3rd-party-attacks"
-    },
-    {
-      "slug": "15-years-of-zero-trust-why-it-matters-more-than-ever-2025-09-22",
-      "title": "15 Years of Zero Trust: Why It Matters More Than Ever",
-      "date": "2025-09-22",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc224f5e38ff56e18/68cdbe9f243d1a8cbbd473b2/zerotrust_Olivier_Le_Moa_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/15-years-of-zero-trust-why-it-matters-more-than-ever-2025-09-22/",
-      "excerpt": "With the emergence of AI-driven attacks and quantum computing, and the explosion of hyperconnected devices, zero trust remains a core strategy for security operations.",
-      "source": "https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever"
-    },
-    {
-      "slug": "microsoft-entra-id-flaw-allowed-hijacking-any-company-s-tenant-2025-09-21",
-      "title": "Microsoft Entra ID flaw allowed hijacking any company's tenant",
-      "date": "2025-09-21",
-      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/21/MIcrosoft_Entra_ID.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-entra-id-flaw-allowed-hijacking-any-company-s-tenant-2025-09-21/",
-      "excerpt": "",
-      "source": "https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/"
-    },
-    {
       "slug": "canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20",
       "title": "Canada dismantles TradeOgre exchange, seizes $40 million in crypto",
       "date": "2025-09-20",
@@ -152,15 +8,6 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto-2025-09-20/",
       "excerpt": "",
       "source": "https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/"
-    },
-    {
-      "slug": "zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19",
-      "title": "Zero Trust: Strengths and Limitations in the AI Attack Era",
-      "date": "2025-09-19",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb8ef4941b5a90948/685aac76fd468cfd7f9adc82/Zero_trust_(1800)_ArtemisDiana_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19/",
-      "excerpt": "Zero Trust could help organizations fight back against attackers who use artificial intelligence, but new threats will require the architecture to evolve.",
-      "source": "https://www.darkreading.com/endpoint-security/zero-trust-strengths-and-limitations-in-the-ai-attack-era"
     },
     {
       "slug": "steam-will-stop-running-on-windows-32-bit-in-january-2026-2025-09-19",
@@ -550,42 +397,6 @@
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/ai-backed-malware-hits-companies-worldwide"
     },
     {
-      "slug": "the-quiet-revolution-in-kubernetes-security-2025-09-10",
-      "title": "The Quiet Revolution in Kubernetes Security",
-      "date": "2025-09-10",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte0090ff26429a37d/68b058bfeb57216eeaa94c87/Kubernetes_(1800)_dennizn_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-quiet-revolution-in-kubernetes-security-2025-09-10/",
-      "excerpt": "As Kubernetes becomes the foundation of enterprise infrastructure, the underlying operating system must evolve alongside it.",
-      "source": "https://www.darkreading.com/vulnerabilities-threats/quiet-revolution-kubernetes-security"
-    },
-    {
-      "slug": "students-pose-inside-threat-to-education-sector-2025-09-10",
-      "title": "Students Pose Inside Threat to Education Sector",
-      "date": "2025-09-10",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf257242becf10d9e/68c220108b3179369539323a/student-marcelo-mayo-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/students-pose-inside-threat-to-education-sector-2025-09-10/",
-      "excerpt": "The threats may not be malicious, but they are more than many security teams can handle.",
-      "source": "https://www.darkreading.com/insider-threats/students-inside-threat-education-sector"
-    },
-    {
-      "slug": "dormant-macos-backdoor-chillyhell-resurfaces-2025-09-10",
-      "title": "Dormant macOS Backdoor ChillyHell Resurfaces",
-      "date": "2025-09-10",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a01522567ce1eb3/68c16929b3e37c5f53c49db9/ch123_snowflake-on-ice-shutterstock.png?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dormant-macos-backdoor-chillyhell-resurfaces-2025-09-10/",
-      "excerpt": "With multiple persistence mechanisms, the modular malware can brute-force passwords, drop payloads, and communicate over different protocols.",
-      "source": "https://www.darkreading.com/endpoint-security/dormant-macos-backdoor-chillyhell-resurfaces"
-    },
-    {
-      "slug": "chinese-hackers-allegedly-pose-as-us-lawmaker-2025-09-10",
-      "title": "Chinese Hackers Allegedly Pose as US Lawmaker",
-      "date": "2025-09-10",
-      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9a05ee149b113418/68c1ac9c595c7328f4508748/John_Moolenaar_SOPA_Images_Limited_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
-      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chinese-hackers-allegedly-pose-as-us-lawmaker-2025-09-10/",
-      "excerpt": "Chinese state-backed threat actors are suspected of posing as Michigan congressman John Moolenaar in a series of spear-phishing attacks.",
-      "source": "https://www.darkreading.com/cybersecurity-operations/chinese-hackers-allegedly-pose-us-lawmaker"
-    },
-    {
       "slug": "microsoft-patch-tuesday-september-2025-edition-2025-09-09",
       "title": "Microsoft Patch Tuesday, September 2025 Edition",
       "date": "2025-09-09",
@@ -640,11 +451,11 @@
       "source": "https://krebsonsecurity.com/2025/08/dslroot-proxies-and-the-threat-of-legal-botnets/"
     }
   ],
-  "count": 71,
-  "updated_at": "2025-11-13",
+  "count": 50,
+  "updated_at": "2025-09-20",
   "pagination": {
-    "total_items": 71,
+    "total_items": 50,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 5
   }
 }

@@ -1,15 +1,6 @@
 {
   "items": [
     {
-      "slug": "a-merry-and-rambunctious-twelfth-night-in-central-park-2025-08-22",
-      "title": "A Merry and Rambunctious “Twelfth Night” in Central Park",
-      "date": "2025-08-22",
-      "cover": "https://media.newyorker.com/photos/68a4d78c5e9b13bcafd2685a/master/pass/r47404.jpg",
-      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-merry-and-rambunctious-twelfth-night-in-central-park-2025-08-22/",
-      "excerpt": "On the Saturday evening that I saw “Twelfth Night, or What You Will,” the sole production of the Public Theatre’s Shakespeare in the Park summer season, a raccoon scurried furtively along the top of a wall at the Delacorte. “Twelfth Night” marks the exuberant reopening of the …",
-      "source": "https://www.newyorker.com/magazine/2025/09/01/twelfth-night-theatre-review"
-    },
-    {
       "slug": "a-season-of-unease-at-the-edinburgh-festival-2025-08-17",
       "title": "A Season of Unease at the Edinburgh Festival",
       "date": "2025-08-17",
@@ -28,10 +19,10 @@
       "source": "https://www.newyorker.com/culture/on-television/and-just-like-that-carrie-bradshaw-bids-an-unsatisfying-farewell"
     }
   ],
-  "count": 3,
-  "updated_at": "2025-08-22",
+  "count": 2,
+  "updated_at": "2025-08-17",
   "pagination": {
-    "total_items": 3,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

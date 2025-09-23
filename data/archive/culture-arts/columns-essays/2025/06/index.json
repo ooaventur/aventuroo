@@ -71,30 +71,12 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/four-falling-sonnets-2025-06-10/",
       "excerpt": "Translation is enlightenment.",
       "source": "https://www.nplusonemag.com/online-only/online-only/four-falling-sonnets/"
-    },
-    {
-      "slug": "at-immigration-court-2025-06-09",
-      "title": "At Immigration Court",
-      "date": "2025-06-09",
-      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/06/Jacob_K._Javits_Federal_Office_Building_Manhattan_New_York_7237338684.jpg",
-      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/at-immigration-court-2025-06-09/",
-      "excerpt": "M texted me from the adjacent bedroom at 8 AM: “Wake up.” In the kitchen, he combed out his beard and ate a banana, which his people’s warriors ate to feel full, he told me. I pointed to a stray hair that stuck out of the side of his neck. “I keep meaning to pluck it,” he said.",
-      "source": "https://www.nplusonemag.com/online-only/online-only/at-immigration-court/"
-    },
-    {
-      "slug": "tell-it-slanted-2025-06-02",
-      "title": "Tell It Slanted",
-      "date": "2025-06-02",
-      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/IMG_6461.png",
-      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/tell-it-slanted-2025-06-02/",
-      "excerpt": "STEPHEN PICCARELLA: Do you think it’s possible to make an honest movie about a band like Pavement, and if so, how?",
-      "source": "https://www.nplusonemag.com/online-only/online-only/tell-it-slanted/"
     }
   ],
-  "count": 10,
+  "count": 8,
   "updated_at": "2025-06-30",
   "pagination": {
-    "total_items": 10,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

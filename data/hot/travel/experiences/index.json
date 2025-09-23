@@ -1,51 +1,6 @@
 {
   "items": [
     {
-      "slug": "travel-by-land-sea-or-sky-and-let-the-infinite-coast-in-british-columbia-inspire-your-adventure-2025-09-22",
-      "title": "Travel by Land, Sea, or Sky, and Let The Infinite Coast in British Columbia Inspire Your Adventure",
-      "date": "2025-09-22",
-      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/06/248133-social.jpg",
-      "canonical": "https://archive.aventuroo.com/travel/experiences/travel-by-land-sea-or-sky-and-let-the-infinite-coast-in-british-columbia-inspire-your-adventure-2025-09-22/",
-      "excerpt": "Just outside of Vancouver in British Columbia , ocean, rainforest, and mountains blend into The Infinite Coast , an area best explored slowly and intentionally. Summer means long days spent sailing with sunlight lasting late into the evening. Autumn yields world-class wildlife…",
-      "source": "https://matadornetwork.com/read/infinite-coast-bc-uk/"
-    },
-    {
-      "slug": "the-great-wilderness-find-endless-adventure-in-northern-british-columbia-2025-09-22",
-      "title": "The Great Wilderness: Find Endless Adventure in Northern British Columbia",
-      "date": "2025-09-22",
-      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/05/238387-master-social.jpg",
-      "canonical": "https://archive.aventuroo.com/travel/experiences/the-great-wilderness-find-endless-adventure-in-northern-british-columbia-2025-09-22/",
-      "excerpt": "Imagine Yosemite’s peaks and the Pacific Northwest’s misty forests spread across an area larger than California. The air is crisp, carrying the scent of pine and freshness from glacial melt, and the landscape stretches beyond the horizon. This is The Great Wilderness , a regio…",
-      "source": "https://matadornetwork.com/read/the-great-wilderness-bc-ca/"
-    },
-    {
-      "slug": "the-great-wilderness-erlebe-endlose-abenteuer-im-norden-von-british-columbia-2025-09-22",
-      "title": "The Great Wilderness: Erlebe Endlose Abenteuer Im Norden Von British Columbia",
-      "date": "2025-09-22",
-      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/05/238387-master-social.jpg",
-      "canonical": "https://archive.aventuroo.com/travel/experiences/the-great-wilderness-erlebe-endlose-abenteuer-im-norden-von-british-columbia-2025-09-22/",
-      "excerpt": "Stell dir die frostigen Gipfel der Bayerischen Alpen und die nebligen Pfade des Schwarzwalds vor, nur auf einer Fläche, die größer ist als ganz Deutschland. Die Luft ist klar, erfüllt vom Duft der Kiefern und der Frische der eiskalten Gletscherbäche. Die Landschaft erstreckt s…",
-      "source": "https://matadornetwork.com/read/the-great-wilderness-bc-de/"
-    },
-    {
-      "slug": "let-nature-nurture-you-in-the-valleys-vineyards-of-british-columbia-2025-09-22",
-      "title": "Let Nature Nurture You in the Valleys & Vineyards of British Columbia",
-      "date": "2025-09-22",
-      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/06/233863-social.jpg",
-      "canonical": "https://archive.aventuroo.com/travel/experiences/let-nature-nurture-you-in-the-valleys-vineyards-of-british-columbia-2025-09-22/",
-      "excerpt": "In Valleys & Vineyards , nature leads the way. Golden hills roll into lush valleys, volcanic soil breathes life into orchards and vines, and Indigenous stewardship sets the tone for respecting the terrain. Here, every glass, plate, and path tells a deeper story.",
-      "source": "https://matadornetwork.com/read/valleys-vineyards-bc-uk/"
-    },
-    {
-      "slug": "finde-deinen-rhythmus-in-nature-s-heartland-british-columbia-2025-09-22",
-      "title": "Finde Deinen Rhythmus in Nature’s Heartland, British Columbia",
-      "date": "2025-09-22",
-      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/07/27182-social.jpg",
-      "canonical": "https://archive.aventuroo.com/travel/experiences/finde-deinen-rhythmus-in-nature-s-heartland-british-columbia-2025-09-22/",
-      "excerpt": "Aus der Vogelperspektive hoch über Nature’s Heartland in",
-      "source": "https://matadornetwork.com/read/natures-heartland-bc-de/"
-    },
-    {
       "slug": "charleston-light-in-sullivan-s-island-south-carolina-2025-09-18",
       "title": "Charleston Light in Sullivan's Island, South Carolina",
       "date": "2025-09-18",
@@ -172,10 +127,10 @@
       "source": "https://adventure.com/off-grid-community-knoydart-scotland/"
     }
   ],
-  "count": 19,
-  "updated_at": "2025-09-22",
+  "count": 14,
+  "updated_at": "2025-09-18",
   "pagination": {
-    "total_items": 19,
+    "total_items": 14,
     "per_page": 12,
     "total_pages": 2
   }

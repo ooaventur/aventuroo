@@ -1,15 +1,6 @@
 {
   "items": [
     {
-      "slug": "are-you-smart-enough-to-invest-in-private-assets-designing-an-investor-test-is-tricky-experts-say-2025-08-22",
-      "title": "Are you smart enough to invest in private assets? Designing an investor test is tricky, experts say",
-      "date": "2025-08-22",
-      "cover": "https://image.cnbcfm.com/api/v1/image/108184879-1755019103267-gettyimages-1411001622-dscf0769.jpeg?v=1755019128&amp;w=1920&amp;h=1080",
-      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/are-you-smart-enough-to-invest-in-private-assets-designing-an-investor-test-is-tricky-experts-say-2025-08-22/",
-      "excerpt": "If you want to access investments typically reserved for the wealthy, regulators may someday let you — provided you can pass a test .",
-      "source": "https://www.cnbc.com/2025/08/22/sec-test-for-private-assets.html"
-    },
-    {
       "slug": "trump-s-new-tax-law-expands-529-savings-plan-uses-as-families-gear-up-for-back-to-school-2025-08-20",
       "title": "Trump’s new tax law expands 529 savings plan uses as families gear up for back to school",
       "date": "2025-08-20",
@@ -37,10 +28,10 @@
       "source": "https://www.cnbc.com/2025/08/07/trump-private-assets-retirement-plans.html"
     }
   ],
-  "count": 4,
-  "updated_at": "2025-08-22",
+  "count": 3,
+  "updated_at": "2025-08-20",
   "pagination": {
-    "total_items": 4,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }
