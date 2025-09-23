@@ -2,34 +2,33 @@
 layout: layouts/base.njk
 permalink: category.html
 ---
-<section class="category">
-		  <div class="container">
-		    <div class="row">
+<section class="category" data-category-feed data-category="{{ slug or '' }}">
+                  <div class="container">
+                    <div class="row">
 
-				
-		      <div class="col-md-8 text-left">
-		        <div class="row">
-		          <div class="col-md-12">        
-		            <ol class="breadcrumb">
-		              <li><a href="#">Home</a></li>
-		              <li class="active">Computer</li>
-		            </ol>
-		            <h3 class="page-title">Category: Computer</h3>
-		            <p class="page-subtitle">Showing all posts with category <i>Computer</i></p>
-		          </div>
-		        </div>
-		        <div class="line"></div>
-		        <div class="row">
-					
-					<div id="post-list" class="row"></div>
+
+                      <div class="col-md-8 text-left">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <ol class="breadcrumb">
+                              <li><a href="{{ '/' | url }}">Home</a></li>
+                              <li class="active">{{ title or slug or 'Category' }}</li>
+                            </ol>
+                            <h3 class="page-title">Category: {{ title or slug or 'Category' }}</h3>
+                            <p class="page-subtitle">Showing all posts with category <i>{{ title or slug or 'Category' }}</i></p>
+                          </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="row">
+                                        <ul class="row list-unstyled" data-post-list></ul>
 
                           <div class="col-md-12 text-center">
-                            <ul id="pagination" class="pagination"></ul>
-                            <div id="pagination-info" class="pagination-help-text"></div>
+                            <p class="text-muted" data-load-more-status aria-live="polite"></p>
+                            <button type="button" class="btn btn-primary" data-load-more data-label="Load more" data-loading-label="Loading…">Load more</button>
                           </div>
-					
-		        </div>
-		      </div>
+
+                        </div>
+                      </div>
 				
                       <div class="col-md-4 sidebar">
                         <aside id="sidebar-top-ad">

@@ -49,6 +49,41 @@ This generates the static site inside the `_site/` directory. The default
 `.json` output (including the archive/search trees) into `.gz` siblings so that
 the CDN can serve precompressed responses.
 
+## Client-side category loader helpers
+
+The global `assets/js/data-loader.js` script hydrates the navigation menu and
+category feeds once the DOM is ready. A minimal HTML scaffold looks like:
+
+```html
+<nav class="menu">
+  <div data-category-menu></div>
+</nav>
+
+<section class="category" data-category-feed data-category="news">
+  <ul class="row list-unstyled" data-post-list></ul>
+  <p class="text-muted" data-load-more-status aria-live="polite"></p>
+  <button
+    type="button"
+    class="btn btn-primary"
+    data-load-more
+    data-label="Load more"
+    data-loading-label="Loading…"
+  >Load more</button>
+</section>
+
+<script>
+  window.__AVENTUROO_BASE_PATH__ = '';
+</script>
+<script src="/js/base-path.js"></script>
+<script src="/assets/js/data-loader.js" defer></script>
+```
+
+The loader resolves URLs through `window.AventurOOBasePath`, fetches
+`/data/index.json` to populate the menu, requests
+`/data/categories/<slug>/index.json` for the initial post list, and uses the
+`data-load-more` button to walk the archive queue exposed via
+`/data/archive/<slug>/<YYYY>/<MM>.json`.
+
 ## Running the autopost scripts
 
 Each autopost module (news, travel, entertainment, etc.) lives in the
