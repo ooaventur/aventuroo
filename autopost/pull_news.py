@@ -2093,7 +2093,7 @@ def _run_autopost() -> list[dict]:
         legacy_index_path = _legacy_index_path()
         legacy_index_path.parent.mkdir(parents=True, exist_ok=True)
         legacy_index_path.write_text(
-            json.dumps(legacy_payload, ensure_ascii=False, indent=2),
+            json.dumps(legacy_payload, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
     except Exception as exc:
