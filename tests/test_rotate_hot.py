@@ -159,6 +159,55 @@ class RotateHotTests(unittest.TestCase):
             april_payload = self._read_json(april_bucket)
             self.assertEqual([item["slug"] for item in april_payload["items"]], ["april"])
 
+    def test_rotation_is_idempotent_within_same_day(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = pathlib.Path(tmpdir)
+            hot_dir = root / "data" / "hot"
+            archive_dir = root / "data" / "archive"
+
+            self._write_hot(
+                hot_dir,
+                "news/general",
+                [
+                    {"slug": "recent", "published_at": "2024-05-08"},
+                    {"slug": "keep", "published_at": "2024-05-06"},
+                    {"slug": "boundary", "published_at": "2024-05-03"},
+                    {"slug": "archive-me", "published_at": "2024-05-01"},
+                ],
+            )
+
+            first_stats = rotate_hot.rotate(
+                hot_dir=hot_dir,
+                archive_dir=archive_dir,
+                retention_days=5,
+                current_date=datetime.date(2024, 5, 8),
+            )
+
+            self.assertEqual(first_stats.archived_items, 1)
+            self.assertEqual(first_stats.hot_items_remaining, 3)
+
+            hot_path = hot_dir / "news" / "general" / "index.json"
+            archive_path = archive_dir / "news" / "general" / "2024" / "05" / "index.json"
+
+            hot_first = self._read_json(hot_path)
+            archive_first = self._read_json(archive_path)
+
+            second_stats = rotate_hot.rotate(
+                hot_dir=hot_dir,
+                archive_dir=archive_dir,
+                retention_days=5,
+                current_date=datetime.date(2024, 5, 8),
+            )
+
+            self.assertEqual(second_stats.archived_items, 0)
+            self.assertEqual(second_stats.hot_items_remaining, first_stats.hot_items_remaining)
+
+            hot_second = self._read_json(hot_path)
+            archive_second = self._read_json(archive_path)
+
+            self.assertEqual(hot_second, hot_first)
+            self.assertEqual(archive_second, archive_first)
+
 
 if __name__ == "__main__":
     unittest.main()
