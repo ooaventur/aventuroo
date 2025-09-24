@@ -4,26 +4,36 @@
   "count": 2,
   "items": [
     {
+      "slug": "ai-startup-unveils-breakthrough-battery-2025-11-13",
       "id": "sample-tech-story",
       "title": "AI Startup Unveils Breakthrough Battery",
       "excerpt": "A lightweight solid-state battery promises faster charging for electric aircraft.",
       "category": "Tech & AI",
       "category_label": "Tech & AI",
       "date": "2025-11-13T07:30:00Z",
+      "published_at": "2025-11-13T07:30:00Z",
+      "created_at": "2025-11-13T08:00:00Z",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-startup-unveils-breakthrough-battery-2025-11-13/",
       "url": "https://example.com/tech-ai/sample-story",
       "cover": "https://images.example.com/ai-battery.jpg",
-      "source": "https://example.com/tech-ai/sample-story"
+      "source": "https://example.com/tech-ai/sample-story",
+      "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "sleeper-trains-return-to-continental-europe-2025-11-12",
       "id": "sample-travel-story",
       "title": "Sleeper Trains Return to Continental Europe",
       "excerpt": "Overnight rail makes a comeback with climate-friendly routes across the Alps.",
       "category": "Travel",
       "category_label": "Travel",
       "date": "2025-11-12T18:15:00Z",
+      "published_at": "2025-11-12T18:15:00Z",
+      "created_at": "2025-11-12T19:00:00Z",
+      "canonical": "https://archive.aventuroo.com/travel/sleeper-trains-return-to-continental-europe-2025-11-12/",
       "url": "https://example.com/travel/sleeper-trains",
       "cover": "https://images.example.com/sleeper-train.jpg",
-      "source": "https://example.com/travel/sleeper-trains"
+      "source": "https://example.com/travel/sleeper-trains",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
   "pagination": {

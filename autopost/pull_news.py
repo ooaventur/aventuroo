@@ -130,10 +130,25 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
+CONTACT_URL = (
+    os.getenv("CONTACT_URL", "https://www.aventuroo.com/contact").strip()
+    or "https://www.aventuroo.com/contact"
+)
 
 IMPORTANT_FEED_CAP = 10
 
-HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
+HOT_ENTRY_FIELDS = (
+    "slug",
+    "title",
+    "date",
+    "cover",
+    "canonical",
+    "excerpt",
+    "source",
+    "published_at",
+    "created_at",
+    "contact_url",
+)
 HOT_DEFAULT_PARENT_SLUG = "general"
 HOT_DEFAULT_CHILD_SLUG = "index"
 HOT_GLOBAL_PARENT_SLUG = "index"
@@ -972,6 +987,37 @@ def _normalize_post_entry(entry):
     else:
         subcategory = (subcategory or "").strip()
 
+    contact_url_value = normalized.get("contact_url")
+    if isinstance(contact_url_value, str):
+        contact_url_value = contact_url_value.strip()
+    elif contact_url_value is None:
+        contact_url_value = ""
+    else:
+        contact_url_value = str(contact_url_value).strip()
+
+    if contact_url_value:
+        normalized["contact_url"] = contact_url_value
+    else:
+        normalized["contact_url"] = CONTACT_URL
+
+    published_dt = _parse_datetime_value(normalized.get("published_at"))
+    if published_dt is None:
+        published_dt = _parse_datetime_value(normalized.get("date"))
+    if published_dt is None:
+        published_dt = _utcnow()
+
+    created_dt = _parse_datetime_value(normalized.get("created_at"))
+    if created_dt is None:
+        created_dt = _utcnow()
+    if created_dt < published_dt:
+        created_dt = published_dt
+
+    normalized["published_at"] = _format_datetime_utc(published_dt)
+    normalized["created_at"] = _format_datetime_utc(created_dt)
+
+    if not (normalized.get("date") or "").strip():
+        normalized["date"] = published_dt.date().isoformat()
+
     slug_parts = []
     if cat_slug:
         slug_parts.append(cat_slug)
@@ -1007,10 +1053,35 @@ def _normalize_hot_entry(entry):
 
     normalized = {"slug": slug_value}
 
+    published_fallback = _parse_datetime_value(entry.get("published_at"))
+    if published_fallback is None:
+        published_fallback = _parse_datetime_value(entry.get("date"))
+    if published_fallback is None:
+        published_fallback = _utcnow()
+
+    created_fallback = _parse_datetime_value(entry.get("created_at"))
+    if created_fallback is None:
+        created_fallback = published_fallback
+
     for key in HOT_ENTRY_FIELDS:
         if key == "slug":
             continue
         value = entry.get(key)
+        if key in {"published_at", "created_at"}:
+            fallback = published_fallback if key == "published_at" else created_fallback
+            normalized[key] = _normalize_timestamp_value(value, fallback)
+            continue
+        if key == "contact_url":
+            if isinstance(value, str):
+                value = value.strip()
+            elif value is None:
+                value = ""
+            else:
+                value = str(value).strip()
+            if not value:
+                value = CONTACT_URL
+            normalized[key] = value
+            continue
         if value is None:
             continue
         if isinstance(value, str):
@@ -1025,57 +1096,97 @@ def _normalize_hot_entry(entry):
     return normalized
 
 
-def _normalize_date_string(value: str) -> str:
-    value = (value or "").strip()
-    if not value:
-        return ""
-    value = re.sub(r"\s+", " ", value)
+UTC = datetime.timezone.utc
 
-    dt = None
 
-    iso_candidate = value
-    if iso_candidate.endswith("Z"):
-        iso_candidate = iso_candidate[:-1] + "+00:00"
-    try:
-        dt = datetime.datetime.fromisoformat(iso_candidate)
-    except ValueError:
-        dt = None
+def _utcnow() -> datetime.datetime:
+    return datetime.datetime.now(tz=UTC).replace(microsecond=0)
 
-    if dt is None:
+
+def _format_datetime_utc(value: datetime.datetime) -> str:
+    dt = value.astimezone(UTC).replace(microsecond=0)
+    iso = dt.isoformat()
+    if iso.endswith("+00:00"):
+        iso = iso[:-6] + "Z"
+    return iso
+
+
+def _parse_datetime_value(value: Any) -> Optional[datetime.datetime]:
+    if isinstance(value, datetime.datetime):
+        dt = value
+    elif isinstance(value, datetime.date):
+        dt = datetime.datetime(value.year, value.month, value.day, tzinfo=UTC)
+    elif isinstance(value, (int, float)) and not isinstance(value, bool):
         try:
-            dt = parsedate_to_datetime(value)
-        except (TypeError, ValueError, IndexError):
+            timestamp = float(value)
+        except (TypeError, ValueError):
+            return None
+        if timestamp > 1_000_000_000_000:
+            timestamp /= 1000.0
+        try:
+            dt = datetime.datetime.fromtimestamp(timestamp, tz=UTC)
+        except (OverflowError, OSError, ValueError):
+            return None
+    else:
+        text = str(value or "").strip()
+        if not text:
+            return None
+        text = re.sub(r"\s+", " ", text)
+        candidate = text
+        if candidate.endswith("Z"):
+            candidate = candidate[:-1] + "+00:00"
+        try:
+            dt = datetime.datetime.fromisoformat(candidate)
+        except ValueError:
             dt = None
-
-    if dt is None:
-        for fmt in (
-            "%Y-%m-%d",
-            "%Y/%m/%d",
-            "%d %b %Y",
-            "%d %B %Y",
-            "%b %d, %Y",
-            "%B %d, %Y",
-        ):
+        if dt is None:
             try:
-                dt = datetime.datetime.strptime(value, fmt)
-                break
-            except ValueError:
-                continue
-
-    if dt is None:
-        return ""
-
+                dt = parsedate_to_datetime(text)
+            except (TypeError, ValueError, IndexError):
+                dt = None
+        if dt is None:
+            for fmt in (
+                "%Y-%m-%d",
+                "%Y/%m/%d",
+                "%d %b %Y",
+                "%d %B %Y",
+                "%b %d, %Y",
+                "%B %d, %Y",
+            ):
+                try:
+                    dt = datetime.datetime.strptime(text, fmt)
+                    break
+                except ValueError:
+                    continue
+        if dt is None:
+            return None
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=datetime.timezone.utc)
+        dt = dt.replace(tzinfo=UTC)
+    return dt.astimezone(UTC).replace(microsecond=0)
 
-    return dt.astimezone(datetime.timezone.utc).date().isoformat()
+
+def _normalize_timestamp_value(value: Any, fallback: Optional[datetime.datetime] = None) -> str:
+    parsed = _parse_datetime_value(value)
+    if parsed is None:
+        if fallback is None:
+            return ""
+        parsed = fallback
+    return _format_datetime_utc(parsed)
 
 
-def parse_item_date(it_elem) -> str:
+def _normalize_date_string(value: str) -> str:
+    parsed = _parse_datetime_value(value)
+    if parsed is None:
+        return ""
+    return parsed.date().isoformat()
+
+
+def _extract_item_datetime(it_elem) -> datetime.datetime:
     if it_elem is None:
-        return today_iso()
+        return _utcnow()
 
-    candidates = []
+    candidates: list[str] = []
+
     def _append_candidate(value):
         if isinstance(value, str):
             stripped = value.strip()
@@ -1092,13 +1203,16 @@ def parse_item_date(it_elem) -> str:
     ns_dc = {"dc": "http://purl.org/dc/elements/1.1/"}
     _append_candidate(it_elem.findtext("dc:date", default="", namespaces=ns_dc))
 
-
     for candidate in candidates:
-        normalized = _normalize_date_string(candidate)
-        if normalized:
-            return normalized
+        parsed = _parse_datetime_value(candidate)
+        if parsed is not None:
+            return parsed
 
-    return today_iso()
+    return _utcnow()
+
+
+def parse_item_date(it_elem) -> str:
+    return _extract_item_datetime(it_elem).date().isoformat()
 
 
 _COMMON_COUNTRY_TLDS = {
@@ -1336,7 +1450,7 @@ def _entry_sort_key(entry) -> str:
 
 
 def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    return _utcnow().date().isoformat()
  
 def _determine_bucket_slugs(entry: dict) -> tuple[str, str]:
     if not isinstance(entry, dict):
@@ -1802,6 +1916,7 @@ def _run_autopost() -> list[dict]:
     per_feed_counts = {}
     new_entries = []
     batch_slugs: set[str] = set()
+    run_started_at = _utcnow()
 
     category_filter_raw = CATEGORY
     category_filter_norm = slugify_taxonomy(category_filter_raw)
@@ -1921,7 +2036,8 @@ def _run_autopost() -> list[dict]:
                 excerpt = excerpt[:277] + "…"
 
             # 6) Date
-            date = parse_item_date(it_elem)
+            published_dt = _extract_item_datetime(it_elem)
+            date = published_dt.date().isoformat()
 
             # 7) Author & rights (best-effort fallbacks)
             author = DEFAULT_AUTHOR
@@ -1947,6 +2063,8 @@ def _run_autopost() -> list[dict]:
             slug_base = slugify(f"{title}-{date}")
             slug = ensure_unique_slug(slug_base, existing_slugs)
             canonical_path = _build_archive_canonical(slug, cat_slug, sub_slug)
+            created_dt = run_started_at if run_started_at >= published_dt else published_dt
+
             entry = {
                 "slug": slug,
                 "title": title,
@@ -1954,6 +2072,8 @@ def _run_autopost() -> list[dict]:
                 "subcategory": subcategory_label,
                 "category_slug": category_slug_value or ("/".join(p for p in (cat_slug, sub_slug) if p) or ""),
                 "date": date,
+                "published_at": _format_datetime_utc(published_dt),
+                "created_at": _format_datetime_utc(created_dt),
                 "excerpt": excerpt,
                 "cover": cover,
                 "source": link,
@@ -1963,6 +2083,7 @@ def _run_autopost() -> list[dict]:
                 "rights": rights,
                 "body": body_html,
                 "canonical": canonical_path,
+                "contact_url": CONTACT_URL,
             }
 
             existing_slugs.add(slug)
