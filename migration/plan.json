@@ -1,0 +1,12 @@
+[
+  {"from": "json/", "to": "data/"},
+  {"from": "feeds/", "to": "data/"},
+  {"from": "public/json/", "to": "data/"},
+  {"from": "raw/", "to": "out/raw/"},
+  {"from": "static/js/data-loader.js", "to": "assets/js/data-loader.js"},
+  {"delete": "json/"},
+  {"delete": "feeds/"},
+  {"delete": "public/json/"},
+  {"delete": "raw/"},
+  {"delete": "static/js/data-loader.js"}
+]
