@@ -21,6 +21,7 @@
   }
 
   var DEFAULT_IMAGE = resolve('/images/logo.png');
+  var MAX_CATEGORY_ARCHIVE_DAYS = 5;
 
   function ready(callback) {
     if (typeof callback !== 'function') {
@@ -64,7 +65,21 @@
         var status = response ? response.status : '0';
         throw new Error('Request failed with status ' + status);
       }
-      return response.json();
+      return response.text().then(function (text) {
+        if (text == null) {
+          return null;
+        }
+        var sanitized = String(text).replace(/^[\uFEFF\u200B]+/, '').trim();
+        if (!sanitized) {
+          return null;
+        }
+        try {
+          return JSON.parse(sanitized);
+        } catch (err) {
+          err.message = 'Could not parse JSON from ' + url + ': ' + err.message;
+          throw err;
+        }
+      });
     });
   }
 
@@ -152,6 +167,116 @@
       return '01';
     }
     return num < 10 ? '0' + num : String(num);
+  }
+
+  function limitArchiveQueue(entries) {
+    if (!Array.isArray(entries) || !entries.length) {
+      return [];
+    }
+    var limited = [];
+    var seen = Object.create(null);
+    for (var i = 0; i < entries.length && limited.length < MAX_CATEGORY_ARCHIVE_DAYS; i++) {
+      var entry = entries[i];
+      if (!entry || typeof entry !== 'object') {
+        continue;
+      }
+      var year = parseInt(entry.year, 10);
+      var month = parseInt(entry.month, 10);
+      if (!year || !month) {
+        if (entry.date) {
+          var dateParts = String(entry.date).split('-');
+          if (dateParts.length >= 3) {
+            year = parseInt(dateParts[0], 10);
+            month = parseInt(dateParts[1], 10);
+            entry = { year: year, month: month, day: parseInt(dateParts[2], 10) };
+          }
+        }
+      }
+      if (!year || !month) {
+        continue;
+      }
+      var normalized = { year: year, month: month };
+      var dayValue = entry.day;
+      if (dayValue == null && entry.date) {
+        var parts = String(entry.date).split('-');
+        if (parts.length >= 3) {
+          dayValue = parseInt(parts[2], 10);
+        }
+      }
+      var day = parseInt(dayValue, 10);
+      if (!isNaN(day) && day >= 1 && day <= 31) {
+        normalized.day = day;
+      }
+      var key = normalized.year + '-' + normalized.month + (normalized.day != null ? '-' + normalized.day : '');
+      if (seen[key]) {
+        continue;
+      }
+      seen[key] = true;
+      limited.push(normalized);
+    }
+    return limited;
+  }
+
+  function addArchiveEntry(entry, target) {
+    if (!entry || typeof entry !== 'object' || !target) {
+      return;
+    }
+    if (Array.isArray(entry.days) && entry.days.length) {
+      for (var i = 0; i < entry.days.length; i++) {
+        var dayEntry = entry.days[i];
+        var candidate = {};
+        if (dayEntry && typeof dayEntry === 'object') {
+          candidate.year = dayEntry.year != null ? dayEntry.year : entry.year;
+          candidate.month = dayEntry.month != null ? dayEntry.month : entry.month;
+          if (dayEntry.day != null) {
+            candidate.day = dayEntry.day;
+          } else if (dayEntry.date) {
+            candidate.day = dayEntry.date;
+          } else if (dayEntry.value != null) {
+            candidate.day = dayEntry.value;
+          }
+          if (dayEntry.date) {
+            candidate.date = dayEntry.date;
+          } else if (entry.date) {
+            candidate.date = entry.date;
+          }
+        } else {
+          candidate.year = entry.year;
+          candidate.month = entry.month;
+          candidate.day = dayEntry;
+          if (entry.date) {
+            candidate.date = entry.date;
+          }
+        }
+        target.push(candidate);
+      }
+      return;
+    }
+    target.push(entry);
+  }
+
+  function formatArchiveLabel(entry) {
+    if (!entry || typeof entry !== 'object') {
+      return '';
+    }
+    var year = parseInt(entry.year, 10);
+    var month = parseInt(entry.month, 10);
+    if (!year || !month) {
+      return '';
+    }
+    var day = entry.day != null ? parseInt(entry.day, 10) : NaN;
+    if (!isNaN(day) && day >= 1 && day <= 31) {
+      var date = new Date(Date.UTC(year, month - 1, day));
+      if (!isNaN(date.getTime())) {
+        try {
+          return date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+        } catch (err) {
+          return year + '-' + padMonth(month) + '-' + padMonth(day);
+        }
+      }
+      return year + '-' + padMonth(month) + '-' + padMonth(day);
+    }
+    return monthLabel(year, month);
   }
 
   function Deduper() {
@@ -252,43 +377,40 @@
     if (payload.archive && Array.isArray(payload.archive.months)) {
       sources.push(payload.archive.months);
     }
+    if (payload.archive && Array.isArray(payload.archive.days)) {
+      sources.push(payload.archive.days);
+    }
     if (Array.isArray(payload.archives)) {
       sources.push(payload.archives);
     }
     if (Array.isArray(payload.months)) {
       sources.push(payload.months);
     }
+    if (Array.isArray(payload.days)) {
+      sources.push(payload.days);
+    }
     if (payload.meta && Array.isArray(payload.meta.months)) {
       sources.push(payload.meta.months);
+    }
+    if (payload.meta && Array.isArray(payload.meta.days)) {
+      sources.push(payload.meta.days);
     }
     if (payload.pagination && Array.isArray(payload.pagination.months)) {
       sources.push(payload.pagination.months);
     }
-    var seen = Object.create(null);
+    if (payload.pagination && Array.isArray(payload.pagination.days)) {
+      sources.push(payload.pagination.days);
+    }
     for (var i = 0; i < sources.length; i++) {
       var list = sources[i];
       if (!Array.isArray(list)) {
         continue;
       }
       for (var j = 0; j < list.length; j++) {
-        var entry = list[j];
-        if (!entry || typeof entry !== 'object') {
-          continue;
-        }
-        var year = parseInt(entry.year, 10);
-        var month = parseInt(entry.month, 10);
-        if (!year || !month) {
-          continue;
-        }
-        var key = year + '-' + month;
-        if (seen[key]) {
-          continue;
-        }
-        seen[key] = true;
-        queue.push({ year: year, month: month });
+        addArchiveEntry(list[j], queue);
       }
     }
-    return queue;
+    return limitArchiveQueue(queue);
   }
 
   function getArchiveSummary() {
@@ -369,7 +491,7 @@
       }
     }
 
-    return result;
+    return limitArchiveQueue(result);
   }
 
   function buildMenuConfig(payload) {
@@ -1008,11 +1130,51 @@
     if (!normalized) {
       return Promise.reject(new Error('Missing category slug.'));
     }
-    var base = '/data/archive/' + normalized + '/' + entry.year + '/' + padMonth(entry.month);
-    return fetchJson(base + '.json', { cache: 'no-store' })
-      .catch(function () {
-        return fetchJson(base + '/index.json', { cache: 'no-store' });
+    if (!entry || typeof entry !== 'object') {
+      return Promise.reject(new Error('Missing archive entry.'));
+    }
+    var year = parseInt(entry.year, 10);
+    var month = parseInt(entry.month, 10);
+    if (!year || !month) {
+      return Promise.reject(new Error('Invalid archive entry.'));
+    }
+    var base = '/data/archive/' + normalized + '/' + year + '/' + padMonth(month);
+    var fetchers = [];
+    var day = entry.day != null ? parseInt(entry.day, 10) : NaN;
+    if (!isNaN(day) && day >= 1 && day <= 31) {
+      var daySegment = padMonth(day);
+      var dayBase = base + '/' + daySegment;
+      fetchers.push(function () {
+        return fetchJson(dayBase + '.json', { cache: 'no-store' });
       });
+      fetchers.push(function () {
+        return fetchJson(dayBase + '/index.json', { cache: 'no-store' });
+      });
+    }
+    fetchers.push(function () {
+      return fetchJson(base + '.json', { cache: 'no-store' });
+    });
+    fetchers.push(function () {
+      return fetchJson(base + '/index.json', { cache: 'no-store' });
+    });
+
+    function attempt(index, lastError) {
+      if (index >= fetchers.length) {
+        return Promise.reject(lastError || new Error('Archive batch fetch failed.'));
+      }
+      var fn = fetchers[index];
+      var result;
+      try {
+        result = fn();
+      } catch (err) {
+        return attempt(index + 1, err);
+      }
+      return result.catch(function (err) {
+        return attempt(index + 1, err);
+      });
+    }
+
+    return attempt(0, null);
   }
 
   function handleLoadMore(state) {
@@ -1031,15 +1193,16 @@
     }
     state.isLoading = true;
     updateLoadMoreButton(state);
-    var label = monthLabel(next.year, next.month);
+    var label = formatArchiveLabel(next);
+    var fallbackLabel = typeof next.day === 'number' ? 'this date' : 'this month';
     var hadError = false;
     fetchArchiveBatch(state.slug, next)
       .then(function (payload) {
         var posts = extractPosts(payload);
         var added = appendPosts(state, posts);
         if (!added) {
-          showEmptyState(state.postList, 'No archived posts available for ' + (label || 'this month') + '.');
-          setStatus(state.statusEl, 'No archived posts found for ' + (label || 'this month') + '.');
+          showEmptyState(state.postList, 'No archived posts available for ' + (label || fallbackLabel) + '.');
+          setStatus(state.statusEl, 'No archived posts found for ' + (label || fallbackLabel) + '.');
         } else {
           setStatus(state.statusEl, 'Loaded ' + added + ' posts from ' + (label || 'the archive') + '.');
         }
