@@ -1,6 +1,21 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && if [ -d data ]; then mkdir -p _site/data && cp -R data/. _site/data/; fi && if [ -f _redirects ]; then cp _redirects _site/_redirects; fi && if [ -f _headers ]; then cp _headers _site/_headers; fi"
   publish = "_site"
+
+# Disable Netlify post processing minification so JSON payloads remain untouched.
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = false
+  minify = false
+
+[build.processing.js]
+  bundle = false
+  minify = false
+
+[build.processing.images]
+  compress = false
 
 [[headers]]
   for = "/archive/*"
