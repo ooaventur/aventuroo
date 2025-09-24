@@ -197,15 +197,16 @@ pass. The JSON schema is:
 
 ```json
 {
-  "last_run": "2024-04-18T15:30:00Z",
-  "items_published": 12,
+  "last_fetch": "2024-04-18T15:30:00Z",
+  "feeds_count": 128,
+  "items_ingested": 12,
   "errors": ["fetch_bytes failed: …"]
 }
 ```
 
-- `last_run` – UTC timestamp written whenever the job finishes.
-- `items_published` – count of newly published stories (preserved by the
-  rotation task so the ingestion job remains authoritative).
+- `last_fetch` – UTC timestamp written whenever the job finishes fetching feeds.
+- `feeds_count` – number of feeds parsed during the run.
+- `items_ingested` – count of stories successfully ingested this cycle.
 - `errors` – deduplicated list of warnings or failures observed during the run.
 
 Eleventy copies the `_health/` directory straight into `_site/` so the Netlify
@@ -219,7 +220,7 @@ three duties:
 1. Strip caching for requests to `/_health/autopost.json` so consumers always
    receive a fresh payload.
 2. Inspect the heartbeat on edge fetches (and on a scheduled trigger) to detect
-   stale `last_run` timestamps, low publication counts, or collected errors.
+   stale `last_fetch` timestamps, low publication counts, or collected errors.
 3. Forward Alertmanager-compatible alerts to a webhook when thresholds are
    breached.
 
@@ -228,9 +229,10 @@ Configure the Worker with the following environment variables:
 - `HEALTH_ORIGIN` – base origin URL that exposes `/_health/autopost.json`.
 - `ALERTMANAGER_WEBHOOK` – Alertmanager receiver URL (optional; monitoring is
   read-only when omitted).
-- `MIN_ITEMS_PUBLISHED` – minimum acceptable `items_published` before raising a
-  `AutopostLowPublication` alert (default: `1`).
-- `MAX_HEALTH_AGE_MINUTES` – maximum age of `last_run` before emitting an
+- `MIN_ITEMS_INGESTED` – minimum acceptable `items_ingested` before raising a
+  `AutopostLowPublication` alert (default: `1`). The legacy
+  `MIN_ITEMS_PUBLISHED` variable is still honoured for backwards compatibility.
+- `MAX_HEALTH_AGE_MINUTES` – maximum age of `last_fetch` before emitting an
   `AutopostStale` alert (default: `120`).
 - `ALERTMANAGER_SERVICE` – label value used for the `service` label in emitted
   alerts (defaults to `aventuroo-autopost`).

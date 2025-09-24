@@ -48,6 +48,18 @@ def _record_health_error(message: str) -> None:
     if _HEALTH_REPORT is not None:
         _HEALTH_REPORT.record_error(message)
 
+
+def _set_health_feeds_count(value: int) -> None:
+    global _HEALTH_REPORT
+    if _HEALTH_REPORT is not None:
+        _HEALTH_REPORT.set_feeds_count(value)
+
+
+def _set_health_items_ingested(value: int) -> None:
+    global _HEALTH_REPORT
+    if _HEALTH_REPORT is not None:
+        _HEALTH_REPORT.set_items_ingested(value)
+
 def _env_int(name: str, default: int) -> int:
     """Return an integer from the environment or ``default`` on failure."""
 
@@ -1749,6 +1761,8 @@ def _run_autopost() -> list[dict]:
     if not FEEDS.exists():
         print("ERROR: feeds file not found:", FEEDS)
         _record_health_error(f"Feeds file not found: {FEEDS}")
+        _set_health_feeds_count(0)
+        _set_health_items_ingested(0)
         return []
 
     added_total = 0
@@ -1774,6 +1788,8 @@ def _run_autopost() -> list[dict]:
         category_filter_lower=category_filter_lower,
         default_per_feed_cap=default_per_feed_cap,
     )
+
+    _set_health_feeds_count(len(feed_specs))
 
     for spec in feed_specs:
         category_label = spec.get("category_label", "")
@@ -1979,6 +1995,8 @@ def _run_autopost() -> list[dict]:
         print("Failed to write headline index:", exc)
         _record_health_error(f"Failed to write headline index: {exc}")
 
+    _set_health_items_ingested(len(new_entries))
+
     print("New posts this run:", len(new_entries))
     return new_entries
 
@@ -1996,10 +2014,13 @@ def main():
         raise
     finally:
         try:
-            health.write(items_published=len(new_entries))
+            health.write(items_ingested=len(new_entries))
         except Exception as health_exc:
             print(f"[WARN] Failed to write autopost health: {health_exc}")
         _HEALTH_REPORT = None
+
+    if health.has_errors:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
