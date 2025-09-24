@@ -130,10 +130,23 @@ UA = os.getenv("AP_USER_AGENT", "Mozilla/5.0 (AventurOO Autoposter)")
 FALLBACK_COVER = os.getenv("FALLBACK_COVER", "assets/img/cover-fallback.jpg")
 DEFAULT_AUTHOR = os.getenv("DEFAULT_AUTHOR", "AventurOO Editorial")
 ARCHIVE_BASE_URL = os.getenv("ARCHIVE_BASE_URL", "https://archive.aventuroo.com").strip()
+CONTACT_URL = (
+    os.getenv("CONTACT_URL", "https://www.aventuroo.com/contact").strip()
+    or "https://www.aventuroo.com/contact"
+)
 
 IMPORTANT_FEED_CAP = 10
 
-HOT_ENTRY_FIELDS = ("slug", "title", "date", "cover", "canonical", "excerpt", "source")
+HOT_ENTRY_FIELDS = (
+    "slug",
+    "title",
+    "date",
+    "cover",
+    "canonical",
+    "excerpt",
+    "source",
+    "contact_url",
+)
 HOT_DEFAULT_PARENT_SLUG = "general"
 HOT_DEFAULT_CHILD_SLUG = "index"
 HOT_GLOBAL_PARENT_SLUG = "index"
@@ -972,6 +985,19 @@ def _normalize_post_entry(entry):
     else:
         subcategory = (subcategory or "").strip()
 
+    contact_url_value = normalized.get("contact_url")
+    if isinstance(contact_url_value, str):
+        contact_url_value = contact_url_value.strip()
+    elif contact_url_value is None:
+        contact_url_value = ""
+    else:
+        contact_url_value = str(contact_url_value).strip()
+
+    if contact_url_value:
+        normalized["contact_url"] = contact_url_value
+    else:
+        normalized["contact_url"] = CONTACT_URL
+
     slug_parts = []
     if cat_slug:
         slug_parts.append(cat_slug)
@@ -1011,6 +1037,17 @@ def _normalize_hot_entry(entry):
         if key == "slug":
             continue
         value = entry.get(key)
+        if key == "contact_url":
+            if isinstance(value, str):
+                value = value.strip()
+            elif value is None:
+                value = ""
+            else:
+                value = str(value).strip()
+            if not value:
+                value = CONTACT_URL
+            normalized[key] = value
+            continue
         if value is None:
             continue
         if isinstance(value, str):
@@ -1963,6 +2000,7 @@ def _run_autopost() -> list[dict]:
                 "rights": rights,
                 "body": body_html,
                 "canonical": canonical_path,
+                "contact_url": CONTACT_URL,
             }
 
             existing_slugs.add(slug)

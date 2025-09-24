@@ -22,6 +22,7 @@ REQUIRED_ITEM_FIELDS = (
     "source",
     "published_at",
     "created_at",
+    "contact_url",
 )
 
 
