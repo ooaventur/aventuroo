@@ -2,8 +2,14 @@ name: Archive feeds
 
 on:
   schedule:
-    - cron: '0 2 1,16 * *'
+    - cron: '0 2 */15 * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip committing changes to the repository'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   archive:
@@ -34,6 +40,12 @@ jobs:
             echo "No requirements.txt found. Skipping dependency installation."
           fi
 
+      - name: Rotate hot shards
+        run: |
+          echo "Starting rotate_hot script..."
+          python autopost/rotate_hot.py
+          echo "rotate_hot script finished."
+
       - name: Run archive script
         run: |
           echo "Starting archive script..."
@@ -41,6 +53,7 @@ jobs:
           echo "Archive script finished."
 
       - name: Commit and push changes
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.dry_run != 'true' }}
         run: |
           echo "Checking for repository changes..."
           if [ -z "$(git status --porcelain)" ]; then
@@ -58,7 +71,7 @@ jobs:
           git add -A
 
           echo "Committing changes..."
-          git commit -m "chore: archive feed updates"
+          git commit -m "chore(archive): rotate hot & monthly append"
 
           echo "Pushing changes to repository..."
           git push
