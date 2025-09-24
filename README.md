@@ -335,7 +335,9 @@ vjetra drejt atyre të reja pa surpriza. Kalo hapat një nga një:
    në `out/replace.diff`.
 4. **Cleanup (dry-run)** – përpara fshirjeve reale ekzekuto `bash
    scripts/cleanup.sh --dry-run cleanup-allowlist.txt`. Output-i tregon çfarë do
-   fshihej; rregullo allowlist-in nëse mungon diçka.
+   fshihej; rregullo allowlist-in nëse mungon diçka. Nëse do të sigurohesh që
+   hiqen vetëm path-e që janë më të vjetra se një prag i caktuar, shto
+   p.sh. `--min-age-days 30` për t’u fokusuar vetëm te gjurmët më të vjetra.
 5. Vetëm kur je i bindur që gjithçka është në vend, rifillo komandën e
    pastrimit me `--apply` për të hequr dosjet e vjetra.
 

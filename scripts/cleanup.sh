@@ -3,15 +3,19 @@ set -euo pipefail
 
 usage() {
   cat <<'USAGE'
-Perdorimi: cleanup.sh [--dry-run|--apply] [allowlist]
-  --dry-run   Tregon cfare do te fshihet pa fshire (default)
-  --apply     Kryen fshirjen dhe logon ne out/cleanup.log
-  allowlist   Rruga drejt cleanup-allowlist.txt (default: ne rrënjën e projektit)
+Perdorimi: cleanup.sh [opsione] [allowlist]
+  --dry-run            Tregon cfare do te fshihet pa fshire (default)
+  --apply              Kryen fshirjen dhe logon ne out/cleanup.log
+  --min-age-days N     Fshin vetem path-et qe jane te vjetra te pakten N dite
+  allowlist            Rruga drejt cleanup-allowlist.txt (default: ne rrënjën e projektit)
 USAGE
 }
 
 MODE="dry-run"
-if [[ $# -gt 0 ]]; then
+MIN_AGE_DAYS=0
+ALLOWLIST_ARG=""
+
+while [[ $# -gt 0 ]]; do
   case "$1" in
     --dry-run)
       MODE="dry-run"
@@ -21,26 +25,117 @@ if [[ $# -gt 0 ]]; then
       MODE="apply"
       shift
       ;;
+    --min-age-days)
+      if [[ $# -lt 2 ]]; then
+        echo "Mungon vlere per --min-age-days" >&2
+        usage
+        exit 1
+      fi
+      MIN_AGE_DAYS="$2"
+      shift 2
+      ;;
+    --min-age-days=*)
+      MIN_AGE_DAYS="${1#*=}"
+      shift
+      ;;
     -h|--help)
       usage
       exit 0
       ;;
+    --)
+      shift
+      break
+      ;;
     *)
-      echo "Argument i panjohur: $1" >&2
-      usage
-      exit 1
+      ALLOWLIST_ARG="$1"
+      shift
+      break
       ;;
   esac
+done
+
+if [[ -n "$ALLOWLIST_ARG" && $# -gt 0 ]]; then
+  echo "Argumente te tepërta: $*" >&2
+  usage
+  exit 1
+fi
+
+if ! [[ "$MIN_AGE_DAYS" =~ ^[0-9]+$ ]]; then
+  echo "--min-age-days duhet te jete numer i plote >= 0" >&2
+  exit 1
 fi
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-ALLOWLIST_FILE="${1:-$REPO_ROOT/cleanup-allowlist.txt}"
+ALLOWLIST_FILE="${ALLOWLIST_ARG:-$REPO_ROOT/cleanup-allowlist.txt}"
 
 if [[ ! -f "$ALLOWLIST_FILE" ]]; then
   echo "Allowlist nuk u gjet: $ALLOWLIST_FILE" >&2
   exit 1
 fi
+
+check_min_age() {
+  local target="$1"
+  local min_age="$2"
+  python3 - "$target" "$min_age" <<'PY'
+import os
+import sys
+import time
+from pathlib import Path
+
+
+def newest_mtime(path: Path) -> float:
+    try:
+        stat_result = path.lstat()
+    except FileNotFoundError:
+        return float("nan")
+
+    newest = stat_result.st_mtime
+    if path.is_dir() and not path.is_symlink():
+        for root, dirs, files in os.walk(path, followlinks=False):
+            for name in files:
+                candidate = Path(root, name)
+                try:
+                    mtime = candidate.lstat().st_mtime
+                except FileNotFoundError:
+                    continue
+                if mtime > newest:
+                    newest = mtime
+            for name in dirs:
+                candidate = Path(root, name)
+                try:
+                    mtime = candidate.lstat().st_mtime
+                except FileNotFoundError:
+                    continue
+                if mtime > newest:
+                    newest = mtime
+    return newest
+
+
+def main() -> int:
+    path = Path(sys.argv[1])
+    min_age = float(sys.argv[2])
+    newest = newest_mtime(path)
+    if newest != newest:  # NaN kontroll
+        print("MISSING")
+        return 2
+
+    now = time.time()
+    age_days = max(0.0, (now - newest) / 86400.0)
+    threshold = now - min_age * 86400.0
+
+    if newest <= threshold:
+        print(f"ALLOW {age_days:.2f}")
+        return 0
+
+    print(f"SKIP {age_days:.2f}")
+    return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+PY
+}
 
 # Lista e path-eve te mbrojtura (relative ndaj rrënjës se projektit)
 PROTECTED_PATHS=(
@@ -113,18 +208,55 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     display_path="$trimmed"
   fi
 
+  target_exists=false
+  AGE_OUTPUT=""
+  if [[ -e "$target" || -L "$target" ]]; then
+    target_exists=true
+    if (( MIN_AGE_DAYS > 0 )); then
+      if AGE_OUTPUT="$(check_min_age "$target" "$MIN_AGE_DAYS")"; then
+        AGE_STATUS=0
+      else
+        AGE_STATUS=$?
+      fi
+      if (( AGE_STATUS == 2 )); then
+        echo "Duke kapërcyer (mungon gjate llogaritjes se moshes): $display_path"
+        continue
+      fi
+      if (( AGE_STATUS != 0 )); then
+        age_info="${AGE_OUTPUT#SKIP }"
+        if [[ "$age_info" != "$AGE_OUTPUT" ]]; then
+          echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë, ≈${age_info} ditë): $display_path"
+        else
+          echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë): $display_path"
+        fi
+        continue
+      fi
+    fi
+  fi
+
   if [[ "$MODE" == "dry-run" ]]; then
-    if [[ -e "$target" || -L "$target" ]]; then
-      echo "[DRY-RUN] Do fshihej: $display_path"
+    if [[ "$target_exists" == true ]]; then
+      if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
+        age_info="${AGE_OUTPUT#ALLOW }"
+        echo "[DRY-RUN] Do fshihej (mosha ≈${age_info} ditë): $display_path"
+      else
+        echo "[DRY-RUN] Do fshihej: $display_path"
+      fi
     else
       echo "[DRY-RUN] Do fshihej (mungon): $display_path"
     fi
   else
-    if [[ -e "$target" || -L "$target" ]]; then
+    if [[ "$target_exists" == true ]]; then
       rm -rf -- "$target"
       timestamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-      echo "[$timestamp] U fshi: $display_path" >> "$LOG_FILE"
-      echo "U fshi: $display_path"
+      if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
+        age_info="${AGE_OUTPUT#ALLOW }"
+        echo "[$timestamp] U fshi (mosha ≈${age_info} ditë): $display_path" >> "$LOG_FILE"
+        echo "U fshi (mosha ≈${age_info} ditë): $display_path"
+      else
+        echo "[$timestamp] U fshi: $display_path" >> "$LOG_FILE"
+        echo "U fshi: $display_path"
+      fi
     else
       echo "U kapërcye (mungon): $display_path"
     fi
