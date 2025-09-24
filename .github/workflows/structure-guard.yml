@@ -1,0 +1,91 @@
+name: Structure Guard
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure-guard:
+    name: Structure Guard
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run project audit
+        run: python scripts/audit_project.py
+
+      - name: Run internal link checker
+        run: |
+          if python scripts/check_links.py; then
+            echo "Internal link checker completed with no issues detected."
+          else
+            status=$?
+            if [ ! -f out/broken_links.json ]; then
+              echo "Link checker failed and no report was generated." >&2
+              exit "${status}"
+            fi
+            echo "Internal link checker reported issues (exit code ${status}). See out/broken_links.json for details."
+          fi
+
+      - name: Enforce legacy directory policy
+        if: ${{ always() }}
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          report_path = Path("out/audit.json")
+          if not report_path.exists():
+              print("Audit report not found at out/audit.json. Ensure scripts/audit_project.py ran successfully.", file=sys.stderr)
+              sys.exit(1)
+
+          report = json.loads(report_path.read_text(encoding="utf-8"))
+          legacy = report.get("legacy_files") or {}
+
+          alias_map = {
+              "json/": ("json/",),
+              "feeds/": ("feeds/",),
+              "public/json/": ("public/json/", "build/json/"),
+              "old_data/": ("old_data/",),
+          }
+
+          offending = []
+          for label, keys in alias_map.items():
+              paths = set()
+              for key in keys:
+                  entries = legacy.get(key, [])
+                  for entry in entries:
+                      path = entry.get("path")
+                      if path:
+                          paths.add(path)
+              if paths:
+                  offending.append((label, sorted(paths)))
+
+          if offending:
+              print("Legacy directories detected in out/audit.json:")
+              for label, paths in offending:
+                  print(f"- {label}:")
+                  for path in paths:
+                      print(f"  * {path}")
+              sys.exit(1)
+
+          print("No legacy directory usage detected in audit report.")
+          PY
+
+      - name: Upload audit artifacts
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: structure-guard-reports
+          path: |
+            out/audit.json
+            out/broken_links.json
+          if-no-files-found: warn
