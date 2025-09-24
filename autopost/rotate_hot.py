@@ -66,7 +66,19 @@ def _iter_hot_shards(hot_dir: pathlib.Path) -> Iterator[pathlib.Path]:
 def _item_key(item: dict) -> str:
     """Return a stable identifier for an item to support deduplication."""
 
-    for field in ("slug", "canonical", "url"):
+    identifier = item.get("id")
+    if identifier is not None:
+        text = str(identifier).strip()
+        if text:
+            return f"id::{text.lower()}"
+
+    slug = item.get("slug")
+    if isinstance(slug, str):
+        text = slug.strip()
+        if text:
+            return f"slug::{text.lower()}"
+
+    for field in ("canonical", "url"):
         value = item.get(field)
         if isinstance(value, str) and value.strip():
             return value.strip()
@@ -261,6 +273,8 @@ def _process_shard(
 
     retention_days = max(retention_days, 0)
 
+    cutoff_date = current_date - _dt.timedelta(days=retention_days)
+
     for entry in items:
         key = _item_key(entry)
         if key in seen:
@@ -272,8 +286,7 @@ def _process_shard(
             keep.append(entry)
             continue
 
-        delta = current_date - entry_date
-        if delta.days >= retention_days:
+        if entry_date < cutoff_date:
             archive_candidates.append((entry_date, entry))
         else:
             keep.append(entry)
