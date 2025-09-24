@@ -17,6 +17,20 @@ class LinkNormalizationTests(unittest.TestCase):
         self.assertEqual(pull_news.normalize_link(url_a), pull_news.normalize_link(url_b))
         self.assertEqual(pull_news.link_hash(url_a), pull_news.link_hash(url_b))
 
+    def test_link_hash_ignores_default_https_port(self):
+        url_a = "https://example.com/path"
+        url_b = "https://example.com:443/path"
+
+        self.assertEqual(pull_news.normalize_link(url_a), pull_news.normalize_link(url_b))
+        self.assertEqual(pull_news.link_hash(url_a), pull_news.link_hash(url_b))
+
+    def test_link_hash_ignores_default_http_port(self):
+        url_a = "http://example.com/path"
+        url_b = "http://example.com:80/path"
+
+        self.assertEqual(pull_news.normalize_link(url_a), pull_news.normalize_link(url_b))
+        self.assertEqual(pull_news.link_hash(url_a), pull_news.link_hash(url_b))
+
 
 class ResolveCoverUrlTests(unittest.TestCase):
     def test_empty_cover_uses_fallback(self):
