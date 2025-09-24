@@ -22,5 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Verify critical data indexes
+        run: node scripts/check-critical-indexes.js
+
       - name: Build
         run: npm run build

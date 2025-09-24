@@ -1,19 +1,22 @@
 module.exports = function (eleventyConfig) {
-  const passthroughPaths = [
-    "css",
-    "js",
-    "images",
-    "fonts",
-    "scripts",
-    "data",
-    "assets",
-    "autopost",
-    "_redirects",
-    "_health"
+  const passthroughEntries = [
+    { copy: "css" },
+    { copy: "js" },
+    { copy: "images" },
+    { copy: "fonts" },
+    { copy: "scripts" },
+    { copy: "assets" },
+    { copy: "autopost" },
+    { copy: "_redirects" },
+    { copy: "_health" },
+    { copy: "data/**/*", watch: "data/**/*" }
   ];
 
-  passthroughPaths.forEach((path) => {
-    eleventyConfig.addPassthroughCopy(path);
+  passthroughEntries.forEach((entry) => {
+    eleventyConfig.addPassthroughCopy(entry.copy);
+    if (entry.watch) {
+      eleventyConfig.addWatchTarget(entry.watch);
+    }
   });
 
   eleventyConfig.addPassthroughCopy({ "src/site/_headers": "_headers" });
