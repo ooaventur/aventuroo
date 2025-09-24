@@ -1,0 +1,7 @@
+[
+  {
+    "source_file": "assets/js/data-loader.js",
+    "href": "/data/index.json",
+    "suggestion": "/data/legacy/index.json"
+  }
+]
