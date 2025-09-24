@@ -1,0 +1,6 @@
+# Shembull allowlist i gjeneruar nga out/audit.json
+json/
+feeds/
+public/json/
+old_data/
+tmp/
