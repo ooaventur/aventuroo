@@ -303,6 +303,76 @@ If none of those are set, the build falls back to auto-detecting GitHub Pages
 deployments via `GITHUB_REPOSITORY`, otherwise the site is rendered for the
 root path (`/`).
 
+## Si të bësh backup branch/tag para pastrimeve
+
+Krijo gjithmonë një pikë rikthimi përpara se të luash me pastrimet ose
+migrimet. Hapat e thjeshtë më poshtë funksionojnë në çdo terminal Git:
+
+1. Sigurohu që ke ruajtur ndryshimet aktuale: `git status --short` duhet të mos
+   listojë skedarë të pa-commit-uar.
+2. Krijo një degë rezervë me një emër të qartë: `git checkout -b
+   backup/$(date +%Y%m%d)-para-cleanup`.
+3. Ngarko degën në remote për ta pasur të sigurt edhe online:
+   `git push origin backup/$(date +%Y%m%d)-para-cleanup`.
+4. (Opsionale por e dobishme) Ngjitur me degën krijo edhe një tag statik:
+   `git tag backup-$(date +%Y%m%d)` dhe `git push origin backup-$(date +%Y%m%d)`.
+
+## Procesi audit → migrate → update_references → cleanup (dry-run)
+
+Kjo është rruga e rekomanduar për të zhvendosur skedarët nga strukturat e
+vjetra drejt atyre të reja pa surpriza. Kalo hapat një nga një:
+
+1. **Audit** – nga rrënja e projektit ekzekuto `python
+   scripts/audit_project.py`. Kjo krijon `out/audit.json` dhe një shembull
+   allowlist-i që tregon cilat dosje duhen pastruar.
+2. **Migrate** – hap `migration/plan.json` për të parë se cilat rrugë duhet të
+   lëvizin. Zhvendosi me kujdes (fillo me një provë `--dry-run`):
+   `rsync -av --dry-run json/ data/` ose përdor `mv` nëse je i sigurt. Përsërite
+   për çdo hyrje të planit.
+3. **Update references** – testo sa ndryshime do shkruhen me `python
+   scripts/update_references.py --dry-run`. Nëse gjithçka duket mirë, hiq
+   flamurin `--dry-run` për të kryer zëvendësimet dhe për të gjeneruar diff-in
+   në `out/replace.diff`.
+4. **Cleanup (dry-run)** – përpara fshirjeve reale ekzekuto `bash
+   scripts/cleanup.sh --dry-run cleanup-allowlist.txt`. Output-i tregon çfarë do
+   fshihej; rregullo allowlist-in nëse mungon diçka.
+5. Vetëm kur je i bindur që gjithçka është në vend, rifillo komandën e
+   pastrimit me `--apply` për të hequr dosjet e vjetra.
+
+## Verifikimi i Netlify dhe CI (Structure Guard)
+
+Pas çdo pastrimi kontrollo që build-et automatike janë të shëndosha.
+
+- **Netlify:**
+  1. Ekzekuto lokalisht `npm run build` për t’u siguruar që `_site/` gjenerohet.
+  2. Nëse ke të instaluar CLI-n e Netlify, provo `npx netlify deploy --dir=_site`
+     (shtoja `--prod` kur je gati për publikim) për të parë nëse deploy kalon pa
+     gabime.
+  3. Në panelin e Netlify, hap seksionin **Deploys** dhe verifiko që build-i më i
+     fundit ka status “Published”. Kliko log-un për të parë nëse ka paralajmërime.
+- **Structure Guard (CI):**
+  1. Lokalisht mund të riprodhosh kontrollet kryesore me `python
+     scripts/audit_project.py` dhe `python scripts/check_links.py`.
+  2. Në GitHub shko te **Actions → Structure Guard** dhe sigurohu që workflow-u
+     i fundit ka përfunduar “green”. Nëse nuk ka një run të fundit, klik “Run
+     workflow” për ta nisur manualisht.
+
+## Udhëzues i shpejtë për rollback
+
+Nëse diçka shkon keq, këto hapa të çojnë mbrapsht te backup-i pa humbur kohë:
+
+1. Ruaj ose hidhi tej çdo punë të pakomituar (`git stash` ose `git reset --hard`).
+2. Sill backup-in në makinë: `git fetch origin`.
+3. Kalohu në degën e rezervës: `git checkout backup/<data>-para-cleanup`.
+4. Për ta rikthyer në `main`, përdor `git merge` (ruan historinë) ose `git
+   reset --hard backup/<data>-para-cleanup` nëse do të kthesh projektin identik.
+5. Nëse ke përdorur tag, `git checkout tags/backup-<data>` krijon një “detached
+   HEAD”; nga aty mund të hapësh një degë të re të pastër me `git checkout -b
+   restore/<data>` dhe të vazhdosh punën.
+
+Pasi të stabilizosh projektin, mos harro të mbyllësh degën e prishur (ose ta
+`force-push`-osh) dhe të ripërsërisësh procesin me ndryshimet e korrigjuara.
+
 ## Serving precompressed assets
 
 Because the build step writes `.gz` files next to every HTML and JSON asset,
