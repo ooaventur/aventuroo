@@ -49,6 +49,35 @@ def _record_health_error(message: str) -> None:
         _HEALTH_REPORT.record_error(message)
 
 
+_NON_FATAL_HEALTH_PREFIXES: tuple[str, ...] = (
+    "fetch_bytes failed:",
+    "Failed to parse feed XML:",
+)
+
+
+def _dedupe_messages(messages: list[str]) -> list[str]:
+    """Return ``messages`` stripped of duplicates and empty entries."""
+
+    seen: set[str] = set()
+    deduped: list[str] = []
+    for raw in messages:
+        text = str(raw or "").strip()
+        if not text or text in seen:
+            continue
+        seen.add(text)
+        deduped.append(text)
+    return deduped
+
+
+def _is_fatal_health_message(message: str) -> bool:
+    """Return ``True`` if ``message`` represents a fatal autopost error."""
+
+    for prefix in _NON_FATAL_HEALTH_PREFIXES:
+        if message.startswith(prefix):
+            return False
+    return True
+
+
 def _set_health_feeds_count(value: int) -> None:
     global _HEALTH_REPORT
     if _HEALTH_REPORT is not None:
@@ -2019,7 +2048,12 @@ def main():
             print(f"[WARN] Failed to write autopost health: {health_exc}")
         _HEALTH_REPORT = None
 
-    if health.has_errors:
+    fatal_errors = [
+        message
+        for message in _dedupe_messages(health.errors)
+        if _is_fatal_health_message(message)
+    ]
+    if fatal_errors:
         raise SystemExit(1)
 
 
