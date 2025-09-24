@@ -9,6 +9,15 @@ import xml.etree.ElementTree as ET
 from autopost import pull_news
 
 
+class LinkNormalizationTests(unittest.TestCase):
+    def test_link_hash_ignores_parameter_order(self):
+        url_a = "https://example.com/article?b=2&a=1"
+        url_b = "https://example.com/article?a=1&b=2"
+
+        self.assertEqual(pull_news.normalize_link(url_a), pull_news.normalize_link(url_b))
+        self.assertEqual(pull_news.link_hash(url_a), pull_news.link_hash(url_b))
+
+
 class ResolveCoverUrlTests(unittest.TestCase):
     def test_empty_cover_uses_fallback(self):
         fallback = pull_news.sanitize_img_url(pull_news.FALLBACK_COVER)

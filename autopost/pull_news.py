@@ -360,6 +360,8 @@ def normalize_link(link: str) -> str:
     filtered_params = [
         (k, v) for k, v in query_params if not is_tracking_param(k)
     ]
+    if filtered_params:
+        filtered_params = sorted(filtered_params, key=lambda item: (item[0], item[1]))
     query = urlencode(filtered_params, doseq=True)
     normalized = urlunparse(
         parsed._replace(
