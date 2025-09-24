@@ -247,24 +247,13 @@
     },
     {
       "parent": "food-drink",
-      "child": "food-drink",
-      "slug": "food-drink/food-drink",
-      "path": "food-drink/food-drink/index.json",
-      "items": 10,
-      "first_date": "2025-09-18",
-      "last_date": "2025-09-20",
-      "pages": 1,
-      "is_global": false
-    },
-    {
-      "parent": "food-drink",
       "child": "general",
       "slug": "food-drink/general",
       "path": "food-drink/general/index.json",
-      "items": 52,
+      "items": 62,
       "first_date": "2025-09-15",
       "last_date": "2025-09-23",
-      "pages": 5,
+      "pages": 6,
       "is_global": false
     },
     {

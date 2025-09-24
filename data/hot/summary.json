@@ -169,16 +169,10 @@
           "pages": 4
         },
         {
-          "child": "food-drink",
-          "slug": "food-drink/food-drink",
-          "items": 10,
-          "pages": 1
-        },
-        {
           "child": "general",
           "slug": "food-drink/general",
-          "items": 52,
-          "pages": 5
+          "items": 62,
+          "pages": 6
         }
       ]
     },

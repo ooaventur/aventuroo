@@ -1,0 +1,9 @@
+{
+  "standard_child": "general",
+  "aliases": {
+    "lifestyle/index": "lifestyle/general",
+    "crypto/index": "crypto/general",
+    "index/index": "index/general",
+    "food-drink/food-drink": "food-drink/general"
+  }
+}
