@@ -908,7 +908,7 @@ def main(argv: Iterable[str] | None = None) -> RotationStats:
         raise
     finally:
         try:
-            health.write(items_published=None)
+            health.write()
         except Exception as health_exc:
             print(
                 f"[rotate] Warning: failed to write autopost health ({health_exc})",

@@ -101,41 +101,45 @@ async function fetchFromOrigin(request, env) {
 function evaluateMetrics(data, env) {
   const alerts = [];
   const now = new Date();
-  const minItems = parseInteger(env.MIN_ITEMS_PUBLISHED, DEFAULT_MIN_ITEMS);
+  const minItems = parseInteger(
+    env.MIN_ITEMS_INGESTED ?? env.MIN_ITEMS_PUBLISHED,
+    DEFAULT_MIN_ITEMS
+  );
   const maxAgeMinutes = parseInteger(env.MAX_HEALTH_AGE_MINUTES, DEFAULT_MAX_AGE_MINUTES);
 
-  const items = Number(data.items_published);
+  const itemsRaw = data.items_ingested ?? data.items_published;
+  const items = Number(itemsRaw);
   if (!Number.isFinite(items) || items < minItems) {
     alerts.push(
       buildAlert(
         env,
         "AutopostLowPublication",
-        `Autopost published ${items} items`,
+        `Autopost ingested ${items} items`,
         `Minimum expected items is ${minItems}, received ${items}`,
         env.ALERTMANAGER_SEVERITY_LOW || env.ALERTMANAGER_SEVERITY || "critical"
       )
     );
   }
 
-  const lastRunRaw = data.last_run;
-  const lastRun = lastRunRaw ? new Date(lastRunRaw) : null;
-  if (!lastRun || Number.isNaN(lastRun.getTime())) {
+  const lastFetchRaw = data.last_fetch ?? data.last_run;
+  const lastFetch = lastFetchRaw ? new Date(lastFetchRaw) : null;
+  if (!lastFetch || Number.isNaN(lastFetch.getTime())) {
     alerts.push(
       buildAlert(
         env,
         "AutopostMissingTimestamp",
-        "Autopost last_run timestamp missing",
-        `Payload contained last_run=${JSON.stringify(lastRunRaw)}`
+        "Autopost last_fetch timestamp missing",
+        `Payload contained last_fetch=${JSON.stringify(lastFetchRaw)}`
       )
     );
   } else {
-    const diffMinutes = Math.abs(now.getTime() - lastRun.getTime()) / 60000;
+    const diffMinutes = Math.abs(now.getTime() - lastFetch.getTime()) / 60000;
     if (diffMinutes > maxAgeMinutes) {
       alerts.push(
         buildAlert(
           env,
           "AutopostStale",
-          `Autopost last ran ${Math.round(diffMinutes)} minutes ago`,
+          `Autopost last fetched ${Math.round(diffMinutes)} minutes ago`,
           `Maximum allowed freshness is ${maxAgeMinutes} minutes`
         )
       );

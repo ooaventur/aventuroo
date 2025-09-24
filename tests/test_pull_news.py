@@ -7,6 +7,7 @@ from unittest import mock
 import xml.etree.ElementTree as ET
 
 from autopost import pull_news
+from autopost import health as autopost_health
 
 
 class LinkNormalizationTests(unittest.TestCase):
@@ -190,6 +191,40 @@ class SourceNameDerivationTests(unittest.TestCase):
         )
 
         self.assertEqual(derived, "Example")
+
+
+class HealthReportingTests(unittest.TestCase):
+    def test_main_raises_when_errors_recorded(self):
+        health_path = autopost_health.HEALTH_DIR / "autopost.json"
+        original_payload = None
+        if health_path.exists():
+            original_payload = health_path.read_text(encoding="utf-8")
+
+        def fake_run():
+            pull_news._record_health_error("forced failure for test")
+            return []
+
+        try:
+            with mock.patch.object(pull_news, "_run_autopost", side_effect=fake_run):
+                with self.assertRaises(SystemExit) as cm:
+                    pull_news.main()
+
+            self.assertEqual(cm.exception.code, 1)
+
+            payload = json.loads(health_path.read_text(encoding="utf-8"))
+            self.assertIn("last_fetch", payload)
+            self.assertIn("feeds_count", payload)
+            self.assertIn("items_ingested", payload)
+            self.assertIn("errors", payload)
+            self.assertTrue(payload["errors"])
+        finally:
+            if original_payload is not None:
+                health_path.write_text(original_payload, encoding="utf-8")
+            else:
+                try:
+                    health_path.unlink()
+                except FileNotFoundError:
+                    pass
 
     def test_derive_source_name_uses_dc_publisher(self):
         item_element = ET.Element("item")
