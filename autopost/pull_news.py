@@ -340,9 +340,14 @@ def _normalized_netloc(parsed) -> str:
         if parsed.password:
             userinfo += f":{parsed.password}"
         userinfo += "@"
+    scheme = (parsed.scheme or "").lower()
     try:
         port = parsed.port
     except ValueError:
+        port = None
+    if port == 80 and scheme == "http":
+        port = None
+    elif port == 443 and scheme == "https":
         port = None
     port_str = f":{port}" if port else ""
     return f"{userinfo}{host}{port_str}"
