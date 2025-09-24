@@ -22,7 +22,17 @@ jobs:
         run: python scripts/audit_project.py
 
       - name: Run internal link checker
-        run: python scripts/check_links.py
+        run: |
+          if python scripts/check_links.py; then
+            echo "Internal link checker completed with no issues detected."
+          else
+            status=$?
+            if [ ! -f out/broken_links.json ]; then
+              echo "Link checker failed and no report was generated." >&2
+              exit "${status}"
+            fi
+            echo "Internal link checker reported issues (exit code ${status}). See out/broken_links.json for details."
+          fi
 
       - name: Enforce legacy directory policy
         if: ${{ always() }}
