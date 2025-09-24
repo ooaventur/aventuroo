@@ -8,10 +8,7 @@
     categoryUrl: function (slugValue) { return slugValue ? '/category.html?cat=' + encodeURIComponent(slugValue) : '#'; }
   };
 
-  var LEGACY_LOOKUP_SOURCES = basePath.resolveAll
-    ? basePath.resolveAll(['/data/legacy/index.json', 'data/legacy/index.json'])
-    : ['/data/legacy/index.json', 'data/legacy/index.json'];
-  var LEGACY_POSTS_SOURCES = basePath.resolveAll
+  var POSTS_SOURCES = basePath.resolveAll
     ? basePath.resolveAll(['/data/posts.json', 'data/posts.json'])
     : ['/data/posts.json', 'data/posts.json'];
   var HOT_MANIFEST_SOURCES = basePath.resolveAll
@@ -45,7 +42,6 @@
 
   var HOT_SHARD_CACHE = Object.create(null);
   var HOT_MANIFEST_PROMISE = null;
-  var LEGACY_LOOKUP_PROMISE = null;
 
   var articleContainer = document.querySelector('.main-article');
   if (!articleContainer) {
@@ -218,158 +214,6 @@
       }
     }
     return { year: 0, month: 0 };
-  }
-
-  function normalizeLegacyLookupPayload(payload) {
-    var lookup = Object.create(null);
-    if (!payload) return lookup;
-
-    function addEntry(entry, slugHint) {
-      if (!entry || typeof entry !== 'object') return;
-      var slug = slugify(entry.slug || slugHint || '');
-      if (!slug) return;
-
-      var post = {
-        slug: slug,
-        title: entry.title || '',
-        excerpt: entry.excerpt || '',
-        cover: entry.cover || '',
-        category: entry.category || '',
-        subcategory: entry.subcategory || '',
-        category_slug: entry.category_slug || '',
-        date: entry.date || entry.published_at || entry.publishedAt || '',
-        source: entry.source || '',
-        source_name: entry.source_name || '',
-        source_domain: entry.source_domain || '',
-        author: entry.author || '',
-        rights: entry.rights || '',
-        canonical: entry.canonical || entry.archive_url || ''
-      };
-
-      var parent = slugify(entry.parent || '') || getPostParentSlug(post) || 'index';
-      var child = slugify(entry.child || '') || getPostChildSlug(post) || 'index';
-
-      var archivePath = '';
-      if (typeof entry.archive_path === 'string' && entry.archive_path.trim()) {
-        archivePath = entry.archive_path.trim().replace(/^\/+/, '').replace(/^data\/archive\//, '');
-      }
-
-      var year = 0;
-      var month = 0;
-      if (typeof entry.year === 'number' && !isNaN(entry.year)) year = entry.year;
-      if (typeof entry.month === 'number' && !isNaN(entry.month)) month = entry.month;
-
-      if ((!year || !month) && post.date) {
-        var derived = extractYearMonth(post.date);
-        if (!year && derived.year) year = derived.year;
-        if (!month && derived.month) month = derived.month;
-      }
-
-      if (!archivePath && parent && year && month) {
-        archivePath = parent + '/' + (child || 'index') + '/' + padNumber(year, 4) + '/' + padNumber(month, 2) + '/index.json';
-      }
-
-      var record = {
-        slug: slug,
-        post: post,
-        scope: { parent: parent || 'index', child: child || 'index' }
-      };
-
-      if (post.canonical) record.canonical = post.canonical;
-      if (archivePath) record.archive_path = archivePath;
-      if (year) record.year = year;
-      if (month) record.month = month;
-      if (post.date) record.date = post.date;
-
-      lookup[slug] = record;
-    }
-
-    if (Array.isArray(payload)) {
-      for (var i = 0; i < payload.length; i++) {
-        addEntry(payload[i]);
-      }
-      return lookup;
-    }
-
-    if (payload && typeof payload === 'object') {
-      if (Array.isArray(payload.items)) {
-        for (var j = 0; j < payload.items.length; j++) {
-          addEntry(payload.items[j]);
-        }
-        return lookup;
-      }
-      if (payload.items && typeof payload.items === 'object') {
-        Object.keys(payload.items).forEach(function (key) {
-          addEntry(payload.items[key], key);
-        });
-        return lookup;
-      }
-      if (Array.isArray(payload.data)) {
-        for (var k = 0; k < payload.data.length; k++) {
-          addEntry(payload.data[k]);
-        }
-        return lookup;
-      }
-    }
-
-    return lookup;
-  }
-
-  function buildLegacyArchiveUrls(path) {
-    var trimmed = typeof path === 'string' ? path.trim() : '';
-    if (!trimmed) return [];
-    var normalized = trimmed.replace(/^\/+/, '').replace(/^data\/archive\//, '');
-    if (!normalized) return [];
-    var relative = 'data/archive/' + normalized;
-    return uniqueStrings([relative, '/' + relative]);
-  }
-
-  function fetchArchivePostsForRecord(record) {
-    if (!record || typeof record !== 'object') {
-      return Promise.resolve([]);
-    }
-
-    var archivePath = record.archive_path || '';
-    var scope = record.scope || {};
-    var parent = scope.parent || '';
-    var child = scope.child || '';
-    var year = record.year || 0;
-    var month = record.month || 0;
-
-    if (!archivePath) {
-      if ((!year || !month) && record.date) {
-        var derived = extractYearMonth(record.date);
-        if (!year && derived.year) year = derived.year;
-        if (!month && derived.month) month = derived.month;
-      }
-      if (!parent && record.post) {
-        parent = getPostParentSlug(record.post) || 'index';
-      }
-      if (!child && record.post) {
-        child = getPostChildSlug(record.post) || 'index';
-      }
-      if (parent && year && month) {
-        archivePath = parent + '/' + (child || 'index') + '/' + padNumber(year, 4) + '/' + padNumber(month, 2) + '/index.json';
-      }
-    }
-
-    if (!archivePath) {
-      return Promise.resolve([]);
-    }
-
-    var urls = buildLegacyArchiveUrls(archivePath);
-    if (!urls.length) {
-      return Promise.resolve([]);
-    }
-
-    return fetchSequential(urls)
-      .then(function (payload) {
-        return dedupePosts(sortPostsByDate(normalizePostsPayload(payload)));
-      })
-      .catch(function (err) {
-        console.warn('legacy archive index load error', err);
-        return [];
-      });
   }
 
   function uniqueStrings(values) {
@@ -1045,118 +889,48 @@
       });
   }
 
-  function loadLegacyPostFromPostsJson(slugValue) {
-    return fetchSequential(LEGACY_POSTS_SOURCES)
+  
+  function loadPostFromPostsJson(slugValue) {
+    var normalized = slugify(slugValue);
+    if (!normalized) return Promise.resolve(null);
+    return fetchSequential(POSTS_SOURCES)
       .then(function (payload) {
         var posts = dedupePosts(sortPostsByDate(normalizePostsPayload(payload)));
-        var post = findPostBySlug(posts, slugValue);
+        var post = findPostBySlug(posts, normalized);
         if (!post) return null;
+        var scope = {
+          parent: getPostParentSlug(post) || 'index',
+          child: getPostChildSlug(post) || 'index'
+        };
+        if (!scope.parent) scope.parent = 'index';
+        if (!scope.child) scope.child = 'index';
+        var context = ensureArchiveContextFromPost(post, scope) || {
+          origin: ARCHIVE_ORIGIN,
+          parent: scope.parent,
+          child: scope.child,
+          slug: slugify(post.slug || normalized)
+        };
         return {
           post: post,
           posts: posts,
-          source: 'legacy'
+          source: 'posts',
+          context: context,
+          scope: scope,
+          relatedSources: []
         };
       })
       .catch(function (err) {
-        console.error('legacy posts fallback load error', err);
+        console.error('posts fallback load error', err);
         return null;
       });
   }
 
-  function fetchLegacyLookup() {
-    if (!LEGACY_LOOKUP_PROMISE) {
-      LEGACY_LOOKUP_PROMISE = fetchSequential(LEGACY_LOOKUP_SOURCES, { cache: 'no-store' })
-        .then(function (payload) {
-          return normalizeLegacyLookupPayload(payload);
-        })
-        .catch(function (err) {
-          console.error('legacy lookup load error', err);
-          LEGACY_LOOKUP_PROMISE = null;
-          return Object.create(null);
-        });
-    }
-    return LEGACY_LOOKUP_PROMISE;
-  }
-
-  function loadLegacyPost(slugValue) {
-    var normalized = slugify(slugValue);
-    if (!normalized) return Promise.resolve(null);
-    return fetchLegacyLookup()
-      .then(function (lookup) {
-        if (!lookup || typeof lookup !== 'object') {
-          return null;
-        }
-
-        var entry = lookup[normalized];
-        if (!entry) return null;
-
-        var legacyPost = entry.post || null;
-        var scope = entry.scope || {
-          parent: legacyPost ? getPostParentSlug(legacyPost) || 'index' : 'index',
-          child: legacyPost ? getPostChildSlug(legacyPost) || 'index' : 'index'
-        };
-        var canonicalUrl = entry.canonical || (legacyPost && legacyPost.canonical) || '';
-        var canonicalPromise = canonicalUrl
-          ? fetchCanonicalArticle(canonicalUrl, normalized)
-          : Promise.resolve(null);
-
-        return Promise.all([canonicalPromise, fetchArchivePostsForRecord(entry)]).then(function (results) {
-          var canonicalData = results[0];
-          var archivePosts = Array.isArray(results[1]) ? results[1].slice() : [];
-          var relatedPools = [];
-          var mergedPost = null;
-
-          if (canonicalData && canonicalData.article) {
-            mergedPost = mergeArchiveWithHot(canonicalData.article, legacyPost, normalized);
-            if (Array.isArray(canonicalData.related) && canonicalData.related.length) {
-              relatedPools.push(canonicalData.related);
-            }
-            if (Array.isArray(canonicalData.collection) && canonicalData.collection.length) {
-              relatedPools.push(canonicalData.collection);
-              if (!archivePosts.length) {
-                archivePosts = dedupePosts(sortPostsByDate(canonicalData.collection));
-              }
-            }
-          }
-
-          if (!mergedPost || !mergedPost.body) {
-            return null;
-          }
-
-          if (!archivePosts.length && legacyPost) {
-            archivePosts = [legacyPost];
-          }
-
-          if (!findPostBySlug(archivePosts, normalized)) {
-            archivePosts.unshift(mergedPost);
-          }
-
-          var context = ensureArchiveContextFromPost(mergedPost, scope);
-          return {
-            post: mergedPost,
-            posts: archivePosts,
-            source: 'legacy',
-            context: context,
-            scope: scope,
-            relatedSources: relatedPools
-          };
-        });
-      })
-      .catch(function (err) {
-        console.error('legacy lookup processing error', err);
-        return null;
-      })
-      .then(function (result) {
-        if (result) return result;
-        return loadLegacyPostFromPostsJson(normalized);
-      });
-  }
   function loadArticleForSlug(slugValue, scope) {
     if (!slugValue) return Promise.resolve(null);
     return loadHotPost(slugValue, scope)
       .then(function (hotResult) {
         if (!hotResult) {
-          return loadLegacyPost(slugValue);
+          return loadPostFromPostsJson(slugValue);
         }
         return loadCanonicalFromHot(hotResult, slugValue)
           .then(function (archiveResult) {
@@ -1173,7 +947,7 @@
       })
       .then(function (result) {
         if (result) return result;
-        return loadLegacyPost(slugValue);
+        return loadPostFromPostsJson(slugValue);
       });
   }
 
