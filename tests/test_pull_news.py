@@ -226,6 +226,43 @@ class HealthReportingTests(unittest.TestCase):
                 except FileNotFoundError:
                     pass
 
+    def test_main_allows_known_non_fatal_errors(self):
+        health_path = autopost_health.HEALTH_DIR / "autopost.json"
+        original_payload = None
+        if health_path.exists():
+            original_payload = health_path.read_text(encoding="utf-8")
+
+        def fake_run():
+            pull_news._record_health_error(
+                "limit_words_html failed for https://example.com/story: boom"
+            )
+            pull_news._record_health_error(
+                "cover selection failed for https://example.com/story: busted"
+            )
+            return []
+
+        try:
+            with mock.patch.object(pull_news, "_run_autopost", side_effect=fake_run):
+                pull_news.main()
+
+            payload = json.loads(health_path.read_text(encoding="utf-8"))
+            self.assertIn("errors", payload)
+            self.assertEqual(
+                payload["errors"],
+                [
+                    "limit_words_html failed for https://example.com/story: boom",
+                    "cover selection failed for https://example.com/story: busted",
+                ],
+            )
+        finally:
+            if original_payload is not None:
+                health_path.write_text(original_payload, encoding="utf-8")
+            else:
+                try:
+                    health_path.unlink()
+                except FileNotFoundError:
+                    pass
+
     def test_derive_source_name_uses_dc_publisher(self):
         item_element = ET.Element("item")
         publisher_el = ET.SubElement(

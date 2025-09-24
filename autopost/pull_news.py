@@ -52,6 +52,8 @@ def _record_health_error(message: str) -> None:
 _NON_FATAL_HEALTH_PREFIXES: tuple[str, ...] = (
     "fetch_bytes failed:",
     "Failed to parse feed XML:",
+    "limit_words_html failed for ",
+    "cover selection failed for ",
 )
 
 
