@@ -541,6 +541,109 @@
     return limitArchiveQueue(result);
   }
 
+  function deriveMenuSlug(value) {
+    var str = getString(value);
+    if (!str) {
+      return '';
+    }
+    var sanitized = str.replace(/^[.\/]+/, '');
+    var hashIndex = sanitized.indexOf('#');
+    if (hashIndex !== -1) {
+      sanitized = sanitized.slice(0, hashIndex);
+    }
+    var queryIndex = sanitized.indexOf('?');
+    if (queryIndex !== -1) {
+      sanitized = sanitized.slice(0, queryIndex);
+    }
+    if (!sanitized) {
+      return normalizeSlug(str);
+    }
+    var parts = sanitized.split('/');
+    for (var i = parts.length - 1; i >= 0; i--) {
+      var part = parts[i];
+      if (!part) {
+        continue;
+      }
+      if (/index\.json$/i.test(part)) {
+        part = part.replace(/index\.json$/i, '');
+        if (!part) {
+          continue;
+        }
+      }
+      if (/\.json$/i.test(part)) {
+        part = part.replace(/\.json$/i, '');
+      }
+      if (part) {
+        return normalizeSlug(part);
+      }
+    }
+    return normalizeSlug(str);
+  }
+
+  function titleFromSlug(slug) {
+    if (!slug) {
+      return '';
+    }
+    var segments = slug.split('/');
+    var last = segments[segments.length - 1];
+    if (!last) {
+      return '';
+    }
+    var words = last.split('-');
+    for (var i = 0; i < words.length; i++) {
+      var word = words[i];
+      if (!word) {
+        continue;
+      }
+      if (/^[a-z]+$/.test(word) && word.length <= 3) {
+        words[i] = word.toUpperCase();
+      } else {
+        words[i] = word.charAt(0).toUpperCase() + word.slice(1);
+      }
+    }
+    return words.join(' ');
+  }
+
+  function convertSimpleMenuItems(items) {
+    if (!Array.isArray(items)) {
+      return [];
+    }
+    var result = [];
+    for (var i = 0; i < items.length; i++) {
+      var entry = items[i];
+      if (entry == null) {
+        continue;
+      }
+      if (typeof entry === 'string' || typeof entry === 'number') {
+        var slug = deriveMenuSlug(entry);
+        if (!slug) {
+          continue;
+        }
+        result.push({
+          title: titleFromSlug(slug) || slug,
+          slug: slug
+        });
+        continue;
+      }
+      if (typeof entry === 'object') {
+        var clone = {};
+        for (var key in entry) {
+          if (!Object.prototype.hasOwnProperty.call(entry, key)) {
+            continue;
+          }
+          var value = entry[key];
+          if (Array.isArray(value)) {
+            clone[key] = convertSimpleMenuItems(value);
+          } else {
+            clone[key] = value;
+          }
+        }
+        result.push(clone);
+      }
+    }
+    return result;
+  }
+
   function buildMenuConfig(payload) {
     var config = { items: [], tabletHeader: null };
     if (!payload || typeof payload !== 'object') {
@@ -548,13 +651,13 @@
     }
     var menu = payload.menu || payload.navigation || null;
     if (Array.isArray(menu)) {
-      config.items = menu.slice();
+      config.items = convertSimpleMenuItems(menu);
       if (payload.tabletHeader) {
         config.tabletHeader = payload.tabletHeader;
       }
     } else if (menu && typeof menu === 'object') {
       if (Array.isArray(menu.items)) {
-        config.items = menu.items.slice();
+        config.items = convertSimpleMenuItems(menu.items);
       }
       if (menu.tabletHeader) {
         config.tabletHeader = menu.tabletHeader;
@@ -562,10 +665,13 @@
     }
     if (!config.items.length) {
       if (Array.isArray(payload.items)) {
-        config.items = payload.items.slice();
+        config.items = convertSimpleMenuItems(payload.items);
       } else if (Array.isArray(payload.categories)) {
-        config.items = payload.categories.slice();
+        config.items = convertSimpleMenuItems(payload.categories);
       }
+    }
+    if (!config.items.length && Array.isArray(payload)) {
+      config.items = convertSimpleMenuItems(payload);
     }
     return config;
   }
