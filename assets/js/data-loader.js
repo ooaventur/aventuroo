@@ -1038,22 +1038,6 @@
     );
   }
 
-  function readSubcategorySlug(section) {
-    var search = window.location.search || '';
-    var params;
-    try {
-      params = new URLSearchParams(search);
-    } catch (err) {
-      return '';
-    }
-    var attr = '';
-    if (section) {
-      attr = section.getAttribute('data-subcategory') || section.dataset.subcategory || '';
-    }
-    var fromQuery = params.get('sub') || params.get('subcategory');
-    return normalizeSlug(fromQuery || attr);
-  }
-
   function resolveArticleUrl(post) {
     if (!post || typeof post !== 'object') {
       return '#';
