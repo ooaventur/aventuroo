@@ -9,6 +9,8 @@
   var baseHelper = window.AventurOOBasePath || null;
   var archiveSummaryPromise = null;
   var categoryState = null;
+  var menuHierarchy = null;
+  var menuHierarchyPromise = null;
 
   function resolve(path) {
     if (typeof path !== 'string') {
@@ -753,6 +755,33 @@
     }
   }
 
+  function rememberMenuHierarchy(items) {
+    var lookup = Object.create(null);
+    function visit(list, parentSlug) {
+      if (!Array.isArray(list)) {
+        return;
+      }
+      for (var i = 0; i < list.length; i++) {
+        var item = list[i];
+        if (!item || !item.slug) {
+          continue;
+        }
+        var normalized = normalizeSlug(item.slug);
+        if (!normalized) {
+          continue;
+        }
+        if (parentSlug) {
+          lookup[normalized] = parentSlug;
+        }
+        if (item.children && item.children.length) {
+          visit(item.children, normalized);
+        }
+      }
+    }
+    visit(items, '');
+    return lookup;
+  }
+
   function renderMenu(payload) {
     var containers = document.querySelectorAll('[data-category-menu]');
     if (!containers.length) {
@@ -769,6 +798,7 @@
     if (!normalizedItems.length) {
       return;
     }
+    menuHierarchy = rememberMenuHierarchy(normalizedItems);
     for (var j = 0; j < containers.length; j++) {
       var container = containers[j];
       while (container.firstChild) {
@@ -1193,6 +1223,56 @@
     return fetchJson(path, { cache: 'no-store' });
   }
 
+  function loadMenuHierarchy() {
+    if (menuHierarchy) {
+      return Promise.resolve(menuHierarchy);
+    }
+    if (!menuHierarchyPromise) {
+      menuHierarchyPromise = fetchJson('/data/menu.json', { cache: 'no-store' })
+        .then(function (payload) {
+          var config = buildMenuConfig(payload || {});
+          var normalizedItems = [];
+          for (var i = 0; i < config.items.length; i++) {
+            var normalized = normalizeMenuItem(config.items[i]);
+            if (normalized) {
+              normalizedItems.push(normalized);
+            }
+          }
+          menuHierarchy = rememberMenuHierarchy(normalizedItems);
+          return menuHierarchy;
+        })
+        .catch(function (err) {
+          console.warn('Menu hierarchy load failed:', err);
+          menuHierarchy = Object.create(null);
+          return menuHierarchy;
+        });
+    }
+    return menuHierarchyPromise;
+  }
+
+  function ensureCategoryHierarchy(state) {
+    if (!state || !state.slug || state.subcategory) {
+      return Promise.resolve(state);
+    }
+    return loadMenuHierarchy().then(function (hierarchy) {
+      if (!hierarchy) {
+        return state;
+      }
+      var normalized = normalizeSlug(state.slug);
+      if (!normalized) {
+        return state;
+      }
+      var parent = hierarchy[normalized];
+      if (parent && parent !== normalized) {
+        // When only a child slug is provided we remap it to the parent category so
+        // the fetch continues to mirror the menu structure (`/hot/<parent>/<child>`).
+        state.subcategory = normalized;
+        state.slug = parent;
+      }
+      return state;
+    });
+  }
+
   function fetchArchiveBatch(slug, entry) {
     var normalized = normalizeSlug(slug);
     if (!normalized) {
@@ -1326,7 +1406,10 @@
     }
 
     setStatus(categoryState.statusEl, 'Loading posts…');
-    fetchCategoryIndex(categoryState)
+    ensureCategoryHierarchy(categoryState)
+      .then(function () {
+        return fetchCategoryIndex(categoryState);
+      })
       .then(function (payload) {
         handleCategoryPayload(categoryState, payload);
       })
