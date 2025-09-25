@@ -8,6 +8,9 @@
   var fetchFn = typeof window.fetch === 'function' ? window.fetch.bind(window) : null;
   var baseHelper = window.AventurOOBasePath || null;
   var archiveSummaryPromise = null;
+  var hotCategoryAliasesPromise = null;
+  var HOT_ALIAS_DEFAULT_CHILD = 'general';
+  var HOT_ALIAS_MANIFEST_PATH = '/data/hot/category_aliases.json';
   var categoryState = null;
 
   function resolve(path) {
@@ -80,6 +83,48 @@
           throw err;
         }
       });
+    });
+  }
+
+  function getHotCategoryAliases() {
+    if (!hotCategoryAliasesPromise) {
+      hotCategoryAliasesPromise = fetchJson(HOT_ALIAS_MANIFEST_PATH, { cache: 'no-store' })
+        .catch(function (err) {
+          console.warn('Hot category aliases load failed:', err);
+          return null;
+        });
+    }
+    return hotCategoryAliasesPromise;
+  }
+
+  function resolveHotFallbackPath(slug) {
+    var normalizedSlug = normalizeSlug(slug);
+    if (!normalizedSlug) {
+      return Promise.resolve('');
+    }
+    return getHotCategoryAliases().then(function (config) {
+      var aliasValue = '';
+      if (config && config.aliases && typeof config.aliases === 'object') {
+        var aliasKey = normalizedSlug + '/index';
+        if (Object.prototype.hasOwnProperty.call(config.aliases, aliasKey)) {
+          aliasValue = getString(config.aliases[aliasKey]);
+        }
+      }
+      var fallbackTarget;
+      if (aliasValue) {
+        fallbackTarget = normalizeSlug(aliasValue);
+      }
+      if (!fallbackTarget) {
+        var standardChild = config && config.standard_child ? normalizeSlug(config.standard_child) : '';
+        if (!standardChild) {
+          standardChild = HOT_ALIAS_DEFAULT_CHILD;
+        }
+        fallbackTarget = normalizedSlug + '/' + standardChild;
+      }
+      if (!fallbackTarget) {
+        return '';
+      }
+      return '/data/hot/' + fallbackTarget + '/index.json';
     });
   }
 
@@ -1190,7 +1235,25 @@
       segments.push(state.subcategory);
     }
     var path = segments.join('/') + '/index.json';
-    return fetchJson(path, { cache: 'no-store' });
+    return fetchJson(path, { cache: 'no-store' }).catch(function (err) {
+      if (state.subcategory) {
+        throw err;
+      }
+      return resolveHotFallbackPath(state.slug)
+        .then(function (fallbackPath) {
+          if (!fallbackPath || fallbackPath === path) {
+            throw err;
+          }
+          console.warn('Falling back to hot shard', fallbackPath, 'for category', state.slug);
+          return fetchJson(fallbackPath, { cache: 'no-store' });
+        })
+        .catch(function (fallbackErr) {
+          if (fallbackErr && fallbackErr !== err) {
+            throw fallbackErr;
+          }
+          throw err;
+        });
+    });
   }
 
   function fetchArchiveBatch(slug, entry) {

@@ -123,8 +123,11 @@ category feeds once the DOM is ready. A minimal HTML scaffold looks like:
 
 The loader resolves URLs through `window.AventurOOBasePath`, fetches
 `/data/index.json` to populate the menu, requests
-`/data/categories/<slug>/index.json` for the initial post list, and uses the
-`data-load-more` button to walk the archive queue exposed via
+`/data/hot/<slug>/index.json` for the initial post list, and falls back to the
+configured child shard (defaulting to `/data/hot/<slug>/general/index.json`)
+whenever the parent index is missing. Aliases and overrides live in
+`/data/hot/category_aliases.json`. The `data-load-more` button walks the archive
+queue exposed via
 `/data/archive/<slug>/<YYYY>/<MM>.json`.
 
 ## Running the autopost scripts
