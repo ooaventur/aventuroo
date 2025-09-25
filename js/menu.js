@@ -1,4 +1,5 @@
 (function () {
+  console.debug('menu.js loaded', window.location.href, !!document.querySelector('#menu-list .nav-list'));
   // --------- CONFIG & HELPERS ----------
   var basePath = window.AventurOOBasePath || {
     resolve: function (value) { return value; },
