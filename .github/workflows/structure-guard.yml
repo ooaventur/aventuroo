@@ -37,6 +37,56 @@ jobs:
       - name: Validate archive structure
         run: python scripts/validate_archive_structure.py
 
+      - name: Inspect menu structure
+        if: ${{ always() }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          issues = []
+          menu_path = Path("data/menu.json")
+          taxonomy_path = Path("data/taxonomy.json")
+
+          source = menu_path if menu_path.exists() else taxonomy_path if taxonomy_path.exists() else None
+          entries = []
+
+          if source is None:
+              issues.append("Neither data/menu.json nor data/taxonomy.json was found.")
+          else:
+              try:
+                  payload = json.loads(source.read_text(encoding="utf-8")) if source.exists() else {}
+              except Exception as exc:
+                  issues.append(f"Failed to parse {source.as_posix()}: {exc}")
+              else:
+                  if source == menu_path:
+                      for key in ("menu", "items"):
+                          data = payload.get(key)
+                          if isinstance(data, list):
+                              entries = data
+                              break
+                  else:
+                      categories = payload.get("categories") if isinstance(payload, dict) else None
+                      if isinstance(categories, list):
+                          entries = [cat for cat in categories if cat]
+
+          if not entries:
+              issues.append("No menu entries detected (expected menu.menu[0]).")
+
+          header_path = Path("src/site/_includes/partials/header.njk")
+          header_text = header_path.read_text(encoding="utf-8") if header_path.exists() else ""
+          if not header_text:
+              issues.append("Header template not found at src/site/_includes/partials/header.njk.")
+          if '<nav id="site-menu"' not in header_text:
+              issues.append("Header template is missing <nav id=\"site-menu\"> marker.")
+
+          if issues:
+              for issue in issues:
+                  print(f"::warning::{issue}")
+          else:
+              print(f"Menu structure verification passed using {source.as_posix() if source else 'n/a'} with {len(entries)} entries.")
+          PY
+
       - name: Enforce legacy directory policy
         if: ${{ always() }}
         run: |
