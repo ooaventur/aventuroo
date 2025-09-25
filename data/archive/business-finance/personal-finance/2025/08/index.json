@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "slug": "are-you-smart-enough-to-invest-in-private-assets-designing-an-investor",
+      "date": "2025-08-22",
+      "published_at": "2025-08-22T00:00:00Z",
+      "created_at": "2025-08-22T00:00:00Z",
+      "title": "Are you smart enough to invest in private assets? Designing an investor test is tricky, experts say",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108184879-1755019103267-gettyimages-1411001622-dscf0769.jpeg?v=1755019128&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/are-you-smart-enough-to-invest-in-private-assets-designing-an-investor/",
+      "excerpt": "Could you pass an SEC test to invest in private assets? Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Ret…",
+      "source": "https://www.cnbc.com/2025/08/22/sec-test-for-private-assets.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "trump-s-new-tax-law-expands-529-savings-plan-uses-as-families-gear-up",
+      "date": "2025-08-20",
+      "published_at": "2025-08-20T00:00:00Z",
+      "created_at": "2025-08-20T00:00:00Z",
+      "title": "Trump’s new tax law expands 529 savings plan uses as families gear up for back to school",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108122028-17430754702025-03-27t100309z_51204276_rc25ldalwhwd_rtrmadp_0_usa-trump-universities.jpeg?v=1743075568&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/trump-s-new-tax-law-expands-529-savings-plan-uses-as-families-gear-up/",
+      "excerpt": "Trump's 'big beautiful bill' expands 529 savings plan expenses Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industri…",
+      "source": "https://www.cnbc.com/2025/08/20/trumps-big-beautiful-bill-529-college-savings-plan.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 2,
+  "updated_at": "2025-08-22",
+  "pagination": {
+    "total_items": 2,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

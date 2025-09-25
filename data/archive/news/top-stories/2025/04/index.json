@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "slug": "bbc-news-app-2025-04-30",
+      "date": "2025-04-30",
+      "published_at": "2025-04-30T00:00:00Z",
+      "created_at": "2025-04-30T00:00:00Z",
+      "title": "BBC News app",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/2cf6/live/d1e71250-9509-11ee-8df3-1d2983d8814f.png",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/bbc-news-app-2025-04-30/",
+      "excerpt": "The BBC News app keeps you informed with live and breaking news you can trust - BBC News BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Spor…",
+      "source": "https://www.bbc.co.uk/news/10628994?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-04-30",
+  "pagination": {
+    "total_items": 1,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

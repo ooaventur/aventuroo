@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nati",
+      "date": "2025-11-13",
+      "published_at": "2025-11-13T00:00:00Z",
+      "created_at": "2025-11-13T00:00:00Z",
+      "title": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4270edce6c855a0e/68d1c2be0a60f31b66d5e09e/DRVE_Event_20251113_(1).png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nati/",
+      "excerpt": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "source": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "unpatched-flaw-in-oneplus-phones-lets-rogue-apps-text-messages-2025-09",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -157,6 +169,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "github-notifications-abused-to-impersonate-y-combinator-for-crypto-the",
+      "date": "2025-09-24",
+      "published_at": "2025-09-24T00:00:00Z",
+      "created_at": "2025-09-24T00:00:00Z",
+      "title": "GitHub notifications abused to impersonate Y Combinator for crypto theft",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/12/05/Cryptocurrency.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/github-notifications-abused-to-impersonate-y-combinator-for-crypto-the/",
+      "excerpt": "GitHub notifications abused to impersonate Y Combinator for crypto theft News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER …",
+      "source": "https://www.bleepingcomputer.com/news/security/github-notifications-abused-to-impersonate-y-combinator-for-crypto-theft/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "feds-tie-scattered-spider-duo-to-115m-in-ransoms-2025-09-24",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -217,6 +241,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "seo-poisoning-campaign-tied-to-chinese-actor-2025-09-23",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "SEO Poisoning Campaign Tied to Chinese Actor",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt109e7a8b5d019922/68d28d7a9231306ff21f5b2f/seo_Dave_Hoeek_shutterstock.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/seo-poisoning-campaign-tied-to-chinese-actor-2025-09-23/",
+      "excerpt": "In Operation Rewrite, an unspecified actor is using legitimate compromised Web servers to deliver malicious content to visitors for financial gain.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/seo-poisoning-campaign-chinese-actor",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "github-aims-to-secure-supply-chain-as-npm-hacks-ramp-up-2025-09-23",
       "date": "2025-09-23",
       "published_at": "2025-09-23T00:00:00Z",
@@ -250,6 +286,54 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/exposed-docker-daemons-fuel-ddos-botnet-2025-09-23/",
       "excerpt": "The for-hire platform leverages legitimate cloud-native tools to make detection and disruption harder for defenders and SOC analysts.",
       "source": "https://www.darkreading.com/cyber-risk/exposed-docker-daemons-fuel-ddos-botnet",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dark-reading-confidential-battle-space-cyber-pros-land-on-the-front-li",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Dark Reading Confidential: Battle Space: Cyber Pros Land on the Front Lines of Protecting US Critical Infrastructure",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0469f94bd17817ff/6642699959fdc64aa5f9c5fa/dark-reading-confidential-logo-sq.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dark-reading-confidential-battle-space-cyber-pros-land-on-the-front-li/",
+      "excerpt": "Dark Reading Confidential Episode 10: It’s past time for a comprehensive plan to protect vital US systems from nation-state cyberattacks, and increasingly, that responsibility is falling to asset owners across a vast swath of organizations, who likely never bargained for an in…",
+      "source": "https://www.darkreading.com/cyber-risk/dark-reading-confidential-battle-space-cyber-pros-land-on-the-front-lines-of-protecting-us-critical-infrastructure",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack-2025-0",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Boyd Gaming discloses data breach after suffering a cyberattack",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2021/06/05/vegas-casino.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack-2025-0/",
+      "excerpt": "Boyd Gaming discloses data breach after suffering a cyberattack News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspen…",
+      "source": "https://www.bleepingcomputer.com/news/security/boyd-gaming-discloses-data-breach-after-suffering-a-cyberattack/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "iran-linked-hackers-target-europe-with-new-malware-2025-09-22",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "Iran-Linked Hackers Target Europe With New Malware",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltadf85273d19e0ede/68d1ab774c68b01d432a44fa/iran_karen_roach_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/iran-linked-hackers-target-europe-with-new-malware-2025-09-22/",
+      "excerpt": "&quot;Nimbus Manticore&quot; is back at it, this time with improved variants of its flagship malware and targets that are outside its usual focus area.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "Attackers Use Phony GitHub Pages to Deliver Mac Malware",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt41cce174721d784d/68d19b447459c6584b5efbbf/Mac_lock_Igi_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/attackers-use-phony-github-pages-to-deliver-mac-malware-2025-09-22/",
+      "excerpt": "Threat actors are using a large-scale SEO poisoning campaign and fake GitHub repositories to deliver Atomic infostealers to Mac users.",
+      "source": "https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -349,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 29,
-  "updated_at": "2025-09-24",
+  "count": 36,
+  "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 29,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }

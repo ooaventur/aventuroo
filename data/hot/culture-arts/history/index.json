@@ -181,6 +181,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "early-photos-of-california-taken-long-before-the-hollywood-walk-of-fam",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "Early Photos Of California Taken Long Before The Hollywood Walk Of Fame And The Golden Gate Bridge Were Built",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/early-california-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/early-photos-of-california-taken-long-before-the-hollywood-walk-of-fam/",
+      "excerpt": "California's Early History, In 44 Captivating Photographs All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Early Photos Of California Taken Long Before The Hollywood Walk Of Fame And The Golde…",
+      "source": "https://allthatsinteresting.com/early-california-photos",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-in-turkey-just-found-a-human-statue-embedded-into-a-wal",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "Archaeologists In Turkey Just Found A Human Statue Embedded Into A Wall At Göbekli Tepe, The Oldest Temple In The World",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/gobekli-tepe-human-statue-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-turkey-just-found-a-human-statue-embedded-into-a-wal/",
+      "excerpt": "Human Statue Found Embedded In A Wall At Göbekli Tepe All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Turkey Just Found A Human Statue Embedded Into A Wall At Göbekli Tepe, …",
+      "source": "https://allthatsinteresting.com/gobekli-tepe-human-statue",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-discover-the-remains-of-three-different-cats-inside-an",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "Archaeologists Discover The Remains Of Three Different Cats Inside An Ancient Egyptian Mummy",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2019/11/cat-mummy-og.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-discover-the-remains-of-three-different-cats-inside-an/",
+      "excerpt": "Archaeologists Find Remains Of Three Cats Inside A 2,500-Year-Old Mummy All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists Discover The Remains Of Three Different Cats Inside An A…",
+      "source": "https://allthatsinteresting.com/ancient-egyptian-cats-mummy",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-staff-member-at-the-egyptian-museum-allegedly-stole-a-3-000-year-old",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "A Staff Member At The Egyptian Museum Allegedly Stole A 3,000-Year-Old Gold Bracelet — And Sold It To A Buyer Who Melted It Down",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/pharaoh-amenemope-bracelet-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/a-staff-member-at-the-egyptian-museum-allegedly-stole-a-3-000-year-old/",
+      "excerpt": "3,000-Year-Old Egyptian Bracelet Stolen And Melted Down All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email A Staff Member At The Egyptian Museum Allegedly Stole A 3,000-Year-Old Gold Bracelet — …",
+      "source": "https://allthatsinteresting.com/pharaoh-amenemope-bracelet-theft",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-severe-drought-in-iraq-has-revealed-dozens-of-2-300-year-old-tombs-2",
+      "date": "2025-09-22",
+      "published_at": "2025-09-22T00:00:00Z",
+      "created_at": "2025-09-22T00:00:00Z",
+      "title": "A Severe Drought In Iraq Has Revealed Dozens Of 2,300-Year-Old Tombs",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/mosul-dam-grave-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/a-severe-drought-in-iraq-has-revealed-dozens-of-2-300-year-old-tombs-2/",
+      "excerpt": "Severe Drought Reveals 2,300-Year-Old Tombs In Iraq All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email A Severe Drought In Iraq Has Revealed Dozens Of 2,300-Year-Old Tombs By Ainsley Brown | Edi…",
+      "source": "https://allthatsinteresting.com/iraq-mosul-dam-hellenistic-tombs",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ancient-roman-theatre-everything-you-wanted-to-know-2025-09-21",
       "date": "2025-09-21",
       "published_at": "2025-09-21T00:00:00Z",
@@ -241,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-09-24",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "the-german-teacher-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "The German Teacher",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/mbe-p-1900-06003.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/the-german-teacher-2025-08-15/",
+      "excerpt": "The German Teacher – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translate…",
+      "source": "https://www.guernicamag.com/the-german-teacher/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "freedom-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Freedom",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/freedom-brigite-oury-la-violoncelliste.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/freedom-2025-08-15/",
+      "excerpt": "Freedom – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated by Nathal…",
+      "source": "https://www.guernicamag.com/freedom/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "darkness-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Darkness",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/darkness-rene-grgic-dakovic-my-palette.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/darkness-2025-08-15/",
+      "excerpt": "Darkness – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated by Natha…",
+      "source": "https://www.guernicamag.com/darkness/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "boca-del-lobo-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Boca del Lobo",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/boca-del-lobo-eileen-jimenez-cosecha-de-colibri.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/boca-del-lobo-2025-08-15/",
+      "excerpt": "Boca del Lobo – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated by …",
+      "source": "https://www.guernicamag.com/boca-del-lobo/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wonder-play-and-how-to-be-more-alive-2025-08-11",
       "date": "2025-08-11",
       "published_at": "2025-08-11T00:00:00Z",
@@ -37,10 +85,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 3,
-  "updated_at": "2025-08-11",
+  "count": 7,
+  "updated_at": "2025-08-15",
   "pagination": {
-    "total_items": 3,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

@@ -349,6 +349,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "september-issue-2025-09-17",
+      "date": "2025-09-17",
+      "published_at": "2025-09-17T00:00:00Z",
+      "created_at": "2025-09-17T00:00:00Z",
+      "title": "September Issue",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/cover-patil-balian.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/september-issue-2025-09-17/",
+      "excerpt": "September Issue – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated b…",
+      "source": "https://www.guernicamag.com/september-issue-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "rembrandt-know-yourself-2025-09-17",
       "date": "2025-09-17",
       "published_at": "2025-09-17T00:00:00Z",
@@ -589,10 +601,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 49,
+  "count": 50,
   "updated_at": "2025-09-24",
   "pagination": {
-    "total_items": 49,
+    "total_items": 50,
     "per_page": 12,
     "total_pages": 5
   }
