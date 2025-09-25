@@ -813,6 +813,22 @@
     return normalizeSlug(fromQuery);
   }
 
+  function readSubcategorySlug(section) {
+    var search = window.location.search || '';
+    var params;
+    try {
+      params = new URLSearchParams(search);
+    } catch (err) {
+      return '';
+    }
+    var attr = '';
+    if (section) {
+      attr = section.getAttribute('data-subcategory') || section.dataset.subcategory || '';
+    }
+    var fromQuery = params.get('sub') || params.get('subcategory');
+    return normalizeSlug(fromQuery || attr);
+  }
+
   function resolveArticleUrl(post) {
     if (!post || typeof post !== 'object') {
       return '#';
@@ -1094,8 +1110,8 @@
     var posts = extractPosts(payload);
     var added = appendPosts(state, posts);
     if (!added) {
-      showEmptyState(state.postList, 'No posts available for this category yet.');
-      setStatus(state.statusEl, 'No posts found for this category.');
+      showEmptyState(state.postList, 'No posts found for this category');
+      setStatus(state.statusEl, 'No posts found for this category');
     } else {
       setStatus(state.statusEl, 'Loaded ' + added + ' posts.');
     }
@@ -1121,7 +1137,11 @@
     if (!state.slug) {
       return Promise.reject(new Error('Missing category slug.'));
     }
-    var path = '/data/categories/' + state.slug + '/index.json';
+    var segments = ['/data/hot', state.slug];
+    if (state.subcategory) {
+      segments.push(state.subcategory);
+    }
+    var path = segments.join('/') + '/index.json';
     return fetchJson(path, { cache: 'no-store' });
   }
 
@@ -1227,6 +1247,7 @@
       return;
     }
     var slug = readCategorySlug(section);
+    var subcategory = readSubcategorySlug(section);
     if (!slug) {
       setStatus(document.querySelector('[data-load-more-status]'), 'Missing category identifier.');
       return;
@@ -1238,6 +1259,7 @@
     categoryState = {
       element: section,
       slug: slug,
+      subcategory: subcategory,
       postList: postList,
       statusEl: statusEl,
       button: button,
