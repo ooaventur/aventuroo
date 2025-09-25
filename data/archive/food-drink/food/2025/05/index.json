@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "slug": "one-pan-ditalini-and-peas-2025-05-28",
+      "date": "2025-05-28",
+      "published_at": "2025-05-28T00:00:00Z",
+      "created_at": "2025-05-28T00:00:00Z",
+      "title": "one-pan ditalini and peas",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/05/one-pan-ditalini-and-peas-11-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/one-pan-ditalini-and-peas-2025-05-28/",
+      "excerpt": "one-pan ditalini and peas – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris two wee…",
+      "source": "https://smittenkitchen.com/2025/05/one-pan-ditalini-and-peas/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "eggs-florentine-2025-05-19",
+      "date": "2025-05-19",
+      "published_at": "2025-05-19T00:00:00Z",
+      "created_at": "2025-05-19T00:00:00Z",
+      "title": "eggs florentine",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/05/eggs-florentine-14-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/eggs-florentine-2025-05-19/",
+      "excerpt": "eggs florentine – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris two weeks in ital…",
+      "source": "https://smittenkitchen.com/2025/05/eggs-florentine/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 2,
+  "updated_at": "2025-05-28",
+  "pagination": {
+    "total_items": 2,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "nvidia-s-investment-in-openai-will-be-in-cash-and-most-will-be-used-to",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Nvidia's investment in OpenAI will be in cash, and most will be used to lease Nvidia chips",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108203057-17586652402025-09-23t214859z_181395313_rc2wxganf0ii_rtrmadp_0_tech-openai-texas.jpeg?v=1758665441&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/nvidia-s-investment-in-openai-will-be-in-cash-and-most-will-be-used-to/",
+      "excerpt": "Nvidia OpenAI investment in cash mostly used to lease Nvidia chips Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indu…",
+      "source": "https://www.cnbc.com/2025/09/24/nvidia-openai-investment-in-cash-mostly-used-to-lease-nvidia-chips.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-s-h-1b-visa-changes-could-kneecap-startups-drive-talent-elsewher",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -59,12 +71,60 @@
       "excerpt": "Alibaba shares jump 9% in U.S. premarket after CEO unveils plans to boost AI spending Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate …",
       "source": "https://www.cnbc.com/2025/09/24/alibaba-shares-rise-over-6percent-after-ceo-unveils-new-ai-products-and-spending-plans.html",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "youtube-to-allow-creators-banned-for-covid-19-election-misinformation",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "YouTube to allow creators banned for Covid-19, election misinformation to apply for reinstatement",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108075813-1734107978034-gettyimages-2189061118-avils-notitle241213_npbeq.jpeg?v=1752695855&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/youtube-to-allow-creators-banned-for-covid-19-election-misinformation/",
+      "excerpt": "YouTube creators banned for misinformation can apply for reinstatement Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/09/23/youtube-creators-banned-covid-election-misinformation-apply-reinstatement.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "micron-beats-on-earnings-as-company-sales-rise-46-on-ai-boom-2025-09-2",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Micron beats on earnings as company sales rise 46% on AI boom",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108164009-1750872052854-gettyimages-2222120700-_75a8714_ahdmj3cp.jpeg?v=1758655035&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/micron-beats-on-earnings-as-company-sales-rise-46-on-ai-boom-2025-09-2/",
+      "excerpt": "Micron (MU) Q4 2025 earnings report Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth Sports Li…",
+      "source": "https://www.cnbc.com/2025/09/23/micron-mu-q4-2025-earnings-report.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amazon-to-close-all-of-its-fresh-grocery-stores-in-uk-2025-09-23",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Amazon to close all of its Fresh grocery stores in UK",
+      "cover": "https://image.cnbcfm.com/api/v1/image/106933926-1630004596799-gettyimages-1234878527-AFP_9LP622.jpeg?v=1758658268&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amazon-to-close-all-of-its-fresh-grocery-stores-in-uk-2025-09-23/",
+      "excerpt": "Amazon to close all of its Fresh grocery stores in UK Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retai…",
+      "source": "https://www.cnbc.com/2025/09/23/amazon-closing-fresh-grocery-stores-uk.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "altman-huang-and-the-last-minute-negotiations-that-sealed-the-100-bill",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Altman, Huang and the last-minute negotiations that sealed the $100 billion OpenAI-Nvidia deal",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202501-1758585935917-Untitled-4.jpg?v=1758586002&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/altman-huang-and-the-last-minute-negotiations-that-sealed-the-100-bill/",
+      "excerpt": "Altman, Huang negotiations that sealed $100 billion OpenAI-Nvidia deal Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/09/23/altman-huang-negotiations-that-sealed-100-billion-openai-nvidia-deal.html",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-09-24",
+  "count": 10,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

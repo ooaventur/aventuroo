@@ -11,12 +11,24 @@
       "excerpt": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models | Synced \", type: 'inline' }, { tag: \" \", type: 'belowpost' }, { tag: \" \", type: 'top' } ); Synced AI Technology & Industry Review Menu Search Search for: Menu Search Synced Close Search fo…",
       "source": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-larg",
+      "date": "2025-05-15",
+      "published_at": "2025-05-15T00:00:00Z",
+      "created_at": "2025-05-15T00:00:00Z",
+      "title": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-larg/",
+      "excerpt": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design | Synced \", type: 'inline' }, { tag: \" \", type: 'belowpost' }, { tag: \" \", type: 'top' } ); Synced AI Technology & Industry Review Menu Search Search for: M…",
+      "source": "https://syncedreview.com/2025/05/15/deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-large-model-training-through-hardware-aware-co-design/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 1,
+  "count": 2,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }

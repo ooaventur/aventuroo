@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "homemade-pita-chips-2025-08-11",
+      "date": "2025-08-11",
+      "published_at": "2025-08-11T00:00:00Z",
+      "created_at": "2025-08-11T00:00:00Z",
+      "title": "Homemade Pita Chips",
+      "cover": "https://cookieandkate.com/images/2025/08/baked-pita-chips-1.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/homemade-pita-chips-2025-08-11/",
+      "excerpt": "Homemade Pita Chips - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranean Mexican Diet…",
+      "source": "https://cookieandkate.com/pita-chips-recipe/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "grilled-chicken-salad-with-cilantro-lime-dressing-2025-08-06",
       "date": "2025-08-06",
       "published_at": "2025-08-06T00:00:00Z",
@@ -47,12 +59,24 @@
       "excerpt": "grilled chicken salad with cilantro-lime dressing – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a fe…",
       "source": "https://smittenkitchen.com/2025/08/grilled-chicken-salad-with-cilantro-lime-dressing/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "peach-cobbler-with-almond-topping-2025-08-05",
+      "date": "2025-08-05",
+      "published_at": "2025-08-05T00:00:00Z",
+      "created_at": "2025-08-05T00:00:00Z",
+      "title": "Peach Cobbler with Almond Topping",
+      "cover": "https://cookieandkate.com/images/2025/08/peach-cobbler-with-ice-cream.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/peach-cobbler-with-almond-topping-2025-08-05/",
+      "excerpt": "Peach Cobbler with Almond Topping - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranea…",
+      "source": "https://cookieandkate.com/peach-cobbler/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 4,
+  "count": 6,
   "updated_at": "2025-08-21",
   "pagination": {
-    "total_items": 4,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }
