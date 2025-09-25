@@ -61,6 +61,22 @@ This generates the static site inside the `_site/` directory. The default
 `.json` output (including the archive/search trees) into `.gz` siblings so that
 the CDN can serve precompressed responses.
 
+## GitHub Pages deployment
+
+The repository ships with a **Deploy • GitHub Pages** workflow that builds the
+site and publishes `_site/` to GitHub Pages. To enable it:
+
+1. Open your repository’s settings in GitHub and navigate to **Pages**.
+2. Choose **GitHub Actions** as the build source.
+3. Optionally create the required secrets (for example, the autopost workflows
+   reference `NEWS_FEEDS_URL` and similar variables) so that the scheduled
+   jobs can run successfully.
+
+Every push to `main`, or a manual `workflow_dispatch`, runs the workflow to
+produce an Eleventy build and deploy it via the official `deploy-pages`
+action. The generated URL is published to the `github-pages` environment once
+the deployment completes.
+
 ## Testim lokal
 
 - **Instalo varësitë JavaScript:** `npm install`
