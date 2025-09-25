@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "slug": "how-to-master-advanced-torchvision-v2-transforms-mixup-cutmix-and-mode",
+      "date": "2025-09-24",
+      "published_at": "2025-09-24T00:00:00Z",
+      "created_at": "2025-09-24T00:00:00Z",
+      "title": "How to Master Advanced TorchVision v2 Transforms, MixUp, CutMix, and Modern CNN Training for State-of-the-Art Computer Vision?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-92.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-master-advanced-torchvision-v2-transforms-mixup-cutmix-and-mode/",
+      "excerpt": "How to Master Advanced TorchVision v2 Transforms, MixUp, CutMix, and Modern CNN Training for State-of-the-Art Computer Vision? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search New…",
+      "source": "https://www.marktechpost.com/2025/09/24/how-to-master-advanced-torchvision-v2-transforms-mixup-cutmix-and-modern-cnn-training-for-state-of-the-art-computer-vision/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-ai-research-introduce-a-novel-machine-learning-approach-that-tr",
+      "date": "2025-09-24",
+      "published_at": "2025-09-24T00:00:00Z",
+      "created_at": "2025-09-24T00:00:00Z",
+      "title": "Google AI Research Introduce a Novel Machine Learning Approach that Transforms TimesFM into a Few-Shot Learner",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-89.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-ai-research-introduce-a-novel-machine-learning-approach-that-tr/",
+      "excerpt": "Google AI Research Introduce a Novel Machine Learning Approach that Transforms TimesFM into a Few-Shot Learner - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub P…",
+      "source": "https://www.marktechpost.com/2025/09/23/google-ai-research-introduce-a-novel-machine-learning-approach-that-transforms-timesfm-into-a-few-shot-learner/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cloudflare-ai-team-just-open-sourced-vibesdk-that-lets-anyone-build-an",
+      "date": "2025-09-24",
+      "published_at": "2025-09-24T00:00:00Z",
+      "created_at": "2025-09-24T00:00:00Z",
+      "title": "CloudFlare AI Team Just Open-Sourced ‘VibeSDK’ that Lets Anyone Build and Deploy a Full AI Vibe Coding Platform with a Single Click",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-2-1.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/cloudflare-ai-team-just-open-sourced-vibesdk-that-lets-anyone-build-an/",
+      "excerpt": "CloudFlare AI Team Just Open-Sourced 'VibeSDK' that Lets Anyone Build and Deploy a Full AI Vibe Coding Platform with a Single Click - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Searc…",
+      "source": "https://www.marktechpost.com/2025/09/23/cloudflare-ai-team-just-open-sourced-vibesdk-that-lets-anyone-build-and-deploy-a-full-ai-vibe-coding-platform-with-a-single-click/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "alibaba-s-qwen3-max-production-ready-thinking-mode-1t-parameters-and-d",
+      "date": "2025-09-24",
+      "published_at": "2025-09-24T00:00:00Z",
+      "created_at": "2025-09-24T00:00:00Z",
+      "title": "Alibaba’s Qwen3-Max: Production-Ready Thinking Mode, 1T+ Parameters, and Day-One Coding/Agentic Bench Signals",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-91.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/alibaba-s-qwen3-max-production-ready-thinking-mode-1t-parameters-and-d/",
+      "excerpt": "Alibaba’s Qwen3-Max: Production-Ready Thinking Mode, 1T+ Parameters, and Day-One Coding/Agentic Bench Signals - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Pr…",
+      "source": "https://www.marktechpost.com/2025/09/24/alibabas-qwen3-max-production-ready-thinking-mode-1t-parameters-and-day-one-coding-agentic-bench-signals/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "coding-implementation-to-end-to-end-transformer-model-optimization-wit",
+      "date": "2025-09-23",
+      "published_at": "2025-09-23T00:00:00Z",
+      "created_at": "2025-09-23T00:00:00Z",
+      "title": "Coding Implementation to End-to-End Transformer Model Optimization with Hugging Face Optimum, ONNX Runtime, and Quantization",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-88.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/coding-implementation-to-end-to-end-transformer-model-optimization-wit/",
+      "excerpt": "Coding Implementation to End-to-End Transformer Model Optimization with Hugging Face Optimum, ONNX Runtime, and Quantization - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News …",
+      "source": "https://www.marktechpost.com/2025/09/23/coding-implementation-to-end-to-end-transformer-model-optimization-with-hugging-face-optimum-onnx-runtime-and-quantization/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2025-09-24",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

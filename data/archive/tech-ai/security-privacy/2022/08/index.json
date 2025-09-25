@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "slug": "student-loan-breach-exposes-2-5m-records-2022-08-31",
+      "date": "2022-08-31",
+      "published_at": "2022-08-31T00:00:00Z",
+      "created_at": "2022-08-31T00:00:00Z",
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2015/02/07005821/data.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/student-loan-breach-exposes-2-5m-records-2022-08-31/",
+      "excerpt": "Student Loan Breach Exposes 2.5M Records | Threatpost Threatpost Podcasts Malware Vulnerabilities InfoSec Insiders Webinars Search Watering Hole Attacks Push ScanBox Keylogger Previous article Student Loan Breach Exposes 2.5M Records Author: Nate Nelson August 31, 2022 8:57 am…",
+      "source": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "watering-hole-attacks-push-scanbox-keylogger-2022-08-30",
+      "date": "2022-08-30",
+      "published_at": "2022-08-30T00:00:00Z",
+      "created_at": "2022-08-30T00:00:00Z",
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/03/31170116/watering-hole-e1585688492540.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/watering-hole-attacks-push-scanbox-keylogger-2022-08-30/",
+      "excerpt": "Watering Hole Attacks Push ScanBox Keylogger | Threatpost Threatpost Podcasts Malware Vulnerabilities InfoSec Insiders Webinars Search Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms Previous article Student Loan Breach Exposes 2.5M Records Next article Watering Hole A…",
+      "source": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tentacles-of-0ktapus-threat-group-victimize-130-firms-2022-08-29",
+      "date": "2022-08-29",
+      "published_at": "2022-08-29T00:00:00Z",
+      "created_at": "2022-08-29T00:00:00Z",
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/06/02111030/octopus.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/tentacles-of-0ktapus-threat-group-victimize-130-firms-2022-08-29/",
+      "excerpt": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms | Threatpost Threatpost Podcasts Malware Vulnerabilities InfoSec Insiders Webinars Search Ransomware Attacks are on the Rise Previous article Watering Hole Attacks Push ScanBox Keylogger Next article Tentacles of ‘0ktapus…",
+      "source": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ransomware-attacks-are-on-the-rise-2022-08-26",
+      "date": "2022-08-26",
+      "published_at": "2022-08-26T00:00:00Z",
+      "created_at": "2022-08-26T00:00:00Z",
+      "title": "Ransomware Attacks are on the Rise",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2019/12/24125329/Ransomware_700_420.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ransomware-attacks-are-on-the-rise-2022-08-26/",
+      "excerpt": "Ransomware Attacks are on the Rise | Threatpost Threatpost Podcasts Malware Vulnerabilities InfoSec Insiders Webinars Search Cybercriminals Are Selling Access to Chinese Surveillance Cameras Previous article Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms Next article …",
+      "source": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cybercriminals-are-selling-access-to-chinese-surveillance-cameras-2022",
+      "date": "2022-08-25",
+      "published_at": "2022-08-25T00:00:00Z",
+      "created_at": "2022-08-25T00:00:00Z",
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "cover": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2020/11/19110609/iot.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cybercriminals-are-selling-access-to-chinese-surveillance-cameras-2022/",
+      "excerpt": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras | Threatpost Threatpost Podcasts Malware Vulnerabilities InfoSec Insiders Webinars Search Twitter Whistleblower Complaint: The TL;DR Version Previous article Ransomware Attacks are on the Rise Next article Cyber…",
+      "source": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 5,
+  "updated_at": "2022-08-31",
+  "pagination": {
+    "total_items": 5,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

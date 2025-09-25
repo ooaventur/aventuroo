@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "slug": "pesto-pizza-2025-08-21",
+      "date": "2025-08-21",
+      "published_at": "2025-08-21T00:00:00Z",
+      "created_at": "2025-08-21T00:00:00Z",
+      "title": "Pesto Pizza",
+      "cover": "https://cookieandkate.com/images/2025/08/pesto-pizza-recipe.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/pesto-pizza-2025-08-21/",
+      "excerpt": "Pesto Pizza Recipe - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranean Mexican Diet …",
+      "source": "https://cookieandkate.com/pesto-pizza/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "double-chocolate-zucchini-bread-2025-08-20",
+      "date": "2025-08-20",
+      "published_at": "2025-08-20T00:00:00Z",
+      "created_at": "2025-08-20T00:00:00Z",
+      "title": "double chocolate zucchini bread",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/08/double-chocolate-zucchini-bre-07-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/double-chocolate-zucchini-bread-2025-08-20/",
+      "excerpt": "double chocolate zucchini bread – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris t…",
+      "source": "https://smittenkitchen.com/2025/08/double-chocolate-zucchini-bread/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "perfect-scrambled-eggs-2025-08-13",
+      "date": "2025-08-13",
+      "published_at": "2025-08-13T00:00:00Z",
+      "created_at": "2025-08-13T00:00:00Z",
+      "title": "Perfect Scrambled Eggs",
+      "cover": "https://cookieandkate.com/images/2025/04/scrambled-eggs-recipe.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/perfect-scrambled-eggs-2025-08-13/",
+      "excerpt": "Perfect Scrambled Eggs Recipe - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranean Me…",
+      "source": "https://cookieandkate.com/perfect-scrambled-eggs/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "grilled-chicken-salad-with-cilantro-lime-dressing-2025-08-06",
+      "date": "2025-08-06",
+      "published_at": "2025-08-06T00:00:00Z",
+      "created_at": "2025-08-06T00:00:00Z",
+      "title": "grilled chicken salad with cilantro-lime dressing",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/08/grilled-chicken-salad-with-cilantro-lime-dressing-09-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/grilled-chicken-salad-with-cilantro-lime-dressing-2025-08-06/",
+      "excerpt": "grilled chicken salad with cilantro-lime dressing – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a fe…",
+      "source": "https://smittenkitchen.com/2025/08/grilled-chicken-salad-with-cilantro-lime-dressing/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 4,
+  "updated_at": "2025-08-21",
+  "pagination": {
+    "total_items": 4,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "slug": "instant-pot-spaghetti-2025-07-31",
+      "date": "2025-07-31",
+      "published_at": "2025-07-31T00:00:00Z",
+      "created_at": "2025-07-31T00:00:00Z",
+      "title": "Instant Pot Spaghetti",
+      "cover": "https://www.youtube.com/embed/tPzzeDRG2jM",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/instant-pot-spaghetti-2025-07-31/",
+      "excerpt": "Instant Pot Spaghetti Recipe - Pinch of Yum icon-arrow icon-chevron-white icon-chevron icon-comment icon-facebook icon-heart icon-instagram icon-instant-pot icon-list icon-lock icon-meal-prep icon-next icon-pinterest icon-popular icon-quote icon-search icon-star icon-sugar-fre…",
+      "source": "https://pinchofyum.com/instant-pot-spaghetti",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chipwich-ice-cream-cake-2025-07-25",
+      "date": "2025-07-25",
+      "published_at": "2025-07-25T00:00:00Z",
+      "created_at": "2025-07-25T00:00:00Z",
+      "title": "chipwich ice cream cake",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/07/chipwich-ice-cream-cake-24-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chipwich-ice-cream-cake-2025-07-25/",
+      "excerpt": "chipwich ice cream cake – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris two weeks…",
+      "source": "https://smittenkitchen.com/2025/07/chipwich-ice-cream-cake/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chocolate-cherry-smoothie-2025-07-23",
+      "date": "2025-07-23",
+      "published_at": "2025-07-23T00:00:00Z",
+      "created_at": "2025-07-23T00:00:00Z",
+      "title": "Chocolate Cherry Smoothie",
+      "cover": "https://www.youtube.com/embed/vMH9wWdKJuQ",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chocolate-cherry-smoothie-2025-07-23/",
+      "excerpt": "Chocolate Cherry Smoothie Recipe - Pinch of Yum icon-arrow icon-chevron-white icon-chevron icon-comment icon-facebook icon-heart icon-instagram icon-instant-pot icon-list icon-lock icon-meal-prep icon-next icon-pinterest icon-popular icon-quote icon-search icon-star icon-sugar…",
+      "source": "https://pinchofyum.com/chocolate-cherry-smoothie",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "focaccia-with-zucchini-and-potatoes-2025-07-11",
+      "date": "2025-07-11",
+      "published_at": "2025-07-11T00:00:00Z",
+      "created_at": "2025-07-11T00:00:00Z",
+      "title": "focaccia with zucchini and potatoes",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/07/focaccia-with-zucchini-and-potatoes-10-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/focaccia-with-zucchini-and-potatoes-2025-07-11/",
+      "excerpt": "focaccia with zucchini and potatoes – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to par…",
+      "source": "https://smittenkitchen.com/2025/07/focaccia-with-zucchini-and-potatoes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 4,
+  "updated_at": "2025-07-31",
+  "pagination": {
+    "total_items": 4,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

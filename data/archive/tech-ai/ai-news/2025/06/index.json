@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "slug": "bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-ro",
+      "date": "2025-06-24",
+      "published_at": "2025-06-24T00:00:00Z",
+      "created_at": "2025-06-24T00:00:00Z",
+      "title": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-ro/",
+      "excerpt": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation | Synced \", type: 'inline' }, { tag: \" \", type: 'belowpost' }, { tag: \" \", type: 'top' } ); Synced AI Technology & Industry Review Menu Search Search for: Menu Search Synced Close Search for:…",
+      "source": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "researchers-from-psu-and-duke-introduce-multi-agent-systems-automated",
+      "date": "2025-06-16",
+      "published_at": "2025-06-16T00:00:00Z",
+      "created_at": "2025-06-16T00:00:00Z",
+      "title": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated/",
+      "excerpt": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution | Synced \", type: 'inline' }, { tag: \" \", type: 'belowpost' }, { tag: \" \", type: 'top' } ); Synced AI Technology & Industry Review Menu Search Search for: Menu Search Synced Close Search…",
+      "source": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai-2025",
+      "date": "2025-06-16",
+      "published_at": "2025-06-16T00:00:00Z",
+      "created_at": "2025-06-16T00:00:00Z",
+      "title": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai-2025/",
+      "excerpt": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI | Synced \", type: 'inline' }, { tag: \" \", type: 'belowpost' }, { tag: \" \", type: 'top' } ); Synced AI Technology & Industry Review Menu Search Search for: Menu Search Synced Close Search for: GLOBAL CENTER (CA…",
+      "source": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 3,
+  "updated_at": "2025-06-24",
+  "pagination": {
+    "total_items": 3,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

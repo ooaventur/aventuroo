@@ -1,34 +1,12 @@
-{
-  "generated_at": "2025-11-13T00:00:00Z",
-  "tabletHeader": "Featured Sections",
-  "menu": [
-    {
-      "title": "News",
-      "slug": "news",
-      "href": "/category.html?slug=news",
-      "children": [
-        { "title": "Top Stories", "slug": "news/top-stories", "href": "/category.html?slug=news/top-stories" },
-        { "title": "Politics", "slug": "news/politics", "href": "/category.html?slug=news/politics" },
-        { "title": "Economy", "slug": "news/economy", "href": "/category.html?slug=news/economy" }
-      ]
-    },
-    {
-      "title": "Tech & AI",
-      "slug": "tech-ai",
-      "href": "/category.html?slug=tech-ai",
-      "children": [
-        { "title": "AI News", "slug": "tech-ai/ai-news", "href": "/category.html?slug=tech-ai/ai-news" },
-        { "title": "Security & Privacy", "slug": "tech-ai/security-privacy", "href": "/category.html?slug=tech-ai/security-privacy" }
-      ]
-    },
-    {
-      "title": "Travel",
-      "slug": "travel",
-      "href": "/category.html?slug=travel",
-      "children": [
-        { "title": "Destinations", "slug": "travel/destinations", "href": "/category.html?slug=travel/destinations" },
-        { "title": "Tips & Planning", "slug": "travel/tips-planning", "href": "/category.html?slug=travel/tips-planning" }
-      ]
-    }
-  ]
-}
+[
+  "categories/business-finance/index.json",
+  "categories/crypto/index.json",
+  "categories/culture-arts/index.json",
+  "categories/entertainment/index.json",
+  "categories/food-drink/index.json",
+  "categories/lifestyle/index.json",
+  "categories/news/index.json",
+  "categories/shopping/index.json",
+  "categories/tech-ai/index.json",
+  "categories/travel/index.json"
+]
