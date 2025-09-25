@@ -594,11 +594,6 @@
 ./fonts/Raleway-SemiBoldItalic.ttf
 ./fonts/Raleway-Thin.ttf
 ./fonts/Raleway-ThinItalic.ttf
-./fonts/Roboto-Bold.ttf
-./fonts/Roboto-Light.ttf
-./fonts/Roboto-Medium.ttf
-./fonts/Roboto-Regular.ttf
-./fonts/Roboto-Thin.ttf
 ./images
 ./images/ad.png
 ./images/ads.png
