@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ vars.USE_GITHUB_PAGES == 'true' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -46,6 +47,7 @@ jobs:
           path: _site
 
   deploy:
+    if: ${{ vars.USE_GITHUB_PAGES == 'true' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
