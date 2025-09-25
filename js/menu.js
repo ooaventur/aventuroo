@@ -1,4 +1,5 @@
 (function () {
+  console.debug('menu.js loaded', window.location.href, !!document.querySelector('#menu-list .nav-list'));
   // --------- CONFIG & HELPERS ----------
   var basePath = window.AventurOOBasePath || {
     resolve: function (value) { return value; },
@@ -17,7 +18,7 @@
     var srcAttr = ctn ? ctn.getAttribute('data-menu-src') : null;
     var list = [];
     if (srcAttr) list.push(srcAttr);
-    list.push('data/menu.json', '/data/menu.json');
+    list.push('/data/menu.json', 'data/menu.json');
     return basePath.resolveAll ? basePath.resolveAll(list) : list;
   }
 
@@ -31,6 +32,51 @@
       }
       tryNext(0);
     });
+  }
+
+  function buildMenuFromTaxonomy(taxonomy) {
+    var categories = (taxonomy && taxonomy.categories) || [];
+    var bySlug = {};
+    categories.forEach(function (cat) {
+      if (cat && cat.slug) bySlug[cat.slug] = cat;
+    });
+    var groupedChildren = {};
+    categories.forEach(function (cat) {
+      if (cat && typeof cat.group === 'string') {
+        if (!groupedChildren[cat.group]) groupedChildren[cat.group] = [];
+        groupedChildren[cat.group].push({
+          label: cat.title || cat.slug,
+          path: '/category/' + cat.slug,
+          children: []
+        });
+      }
+    });
+    var menu = [];
+    categories.forEach(function (cat) {
+      if (!cat || !cat.slug) return;
+      if (!cat.group || Array.isArray(cat.group)) {
+        var children = [];
+        if (Array.isArray(cat.group)) {
+          children = cat.group.map(function (slug) {
+            var child = bySlug[slug];
+            if (!child || !child.slug) return null;
+            return {
+              label: child.title || child.slug,
+              path: '/category/' + child.slug,
+              children: []
+            };
+          }).filter(Boolean);
+        } else {
+          children = groupedChildren[cat.slug] || [];
+        }
+        menu.push({
+          label: cat.title || cat.slug,
+          path: '/category/' + cat.slug,
+          children: children
+        });
+      }
+    });
+    return { menu: menu };
   }
 
   function el(tag, cls, html) {
@@ -200,10 +246,38 @@
       .then(renderMenu)
       .catch(function (err) {
         console.error('Menu load error:', err);
-        renderMenu({
-          tabletHeader: { show: true },
-          items: [{ title: 'Home', href: basePath.resolve ? basePath.resolve('/') : 'index.html' }]
-        });
+        return fetch('/data/taxonomy.json', { cache: 'no-store' })
+          .then(function (resp) {
+            if (!resp.ok) {
+              throw new Error('Taxonomy fetch failed with status ' + resp.status);
+            }
+            return resp.json();
+          })
+          .then(function (taxonomy) {
+            var fallback = buildMenuFromTaxonomy(taxonomy);
+            if (!fallback.menu || !fallback.menu.length) {
+              throw new Error('Taxonomy fallback missing menu data');
+            }
+            renderMenu({
+              tabletHeader: { show: true },
+              items: fallback.menu.map(function (cat) {
+                return {
+                  title: cat.label,
+                  href: cat.path,
+                  children: (cat.children || []).map(function (child) {
+                    return { title: child.label, href: child.path };
+                  })
+                };
+              })
+            });
+          })
+          .catch(function (fallbackErr) {
+            console.error('Menu taxonomy fallback error:', fallbackErr);
+            renderMenu({
+              tabletHeader: { show: true },
+              items: [{ title: 'Home', href: basePath.resolve ? basePath.resolve('/') : 'index.html' }]
+            });
+          });
       });
   });
 })();
