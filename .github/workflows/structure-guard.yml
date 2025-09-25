@@ -37,6 +37,73 @@ jobs:
       - name: Validate archive structure
         run: python scripts/validate_archive_structure.py
 
+      - name: Inspect menu structure
+        if: ${{ always() }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          issues = []
+
+          menu_path = Path("data/menu.json")
+          taxonomy_path = Path("data/taxonomy.json")
+          menu_entries = []
+          menu_source = None
+
+          if menu_path.exists():
+              try:
+                  data = json.loads(menu_path.read_text(encoding="utf-8"))
+                  if isinstance(data, dict):
+                      if isinstance(data.get("menu"), list):
+                          menu_entries = data["menu"]
+                      elif isinstance(data.get("items"), list):
+                          menu_entries = data["items"]
+                  menu_source = "data/menu.json"
+              except Exception as exc:
+                  issues.append(f"Failed to parse data/menu.json: {exc}")
+          elif taxonomy_path.exists():
+              try:
+                  data = json.loads(taxonomy_path.read_text(encoding="utf-8"))
+                  categories = data.get("categories") if isinstance(data, dict) else None
+                  if isinstance(categories, list):
+                      for cat in categories:
+                          slug = (cat or {}).get("slug")
+                          title = (cat or {}).get("title") or slug
+                          if slug and title:
+                              menu_entries.append({
+                                  "label": title,
+                                  "path": f"/category/{slug}",
+                                  "children": [],
+                              })
+                  menu_source = "data/taxonomy.json"
+              except Exception as exc:
+                  issues.append(f"Failed to parse data/taxonomy.json: {exc}")
+          else:
+              issues.append("Neither data/menu.json nor data/taxonomy.json was found.")
+
+          if not menu_entries:
+              issues.append("No menu entries detected (expected menu.menu[0]).")
+
+          header_path = Path("src/site/_includes/partials/header.njk")
+          header_has_nav = False
+          if header_path.exists():
+              header_has_nav = '<nav id="site-menu"' in header_path.read_text(encoding="utf-8")
+          else:
+              issues.append("Header template not found at src/site/_includes/partials/header.njk.")
+
+          if not header_has_nav:
+              issues.append("Header template is missing <nav id=\"site-menu\"> marker.")
+
+          if issues:
+              print("::warning::Menu structure verification reported issues:")
+              for issue in issues:
+                  print(f"::warning::{issue}")
+          else:
+              print("Menu structure verification passed using", menu_source)
+              print(f"Found {len(menu_entries)} menu entries and required header nav marker.")
+          PY
+
       - name: Enforce legacy directory policy
         if: ${{ always() }}
         run: |
