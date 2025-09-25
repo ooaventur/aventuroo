@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "malicious-rust-packages-on-crates-io-steal-crypto-wallet-keys-2025-09",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Malicious Rust packages on Crates.io steal crypto wallet keys",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/04/09/Rust-headpic-red.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/malicious-rust-packages-on-crates-io-steal-crypto-wallet-keys-2025-09/",
+      "excerpt": "Malicious Rust packages on Crates.io steal crypto wallet keys News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend …",
+      "source": "https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-cloud-service-disruptions-are-making-resilience-critical-for-devel",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -46,6 +58,54 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/how-cloud-service-disruptions-are-making-resilience-critical-for-devel/",
       "excerpt": "Outages affecting DevOps tools threaten to leave developers coding like it's 1999. How serious is the threat and what can companies do?",
       "source": "https://www.darkreading.com/application-security/cloud-service-disruptions-make-resilience-critical-developers",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "co-op-says-it-lost-107-million-after-scattered-spider-attack-2025-09-2",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Co-op says it lost $107 million after Scattered Spider attack",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/04/30/co-op.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/co-op-says-it-lost-107-million-after-scattered-spider-attack-2025-09-2/",
+      "excerpt": "Co-op says it lost $107 million after Scattered Spider attack News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend …",
+      "source": "https://www.bleepingcomputer.com/news/security/co-op-says-it-lost-107-million-after-scattered-spider-attack/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Cisco warns of ASA firewall zero-days exploited in attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/03/04/Cisco-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks-2025-09-25/",
+      "excerpt": "Cisco warns of ASA firewall zero-days exploited in attacks News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend sec…",
+      "source": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cisa-orders-agencies-to-patch-cisco-flaws-exploited-in-zero-day-attack",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "CISA orders agencies to patch Cisco flaws exploited in zero-day attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/01/13/CISA_headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisa-orders-agencies-to-patch-cisco-flaws-exploited-in-zero-day-attack/",
+      "excerpt": "CISA orders agencies to patch Cisco flaws exploited in zero-day attacks News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER t…",
+      "source": "https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-cisco-flaws-exploited-in-zero-day-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amazon-pays-2-5-billion-to-settle-prime-memberships-lawsuit-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Amazon pays $2.5 billion to settle Prime memberships lawsuit",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/10/15/amazon-logo.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/amazon-pays-2-5-billion-to-settle-prime-memberships-lawsuit-2025-09-25/",
+      "excerpt": "Amazon pays $2.5 billion to settle Prime memberships lawsuit News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend s…",
+      "source": "https://www.bleepingcomputer.com/news/technology/amazon-pays-25-billion-to-settle-prime-memberships-lawsuit/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -397,6 +457,54 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Zero Trust: Strengths and Limitations in the AI Attack Era",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb8ef4941b5a90948/685aac76fd468cfd7f9adc82/Zero_trust_(1800)_ArtemisDiana_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/zero-trust-strengths-and-limitations-in-the-ai-attack-era-2025-09-19/",
+      "excerpt": "Zero Trust could help organizations fight back against attackers who use artificial intelligence, but new threats will require the architecture to evolve.",
+      "source": "https://www.darkreading.com/endpoint-security/zero-trust-strengths-and-limitations-in-the-ai-attack-era",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "transforming-cyber-frameworks-to-take-control-of-cyber-risk-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Transforming Cyber Frameworks to Take Control of Cyber-Risk",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2e083f08865b175c/66f2c37003ecc04ce5a19432/Risk(1800)-Olekcii_Mach_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/transforming-cyber-frameworks-to-take-control-of-cyber-risk-2025-09-19/",
+      "excerpt": "Frameworks may seem daunting to implement — especially for government IT teams that may not have an abundance of resources and expertise. But beginning implementation is better than never starting.",
+      "source": "https://www.darkreading.com/cyber-risk/transforming-cyber-frameworks-cyber-risk",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "shadowleak-chatgpt-attack-allows-hackers-to-invisibly-steal-emails-202",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "'ShadowLeak' ChatGPT Attack Allows Hackers to Invisibly Steal Emails",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2e2dd9bb3e55a52a/68cd9300b798f83fc6af5874/Coffee_leak-J_Stromme-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/shadowleak-chatgpt-attack-allows-hackers-to-invisibly-steal-emails-202/",
+      "excerpt": "The loophole allows cyberattackers to exfiltrate company data via OpenAI's infrastructure, leaving no trace at all on enterprise systems.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/shadowleak-chatgpt-invisibly-steal-emails",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "plastic-people-plastic-cards-synthetic-identities-plague-finance-amp-l",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Plastic People, Plastic Cards: Synthetic Identities Plague Finance &amp; Lending Sector",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce83446d15e02313/68cd67247459c6081b5ef5cb/barbie-imageBROKER.com-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/plastic-people-plastic-cards-synthetic-identities-plague-finance-amp-l/",
+      "excerpt": "Following a pandemic-era respite, financial fraud linked to synthetic identities is rising again, with firms potentially facing $3.3 billion in damages from new accounts.",
+      "source": "https://www.darkreading.com/cybersecurity-operations/synthetic-identities-finance-lending-sector",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "patch-now-max-severity-fortra-goanywhere-bug-allows-command-injection",
       "date": "2025-09-19",
       "published_at": "2025-09-19T00:00:00Z",
@@ -406,6 +514,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/patch-now-max-severity-fortra-goanywhere-bug-allows-command-injection/",
       "excerpt": "Exploitation of the flaw, tracked as CVE-2025-10035, is highly dependent on whether systems are exposed to the Internet, according to Fortra.",
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/patch-fortra-goanywhere-bug-command-injection",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "iranian-state-apt-blitzes-telcos-amp-satellite-companies-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Iranian State APT Blitzes Telcos &amp; Satellite Companies",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte2ab4fe77a1e5cfc/68cc1c860a60f3028ad5d55e/Snail-Arterra_Picture_Library-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/iranian-state-apt-blitzes-telcos-amp-satellite-companies-2025-09-19/",
+      "excerpt": "A Charming Kitten subgroup is performing some of the most bespoke cyberattacks ever witnessed in the wild, to down select high-value targets.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/iranian-state-apt-telcos-satellite-companies",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -517,11 +637,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 43,
+  "count": 53,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 43,
+    "total_items": 53,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

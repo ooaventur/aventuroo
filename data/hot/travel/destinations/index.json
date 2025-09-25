@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-best-boutique-hotels-in-copenhagen-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The best boutique hotels in Copenhagen",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/august/sanders-hotel-copenhagen-credit-chris-tonnesen.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-boutique-hotels-in-copenhagen-2025-09-25/",
+      "excerpt": "Best boutique hotels in Copenhagen | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Tr…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/denmark/copenhagen/articles/best-boutique-hotels-copenhagen/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-travel-ready-running-kit-that-got-me-out-of-the-hotel-gym-2025-09",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -277,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 23,
+  "count": 24,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 23,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }

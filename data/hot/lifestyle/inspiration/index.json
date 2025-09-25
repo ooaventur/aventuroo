@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-surprising-freedom-in-not-having-life-all-figured-out-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The Surprising Freedom in Not Having Life All Figured Out",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/09/Woman-juggling-puzzle-pieces.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-surprising-freedom-in-not-having-life-all-figured-out-2025-09-25/",
+      "excerpt": "The Surprising Freedom in Not Having Life All Figured Out - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfulness & Peace P…",
+      "source": "https://tinybuddha.com/blog/the-surprising-freedom-in-not-having-life-all-figured-out/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "alibaba-s-new-accio-ai-agent-promises-to-cut-70-of-manual-workflows-fo",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -445,10 +457,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
+  "count": 38,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 37,
+    "total_items": 38,
     "per_page": 12,
     "total_pages": 4
   }

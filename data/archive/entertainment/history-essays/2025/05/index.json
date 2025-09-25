@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "bernard-sleigh-s-anciente-mappe-of-fairyland-ca-1920-edition-2025-05-2",
+      "date": "2025-05-28",
+      "published_at": "2025-05-28T00:00:00Z",
+      "created_at": "2025-05-28T00:00:00Z",
+      "title": "Bernard Sleigh’s Anciente Mappe of Fairyland (ca. 1920 edition)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/an-anciente-mappe-of-fairyland/commonwealth_3f463773q_image_primary-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/bernard-sleigh-s-anciente-mappe-of-fairyland-ca-1920-edition-2025-05-2/",
+      "excerpt": "Bernard Sleigh’s *Anciente Mappe of Fairyland* (ca. 1920 edition) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Images…",
+      "source": "https://publicdomainreview.org/collection/an-anciente-mappe-of-fairyland",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-second-continental-congress-convenes-2025-05-08",
       "date": "2025-05-08",
       "published_at": "2025-05-08T00:00:00Z",
@@ -13,10 +25,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-05-08",
+  "count": 2,
+  "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 1,
+    "total_items": 2,
     "per_page": 12,
     "total_pages": 1
   }
