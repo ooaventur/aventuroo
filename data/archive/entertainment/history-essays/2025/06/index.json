@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trojan-pig-tiny-cryptic-11-2025-06-18",
+      "date": "2025-06-18",
+      "published_at": "2025-06-18T00:00:00Z",
+      "created_at": "2025-06-18T00:00:00Z",
+      "title": "Trojan Pig: Tiny Cryptic #11",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/trojan-pig-tiny-cryptic-11-2025-06-18/",
+      "excerpt": "Trojan Pig: *Tiny Cryptic #11* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog Trojan Pig: Tiny Cryptic #11 Published June 18, 20…",
+      "source": "https://publicdomainreview.org/blog/2025/06/tiny-cryptic-11",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-language-of-form-lothar-schreyer-s-kreuzigung-1920-2025-06-18",
+      "date": "2025-06-18",
+      "published_at": "2025-06-18T00:00:00Z",
+      "created_at": "2025-06-18T00:00:00Z",
+      "title": "The Language of Form: Lothar Schreyer’s Kreuzigung (1920)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/kreuzigung/kreuzigung-2.jpeg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-language-of-form-lothar-schreyer-s-kreuzigung-1920-2025-06-18/",
+      "excerpt": "The Language of Form: Lothar Schreyer’s *Kreuzigung* (1920) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Images The L…",
+      "source": "https://publicdomainreview.org/collection/kreuzigung",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "dancing-naked-on-the-head-of-a-pin-the-early-history-of-microphotograp",
       "date": "2025-06-18",
       "published_at": "2025-06-18T00:00:00Z",
@@ -23,12 +47,36 @@
       "excerpt": "Dancing Naked on the Head of a Pin: The Early History of Microphotography — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays Danci…",
       "source": "https://publicdomainreview.org/essay/dancing-naked-on-the-head-of-a-pin",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "strings-attached-helen-haiman-joseph-s-a-book-of-marionettes-1920-2025",
+      "date": "2025-06-12",
+      "published_at": "2025-06-12T00:00:00Z",
+      "created_at": "2025-06-12T00:00:00Z",
+      "title": "Strings Attached: Helen Haiman Joseph’s A Book of Marionettes (1920)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/book-of-marionettes/bookofmarionette00joserich_0123-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/strings-attached-helen-haiman-joseph-s-a-book-of-marionettes-1920-2025/",
+      "excerpt": "Strings Attached: Helen Haiman Joseph’s *A Book of Marionettes* (1920) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / B…",
+      "source": "https://publicdomainreview.org/collection/book-of-marionettes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "off-with-their-heads-illustrations-of-blemmyes-ca-1175-1724-2025-06-11",
+      "date": "2025-06-11",
+      "published_at": "2025-06-11T00:00:00Z",
+      "created_at": "2025-06-11T00:00:00Z",
+      "title": "Off with Their Heads: Illustrations of Blemmyes (ca. 1175–1724)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/blemmyes/blemmyes-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/off-with-their-heads-illustrations-of-blemmyes-ca-1175-1724-2025-06-11/",
+      "excerpt": "Off with Their Heads: Illustrations of Blemmyes (ca. 1175–1724) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Images O…",
+      "source": "https://publicdomainreview.org/collection/blemmyes",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
+  "count": 6,
   "updated_at": "2025-06-24",
   "pagination": {
-    "total_items": 2,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

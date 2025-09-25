@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "how-i-m-choosing-between-the-amex-platinum-and-chase-sapphire-reserve",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "How I’m Choosing Between the AmEx Platinum and Chase Sapphire Reserve",
+      "cover": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2018/12/boarding-social.jpeg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-i-m-choosing-between-the-amex-platinum-and-chase-sapphire-reserve/",
+      "excerpt": "How I’m Choosing Between the AmEx Platinum and Chase Sapphire Reserve - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best ca…",
+      "source": "https://www.nerdwallet.com/article/credit-cards/choosing-between-chase-sapphire-reserve-vs-amex-platinum",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "almost-half-of-americans-don-t-have-a-financial-plan-taking-this-step",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Almost half of Americans don't have a financial plan. Taking this step can change that",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108183917-1754862183148-gettyimages-1488636695-pi-2823488.jpeg?v=1758657972&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/almost-half-of-americans-don-t-have-a-financial-plan-taking-this-step/",
+      "excerpt": "No financial plan: How to find the right advisor for you Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Re…",
+      "source": "https://www.cnbc.com/2025/09/25/no-financial-plan-how-to-find-the-right-advisor-for-you.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-buying-life-insurance-avoid-these-little-known-mistakes-2025-09-2",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -397,10 +421,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
-  "updated_at": "2025-09-24",
+  "count": 35,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 33,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "saudi-shares-jump-on-hope-of-foreigner-ownership-change-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Saudi shares jump on hope of foreigner ownership change",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F14568b6d-001b-4291-a751-417f56ef4576.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/saudi-shares-jump-on-hope-of-foreigner-ownership-change-2025-09-25/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/79e25468-8ea0-4e0b-978f-a86793b06934",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "nigeria-seeks-to-counter-financial-fraud-scourge-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/hsbc-claims-quantum-trading-breakthrough-2025-09-25/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/d9d40c18-0fb6-4b7f-aa92-00aed1900859",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "france-s-total-cuts-buybacks-in-fresh-sign-of-oil-price-pressures-2025",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "France’s Total cuts buybacks in fresh sign of oil price pressures",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb855241d-7ef3-4d21-b004-dc33d3a2d668.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/france-s-total-cuts-buybacks-in-fresh-sign-of-oil-price-pressures-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/31f3aea3-4c23-4ba1-99f2-049982b9d41e",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -361,10 +385,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
+  "count": 32,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 30,
+    "total_items": 32,
     "per_page": 12,
     "total_pages": 3
   }

@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "the-next-generation-of-cruise-ships-will-be-powered-by-the-sun-and-win",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The Next Generation of Cruise Ships Will Be Powered By the Sun and Wind",
+      "cover": "https://media.cntraveler.com/clips/68cc56238851d80f8780e92a/master/pass/CNTraveller_DavidDoran_Selar_Landscape%20copy.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-next-generation-of-cruise-ships-will-be-powered-by-the-sun-and-win/",
+      "excerpt": "The Next Generation of Cruise Ships Will Be Powered By the Sun and Wind | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Future of…",
+      "source": "https://www.cntraveler.com/story/the-next-generation-of-cruise-ships-will-be-powered-by-the-sun-and-wind",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-importance-of-expanding-access-to-safe-waters-in-communities-of-co",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The Importance of Expanding Access to Safe Waters in Communities of Color",
+      "cover": "https://media.cntraveler.com/clips/68cc644960e833f10c4c7947/master/pass/CNTraveller_DavidDoran_Pensacola_Landscape.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-importance-of-expanding-access-to-safe-waters-in-communities-of-co/",
+      "excerpt": "The Importance of Expanding Access to Safe Waters in Communities of Color | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North A…",
+      "source": "https://www.cntraveler.com/story/expanding-access-to-safe-waters-in-communities-of-color-from-nyc-to-florida",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mongolia-s-shifting-tourism-industry-and-what-it-means-for-the-country",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Mongolia's Shifting Tourism Industry—And What It Means for the Country's Nomads",
+      "cover": "https://media.cntraveler.com/clips/68cc56221fd4f496c556ec05/master/pass/CNTraveller_DavidDoran_Mongolia_Landscape.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/mongolia-s-shifting-tourism-industry-and-what-it-means-for-the-country/",
+      "excerpt": "Mongolia's Shifting Tourism Industry—And What It Means for the Country's Nomads | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video A…",
+      "source": "https://www.cntraveler.com/story/mongolia-tourism-is-growing-what-does-that-mean-for-nomads",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "copenhagen-rewards-travelers-for-eco-deeds-and-other-cities-are-taking",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Copenhagen Rewards Travelers for Eco Deeds—and Other Cities Are Taking Note",
+      "cover": "https://media.cntraveler.com/clips/68cc56201fd4f496c556ec02/master/pass/CNTraveller_DavidDoran_Copenpay_Landscape.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/copenhagen-rewards-travelers-for-eco-deeds-and-other-cities-are-taking/",
+      "excerpt": "Copenhagen Rewards Travelers for Eco Deeds—and Other Cities Are Taking Note | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Europ…",
+      "source": "https://www.cntraveler.com/story/how-copenhagens-copenpay-program-rewards-eco-conscious-travel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bright-ideas-in-travel-2025-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Bright Ideas in Travel 2025",
+      "cover": "https://media.cntraveler.com/clips/68cc56226b8759d3a3d693a2/master/pass/CNTraveller_DavidDoran_Hero_Landscape%20copy.mp4",
+      "canonical": "https://archive.aventuroo.com/travel/general/bright-ideas-in-travel-2025-2025-09-25/",
+      "excerpt": "Bright Ideas in Travel 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Future of Travel Bright Ideas in Travel 2025 The play…",
+      "source": "https://www.cntraveler.com/story/bright-ideas-in-travel-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "i-tried-luggage-forward-a-premium-luggage-shipping-service-here-are-my",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -181,10 +241,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 15,
-  "updated_at": "2025-09-24",
+  "count": 20,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 15,
+    "total_items": 20,
     "per_page": 12,
     "total_pages": 2
   }

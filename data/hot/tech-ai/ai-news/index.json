@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "meta-fair-released-code-world-model-cwm-a-32-billion-parameter-open-we",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Meta FAIR Released Code World Model (CWM): A 32-Billion-Parameter Open-Weights LLM, to Advance Research on Code Generation with World Models",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-95.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-fair-released-code-world-model-cwm-a-32-billion-parameter-open-we/",
+      "excerpt": "Meta FAIR Released Code World Model (CWM): A 32-Billion-Parameter Open-Weights LLM, to Advance Research on Code Generation with World Models - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsors…",
+      "source": "https://www.marktechpost.com/2025/09/25/meta-fair-released-code-world-model-cwm-a-32-billion-parameter-open-weights-llm-to-advance-research-on-code-generation-with-world-models/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-build-an-end-to-end-data-science-workflow-with-machine-learning",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "How to Build an End-to-End Data Science Workflow with Machine Learning, Interpretability, and Gemini AI Assistance?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-94.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-build-an-end-to-end-data-science-workflow-with-machine-learning/",
+      "excerpt": "How to Build an End-to-End Data Science Workflow with Machine Learning, Interpretability, and Gemini AI Assistance? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News …",
+      "source": "https://www.marktechpost.com/2025/09/25/how-to-build-an-end-to-end-data-science-workflow-with-machine-learning-interpretability-and-gemini-ai-assistance/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-master-advanced-torchvision-v2-transforms-mixup-cutmix-and-mode",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -121,10 +145,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 10,
+  "count": 12,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 10,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

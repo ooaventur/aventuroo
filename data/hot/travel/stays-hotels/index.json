@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "regent-hotels-expands-global-portfolio-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Regent Hotels expands global portfolio",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/09/2024-12-18.webp",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/regent-hotels-expands-global-portfolio-2025-09-25/",
+      "excerpt": "Regent Hotels expands global portfolio Skip to content LATEST NEWS CG Developers signs JW Marriott Residences in Dubai Regent Hotels expands global portfolio BWH Hotels GB CEO Tim Rumney Preferred Hotels & Resorts introduces private jet experience Gunter Hotel reopens after $5…",
+      "source": "https://boutiquehotelnews.com/news/industry/regent-hotels-global-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=regent-hotels-global-portfolio",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cg-developers-signs-jw-marriott-residences-in-dubai-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "CG Developers signs JW Marriott Residences in Dubai",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/09/CG_Corp_Global-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/cg-developers-signs-jw-marriott-residences-in-dubai-2025-09-25/",
+      "excerpt": "CG Developers signs JW Marriott Residences in Dubai Skip to content LATEST NEWS CG Developers signs JW Marriott Residences in Dubai Regent Hotels expands global portfolio BWH Hotels GB CEO Tim Rumney Preferred Hotels & Resorts introduces private jet experience Gunter Hotel reo…",
+      "source": "https://boutiquehotelnews.com/news/branded-residences/jw-marriott-residences-in-dubai/?utm_source=rss&utm_medium=rss&utm_campaign=jw-marriott-residences-in-dubai",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "preferred-hotels-resorts-introduces-private-jet-experience-2025-09-24",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -217,10 +241,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 18,
-  "updated_at": "2025-09-24",
+  "count": 20,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 18,
+    "total_items": 20,
     "per_page": 12,
     "total_pages": 2
   }

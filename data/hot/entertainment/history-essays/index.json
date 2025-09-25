@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-end-of-the-world-as-we-didn-t-know-it-now-and-then-5-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The End of the World as We (Didn’t) Know It: Now and Then #5",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Last_Judgement_(Michelangelo)-detail.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-end-of-the-world-as-we-didn-t-know-it-now-and-then-5-2025-09-25/",
+      "excerpt": "The End of the World as We (Didn’t) Know It: *Now and Then #5* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog The End of the Wor…",
+      "source": "https://publicdomainreview.org/blog/2025/09/now-and-then-5",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-did-people-start-making-silk-2025-09-24",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -181,10 +193,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 15,
-  "updated_at": "2025-09-24",
+  "count": 16,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 15,
+    "total_items": 16,
     "per_page": 12,
     "total_pages": 2
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "alibaba-s-new-accio-ai-agent-promises-to-cut-70-of-manual-workflows-fo",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Alibaba’s New Accio AI Agent Promises to Cut 70% of Manual Workflows for Small Businesses",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/alibaba-accio-ai-agent-small-business-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/alibaba-s-new-accio-ai-agent-promises-to-cut-70-of-manual-workflows-fo/",
+      "excerpt": "Alibaba Accio AI Agent Cuts 70% of Small Business Workflows | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default…",
+      "source": "https://www.success.com/alibaba-accio-ai-agent-small-business/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "5-must-read-books-by-influencers-that-live-up-to-the-hype-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "5 Must-Read Books by Influencers That Live Up to the Hype",
+      "cover": "https://www.success.com/wp-content/uploads/2025/08/influencer-books-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/5-must-read-books-by-influencers-that-live-up-to-the-hype-2025-09-25/",
+      "excerpt": "5 Must-Read Books by Influencers That Live Up to the Hype | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\">…",
+      "source": "https://www.success.com/books-by-influencers-worth-reading/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-ai-can-never-replace-us-the-truth-about-being-human-2025-09-24",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -421,11 +445,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
-  "updated_at": "2025-09-24",
+  "count": 37,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 35,
+    "total_items": 37,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

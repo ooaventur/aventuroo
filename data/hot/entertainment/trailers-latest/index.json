@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-war-of-tribes-erupt-on-pandora-in-the-new-trailer-for-avatar-fire",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The war of tribes erupt on Pandora in the new trailer for Avatar: Fire and Ash",
+      "cover": "https://www.youtube.com/embed/1e30d-XxMnY",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/the-war-of-tribes-erupt-on-pandora-in-the-new-trailer-for-avatar-fire/",
+      "excerpt": "Tribes clash in the trailer for Avatar: Fire and Ash Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcoming …",
+      "source": "https://www.joblo.com/avatar-fire-and-ash-trailer-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-new-trailer-for-a-house-of-dynamite-plays-up-the-mystery-aspect-20",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "The new trailer for A House of Dynamite plays up the mystery aspect",
+      "cover": "https://www.youtube.com/embed/vtMV3uxLryk",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/the-new-trailer-for-a-house-of-dynamite-plays-up-the-mystery-aspect-20/",
+      "excerpt": "New A House of Dynamite trailer shows the mystery aspect Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcom…",
+      "source": "https://www.joblo.com/a-house-of-dynamite-trailer-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "spider-man-beyond-the-spider-verse-release-has-changed-yet-again-2025",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -10,6 +34,42 @@
       "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/spider-man-beyond-the-spider-verse-release-has-changed-yet-again-2025/",
       "excerpt": "Spider-Man: Beyond the Spider-Verse release pushed forward Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upc…",
       "source": "https://www.joblo.com/spider-man-beyond-the-spider-verse-release-change/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "one-battle-after-another-review-one-of-paul-thomas-anderson-s-best-mov",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "One Battle After Another Review: One of Paul Thomas Anderson’s best movies",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/08/one-battle-after-another.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/one-battle-after-another-review-one-of-paul-thomas-anderson-s-best-mov/",
+      "excerpt": "One Battle After Another Review: One of Paul Thomas Anderson's best movies Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trai…",
+      "source": "https://www.joblo.com/one-battle-after-another-review/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "netflix-invited-joblo-to-their-animation-studio-to-check-out-their-new",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Netflix invited JoBlo to their animation studio to check out their new movie, In Your Dreams",
+      "cover": "https://www.youtube.com/embed/Jjjcn4acAC8",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/netflix-invited-joblo-to-their-animation-studio-to-check-out-their-new/",
+      "excerpt": "Netflix invited JoBlo to their animation studio to check out their new movie, In Your Dreams Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror…",
+      "source": "https://www.joblo.com/in-your-dreams-netflix-visit/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-cynthia-rothrock-movies-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Best Cynthia Rothrock Movies",
+      "cover": "https://www.youtube.com/embed/vJpEQTDy7zE",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/best-cynthia-rothrock-movies-2025-09-25/",
+      "excerpt": "Best Cynthia Rothrock Movies Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcoming Originals Interviews Vid…",
+      "source": "https://www.joblo.com/best-cynthia-rothrock-movies/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -493,10 +553,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 41,
+  "count": 46,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 41,
+    "total_items": 46,
     "per_page": 12,
     "total_pages": 4
   }

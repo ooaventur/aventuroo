@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "with-your-hair-wet-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "With Your Hair Wet",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/with-your-hair-wet-nikola-golubovski-spring-portrait.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/with-your-hair-wet-2025-08-15/",
+      "excerpt": "With Your Hair Wet – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translate…",
+      "source": "https://www.guernicamag.com/with-your-hair-wet/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "through-the-opening-on-the-deck-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Through the opening on the deck",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/through-the-opening-on-the-deck-marcella-zaniki-nostalgia.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/through-the-opening-on-the-deck-2025-08-15/",
+      "excerpt": "Through the opening on the deck – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Már…",
+      "source": "https://www.guernicamag.com/through-the-opening-on-the-deck/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-german-teacher-2025-08-15",
       "date": "2025-08-15",
       "published_at": "2025-08-15T00:00:00Z",
@@ -10,6 +34,42 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/culture/the-german-teacher-2025-08-15/",
       "excerpt": "The German Teacher – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translate…",
       "source": "https://www.guernicamag.com/the-german-teacher/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "spider-flags-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Spider Flags",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/spider-flags-elena-nikolic-feminine-touches.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/spider-flags-2025-08-15/",
+      "excerpt": "Spider Flags – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated by N…",
+      "source": "https://www.guernicamag.com/spider-flags/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "rites-of-spring-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Rites of Spring",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/rights-of-spring-zoran-simunovic-do-astronauts-need-art-3jpg.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/rites-of-spring-2025-08-15/",
+      "excerpt": "Rites of Spring – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated b…",
+      "source": "https://www.guernicamag.com/rites-of-spring/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hymn-to-killing-2025-08-15",
+      "date": "2025-08-15",
+      "published_at": "2025-08-15T00:00:00Z",
+      "created_at": "2025-08-15T00:00:00Z",
+      "title": "Hymn to Killing",
+      "cover": "https://www.guernicamag.com/wp-content/uploads/2025/08/hymn-to-killing-tino-perdic-our-daily-bread.webp",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/hymn-to-killing-2025-08-15/",
+      "excerpt": "Hymn to Killing – Guernica Guernica Home Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room Explore… Search Search for: Fiction Essay Poetry Interviews Apostrophe Back Draft Spotlights Cutting Room An Emptiness Yet to Come By José Mármol translated b…",
+      "source": "https://www.guernicamag.com/hymm-to-killing/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -85,10 +145,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 7,
+  "count": 12,
   "updated_at": "2025-08-15",
   "pagination": {
-    "total_items": 7,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

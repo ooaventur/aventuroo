@@ -205,6 +205,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "where-to-stay-in-la-if-you-like-to-eat-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Where to Stay in LA if You Like to Eat",
+      "cover": "https://assets.bonappetit.com/photos/68cd836c82bb0e780e3863f0/master/pass/36pali_silverlake_property.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/where-to-stay-in-la-if-you-like-to-eat-2025-09-19/",
+      "excerpt": "Where to Stay in LA if You Like to Eat | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Culture Where to Sta…",
+      "source": "https://www.bonappetit.com/story/where-to-stay-food-lovers-los-angeles",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "my-favorite-party-trick-is-a-giant-batched-dirty-martini-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "My Favorite Party Trick Is a Giant Batched Dirty Martini",
+      "cover": "https://assets.bonappetit.com/photos/68cd89ad82bb0e780e386442/master/pass/9.18_BA_Quincy_Olives_5o'clock_somewhere.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/my-favorite-party-trick-is-a-giant-batched-dirty-martini-2025-09-19/",
+      "excerpt": "My Favorite Party Trick Is a Giant Batched Dirty Martini | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Sh…",
+      "source": "https://www.bonappetit.com/story/quincy-olives-batched-dirty-martini",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "make-ahead-waffles-and-more-recipes-we-made-this-week-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Make-Ahead Waffles and More Recipes We Made This Week",
+      "cover": "https://assets.bonappetit.com/photos/649a34620bcd58b2b9f88173/master/pass/20230509-0823-APPLIANCES-30817.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/make-ahead-waffles-and-more-recipes-we-made-this-week-2025-09-19/",
+      "excerpt": "Make-Ahead Waffles and More Recipes We Made This Week | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooki…",
+      "source": "https://www.bonappetit.com/story/recipes-bon-appetit-editors-cooked-september-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-did-raising-cane-s-put-on-a-fashion-show-we-asked-the-designer-202",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "How Did Raising Cane's Put on a Fashion Show? We Asked the Designer",
+      "cover": "https://assets.bonappetit.com/photos/68c9bbb7efc96bf3595b35f6/master/pass/deepdish-cains-chicken.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/how-did-raising-cane-s-put-on-a-fashion-show-we-asked-the-designer-202/",
+      "excerpt": "How Did Raising Cane's Put on a Fashion Show? We Asked the Designer | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Men…",
+      "source": "https://www.bonappetit.com/story/raising-canes-chicken-fashion-show",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-ever-chicken-and-dumplings-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Best-Ever Chicken and Dumplings",
+      "cover": "https://assets.bonappetit.com/photos/58a35448476e2c92337165d3/master/pass/bas-best-chicken-and-dumplings.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/best-ever-chicken-and-dumplings-2025-09-19/",
+      "excerpt": "Best-Ever Chicken and Dumplings Recipe | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking Best-Ever Ch…",
+      "source": "https://www.bonappetit.com/recipe/best-chicken-and-dumplings",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "22-easy-fall-recipes-for-busy-nights-2025-09-12",
       "date": "2025-09-12",
       "published_at": "2025-09-12T00:00:00Z",
@@ -265,11 +325,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
+  "count": 27,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 22,
+    "total_items": 27,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

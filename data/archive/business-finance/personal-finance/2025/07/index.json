@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "slug": "house-bill-would-expand-the-pool-of-people-who-can-buy-certain-investm",
+      "date": "2025-07-23",
+      "published_at": "2025-07-23T00:00:00Z",
+      "created_at": "2025-07-23T00:00:00Z",
+      "title": "House bill would expand the pool of people who can buy certain investments — if they can pass an SEC test",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108172085-17525884072025-07-15t140552z_404707296_rc20nfa5w25r_rtrmadp_0_usa-farm-food.jpeg?v=1752588525&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/house-bill-would-expand-the-pool-of-people-who-can-buy-certain-investm/",
+      "excerpt": "House votes to expand accredited investor opportunity with SEC test Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Ind…",
+      "source": "https://www.cnbc.com/2025/07/23/house-bill-accredited-investor-sec-test.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "revenge-savings-can-boost-your-bottom-line-experts-say-here-s-how-to-g",
+      "date": "2025-07-08",
+      "published_at": "2025-07-08T00:00:00Z",
+      "created_at": "2025-07-08T00:00:00Z",
+      "title": "'Revenge savings' can boost your bottom line, experts say — here's how to get started",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108119037-1742482977739-gettyimages-2157380633-_dsc7979.jpeg?v=1752581444&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/revenge-savings-can-boost-your-bottom-line-experts-say-here-s-how-to-g/",
+      "excerpt": "How to get started with 'revenge savings' Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth Spo…",
+      "source": "https://www.cnbc.com/2025/07/08/how-to-get-started-with-revenge-savings.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 2,
+  "updated_at": "2025-07-23",
+  "pagination": {
+    "total_items": 2,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}
