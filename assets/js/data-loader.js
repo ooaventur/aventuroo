@@ -1121,8 +1121,22 @@
     if (!state.slug) {
       return Promise.reject(new Error('Missing category slug.'));
     }
-    var path = '/data/categories/' + state.slug + '/index.json';
-    return fetchJson(path, { cache: 'no-store' });
+    var slug = state.slug;
+    var parts = String(slug).split('/');
+    var hotPath = '/data/hot/' + parts[0];
+    if (parts.length > 1 && parts[1]) {
+      hotPath += '/' + parts[1];
+    }
+    hotPath += '/index.json';
+    return fetchJson(hotPath, { cache: 'no-store' }).catch(function (err) {
+      if (err && err.message && err.message.indexOf('status 404') !== -1) {
+        console.info('Category data not found for', slug, 'at', hotPath);
+      } else {
+        console.warn('Category data fetch failed for', slug, 'at', hotPath, err);
+      }
+      var fallbackPath = '/data/categories/' + slug + '/index.json';
+      return fetchJson(fallbackPath, { cache: 'no-store' });
+    });
   }
 
   function fetchArchiveBatch(slug, entry) {
