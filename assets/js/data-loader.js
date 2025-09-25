@@ -794,13 +794,28 @@
       });
   }
 
-  function readCategorySlug(section) {
-    if (!section) {
-      return '';
+  function splitCategorySlug(value) {
+    var normalized = normalizeSlug(value);
+    if (!normalized) {
+      return { category: '', subcategory: '' };
     }
-    var attr = section.getAttribute('data-category') || section.dataset.category;
-    if (attr) {
-      return normalizeSlug(attr);
+    var parts = normalized.split('/');
+    var category = parts.shift() || '';
+    var subcategory = parts.join('/');
+    return {
+      category: category,
+      subcategory: subcategory || ''
+    };
+  }
+
+  function readCategorySlug(section) {
+    var attr = '';
+    if (section) {
+      attr = section.getAttribute('data-category') || section.dataset.category || '';
+    }
+    var fromAttr = splitCategorySlug(attr);
+    if (fromAttr.category) {
+      return fromAttr.category;
     }
     var search = window.location.search || '';
     var params;
@@ -810,7 +825,36 @@
       return '';
     }
     var fromQuery = params.get('cat') || params.get('category') || params.get('slug');
-    return normalizeSlug(fromQuery);
+    return splitCategorySlug(fromQuery).category;
+  }
+
+  function readSubcategorySlug(section) {
+    var attr = '';
+    if (section) {
+      attr = section.getAttribute('data-subcategory') || section.dataset.subcategory || '';
+    }
+    var attrParts = splitCategorySlug(attr);
+    var search = window.location.search || '';
+    var params;
+    try {
+      params = new URLSearchParams(search);
+    } catch (err) {
+      return attrParts.subcategory || attrParts.category || '';
+    }
+    var fromQuery = params.get('sub') || params.get('subcategory');
+    if (!fromQuery) {
+      var fromCat = params.get('cat') || params.get('category') || params.get('slug');
+      var catParts = splitCategorySlug(fromCat);
+      fromQuery = catParts.subcategory;
+    }
+    var fromQueryParts = splitCategorySlug(fromQuery);
+    return (
+      fromQueryParts.subcategory ||
+      fromQueryParts.category ||
+      attrParts.subcategory ||
+      attrParts.category ||
+      ''
+    );
   }
 
   function resolveArticleUrl(post) {
@@ -885,14 +929,18 @@
   }
 
   function buildCategoryUrl(slug) {
-    var normalized = normalizeSlug(slug);
-    if (!normalized) {
+    var parts = splitCategorySlug(slug);
+    if (!parts.category) {
       return '#';
     }
     if (baseHelper && typeof baseHelper.categoryUrl === 'function') {
-      return baseHelper.categoryUrl(normalized);
+      return baseHelper.categoryUrl(parts.subcategory ? parts.category + '/' + parts.subcategory : parts.category);
     }
-    return resolve('/category.html?cat=' + encodeURIComponent(normalized));
+    var url = '/category.html?cat=' + encodeURIComponent(parts.category);
+    if (parts.subcategory) {
+      url += '&sub=' + encodeURIComponent(parts.subcategory);
+    }
+    return resolve(url);
   }
 
   function formatDisplayDate(value) {
@@ -1094,8 +1142,8 @@
     var posts = extractPosts(payload);
     var added = appendPosts(state, posts);
     if (!added) {
-      showEmptyState(state.postList, 'No posts available for this category yet.');
-      setStatus(state.statusEl, 'No posts found for this category.');
+      showEmptyState(state.postList, 'No posts found for this category');
+      setStatus(state.statusEl, 'No posts found for this category');
     } else {
       setStatus(state.statusEl, 'Loaded ' + added + ' posts.');
     }
@@ -1121,7 +1169,11 @@
     if (!state.slug) {
       return Promise.reject(new Error('Missing category slug.'));
     }
-    var path = '/data/categories/' + state.slug + '/index.json';
+    var segments = ['/data/hot', state.slug];
+    if (state.subcategory) {
+      segments.push(state.subcategory);
+    }
+    var path = segments.join('/') + '/index.json';
     return fetchJson(path, { cache: 'no-store' });
   }
 
@@ -1227,6 +1279,7 @@
       return;
     }
     var slug = readCategorySlug(section);
+    var subcategory = readSubcategorySlug(section);
     if (!slug) {
       setStatus(document.querySelector('[data-load-more-status]'), 'Missing category identifier.');
       return;
@@ -1238,6 +1291,7 @@
     categoryState = {
       element: section,
       slug: slug,
+      subcategory: subcategory,
       postList: postList,
       statusEl: statusEl,
       button: button,
