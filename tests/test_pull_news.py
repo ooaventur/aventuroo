@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 
 from autopost import pull_news
 from autopost import health as autopost_health
+from scripts.validate_feeds import parse_iso8601_utc
 
 
 class LinkNormalizationTests(unittest.TestCase):
@@ -535,6 +536,30 @@ class MaxPerFeedLimitTests(unittest.TestCase):
             pull_news.HOT_MAX_ITEMS = original_hot_max_items
             pull_news.HOT_PAGE_SIZE = original_hot_page_size
             pull_news.HEADLINE_JSON = original_headline_json
+
+
+class HotEntryTimestampTests(unittest.TestCase):
+    def test_normalize_hot_entry_populates_required_timestamps(self):
+        entry = {
+            "slug": "sample-story",
+            "title": "Sample Story",
+            "excerpt": "Example excerpt",
+            "source": "https://example.com/story",
+            "canonical": "https://archive.aventuroo.com/sample-story/",
+            "cover": "https://example.com/cover.jpg",
+            "date": "2024-05-01",
+        }
+
+        normalized = pull_news._normalize_hot_entry(entry)
+
+        self.assertIn("published_at", normalized)
+        self.assertIn("created_at", normalized)
+        self.assertEqual(normalized["date"], "2024-05-01")
+        self.assertEqual(normalized.get("contact_url"), pull_news.CONTACT_URL)
+
+        # Ensure timestamps are valid ISO-8601 UTC strings accepted by feed validator.
+        parse_iso8601_utc(normalized["published_at"])
+        parse_iso8601_utc(normalized["created_at"])
 
 
 class LinkNormalizationTests(unittest.TestCase):

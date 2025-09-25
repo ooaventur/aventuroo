@@ -143,6 +143,8 @@ HOT_ENTRY_FIELDS = (
     "slug",
     "title",
     "date",
+    "published_at",
+    "created_at",
     "cover",
     "canonical",
     "excerpt",
@@ -1035,8 +1037,25 @@ def _normalize_hot_entry(entry):
 
     normalized = {"slug": slug_value}
 
+    raw_date = entry.get("date")
+    normalized_date = _normalize_date_string(str(raw_date)) if raw_date is not None else ""
+    if not normalized_date:
+        normalized_date = today_iso()
+    normalized["date"] = normalized_date
+
+    date_dt = _parse_datetime_like(raw_date) or _parse_datetime_like(normalized_date)
+    now_dt = _utcnow()
+
+    published_raw = entry.get("published_at") or entry.get("date")
+    published_dt = _parse_datetime_like(published_raw) or date_dt or now_dt
+    normalized["published_at"] = _format_datetime_utc(published_dt)
+
+    created_raw = entry.get("created_at") or entry.get("published_at") or entry.get("date")
+    created_dt = _parse_datetime_like(created_raw) or published_dt
+    normalized["created_at"] = _format_datetime_utc(created_dt)
+
     for key in HOT_ENTRY_FIELDS:
-        if key == "slug":
+        if key in {"slug", "date", "published_at", "created_at"}:
             continue
         value = entry.get(key)
         if key == "contact_url":
@@ -1054,12 +1073,7 @@ def _normalize_hot_entry(entry):
             continue
         if isinstance(value, str):
             value = value.strip()
-        if key == "date":
-            value = _normalize_date_string(str(value)) or today_iso()
         normalized[key] = value
-
-    if "date" not in normalized:
-        normalized["date"] = today_iso()
 
     return normalized
 
@@ -1374,9 +1388,90 @@ def _entry_sort_key(entry) -> str:
     return normalized or raw_str
 
 
+def _utcnow() -> datetime.datetime:
+    """Return the current UTC time without microseconds."""
+
+    return datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+
+
+def _format_datetime_utc(dt: datetime.datetime) -> str:
+    """Return ``dt`` formatted as an ISO-8601 string with a trailing ``Z``."""
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    else:
+        dt = dt.astimezone(datetime.timezone.utc)
+    return dt.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
 def today_iso() -> str:
-    return datetime.datetime.utcnow().strftime("%Y-%m-%d")
- 
+    return _utcnow().date().isoformat()
+
+
+def _parse_datetime_like(value: Any) -> datetime.datetime | None:
+    """Parse ``value`` into a UTC ``datetime`` when possible."""
+
+    if value is None:
+        return None
+
+    if isinstance(value, datetime.datetime):
+        dt = value
+    elif isinstance(value, datetime.date):
+        dt = datetime.datetime(value.year, value.month, value.day)
+    elif isinstance(value, (int, float)) and not isinstance(value, bool):
+        try:
+            timestamp = float(value)
+        except (TypeError, ValueError):
+            return None
+        if timestamp > 1_000_000_000_000:
+            timestamp /= 1000.0
+        try:
+            return datetime.datetime.fromtimestamp(
+                timestamp, tz=datetime.timezone.utc
+            ).replace(microsecond=0)
+        except (OverflowError, OSError, ValueError):
+            return None
+    else:
+        text = str(value).strip()
+        if not text:
+            return None
+        iso_candidate = text
+        if iso_candidate.endswith("Z"):
+            iso_candidate = iso_candidate[:-1] + "+00:00"
+        try:
+            dt = datetime.datetime.fromisoformat(iso_candidate)
+        except ValueError:
+            try:
+                dt = parsedate_to_datetime(text)
+            except (TypeError, ValueError, IndexError):
+                dt = None
+            if dt is None:
+                for fmt in (
+                    "%Y-%m-%dT%H:%M:%S",
+                    "%Y-%m-%d %H:%M:%S",
+                    "%Y-%m-%dT%H:%M",
+                    "%Y-%m-%d %H:%M",
+                    "%Y-%m-%d",
+                ):
+                    try:
+                        dt = datetime.datetime.strptime(text, fmt)
+                        break
+                    except ValueError:
+                        continue
+    if dt is None:
+        return None
+
+    if isinstance(dt, datetime.date) and not isinstance(dt, datetime.datetime):
+        dt = datetime.datetime(dt.year, dt.month, dt.day)
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    else:
+        dt = dt.astimezone(datetime.timezone.utc)
+
+    return dt.replace(microsecond=0)
+
+
 def _determine_bucket_slugs(entry: dict) -> tuple[str, str]:
     if not isinstance(entry, dict):
         return HOT_DEFAULT_PARENT_SLUG, ""
