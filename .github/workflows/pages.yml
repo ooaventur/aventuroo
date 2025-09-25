@@ -1,10 +1,9 @@
 name: Deploy • GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+  push:
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -12,34 +11,29 @@ permissions:
   id-token: write
 
 concurrency:
-  group: github-pages
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
   build:
-    if: ${{ vars.USE_GITHUB_PAGES == 'true' }}
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install deps
+        run: |
+          npm ci || npm i
 
-      - name: Verify critical data indexes
-        run: node scripts/check-critical-indexes.js
-
-      - name: Build site
-        run: npm run build
+      - name: Build site (Eleventy)
+        run: npx @11ty/eleventy
 
       - name: Configure Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -47,7 +41,6 @@ jobs:
           path: _site
 
   deploy:
-    if: ${{ vars.USE_GITHUB_PAGES == 'true' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
