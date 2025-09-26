@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-08-26",
   "per_page": 12,
-  "total_items": 420,
+  "total_items": 452,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 18,
+      "items": 20,
       "pages": 2,
       "children": [
         {
           "child": "general",
           "slug": "business-finance/general",
-          "items": 2,
+          "items": 4,
           "pages": 1,
           "months": [
             {
@@ -23,6 +23,12 @@
             {
               "year": 2025,
               "month": 7,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 6,
               "items": 1,
               "pages": 1
             }
@@ -79,14 +85,14 @@
     },
     {
       "parent": "culture-arts",
-      "items": 50,
+      "items": 55,
       "pages": 5,
       "children": [
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 12,
-          "pages": 1,
+          "items": 17,
+          "pages": 2,
           "months": [
             {
               "year": 2025,
@@ -97,7 +103,13 @@
             {
               "year": 2025,
               "month": 7,
-              "items": 4,
+              "items": 7,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "items": 2,
               "pages": 1
             }
           ]
@@ -172,7 +184,7 @@
     },
     {
       "parent": "entertainment",
-      "items": 51,
+      "items": 56,
       "pages": 5,
       "children": [
         {
@@ -230,8 +242,8 @@
         {
           "child": "history-essays",
           "slug": "entertainment/history-essays",
-          "items": 34,
-          "pages": 3,
+          "items": 39,
+          "pages": 4,
           "months": [
             {
               "year": 2025,
@@ -248,7 +260,7 @@
             {
               "year": 2025,
               "month": 5,
-              "items": 7,
+              "items": 12,
               "pages": 1
             },
             {
@@ -295,13 +307,13 @@
     },
     {
       "parent": "food-drink",
-      "items": 47,
-      "pages": 4,
+      "items": 52,
+      "pages": 5,
       "children": [
         {
           "child": "drink",
           "slug": "food-drink/drink",
-          "items": 27,
+          "items": 32,
           "pages": 3,
           "months": [
             {
@@ -379,7 +391,19 @@
             {
               "year": 2024,
               "month": 8,
-              "items": 1,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "items": 2,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "items": 2,
               "pages": 1
             }
           ]
@@ -645,13 +669,13 @@
     },
     {
       "parent": "travel",
-      "items": 133,
-      "pages": 12,
+      "items": 148,
+      "pages": 13,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 37,
+          "items": 42,
           "pages": 4,
           "months": [
             {
@@ -663,7 +687,7 @@
             {
               "year": 2025,
               "month": 7,
-              "items": 14,
+              "items": 19,
               "pages": 2
             },
             {
@@ -701,8 +725,8 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 36,
-          "pages": 3,
+          "items": 41,
+          "pages": 4,
           "months": [
             {
               "year": 2025,
@@ -743,7 +767,7 @@
             {
               "year": 2025,
               "month": 2,
-              "items": 5,
+              "items": 10,
               "pages": 1
             },
             {
@@ -867,8 +891,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 34,
-          "pages": 3,
+          "items": 39,
+          "pages": 4,
           "months": [
             {
               "year": 2025,
@@ -898,6 +922,12 @@
               "year": 2025,
               "month": 3,
               "items": 8,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "items": 5,
               "pages": 1
             },
             {

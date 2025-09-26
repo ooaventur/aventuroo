@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-truth-about-my-inner-critic-it-was-trauma-talking-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "The Truth About My Inner Critic: It Was Trauma Talking",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/09/Inner-critic.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-truth-about-my-inner-critic-it-was-trauma-talking-2025-09-26/",
+      "excerpt": "The Truth About My Inner Critic: It Was Trauma Talking - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfulness & Peace Purp…",
+      "source": "https://tinybuddha.com/blog/the-truth-about-my-inner-critic-it-was-trauma-talking/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "fernando-pessoa-on-unselfing-into-who-you-really-are-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -457,10 +469,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 38,
+  "count": 39,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 38,
+    "total_items": 39,
     "per_page": 12,
     "total_pages": 4
   }

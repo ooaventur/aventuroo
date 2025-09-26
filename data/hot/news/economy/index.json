@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "trump-tracker-the-latest-data-on-us-tariffs-trade-and-economy-2025-09",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Trump tracker: the latest data on US tariffs, trade and economy",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F68f0975c-235d-4f69-be88-23a2a83e38bb.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/trump-tracker-the-latest-data-on-us-tariffs-trade-and-economy-2025-09/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/2c473393-35fb-479d-8bba-236a1a98087c",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "global-ai-giants-target-india-s-youth-in-emerging-market-push-2025-09",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Global AI giants target India’s youth in emerging market push",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2b39b965-0be3-46f9-a9ba-c5e1da775453.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/global-ai-giants-target-india-s-youth-in-emerging-market-push-2025-09/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/7d6ed5de-d011-4c20-89f5-c800030b8bed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "firstft-germany-s-merz-backs-using-frozen-russian-assets-for-ukraine-2",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "FirstFT: Germany’s Merz backs using frozen Russian assets for Ukraine",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4c284728-6495-4c76-83d6-8ac892a6b093.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/firstft-germany-s-merz-backs-using-frozen-russian-assets-for-ukraine-2/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/b703bcec-2c72-4d69-8e7a-4413c0eff1f7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-launches-sweeping-probe-into-mexican-tariffs-as-trade-war-widens",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "China launches sweeping probe into Mexican tariffs as trade war widens",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F64bbcbcf-8676-420f-b49b-00fabcee2b5b.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/china-launches-sweeping-probe-into-mexican-tariffs-as-trade-war-widens/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/a8347475-67cb-45a9-a006-93ddb19569f6",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-we-get-wrong-about-china-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -769,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
-  "updated_at": "2025-09-25",
+  "count": 68,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 64,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }

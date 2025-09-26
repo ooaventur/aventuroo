@@ -85,6 +85,54 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "roasted-delicata-squash-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Roasted Delicata Squash",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/roasted-delicata-squash-index-68d5a2ee2c9cf.jpeg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/roasted-delicata-squash-2025-09-25/",
+      "excerpt": "Best Delicata Squash Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes Meal…",
+      "source": "https://www.delish.com/kitchen-tools/kitchen-secrets/a28859370/roasted-delicata-squash-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "pumpkin-bundt-cake-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Pumpkin Bundt Cake",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/pumpkin-bundt-cake-index-68d5a5255bf5c.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/pumpkin-bundt-cake-2025-09-25/",
+      "excerpt": "Best Pumpkin Bundt Cake Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes M…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a34964951/pumpkin-bundt-cake-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "one-pot-greek-chicken-chili-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "One-Pot Greek Chicken Chili",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/one-pot-greek-chicken-chili-index-65df64c31b91c.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/one-pot-greek-chicken-chili-2025-09-25/",
+      "excerpt": "Best Greek Chicken Chili Recipe - How To Make Greek Chicken Chili We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subs…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a60082468/one-pot-greek-chicken-chili-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "million-dollar-dip-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Million-Dollar Dip",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/million-dollar-dip-socialindex-68bb131b8e8b2.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/million-dollar-dip-2025-09-25/",
+      "excerpt": "Best Million-Dollar Dip Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes M…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a68058808/million-dollar-dip-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "instant-pot-potato-soup-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -130,6 +178,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/general/elise-jesse-s-bourbon-banana-bread-2025-09-25/",
       "excerpt": "Elise Jesse’s Bourbon Banana Bread Recipe Skip to main content Login Join My Account My Recipe Box My Newsletters My Account Customer Care Log out Search terms Recipes Dinner Easy Recipes Shop Videos Subscribe Elise Jesse's Bourbon Banana Bread Recipe photo by Elise Jesse for …",
       "source": "https://www.tasteofhome.com/recipes/elise-jesse-bourbon-banana-bread/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-chicken-salad-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Best Chicken Salad",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/delish-230228-chicken-salad-001-ab-web-index-64148d4479899.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/best-chicken-salad-2025-09-25/",
+      "excerpt": "Best Chicken Salad Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes Meals …",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a43212982/chicken-salad-recipe/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -721,11 +781,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 60,
+  "count": 65,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 60,
+    "total_items": 65,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

@@ -625,6 +625,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "tiktok-deal-won-t-end-enterprise-risks-2025-09-18",
+      "date": "2025-09-18",
+      "published_at": "2025-09-18T00:00:00Z",
+      "created_at": "2025-09-18T00:00:00Z",
+      "title": "TikTok Deal Won't End Enterprise Risks",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt41bc9271c4d3b22c/68cc57601787aafc974e05fa/tiktok_Tada_Images_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/tiktok-deal-won-t-end-enterprise-risks-2025-09-18/",
+      "excerpt": "The proposed restructuring plan would address many concerns related to the social media platform, but risks remain for security teams.",
+      "source": "https://www.darkreading.com/cyber-risk/tiktok-deal-enterprise-risks",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "sonicwall-breached-firewall-backup-data-exposed-2025-09-18",
+      "date": "2025-09-18",
+      "published_at": "2025-09-18T00:00:00Z",
+      "created_at": "2025-09-18T00:00:00Z",
+      "title": "SonicWall Breached, Firewall Backup Data Exposed",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt64a32ce3abbda607/68cc43be169b3fabd174442d/Wall_of_fire_Perov_Stanislav_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sonicwall-breached-firewall-backup-data-exposed-2025-09-18/",
+      "excerpt": "Threat actors breached the MySonicWall service and accessed backup firewall configuration files belonging to &quot;fewer than 5%&quot; of its install base, according to the company.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/sonicwall-breached-firewall-backup",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "7-lessons-for-securing-ai-transformation-from-digital-guru-jennifer-ew",
       "date": "2025-09-18",
       "published_at": "2025-09-18T00:00:00Z",
@@ -634,6 +658,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/7-lessons-for-securing-ai-transformation-from-digital-guru-jennifer-ew/",
       "excerpt": "The former CIA deputy director for digital innovation discusses resilience, cultural shifts, and cyber fundamentals in the AI era.",
       "source": "https://www.darkreading.com/cyber-risk/7-lessons-securing-ai-transformation-former-cia-digital-guru",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-cloud-edge-is-the-new-attack-surface-2025-09-17",
+      "date": "2025-09-17",
+      "published_at": "2025-09-17T00:00:00Z",
+      "created_at": "2025-09-17T00:00:00Z",
+      "title": "The Cloud Edge Is the New Attack Surface",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2ec400e3e5e5dace/68c9b2db949e935a67149768/edge-of-the-clouds-rdonar-shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-cloud-edge-is-the-new-attack-surface-2025-09-17/",
+      "excerpt": "The cloud now acts as the connecting infrastructure for many companies' assets — from IoT devices to workstations to applications and workloads — exposing the edge to threats.",
+      "source": "https://www.darkreading.com/cloud-security/cloud-edge-new-attack-surface",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-disrupts-raccoono365-phishing-service-2025-09-17",
+      "date": "2025-09-17",
+      "published_at": "2025-09-17T00:00:00Z",
+      "created_at": "2025-09-17T00:00:00Z",
+      "title": "Microsoft Disrupts 'RaccoonO365' Phishing Service",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt277273fb9d8b7aaf/68cb03a2169b3f05fc744044/raccoon_mask_computer_Roman_Samborskyi_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-disrupts-raccoono365-phishing-service-2025-09-17/",
+      "excerpt": "Phishing-as-a-service (PhaaS) kits have become an increasingly popular way for lower-skill individuals who want to get into cybercrime.",
+      "source": "https://www.darkreading.com/application-security/microsoft-disrupts-raccoono365-phishing-service",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mastering-digital-breadcrumbs-to-stay-ahead-of-evolving-threats-2025-0",
+      "date": "2025-09-17",
+      "published_at": "2025-09-17T00:00:00Z",
+      "created_at": "2025-09-17T00:00:00Z",
+      "title": "Mastering Digital Breadcrumbs to Stay Ahead of Evolving Threats",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt66e9cc6f37c4aa84/6724d210e4d84466cc87ce82/Speed(1800)_JHENG_YAO_LIN_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/mastering-digital-breadcrumbs-to-stay-ahead-of-evolving-threats-2025-0/",
+      "excerpt": "Digital forensics offers a challenging but rewarding career path for cybersecurity professionals willing to invest in specialized knowledge and continuous learning.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/mastering-digital-breadcrumbs-stay-ahead-of-evolving-threats",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -721,11 +781,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 60,
+  "count": 65,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 60,
+    "total_items": 65,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

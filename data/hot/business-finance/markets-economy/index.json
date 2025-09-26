@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "stock-allocations-are-historically-high-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Stock allocations are historically high",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8db35ff5-e984-4a2d-bc90-5e44199944d8.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/stock-allocations-are-historically-high-2025-09-26/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/4f053357-9e28-44bc-abff-b37440bccf14",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "b-r-e-a-m-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "B.R.E.A.M.",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9a9c361e-e84c-4010-8460-209faca782d2.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/b-r-e-a-m-2025-09-26/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/a406f785-43c4-4026-9f83-c9ad9ca1f525",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "troubling-signs-in-corporate-debt-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Troubling signs in corporate debt",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fnext-video-editor-images.s3.ap-northeast-1.amazonaws.com%2Fabef3b27-e606-427a-acc2-4f1a1e4e3fe9?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/troubling-signs-in-corporate-debt-2025-09-25/",
+      "excerpt": "Troubling signs in corporate debt Accessibility help Skip to navigation Skip to content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middl…",
+      "source": "https://www.ft.com/content/c1fc0fd3-e53c-4280-b3c7-8cefccc094fd",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "shadow-banking-s-real-danger-death-by-a-thousand-paper-cuts-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -397,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
-  "updated_at": "2025-09-25",
+  "count": 36,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 33,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }
