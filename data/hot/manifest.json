@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 4195,
+  "total_items": 4207,
   "shards": [
     {
       "parent": "business-finance",
@@ -243,6 +243,17 @@
       "first_date": "2025-09-05",
       "last_date": "2025-09-26",
       "pages": 4,
+      "is_global": false
+    },
+    {
+      "parent": "food-drink",
+      "child": "guides",
+      "slug": "food-drink/guides",
+      "path": "food-drink/guides/index.json",
+      "items": 12,
+      "first_date": "2025-09-21",
+      "last_date": "2025-09-26",
+      "pages": 1,
       "is_global": false
     },
     {
