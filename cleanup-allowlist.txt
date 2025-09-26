@@ -1,6 +1,10 @@
 # Shembull allowlist i gjeneruar nga out/audit.json
+# Hyrjet pasqyrojnë kërkesat aktuale të pastrimit (p.sh. out/*.log pritet të trajtohet nga skripti i përditësuar)
 json/
 feeds/
 public/json/
 old_data/
 tmp/
+dist/
+.cache/
+out/*.log
