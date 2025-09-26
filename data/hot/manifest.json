@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 4133,
+  "total_items": 4195,
   "shards": [
     {
       "parent": "business-finance",
@@ -540,6 +540,83 @@
       "first_date": "2025-08-28",
       "last_date": "2025-09-26",
       "pages": 4,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "general",
+      "slug": "shopping/general",
+      "path": "shopping/general/index.json",
+      "items": 12,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "marketplaces",
+      "slug": "shopping/marketplaces",
+      "path": "shopping/marketplaces/index.json",
+      "items": 8,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "multi-merchant",
+      "slug": "shopping/multi-merchant",
+      "path": "shopping/multi-merchant/index.json",
+      "items": 8,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "subscriptions",
+      "slug": "shopping/subscriptions",
+      "path": "shopping/subscriptions/index.json",
+      "items": 9,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "tech-deals",
+      "slug": "shopping/tech-deals",
+      "path": "shopping/tech-deals/index.json",
+      "items": 9,
+      "first_date": "2025-09-25",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "travel-deals",
+      "slug": "shopping/travel-deals",
+      "path": "shopping/travel-deals/index.json",
+      "items": 10,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
+      "is_global": false
+    },
+    {
+      "parent": "shopping",
+      "child": "vpn-security",
+      "slug": "shopping/vpn-security",
+      "path": "shopping/vpn-security/index.json",
+      "items": 6,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-26",
+      "pages": 1,
       "is_global": false
     }
   ]

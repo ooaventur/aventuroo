@@ -30,6 +30,10 @@
       "title": "News"
     },
     {
+      "slug": "shopping",
+      "title": "Shopping"
+    },
+    {
       "slug": "tech-ai",
       "title": "Tech & AI"
     },
@@ -48,6 +52,7 @@
         "food-drink",
         "lifestyle",
         "news",
+        "shopping",
         "travel"
       ]
     },
@@ -250,6 +255,36 @@
       "slug": "trip-ideas",
       "title": "Trip Ideas",
       "group": "travel"
+    },
+    {
+      "slug": "tech-deals",
+      "title": "Tech Deals",
+      "group": "shopping"
+    },
+    {
+      "slug": "subscriptions",
+      "title": "Subscriptions",
+      "group": "shopping"
+    },
+    {
+      "slug": "travel-deals",
+      "title": "Travel Deals",
+      "group": "shopping"
+    },
+    {
+      "slug": "vpn-security",
+      "title": "VPN & Security",
+      "group": "shopping"
+    },
+    {
+      "slug": "marketplaces",
+      "title": "Marketplaces",
+      "group": "shopping"
+    },
+    {
+      "slug": "multi-merchant",
+      "title": "Multi-Merchant",
+      "group": "shopping"
     }
   ]
 }
