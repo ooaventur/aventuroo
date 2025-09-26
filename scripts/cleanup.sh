@@ -146,6 +146,9 @@ PROTECTED_PATHS=(
   "/assets"
   "/netlify.toml"
   "/_headers"
+  "/autopost"
+  "/.eleventy.js"  # Konfigurim kryesor i ndërtimit
+  "/README.md"      # Dokumentim rrënjësor
 )
 
 PROTECTED_ABS=()
