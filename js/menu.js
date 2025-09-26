@@ -34,6 +34,15 @@
     });
   }
 
+  function taxonomyCategoryHref(slug) {
+    if (!slug) return '#';
+    if (basePath.categoryUrl) {
+      return basePath.categoryUrl(slug);
+    }
+    var raw = '/category.html?cat=' + encodeURIComponent(slug);
+    return basePath.resolve ? basePath.resolve(raw) : raw;
+  }
+
   function buildMenuFromTaxonomy(taxonomy) {
     var categories = (taxonomy && taxonomy.categories) || [];
     var bySlug = {};
@@ -46,7 +55,7 @@
         if (!groupedChildren[cat.group]) groupedChildren[cat.group] = [];
         groupedChildren[cat.group].push({
           label: cat.title || cat.slug,
-          path: '/category/' + cat.slug,
+          href: taxonomyCategoryHref(cat.slug),
           children: []
         });
       }
@@ -62,7 +71,7 @@
             if (!child || !child.slug) return null;
             return {
               label: child.title || child.slug,
-              path: '/category/' + child.slug,
+              href: taxonomyCategoryHref(child.slug),
               children: []
             };
           }).filter(Boolean);
@@ -71,7 +80,7 @@
         }
         menu.push({
           label: cat.title || cat.slug,
-          path: '/category/' + cat.slug,
+          href: taxonomyCategoryHref(cat.slug),
           children: children
         });
       }
@@ -263,9 +272,9 @@
               items: fallback.menu.map(function (cat) {
                 return {
                   title: cat.label,
-                  href: cat.path,
+                  href: cat.href,
                   children: (cat.children || []).map(function (child) {
-                    return { title: child.label, href: child.path };
+                    return { title: child.label, href: child.href };
                   })
                 };
               })
