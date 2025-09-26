@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-secret-to-the-perfect-holiday-in-somerset-2025-08-26",
+      "date": "2025-08-26",
+      "published_at": "2025-08-26T00:00:00Z",
+      "created_at": "2025-08-26T00:00:00Z",
+      "title": "The secret to the perfect holiday in Somerset",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/England/somerset/somerset-destination-guide-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-secret-to-the-perfect-holiday-in-somerset-2025-08-26/",
+      "excerpt": "An expert travel guide to Somerset | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Tr…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/somerset/articles/somerset-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "maui-eyes-an-image-refresh-2025-08-25",
       "date": "2025-08-25",
       "published_at": "2025-08-25T00:00:00Z",
@@ -181,10 +193,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 15,
-  "updated_at": "2025-08-25",
+  "count": 16,
+  "updated_at": "2025-08-26",
   "pagination": {
-    "total_items": 15,
+    "total_items": 16,
     "per_page": 12,
     "total_pages": 2
   }

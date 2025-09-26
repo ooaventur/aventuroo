@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "chocolate-chip-muffins-2025-08-26",
+      "date": "2025-08-26",
+      "published_at": "2025-08-26T00:00:00Z",
+      "created_at": "2025-08-26T00:00:00Z",
+      "title": "Chocolate Chip Muffins",
+      "cover": "https://cookieandkate.com/images/2025/08/chocolate-chip-muffin-interior.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chocolate-chip-muffins-2025-08-26/",
+      "excerpt": "Chocolate Chip Muffins - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranean Mexican D…",
+      "source": "https://cookieandkate.com/chocolate-chip-muffins/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "pesto-pizza-2025-08-21",
       "date": "2025-08-21",
       "published_at": "2025-08-21T00:00:00Z",
@@ -73,10 +85,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 6,
-  "updated_at": "2025-08-21",
+  "count": 7,
+  "updated_at": "2025-08-26",
   "pagination": {
-    "total_items": 6,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

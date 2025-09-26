@@ -13,6 +13,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-old-old-very-old-man-thomas-parr-and-the-longevity-trade-2025-05-2",
+      "date": "2025-05-21",
+      "published_at": "2025-05-21T00:00:00Z",
+      "created_at": "2025-05-21T00:00:00Z",
+      "title": "The Old, Old, Very Old Man: Thomas Parr and the Longevity Trade",
+      "cover": "https://pdr-assets.b-cdn.net/essays/the-old-old-very-old-man/parr-home-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-old-old-very-old-man-thomas-parr-and-the-longevity-trade-2025-05-2/",
+      "excerpt": "The Old, Old, Very Old Man: Thomas Parr and the Longevity Trade — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays The Old, Old, V…",
+      "source": "https://publicdomainreview.org/essay/the-old-old-very-old-man",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-great-enigma-of-our-times-henry-george-s-poverty-and-progress-1881",
+      "date": "2025-05-21",
+      "published_at": "2025-05-21T00:00:00Z",
+      "created_at": "2025-05-21T00:00:00Z",
+      "title": "“The Great Enigma of Our Times”: Henry George’s Poverty and Progress (1881 edition)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/progress-and-poverty/master-pnp-ggbain-37100-37132u-thumb.jpeg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-great-enigma-of-our-times-henry-george-s-poverty-and-progress-1881/",
+      "excerpt": "“The Great Enigma of Our Times”: Henry George’s *Poverty and Progress* (1881 edition) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky …",
+      "source": "https://publicdomainreview.org/collection/progress-and-poverty",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "old-tricks-tiny-cryptic-9-2025-05-21",
+      "date": "2025-05-21",
+      "published_at": "2025-05-21T00:00:00Z",
+      "created_at": "2025-05-21T00:00:00Z",
+      "title": "Old Tricks: Tiny Cryptic #9",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/old-tricks-tiny-cryptic-9-2025-05-21/",
+      "excerpt": "Old Tricks: *Tiny Cryptic #9* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog Old Tricks: Tiny Cryptic #9 Published May 21, 2025 …",
+      "source": "https://publicdomainreview.org/blog/2025/05/tiny-cryptic-9",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "in-the-penal-colony-now-and-then-3-2025-05-21",
+      "date": "2025-05-21",
+      "published_at": "2025-05-21T00:00:00Z",
+      "created_at": "2025-05-21T00:00:00Z",
+      "title": "In the Penal Colony: Now and Then #3",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/penal-colony-comp.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/in-the-penal-colony-now-and-then-3-2025-05-21/",
+      "excerpt": "In the Penal Colony: *Now and Then #3* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog In the Penal Colony: Now and Then #3 Publi…",
+      "source": "https://publicdomainreview.org/blog/2025/05/now-and-then-3",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gilded-fish-illustrations-from-histoire-naturelle-des-dorades-de-la-ch",
+      "date": "2025-05-15",
+      "published_at": "2025-05-15T00:00:00Z",
+      "created_at": "2025-05-15T00:00:00Z",
+      "title": "Gilded Fish: Illustrations from Histoire naturelle des dorades de la Chine (1780)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/chinese-fishes/histoirenaturell00bill_0117-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/gilded-fish-illustrations-from-histoire-naturelle-des-dorades-de-la-ch/",
+      "excerpt": "Gilded Fish: Illustrations from *Histoire naturelle des dorades de la Chine* (1780) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Co…",
+      "source": "https://publicdomainreview.org/collection/chinese-fishes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-second-continental-congress-convenes-2025-05-08",
       "date": "2025-05-08",
       "published_at": "2025-05-08T00:00:00Z",
@@ -25,10 +85,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
+  "count": 7,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 2,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

@@ -73,6 +73,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "biologists-in-texas-just-identified-the-grue-jay-the-first-known-hybri",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Biologists In Texas Just Identified The ‘Grue Jay,’ The First Known Hybrid Of A Blue Jay And A Green Jay",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/green-jay-blue-jay-hybrid-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/biologists-in-texas-just-identified-the-grue-jay-the-first-known-hybri/",
+      "excerpt": "What Is A 'Grue Jay'? Meet This New Hybrid Bird Found In Texas All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Biologists In Texas Just Identified The ‘Grue Jay,’ The First Known Hybrid Of A …",
+      "source": "https://allthatsinteresting.com/green-jay-blue-jay-hybrid",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-in-turkey-just-unearthed-an-ancient-soup-kitchen-while",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Archaeologists In Turkey Just Unearthed An Ancient Soup Kitchen While Excavating A 2,200-Year-Old City",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/timbriada-ruins-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-turkey-just-unearthed-an-ancient-soup-kitchen-while/",
+      "excerpt": "Ancient Soup Kitchen And Storage Rooms Discovered In Turkey All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Turkey Just Unearthed An Ancient Soup Kitchen While Excavating A …",
+      "source": "https://allthatsinteresting.com/turkey-timbriada-ancient-soup-kitchen",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-believe-that-early-humans-may-have-walked-from-asia-to",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "Archaeologists Believe That Early Humans May Have Walked From Asia To Europe Using A Land Bridge Across The Mediterranean Sea",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/paleolithic-handaxe-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-believe-that-early-humans-may-have-walked-from-asia-to/",
+      "excerpt": "Early Humans May Have Walked Into Europe Using A Land Bridge All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists Believe That Early Humans May Have Walked From Asia To Europe Using…",
+      "source": "https://allthatsinteresting.com/ice-age-aegean-land-bridge",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "44-photos-that-will-take-you-back-to-the-early-years-of-computers-2025",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "44 Photos That Will Take You Back To The Early Years Of Computers",
+      "cover": "https://www.youtube.com/embed/VtvjbmoDx-I",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/44-photos-that-will-take-you-back-to-the-early-years-of-computers-2025/",
+      "excerpt": "44 Nostalgic Photos Of Vintage Computers From Decades Past All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email 44 Photos That Will Take You Back To The Early Years Of Computers By Austin Harvey |…",
+      "source": "https://allthatsinteresting.com/vintage-computer-photos",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "10-of-history-s-biggest-and-most-infamous-psychopaths-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "10 Of History’s Biggest And Most Infamous Psychopaths",
+      "cover": "https://www.youtube-nocookie.com/v/1-SI8RF6wDE",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/10-of-history-s-biggest-and-most-infamous-psychopaths-2025-09-25/",
+      "excerpt": "10 Famous Psychopaths From History That'll Chill You To The Bone All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email 10 Of History’s Biggest And Most Infamous Psychopaths By Katie Serena | Edited…",
+      "source": "https://allthatsinteresting.com/famous-psychopaths",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-real-miss-moneypennys-the-secret-history-of-britain-s-female-spies",
       "date": "2025-09-24",
       "published_at": "2025-09-24T00:00:00Z",
@@ -445,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
+  "count": 42,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 37,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

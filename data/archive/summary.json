@@ -1,18 +1,38 @@
 {
-  "generated_at": "2025-08-25",
+  "generated_at": "2025-08-26",
   "per_page": 12,
-  "total_items": 366,
+  "total_items": 420,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 11,
-      "pages": 1,
+      "items": 18,
+      "pages": 2,
       "children": [
+        {
+          "child": "general",
+          "slug": "business-finance/general",
+          "items": 2,
+          "pages": 1,
+          "months": [
+            {
+              "year": 2025,
+              "month": 8,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "items": 1,
+              "pages": 1
+            }
+          ]
+        },
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 11,
-          "pages": 1,
+          "items": 16,
+          "pages": 2,
           "months": [
             {
               "year": 2025,
@@ -23,13 +43,13 @@
             {
               "year": 2025,
               "month": 7,
-              "items": 2,
+              "items": 3,
               "pages": 1
             },
             {
               "year": 2025,
               "month": 6,
-              "items": 5,
+              "items": 9,
               "pages": 1
             }
           ]
@@ -59,25 +79,25 @@
     },
     {
       "parent": "culture-arts",
-      "items": 42,
-      "pages": 4,
+      "items": 50,
+      "pages": 5,
       "children": [
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 6,
+          "items": 12,
           "pages": 1,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 5,
+              "items": 8,
               "pages": 1
             },
             {
               "year": 2025,
               "month": 7,
-              "items": 1,
+              "items": 4,
               "pages": 1
             }
           ]
@@ -105,13 +125,13 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 2,
+          "items": 4,
           "pages": 1,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 1,
+              "items": 3,
               "pages": 1
             },
             {
@@ -152,8 +172,8 @@
     },
     {
       "parent": "entertainment",
-      "items": 46,
-      "pages": 4,
+      "items": 51,
+      "pages": 5,
       "children": [
         {
           "child": "cinematography",
@@ -210,7 +230,7 @@
         {
           "child": "history-essays",
           "slug": "entertainment/history-essays",
-          "items": 29,
+          "items": 34,
           "pages": 3,
           "months": [
             {
@@ -228,7 +248,7 @@
             {
               "year": 2025,
               "month": 5,
-              "items": 2,
+              "items": 7,
               "pages": 1
             },
             {
@@ -275,14 +295,14 @@
     },
     {
       "parent": "food-drink",
-      "items": 41,
+      "items": 47,
       "pages": 4,
       "children": [
         {
           "child": "drink",
           "slug": "food-drink/drink",
-          "items": 22,
-          "pages": 2,
+          "items": 27,
+          "pages": 3,
           "months": [
             {
               "year": 2025,
@@ -347,6 +367,18 @@
             {
               "year": 2024,
               "month": 10,
+              "items": 4,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 9,
+              "items": 1,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 8,
               "items": 1,
               "pages": 1
             }
@@ -355,13 +387,13 @@
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 19,
+          "items": 20,
           "pages": 2,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 6,
+              "items": 7,
               "pages": 1
             },
             {
@@ -388,8 +420,8 @@
     },
     {
       "parent": "lifestyle",
-      "items": 81,
-      "pages": 7,
+      "items": 92,
+      "pages": 8,
       "children": [
         {
           "child": "index",
@@ -456,25 +488,25 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 65,
-          "pages": 6,
+          "items": 76,
+          "pages": 7,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 14,
+              "items": 15,
               "pages": 2
             },
             {
               "year": 2025,
               "month": 7,
-              "items": 12,
-              "pages": 1
+              "items": 16,
+              "pages": 2
             },
             {
               "year": 2025,
               "month": 6,
-              "items": 2,
+              "items": 3,
               "pages": 1
             },
             {
@@ -510,7 +542,7 @@
             {
               "year": 2024,
               "month": 7,
-              "items": 2,
+              "items": 7,
               "pages": 1
             }
           ]
@@ -540,7 +572,7 @@
     },
     {
       "parent": "tech-ai",
-      "items": 25,
+      "items": 27,
       "pages": 3,
       "children": [
         {
@@ -578,13 +610,13 @@
         {
           "child": "internet-platforms",
           "slug": "tech-ai/internet-platforms",
-          "items": 4,
+          "items": 5,
           "pages": 1,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 4,
+              "items": 5,
               "pages": 1
             }
           ]
@@ -592,13 +624,13 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 11,
+          "items": 12,
           "pages": 1,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 1,
+              "items": 2,
               "pages": 1
             },
             {
@@ -613,26 +645,26 @@
     },
     {
       "parent": "travel",
-      "items": 118,
-      "pages": 10,
+      "items": 133,
+      "pages": 12,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 31,
-          "pages": 3,
+          "items": 37,
+          "pages": 4,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 15,
+              "items": 16,
               "pages": 2
             },
             {
               "year": 2025,
               "month": 7,
-              "items": 9,
-              "pages": 1
+              "items": 14,
+              "pages": 2
             },
             {
               "year": 2025,
@@ -669,7 +701,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 31,
+          "items": 36,
           "pages": 3,
           "months": [
             {
@@ -706,6 +738,12 @@
               "year": 2025,
               "month": 3,
               "items": 6,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 2,
+              "items": 5,
               "pages": 1
             },
             {
@@ -829,13 +867,13 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 30,
+          "items": 34,
           "pages": 3,
           "months": [
             {
               "year": 2025,
               "month": 8,
-              "items": 7,
+              "items": 8,
               "pages": 1
             },
             {
@@ -859,7 +897,7 @@
             {
               "year": 2025,
               "month": 3,
-              "items": 5,
+              "items": 8,
               "pages": 1
             },
             {

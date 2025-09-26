@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-fed-held-interest-rates-steady-but-some-credit-card-aprs-keep-goin",
+      "date": "2025-06-20",
+      "published_at": "2025-06-20T00:00:00Z",
+      "created_at": "2025-06-20T00:00:00Z",
+      "title": "The Fed held interest rates steady, but some credit card APRs keep going up. Here's why",
+      "cover": "https://image.cnbcfm.com/api/v1/image/107332312-1699641318104-gettyimages-1316715832-dscf8388.jpeg?v=1733330842&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/the-fed-held-interest-rates-steady-but-some-credit-card-aprs-keep-goin/",
+      "excerpt": "The Fed held interest rates steady, but credit card APRs keep going up Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/06/20/the-fed-held-interest-rates-steady-but-credit-card-aprs-keep-going-up.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "here-s-what-your-student-loan-bill-could-be-under-new-repayment-plan-i",
       "date": "2025-06-20",
       "published_at": "2025-06-20T00:00:00Z",
@@ -59,12 +71,48 @@
       "excerpt": "RAP vs. SAVE: GOP's 'big beautiful' bill may change student loan bills Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
       "source": "https://www.cnbc.com/2025/06/20/rap-vs-save-gops-big-beautiful-bill-may-change-student-loan-bills.html",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "90-of-women-investors-say-they-re-on-track-to-achieve-money-goals-but",
+      "date": "2025-06-17",
+      "published_at": "2025-06-17T00:00:00Z",
+      "created_at": "2025-06-17T00:00:00Z",
+      "title": "90% of women investors say they're 'on track' to achieve money goals — but most share a common regret, survey finds",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108158493-1749738968234-gettyimages-1339047240-dsc05396.jpeg?v=1749739000&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/90-of-women-investors-say-they-re-on-track-to-achieve-money-goals-but/",
+      "excerpt": "Most women wish they started investing sooner, Schwab finds Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials…",
+      "source": "https://www.cnbc.com/2025/06/17/most-women-wish-they-started-investing-sooner-schwab-finds.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "irs-avoid-falling-behind-by-making-second-quarter-estimated-tax-paymen",
+      "date": "2025-06-15",
+      "published_at": "2025-06-15T00:00:00Z",
+      "created_at": "2025-06-15T00:00:00Z",
+      "title": "IRS: Avoid ‘falling behind’ by making second-quarter estimated tax payment by June 16",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108051038-1729609996677-gettyimages-1166413714-pla_3885ps.jpeg?v=1755185104&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/irs-avoid-falling-behind-by-making-second-quarter-estimated-tax-paymen/",
+      "excerpt": "The second-quarter estimated tax deadline for 2025 is June 16 Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industria…",
+      "source": "https://www.cnbc.com/2025/06/15/second-quarter-estimated-tax-deadline.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-investors-portfolios-have-performed-amid-trump-market-volatility-2",
+      "date": "2025-06-11",
+      "published_at": "2025-06-11T00:00:00Z",
+      "created_at": "2025-06-11T00:00:00Z",
+      "title": "How investors' portfolios have performed amid Trump market volatility",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108077632-1734538622261-gettyimages-2190552229-economy565909_rw5x2sb5.jpeg?v=1752039069&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-investors-portfolios-have-performed-amid-trump-market-volatility-2/",
+      "excerpt": "Trump’s second term: How markets performed for investors so far Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/06/10/trumps-second-term-how-markets-performed-for-investors.html",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
+  "count": 9,
   "updated_at": "2025-06-27",
   "pagination": {
-    "total_items": 5,
+    "total_items": 9,
     "per_page": 12,
     "total_pages": 1
   }

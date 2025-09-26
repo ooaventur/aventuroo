@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "with-831-stories-romance-fans-get-more-than-a-steamy-read-2025-09-25",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "With 831 Stories, romance fans get more than a steamy read",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/with-831-stories-romance-fans-get-more-than-a-steamy-read-2025-09-25/",
+      "excerpt": "With 831 Stories, romance fans get more than a steamy read : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Busi…",
+      "source": "https://www.npr.org/2025/09/25/nx-s1-5429668/with-831-stories-romance-fans-get-more-than-a-steamy-read",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-bruce-lee-trained-with-kareem-abdul-jabbar-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -757,10 +769,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 63,
+  "count": 64,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 63,
+    "total_items": 64,
     "per_page": 12,
     "total_pages": 6
   }

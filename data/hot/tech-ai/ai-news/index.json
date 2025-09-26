@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "openai-releases-chatgpt-pulse-proactive-personalized-daily-briefings-f",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "OpenAI Releases ChatGPT ‘Pulse’: Proactive, Personalized Daily Briefings for Pro Users",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-97.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-releases-chatgpt-pulse-proactive-personalized-daily-briefings-f/",
+      "excerpt": "OpenAI Releases ChatGPT 'Pulse': Proactive, Personalized Daily Briefings for Pro Users - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our …",
+      "source": "https://www.marktechpost.com/2025/09/25/openai-releases-chatgpt-pulse-proactive-personalized-daily-briefings-for-pro-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-introduces-gdpval-a-new-evaluation-suite-that-measures-ai-on-re",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "OpenAI Introduces GDPval: A New Evaluation Suite that Measures AI on Real-World Economically Valuable Tasks",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-96.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-introduces-gdpval-a-new-evaluation-suite-that-measures-ai-on-re/",
+      "excerpt": "OpenAI Introduces GDPval: A New Evaluation Suite that Measures AI on Real-World Economically Valuable Tasks - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Prem…",
+      "source": "https://www.marktechpost.com/2025/09/25/openai-introduces-gdpval-a-new-evaluation-suite-that-measures-ai-on-real-world-economically-valuable-tasks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "meta-fair-released-code-world-model-cwm-a-32-billion-parameter-open-we",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -145,11 +169,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 12,
+  "count": 14,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 12,
+    "total_items": 14,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

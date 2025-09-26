@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "extraordinarily-troubling-legal-experts-sound-off-after-trump-threaten",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "'Extraordinarily Troubling': Legal Experts Sound Off After Trump Threatens To Sue ABC... Again",
+      "cover": "https://img.huffingtonpost.com/asset/68d563f9140000c8005c6038.jpeg?cache=s0mVrH9Ci1&amp;ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/extraordinarily-troubling-legal-experts-sound-off-after-trump-threaten/",
+      "excerpt": "Law Experts Call Trump's Latest Threat Against ABC 'Troubling' | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Celebr…",
+      "source": "https://www.huffpost.com/entry/donald-trump-abc-rant-legal-experts_n_68d560f9e4b0b2f96b451657",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "24-fall-wedding-guest-dresses-you-ll-want-to-wear-again-again-2025-09",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/24-fall-wedding-guest-dresses-you-ll-want-to-wear-again-again-2025-09/",
       "excerpt": "24 Fall Wedding Guest Dresses For Every Dress Code Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings togethe…",
       "source": "https://www.refinery29.com/en-us/fall-wedding-guest-dresses?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "17-unique-advent-calendars-you-ll-want-to-gift-everyone-yourself-2025",
+      "date": "2025-09-25",
+      "published_at": "2025-09-25T00:00:00Z",
+      "created_at": "2025-09-25T00:00:00Z",
+      "title": "17 Unique Advent Calendars You’ll Want To Gift Everyone (& Yourself)",
+      "cover": "https://www.refinery29.com/images/11935364.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/17-unique-advent-calendars-you-ll-want-to-gift-everyone-yourself-2025/",
+      "excerpt": "Best Unique Christmas Advent Calendars 2025 Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together beaut…",
+      "source": "https://www.refinery29.com/en-us/unique-advent-calendars?utm_source=feed&utm_medium=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -241,10 +265,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
+  "count": 22,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 20,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

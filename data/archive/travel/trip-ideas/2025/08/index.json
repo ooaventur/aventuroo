@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "how-to-explore-ludington-michigan-2025-08-26",
+      "date": "2025-08-26",
+      "published_at": "2025-08-26T00:00:00Z",
+      "created_at": "2025-08-26T00:00:00Z",
+      "title": "How to Explore Ludington, Michigan",
+      "cover": "https://www.nomadicmatt.com/wp-content/uploads/2025/08/ludington1.png",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/how-to-explore-ludington-michigan-2025-08-26/",
+      "excerpt": "How to Explore Ludington, Michigan Skip to content Advertiser Disclosure Facebook Instagram Threads TikTok Search for: Search About Blog Expand Latest Posts Taking a Historical Walk Through Paris with Context Travel Beyond the Beaten Path: Spain’s Hidden Villages and Untamed L…",
+      "source": "https://www.nomadicmatt.com/travel-blogs/ludington-mi-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "crying-over-baklava-an-afternoon-in-a-stranger-s-cave-home-in-turkey-2",
       "date": "2025-08-21",
       "published_at": "2025-08-21T00:00:00Z",
@@ -85,10 +97,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 7,
-  "updated_at": "2025-08-21",
+  "count": 8,
+  "updated_at": "2025-08-26",
   "pagination": {
-    "total_items": 7,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

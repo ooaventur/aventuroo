@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "a-merry-and-rambunctious-twelfth-night-in-central-park-2025-08-22",
+      "date": "2025-08-22",
+      "published_at": "2025-08-22T00:00:00Z",
+      "created_at": "2025-08-22T00:00:00Z",
+      "title": "A Merry and Rambunctious “Twelfth Night” in Central Park",
+      "cover": "https://media.newyorker.com/photos/68a4d78c5e9b13bcafd2685a/master/pass/r47404.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-merry-and-rambunctious-twelfth-night-in-central-park-2025-08-22/",
+      "excerpt": "A Merry and Rambunctious “Twelfth Night” in Central Park | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Me…",
+      "source": "https://www.newyorker.com/magazine/2025/09/01/twelfth-night-theatre-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-season-of-unease-at-the-edinburgh-festival-2025-08-17",
+      "date": "2025-08-17",
+      "published_at": "2025-08-17T00:00:00Z",
+      "created_at": "2025-08-17T00:00:00Z",
+      "title": "A Season of Unease at the Edinburgh Festival",
+      "cover": "https://media.newyorker.com/photos/689e4e14f24ff3960235a94f/master/pass/SHAW---EDINBURGH_Make-It-Happen-Production-Photography---Photo-credit-Marc-Brenner-09.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-season-of-unease-at-the-edinburgh-festival-2025-08-17/",
+      "excerpt": "A Season of Unease at the Edinburgh Festival | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The …",
+      "source": "https://www.newyorker.com/culture/the-theatre/a-season-of-unease-at-the-edinburgh-festival",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "and-just-like-that-carrie-bradshaw-bids-an-unsatisfying-farewell-2025",
       "date": "2025-08-15",
       "published_at": "2025-08-15T00:00:00Z",
@@ -13,10 +37,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 1,
-  "updated_at": "2025-08-15",
+  "count": 3,
+  "updated_at": "2025-08-22",
   "pagination": {
-    "total_items": 1,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }
