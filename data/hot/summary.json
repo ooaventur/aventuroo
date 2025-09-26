@@ -153,8 +153,8 @@
     },
     {
       "parent": "food-drink",
-      "items": 251,
-      "pages": 21,
+      "items": 263,
+      "pages": 22,
       "children": [
         {
           "child": "drink",
@@ -167,6 +167,12 @@
           "slug": "food-drink/food",
           "items": 39,
           "pages": 4
+        },
+        {
+          "child": "guides",
+          "slug": "food-drink/guides",
+          "items": 12,
+          "pages": 1
         },
         {
           "child": "general",
