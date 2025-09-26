@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 4133,
+  "total_items": 4195,
   "parents": [
     {
       "parent": "business-finance",
@@ -351,6 +351,55 @@
           "slug": "travel/trip-ideas",
           "items": 39,
           "pages": 4
+        }
+      ]
+    },
+    {
+      "parent": "shopping",
+      "items": 62,
+      "pages": 6,
+      "children": [
+        {
+          "child": "general",
+          "slug": "shopping/general",
+          "items": 12,
+          "pages": 1
+        },
+        {
+          "child": "marketplaces",
+          "slug": "shopping/marketplaces",
+          "items": 8,
+          "pages": 1
+        },
+        {
+          "child": "multi-merchant",
+          "slug": "shopping/multi-merchant",
+          "items": 8,
+          "pages": 1
+        },
+        {
+          "child": "subscriptions",
+          "slug": "shopping/subscriptions",
+          "items": 9,
+          "pages": 1
+        },
+        {
+          "child": "tech-deals",
+          "slug": "shopping/tech-deals",
+          "items": 9,
+          "pages": 1
+        },
+        {
+          "child": "travel-deals",
+          "slug": "shopping/travel-deals",
+          "items": 10,
+          "pages": 1
+        },
+        {
+          "child": "vpn-security",
+          "slug": "shopping/vpn-security",
+          "items": 6,
+          "pages": 1
         }
       ]
     }

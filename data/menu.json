@@ -275,6 +275,43 @@
       ]
     },
     {
+      "title": "Shopping",
+      "slug": "shopping",
+      "href": "/category.html?cat=shopping",
+      "children": [
+        {
+          "title": "Tech Deals",
+          "slug": "tech-deals",
+          "href": "/category.html?cat=tech-deals"
+        },
+        {
+          "title": "Subscriptions",
+          "slug": "subscriptions",
+          "href": "/category.html?cat=subscriptions"
+        },
+        {
+          "title": "Travel Deals",
+          "slug": "travel-deals",
+          "href": "/category.html?cat=travel-deals"
+        },
+        {
+          "title": "VPN & Security",
+          "slug": "vpn-security",
+          "href": "/category.html?cat=vpn-security"
+        },
+        {
+          "title": "Marketplaces",
+          "slug": "marketplaces",
+          "href": "/category.html?cat=marketplaces"
+        },
+        {
+          "title": "Multi-Merchant",
+          "slug": "multi-merchant",
+          "href": "/category.html?cat=multi-merchant"
+        }
+      ]
+    },
+    {
       "title": "Archive",
       "href": "/archive.html",
       "slug": "archive"
