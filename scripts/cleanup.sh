@@ -184,86 +184,118 @@ while IFS= read -r line || [[ -n "$line" ]]; do
   fi
   target="$(realpath -m "$target")"
 
-  if [[ "$target" == "$REPO_ROOT" ]]; then
-    echo "Duke kapërcyer rrënjën e projektit: $trimmed" >&2
-    continue
+  nullglob_was_set=0
+  if shopt -q nullglob; then
+    nullglob_was_set=1
+  fi
+  dotglob_was_set=0
+  if shopt -q dotglob; then
+    dotglob_was_set=1
   fi
 
-  if [[ "$target" != "$REPO_ROOT" && "${target#$REPO_ROOT/}" == "$target" ]]; then
-    echo "Duke kapërcyer path jashtë projektit: $trimmed" >&2
-    continue
+  shopt -s nullglob dotglob
+  old_ifs=$IFS
+  IFS=$'\n'
+  candidates=( $target )
+  IFS=$old_ifs
+  if (( ${#candidates[@]} == 0 )); then
+    candidates=( "$target" )
+  fi
+  if (( nullglob_was_set == 0 )); then
+    shopt -u nullglob
+  fi
+  if (( dotglob_was_set == 0 )); then
+    shopt -u dotglob
   fi
 
-  skip=false
-  for protected in "${PROTECTED_ABS[@]}"; do
-    if [[ "$target" == "$protected" || "$target" == "$protected"/* ]]; then
-      echo "Duke kapërcyer path te mbrojtur: $trimmed"
-      skip=true
-      break
+  for candidate in "${candidates[@]}"; do
+    candidate_real="$(realpath -m "$candidate")"
+
+    if [[ "$candidate_real" == "$REPO_ROOT" ]]; then
+      echo "Duke kapërcyer rrënjën e projektit: $candidate_real" >&2
+      continue
+    fi
+
+    if [[ "$candidate_real" != "$REPO_ROOT" && "${candidate_real#$REPO_ROOT/}" == "$candidate_real" ]]; then
+      echo "Duke kapërcyer path jashtë projektit: $candidate_real" >&2
+      continue
+    fi
+
+    skip=false
+    for protected in "${PROTECTED_ABS[@]}"; do
+      if [[ "$candidate_real" == "$protected" || "$candidate_real" == "$protected"/* ]]; then
+        display_protected="${candidate_real#$REPO_ROOT/}"
+        if [[ "$display_protected" == "$candidate_real" ]]; then
+          display_protected="$candidate_real"
+        fi
+        echo "Duke kapërcyer path te mbrojtur: $display_protected"
+        skip=true
+        break
+      fi
+    done
+    if [[ "$skip" == true ]]; then
+      continue
+    fi
+
+    display_path="${candidate_real#$REPO_ROOT/}"
+    if [[ "$display_path" == "$candidate_real" ]]; then
+      display_path="$candidate_real"
+    fi
+
+    target_exists=false
+    AGE_OUTPUT=""
+    if [[ -e "$candidate_real" || -L "$candidate_real" ]]; then
+      target_exists=true
+      if (( MIN_AGE_DAYS > 0 )); then
+        if AGE_OUTPUT="$(check_min_age "$candidate_real" "$MIN_AGE_DAYS")"; then
+          AGE_STATUS=0
+        else
+          AGE_STATUS=$?
+        fi
+        if (( AGE_STATUS == 2 )); then
+          echo "Duke kapërcyer (mungon gjate llogaritjes se moshes): $display_path"
+          continue
+        fi
+        if (( AGE_STATUS != 0 )); then
+          age_info="${AGE_OUTPUT#SKIP }"
+          if [[ "$age_info" != "$AGE_OUTPUT" ]]; then
+            echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë, ≈${age_info} ditë): $display_path"
+          else
+            echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë): $display_path"
+          fi
+          continue
+        fi
+      fi
+    fi
+
+    if [[ "$MODE" == "dry-run" ]]; then
+      if [[ "$target_exists" == true ]]; then
+        if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
+          age_info="${AGE_OUTPUT#ALLOW }"
+          echo "[DRY-RUN] Do fshihej (mosha ≈${age_info} ditë): $display_path"
+        else
+          echo "[DRY-RUN] Do fshihej: $display_path"
+        fi
+      else
+        echo "[DRY-RUN] Do fshihej (mungon): $display_path"
+      fi
+    else
+      if [[ "$target_exists" == true ]]; then
+        rm -rf -- "$candidate_real"
+        timestamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+        if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
+          age_info="${AGE_OUTPUT#ALLOW }"
+          echo "[$timestamp] U fshi (mosha ≈${age_info} ditë): $display_path" >> "$LOG_FILE"
+          echo "U fshi (mosha ≈${age_info} ditë): $display_path"
+        else
+          echo "[$timestamp] U fshi: $display_path" >> "$LOG_FILE"
+          echo "U fshi: $display_path"
+        fi
+      else
+        echo "U kapërcye (mungon): $display_path"
+      fi
     fi
   done
-  if [[ "$skip" == true ]]; then
-    continue
-  fi
-
-  display_path="${target#$REPO_ROOT/}"
-  if [[ "$display_path" == "$target" ]]; then
-    display_path="$trimmed"
-  fi
-
-  target_exists=false
-  AGE_OUTPUT=""
-  if [[ -e "$target" || -L "$target" ]]; then
-    target_exists=true
-    if (( MIN_AGE_DAYS > 0 )); then
-      if AGE_OUTPUT="$(check_min_age "$target" "$MIN_AGE_DAYS")"; then
-        AGE_STATUS=0
-      else
-        AGE_STATUS=$?
-      fi
-      if (( AGE_STATUS == 2 )); then
-        echo "Duke kapërcyer (mungon gjate llogaritjes se moshes): $display_path"
-        continue
-      fi
-      if (( AGE_STATUS != 0 )); then
-        age_info="${AGE_OUTPUT#SKIP }"
-        if [[ "$age_info" != "$AGE_OUTPUT" ]]; then
-          echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë, ≈${age_info} ditë): $display_path"
-        else
-          echo "Duke kapërcyer (më i ri se $MIN_AGE_DAYS ditë): $display_path"
-        fi
-        continue
-      fi
-    fi
-  fi
-
-  if [[ "$MODE" == "dry-run" ]]; then
-    if [[ "$target_exists" == true ]]; then
-      if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
-        age_info="${AGE_OUTPUT#ALLOW }"
-        echo "[DRY-RUN] Do fshihej (mosha ≈${age_info} ditë): $display_path"
-      else
-        echo "[DRY-RUN] Do fshihej: $display_path"
-      fi
-    else
-      echo "[DRY-RUN] Do fshihej (mungon): $display_path"
-    fi
-  else
-    if [[ "$target_exists" == true ]]; then
-      rm -rf -- "$target"
-      timestamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-      if (( MIN_AGE_DAYS > 0 )) && [[ -n "$AGE_OUTPUT" ]]; then
-        age_info="${AGE_OUTPUT#ALLOW }"
-        echo "[$timestamp] U fshi (mosha ≈${age_info} ditë): $display_path" >> "$LOG_FILE"
-        echo "U fshi (mosha ≈${age_info} ditë): $display_path"
-      else
-        echo "[$timestamp] U fshi: $display_path" >> "$LOG_FILE"
-        echo "U fshi: $display_path"
-      fi
-    else
-      echo "U kapërcye (mungon): $display_path"
-    fi
-  fi
 
 done < "$ALLOWLIST_FILE"
 
