@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "nikolai-agnivtsev-s-little-screw-1925-2025-04-30",
+      "date": "2025-04-30",
+      "published_at": "2025-04-30T00:00:00Z",
+      "created_at": "2025-04-30T00:00:00Z",
+      "title": "Nikolai Agnivtsev’s Little Screw (1925)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/little-screw/little-screw-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/nikolai-agnivtsev-s-little-screw-1925-2025-04-30/",
+      "excerpt": "Nikolai Agnivtsev’s *Little Screw* (1925) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Books Nikolai Agnivtsev’s Litt…",
+      "source": "https://publicdomainreview.org/collection/little-screw",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "i-am-making-the-world-my-confessor-mary-maclane-the-wild-woman-from-bu",
+      "date": "2025-04-23",
+      "published_at": "2025-04-23T00:00:00Z",
+      "created_at": "2025-04-23T00:00:00Z",
+      "title": "“I Am Making the World My Confessor”: Mary MacLane, the Wild Woman from Butte",
+      "cover": "https://pdr-assets.b-cdn.net/essays/i-am-making-the-world-my-confessor/maclane-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/i-am-making-the-world-my-confessor-mary-maclane-the-wild-woman-from-bu/",
+      "excerpt": "“I Am Making the World My Confessor”: Mary MacLane, the Wild Woman from Butte — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays “…",
+      "source": "https://publicdomainreview.org/essay/i-am-making-the-world-my-confessor",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "confessional-boxes-tiny-cryptic-7-2025-04-23",
+      "date": "2025-04-23",
+      "published_at": "2025-04-23T00:00:00Z",
+      "created_at": "2025-04-23T00:00:00Z",
+      "title": "Confessional Boxes: Tiny Cryptic #7",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/confessional-boxes-tiny-cryptic-7-2025-04-23/",
+      "excerpt": "Confessional Boxes: *Tiny Cryptic #7* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog Confessional Boxes: Tiny Cryptic #7 Publish…",
+      "source": "https://publicdomainreview.org/blog/2025/04/tiny-cryptic-7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "lexington-and-concord-22-hours-and-a-shot-heard-around-the-world-2025",
       "date": "2025-04-18",
       "published_at": "2025-04-18T00:00:00Z",
@@ -25,10 +61,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-04-18",
+  "count": 5,
+  "updated_at": "2025-04-30",
   "pagination": {
-    "total_items": 2,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }

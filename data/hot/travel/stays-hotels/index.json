@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "bwh-hotels-gb-expands-with-eight-member-additions-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "BWH Hotels GB expands with eight member additions",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2022/02/BHN-logo.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/bwh-hotels-gb-expands-with-eight-member-additions-2025-09-26/",
+      "excerpt": "BWH Hotels GB expands with eight member additions Skip to content LATEST NEWS BWH Hotels GB expands with eight member additions CG Developers signs JW Marriott Residences in Dubai Regent Hotels expands global portfolio BWH Hotels GB CEO Tim Rumney Preferred Hotels & Resorts in…",
+      "source": "https://boutiquehotelnews.com/news/industry/bwh-hotels-gb-expands/?utm_source=rss&utm_medium=rss&utm_campaign=bwh-hotels-gb-expands",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "regent-hotels-expands-global-portfolio-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -241,10 +253,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-09-25",
+  "count": 21,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 20,
+    "total_items": 21,
     "per_page": 12,
     "total_pages": 2
   }

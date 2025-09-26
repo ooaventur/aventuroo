@@ -409,6 +409,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "scientists-discover-microplastics-deep-inside-human-bones-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Scientists discover microplastics deep inside human bones",
+      "cover": "https://www.sciencedaily.com/images/1920/microplastics-test-tube-science.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-discover-microplastics-deep-inside-human-bones-2025-09-19/",
+      "excerpt": "Scientists discover microplastics deep inside human bones | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizatio…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250918225014.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "could-plastic-in-your-food-be-fueling-azheimer-s-2025-09-19",
+      "date": "2025-09-19",
+      "published_at": "2025-09-19T00:00:00Z",
+      "created_at": "2025-09-19T00:00:00Z",
+      "title": "Could plastic in your food be fueling Azheimer’s?",
+      "cover": "https://www.sciencedaily.com/images/1920/eating-food-from-styrofoam-takeout-box.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/could-plastic-in-your-food-be-fueling-azheimer-s-2025-09-19/",
+      "excerpt": "Could plastic in your food be fueling Azheimer’s? | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Could…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250917221010.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "alcohol-s-hidden-shortcut-lets-gut-bacteria-wreck-the-liver-2025-09-19",
       "date": "2025-09-19",
       "published_at": "2025-09-19T00:00:00Z",
@@ -419,13 +443,49 @@
       "excerpt": "Alcohol’s hidden shortcut lets gut bacteria wreck the liver | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250918225018.htm",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-hidden-group-that-loses-covid-protection-fast-2025-09-18",
+      "date": "2025-09-18",
+      "published_at": "2025-09-18T00:00:00Z",
+      "created_at": "2025-09-18T00:00:00Z",
+      "title": "The hidden group that loses COVID protection fast",
+      "cover": "https://www.sciencedaily.com/images/1920/tracking-covid-19-vaccine-responses.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/the-hidden-group-that-loses-covid-protection-fast-2025-09-18/",
+      "excerpt": "The hidden group that loses COVID protection fast | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations The h…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250917221001.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-build-micromotors-smaller-than-a-human-hair-2025-09-18",
+      "date": "2025-09-18",
+      "published_at": "2025-09-18T00:00:00Z",
+      "created_at": "2025-09-18T00:00:00Z",
+      "title": "Scientists build micromotors smaller than a human hair",
+      "cover": "https://www.sciencedaily.com/images/1920/four-microgears.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-build-micromotors-smaller-than-a-human-hair-2025-09-18/",
+      "excerpt": "Scientists build micromotors smaller than a human hair | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250918025025.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "doctors-warn-of-a-stealth-opioid-20x-more-potent-than-fentanyl-2025-09",
+      "date": "2025-09-18",
+      "published_at": "2025-09-18T00:00:00Z",
+      "created_at": "2025-09-18T00:00:00Z",
+      "title": "Doctors warn of a stealth opioid 20x more potent than fentanyl",
+      "cover": "https://www.sciencedaily.com/images/1920/drug-addiction-opioid-pills.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/doctors-warn-of-a-stealth-opioid-20x-more-potent-than-fentanyl-2025-09/",
+      "excerpt": "Doctors warn of a stealth opioid 20x more potent than fentanyl | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organi…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250917221004.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
+  "count": 40,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 35,
+    "total_items": 40,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

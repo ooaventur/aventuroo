@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "what-investors-need-to-know-about-financial-advisor-fees-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "What investors need to know about financial advisor fees",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202322-1758566010204-gettyimages-2194833932-_hwx4315.jpeg?v=1758566036&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/what-investors-need-to-know-about-financial-advisor-fees-2025-09-26/",
+      "excerpt": "How financial advisors make money Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth Sports Life…",
+      "source": "https://www.cnbc.com/2025/09/26/how-financial-advisors-make-money.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ticketmaster-finds-itself-in-federal-crosshairs-again-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Ticketmaster Finds Itself in Federal Crosshairs Again",
+      "cover": "https://www.nerdwallet.com/assets/img/nw-logos/NW-default_og-image.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/ticketmaster-finds-itself-in-federal-crosshairs-again-2025-09-26/",
+      "excerpt": "Ticketmaster Finds Itself in Federal Crosshairs Again - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit c…",
+      "source": "https://www.nerdwallet.com/article/finance/ticketmaster-sued-by-ftc",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-avoid-getting-overcharged-for-live-events-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "How to Avoid Getting Overcharged for Live Events",
+      "cover": "https://www.nerdwallet.com/tachyon/2025/09/GettyImages-2236505950.jpg?resize=1440%2C864",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-to-avoid-getting-overcharged-for-live-events-2025-09-26/",
+      "excerpt": "How to Avoid Getting Overcharged for Live Events - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards …",
+      "source": "https://www.nerdwallet.com/article/finance/avoid-event-ticket-fees",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-are-no-kyc-crypto-exchanges-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -553,11 +589,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
-  "updated_at": "2025-09-25",
+  "count": 49,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 46,
+    "total_items": 49,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

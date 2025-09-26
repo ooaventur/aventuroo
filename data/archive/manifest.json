@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-26",
   "per_page": 12,
-  "total_items": 452,
+  "total_items": 481,
   "shards": [
     {
       "parent": "business-finance",
@@ -102,8 +102,8 @@
       "month": 6,
       "path": "culture-arts/columns-essays/2025/06/index.json",
       "path_gz": "culture-arts/columns-essays/2025/06/index.json.gz",
-      "items": 2,
-      "first_date": "2025-06-26",
+      "items": 7,
+      "first_date": "2025-06-13",
       "last_date": "2025-06-30",
       "pages": 1
     },
@@ -336,9 +336,9 @@
       "month": 4,
       "path": "entertainment/history-essays/2025/04/index.json",
       "path_gz": "entertainment/history-essays/2025/04/index.json.gz",
-      "items": 2,
+      "items": 5,
       "first_date": "2025-04-09",
-      "last_date": "2025-04-18",
+      "last_date": "2025-04-30",
       "pages": 1
     },
     {
@@ -349,10 +349,10 @@
       "month": 5,
       "path": "entertainment/history-essays/2025/05/index.json",
       "path_gz": "entertainment/history-essays/2025/05/index.json.gz",
-      "items": 12,
-      "first_date": "2025-05-07",
+      "items": 14,
+      "first_date": "2025-05-06",
       "last_date": "2025-05-28",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "entertainment",
@@ -411,11 +411,37 @@
       "child": "drink",
       "slug": "food-drink/drink",
       "year": 2024,
+      "month": 4,
+      "path": "food-drink/drink/2024/04/index.json",
+      "path_gz": "food-drink/drink/2024/04/index.json.gz",
+      "items": 1,
+      "first_date": "2024-04-24",
+      "last_date": "2024-04-24",
+      "pages": 1
+    },
+    {
+      "parent": "food-drink",
+      "child": "drink",
+      "slug": "food-drink/drink",
+      "year": 2024,
+      "month": 5,
+      "path": "food-drink/drink/2024/05/index.json",
+      "path_gz": "food-drink/drink/2024/05/index.json.gz",
+      "items": 3,
+      "first_date": "2024-05-09",
+      "last_date": "2024-05-24",
+      "pages": 1
+    },
+    {
+      "parent": "food-drink",
+      "child": "drink",
+      "slug": "food-drink/drink",
+      "year": 2024,
       "month": 6,
       "path": "food-drink/drink/2024/06/index.json",
       "path_gz": "food-drink/drink/2024/06/index.json.gz",
-      "items": 2,
-      "first_date": "2024-06-12",
+      "items": 3,
+      "first_date": "2024-06-03",
       "last_date": "2024-06-24",
       "pages": 1
     },
@@ -1061,6 +1087,19 @@
       "child": "destinations",
       "slug": "travel/destinations",
       "year": 2025,
+      "month": 6,
+      "path": "travel/destinations/2025/06/index.json",
+      "path_gz": "travel/destinations/2025/06/index.json.gz",
+      "items": 5,
+      "first_date": "2025-06-18",
+      "last_date": "2025-06-28",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "destinations",
+      "slug": "travel/destinations",
+      "year": 2025,
       "month": 7,
       "path": "travel/destinations/2025/07/index.json",
       "path_gz": "travel/destinations/2025/07/index.json.gz",
@@ -1158,6 +1197,19 @@
       "items": 1,
       "first_date": "2024-12-03",
       "last_date": "2024-12-03",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2025,
+      "month": 1,
+      "path": "travel/experiences/2025/01/index.json",
+      "path_gz": "travel/experiences/2025/01/index.json.gz",
+      "items": 5,
+      "first_date": "2025-01-24",
+      "last_date": "2025-01-28",
       "pages": 1
     },
     {
@@ -1415,9 +1467,9 @@
       "month": 1,
       "path": "travel/trip-ideas/2025/01/index.json",
       "path_gz": "travel/trip-ideas/2025/01/index.json.gz",
-      "items": 1,
+      "items": 5,
       "first_date": "2025-01-22",
-      "last_date": "2025-01-22",
+      "last_date": "2025-01-29",
       "pages": 1
     },
     {

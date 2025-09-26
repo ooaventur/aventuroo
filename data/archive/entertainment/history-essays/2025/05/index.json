@@ -143,13 +143,37 @@
       "excerpt": "The Practical Ostrich Feather Dyer (1888), a text interleaved with richly colored specimens.\" data-gatsby-head=\"true\"/> As Bright as a Feather: Ostriches, Home Dyeing, and the Global Plume Trade — The Public Domain Review Home Essays Collections Explore Shop Support PDR About …",
       "source": "https://publicdomainreview.org/essay/bright-as-a-feather",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-popeless-situation-now-and-then-2-2025-05-07",
+      "date": "2025-05-07",
+      "published_at": "2025-05-07T00:00:00Z",
+      "created_at": "2025-05-07T00:00:00Z",
+      "title": "A Popeless Situation: Now and Then #2",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/papal-duo.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/a-popeless-situation-now-and-then-2-2025-05-07/",
+      "excerpt": "A Popeless Situation: *Now and Then #2* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog A Popeless Situation: Now and Then #2 Pub…",
+      "source": "https://publicdomainreview.org/blog/2025/05/now-and-then-2",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tangled-d-rer-the-six-knots-ca-before-1521-2025-05-06",
+      "date": "2025-05-06",
+      "published_at": "2025-05-06T00:00:00Z",
+      "created_at": "2025-05-06T00:00:00Z",
+      "title": "Tangled Dürer: The Six Knots (ca. before 1521)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/durer-knots/durer-knot-DP816466-edit-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/tangled-d-rer-the-six-knots-ca-before-1521-2025-05-06/",
+      "excerpt": "Tangled Dürer: The Six Knots (ca. before 1521) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Images Tangled Dürer: The…",
+      "source": "https://publicdomainreview.org/collection/durer-knots",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 12,
+  "count": 14,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 12,
+    "total_items": 14,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

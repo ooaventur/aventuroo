@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-secret-apartment-atop-the-eiffel-tower-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "The Secret Apartment Atop the Eiffel Tower",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/08/GettyImages-526614482-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/the-secret-apartment-atop-the-eiffel-tower-2025-09-26/",
+      "excerpt": "The Secret Apartment Atop the Eiffel Tower Price Database 26 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics Hidden Buy Browse Artists Artnet Auctio…",
+      "source": "https://news.artnet.com/art-world/art-bites-secret-apartment-eiffel-tower-2667892",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "janet-echelman-suspends-lightweight-woven-installation-within-the-mit",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -10,6 +22,42 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/arts/janet-echelman-suspends-lightweight-woven-installation-within-the-mit/",
       "excerpt": "janet echelman suspends woven artwork within the MIT museum home > art > janet echelman suspends lightweight, woven installation within the MIT museum art magazine architecture video art topics design interviews technology readers submissions & listings competitions courses de…",
       "source": "https://www.designboom.com/art/janet-echelman-lightweight-woven-installation-mit-museum-remembering-future-09-26-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gallerist-vanessa-guo-is-focusing-on-relationships-over-rosters-here-s",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Gallerist Vanessa Guo Is Focusing on Relationships Over Rosters. Here’s Why",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/Vanessa-Guo-Potrait-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/gallerist-vanessa-guo-is-focusing-on-relationships-over-rosters-here-s/",
+      "excerpt": "Gallerist Vanessa Guo Is Focusing on Relationships Over Rosters. Here’s Why Price Database 26 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics Hidden…",
+      "source": "https://news.artnet.com/art-world/vanessa-guo-galerie-marguo-2691235",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "art-cologne-is-launching-a-mallorca-outpost-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Art Cologne Is Launching a Mallorca Outpost",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/Art-Cologne-Palma-Mallorca.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/art-cologne-is-launching-a-mallorca-outpost-2025-09-26/",
+      "excerpt": "Art Cologne Is Launching a Mallorca Outpost Price Database 26 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics Hidden Buy Browse Artists Artnet Aucti…",
+      "source": "https://news.artnet.com/market/art-cologne-mallorca-2693003",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "acciona-living-culture-brings-art-masterpieces-to-life-with-interactiv",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "ACCIONA living & culture brings art masterpieces to life with interactive VR museum tour",
+      "cover": "https://www.designboom.com/wp-content/uploads/2025/09/acciona-living-culture-art-masters-VR-museum-tour-designboom-700-500x400-22b08q85r802.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/acciona-living-culture-brings-art-masterpieces-to-life-with-interactiv/",
+      "excerpt": "ACCIONA brings art masterpieces to life with VR museum tour home > art > ACCIONA living & culture brings art masterpieces to life with interactive VR museum tour art magazine architecture video art topics design interviews technology readers submissions & listings competitions…",
+      "source": "https://www.designboom.com/art/acciona-living-culture-brings-art-masterpieces-life-interactive-virtual-reality-vr-museum-tour-09-26-2025/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1129,11 +1177,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 94,
+  "count": 98,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 94,
+    "total_items": 98,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

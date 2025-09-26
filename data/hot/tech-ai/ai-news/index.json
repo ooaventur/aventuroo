@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "sakana-ai-released-shinkaevolve-an-open-source-framework-that-evolves",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Sakana AI Released ShinkaEvolve: An Open-Source Framework that Evolves Programs for Scientific Discovery with Unprecedented Sample-Efficiency",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-99.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/sakana-ai-released-shinkaevolve-an-open-source-framework-that-evolves/",
+      "excerpt": "Sakana AI Released ShinkaEvolve: An Open-Source Framework that Evolves Programs for Scientific Discovery with Unprecedented Sample-Efficiency - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsor…",
+      "source": "https://www.marktechpost.com/2025/09/26/sakana-ai-released-shinkaevolve-an-open-source-framework-that-evolves-programs-for-scientific-discovery-with-unprecedented-sample-efficiency/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-ai-ships-a-model-context-protocol-mcp-server-for-data-commons-g",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Google AI Ships a Model Context Protocol (MCP) Server for Data Commons, Giving AI Agents First-Class Access to Public Stats",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-98.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-ai-ships-a-model-context-protocol-mcp-server-for-data-commons-g/",
+      "excerpt": "Google AI Ships a Model Context Protocol (MCP) Server for Data Commons, Giving AI Agents First-Class Access to Public Stats - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News H…",
+      "source": "https://www.marktechpost.com/2025/09/26/google-ai-ships-a-model-context-protocol-mcp-server-for-data-commons-giving-ai-agents-first-class-access-to-public-stats/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vision-rag-vs-text-rag-a-technical-comparison-for-enterprise-search-20",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -169,10 +193,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 14,
-  "updated_at": "2025-09-25",
+  "count": 16,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 14,
+    "total_items": 16,
     "per_page": 12,
     "total_pages": 2
   }

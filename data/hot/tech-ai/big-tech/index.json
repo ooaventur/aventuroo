@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "nvidia-s-100-billion-openai-deal-showcases-chipmaker-s-growing-investm",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Nvidia's $100 billion OpenAI deal showcases chipmaker's growing investment portfolio",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202499-17585856722025-07-23t220158z_1400367285_rc2lsfae8ca3_rtrmadp_0_usa-trump-ai.jpeg?v=1758585693&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/nvidia-s-100-billion-openai-deal-showcases-chipmaker-s-growing-investm/",
+      "excerpt": "Nvidia's $100 billion OpenAI deal showcases its investment portfolio Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/09/26/nvidias-investment-portfolio.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-google-shifted-from-a-bastion-of-accurate-information-to-a-steward",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "How Google shifted from a bastion of accurate information to a steward of free expression",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108198798-17579466992025-02-11t084341z_1641640951_rc28scafuh29_rtrmadp_0_ai-summit.jpeg?v=1757946732&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/how-google-shifted-from-a-bastion-of-accurate-information-to-a-steward/",
+      "excerpt": "How Google abandoned facts for 'free expression' Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wea…",
+      "source": "https://www.cnbc.com/2025/09/26/how-google-abandoned-facts-for-free-expression.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chinese-driverless-tech-startup-momenta-is-raising-funds-at-a-roughly",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Chinese driverless tech startup Momenta is raising funds at a roughly $6 billion valuation",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108204383-1758884184239-Momenta_Ai.jpg?v=1758884342&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/chinese-driverless-tech-startup-momenta-is-raising-funds-at-a-roughly/",
+      "excerpt": "Chinese driverless firm Momenta raising funds at $6 billion valuation Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/09/26/chinese-driverless-firm-momenta-raising-funds-at-6-billion-valuation.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-stays-conspicuously-quiet-after-trump-s-tiktok-deal-declaration",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "China stays conspicuously quiet after Trump’s TikTok deal declaration",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108203565-17587481192025-09-24t204041z_1339614561_rc2kygan3w7j_rtrmadp_0_usa-trump-tiktok.jpeg?v=1758748141&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/china-stays-conspicuously-quiet-after-trump-s-tiktok-deal-declaration/",
+      "excerpt": "China stays conspicuously quiet after Trump’s TikTok deal declaration Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/09/26/china-stays-conspicuously-quiet-after-trumps-tiktok-deal-declaration-.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-s-xiaomi-is-planning-a-next-gen-phone-chip-but-won-t-release-one",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "China's Xiaomi is planning a next-gen phone chip, but won't release one yearly like Apple",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108147337-1747657077815-gettyimages-2215823497-vcg111568406637.jpeg?v=1758878098&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/china-s-xiaomi-is-planning-a-next-gen-phone-chip-but-won-t-release-one/",
+      "excerpt": "Xiaomi planning next generation smartphone chip Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Weal…",
+      "source": "https://www.cnbc.com/2025/09/26/xiaomi-planning-next-generation-smartphone-chip.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-approves-tiktok-deal-through-executive-order-vance-says-business",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -361,10 +421,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-09-25",
+  "count": 35,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 30,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

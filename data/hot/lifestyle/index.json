@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-funniest-posts-from-women-this-week-sept-20-26-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "The Funniest Posts From Women This Week (Sept. 20-26)",
+      "cover": "https://img.huffingtonpost.com/asset/68d57f8a140000ac015c60ad.jpg?cache=re9cz85Aw7&amp;ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/the-funniest-posts-from-women-this-week-sept-20-26-2025-09-26/",
+      "excerpt": "The Funniest Posts From Women This Week (Sept. 20-26) | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Celebrity TV & …",
+      "source": "https://www.huffpost.com/entry/funniest-women-social-media-posts-2025-09-20_n_68d2c363e4b02b5b9fb31526",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "extraordinarily-troubling-legal-experts-sound-off-after-trump-threaten",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -265,10 +277,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-09-25",
+  "count": 23,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 22,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }
