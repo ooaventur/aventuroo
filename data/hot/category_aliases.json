@@ -4,6 +4,7 @@
     "lifestyle/index": "lifestyle/general",
     "crypto/index": "crypto/general",
     "index/index": "index/general",
-    "food-drink/food-drink": "food-drink/general"
+    "food-drink/food-drink": "food-drink/general",
+    "trailers/index": "entertainment/trailers-latest"
   }
 }
