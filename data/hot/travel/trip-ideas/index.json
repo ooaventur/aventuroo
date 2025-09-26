@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "museo-etnogr-fico-del-silo-in-villaca-as-spain-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Museo Etnográfico del Silo in Villacañas, Spain",
+      "cover": "https://img.atlasobscura.com/by5jVSQznLIhfvrKtXN1m2_wEcr3VHwbv98uTDnYAWc/rt:fit/w:600/c:3752:2501:nowe:411:1090/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xNjk0/NjdiOC02Y2U2LTRh/NjktYjNkOC02MGQx/ZWYyMjY5MjA5ZWVl/OWEwY2U1YzhjMzZj/MzZfSU1HXzQ2NzQu/anBlZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/museo-etnogr-fico-del-silo-in-villaca-as-spain-2025-09-26/",
+      "excerpt": "Museo Etnográfico del Silo - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-…",
+      "source": "https://www.atlasobscura.com/places/museo-municipal-etnografico-de-villacanas",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "howard-tunnel-in-seven-valleys-pennsylvania-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Howard Tunnel in Seven Valleys, Pennsylvania",
+      "cover": "https://img.atlasobscura.com/qWYXokTgxEtQxt1FP8cfsexeQ0UKwmiqWic7d-iMBIM/rt:fit/w:600/c:1821:1214:nowe:910:512/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xNjM2/YzE4Mi1iMmI5LTRm/ZjgtOWUzMS1lYjIx/ZDM1MjljMTRmMDA3/ZjI4NWE4YmY2NDUz/OWRfSG93YXJkVHVu/bmVsMS5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/howard-tunnel-in-seven-valleys-pennsylvania-2025-09-26/",
+      "excerpt": "Howard Tunnel - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon--nav…",
+      "source": "https://www.atlasobscura.com/places/howard-tunnel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "harvesting-the-heirloom-corn-that-nourishes-the-oneida-nation-2025-09",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -445,10 +469,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
+  "count": 39,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 37,
+    "total_items": 39,
     "per_page": 12,
     "total_pages": 4
   }

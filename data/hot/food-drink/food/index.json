@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-first-north-america-s-50-best-restaurants-list-is-revealed-2025-09",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "The First North America's 50 Best Restaurants List Is Revealed",
+      "cover": "https://assets.bonappetit.com/photos/68d6a18c4a38b52ab0b48b2b/master/pass/NA50BR25-No.1-shot_high-res-2.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-first-north-america-s-50-best-restaurants-list-is-revealed-2025-09/",
+      "excerpt": "The First North America's 50 Best Restaurants List Is Revealed | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Sea…",
+      "source": "https://www.bonappetit.com/story/north-america-50-best-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "sitting-at-the-bar-is-the-newest-and-oldest-dating-trend-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Sitting at the Bar Is the Newest (and Oldest?) Dating Trend",
+      "cover": "https://assets.bonappetit.com/photos/68d581b24a38b52ab0b48aaf/master/pass/DEEP-DISH_0925_BAR.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/sitting-at-the-bar-is-the-newest-and-oldest-dating-trend-2025-09-26/",
+      "excerpt": "Sitting at the Bar Is the Newest (and Oldest?) Dating Trend | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search…",
+      "source": "https://www.bonappetit.com/story/sit-at-the-bar-september",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-the-new-york-liberty-s-mascot-ellie-the-elephant-gets-ready-on-gam",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "How The New York Liberty's Mascot, Ellie the Elephant, Gets Ready on Game Day",
+      "cover": "https://assets.bonappetit.com/photos/68d43fa042bc54e28b5acf3c/master/pass/LannaApisukh_Eliie_BonAppetit_HIRES-7221.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/how-the-new-york-liberty-s-mascot-ellie-the-elephant-gets-ready-on-gam/",
+      "excerpt": "How The New York Liberty's Mascot, Ellie the Elephant, Gets Ready on Game Day | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigatio…",
+      "source": "https://www.bonappetit.com/story/new-york-liberty-mascot-ellie-elephant",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "caramelized-shallots-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -433,11 +469,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 36,
-  "updated_at": "2025-09-25",
+  "count": 39,
+  "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 36,
+    "total_items": 39,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }
