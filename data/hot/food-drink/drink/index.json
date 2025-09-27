@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "insider-s-week-in-beer-next-round-is-on-the-chimpanzees-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Insider’s Week in Beer: 🙉 Next Round is on the Chimpanzees",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/insider-s-week-in-beer-next-round-is-on-the-chimpanzees-2025-09-27/",
+      "excerpt": "Daily Briefing Log In to Read the Full Newsletter Log in to your Insider account to view the full newsletter. If you’re not an Insider, continue to the free version. View Free Version Log In",
+      "source": "https://newsletter.bevnet.com/subscriber/14697ca6871c42c6bf853504089c5d3b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wild-idol-value-sales-up-113-this-summer-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -1717,10 +1729,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 143,
-  "updated_at": "2025-09-26",
+  "count": 144,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 143,
+    "total_items": 144,
     "per_page": 12,
     "total_pages": 12
   }

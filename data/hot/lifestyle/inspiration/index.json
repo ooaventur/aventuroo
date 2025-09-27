@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-truth-about-job-hopping-learn-if-it-s-helping-or-hurting-your-care",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "The Truth About Job Hopping: Learn If It’s Helping Or Hurting Your Career",
+      "cover": "https://www.success.com/wp-content/uploads/legacy/sites/default/files/main/articles/Reasons%20Why%20Job%20Hopping%20Is%20OK.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-truth-about-job-hopping-learn-if-it-s-helping-or-hurting-your-care/",
+      "excerpt": "The Truth About Job Hopping (Pros & Cons) | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUCCES…",
+      "source": "https://www.success.com/6-reasons-why-job-hopping-is-ok/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-range-of-motion-project-restores-mobility-and-dignity-to-amputees",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -46,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-grow-a-small-business-8-tips-and-resources-to-start-scaling-202/",
       "excerpt": "8 Tips on How to Grow a Small Business | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUCCESS+ …",
       "source": "https://www.success.com/tips-and-resources-to-scale-your-small-business/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "7-email-management-tips-to-stop-inbox-overload-and-stay-focused-2025-0",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "7 Email Management Tips to Stop Inbox Overload and Stay Focused",
+      "cover": "https://www.success.com/wp-content/uploads/2023/01/Email-Management-Tips-for-a-Clutter-Free-Inbox-PaeGAG-Shutterstock-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/7-email-management-tips-to-stop-inbox-overload-and-stay-focused-2025-0/",
+      "excerpt": "7 Email Management Tips to Rescue Your Inbox | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUC…",
+      "source": "https://www.success.com/email-management-tips/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -601,10 +625,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 50,
+  "count": 52,
   "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 50,
+    "total_items": 52,
     "per_page": 12,
     "total_pages": 5
   }
