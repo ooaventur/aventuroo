@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "volvo-employee-ssns-stolen-in-supplier-ransomware-attack-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Volvo Employee SSNs Stolen in Supplier Ransomware Attack",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3469a00cd75eaafe/68d6df00615dc380b562df70/Volvo-Heidi_Besen-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/volvo-employee-ssns-stolen-in-supplier-ransomware-attack-2025-09-26/",
+      "excerpt": "Three international vehicle manufacturers have fallen to supply chain cyberattacks in the past month alone.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/volvo-employee-ssns-stolen-ransomware-attack",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-investors-to-take-over-tiktok-operations-in-the-country-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-shares-temp-fix-for-outlook-encrypted-email-errors-2025-09-2/",
       "excerpt": "Microsoft shares temp fix for Outlook encrypted email errors News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend s…",
       "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temp-fix-for-outlook-encrypted-email-errors/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-s-new-ai-feature-will-organize-your-photos-automatically-202",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Microsoft’s new AI feature will organize your photos automatically",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/09/26/AI_Photos.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-s-new-ai-feature-will-organize-your-photos-automatically-202/",
+      "excerpt": "Microsoft’s new AI feature will organize your photos automatically News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to sus…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsofts-new-ai-feature-will-organize-your-photos-automatically/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -889,6 +913,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "innovative-filefix-phishing-attack-proves-plenty-potent-2025-09-16",
+      "date": "2025-09-16",
+      "published_at": "2025-09-16T00:00:00Z",
+      "created_at": "2025-09-16T00:00:00Z",
+      "title": "Innovative FileFix Phishing Attack Proves Plenty Potent",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc954dc73cf2b1c4/68c46ee8d2b80d658c49eb9b/File_Explorer-Alina_Vytiuk-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/innovative-filefix-phishing-attack-proves-plenty-potent-2025-09-16/",
+      "excerpt": "Highly deceptive FileFix uses code obfuscation and steganography and has been translated into at least 16 languages to power a global campaign.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/innovative-filefix-attack-potent",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "emerging-yurei-ransomware-claims-first-victims-2025-09-16",
+      "date": "2025-09-16",
+      "published_at": "2025-09-16T00:00:00Z",
+      "created_at": "2025-09-16T00:00:00Z",
+      "title": "Emerging Yurei Ransomware Claims First Victims",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt31d44096d41b9223/68c9763917033c421457742f/yurei-Science_History_Images-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/emerging-yurei-ransomware-claims-first-victims-2025-09-16/",
+      "excerpt": "The cybercrime group, named after Japanese ghosts but believed to be from Morocco, uses a modified version of the Prince-Ransomware binary that includes a flaw allowing for partial data recovery. However, an extortion threat remains.",
+      "source": "https://www.darkreading.com/threat-intelligence/emerging-yurei-ransomware-claims-first-victims",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16",
       "date": "2025-09-16",
       "published_at": "2025-09-16T00:00:00Z",
@@ -898,6 +946,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/critical-bugs-in-chaos-mesh-enable-cluster-takeover-2025-09-16/",
       "excerpt": "&quot;Chaotic Deputy&quot; is a set of four vulnerabilities in the chaos engineering platform that many organizations use to test the resilience of their Kubernetes environments.",
       "source": "https://www.darkreading.com/cyber-risk/critical-bugs-chaos-mesh-cluster-takeover",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-m",
+      "date": "2025-09-15",
+      "published_at": "2025-09-15T00:00:00Z",
+      "created_at": "2025-09-15T00:00:00Z",
+      "title": "SecurityScorecard Buys AI Automation Capabilities, Boosts Vendor Risk Management",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte32ef2932d7a4117/66a95345fd20b827be022197/survey(1800)_Yuri_Arcurs_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-m/",
+      "excerpt": "The company acquired HyperComply to help enterprises automate vendor security reviews and gain a real-time picture of the security of their entire supply chain.",
+      "source": "https://www.darkreading.com/cyber-risk/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hybridpetya-ransomware-bypasses-secure-boot-2025-09-15",
+      "date": "2025-09-15",
+      "published_at": "2025-09-15T00:00:00Z",
+      "created_at": "2025-09-15T00:00:00Z",
+      "title": "'HybridPetya' Ransomware Bypasses Secure Boot",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt61aad7e539d55a69/68c87fe124c78db4d305bbbc/bootkit_WhataWin_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hybridpetya-ransomware-bypasses-secure-boot-2025-09-15/",
+      "excerpt": "The malware, which has traits of Petya ransomware and the infamous NotPetya wiper, is designed to target UEFI-based systems, according to researchers.",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/hybridpetya-ransomware-bypasses-secure-boot",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -973,11 +1045,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 81,
+  "count": 87,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 81,
+    "total_items": 87,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-08-26",
+  "generated_at": "2025-08-27",
   "per_page": 12,
-  "total_items": 505,
+  "total_items": 532,
   "shards": [
     {
       "parent": "business-finance",
@@ -102,8 +102,8 @@
       "month": 5,
       "path": "culture-arts/columns-essays/2025/05/index.json",
       "path_gz": "culture-arts/columns-essays/2025/05/index.json.gz",
-      "items": 2,
-      "first_date": "2025-05-22",
+      "items": 5,
+      "first_date": "2025-05-20",
       "last_date": "2025-05-28",
       "pages": 1
     },
@@ -336,7 +336,7 @@
       "month": 3,
       "path": "entertainment/history-essays/2025/03/index.json",
       "path_gz": "entertainment/history-essays/2025/03/index.json.gz",
-      "items": 4,
+      "items": 6,
       "first_date": "2025-03-05",
       "last_date": "2025-03-26",
       "pages": 1
@@ -349,10 +349,10 @@
       "month": 4,
       "path": "entertainment/history-essays/2025/04/index.json",
       "path_gz": "entertainment/history-essays/2025/04/index.json.gz",
-      "items": 10,
-      "first_date": "2025-04-09",
+      "items": 13,
+      "first_date": "2025-04-01",
       "last_date": "2025-04-30",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "entertainment",
@@ -635,9 +635,9 @@
       "month": 8,
       "path": "food-drink/drink/2025/08/index.json",
       "path_gz": "food-drink/drink/2025/08/index.json.gz",
-      "items": 5,
+      "items": 6,
       "first_date": "2025-08-01",
-      "last_date": "2025-08-25",
+      "last_date": "2025-08-27",
       "pages": 1
     },
     {
@@ -928,6 +928,32 @@
     },
     {
       "parent": "news",
+      "child": "politics",
+      "slug": "news/politics",
+      "year": 2025,
+      "month": 7,
+      "path": "news/politics/2025/07/index.json",
+      "path_gz": "news/politics/2025/07/index.json.gz",
+      "items": 1,
+      "first_date": "2025-07-19",
+      "last_date": "2025-07-19",
+      "pages": 1
+    },
+    {
+      "parent": "news",
+      "child": "politics",
+      "slug": "news/politics",
+      "year": 2025,
+      "month": 8,
+      "path": "news/politics/2025/08/index.json",
+      "path_gz": "news/politics/2025/08/index.json.gz",
+      "items": 1,
+      "first_date": "2025-08-01",
+      "last_date": "2025-08-01",
+      "pages": 1
+    },
+    {
+      "parent": "news",
       "child": "top-stories",
       "slug": "news/top-stories",
       "year": 2025,
@@ -999,9 +1025,9 @@
       "month": 8,
       "path": "tech-ai/internet-platforms/2025/08/index.json",
       "path_gz": "tech-ai/internet-platforms/2025/08/index.json.gz",
-      "items": 5,
+      "items": 6,
       "first_date": "2025-08-15",
-      "last_date": "2025-08-26",
+      "last_date": "2025-08-27",
       "pages": 1
     },
     {
@@ -1103,10 +1129,10 @@
       "month": 6,
       "path": "travel/destinations/2025/06/index.json",
       "path_gz": "travel/destinations/2025/06/index.json.gz",
-      "items": 9,
-      "first_date": "2025-06-16",
+      "items": 14,
+      "first_date": "2025-06-01",
       "last_date": "2025-06-28",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "travel",
@@ -1207,7 +1233,7 @@
       "month": 12,
       "path": "travel/experiences/2024/12/index.json",
       "path_gz": "travel/experiences/2024/12/index.json.gz",
-      "items": 3,
+      "items": 8,
       "first_date": "2024-12-03",
       "last_date": "2024-12-19",
       "pages": 1
@@ -1470,6 +1496,19 @@
       "items": 1,
       "first_date": "2024-09-03",
       "last_date": "2024-09-03",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2024,
+      "month": 12,
+      "path": "travel/trip-ideas/2024/12/index.json",
+      "path_gz": "travel/trip-ideas/2024/12/index.json.gz",
+      "items": 5,
+      "first_date": "2024-12-07",
+      "last_date": "2024-12-17",
       "pages": 1
     },
     {

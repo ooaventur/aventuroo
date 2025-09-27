@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "trump-calls-for-the-firing-of-lisa-monaco-microsoft-president-of-globa",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Trump calls for the firing of Lisa Monaco, Microsoft president of global affairs",
+      "cover": "https://image.cnbcfm.com/api/v1/image/107419358-17164832022024-05-23t164339z_1118394000_rc2gw7atnj44_rtrmadp_0_live-nation-antitrust.jpeg?v=1716483268&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/trump-calls-for-the-firing-of-lisa-monaco-microsoft-president-of-globa/",
+      "excerpt": "Trump calls for firing of Lisa Monaco, Microsoft global affairs head Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/09/26/trump-calls-for-the-firing-of-lisa-monaco-microsoft-president-of-global-affairs.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-s-historic-week-has-redefined-the-ai-arms-race-for-investors-i",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -37,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "musk-thiel-bannon-named-in-partially-redacted-epstein-documents-releas",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Musk, Thiel, Bannon named in partially redacted Epstein documents released by Democrats",
+      "cover": "https://image.cnbcfm.com/api/v1/image/106038659-1564022892470gettyimages-1154618940.jpeg?v=1758921453&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/musk-thiel-bannon-named-in-partially-redacted-epstein-documents-releas/",
+      "excerpt": "Musk, Thiel, Bannon partially redacted Epstein files Democrats release Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/09/26/musk-thiel-bannon-partially-redacted-epstein-files-democrats-release.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-google-shifted-from-a-bastion-of-accurate-information-to-a-steward",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/ex-meta-global-affairs-chief-says-tech-should-stay-out-of-politics-202/",
       "excerpt": "Ex-Meta global affairs chief says tech should stay out of politics Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indu…",
       "source": "https://www.cnbc.com/2025/09/26/meta-nick-clegg-tech-politics.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "electronic-arts-stock-closes-up-15-on-report-company-near-50-billion-d",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Electronic Arts stock closes up 15% on report company near $50 billion deal to go private",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108095080-17382622882025-01-22t213024z_238727348_rc28fcalj4u3_rtrmadp_0_electronic-arts-results.jpeg?v=1738262344&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/electronic-arts-stock-closes-up-15-on-report-company-near-50-billion-d/",
+      "excerpt": "Electronic Arts stock jumps report it's nearing $50B take private deal Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/09/26/electronic-arts-buyout.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -469,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 39,
+  "count": 42,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 39,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

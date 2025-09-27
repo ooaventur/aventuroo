@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "20-easy-cocktails-to-make-on-labor-day-weekend-2025-08-27",
+      "date": "2025-08-27",
+      "published_at": "2025-08-27T00:00:00Z",
+      "created_at": "2025-08-27T00:00:00Z",
+      "title": "20 Easy Cocktails to Make on Labor Day Weekend",
+      "cover": "https://bevvyco.s3.amazonaws.com/img/collections/xh/vxh/cover-40a2c4ab7bfd612c53a3a349667f03f9-lg.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/20-easy-cocktails-to-make-on-labor-day-weekend-2025-08-27/",
+      "excerpt": "Easy Labor Day Cocktail Recipes | Bevvy Skip header links Bevvy ® Cocktails Spirits Collections Articles Sign Up Sign In Cocktails Spirits Collections Articles Liquor Brands Recipes by Tag People Hubs Glassware Books Infographics Feeling Lucky? Submit Spirit About Bevvy",
+      "source": "https://bevvy.co/articles/20-easy-cocktails-to-make-on-labor-day-weekend/22192",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "attending-or-watching-the-u-s-open-you-need-the-honey-deuce-cocktail-2",
       "date": "2025-08-25",
       "published_at": "2025-08-25T00:00:00Z",
@@ -61,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-08-25",
+  "count": 6,
+  "updated_at": "2025-08-27",
   "pagination": {
-    "total_items": 5,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

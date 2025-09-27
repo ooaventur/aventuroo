@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "this-week-s-news-in-venn-diagrams-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "This week’s news in Venn diagrams.",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/05/LH-venn-cover-copy.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/this-week-s-news-in-venn-diagrams-2025-09-26/",
+      "excerpt": "This week’s news in Venn diagrams. ‹ Literary Hub Craft and Criticism Fiction and Poetry News and Culture Lit Hub Radio Reading Lists Book Marks CrimeReads About Log In Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction …",
+      "source": "https://lithub.com/this-weeks-news-in-venn-diagrams-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-disappearing-internet-and-a-culture-schlock-on-the-lit-hub-podcast",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/culture/the-disappearing-internet-and-a-culture-schlock-on-the-lit-hub-podcast/",
       "excerpt": "The Disappearing Internet and a Culture Schlock on the Lit Hub Podcast ‹ Literary Hub Craft and Criticism Fiction and Poetry News and Culture Lit Hub Radio Reading Lists Book Marks CrimeReads About Log In Literary Hub Craft and Criticism Literary Criticism Craft and Advice In …",
       "source": "https://lithub.com/the-disappearing-internet-and-a-culture-schlock-on-the-lit-hub-podcast/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "solange-knowles-is-launching-a-free-radical-library-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Solange Knowles is launching a free radical library.",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/09/Untitled-design-32.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/solange-knowles-is-launching-a-free-radical-library-2025-09-26/",
+      "excerpt": "Solange Knowles is launching a free radical library. ‹ Literary Hub Craft and Criticism Fiction and Poetry News and Culture Lit Hub Radio Reading Lists Book Marks CrimeReads About Log In Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Tr…",
+      "source": "https://lithub.com/solange-knowles-is-launching-a-free-radical-library/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -913,10 +937,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 76,
+  "count": 78,
   "updated_at": "2025-09-26",
   "pagination": {
-    "total_items": 76,
+    "total_items": 78,
     "per_page": 12,
     "total_pages": 7
   }

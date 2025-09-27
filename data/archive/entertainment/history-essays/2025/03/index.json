@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "jack-london-jack-johnson-and-the-fight-of-the-century-2025-03-26",
+      "date": "2025-03-26",
+      "published_at": "2025-03-26T00:00:00Z",
+      "created_at": "2025-03-26T00:00:00Z",
+      "title": "Jack London, Jack Johnson, and the Fight of the Century",
+      "cover": "https://pdr-assets.b-cdn.net/essays/jack-london-jack-johnson-and-the-fight-of-the-century/jack-london-boxing-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/jack-london-jack-johnson-and-the-fight-of-the-century-2025-03-26/",
+      "excerpt": "Jack London, Jack Johnson, and the Fight of the Century — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays Jack London, Jack Johns…",
+      "source": "https://publicdomainreview.org/essay/jack-london-jack-johnson-and-the-fight-of-the-century",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "boxing-clever-tiny-cryptic-5-2025-03-26",
+      "date": "2025-03-26",
+      "published_at": "2025-03-26T00:00:00Z",
+      "created_at": "2025-03-26T00:00:00Z",
+      "title": "Boxing Clever: Tiny Cryptic #5",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2025/Comic_Crossword_Postcard-edit.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/boxing-clever-tiny-cryptic-5-2025-03-26/",
+      "excerpt": "Boxing Clever: *Tiny Cryptic #5* — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog Boxing Clever: Tiny Cryptic #5 Published March 2…",
+      "source": "https://publicdomainreview.org/blog/2025/03/tiny-cryptic-5",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "liberty-or-death-patrick-henry-s-bold-proclamation-2025-03-21",
       "date": "2025-03-21",
       "published_at": "2025-03-21T00:00:00Z",
@@ -49,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 4,
+  "count": 6,
   "updated_at": "2025-03-26",
   "pagination": {
-    "total_items": 4,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

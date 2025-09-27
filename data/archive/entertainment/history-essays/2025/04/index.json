@@ -119,13 +119,49 @@
       "excerpt": "Modern Babylon: Ziggurat Skyscrapers and Hugh Ferriss’ Retrofuturism — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays Modern Bab…",
       "source": "https://publicdomainreview.org/essay/modern-babylon-ziggurat-skyscrapers-and-hugh-ferriss-retrofuturism",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "sheet-mewsic-moritz-von-schwind-s-katzensymphonie-1868-2025-04-08",
+      "date": "2025-04-08",
+      "published_at": "2025-04-08T00:00:00Z",
+      "created_at": "2025-04-08T00:00:00Z",
+      "title": "Sheet Mewsic: Moritz von Schwind’s Katzensymphonie (1868)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/katzensymphonie/cat-sheet-music-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/sheet-mewsic-moritz-von-schwind-s-katzensymphonie-1868-2025-04-08/",
+      "excerpt": "Sheet Mewsic: Moritz von Schwind’s *Katzensymphonie* (1868) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Images Sheet…",
+      "source": "https://publicdomainreview.org/collection/katzensymphonie",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-form-of-a-demon-and-the-heart-of-a-person-kitagawa-utamaro-s-print",
+      "date": "2025-04-03",
+      "published_at": "2025-04-03T00:00:00Z",
+      "created_at": "2025-04-03T00:00:00Z",
+      "title": "“The Form of a Demon and the Heart of a Person”: Kitagawa Utamaro’s Prints of Yamauba and Kintarō (ca. 1800)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/yamauba-and-kintaro/kintaro-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-form-of-a-demon-and-the-heart-of-a-person-kitagawa-utamaro-s-print/",
+      "excerpt": "“The Form of a Demon and the Heart of a Person”: Kitagawa Utamaro’s Prints of Yamauba and Kintarō (ca. 1800) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Sho…",
+      "source": "https://publicdomainreview.org/collection/yamauba-and-kintaro",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "uncommon-sense-edward-b-foote-s-plain-home-talk-1896-edition-2025-04-0",
+      "date": "2025-04-01",
+      "published_at": "2025-04-01T00:00:00Z",
+      "created_at": "2025-04-01T00:00:00Z",
+      "title": "Uncommon Sense: Edward B. Foote’s Plain Home Talk (1896 edition)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/plain-home-talk/plainhometalkabo00foot_0314-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/uncommon-sense-edward-b-foote-s-plain-home-talk-1896-edition-2025-04-0/",
+      "excerpt": "Uncommon Sense: Edward B. Foote’s *Plain Home Talk* (1896 edition) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Books…",
+      "source": "https://publicdomainreview.org/collection/plain-home-talk",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 10,
+  "count": 13,
   "updated_at": "2025-04-30",
   "pagination": {
-    "total_items": 10,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

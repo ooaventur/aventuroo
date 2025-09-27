@@ -23,12 +23,48 @@
       "excerpt": "Learning to Be Free | Online Only | n+1 | Joel Suarez Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-default flavor-online-only type-online-only term-online-only format-with_image tax-online-only featured- …",
       "source": "https://www.nplusonemag.com/online-only/online-only/learning-to-be-free/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "issue-50-reading-and-launch-celebration-2025-05-22",
+      "date": "2025-05-22",
+      "published_at": "2025-05-22T00:00:00Z",
+      "created_at": "2025-05-22T00:00:00Z",
+      "title": "Issue 50 Reading and Launch Celebration",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/50-reading-flyer-1.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/issue-50-reading-and-launch-celebration-2025-05-22/",
+      "excerpt": "Issue 50 Reading and Launch Celebration | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tr…",
+      "source": "https://www.nplusonemag.com/online-only/events/issue-50-reading-and-launch-celebration/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "our-butterfly-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "Our Butterfly",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/sebastiangladstone-emma-mcmillan-cocoon-2025.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/our-butterfly-2025-05-20/",
+      "excerpt": "Our Butterfly | Issue 50 | n+1 | Iman Mersal Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in and …",
+      "source": "https://www.nplusonemag.com/issue-50/essays/our-butterfly/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "new-tv-novels-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "New TV Novels",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/I50_Borst_Groebel.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/new-tv-novels-2025-05-20/",
+      "excerpt": "New TV Novels | Issue 50 | n+1 | Lisa Borst Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The Fork in the Road M…",
+      "source": "https://www.nplusonemag.com/issue-50/reviews/new-tv-novels/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
+  "count": 5,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 2,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }
