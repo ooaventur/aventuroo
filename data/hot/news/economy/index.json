@@ -25,6 +25,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trump-adviser-signals-support-for-renewing-us-africa-trade-pact-2025-0",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Trump adviser signals support for renewing US-Africa trade pact",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd99e24d1-4ead-4b06-a3a3-7918a0f4d21f.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/trump-adviser-signals-support-for-renewing-us-africa-trade-pact-2025-0/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/722eebc0-62eb-4a54-b83e-b1357d7dfd8b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "npr-and-the-corporation-for-public-broadcasting-clash-as-federal-fundi",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "NPR and the Corporation for Public Broadcasting clash as federal funding declines",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F48%2Fd9%2F68c8e886405ca48abab3cf62ba5a%2Fgettyimages-2225639525-1.jpg",
+      "canonical": "https://archive.aventuroo.com/news/economy/npr-and-the-corporation-for-public-broadcasting-clash-as-federal-fundi/",
+      "excerpt": "NPR asks judge to stop CPB from taking money for satellite system away from NPR : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News Nationa…",
+      "source": "https://www.npr.org/2025/09/27/nx-s1-5554882/npr-federal-funds-decline-clashes-cpb",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-digitise-your-life-admin-in-four-easy-steps-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/how-to-digitise-your-life-admin-in-four-easy-steps-2025-09-27/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/e36e4ae1-deca-40e5-8714-b5a0a4df89ce",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "experts-say-trump-s-tiktok-deal-payment-is-a-shakedown-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Experts say Trump's TikTok deal payment is a shakedown",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/news/economy/experts-say-trump-s-tiktok-deal-payment-is-a-shakedown-2025-09-27/",
+      "excerpt": "Experts say Trump's TikTok deal payment is a shakedown : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Business…",
+      "source": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -985,11 +1021,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 82,
+  "count": 85,
   "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 82,
+    "total_items": 85,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }

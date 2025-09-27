@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "your-october-2025-horoscope-this-is-the-month-to-lock-in-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Your October 2025 Horoscope: This is the Month to Lock In",
+      "cover": "https://media.cntraveler.com/photos/632dc9299ae3f06709fbe0b7/master/pass/October%20Libra_final_Lin%20Chen.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/your-october-2025-horoscope-this-is-the-month-to-lock-in-2025-09-27/",
+      "excerpt": "Your October 2025 Horoscope: This is the Month to Lock In | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Women Who Travel Your O…",
+      "source": "https://www.cntraveler.com/story/october-2025-horoscope",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "inside-the-joyfully-geeky-world-of-plane-spotting-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Inside the Joyfully Geeky World of Plane Spotting",
+      "cover": "https://media.cntraveler.com/photos/68d6d3a2afc116356e9bac1e/master/pass/092625-Plane-Spotting-GettyImages-931120548.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/inside-the-joyfully-geeky-world-of-plane-spotting-2025-09-27/",
+      "excerpt": "Inside the Joyfully Geeky World of Plane Spotting | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North America Chevron United St…",
+      "source": "https://www.cntraveler.com/story/inside-the-joyfully-geeky-world-of-plane-spotting",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-perfect-day-in-ridgewood-queens-according-to-a-travel-editor-2025-09",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "A Perfect Day in Ridgewood, Queens, According to a Travel Editor",
+      "cover": "https://media.cntraveler.com/photos/68bf260c2d9a72e1da0670c2/master/pass/090825-Ridgewood-Neighborhood-Guide-Lede-GettyImages-889187326.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/a-perfect-day-in-ridgewood-queens-according-to-a-travel-editor-2025-09/",
+      "excerpt": "A Perfect Day in Ridgewood, Queens, According to a Travel Editor | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North America Ch…",
+      "source": "https://www.cntraveler.com/story/a-perfect-day-in-ridgewood-queens-according-to-a-travel-editor",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "where-was-one-battle-after-another-filmed-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -361,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-09-26",
+  "count": 33,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 30,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }

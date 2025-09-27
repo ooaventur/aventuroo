@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "olson-observation-tower-in-hambleton-west-virginia-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Olson Observation Tower in Hambleton, West Virginia",
+      "cover": "https://img.atlasobscura.com/VaEdcL4y2zJaXegQ8DXV_DS7MFePdan7m26bIappi4M/rt:fit/w:600/c:2684:1789:nowe:183:794/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8zNTdj/OTI4OC03NzU3LTQ0/MWMtODZlNi0wMmQ3/NGFhMjFhYTEyYTIw/YWM3NjgxMDQwYzUx/Y2ZfSU1HXzgwMDUu/anBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/olson-observation-tower-in-hambleton-west-virginia-2025-09-27/",
+      "excerpt": "Olson Observation Tower - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" …",
+      "source": "https://www.atlasobscura.com/places/olson-observation-tower",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "museo-etnogr-fico-del-silo-in-villaca-as-spain-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -481,10 +493,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-09-26",
+  "count": 41,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 40,
+    "total_items": 41,
     "per_page": 12,
     "total_pages": 4
   }

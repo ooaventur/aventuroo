@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-27",
   "per_page": 12,
-  "total_items": 557,
+  "total_items": 582,
   "shards": [
     {
       "parent": "business-finance",
@@ -102,10 +102,10 @@
       "month": 5,
       "path": "culture-arts/columns-essays/2025/05/index.json",
       "path_gz": "culture-arts/columns-essays/2025/05/index.json.gz",
-      "items": 10,
+      "items": 15,
       "first_date": "2025-05-20",
       "last_date": "2025-05-28",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "culture-arts",
@@ -323,7 +323,7 @@
       "month": 2,
       "path": "entertainment/history-essays/2025/02/index.json",
       "path_gz": "entertainment/history-essays/2025/02/index.json.gz",
-      "items": 3,
+      "items": 4,
       "first_date": "2025-02-11",
       "last_date": "2025-02-26",
       "pages": 1
@@ -336,10 +336,10 @@
       "month": 3,
       "path": "entertainment/history-essays/2025/03/index.json",
       "path_gz": "entertainment/history-essays/2025/03/index.json.gz",
-      "items": 11,
-      "first_date": "2025-03-05",
+      "items": 15,
+      "first_date": "2025-03-04",
       "last_date": "2025-03-26",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "entertainment",
@@ -1116,8 +1116,8 @@
       "month": 5,
       "path": "travel/destinations/2025/05/index.json",
       "path_gz": "travel/destinations/2025/05/index.json.gz",
-      "items": 7,
-      "first_date": "2025-05-23",
+      "items": 12,
+      "first_date": "2025-05-15",
       "last_date": "2025-05-30",
       "pages": 1
     },
@@ -1233,8 +1233,8 @@
       "month": 12,
       "path": "travel/experiences/2024/12/index.json",
       "path_gz": "travel/experiences/2024/12/index.json.gz",
-      "items": 13,
-      "first_date": "2024-12-02",
+      "items": 18,
+      "first_date": "2024-12-01",
       "last_date": "2024-12-19",
       "pages": 2
     },
@@ -1506,10 +1506,10 @@
       "month": 12,
       "path": "travel/trip-ideas/2024/12/index.json",
       "path_gz": "travel/trip-ideas/2024/12/index.json.gz",
-      "items": 10,
-      "first_date": "2024-12-03",
+      "items": 15,
+      "first_date": "2024-12-02",
       "last_date": "2024-12-17",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "travel",

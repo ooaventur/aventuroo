@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "how-a-nudify-site-turned-a-group-of-friends-into-key-figures-in-a-figh",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "How a 'nudify' site turned a group of friends into key figures in a fight against AI-generated porn",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202439-1758576040043-thumb_1.jpg?v=1758843887&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/how-a-nudify-site-turned-a-group-of-friends-into-key-figures-in-a-figh/",
+      "excerpt": "How 'nudify' site stirred group of friends to fight AI-generated porn Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/09/27/nudify-ai-generated-deepfake-fbi.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-calls-for-the-firing-of-lisa-monaco-microsoft-president-of-globa",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -505,10 +517,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 42,
-  "updated_at": "2025-09-26",
+  "count": 43,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 42,
+    "total_items": 43,
     "per_page": 12,
     "total_pages": 4
   }

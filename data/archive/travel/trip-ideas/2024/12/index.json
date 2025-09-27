@@ -119,13 +119,73 @@
       "excerpt": "New trips and experiences for 18 to 35s | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides New…",
       "source": "https://www.intrepidtravel.com/adventures/the-goods-new-18-to-35s-experiences/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-soup-kitchen-dishing-up-hope-in-mexico-city-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "The soup kitchen dishing up hope in Mexico City",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Comidas-Solidarias-team1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/the-soup-kitchen-dishing-up-hope-in-mexico-city-2024-12-02/",
+      "excerpt": "Dishing up hope in Mexico City | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Stories…",
+      "source": "https://www.intrepidtravel.com/adventures/gastromotiva-mexico-city/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "more-than-a-bite-to-eat-13-new-food-adventures-for-2025-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "More than a bite to eat: 13 new food adventures for 2025",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/11/Intrepid-Travel-Philippines-food-shared-plates-leaves-997294268-getty-pa-1080.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/more-than-a-bite-to-eat-13-new-food-adventures-for-2025-2024-12-02/",
+      "excerpt": "13 new food adventures for 2025 | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Storie…",
+      "source": "https://www.intrepidtravel.com/adventures/the-goods-new-food-and-drink/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "8-of-the-best-traditional-foods-to-try-in-west-africa-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "8 of the best traditional foods to try in West Africa",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Intrepid-Travel-Senegal-food-Thieboudienne-fish-rice-vegetables-dish-shutterstock-2396857769.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/8-of-the-best-traditional-foods-to-try-in-west-africa-2024-12-02/",
+      "excerpt": "Food and drink to try in West Africa | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News S…",
+      "source": "https://www.intrepidtravel.com/adventures/traditional-foods-west-africa/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "7-new-incredible-camping-spots-for-2025-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "7 new incredible camping spots for 2025",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/11/Intrepid-Travel-Kyrgyzstan-Issyk-Kul-Lake-yurt-camp-traditional-shutterstock-2429430757-2-1080-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/7-new-incredible-camping-spots-for-2025-2024-12-02/",
+      "excerpt": "7 new camping spots to try in 2025 | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Sto…",
+      "source": "https://www.intrepidtravel.com/adventures/the-goods-new-camping-experiences/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "13-new-adventures-in-asia-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "13 new adventures in Asia",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/11/Intrepid-Travel-Vietnam-Lam-Thuong-village-lake-village-sunlight-shutterstock_1573791667-1080-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/13-new-adventures-in-asia-2024-12-02/",
+      "excerpt": "13 new adventures in Asia | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Stories Food…",
+      "source": "https://www.intrepidtravel.com/adventures/the-goods-new-asia-experiences/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 10,
+  "count": 15,
   "updated_at": "2024-12-17",
   "pagination": {
-    "total_items": 10,
+    "total_items": 15,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

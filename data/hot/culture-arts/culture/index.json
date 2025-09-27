@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "lit-hub-weekly-september-22-25-2025-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Lit Hub Weekly: September 22 – 25, 2025",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/lit-hub-weekly-september-22-25-2025-2025-09-27/",
+      "excerpt": "“She made me feel that my ideas mattered. She took me seriously.” Marisa Silver examines the legacy of her mother, filmmaker Joan Micklin Silver, frame by frame. &#124; Lit Hub Film Can’t decide which fall book to read? This flowchart has you covered. &#124; Lit Hub Criticism …",
+      "source": "https://lithub.com/lit-hub-weekly-september-22-26-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-literary-festivals-still-matter-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -937,10 +949,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 78,
-  "updated_at": "2025-09-26",
+  "count": 79,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 78,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }
