@@ -95,13 +95,73 @@
       "excerpt": "Nectar Soda - Gastro Obscura Trips Take your next trip with Atlas Obscura! Our small-group adventures are inspired by our Atlas of the world's most fascinating places, the stories behind them, and the people who bring them to life. Visit Adventures Trips Highlight View all tri…",
       "source": "https://www.atlasobscura.com/foods/nectar-soda",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meet-maria-greenland-s-mythical-monster-hunter-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "Meet Maria, Greenland’s mythical monster hunter",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Fotocredit_Leiff_Josefsen-min-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/meet-maria-greenland-s-mythical-monster-hunter-2024-12-02/",
+      "excerpt": "Meet Greenland's monster hunter | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Storie…",
+      "source": "https://www.intrepidtravel.com/adventures/greenland-monster-hunter/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "learning-the-art-of-making-bubus-fishing-traps-in-borneo-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "Learning the art of making bubus (fishing traps) in Borneo",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Nelson.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/learning-the-art-of-making-bubus-fishing-traps-in-borneo-2024-12-02/",
+      "excerpt": "The art of making bubus in Borneo | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Stor…",
+      "source": "https://www.intrepidtravel.com/adventures/fishing-traps-bubus-borneo/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "fantasy-coffins-how-ghana-s-carpenters-turn-funerals-into-a-final-hurr",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "Fantasy coffins: How Ghana’s carpenters turn funerals into a final hurrah",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Intrepid-Travel-Ghana-Accra-Fantasy-Coffin-Makers-unfinished-coffin-wrench-Erico-using-woodplane-tool.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/fantasy-coffins-how-ghana-s-carpenters-turn-funerals-into-a-final-hurr/",
+      "excerpt": "Meet Ghana’s fantasy coffin makers | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Sto…",
+      "source": "https://www.intrepidtravel.com/adventures/ghana-fantasy-coffins/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "9-new-premium-trips-and-experiences-for-2025-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "9 new Premium trips and experiences for 2025",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/12/Intrepid-Travel-South-Africa-Franschhoek-Hotel-and-Spa-VIEW-19-1080.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/9-new-premium-trips-and-experiences-for-2025-2024-12-02/",
+      "excerpt": "9 new Premium trips and experiences for 2025 | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guide…",
+      "source": "https://www.intrepidtravel.com/adventures/the-goods-new-premium-experiences/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "8-cool-facts-about-slovenia-2024-12-02",
+      "date": "2024-12-02",
+      "published_at": "2024-12-02T00:00:00Z",
+      "created_at": "2024-12-02T00:00:00Z",
+      "title": "8 cool facts about Slovenia",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/02/Intrepid-Travel-slovenia_lake-bled_ojstrica_049A1998-HDR.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/8-cool-facts-about-slovenia-2024-12-02/",
+      "excerpt": "8 Cool Facts About Slovenia | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guides News Stories Fo…",
+      "source": "https://www.intrepidtravel.com/adventures/slovenia-facts/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 8,
+  "count": 13,
   "updated_at": "2024-12-19",
   "pagination": {
-    "total_items": 8,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

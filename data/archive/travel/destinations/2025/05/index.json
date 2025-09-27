@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-best-five-star-hotels-in-majorca-2025-05-30",
+      "date": "2025-05-30",
+      "published_at": "2025-05-30T00:00:00Z",
+      "created_at": "2025-05-30T00:00:00Z",
+      "title": "The best five-star hotels in Majorca",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Majorca/cap-rocat-majorca-destination-guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-five-star-hotels-in-majorca-2025-05-30/",
+      "excerpt": "The best five-star hotels in Majorca | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/majorca/articles/best-five-star-hotels-majorca/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "croatia-s-most-beautiful-seaside-destinations-2025-05-30",
+      "date": "2025-05-30",
+      "published_at": "2025-05-30T00:00:00Z",
+      "created_at": "2025-05-30T00:00:00Z",
+      "title": "Croatia’s most beautiful seaside destinations",
+      "cover": "https://www.telegraph.co.uk/content/dam/travel/2025/05/29/TELEMMGLPICT000426579368_17485226608160_trans_NvBQzQNjv4BqD3d2dmOlWYuQkR76XZjLQKOylOV7i1cNNz18XOj47vE.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/croatia-s-most-beautiful-seaside-destinations-2025-05-30/",
+      "excerpt": "Croatia’s most beautiful seaside destinations Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel Tra…",
+      "source": "https://www.telegraph.co.uk/travel/family-holidays/best-croatia-seaside-holidays-destinations-hotels-summer/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-ultimate-weekend-in-manchester-the-north-s-creative-hub-2025-05-26",
+      "date": "2025-05-26",
+      "published_at": "2025-05-26T00:00:00Z",
+      "created_at": "2025-05-26T00:00:00Z",
+      "title": "The ultimate weekend in Manchester, the North's creative hub",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/England/Manchester/manchester-GettyImages-1356455312.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-ultimate-weekend-in-manchester-the-north-s-creative-hub-2025-05-26/",
+      "excerpt": "How to spend a weekend in Manchester | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/manchester/articles/manchester-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "world-s-largest-cruise-ships-in-2025-2025-05-24",
       "date": "2025-05-24",
       "published_at": "2025-05-24T00:00:00Z",
@@ -23,12 +59,36 @@
       "excerpt": "These 10 countries are ideal for travelers prioritizing safety and security this summer.",
       "source": "https://www.travelpulse.com/gallery/destinations/safest-places-for-summer-travel?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-spend-a-glamorous-weekend-in-los-angeles-2025-05-24",
+      "date": "2025-05-24",
+      "published_at": "2025-05-24T00:00:00Z",
+      "created_at": "2025-05-24T00:00:00Z",
+      "title": "How to spend a glamorous weekend in Los Angeles",
+      "cover": "https://www.telegraph.co.uk/content/dam/travel/2023/los-angeles-GettyImages-1370938613.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-glamorous-weekend-in-los-angeles-2025-05-24/",
+      "excerpt": "How to spend a weekend in Los Angeles | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/north-america/united-states/california/los-angeles/articles/los-angeles-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-boutique-hotels-in-ibiza-2025-05-23",
+      "date": "2025-05-23",
+      "published_at": "2025-05-23T00:00:00Z",
+      "created_at": "2025-05-23T00:00:00Z",
+      "title": "The best boutique hotels in Ibiza",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/may/es-cucons-ibiza-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-boutique-hotels-in-ibiza-2025-05-23/",
+      "excerpt": "Best boutique hotels in Ibiza | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/ibiza/articles/best-boutique-hotels-in-ibiza/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-05-24",
+  "count": 7,
+  "updated_at": "2025-05-30",
   "pagination": {
-    "total_items": 2,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

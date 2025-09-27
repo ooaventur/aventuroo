@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "this-week-we-revealed-the-shortlist-for-scotland-s-building-of-the-yea",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "This week we revealed the shortlist for Scotland's building of the year",
+      "cover": "https://static.dezeen.com/uploads/2025/09/sq-rias-andrew-doolan-best-building-scotland-award-2025_dezeen_2364_col_0.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/home-design/this-week-we-revealed-the-shortlist-for-scotland-s-building-of-the-yea/",
+      "excerpt": "This week RIAS announced the shortlist for Scotland's building of the year m_auth=HVP1CTQmin1RLkLPfBngAg>m_preview=env-1>m_cookies_win=x\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"> Magazine Awards Jobs Events Guide Showroom School Shows Courses Competitions F…",
+      "source": "https://www.dezeen.com/2025/09/27/rias-scotland-best-building-this-week/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "yolanda-hadid-lists-pennsylvania-estate-where-my-children-returned-to",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -202,6 +214,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/home-design/medium-consolidates-and-unifies-sprawling-1950s-home-in-surrey-2025-09/",
       "excerpt": "Medium consolidates and unifies sprawling Hearth House in Surrey m_auth=HVP1CTQmin1RLkLPfBngAg>m_preview=env-1>m_cookies_win=x\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"> Magazine Awards Jobs Events Guide Showroom School Shows Courses Competitions Follow: Arc…",
       "source": "https://www.dezeen.com/2025/09/26/medium-hearth-house-renovation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "levoit-air-purifier-review-this-device-finally-got-rid-of-the-weird-sm",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Levoit Air Purifier Review: This Device Finally Got Rid of the \"Weird Smell\" in My New Apartment",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/levoit-air-purifier-68d416bf9e875.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/home-design/levoit-air-purifier-review-this-device-finally-got-rid-of-the-weird-sm/",
+      "excerpt": "Levoit Air Purifier Review: It Made My Home Smell Fresher We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. Search Subscribe Leanne…",
+      "source": "https://www.housebeautiful.com/shopping/home-gadgets/a68020998/levoit-core-400s-p-smart-air-purifier-review/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2365,10 +2389,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 197,
-  "updated_at": "2025-09-26",
+  "count": 199,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 197,
+    "total_items": 199,
     "per_page": 12,
     "total_pages": 17
   }

@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-other-route-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "The Other Route",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/RAW-25-007.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-other-route-2025-05-20/",
+      "excerpt": "The Other Route | Issue 50 | n+1 | Gillian Linden Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in…",
+      "source": "https://www.nplusonemag.com/issue-50/fiction-drama/the-other-route/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "still-mad-about-our-packaging-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "Still Mad About Our Packaging?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/08/Issue-51_images2-scaled.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/still-mad-about-our-packaging-2025-05-20/",
+      "excerpt": "Still Mad About Our Packaging? | Issue 50 | n+1 | The Editors Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The …",
+      "source": "https://www.nplusonemag.com/issue-50/letters/still-mad-about-our-packaging/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "our-butterfly-2025-05-20",
       "date": "2025-05-20",
       "published_at": "2025-05-20T00:00:00Z",
@@ -59,12 +83,48 @@
       "excerpt": "New TV Novels | Issue 50 | n+1 | Lisa Borst Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The Fork in the Road M…",
       "source": "https://www.nplusonemag.com/issue-50/reviews/new-tv-novels/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "crise-en-abyme-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "Crise en Abyme",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/I50_Vanderburg_Bruguiere_1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/crise-en-abyme-2025-05-20/",
+      "excerpt": "Crise en Abyme | Issue 50 | n+1 | Colin Vanderburg Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The Fork in the…",
+      "source": "https://www.nplusonemag.com/issue-50/reviews/crise-en-abyme/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "creature-of-the-late-afternoon-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "Creature of the Late Afternoon",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/2024_01_29_HUR27108-1-scaled-e1746916519608.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/creature-of-the-late-afternoon-2025-05-20/",
+      "excerpt": "Creature of the Late Afternoon | Issue 50 | n+1 | E. Tammy Kim Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The…",
+      "source": "https://www.nplusonemag.com/issue-50/essays/creature-of-the-late-afternoon/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "back-to-the-80s-2025-05-20",
+      "date": "2025-05-20",
+      "published_at": "2025-05-20T00:00:00Z",
+      "created_at": "2025-05-20T00:00:00Z",
+      "title": "Back to the ’80s?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/10985501506_6a124e76a4_h.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/back-to-the-80s-2025-05-20/",
+      "excerpt": "Back to the ’80s? | Issue 50 | n+1 | Andrew Liu Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 50 Harsh Realm The Intellectual Situation Deep State Chainsaw Massacre The Editors Politics The Fork in the Ro…",
+      "source": "https://www.nplusonemag.com/issue-50/politics/back-to-the-80s-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
+  "count": 10,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 5,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

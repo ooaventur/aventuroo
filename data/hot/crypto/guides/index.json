@@ -133,6 +133,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "swift-developing-stablecoin-like-token-and-onchain-messaging-with-line",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "SWIFT developing stablecoin-like token and onchain messaging with Linea",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/26112757/d6c35a5d-d178-4d24-bf86-6d304cd1cddc.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/swift-developing-stablecoin-like-token-and-onchain-messaging-with-line/",
+      "excerpt": "SWIFT developing stablecoin-like token and onchain messaging with Linea Menu News Regulation Bitcoin Ethereum Ecosystem Gaming DeFi AI NFTs Meme Coins Business Markets Education Briefings Gloria Terminal English Español Earn with Sign In Search Earn with English Español Sign I…",
+      "source": "https://cryptobriefing.com/swift-linea-stablecoin-onchain-messaging/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "softbank-and-ark-invest-in-discussions-to-join-tether-s-multibillion-d",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -178,6 +190,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/rex-osprey-s-ethereum-staking-etf-hits-cboe-as-eth-price-pulls-back-20/",
       "excerpt": "REX-Osprey’s Ethereum Staking ETF Hits Cboe as ETH Price Pulls Back Facebook X (Twitter) LinkedIn Telegram About Advertise Submit Press Release Contact Facebook X (Twitter) LinkedIn Telegram Prices All Coins Bitcoin Price Ethereum Price Ripple Price EOS Price Litecoin Price Mo…",
       "source": "https://blockonomi.com/rex-ospreys-ethereum-staking-etf-hits-cboe-as-eth-price-pulls-back/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "nvidia-ceo-predicts-elon-musk-will-reach-1-gigawatt-of-ai-compute-ahea",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Nvidia CEO predicts Elon Musk will reach 1 gigawatt of AI compute ahead of rivals",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/26102042/96fb402d-cb4d-4af3-af06-73931d46216e.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/nvidia-ceo-predicts-elon-musk-will-reach-1-gigawatt-of-ai-compute-ahea/",
+      "excerpt": "Nvidia CEO predicts Elon Musk will reach 1 gigawatt of AI compute ahead of rivals Menu News Regulation Bitcoin Ethereum Ecosystem Gaming DeFi AI NFTs Meme Coins Business Markets Education Briefings Gloria Terminal English Español Earn with Sign In Search Earn with English Espa…",
+      "source": "https://cryptobriefing.com/nvidia-ceo-predicts-elon-musk-gigawatt-ai-compute-xai-colossus-supercomputer/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -334,6 +358,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/ethereum-layer-2-taiko-introduces-hoodi-testnet-replaces-hekla-2025-09/",
       "excerpt": "Ethereum Layer 2: Taiko Introduces Hoodi Testnet, Replaces Hekla - Blockonomi Facebook X (Twitter) LinkedIn Telegram About Advertise Submit Press Release Contact Facebook X (Twitter) LinkedIn Telegram Prices All Coins Bitcoin Price Ethereum Price Ripple Price EOS Price Litecoi…",
       "source": "https://blockonomi.com/ethereum-layer-2-taiko-introduces-hoodi-testnet-replaces-hekla/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dormant-wallets-move-785m-in-ether-after-8-years-2025-09-26",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Dormant wallets move $785M in Ether after 8 years",
+      "cover": "https://static.cryptobriefing.com/wp-content/uploads/2025/09/26094713/8aa61faa-3916-411b-af21-81b9cc1cd8d6.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/dormant-wallets-move-785m-in-ether-after-8-years-2025-09-26/",
+      "excerpt": "Dormant wallets move $785M in Ether after 8 years Menu News Regulation Bitcoin Ethereum Ecosystem Gaming DeFi AI NFTs Meme Coins Business Markets Education Briefings Gloria Terminal English Español Earn with Sign In Search Earn with English Español Sign In News Regulation Bitc…",
+      "source": "https://cryptobriefing.com/dormant-ethereum-wallets-move-785m-bitfinex-2025/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1417,11 +1453,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 118,
+  "count": 121,
   "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 118,
+    "total_items": 121,
     "per_page": 12,
-    "total_pages": 10
+    "total_pages": 11
   }
 }

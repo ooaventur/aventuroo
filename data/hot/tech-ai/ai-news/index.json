@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "meet-qwen3guard-the-qwen3-based-multilingual-safety-guardrail-models-b",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Meet Qwen3Guard: The Qwen3-based Multilingual Safety Guardrail Models Built for Global, Real-Time AI Safety",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-1-5.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meet-qwen3guard-the-qwen3-based-multilingual-safety-guardrail-models-b/",
+      "excerpt": "Meet Qwen3Guard: The Qwen3-based Multilingual Safety Guardrail Models Built for Global, Real-Time AI Safety - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Prem…",
+      "source": "https://www.marktechpost.com/2025/09/26/meet-qwen3guard-the-qwen3-based-multilingual-safety-guardrail-models-built-for-global-real-time-ai-safety/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-build-an-intelligent-ai-desktop-automation-agent-with-natural-l",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "How to Build an Intelligent AI Desktop Automation Agent with Natural Language Commands and Interactive Simulation?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-102.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-build-an-intelligent-ai-desktop-automation-agent-with-natural-l/",
+      "excerpt": "How to Build an Intelligent AI Desktop Automation Agent with Natural Language Commands and Interactive Simulation? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News H…",
+      "source": "https://www.marktechpost.com/2025/09/26/how-to-build-an-intelligent-ai-desktop-automation-agent-with-natural-language-commands-and-interactive-simulation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sakana-ai-released-shinkaevolve-an-open-source-framework-that-evolves",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -205,10 +229,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 17,
-  "updated_at": "2025-09-26",
+  "count": 19,
+  "updated_at": "2025-09-27",
   "pagination": {
-    "total_items": 17,
+    "total_items": 19,
     "per_page": 12,
     "total_pages": 2
   }
