@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "set-jetting-10-film-and-tv-locations-worth-travelling-for-2025-08-28",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "Set-jetting: 10 film and TV locations worth travelling for",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/08/Intrepid-Travel-Italy-Matera-traveller-045A9781.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/set-jetting-10-film-and-tv-locations-worth-travelling-for-2025-08-28/",
+      "excerpt": "Set-jetting: 10 filming spots worth the trip | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Ideas Features Guide…",
+      "source": "https://www.intrepidtravel.com/adventures/set-jetting-film-and-tv-travel-locations/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "after-long-covid-i-thought-i-d-never-travel-again-luckily-my-legs-prov",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "After long Covid, I thought I’d never travel again. Luckily, my legs proved me wrong",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2025/08/Samarkand.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/after-long-covid-i-thought-i-d-never-travel-again-luckily-my-legs-prov/",
+      "excerpt": "After long Covid, I thought I'd never travel again. I was wrong. | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good …",
+      "source": "https://www.intrepidtravel.com/adventures/travel-after-long-covid/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-explore-ludington-michigan-2025-08-26",
       "date": "2025-08-26",
       "published_at": "2025-08-26T00:00:00Z",
@@ -97,10 +121,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 8,
-  "updated_at": "2025-08-26",
+  "count": 10,
+  "updated_at": "2025-08-28",
   "pagination": {
-    "total_items": 8,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

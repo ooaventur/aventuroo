@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "debt-struggles-are-hitting-consumers-at-all-income-levels-it-s-a-tippi",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "Debt struggles are hitting consumers at all income levels — it's a 'tipping point,' expert says",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108172390-17526109712025-07-15t201310z_528290842_rc28nfa7qq0a_rtrmadp_0_usa-economy.jpeg?v=1752611104&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/debt-struggles-are-hitting-consumers-at-all-income-levels-it-s-a-tippi/",
+      "excerpt": "Debt struggles hit consumers at all income levels — here's why Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industri…",
+      "source": "https://www.cnbc.com/2025/08/28/-debt-struggles-hit-consumers-at-all-income-levels-heres-why.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "are-you-smart-enough-to-invest-in-private-assets-designing-an-investor",
       "date": "2025-08-22",
       "published_at": "2025-08-22T00:00:00Z",
@@ -49,10 +61,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 4,
-  "updated_at": "2025-08-22",
+  "count": 5,
+  "updated_at": "2025-08-28",
   "pagination": {
-    "total_items": 4,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }

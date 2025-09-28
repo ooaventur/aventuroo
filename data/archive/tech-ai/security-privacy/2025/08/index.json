@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "affiliates-flock-to-soulless-scam-gambling-machine-2025-08-28",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "Affiliates Flock to ‘Soulless’ Scam Gambling Machine",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/affiliates-flock-to-soulless-scam-gambling-machine-2025-08-28/",
+      "excerpt": "Affiliates Flock to ‘Soulless’ Scam Gambling Machine – Krebs on Security Advertisement Advertisement Skip to content Home About the Author Advertising/Speaking Affiliates Flock to ‘Soulless’ Scam Gambling Machine August 28, 2025 18 Comments Last month, KrebsOnSecurity tracked …",
+      "source": "https://krebsonsecurity.com/2025/08/affiliates-flock-to-soulless-scam-gambling-machine/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "dslroot-proxies-and-the-threat-of-legal-botnets-2025-08-26",
       "date": "2025-08-26",
       "published_at": "2025-08-26T00:00:00Z",
@@ -25,10 +37,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-08-26",
+  "count": 3,
+  "updated_at": "2025-08-28",
   "pagination": {
-    "total_items": 2,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }

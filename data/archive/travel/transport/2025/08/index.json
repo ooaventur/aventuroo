@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "can-spirit-airlines-survive-2025-08-28",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "Can Spirit Airlines Survive?",
+      "cover": "https://airlineweekly.skift.com/wp-content/uploads/2025/08/AdobeStock_1570090590_Editorial_Use_Only.jpeg?w=1600",
+      "canonical": "https://archive.aventuroo.com/travel/transport/can-spirit-airlines-survive-2025-08-28/",
+      "excerpt": "Can Spirit Airlines Survive? Airline Weekly Skift Daily Lodging Report Skift Advisory Skift Exec Search Skift Live Skift Meetings Skift Research Weekly Issues Ask Skift Search Podcast Stock Index Skift Aviation Forum Subscribe Account Menu Close Weekly Issues Ask Skift Search …",
+      "source": "https://airlineweekly.skift.com/2025/08/can-spirit-airlines-survive/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-are-the-world-s-busiest-airports-2025-08-21",
       "date": "2025-08-21",
       "published_at": "2025-08-21T00:00:00Z",
@@ -25,10 +37,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-08-21",
+  "count": 3,
+  "updated_at": "2025-08-28",
   "pagination": {
-    "total_items": 2,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }

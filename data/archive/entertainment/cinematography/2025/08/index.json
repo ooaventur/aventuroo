@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "how-lighting-affects-your-background-2025-08-28",
+      "date": "2025-08-28",
+      "published_at": "2025-08-28T00:00:00Z",
+      "created_at": "2025-08-28T00:00:00Z",
+      "title": "How Lighting Affects Your Background",
+      "cover": "https://www.lensrentals.com/blog/media/2025/08/Lighting-Backdrop-tutorial-1.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/how-lighting-affects-your-background-2025-08-28/",
+      "excerpt": "Lens Rentals | Blog Toggle navigation Blog Home Geek Articles How To's Reviews Categories Authors Equipment How Lighting Affects Your Background By Zach Sutton Published August 28, 2025 SHARE TWEET Over the years, I have discussed various lighting setups extensively on this bl…",
+      "source": "https://www.lensrentals.com/blog/2025/08/how-lighting-affects-your-background/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "14-things-you-didn-t-know-you-could-rent-from-us-2025-08-14",
       "date": "2025-08-14",
       "published_at": "2025-08-14T00:00:00Z",
@@ -25,10 +37,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-08-14",
+  "count": 3,
+  "updated_at": "2025-08-28",
   "pagination": {
-    "total_items": 2,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }

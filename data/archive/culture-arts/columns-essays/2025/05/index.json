@@ -239,12 +239,24 @@
       "excerpt": "A Message from the NEA’s Literary Arts Staff | Online Only | n+1 | The Editors Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-onlin…",
       "source": "https://www.nplusonemag.com/online-only/online-only/a-message-from-the-neas-literary-arts-staff/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-world-2025-05-06",
+      "date": "2025-05-06",
+      "published_at": "2025-05-06T00:00:00Z",
+      "created_at": "2025-05-06T00:00:00Z",
+      "title": "The World",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/05/hoyt.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-world-2025-05-06/",
+      "excerpt": "The World | Online Only | n+1 | Grace Nissan Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of Violence …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/the-world/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
+  "count": 21,
   "updated_at": "2025-05-28",
   "pagination": {
-    "total_items": 20,
+    "total_items": 21,
     "per_page": 12,
     "total_pages": 2
   }

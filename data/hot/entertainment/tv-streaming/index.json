@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "how-to-livestream-ireland-s-pittsburgh-steelers-vs-minnesota-vikings-g",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "How to Livestream Ireland’s Pittsburgh Steelers vs. Minnesota Vikings Game",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/sponsored-sling-football.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/how-to-livestream-ireland-s-pittsburgh-steelers-vs-minnesota-vikings-g/",
+      "excerpt": "Where to Watch Pittsburgh Steelers vs. Minnesota Vikings in Ireland WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: Nexstar and Sinclair to Retu…",
+      "source": "https://tvline.com/features/where-to-watch-steelers-vs-vikings-online-ireland-1235522904/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-to-watch-this-week-60-premieres-finales-and-more-2025-09-27",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "What to Watch This Week: 60+ Premieres, Finales and More",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/monster-ed-gein-story-netflix.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/what-to-watch-this-week-60-premieres-finales-and-more-2025-09-27/",
+      "excerpt": "TV Schedule: What to Watch & Stream Week of September 28, 2025 WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: Casting News: The Witcher Recasts…",
+      "source": "https://tvline.com/features/tv-schedule-what-to-watch-monster-ed-gein-story-netflix-1235522823/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-next-best-thing-to-come-out-of-finland-director-talks-sneakermania",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -37,6 +61,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "netflix-leads-international-emmy-nominations-record-breaking-64-countr",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Netflix Leads International Emmy Nominations, Record-Breaking 64 Countries Across All Categories",
+      "cover": "https://variety.com/wp-content/uploads/2022/11/emmys.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/netflix-leads-international-emmy-nominations-record-breaking-64-countr/",
+      "excerpt": "International Emmy Awards 2025 Nominations Announced International Emmy Awards 2025 Nominations Announced Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awards Circuit Plus Icon Video Plu…",
+      "source": "https://variety.com/2025/tv/news/international-emmy-awards-2025-nominations-1236533204/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "gucci-family-series-game-over-set-at-sky-italia-in-response-to-ridley",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -58,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/grey-s-anatomy-showrunner-throws-open-the-o-r-door-to-sophia-bush-s-fu/",
       "excerpt": "Is Sophia Bush Returning To 'Grey's Anatomy' In Season 22 As Cass? WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: Chris Meloni Says He Ad-Libbe…",
       "source": "https://tvline.com/interviews/sophia-bush-returning-greys-anatomy-season-22-cass-1235522927/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brilliant-minds-zachary-quinto-oliver-recognizes-the-damage-he-did-to",
+      "date": "2025-09-27",
+      "published_at": "2025-09-27T00:00:00Z",
+      "created_at": "2025-09-27T00:00:00Z",
+      "title": "Brilliant Minds’ Zachary Quinto: Oliver ‘Recognizes the Damage He Did’ to Josh — But Can He Fix It?",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/brilliant-minds-season-2-wolf-nichols-zachary-quinto-interview.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/brilliant-minds-zachary-quinto-oliver-recognizes-the-damage-he-did-to/",
+      "excerpt": "'Brilliant Minds' Wolf and Nichols in Season 2 -- Zachary Quinto Interview WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: TVLine Asks: Is 9-1-1…",
+      "source": "https://tvline.com/previews/brilliant-minds-season-2-wolf-nichols-zachary-quinto-interview-1235523021/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -925,10 +973,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
-  "updated_at": "2025-09-27",
+  "count": 81,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 77,
+    "total_items": 81,
     "per_page": 12,
     "total_pages": 7
   }
