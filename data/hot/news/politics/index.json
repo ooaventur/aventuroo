@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "trump-s-moves-to-consolidate-power-punish-enemies-draw-comparisons-to",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Trump's moves to consolidate power, punish enemies draw comparisons to places where democracy faded",
+      "cover": "https://s.abcnews.com/images/US/wirestory_d7b0fac7c5e135bf75b3c125e8335a5d_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/trump-s-moves-to-consolidate-power-punish-enemies-draw-comparisons-to/",
+      "excerpt": "Trump's moves to consolidate power, punish enemies draw comparisons to places where democracy faded - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Of…",
+      "source": "https://abcnews.go.com/Politics/wireStory/trumps-moves-consolidate-power-punish-enemies-draw-comparisons-126008222",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "intense-and-intentional-training-is-helping-democratic-women-gain-stat",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Intense and intentional training is helping Democratic women gain state lawmaking seats",
+      "cover": "https://s.abcnews.com/images/US/wirestory_31a993cdc4e7eded5e39bd33eaa147cd_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/intense-and-intentional-training-is-helping-democratic-women-gain-stat/",
+      "excerpt": "Intense and intentional training is helping Democratic women gain state lawmaking seats - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream …",
+      "source": "https://abcnews.go.com/Politics/wireStory/intense-intentional-training-helping-democratic-women-gain-state-126008122",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-s-vast-federal-cuts-create-distrust-on-capitol-hill-as-shutdown",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1261,10 +1285,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 105,
-  "updated_at": "2025-09-27",
+  "count": 107,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 105,
+    "total_items": 107,
     "per_page": 12,
     "total_pages": 9
   }

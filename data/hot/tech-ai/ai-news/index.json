@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "top-10-local-llms-2025-context-windows-vram-targets-and-licenses-compa",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Top 10 Local LLMs (2025): Context Windows, VRAM Targets, and Licenses Compared",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/900x500-11-scaled.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/top-10-local-llms-2025-context-windows-vram-targets-and-licenses-compa/",
+      "excerpt": "Top 10 Local LLMs (2025): Context Windows, VRAM Targets, and Licenses Compared - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusiv…",
+      "source": "https://www.marktechpost.com/2025/09/27/top-10-local-llms-2025-context-windows-vram-targets-and-licenses-compared/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-is-asyncio-getting-started-with-asynchronous-python-and-using-asy",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -253,10 +265,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 21,
-  "updated_at": "2025-09-27",
+  "count": 22,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 21,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

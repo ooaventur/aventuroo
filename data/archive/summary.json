@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-28",
   "per_page": 12,
-  "total_items": 642,
+  "total_items": 667,
   "parents": [
     {
       "parent": "business-finance",
@@ -85,13 +85,13 @@
     },
     {
       "parent": "culture-arts",
-      "items": 90,
+      "items": 95,
       "pages": 8,
       "children": [
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 51,
+          "items": 56,
           "pages": 5,
           "months": [
             {
@@ -121,7 +121,13 @@
             {
               "year": 2025,
               "month": 4,
-              "items": 4,
+              "items": 8,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 3,
+              "items": 1,
               "pages": 1
             }
           ]
@@ -196,8 +202,8 @@
     },
     {
       "parent": "entertainment",
-      "items": 92,
-      "pages": 8,
+      "items": 97,
+      "pages": 9,
       "children": [
         {
           "child": "cinematography",
@@ -254,7 +260,7 @@
         {
           "child": "history-essays",
           "slug": "entertainment/history-essays",
-          "items": 74,
+          "items": 79,
           "pages": 7,
           "months": [
             {
@@ -296,7 +302,7 @@
             {
               "year": 2025,
               "month": 1,
-              "items": 1,
+              "items": 6,
               "pages": 1
             }
           ]
@@ -719,13 +725,13 @@
     },
     {
       "parent": "travel",
-      "items": 255,
-      "pages": 22,
+      "items": 270,
+      "pages": 23,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 76,
+          "items": 81,
           "pages": 7,
           "months": [
             {
@@ -755,7 +761,7 @@
             {
               "year": 2025,
               "month": 4,
-              "items": 2,
+              "items": 7,
               "pages": 1
             },
             {
@@ -781,7 +787,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 76,
+          "items": 81,
           "pages": 7,
           "months": [
             {
@@ -847,6 +853,12 @@
             {
               "year": 2024,
               "month": 10,
+              "items": 5,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 9,
               "items": 5,
               "pages": 1
             },
@@ -965,7 +977,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 75,
+          "items": 80,
           "pages": 7,
           "months": [
             {
@@ -1024,8 +1036,14 @@
             },
             {
               "year": 2024,
+              "month": 10,
+              "items": 3,
+              "pages": 1
+            },
+            {
+              "year": 2024,
               "month": 9,
-              "items": 1,
+              "items": 3,
               "pages": 1
             },
             {

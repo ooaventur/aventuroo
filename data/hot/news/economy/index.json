@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "netanyahu-is-undermining-israel-s-economy-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Netanyahu is undermining Israel’s economy",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc5d123e8-862b-4d95-a921-ab1310eb9943.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/netanyahu-is-undermining-israel-s-economy-2025-09-28/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/88e13182-9e97-4ce0-b4ec-f7dd19f64198",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brussels-told-to-prove-digital-rules-do-not-punish-us-tech-or-fix-them",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Brussels told to prove digital rules do not ‘punish’ US tech or fix them",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd768bc1e-15ea-4c92-a858-6780935074c0.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/brussels-told-to-prove-digital-rules-do-not-punish-us-tech-or-fix-them/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/b6d9fb9c-901e-42e3-9610-5a449247fd49",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-soyabean-farmers-squeezed-as-china-blocks-imports-and-stockpiles-ri",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1021,10 +1045,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 85,
-  "updated_at": "2025-09-27",
+  "count": 87,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 85,
+    "total_items": 87,
     "per_page": 12,
     "total_pages": 8
   }

@@ -47,12 +47,60 @@
       "excerpt": "Man About Town | Online Only | n+1 | Mariana Mogilevich Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree o…",
       "source": "https://www.nplusonemag.com/online-only/online-only/man-about-town/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "patrick-s-journey-the-play-2025-04-08",
+      "date": "2025-04-08",
+      "published_at": "2025-04-08T00:00:00Z",
+      "created_at": "2025-04-08T00:00:00Z",
+      "title": "Patrick’s Journey: The Play",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/04/folk.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/patrick-s-journey-the-play-2025-04-08/",
+      "excerpt": "Patrick’s Journey: The Play | Online Only | n+1 | Kate Folk Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tr…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/patricks-journey-the-play/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "diary-of-a-spreadsheet-2025-04-07",
+      "date": "2025-04-07",
+      "published_at": "2025-04-07T00:00:00Z",
+      "created_at": "2025-04-07T00:00:00Z",
+      "title": "Diary of a Spreadsheet",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/04/service-pnp-vrg-20500-20555v.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/diary-of-a-spreadsheet-2025-04-07/",
+      "excerpt": "Diary of a Spreadsheet | Online Only | n+1 | Chelsea Kirk Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/diary-of-a-spreadsheet/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mama-writes-i-write-2025-04-04",
+      "date": "2025-04-04",
+      "published_at": "2025-04-04T00:00:00Z",
+      "created_at": "2025-04-04T00:00:00Z",
+      "title": "Mama Writes. I Write.",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/04/Rymbu-building.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/mama-writes-i-write-2025-04-04/",
+      "excerpt": "Mama Writes. I Write. | Online Only | n+1 | Galina Rymbu Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/mama-writes-i-write/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "malcolm-harris-in-new-york-2025-04-01",
+      "date": "2025-04-01",
+      "published_at": "2025-04-01T00:00:00Z",
+      "created_at": "2025-04-01T00:00:00Z",
+      "title": "Malcolm Harris in New York",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/04/WhatsLeft_WEB.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/malcolm-harris-in-new-york-2025-04-01/",
+      "excerpt": "Malcolm Harris in New York | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of Violenc…",
+      "source": "https://www.nplusonemag.com/online-only/events/malcolm-harris-in-new-york/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 4,
+  "count": 8,
   "updated_at": "2025-04-29",
   "pagination": {
-    "total_items": 4,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

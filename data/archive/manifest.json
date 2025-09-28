@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-28",
   "per_page": 12,
-  "total_items": 642,
+  "total_items": 667,
   "shards": [
     {
       "parent": "business-finance",
@@ -99,11 +99,24 @@
       "child": "columns-essays",
       "slug": "culture-arts/columns-essays",
       "year": 2025,
+      "month": 3,
+      "path": "culture-arts/columns-essays/2025/03/index.json",
+      "path_gz": "culture-arts/columns-essays/2025/03/index.json.gz",
+      "items": 1,
+      "first_date": "2025-03-29",
+      "last_date": "2025-03-29",
+      "pages": 1
+    },
+    {
+      "parent": "culture-arts",
+      "child": "columns-essays",
+      "slug": "culture-arts/columns-essays",
+      "year": 2025,
       "month": 4,
       "path": "culture-arts/columns-essays/2025/04/index.json",
       "path_gz": "culture-arts/columns-essays/2025/04/index.json.gz",
-      "items": 4,
-      "first_date": "2025-04-11",
+      "items": 8,
+      "first_date": "2025-04-01",
       "last_date": "2025-04-29",
       "pages": 1
     },
@@ -336,8 +349,8 @@
       "month": 1,
       "path": "entertainment/history-essays/2025/01/index.json",
       "path_gz": "entertainment/history-essays/2025/01/index.json.gz",
-      "items": 1,
-      "first_date": "2025-01-29",
+      "items": 6,
+      "first_date": "2025-01-16",
       "last_date": "2025-01-29",
       "pages": 1
     },
@@ -1129,7 +1142,7 @@
       "month": 4,
       "path": "travel/destinations/2025/04/index.json",
       "path_gz": "travel/destinations/2025/04/index.json.gz",
-      "items": 2,
+      "items": 7,
       "first_date": "2025-04-14",
       "last_date": "2025-04-29",
       "pages": 1
@@ -1249,6 +1262,19 @@
       "items": 1,
       "first_date": "2024-06-03",
       "last_date": "2024-06-03",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2024,
+      "month": 9,
+      "path": "travel/experiences/2024/09/index.json",
+      "path_gz": "travel/experiences/2024/09/index.json.gz",
+      "items": 5,
+      "first_date": "2024-09-17",
+      "last_date": "2024-09-24",
       "pages": 1
     },
     {
@@ -1545,9 +1571,22 @@
       "month": 9,
       "path": "travel/trip-ideas/2024/09/index.json",
       "path_gz": "travel/trip-ideas/2024/09/index.json.gz",
-      "items": 1,
+      "items": 3,
       "first_date": "2024-09-03",
-      "last_date": "2024-09-03",
+      "last_date": "2024-09-30",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2024,
+      "month": 10,
+      "path": "travel/trip-ideas/2024/10/index.json",
+      "path_gz": "travel/trip-ideas/2024/10/index.json.gz",
+      "items": 3,
+      "first_date": "2024-10-01",
+      "last_date": "2024-10-03",
       "pages": 1
     },
     {

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "hidden-alzheimer-s-warning-signs-found-in-parkinson-s-patients-without",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Hidden Alzheimer’s warning signs found in Parkinson’s patients without dementia",
+      "cover": "https://www.sciencedaily.com/images/1920/amyloid-plaques-forming-between-brain-neurons.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/hidden-alzheimer-s-warning-signs-found-in-parkinson-s-patients-without/",
+      "excerpt": "Hidden Alzheimer’s warning signs found in Parkinson’s patients without dementia | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News fro…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250927031217.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "four-strange-secrets-scientists-just-found-in-beer-and-wine-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Four strange secrets scientists just found in beer and wine",
+      "cover": "https://www.sciencedaily.com/images/1920/friends-drinking-at-outdoor-rooftop-bar.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/four-strange-secrets-scientists-just-found-in-beer-and-wine-2025-09-28/",
+      "excerpt": "Four strange secrets scientists just found in beer and wine | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250927031219.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "autism-may-be-the-price-of-human-intelligence-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Autism may be the price of human intelligence",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-neuroscience.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/autism-may-be-the-price-of-human-intelligence-2025-09-28/",
+      "excerpt": "Autism may be the price of human intelligence | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Autism ma…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250927031224.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-happens-to-your-body-when-you-eat-too-many-ultra-processed-foods",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -769,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
-  "updated_at": "2025-09-27",
+  "count": 67,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 64,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }
