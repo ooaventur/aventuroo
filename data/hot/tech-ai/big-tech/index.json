@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "a-look-at-openai-s-tangled-web-of-dealmaking-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "A look at OpenAI's tangled web of dealmaking",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108203057-17586652402025-09-23t214859z_181395313_rc2wxganf0ii_rtrmadp_0_tech-openai-texas.jpeg?v=1758900748&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/a-look-at-openai-s-tangled-web-of-dealmaking-2025-09-28/",
+      "excerpt": "A look at OpenAI's tangled web of dealmaking Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth …",
+      "source": "https://www.cnbc.com/2025/09/28/a-look-at-openais-tangled-web-of-dealmaking.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "5-takeaways-from-cnbc-s-investigation-into-nudify-apps-and-sites-2025",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "5 takeaways from CNBC’s investigation into 'nudify' apps and sites",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202454-1758646478899-three_shot_3.png?v=1758925569&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/5-takeaways-from-cnbc-s-investigation-into-nudify-apps-and-sites-2025/",
+      "excerpt": "5 takeaways from CNBC’s investigation into 'nudify' apps and sites Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indu…",
+      "source": "https://www.cnbc.com/2025/09/28/5-takeaways-from-cnbcs-investigation-into-nudify-apps-and-sites.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-a-nudify-site-turned-a-group-of-friends-into-key-figures-in-a-figh",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -517,10 +541,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 43,
-  "updated_at": "2025-09-27",
+  "count": 45,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 43,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

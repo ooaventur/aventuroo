@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "living-with-purpose-may-protect-your-brain-from-dementia-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Living with purpose may protect your brain from dementia",
+      "cover": "https://www.sciencedaily.com/images/1920/cute-girl-and-grandmother-cooking-in-kitchen.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/living-with-purpose-may-protect-your-brain-from-dementia-2025-09-28/",
+      "excerpt": "Living with purpose may protect your brain from dementia | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organization…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250927031227.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hidden-alzheimer-s-warning-signs-found-in-parkinson-s-patients-without",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -805,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 68,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 67,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }

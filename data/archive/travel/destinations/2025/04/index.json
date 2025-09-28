@@ -73,6 +73,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "how-to-spend-a-glamorous-weekend-in-cannes-the-star-of-the-french-rivi",
+      "date": "2025-04-14",
+      "published_at": "2025-04-14T00:00:00Z",
+      "created_at": "2025-04-14T00:00:00Z",
+      "title": "How to spend a glamorous weekend in Cannes – the star of the French Riviera",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/cannes-GettyImages-1397335531.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/how-to-spend-a-glamorous-weekend-in-cannes-the-star-of-the-french-rivi/",
+      "excerpt": "How to spend a weekend in Cannes | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Trav…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/france/cote-d-azur/cannes/articles/cannes-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "flying-with-weed-tsa-marijuana-rules-explained-2025-04-14",
       "date": "2025-04-14",
       "published_at": "2025-04-14T00:00:00Z",
@@ -83,12 +95,60 @@
       "excerpt": "Here's what you need to know if you ever think about traveling by plane with cannabis.",
       "source": "https://www.travelpulse.com/news/airlines-airports/flying-with-weed-tsa-marijuana-rules-explained?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-honeymoon-hotels-in-the-uk-for-2025-2025-04-11",
+      "date": "2025-04-11",
+      "published_at": "2025-04-11T00:00:00Z",
+      "created_at": "2025-04-11T00:00:00Z",
+      "title": "The best honeymoon hotels in the UK for 2025",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/april/beaverbrook-surrey-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-honeymoon-hotels-in-the-uk-for-2025-2025-04-11/",
+      "excerpt": "Best honeymoon hotels in the UK | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Trave…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/articles/best-uk-honeymoons-and-minimoons-hotels/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-secret-to-the-perfect-holiday-in-the-lake-district-2025-04-10",
+      "date": "2025-04-10",
+      "published_at": "2025-04-10T00:00:00Z",
+      "created_at": "2025-04-10T00:00:00Z",
+      "title": "The secret to the perfect holiday in the Lake District",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/England/Lake District/lake-district-destination-guide-lead.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-secret-to-the-perfect-holiday-in-the-lake-district-2025-04-10/",
+      "excerpt": "An expert guide to a weekend in the Lake District | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscrib…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cumbria/lake-district/articles/lake-district-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-beach-hotels-in-greece-for-a-coastal-retreat-2025-04-09",
+      "date": "2025-04-09",
+      "published_at": "2025-04-09T00:00:00Z",
+      "created_at": "2025-04-09T00:00:00Z",
+      "title": "The best beach hotels in Greece for a coastal retreat",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/may/ikos-greece-beach-deluxe-collection.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-beach-hotels-in-greece-for-a-coastal-retreat-2025-04-09/",
+      "excerpt": "The best beach hotels in Greece | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Trave…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/greece/articles/best-beach-hotels-in-greece/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-spa-hotels-in-london-for-a-city-retreat-2025-04-08",
+      "date": "2025-04-08",
+      "published_at": "2025-04-08T00:00:00Z",
+      "created_at": "2025-04-08T00:00:00Z",
+      "title": "The best spa hotels in London for a city retreat",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/march/the-ned-hotel-spa.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-spa-hotels-in-london-for-a-city-retreat-2025-04-08/",
+      "excerpt": "The best spa hotels in London | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/london/articles/best-spa-hotels-london/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 7,
+  "count": 12,
   "updated_at": "2025-04-29",
   "pagination": {
-    "total_items": 7,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

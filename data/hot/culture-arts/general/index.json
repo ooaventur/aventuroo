@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "restaurant-review-mommy-pai-s-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Restaurant Review: Mommy Pai’s",
+      "cover": "https://media.newyorker.com/photos/68d5527f8ea7082b4d7bd82f/master/pass/OPTION%202%20-%20soft%20serve.gif",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-mommy-pai-s-2025-09-28/",
+      "excerpt": "Restaurant Review: Mommy Pai’s | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The Food Scene A C…",
+      "source": "https://www.newyorker.com/culture/the-food-scene/a-chicken-finger-joint-from-the-masterminds-behind-thai-diner",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chris-kraus-reinvents-the-true-crime-novel-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Chris Kraus Reinvents the True-Crime Novel",
+      "cover": "https://media.newyorker.com/photos/68d580f225e099509090beed/master/pass/WILSON--CHRIS-KRAUS---Arielle_Bobb-Willis_DSC_5035-(1).jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/chris-kraus-reinvents-the-true-crime-novel-2025-09-28/",
+      "excerpt": "Chris Kraus Reinvents the True-Crime Novel | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The Ne…",
+      "source": "https://www.newyorker.com/culture/the-new-yorker-interview/chris-kraus-reinvents-the-true-crime-novel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-catherine-leroy-s-fearless-photographs-reveal-about-the-vietnam-w",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1189,10 +1213,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 99,
-  "updated_at": "2025-09-27",
+  "count": 101,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 99,
+    "total_items": 101,
     "per_page": 12,
     "total_pages": 9
   }

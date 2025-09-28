@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "what-will-us-jobs-data-tell-us-about-the-fed-s-path-forward-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "What will US jobs data tell us about the Fed’s path forward?",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F40b00c72-1fc8-44b3-9bda-d716a9bb6921.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/what-will-us-jobs-data-tell-us-about-the-fed-s-path-forward-2025-09-28/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/1b525335-e965-43cf-9a61-291b1c4c109c",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "trump-s-tariffs-are-hurting-india-s-shrimp-industry-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Trump's tariffs are hurting India's shrimp industry",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/news/economy/trump-s-tariffs-are-hurting-india-s-shrimp-industry-2025-09-28/",
+      "excerpt": "Trump's tariffs are hurting India's shrimp industry : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Business He…",
+      "source": "https://www.npr.org/2025/09/28/nx-s1-5528611/trumps-tariffs-are-hurting-indias-shrimp-industry",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "no-the-uk-has-not-reached-peak-graduate-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "No, the UK has not reached ‘peak graduate’",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0cebf663-54c2-4462-a7e8-abefd638e2f6.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/no-the-uk-has-not-reached-peak-graduate-2025-09-28/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/3df3b02a-6998-40f6-95a2-5b39248629b2",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "netanyahu-is-undermining-israel-s-economy-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -1045,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 87,
+  "count": 90,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 87,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }

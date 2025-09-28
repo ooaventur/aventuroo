@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "somebody-is-walking-on-your-grave-is-a-journey-to-cemeteries-across-4",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "'Somebody Is Walking on Your Grave' is a journey to cemeteries across 4 continents",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/somebody-is-walking-on-your-grave-is-a-journey-to-cemeteries-across-4/",
+      "excerpt": "'Somebody Is Walking on Your Grave' is a journey to cemeteries across 4 continents : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News Nati…",
+      "source": "https://www.npr.org/2025/09/28/nx-s1-5501614/somebody-is-walking-on-your-grave-is-a-journey-to-cemeteries-across-4-continents",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "lit-hub-weekly-september-22-25-2025-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -949,10 +961,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 79,
-  "updated_at": "2025-09-27",
+  "count": 80,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 79,
+    "total_items": 80,
     "per_page": 12,
     "total_pages": 7
   }

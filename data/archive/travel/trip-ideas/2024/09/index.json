@@ -25,6 +25,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-truth-about-antarctica-8-burning-myths-about-the-coldest-place-on",
+      "date": "2024-09-17",
+      "published_at": "2024-09-17T00:00:00Z",
+      "created_at": "2024-09-17T00:00:00Z",
+      "title": "The truth about Antarctica – 8 burning myths about the coldest place on Earth",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/09/Intrepid-Travel-antarctica_OE3-6-GQMCN-sony-ambassador_20221226-180020-7R505862-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/the-truth-about-antarctica-8-burning-myths-about-the-coldest-place-on/",
+      "excerpt": "The truth about Antarctica – 8 burning myths about the coldest place on Earth | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Go…",
+      "source": "https://www.intrepidtravel.com/adventures/the-8-antarctica-questions-you-want-answered/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "on-four-back-to-back-trips-intrepid-leaders-made-all-the-difference-fo",
+      "date": "2024-09-17",
+      "published_at": "2024-09-17T00:00:00Z",
+      "created_at": "2024-09-17T00:00:00Z",
+      "title": "On four back-to-back trips, Intrepid leaders made all the difference for this traveller",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/09/emma-leaders-head.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/on-four-back-to-back-trips-intrepid-leaders-made-all-the-difference-fo/",
+      "excerpt": "On four back-to-back trips, Intrepid leaders made all the difference for this traveller | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Goo…",
+      "source": "https://www.intrepidtravel.com/adventures/intrepid-leaders-made-all-the-difference/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "lgbtqia-travel-hotspots-must-see-destinations-for-your-next-adventure",
+      "date": "2024-09-16",
+      "published_at": "2024-09-16T00:00:00Z",
+      "created_at": "2024-09-16T00:00:00Z",
+      "title": "LGBTQIA+ travel hotspots: Must-see destinations for your next adventure",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/09/Intrepid-Travel-Iceland-Reykjavik-pride-flag-asphalt-rainbow-reflection-GettyImages-837461378.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/lgbtqia-travel-hotspots-must-see-destinations-for-your-next-adventure/",
+      "excerpt": "LGBTQIA+ travel hotspots: Must-see destinations for your next adventure | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Lif…",
+      "source": "https://www.intrepidtravel.com/adventures/lgbtqia-travel-hotspots-must-see-destination/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "why-tasmania-was-the-place-for-a-spontaneous-close-to-home-trip-2024-0",
+      "date": "2024-09-13",
+      "published_at": "2024-09-13T00:00:00Z",
+      "created_at": "2024-09-13T00:00:00Z",
+      "title": "Why Tasmania was the place for a spontaneous, close-to-home trip",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/09/Gemma-Tassie-Feature.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/why-tasmania-was-the-place-for-a-spontaneous-close-to-home-trip-2024-0/",
+      "excerpt": "Why Tasmania was the place for a spontaneous, close-to-home trip | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good …",
+      "source": "https://www.intrepidtravel.com/adventures/adventures-close-to-home/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "where-i-ve-found-the-most-meaningful-souvenirs-on-my-travels-2024-09-1",
+      "date": "2024-09-13",
+      "published_at": "2024-09-13T00:00:00Z",
+      "created_at": "2024-09-13T00:00:00Z",
+      "title": "Where I’ve found the most meaningful souvenirs on my travels",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/09/Bike-on-travel-shelf.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/where-i-ve-found-the-most-meaningful-souvenirs-on-my-travels-2024-09-1/",
+      "excerpt": "Where I've found the most meaningful souvenirs on my travels | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life Good Idea…",
+      "source": "https://www.intrepidtravel.com/adventures/meaningful-souvenirs/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "iceland-and-the-somewhat-elusive-northern-lights-2024-09-03",
       "date": "2024-09-03",
       "published_at": "2024-09-03T00:00:00Z",
@@ -37,10 +97,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 3,
+  "count": 8,
   "updated_at": "2024-09-30",
   "pagination": {
-    "total_items": 3,
+    "total_items": 8,
     "per_page": 12,
     "total_pages": 1
   }

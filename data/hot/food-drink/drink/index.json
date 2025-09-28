@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-does-reading-the-pearls-mean-in-mezcal-production-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "What Does ‘Reading the Pearls’ Mean in Mezcal Production?",
+      "cover": "https://vinepair.com/wp-content/uploads/2025/09/mezcal-pearls-social.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/what-does-reading-the-pearls-mean-in-mezcal-production-2025-09-28/",
+      "excerpt": "What Does 'Reading the Pearls' Mean in Mezcal Production? | VinePair VinePair - Drinking Is Culture Articles Beer Cheese Coffee Spirits Wine Booze News Columns Ask Adam Buy This Booze Free Pour Good Wines You Can Actually Find Hop Take Need To Know Techniques! We Asked Reviews…",
+      "source": "https://vinepair.com/articles/reading-the-pearls-mezcal-explained/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "insider-s-week-in-beer-next-round-is-on-the-chimpanzees-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1729,11 +1741,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 144,
-  "updated_at": "2025-09-27",
+  "count": 145,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 144,
+    "total_items": 145,
     "per_page": 12,
-    "total_pages": 12
+    "total_pages": 13
   }
 }

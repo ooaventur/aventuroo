@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "i-ve-become-the-slow-weirdo-on-my-local-group-ride-i-m-ok-with-it-2025",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "I’ve Become the Slow Weirdo on My Local Group Ride. I’m OK With It.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/Ride2.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/i-ve-become-the-slow-weirdo-on-my-local-group-ride-i-m-ok-with-it-2025/",
+      "excerpt": "I Get Dropped on My Local Group Ride and I’m OK With It Outside Online logo Adventure > Biking I’ve Become the Slow Weirdo on My Local Group Ride. I’m OK With It. Our articles editor reckons with his new role on the local bicycle ride: guy who tries hard and gets dropped Share…",
+      "source": "https://www.outsideonline.com/outdoor-adventure/biking/cycling-group-rides/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-physical-therapist-approved-butt-workout-to-reduce-knee-pain-2025-09",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "A Physical Therapist-Approved Butt Workout to Reduce Knee Pain",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/glute-exercises-knee-pain.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/a-physical-therapist-approved-butt-workout-to-reduce-knee-pain-2025-09/",
+      "excerpt": "4 Glute Exercises to Get Rid of Knee Pain Outside Online logo If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy Health > Training & Performance …",
+      "source": "https://www.outsideonline.com/health/training-performance/glute-exercises-knee-pain/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "topropers-unite-how-to-convince-others-to-haul-you-up-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1657,10 +1681,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 138,
-  "updated_at": "2025-09-27",
+  "count": 140,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 138,
+    "total_items": 140,
     "per_page": 12,
     "total_pages": 12
   }
