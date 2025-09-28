@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "ski-for-9-these-4-resorts-have-the-cheapest-early-season-lift-tickets",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Ski for $9? These 4 Resorts Have the Cheapest Early-Season Lift Tickets.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/Lee-Canyon-lift.jpeg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/ski-for-9-these-4-resorts-have-the-cheapest-early-season-lift-tickets/",
+      "excerpt": "Ski Areas with Ridiculously Cheap Lift Tickets Outside Online logo Originally posted on SKI Travel > Destinations > North America Ski for $9? These 4 Resorts Have the Cheapest Early-Season Lift Tickets. To kick off the ski season, a handful of resorts are selling crazy-inexpen…",
+      "source": "https://www.outsideonline.com/adventure-travel/destinations/north-america/ski-resorts-cheapest-early-season-lift-tickets/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "i-ve-become-the-slow-weirdo-on-my-local-group-ride-i-m-ok-with-it-2025",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/a-physical-therapist-approved-butt-workout-to-reduce-knee-pain-2025-09/",
       "excerpt": "4 Glute Exercises to Get Rid of Knee Pain Outside Online logo If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy Health > Training & Performance …",
       "source": "https://www.outsideonline.com/health/training-performance/glute-exercises-knee-pain/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-float-trip-with-your-own-private-jam-band-it-s-even-better-than-it-s",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "A Float Trip With Your Own Private Jam Band? It’s Even Better Than It Sounds.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/RWG_KD_MollyMcCormickPhoto-4113-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/a-float-trip-with-your-own-private-jam-band-it-s-even-better-than-it-s/",
+      "excerpt": "I Went Rafting With a Jam Band. It Was Better Than It Sounds. Outside Online logo Travel > Destinations > North America A Float Trip With Your Own Private Jam Band? It’s Even Better Than It Sounds. With natural amphitheaters, soaring vibes, and built-in entertainment, raft tri…",
+      "source": "https://www.outsideonline.com/adventure-travel/destinations/north-america/raft-trip-live-music/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1681,10 +1705,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 140,
+  "count": 142,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 140,
+    "total_items": 142,
     "per_page": 12,
     "total_pages": 12
   }

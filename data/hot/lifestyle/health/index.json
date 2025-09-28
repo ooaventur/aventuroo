@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "new-inhaler-halves-childhood-asthma-attacks-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "New inhaler halves childhood asthma attacks",
+      "cover": "https://www.sciencedaily.com/images/1920/boy-using-asthma-inhaler-outside.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-inhaler-halves-childhood-asthma-attacks-2025-09-28/",
+      "excerpt": "New inhaler halves childhood asthma attacks | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations New inhaler…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250928095611.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "living-with-purpose-may-protect-your-brain-from-dementia-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -25,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fruit-might-be-the-surprising-key-to-healthier-lungs-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Fruit might be the surprising key to healthier lungs",
+      "cover": "https://www.sciencedaily.com/images/1920/happy-healthy-woman-eating-apple.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/fruit-might-be-the-surprising-key-to-healthier-lungs-2025-09-28/",
+      "excerpt": "Fruit might be the surprising key to healthier lungs | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Fr…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250928095620.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "four-strange-secrets-scientists-just-found-in-beer-and-wine-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/four-strange-secrets-scientists-just-found-in-beer-and-wine-2025-09-28/",
       "excerpt": "Four strange secrets scientists just found in beer and wine | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250927031219.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "doctors-tested-a-common-drug-on-covid-the-results-are-stunning-2025-09",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Doctors tested a common drug on COVID. The results are stunning",
+      "cover": "https://www.sciencedaily.com/images/1920/punching-virus-beating-infection.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/doctors-tested-a-common-drug-on-covid-the-results-are-stunning-2025-09/",
+      "excerpt": "Doctors tested a common drug on COVID. The results are stunning | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organ…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250928095616.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -817,10 +853,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 68,
+  "count": 71,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 68,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }

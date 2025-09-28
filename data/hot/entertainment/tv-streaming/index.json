@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "jeff-probst-says-survivor-could-potentially-go-on-forever-i-hope-that",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Jeff Probst Says Survivor Could Potentially Go On Forever: ‘I Hope That If My Time Comes to an End…’",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/survivor-jeff-probst.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/jeff-probst-says-survivor-could-potentially-go-on-forever-i-hope-that/",
+      "excerpt": "Jeff Probst on the Future of Survivor, Seasons 51, 52 and Beyond WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: TVLine Asks: Is 9-1-1 Sending t…",
+      "source": "https://tvline.com/interviews/jeff-probst-future-of-survivor-season-51-52-interview-1235522746/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-livestream-ireland-s-pittsburgh-steelers-vs-minnesota-vikings-g",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -973,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 81,
+  "count": 82,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 81,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

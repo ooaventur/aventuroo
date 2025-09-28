@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-cell-vs-the-crystal-the-philosopher-naturalist-john-burroughs-on-w",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "The Cell vs. the Crystal: The Philosopher-Naturalist John Burroughs on What Makes a Great Poem and a Great Person",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2025/09/BeautifulBrain_cajal00.jpg?fit=1090%2C572&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-cell-vs-the-crystal-the-philosopher-naturalist-john-burroughs-on-w/",
+      "excerpt": "The Cell vs. the Crystal: The Philosopher-Naturalist John Burroughs on What Makes a Great Poem and a Great Person – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Margin…",
+      "source": "https://www.themarginalian.org/2025/09/28/john-burroughs-cell-crystal/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-entrepreneurs-are-using-festival-marketing-strategies-to-build-bra",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -625,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 52,
+  "count": 53,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 52,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

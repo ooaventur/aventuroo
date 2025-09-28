@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "selena-gomez-benny-blanco-rented-out-this-lavish-hotel-for-their-weddi",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Selena Gomez & Benny Blanco Rented Out This Lavish Hotel For Their Wedding Weekend—Here's What's On The Menu",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/screenshot-2025-09-28-at-9-56-47-am-68d93eda410b1.png",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/selena-gomez-benny-blanco-rented-out-this-lavish-hotel-for-their-weddi/",
+      "excerpt": "Selena & Benny Rented Out This Hotel For Their Wedding Weekend—Peep The Menu We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My R…",
+      "source": "https://www.delish.com/food-news/a68099881/selena-gomez-wedding-el-encanto-menu/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "58-million-pounds-of-meat-products-recalled-due-to-dangerous-wood-cont",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "58 Million Pounds Of Meat Products Recalled Due To Dangerous Wood Contamination",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/corn-dogs-royalty-free-image-1759070001.pjpeg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/58-million-pounds-of-meat-products-recalled-due-to-dangerous-wood-cont/",
+      "excerpt": "58 Million Pounds Of Meat Products Recalled Due To Wood Contamination We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes …",
+      "source": "https://www.delish.com/food-news/a68100383/hillshire-brands-recall/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "snag-free-coffee-more-for-national-coffee-day-at-these-chains-2025-09",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1297,11 +1321,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 108,
-  "updated_at": "2025-09-27",
+  "count": 110,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 108,
+    "total_items": 110,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

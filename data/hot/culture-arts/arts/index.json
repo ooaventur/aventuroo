@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "rising-artist-ginny-casey-has-spent-years-painting-a-make-believe-cera",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Rising Artist Ginny Casey Has Spent Years Painting a Make-Believe Ceramics Studio",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/2025_09_12_MULROONEY80250-copy.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/rising-artist-ginny-casey-has-spent-years-painting-a-make-believe-cera/",
+      "excerpt": "Rising Artist Ginny Casey Has Spent Years Painting a Make-Believe Ceramics Studio Price Database 28 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics …",
+      "source": "https://news.artnet.com/art-world/ginny-casey-megan-mulrooney-2687120",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-s-first-big-chatgpt-campaign-signals-a-new-era-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "OpenAI's first big ChatGPT campaign signals a new era",
+      "cover": "https://www.creativeboom.com/upload/articles/1600/56532f759f48e6c5efac7d9170177964047f4ddd_800.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/openai-s-first-big-chatgpt-campaign-signals-a-new-era-2025-09-28/",
+      "excerpt": "OpenAI's first big ChatGPT campaign signals a new era | Creative Boom Subscribe Latest News Inspiration Insight Tips Resources Podcast Community Topics Advertising Animation Art & Culture Creative Industry Digital Film Graphic Design Illustration Photography Product Design Pub…",
+      "source": "https://www.creativeboom.com/news/openais-first-big-chatgpt-campaign-signals-a-new-era/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "long-overlooked-minnie-evans-s-mystical-landscapes-are-finally-getting",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Long Overlooked, Minnie Evans’s Mystical Landscapes Are Finally Getting the Spotlight",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/08/1_Three-faces-divided-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/long-overlooked-minnie-evans-s-mystical-landscapes-are-finally-getting/",
+      "excerpt": "Long Overlooked, Minnie Evans’s Mystical Landscapes Are Finally Getting the Spotlight Price Database 28 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analyt…",
+      "source": "https://news.artnet.com/art-world/minnie-evans-mfa-boston-2681611",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "john-lennon-s-infamous-lost-weekend-sunglasses-are-up-for-grabs-2025-0",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1489,10 +1525,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 124,
-  "updated_at": "2025-09-27",
+  "count": 127,
+  "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 124,
+    "total_items": 127,
     "per_page": 12,
     "total_pages": 11
   }

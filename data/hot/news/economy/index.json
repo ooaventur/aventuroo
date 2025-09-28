@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "spain-has-become-europe-s-standout-economy-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Spain has become Europe’s standout economy",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F22e42199-9bbd-4d46-a253-5e7a0c2eaacd.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/spain-has-become-europe-s-standout-economy-2025-09-28/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/643a6a5d-f5af-464c-86c3-0fe5396d707e",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "no-the-uk-has-not-reached-peak-graduate-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/brussels-told-to-prove-digital-rules-do-not-punish-us-tech-or-fix-them/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/b6d9fb9c-901e-42e3-9610-5a449247fd49",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-significant-moment-for-leadership-of-japan-and-uk-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "A significant moment for leadership of Japan and UK",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff0908393-2de6-4111-b653-c509488e1079.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/a-significant-moment-for-leadership-of-japan-and-uk-2025-09-28/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/938bb4ee-22fa-4e82-8720-84edbac735fa",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1081,10 +1105,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 90,
+  "count": 92,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 90,
+    "total_items": 92,
     "per_page": 12,
     "total_pages": 8
   }
