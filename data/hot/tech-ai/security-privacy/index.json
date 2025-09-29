@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "ukrainian-cops-spoofed-in-fileless-phishing-attacks-on-kyiv-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Ukrainian Cops Spoofed in Fileless Phishing Attacks on Kyiv",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltff00112bc10ce5c8/68da730c16c7e7b3dc5053cf/Ukraine-Russia(1800)_Daniren_Alamy.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ukrainian-cops-spoofed-in-fileless-phishing-attacks-on-kyiv-2025-09-29/",
+      "excerpt": "Attackers impersonate the National Police of Ukraine to deploy Amatera Stealer and PureMiner, using malicious Scalable Vector Graphics to trick victims.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/ukrainian-cops-spoofed-fileless-phishing-attacks-kyiv",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "uk-govt-backs-jlr-with-1-5-billion-loan-guarantee-after-cyberattack-20",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "UK govt backs JLR with £1.5 billion loan guarantee after cyberattack",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/10/Jaguar_Land_Rover_headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/uk-govt-backs-jlr-with-1-5-billion-loan-guarantee-after-cyberattack-20/",
+      "excerpt": "UK govt backs JLR with £1.5 billion loan guarantee after cyberattack News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to s…",
+      "source": "https://www.bleepingcomputer.com/news/security/uk-govt-backs-jlr-with-15-billion-loan-guarantee-after-cyberattack/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ransomware-gang-sought-bbc-reporter-s-help-in-hacking-media-giant-2025",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Ransomware gang sought BBC reporter’s help in hacking media giant",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/14/hand-holding-dollar-sign.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ransomware-gang-sought-bbc-reporter-s-help-in-hacking-media-giant-2025/",
+      "excerpt": "Ransomware gang sought BBC reporter’s help in hacking media giant News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to susp…",
+      "source": "https://www.bleepingcomputer.com/news/security/ransomware-gang-sought-bbc-reporters-help-in-hacking-media-giant/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-is-routing-gpt-4o-to-safety-models-when-it-detects-harmful-acti",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -22,6 +58,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/openai-is-routing-gpt-4o-to-safety-models-when-it-detects-harmful-acti/",
       "excerpt": "OpenAI is routing GPT-4o to safety models when it detects harmful activities News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows …",
       "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-routing-gpt-4o-to-safety-models-when-it-detects-harmful-activities/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "harrods-suffers-new-data-breach-exposing-430-000-customer-records-2025",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Harrods suffers new data breach exposing 430,000 customer records",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/05/01/harrods.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/harrods-suffers-new-data-breach-exposing-430-000-customer-records-2025/",
+      "excerpt": "Harrods suffers new data breach exposing 430,000 customer records News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to susp…",
+      "source": "https://www.bleepingcomputer.com/news/security/harrods-suffers-new-data-breach-exposing-430-000-customer-records/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "can-we-trust-ai-to-write-vulnerability-checks-here-s-what-we-found-202",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Can We Trust AI To Write Vulnerability Checks? Here's What We Found",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/09/26/trust-ai-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/can-we-trust-ai-to-write-vulnerability-checks-here-s-what-we-found-202/",
+      "excerpt": "Can We Trust AI To Write Vulnerability Checks? Here's What We Found News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to su…",
+      "source": "https://www.bleepingcomputer.com/news/security/can-we-trust-ai-to-write-vulnerability-checks-heres-what-we-found/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brave-launches-ask-brave-feature-to-fuse-ai-with-traditional-search-20",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Brave launches 'Ask Brave' feature to fuse AI with traditional search",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/06/22/brave-search-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/brave-launches-ask-brave-feature-to-fuse-ai-with-traditional-search-20/",
+      "excerpt": "Brave launches 'Ask Brave' feature to fuse AI with traditional search News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to …",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/brave-launches-ask-brave-feature-to-fuse-ai-with-traditional-search/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1093,11 +1165,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 91,
+  "count": 97,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 91,
+    "total_items": 97,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

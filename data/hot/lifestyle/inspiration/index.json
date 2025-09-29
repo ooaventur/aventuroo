@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "chatgpt-pulse-delivers-curated-news-and-insights-to-help-professionals",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "ChatGPT Pulse Delivers Curated News and Insights to Help Professionals Stay Informed Without Wasting Time",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/chatgpt-pulse-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/chatgpt-pulse-delivers-curated-news-and-insights-to-help-professionals/",
+      "excerpt": "ChatGPT Pulse: Daily AI Briefings for Busy Professionals | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> …",
+      "source": "https://www.success.com/chatgpt-pulse-daily-ai-briefings/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-cell-vs-the-crystal-the-philosopher-naturalist-john-burroughs-on-w",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -673,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 56,
+  "count": 57,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 56,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

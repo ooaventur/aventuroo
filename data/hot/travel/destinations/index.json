@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "whistler-is-winter-at-its-best-here-s-why-you-can-t-miss-it-this-seaso",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Whistler Is Winter at Its Best. Here’s Why You Can’t Miss It This Season.",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/246235-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/whistler-is-winter-at-its-best-here-s-why-you-can-t-miss-it-this-seaso/",
+      "excerpt": "How to Maximize a Trip to Whistler, the Ultimate Winter Destination Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Ai…",
+      "source": "https://matadornetwork.com/read/whistler-ultimate-winter-destination/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "whistler-is-winter-at-its-best-here-s-why-you-can-t-miss-it-this-sea-2",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Whistler Is Winter at Its Best. Here’s Why You Can’t Miss It This Season.",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/246235-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/whistler-is-winter-at-its-best-here-s-why-you-can-t-miss-it-this-sea-2/",
+      "excerpt": "How to Maximize a Trip to Whistler, the Ultimate Winter Destination Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Ai…",
+      "source": "https://matadornetwork.com/read/whistler-ultimate-winter-destination-canada/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-luxury-hotels-in-the-cotswolds-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The best luxury hotels in the Cotswolds",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/united-kingdom/Hotels - England/wiltshire/whatley-manor-hotel-wiltshire-p.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-luxury-hotels-in-the-cotswolds-2025-09-29/",
+      "excerpt": "The best luxury hotels in the Cotswolds | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cotswolds/articles/the-best-luxury-cotswolds-hotels/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "lo-mejor-del-invierno-est-en-whistler-te-contamos-por-qu-no-te-lo-pued",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Lo Mejor Del Invierno Está En Whistler. Te Contamos Por Qué No Te Lo Puedes Perder Esta Temporada.",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/246235-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/lo-mejor-del-invierno-est-en-whistler-te-contamos-por-qu-no-te-lo-pued/",
+      "excerpt": "Lo Mejor Del Invierno Está En Whistler Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Dallas-Fort Worth…",
+      "source": "https://matadornetwork.com/read/whistler-ultimate-winter-destination-mexico/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "busch-light-is-calling-all-people-named-hunter-and-those-who-wish-they",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Busch Light Is Calling All People Named Hunter (and Those Who Wish They Were) to Wisconsin for the Ultimate Gathering",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/2025-Busch-Light-Hunting-Cans-Become-A-Hunter-16x9-social.png",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/busch-light-is-calling-all-people-named-hunter-and-those-who-wish-they/",
+      "excerpt": "Busch Light to Host Hunter Gathering Wisconsin With Hunting Cans, Games, and Name Changes Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast B…",
+      "source": "https://matadornetwork.com/read/busch-hunter-gathering/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "five-of-the-best-scottish-castle-hotels-2025-09-26",
       "date": "2025-09-26",
       "published_at": "2025-09-26T00:00:00Z",
@@ -313,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
-  "updated_at": "2025-09-26",
+  "count": 31,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 26,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

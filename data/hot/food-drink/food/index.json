@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-korean-inspired-hangover-cure-i-stand-by-as-a-professional-drinker",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The Korean-Inspired Hangover Cure I Stand By as a Professional Drinker",
+      "cover": "https://assets.bonappetit.com/photos/686437f2a0d24cb56f782038/master/pass/250624_HighlyRec_Hangover-1.gif",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-korean-inspired-hangover-cure-i-stand-by-as-a-professional-drinker/",
+      "excerpt": "The Korean-Inspired Hangover Cure I Stand By as a Professional Drinker | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu …",
+      "source": "https://www.bonappetit.com/story/the-best-hangover-cure",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-absolute-best-dishes-we-ate-at-new-restaurants-in-2025-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The Absolute Best Dishes We Ate at New Restaurants in 2025",
+      "cover": "https://assets.bonappetit.com/photos/68c8642b562f5aa970fb66cf/master/pass/20250626_Stephen_Cardinale_BA_Mezcaleria_Alma-0711.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-absolute-best-dishes-we-ate-at-new-restaurants-in-2025-2025-09-29/",
+      "excerpt": "The Absolute Best Dishes We Ate at New Restaurants in 2025 | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search …",
+      "source": "https://www.bonappetit.com/story/best-new-restaurants-dishes-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "89-thanksgiving-side-dishes-that-ll-outshine-the-turkey-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -481,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-09-27",
+  "count": 42,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 40,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

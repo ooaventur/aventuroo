@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "why-gen-x-women-can-t-stop-eating-ultra-processed-foods-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Why Gen X women can’t stop eating ultra-processed foods",
+      "cover": "https://www.sciencedaily.com/images/1920/diet-cravings-dessert.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/why-gen-x-women-can-t-stop-eating-ultra-processed-foods-2025-09-29/",
+      "excerpt": "Why Gen X women can’t stop eating ultra-processed foods | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929054915.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "stunning-images-reveal-how-antibiotics-shatter-bacterial-defenses-2025",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Stunning images reveal how antibiotics shatter bacterial defenses",
+      "cover": "https://www.sciencedaily.com/images/1920/how-antibiotics-pierce-bacteria-armor.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/stunning-images-reveal-how-antibiotics-shatter-bacterial-defenses-2025/",
+      "excerpt": "Stunning images reveal how antibiotics shatter bacterial defenses | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research org…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929054907.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "simple-blood-test-predicts-liver-disease-years-before-symptoms-2025-09",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Simple blood test predicts liver disease years before symptoms",
+      "cover": "https://www.sciencedaily.com/images/1920/medical-breakthrough-liver-health.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/simple-blood-test-predicts-liver-disease-years-before-symptoms-2025-09/",
+      "excerpt": "Simple blood test predicts liver disease years before symptoms | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organi…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929054911.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "miscarriages-down-syndrome-and-infertility-all-linked-to-this-hidden-d",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/miscarriages-down-syndrome-and-infertility-all-linked-to-this-hidden-d/",
       "excerpt": "Miscarriages, down syndrome, and infertility all linked to this hidden DNA process | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News …",
       "source": "https://www.sciencedaily.com/releases/2025/09/250928095627.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "junk-food-can-scramble-memory-in-just-4-days-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Junk food can scramble memory in just 4 days",
+      "cover": "https://www.sciencedaily.com/images/1920/table-of-junk-food-snacks.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/junk-food-can-scramble-memory-in-just-4-days-2025-09-29/",
+      "excerpt": "Junk food can scramble memory in just 4 days | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Junk food …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250927031249.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -865,11 +913,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 72,
+  "count": 76,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 72,
+    "total_items": 76,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

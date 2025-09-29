@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "meet-ollm-a-lightweight-python-library-that-brings-100k-context-llm-in",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Meet oLLM: A Lightweight Python Library that brings 100K-Context LLM Inference to 8 GB Consumer GPUs via SSD Offload—No Quantization Required",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-108.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meet-ollm-a-lightweight-python-library-that-brings-100k-context-llm-in/",
+      "excerpt": "Meet oLLM: A Lightweight Python Library that brings 100K-Context LLM Inference to 8 GB Consumer GPUs via SSD Offload—No Quantization Required - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsor…",
+      "source": "https://www.marktechpost.com/2025/09/29/meet-ollm-a-lightweight-python-library-that-brings-100k-context-llm-inference-to-8-gb-consumer-gpus-via-ssd-offload-no-quantization-required/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-design-an-interactive-dash-and-plotly-dashboard-with-callback-m",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -313,10 +325,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
+  "count": 27,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 26,
+    "total_items": 27,
     "per_page": 12,
     "total_pages": 3
   }

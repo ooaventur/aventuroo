@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "your-money-your-data-your-choice-through-defi-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Your money, your data, your choice, through DeFi",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDcvMDE5N2YzOWMtOTI2ZC03MjUxLThmNTQtNmU0YzBkMWRmNzlh.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/your-money-your-data-your-choice-through-defi-2025-09-29/",
+      "excerpt": "Privacy Is Normal For Everyday Americans Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Lizandro Pieper 5 hours ago Your money, your data, your choice, through DeFi Americans demand financial privacy as surveillance systems fail to protect data while e…",
+      "source": "https://cointelegraph.com/news/privacy-america?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "stablecoins-across-the-g7-how-these-nations-shape-regulation-2025-09-2",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Stablecoins across the G7: How these nations shape regulation",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTg1ZmMtMDVjMS03MWQyLWJjMjktMTI2NWJhYWVkY2Y4.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/stablecoins-across-the-g7-how-these-nations-shape-regulation-2025-09-2/",
+      "excerpt": "Stablecoins Across the G7: How These Nations Shape Rregulation Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Yohan Yun 5 hours ago Stablecoins across the G7: How these nations shape regulation G7 nations are introducing stablecoin rules, from Japan’s …",
+      "source": "https://cointelegraph.com/news/stablecoins-across-g7-regulation?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "bitcoin-s-biggest-bull-catalyst-may-be-the-next-fed-chair-pick-novogra",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -973,10 +997,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 81,
-  "updated_at": "2025-09-27",
+  "count": 83,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 81,
+    "total_items": 83,
     "per_page": 12,
     "total_pages": 7
   }

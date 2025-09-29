@@ -59,12 +59,60 @@
       "excerpt": "Fire-evolved | Online Only | n+1 | Dayna Tortorici and Jordan Thomas Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only fea…",
       "source": "https://www.nplusonemag.com/online-only/online-only/fire-evolved/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "malm-and-mangione-2025-01-16",
+      "date": "2025-01-16",
+      "published_at": "2025-01-16T00:00:00Z",
+      "created_at": "2025-01-16T00:00:00Z",
+      "title": "Malm and Mangione",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/01/mangione.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/malm-and-mangione-2025-01-16/",
+      "excerpt": "Malm and Mangione | Online Only | n+1 | Amna A. Akbar Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/malm-and-mangione/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brittany-newell-in-conversation-2025-01-14",
+      "date": "2025-01-14",
+      "published_at": "2025-01-14T00:00:00Z",
+      "created_at": "2025-01-14T00:00:00Z",
+      "title": "Brittany Newell in conversation",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/01/newell-event-card-2.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/brittany-newell-in-conversation-2025-01-14/",
+      "excerpt": "Brittany Newell in conversation | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of Vi…",
+      "source": "https://www.nplusonemag.com/online-only/events/brittany-newell-in-conversation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "we-have-always-lived-in-the-convention-2025-01-10",
+      "date": "2025-01-10",
+      "published_at": "2025-01-10T00:00:00Z",
+      "created_at": "2025-01-10T00:00:00Z",
+      "title": "We Have Always Lived in the Convention",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/01/19680810_20_Anti-War_March.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/we-have-always-lived-in-the-convention-2025-01-10/",
+      "excerpt": "We Have Always Lived in the Convention | Online Only | n+1 | A. C. Corey Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/we-have-always-lived-in-the-convention/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "clamp-lights-beige-cities-2025-01-02",
+      "date": "2025-01-02",
+      "published_at": "2025-01-02T00:00:00Z",
+      "created_at": "2025-01-02T00:00:00Z",
+      "title": "Clamp Lights, Beige Cities",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/01/FuriosaIMG_7804.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/clamp-lights-beige-cities-2025-01-02/",
+      "excerpt": "Clamp Lights, Beige Cities | Online Only | n+1 | A. S. Hamrah Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/clamp-lights-beige-cities/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
+  "count": 9,
   "updated_at": "2025-01-30",
   "pagination": {
-    "total_items": 5,
+    "total_items": 9,
     "per_page": 12,
     "total_pages": 1
   }

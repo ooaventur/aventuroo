@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "vlad-the-impaler-was-medieval-europe-s-bloodiest-warlord-but-is-the-sc",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Vlad the Impaler was medieval Europe's bloodiest warlord, but is the scale of his murder just a myth?",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/vlad-iii-dracula-impaler-news-3a684e8.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/vlad-the-impaler-was-medieval-europe-s-bloodiest-warlord-but-is-the-sc/",
+      "excerpt": "Vlad the Impaler was medieval Europe's bloodiest warlord, but is the scale of his murder just a myth? | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient E…",
+      "source": "https://www.historyextra.com/period/medieval/vlad-the-impaler-dracula-iii-forest-of-impaled-myth-new-research/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-german-peasants-war-a-summer-of-fire-and-blood-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -769,10 +781,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
+  "count": 65,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 64,
+    "total_items": 65,
     "per_page": 12,
     "total_pages": 6
   }

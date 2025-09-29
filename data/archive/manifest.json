@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-29",
   "per_page": 12,
-  "total_items": 800,
+  "total_items": 819,
   "shards": [
     {
       "parent": "business-finance",
@@ -98,12 +98,25 @@
       "parent": "culture-arts",
       "child": "columns-essays",
       "slug": "culture-arts/columns-essays",
+      "year": 2024,
+      "month": 12,
+      "path": "culture-arts/columns-essays/2024/12/index.json",
+      "path_gz": "culture-arts/columns-essays/2024/12/index.json.gz",
+      "items": 1,
+      "first_date": "2024-12-20",
+      "last_date": "2024-12-20",
+      "pages": 1
+    },
+    {
+      "parent": "culture-arts",
+      "child": "columns-essays",
+      "slug": "culture-arts/columns-essays",
       "year": 2025,
       "month": 1,
       "path": "culture-arts/columns-essays/2025/01/index.json",
       "path_gz": "culture-arts/columns-essays/2025/01/index.json.gz",
-      "items": 5,
-      "first_date": "2025-01-17",
+      "items": 9,
+      "first_date": "2025-01-02",
       "last_date": "2025-01-30",
       "pages": 1
     },
@@ -1207,7 +1220,7 @@
       "month": 3,
       "path": "travel/destinations/2025/03/index.json",
       "path_gz": "travel/destinations/2025/03/index.json.gz",
-      "items": 16,
+      "items": 20,
       "first_date": "2025-03-06",
       "last_date": "2025-03-29",
       "pages": 2
@@ -1337,7 +1350,7 @@
       "month": 6,
       "path": "travel/experiences/2024/06/index.json",
       "path_gz": "travel/experiences/2024/06/index.json.gz",
-      "items": 2,
+      "items": 7,
       "first_date": "2024-06-03",
       "last_date": "2024-06-28",
       "pages": 1
@@ -1636,9 +1649,9 @@
       "month": 6,
       "path": "travel/trip-ideas/2024/06/index.json",
       "path_gz": "travel/trip-ideas/2024/06/index.json.gz",
-      "items": 1,
+      "items": 6,
       "first_date": "2024-06-12",
-      "last_date": "2024-06-12",
+      "last_date": "2024-06-27",
       "pages": 1
     },
     {
