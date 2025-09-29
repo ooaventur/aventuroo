@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "dugway-geode-beds-in-terra-utah-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Dugway Geode Beds in Terra, Utah",
+      "cover": "https://img.atlasobscura.com/xjWgIviFSmXwAqzoKe3L6m5Zs7DS0lDlE4WNk8Ulg90/rt:fit/w:600/c:1079:719:nowe:0:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85MTc4/Njc3NS03YmJmLTQw/NWQtOTAzZi01ODEy/OGRmNjcwNDI5NDYx/MjUyYmIwOWZmMzVk/ZDFfMTAwMDAzNzM3/Ni5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/dugway-geode-beds-in-terra-utah-2025-09-29/",
+      "excerpt": "Dugway Geode Beds - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon-…",
+      "source": "https://www.atlasobscura.com/places/dugway-geode-beds",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "waruhiu-itote-s-bullet-in-nairobi-kenya-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -529,10 +541,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
-  "updated_at": "2025-09-28",
+  "count": 45,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 44,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

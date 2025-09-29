@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "r-kikuo-johnson-s-free-play-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "R. Kikuo Johnson’s “Free Play”",
+      "cover": "https://media.newyorker.com/photos/68d6a1ccadb10362d4ae0d2f/master/pass/CoverStory-web_box_paretns.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/r-kikuo-johnson-s-free-play-2025-09-29/",
+      "excerpt": "R. Kikuo Johnson’s “Free Play” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Cover Story R. Kik…",
+      "source": "https://www.newyorker.com/culture/cover-story/cover-story-2025-10-06",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "glowworms-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Glowworms",
+      "cover": "https://media.newyorker.com/photos/68d31722e2610fa0459d6cd4/master/pass/r47497.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/glowworms-2025-09-29/",
+      "excerpt": "Glowworms | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Personal History Glowworms In the punt …",
+      "source": "https://www.newyorker.com/magazine/2025/10/06/glowworms",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gertrude-stein-s-love-language-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Gertrude Stein’s Love Language",
+      "cover": "https://media.newyorker.com/photos/68d2cac1fba50ca8df5b18e0/master/pass/r47429.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/gertrude-stein-s-love-language-2025-09-29/",
+      "excerpt": "Gertrude Stein’s Love Language | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Books Gertrude Ste…",
+      "source": "https://www.newyorker.com/magazine/2025/10/06/gertrude-stein-an-afterlife-francesca-wade-book-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "briefly-noted-book-reviews-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Briefly Noted Book Reviews",
+      "cover": "https://media.newyorker.com/photos/68d2c9e1878e15744ef789f1/master/pass/r47625.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/briefly-noted-book-reviews-2025-09-29/",
+      "excerpt": "Briefly Noted Book Reviews | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Books Briefly Noted “T…",
+      "source": "https://www.newyorker.com/magazine/2025/10/06/the-einstein-of-sex-stan-and-gus-heart-the-lover-muscle-man",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-sacred-waterways-of-black-and-indigenous-communities-2025-09-28",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -1249,10 +1297,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 104,
-  "updated_at": "2025-09-28",
+  "count": 108,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 104,
+    "total_items": 108,
     "per_page": 12,
     "total_pages": 9
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-german-peasants-war-a-summer-of-fire-and-blood-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The German Peasants' War: a summer of fire and blood",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/Lyndal-Roper-German-Peasants-War-WL-AN-bcba7c3.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-german-peasants-war-a-summer-of-fire-and-blood-2025-09-29/",
+      "excerpt": "The German Peasants' War: a summer of fire and blood | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Eliz…",
+      "source": "https://www.historyextra.com/period/medieval/german-peasants-war-podcast-lyndal-roper/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "who-was-thorkell-the-tall-the-pragmatic-viking-warrior-who-fought-for",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -757,10 +769,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 63,
-  "updated_at": "2025-09-28",
+  "count": 64,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 63,
+    "total_items": 64,
     "per_page": 12,
     "total_pages": 6
   }

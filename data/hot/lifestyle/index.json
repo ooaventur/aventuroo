@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "a-week-in-new-york-on-a-103-693-salary-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "A Week In New York On A $103,693 Salary",
+      "cover": "https://www.refinery29.com/images/11935030.png?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/a-week-in-new-york-on-a-103-693-salary-2025-09-29/",
+      "excerpt": "A Week In New York On A $103,693 Salary Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together beauty en…",
+      "source": "https://www.refinery29.com/en-us/social-worker-new-york-104k-money-diary?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "funny-and-too-real-tweets-about-gen-x-2025-09-27",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-09-27",
+  "count": 26,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }
