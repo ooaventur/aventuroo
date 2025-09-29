@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "this-ai-research-proposes-an-ai-agent-immune-system-for-adaptive-cyber",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "This AI Research Proposes an AI Agent Immune System for Adaptive Cybersecurity: 3.4× Faster Containment with <10% Overhead",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/900x500-13-scaled.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/this-ai-research-proposes-an-ai-agent-immune-system-for-adaptive-cyber/",
+      "excerpt": "This AI Research Proposes an AI Agent Immune System for Adaptive Cybersecurity: 3.4× Faster Containment with Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Re…",
+      "source": "https://www.marktechpost.com/2025/09/28/this-ai-research-proposes-an-ai-agent-immune-system-for-adaptive-cybersecurity-3-4x-faster-containment-with-10-overhead/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "gemini-robotics-1-5-deepmind-s-er-vla-stack-brings-agentic-robots-to-t",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -277,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 23,
+  "count": 24,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 23,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "wicked-and-rhobh-stars-kathy-hilton-and-jennifer-tilly-help-raise-950",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "‘Wicked’ and ‘RHOBH’ Stars Kathy Hilton and Jennifer Tilly Help Raise $950,000 for Project Angel Food",
+      "cover": "https://variety.com/wp-content/uploads/2025/09/GettyImages-2237494649-1.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/wicked-and-rhobh-stars-kathy-hilton-and-jennifer-tilly-help-raise-950/",
+      "excerpt": "Wicked, Kathy Hilton and Jennifer Tilly at Project Angel Food Gala Wicked, Kathy Hilton and Jennifer Tilly at Project Angel Food Gala Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awards…",
+      "source": "https://variety.com/2025/music/columns/wicked-rhobh-kathy-hilton-jennifer-tilly-raise-950000-project-angel-food-1236533588/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "did-the-simpsons-really-kill-off-spoiler-in-season-37-premiere-plus-th",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Did The Simpsons Really Kill Off [Spoiler] in Season 37 Premiere? Plus, the Iconic Easter Egg You Didn’t See",
+      "cover": "https://tvline.com/wp-content/uploads/2025/09/the-simpsons-mr-largo-dead-alive.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/did-the-simpsons-really-kill-off-spoiler-in-season-37-premiere-plus-th/",
+      "excerpt": "'The Simpsons': Mr. Largo, Dead Or Alive? Season 37 Premiere Explained WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: Casting News: The Witcher…",
+      "source": "https://tvline.com/recaps/the-simpsons-mr-largo-dead-alive-season-37-premiere-explained-1235522751/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "jeff-probst-says-survivor-could-potentially-go-on-forever-i-hope-that",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -22,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/how-to-livestream-ireland-s-pittsburgh-steelers-vs-minnesota-vikings-g/",
       "excerpt": "Where to Watch Pittsburgh Steelers vs. Minnesota Vikings in Ireland WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: Nexstar and Sinclair to Retu…",
       "source": "https://tvline.com/features/where-to-watch-steelers-vs-vikings-online-ireland-1235522904/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai-actress-tilly-norwood-debuts-at-zurich-summit-as-industry-grapples",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "AI Actress Tilly Norwood Debuts at Zurich Summit as Industry Grapples With Emerging Tech: We Want Her ‘to Be the Next Scarlett Johansson’",
+      "cover": "https://variety.com/wp-content/uploads/2025/09/Tilly-Norwood-.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/ai-actress-tilly-norwood-debuts-at-zurich-summit-as-industry-grapples/",
+      "excerpt": "AI Actress Tilly Norwood Attracts Interest From Talent Agents AI Actress Tilly Norwood Attracts Interest From Talent Agents Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awards Circuit P…",
+      "source": "https://variety.com/2025/film/news/ai-actress-tilly-norwood-talent-agents-zurich-summit-1236533454/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -985,11 +1021,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 82,
-  "updated_at": "2025-09-28",
+  "count": 85,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 82,
+    "total_items": 85,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }

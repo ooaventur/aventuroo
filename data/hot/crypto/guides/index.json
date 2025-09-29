@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "cyber-hornet-etf-filing-flags-whale-manipulation-risk-in-xrp-2025-09-2",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Cyber Hornet ETF Filing Flags Whale Manipulation Risk in XRP",
+      "cover": "https://static.news.bitcoin.com/wp-content/uploads/2025/09/xrp-etf.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/cyber-hornet-etf-filing-flags-whale-manipulation-risk-in-xrp-2025-09-2/",
+      "excerpt": "Cyber Hornet ETF Filing Flags Whale Manipulation Risk in XRP – Crypto News Bitcoin News You need to enable JavaScript to run this app.",
+      "source": "https://news.bitcoin.com/cyber-hornet-etf-filing-flags-whale-manipulation-risk-in-xrp/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "bitcoin-price-watch-price-teeters-at-109k-breakout-or-breakdown-ahead",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -58,6 +70,30 @@
       "canonical": "https://archive.aventuroo.com/crypto/guides/bitcoin-price-watch-price-teeters-at-109k-breakout-or-breakdown-ahead/",
       "excerpt": "Bitcoin Price Watch: Price Teeters at $109K—Breakout or Breakdown Ahead? – Markets and Prices Bitcoin News You need to enable JavaScript to run this app.",
       "source": "https://news.bitcoin.com/bitcoin-price-watch-price-teeters-at-109k-breakout-or-breakdown-ahead/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bitcoin-at-110-000-consolidation-mode-etf-outflows-and-a-sneaky-uptobe",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Bitcoin at $110,000: Consolidation Mode, ETF Outflows, and a Sneaky ‘Uptober’ Setup",
+      "cover": "https://static.news.bitcoin.com/wp-content/uploads/2025/09/noioivree.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARQKIT2TMGZBKV2L6%2F20250928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250928T203605Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=a91451120214d96d3a2f16917fa1b7aa7967101ba3e0bac69cd1776d960467e4",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/bitcoin-at-110-000-consolidation-mode-etf-outflows-and-a-sneaky-uptobe/",
+      "excerpt": "Bitcoin at $110,000: Consolidation Mode, ETF Outflows, and a Sneaky ‘Uptober’ Setup – Markets and Prices Bitcoin News You need to enable JavaScript to run this app.",
+      "source": "https://news.bitcoin.com/bitcoin-at-110000-consolidation-mode-etf-outflows-and-a-sneaky-uptober-setup/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "8-meme-coins-on-watch-what-is-the-next-100x-crypto-cliffhanger-shockin",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "8 Meme Coins on Watch: What Is the Next 100x Crypto Cliffhanger Shocking Trader",
+      "cover": "https://blockonomi.com/wp-content/uploads/2025/09/s1-92.png",
+      "canonical": "https://archive.aventuroo.com/crypto/guides/8-meme-coins-on-watch-what-is-the-next-100x-crypto-cliffhanger-shockin/",
+      "excerpt": "8 Meme Coins on Watch: What Is the Next 100x Crypto Cliffhanger Shocking Trader Facebook X (Twitter) LinkedIn Telegram About Advertise Submit Press Release Contact Facebook X (Twitter) LinkedIn Telegram Prices All Coins Bitcoin Price Ethereum Price Ripple Price EOS Price Litec…",
+      "source": "https://blockonomi.com/8-meme-coins-on-watch-what-is-the-next-100x-crypto-cliffhanger-shocking-trader/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1645,10 +1681,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 137,
+  "count": 140,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 137,
+    "total_items": 140,
     "per_page": 12,
     "total_pages": 12
   }

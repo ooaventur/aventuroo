@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "a-heron-a-red-leaf-and-a-hole-in-a-blue-star-poet-jane-kenyon-on-the-a",
+      "date": "2025-08-29",
+      "published_at": "2025-08-29T00:00:00Z",
+      "created_at": "2025-08-29T00:00:00Z",
+      "title": "A Heron, a Red Leaf, and a Hole in a Blue Star: Poet Jane Kenyon on the Art of Letting Go",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2025/08/heron_cortes_Marginalian1.jpg?fit=1200%2C630&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/a-heron-a-red-leaf-and-a-hole-in-a-blue-star-poet-jane-kenyon-on-the-a/",
+      "excerpt": "A Heron, a Red Leaf, and a Hole in a Blue Star: Poet Jane Kenyon on the Art of Letting Go – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly …",
+      "source": "https://www.themarginalian.org/2025/08/29/jane-kenyon-things-otherwise/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "with-your-hair-wet-2025-08-15",
       "date": "2025-08-15",
       "published_at": "2025-08-15T00:00:00Z",
@@ -145,11 +157,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 12,
-  "updated_at": "2025-08-15",
+  "count": 13,
+  "updated_at": "2025-08-29",
   "pagination": {
-    "total_items": 12,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

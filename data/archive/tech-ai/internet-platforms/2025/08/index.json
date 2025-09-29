@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "everything-mark-zuckerberg-has-gotten-from-donald-trump-so-far-2025-08",
+      "date": "2025-08-29",
+      "published_at": "2025-08-29T00:00:00Z",
+      "created_at": "2025-08-29T00:00:00Z",
+      "title": "Everything Mark Zuckerberg has gotten from Donald Trump so far",
+      "cover": "https://www.platformer.news/content/images/2025/08/IMG_1583.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/everything-mark-zuckerberg-has-gotten-from-donald-trump-so-far-2025-08/",
+      "excerpt": "Everything Mark Zuckerberg has gotten from Donald Trump so far Home About Ethics Sign in Subscribe Mark Zuckerberg Everything Mark Zuckerberg has gotten from Donald Trump so far One year out from Trump's threat to imprison him, Zuckerberg now has the administration fighting ba…",
+      "source": "https://www.platformer.news/trump-zuckerberg-meta-partnership-eu-dsa-ai-dma/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-chatgpt-tragedy-is-only-the-beginning-2025-08-27",
       "date": "2025-08-27",
       "published_at": "2025-08-27T00:00:00Z",
@@ -73,10 +85,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 6,
-  "updated_at": "2025-08-27",
+  "count": 7,
+  "updated_at": "2025-08-29",
   "pagination": {
-    "total_items": 6,
+    "total_items": 7,
     "per_page": 12,
     "total_pages": 1
   }

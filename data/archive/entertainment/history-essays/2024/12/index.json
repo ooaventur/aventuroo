@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-launch-of-our-end-of-year-fundraiser-2024-12-03",
+      "date": "2024-12-03",
+      "published_at": "2024-12-03T00:00:00Z",
+      "created_at": "2024-12-03T00:00:00Z",
+      "title": "The Launch of Our End-of-Year Fundraiser!",
+      "cover": "https://pdr-assets.b-cdn.net/blog/2019/fundraiser-launch/postcards.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-launch-of-our-end-of-year-fundraiser-2024-12-03/",
+      "excerpt": "The Launch of Our End-of-Year Fundraiser! — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Blog The Launch of Our End-of-Year Fundraise…",
+      "source": "https://publicdomainreview.org/blog/2024/12/launch-of-end-of-year-fundraiser-2024",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "fantastic-planet-the-microscopy-album-of-marinus-pieter-filbri-1887-88",
       "date": "2024-12-03",
       "published_at": "2024-12-03T00:00:00Z",
@@ -61,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
+  "count": 6,
   "updated_at": "2024-12-28",
   "pagination": {
-    "total_items": 5,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

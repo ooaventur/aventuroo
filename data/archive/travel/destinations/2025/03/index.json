@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "an-expert-guide-to-the-ultimate-spring-weekend-in-new-york-2025-03-29",
+      "date": "2025-03-29",
+      "published_at": "2025-03-29T00:00:00Z",
+      "created_at": "2025-03-29T00:00:00Z",
+      "title": "An expert guide to the ultimate spring weekend in New York",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/North America/USA/new-york-spring-destination-guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-guide-to-the-ultimate-spring-weekend-in-new-york-2025-03-29/",
+      "excerpt": "How to spend a weekend in New York | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Tr…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/north-america/united-states/new-york/articles/new-york-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-adults-only-hotels-in-europe-2025-03-28",
+      "date": "2025-03-28",
+      "published_at": "2025-03-28T00:00:00Z",
+      "created_at": "2025-03-28T00:00:00Z",
+      "title": "The best adults-only hotels in Europe",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/can-ferrereta-majorca-lead-image1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-adults-only-hotels-in-europe-2025-03-28/",
+      "excerpt": "The best adults-only hotels in Europe | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/the-best-adults-only-hotels-in-europe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "50-of-the-most-family-friendly-hotels-in-france-2025-03-27",
+      "date": "2025-03-27",
+      "published_at": "2025-03-27T00:00:00Z",
+      "created_at": "2025-03-27T00:00:00Z",
+      "title": "50 of the most family-friendly hotels in France",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/chateau-saint-martin-and-spa-france-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/50-of-the-most-family-friendly-hotels-in-france-2025-03-27/",
+      "excerpt": "The best family-friendly hotels in France | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Lo…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/france/articles/best-family-hotels-france/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-expert-s-complete-guide-to-north-american-cruises-2025-03-26",
+      "date": "2025-03-26",
+      "published_at": "2025-03-26T00:00:00Z",
+      "created_at": "2025-03-26T00:00:00Z",
+      "title": "An expert’s complete guide to North American cruises",
+      "cover": "https://www.telegraph.co.uk/content/dam/travel/2023/04/25/TELEMMGLPICT000246354888_trans_NvBQzQNjv4BqA7N2CxnJWnYI3tCbVBgu9T0aesusvN1TE7a0ddd_esI.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-s-complete-guide-to-north-american-cruises-2025-03-26/",
+      "excerpt": "The complete guide to cruising in North America Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel T…",
+      "source": "https://www.telegraph.co.uk/travel/cruises/articles/the-complete-guide-to-cruising-in-north-america/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "travel-apps-everyone-should-have-downloaded-2025-03-19",
       "date": "2025-03-19",
       "published_at": "2025-03-19T00:00:00Z",
@@ -25,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-03-19",
+  "count": 6,
+  "updated_at": "2025-03-29",
   "pagination": {
-    "total_items": 2,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

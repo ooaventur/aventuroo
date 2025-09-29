@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-controversial-story-of-marge-schott-the-trailblazing-cincinnati-re",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "The Controversial Story Of Marge Schott, The Trailblazing Cincinnati Reds Owner Who Became Infamous For Her Racism",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/marge-schott-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-controversial-story-of-marge-schott-the-trailblazing-cincinnati-re/",
+      "excerpt": "Marge Schott, The Cincinnati Reds Owner Ousted For Her Racism All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Controversial Story Of Marge Schott, The Trailblazing Cincinnati Reds Owner W…",
+      "source": "https://allthatsinteresting.com/marge-schott",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-were-these-british-second-world-war-burials-draped-with-nazi-flags",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -745,10 +757,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 62,
+  "count": 63,
   "updated_at": "2025-09-28",
   "pagination": {
-    "total_items": 62,
+    "total_items": 63,
     "per_page": 12,
     "total_pages": 6
   }

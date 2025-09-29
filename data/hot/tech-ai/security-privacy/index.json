@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "akira-ransomware-breaching-mfa-protected-sonicwall-vpn-accounts-2025-0",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Akira ransomware breaching MFA-protected SonicWall VPN accounts",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/01/24/Sonicwall.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/akira-ransomware-breaching-mfa-protected-sonicwall-vpn-accounts-2025-0/",
+      "excerpt": "Akira ransomware breaching MFA-protected SonicWall VPN accounts News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspen…",
+      "source": "https://www.bleepingcomputer.com/news/security/akira-ransomware-breaching-mfa-protected-sonicwall-vpn-accounts/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "fake-microsoft-teams-installers-push-oyster-malware-via-malvertising-2",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1069,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 89,
+  "count": 90,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 89,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }
