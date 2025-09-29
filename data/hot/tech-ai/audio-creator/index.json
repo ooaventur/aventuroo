@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "zach-bryan-sets-the-record-for-biggest-us-concert-with-112-408-at-mich",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Zach Bryan Sets the Record for Biggest US Concert With 112,408 at Michigan Stadium",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/zach-bryan-sets-record-for-biggest-us-concert.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/zach-bryan-sets-the-record-for-biggest-us-concert-with-112-408-at-mich/",
+      "excerpt": "Zach Bryan Sets the Record for Biggest US Concert SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musicians Music T…",
+      "source": "https://www.digitalmusicnews.com/2025/09/28/zach-bryan-biggest-us-concert-michigan/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "more-than-75-chicago-musicians-remove-their-music-from-spotify-twin-pe",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "More Than 75 Chicago Musicians Remove Their Music from Spotify—Twin Peaks, Whitney, Jeff Parker, Finom & More",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/75-chicago-musicians-pull-out-of-spotify.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/more-than-75-chicago-musicians-remove-their-music-from-spotify-twin-pe/",
+      "excerpt": "75+ Chicago Musicians Remove Their Music from Spotify SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musicians Mus…",
+      "source": "https://www.digitalmusicnews.com/2025/09/28/chicago-musicians-remove-music-spotify/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "japan-and-china-s-recording-industries-dwarf-that-of-south-korea-lates",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Japan and China’s Recording Industries Dwarf That of South Korea, Latest Data Reveals",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/japan-china-recording-industries-dwarf-south-korea.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/japan-and-china-s-recording-industries-dwarf-that-of-south-korea-lates/",
+      "excerpt": "Japan and China’s Recording Industries Dwarf That of South Korea SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Mu…",
+      "source": "https://www.digitalmusicnews.com/2025/09/28/japan-china-south-korea-recorded-music-industry/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "illenium-expands-sphere-residency-in-vegas-as-republic-umg-prep-new-al",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Illenium Expands Sphere Residency in Vegas As Republic/UMG Prep New Album Release",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/illenium-expands-sphere-residency.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/illenium-expands-sphere-residency-in-vegas-as-republic-umg-prep-new-al/",
+      "excerpt": "Illenium Expands Sphere Residency in Vegas, New Album SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musicians Mus…",
+      "source": "https://www.digitalmusicnews.com/2025/09/28/illenium-sphere-residency-vegas/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bad-bunny-announced-as-super-bowl-lx-halftime-performer-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Bad Bunny Announced As Super Bowl LX Halftime Performer",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/09/bad-bunny-super-bowl-halftime-performer.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/bad-bunny-announced-as-super-bowl-lx-halftime-performer-2025-09-29/",
+      "excerpt": "Bad Bunny Announced As Super Bowl LX Halftime Performer SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musicians M…",
+      "source": "https://www.digitalmusicnews.com/2025/09/28/bad-bunny-super-bowl-lx-halftime/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "we-all-adored-bb-and-he-asked-us-to-write-something-for-him-but-when-w",
       "date": "2025-09-27",
       "published_at": "2025-09-27T00:00:00Z",
@@ -1765,10 +1825,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 147,
-  "updated_at": "2025-09-27",
+  "count": 152,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 147,
+    "total_items": 152,
     "per_page": 12,
     "total_pages": 13
   }

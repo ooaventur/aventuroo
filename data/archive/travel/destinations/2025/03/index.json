@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-perfect-weekend-on-spain-s-hedonistic-yet-heavenly-island-2025-03",
+      "date": "2025-03-26",
+      "published_at": "2025-03-26T00:00:00Z",
+      "created_at": "2025-03-26T00:00:00Z",
+      "title": "The perfect weekend on Spain's hedonistic (yet heavenly) island",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Ibiza/ibiza-destination-guide-main.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-weekend-on-spain-s-hedonistic-yet-heavenly-island-2025-03/",
+      "excerpt": "An expert travel guide to Ibiza | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Trave…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/ibiza/articles/ibiza-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "an-expert-s-complete-guide-to-north-american-cruises-2025-03-26",
       "date": "2025-03-26",
       "published_at": "2025-03-26T00:00:00Z",
@@ -46,6 +58,54 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-s-complete-guide-to-north-american-cruises-2025-03-26/",
       "excerpt": "The complete guide to cruising in North America Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel T…",
       "source": "https://www.telegraph.co.uk/travel/cruises/articles/the-complete-guide-to-cruising-in-north-america/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-perfect-spring-weekend-in-florence-2025-03-25",
+      "date": "2025-03-25",
+      "published_at": "2025-03-25T00:00:00Z",
+      "created_at": "2025-03-25T00:00:00Z",
+      "title": "The perfect spring weekend in Florence",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Florence/florence-aerial-lead-guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-spring-weekend-in-florence-2025-03-25/",
+      "excerpt": "An expert guide to a weekend in Florence Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel Travel D…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/tuscany/florence/articles/florence-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-insider-guide-to-a-vibrant-spring-weekend-in-venice-2025-03-23",
+      "date": "2025-03-23",
+      "published_at": "2025-03-23T00:00:00Z",
+      "created_at": "2025-03-23T00:00:00Z",
+      "title": "An insider guide to a vibrant spring weekend in Venice",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Venice/venice-GettyImages-1358765658.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-insider-guide-to-a-vibrant-spring-weekend-in-venice-2025-03-23/",
+      "excerpt": "Our expert guide details how to best spend a weekend in the Floating City Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Sub…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/veneto/venice/articles/venice-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-perfect-spring-weekend-in-amsterdam-2025-03-21",
+      "date": "2025-03-21",
+      "published_at": "2025-03-21T00:00:00Z",
+      "created_at": "2025-03-21T00:00:00Z",
+      "title": "The perfect spring weekend in Amsterdam",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/spring-holidays/spring-holidays-amsterdam-tulips-city.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-spring-weekend-in-amsterdam-2025-03-21/",
+      "excerpt": "How to spend a weekend in Amsterdam Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel Travel Destin…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/netherlands/amsterdam/articles/amsterdam-travel-city-break-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-hotels-in-lisbon-with-a-swimming-pool-2025-03-21",
+      "date": "2025-03-21",
+      "published_at": "2025-03-21T00:00:00Z",
+      "created_at": "2025-03-21T00:00:00Z",
+      "title": "The best hotels in Lisbon with a swimming pool",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/hotel-hotel-lisbon-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-hotels-in-lisbon-with-a-swimming-pool-2025-03-21/",
+      "excerpt": "The 13 best hotels in Lisbon with a pool | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/portugal/lisbon/articles/the-best-lisbon-hotels-with-pools/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -73,10 +133,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 6,
+  "count": 11,
   "updated_at": "2025-03-29",
   "pagination": {
-    "total_items": 6,
+    "total_items": 11,
     "per_page": 12,
     "total_pages": 1
   }

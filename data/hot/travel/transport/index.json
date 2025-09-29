@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "wide-awake-a-golden-era-for-widebodies-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Wide Awake: A Golden Era for Widebodies?",
+      "cover": "https://airlineweekly.skift.com/wp-content/uploads/2025/09/AW-09.29-1.png?w=1600",
+      "canonical": "https://archive.aventuroo.com/travel/transport/wide-awake-a-golden-era-for-widebodies-2025-09-29/",
+      "excerpt": "Wide Awake: A Golden Era for Widebodies? Airline Weekly Skift Daily Lodging Report Skift Advisory Skift Exec Search Skift Live Skift Meetings Skift Research Weekly Issues Ask Skift Search Podcast Stock Index Skift Aviation Forum Subscribe Account Menu Close Weekly Issues Ask S…",
+      "source": "https://airlineweekly.skift.com/issues/wide-awake-a-golden-era-for-widebodies/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-delta-air-lines-is-getting-rid-of-blended-winglets-on-its-aircraft",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/travel/transport/why-delta-air-lines-is-getting-rid-of-blended-winglets-on-its-aircraft/",
       "excerpt": "Why Delta Air Lines Is Getting Rid Of Blended Winglets On Its Aircraft Menu Sign in now Close AIRLINES AIRPORTS AIRCRAFT MANUFACTURERS THREADS VIDEOS PODCAST Sign in Newsletter Menu Follow Followed Like Threads 1 More Action Sign in now News Reviews Boeing Airbus Threads Close…",
       "source": "https://simpleflying.com/why-delta-air-lines-getting-rid-blended-winglets-aircraft/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-many-passenger-flights-does-the-boeing-747-fly-in-a-month-2025-09",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "How Many Passenger Flights Does The Boeing 747 Fly In A Month?",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/how-many-passenger-flights-does-the-boeing-747-fly-in-a-month.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/how-many-passenger-flights-does-the-boeing-747-fly-in-a-month-2025-09/",
+      "excerpt": "How Many Passenger Flights Does The Boeing 747 Fly In A Month? Menu Sign in now Close AIRLINES AIRPORTS AIRCRAFT MANUFACTURERS THREADS VIDEOS PODCAST Sign in Newsletter Menu Follow Followed Like Threads 1 More Action Sign in now News Reviews Boeing Airbus Threads Close How Man…",
+      "source": "https://simpleflying.com/how-many-flights-boeing-747-fly-month/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "4-months-left-what-is-airbus-outlook-going-into-q4-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "4 Months Left: What Is Airbus’ Outlook Going Into Q4?",
+      "cover": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/airbus-plant-toulouse-france-06-20-2015-airbus-production-area-factory-inside-the-final-assembly-shop-passenger-aircraft-airbus-a320-of-airasia-copy-copy.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/transport/4-months-left-what-is-airbus-outlook-going-into-q4-2025-09-29/",
+      "excerpt": "4 Months Left: What Is Airbus’ Outlook Going Into Q4? Menu Sign in now Close AIRLINES AIRPORTS AIRCRAFT MANUFACTURERS THREADS VIDEOS PODCAST Sign in Newsletter Menu Follow Followed Like Threads 1 More Action Sign in now News Reviews Boeing Airbus Threads Close 4 Months Left: W…",
+      "source": "https://simpleflying.com/4-months-left-airbus-outlook-q4/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2413,10 +2449,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 201,
+  "count": 204,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 201,
+    "total_items": 204,
     "per_page": 12,
     "total_pages": 17
   }

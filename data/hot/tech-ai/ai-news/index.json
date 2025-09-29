@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "how-to-design-an-interactive-dash-and-plotly-dashboard-with-callback-m",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "How to Design an Interactive Dash and Plotly Dashboard with Callback Mechanisms for Local and Online Deployment?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-107.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-design-an-interactive-dash-and-plotly-dashboard-with-callback-m/",
+      "excerpt": "How to Design an Interactive Dash and Plotly Dashboard with Callback Mechanisms for Local and Online Deployment? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub…",
+      "source": "https://www.marktechpost.com/2025/09/28/how-to-design-an-interactive-dash-and-plotly-dashboard-with-callback-mechanisms-for-local-and-online-deployment/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ensuring-ai-safety-in-production-a-developer-s-guide-to-openai-s-moder",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Ensuring AI Safety in Production: A Developer’s Guide to OpenAI’s Moderation and Safety Checks",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-106.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ensuring-ai-safety-in-production-a-developer-s-guide-to-openai-s-moder/",
+      "excerpt": "Ensuring AI Safety in Production: A Developer’s Guide to OpenAI’s Moderation and Safety Checks - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content R…",
+      "source": "https://www.marktechpost.com/2025/09/28/ensuring-ai-safety-in-production-a-developers-guide-to-openais-moderation-and-safety-checks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "top-10-local-llms-2025-context-windows-vram-targets-and-licenses-compa",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -289,11 +313,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 24,
-  "updated_at": "2025-09-28",
+  "count": 26,
+  "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 24,
+    "total_items": 26,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }
