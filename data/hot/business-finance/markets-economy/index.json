@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "what-we-do-in-the-banking-shadows-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "What we do in the (banking) shadows",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe31c82f2-2d14-4102-82af-43973c0ebfa9.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/what-we-do-in-the-banking-shadows-2025-09-30/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/4c7b848b-35cd-491b-a9b4-ddcb15efc281",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "vanguard-cuts-fees-on-european-equity-funds-as-competition-mounts-2025",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Vanguard cuts fees on European equity funds as competition mounts",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc2e06b0c-58a7-478b-8b5a-b85b8340b0bb.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/vanguard-cuts-fees-on-european-equity-funds-as-competition-mounts-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/96b6856c-2329-4dfd-850e-881e585228fa",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "other-people-s-money-and-the-problem-with-mileism-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Other people’s money, and the problem with Mileism",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F1a6f6dff-bdc2-413a-8079-95be26d16e56.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/other-people-s-money-and-the-problem-with-mileism-2025-09-30/",
+      "excerpt": "Other people’s money, and the problem with Mileism Accessibility help Skip to navigation Skip to content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections…",
+      "source": "https://www.ft.com/content/5f4bb8d6-e93c-4bf0-b0ae-f459255eb8c7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uchicago-sells-prized-institute-amid-high-debt-and-low-returns-2025-09",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -661,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 55,
+  "count": 58,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 55,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "it-s-amazon-s-turn-to-show-off-new-devices-all-eyes-on-alexa-echo-and",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "It's Amazon's turn to show off new devices: All eyes on Alexa+, Echo and Kindle",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108107890-17405935162025-02-26t175625z_1468855485_rc2h2davv7ny_rtrmadp_0_amazon-com-alexa.jpeg?v=1747278045&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/it-s-amazon-s-turn-to-show-off-new-devices-all-eyes-on-alexa-echo-and/",
+      "excerpt": "Amazon's big devices event: All eyes on Alexa+, Echo and Kindle Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/09/30/amazon-devices-alexa-echo-kindle.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "coreweave-stock-climbs-8-after-company-lands-14-billion-deal-with-meta",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "CoreWeave stock climbs 8% after company lands $14 billion deal with Meta",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108202347-17585672832025-09-22t184637z_1258133780_rc22xga69myb_rtrmadp_0_usa-stocks.jpeg?v=1758567346&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/coreweave-stock-climbs-8-after-company-lands-14-billion-deal-with-meta/",
+      "excerpt": "CoreWeave stock climbs 8% after company lands $14 billion deal with Meta Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportatio…",
+      "source": "https://www.cnbc.com/2025/09/30/coreweave-meta-deal-ai.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-s-deepseek-launches-next-gen-ai-model-here-s-what-makes-it-diffe",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "China's DeepSeek launches next-gen AI model. Here's what makes it different",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108102024-1739451742603-gettyimages-2196279912-deepseek-7.jpeg?v=1759175726&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/china-s-deepseek-launches-next-gen-ai-model-here-s-what-makes-it-diffe/",
+      "excerpt": "What's new in DeepSeek's latest model: DeepSeek-V3.2-Exp Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Re…",
+      "source": "https://www.cnbc.com/2025/09/30/whats-new-in-deepseeks-latest-model-deepseek-v3point2-exp.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "youtube-agrees-to-pay-trump-24-5-million-to-settle-lawsuit-over-suspen",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -577,11 +613,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 48,
+  "count": 51,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 48,
+    "total_items": 51,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

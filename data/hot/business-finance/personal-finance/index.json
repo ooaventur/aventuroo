@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "mortgage-rates-today-tuesday-september-30-a-little-higher-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Mortgage Rates Today, Tuesday, September 30: A Little Higher",
+      "cover": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2025/08/TUESDAY-MORTGAGE-RATES.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/mortgage-rates-today-tuesday-september-30-a-little-higher-2025-09-30/",
+      "excerpt": "Mortgage Rates Today, Tuesday, September 30: A Little Higher - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back c…",
+      "source": "https://www.nerdwallet.com/article/mortgages/mortgage-rates-today-tuesday-september-30-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "social-security-s-confusing-full-retirement-age-may-get-a-rebrand-2025",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -757,10 +769,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 63,
-  "updated_at": "2025-09-29",
+  "count": 64,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 63,
+    "total_items": 64,
     "per_page": 12,
     "total_pages": 6
   }

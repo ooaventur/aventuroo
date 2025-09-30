@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "windows-11-kb5065789-update-released-with-41-changes-and-fixes-2025-09",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Windows 11 KB5065789 update released with 41 changes and fixes",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/09/Windows_11.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/windows-11-kb5065789-update-released-with-41-changes-and-fixes-2025-09/",
+      "excerpt": "Windows 11 KB5065789 update released with 41 changes and fixes News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5065789-update-released-with-41-changes-and-fixes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "broadcom-fixes-high-severity-vmware-nsx-bugs-reported-by-nsa-2025-09-3",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Broadcom fixes high-severity VMware NSX bugs reported by NSA",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/11/18/VMware.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/broadcom-fixes-high-severity-vmware-nsx-bugs-reported-by-nsa-2025-09-3/",
+      "excerpt": "Broadcom fixes high-severity VMware NSX bugs reported by NSA News Featured Latest GitHub notifications abused to impersonate Y Combinator for crypto theft Google: Brickstorm malware used to steal U.S. orgs' data for over a year New EDR-Freeze tool uses Windows WER to suspend s…",
+      "source": "https://www.bleepingcomputer.com/news/security/broadcom-fixes-high-severity-vmware-nsx-bugs-reported-by-nsa/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai-powered-voice-cloning-raises-vishing-risks-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "AI-Powered Voice Cloning Raises Vishing Risks",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt711f10b7274dc3c9/68daead1907adb19dbd5a1e5/barbie_clones1800_Joshua_Pulman_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/ai-powered-voice-cloning-raises-vishing-risks-2025-09-30/",
+      "excerpt": "A researcher-developed framework could enable attackers to conduct real-time conversations using simulated audio to compromise organizations and extract sensitive information.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/ai-voice-cloning-vishing-risks",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ukrainian-cops-spoofed-in-fileless-phishing-attacks-on-kyiv-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -1237,10 +1273,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 103,
+  "count": 106,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 103,
+    "total_items": 106,
     "per_page": 12,
     "total_pages": 9
   }

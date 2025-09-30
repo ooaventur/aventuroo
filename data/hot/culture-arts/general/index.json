@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "should-college-get-harder-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Should College Get Harder?",
+      "cover": "https://media.newyorker.com/photos/68d2f1951a20986a24b999e7/master/pass/college%20should%20be%20harder%204_bleed.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/should-college-get-harder-2025-09-30/",
+      "excerpt": "Should College Get Harder? | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Open Questions Should …",
+      "source": "https://www.newyorker.com/culture/open-questions/should-college-get-harder",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-casino-developers-use-museums-to-sweeten-the-deal-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -1405,10 +1417,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 117,
-  "updated_at": "2025-09-29",
+  "count": 118,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 117,
+    "total_items": 118,
     "per_page": 12,
     "total_pages": 10
   }

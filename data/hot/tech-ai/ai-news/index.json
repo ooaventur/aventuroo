@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "delinea-released-an-mcp-server-to-put-guardrails-around-ai-agents-cred",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Delinea Released an MCP Server to Put Guardrails Around AI Agents Credential Access",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-111.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/delinea-released-an-mcp-server-to-put-guardrails-around-ai-agents-cred/",
+      "excerpt": "Delinea Released an MCP Server to Put Guardrails Around AI Agents Credential Access - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exc…",
+      "source": "https://www.marktechpost.com/2025/09/30/delinea-released-an-mcp-server-to-put-guardrails-around-ai-agents-credential-access/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "deepseek-v3-2-exp-cuts-long-context-costs-with-deepseek-sparse-attenti",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "DeepSeek V3.2-Exp Cuts Long-Context Costs with DeepSeek Sparse Attention (DSA) While Maintaining Benchmark Parity",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-110.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/deepseek-v3-2-exp-cuts-long-context-costs-with-deepseek-sparse-attenti/",
+      "excerpt": "DeepSeek V3.2-Exp Cuts Long-Context Costs with DeepSeek Sparse Attention (DSA) While Maintaining Benchmark Parity - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hu…",
+      "source": "https://www.marktechpost.com/2025/09/30/deepseek-v3-2-exp-cuts-long-context-costs-with-deepseek-sparse-attention-dsa-while-maintaining-benchmark-parity/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-coding-guide-to-build-a-hierarchical-supervisor-agent-framework-with",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "A Coding Guide to Build a Hierarchical Supervisor Agent Framework with CrewAI and Google Gemini for Coordinated Multi-Agent Workflows",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-109.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-guide-to-build-a-hierarchical-supervisor-agent-framework-with/",
+      "excerpt": "A Coding Guide to Build a Hierarchical Supervisor Agent Framework with CrewAI and Google Gemini for Coordinated Multi-Agent Workflows - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
+      "source": "https://www.marktechpost.com/2025/09/30/a-coding-guide-to-build-a-hierarchical-supervisor-agent-framework-with-crewai-and-google-gemini-for-coordinated-multi-agent-workflows/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "meet-ollm-a-lightweight-python-library-that-brings-100k-context-llm-in",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -337,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 28,
-  "updated_at": "2025-09-29",
+  "count": 31,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 28,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

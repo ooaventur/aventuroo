@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "why-you-prefer-running-alone-and-why-that-s-ok-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Why You Prefer Running Alone—and Why That’s OK",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/running-alone-edited.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/why-you-prefer-running-alone-and-why-that-s-ok-2025-09-30/",
+      "excerpt": "Why You Prefer Running Alone—and Why That's OK Outside Online logo If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy Originally posted on RUN | …",
+      "source": "https://www.outsideonline.com/health/training-performance/running-alone/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "weak-fingers-check-out-our-favorite-hangboards-field-tested-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Weak Fingers? Check Out Our Favorite Hangboards, Field-Tested.",
+      "cover": "https://www.climbing.com/wp-content/uploads/2025/09/GettyImages-2221932024.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/weak-fingers-check-out-our-favorite-hangboards-field-tested-2025-09-30/",
+      "excerpt": "The Best Hangboards for Climbing Training - Climbing Climbing Magazine logo Powered by Outside If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy…",
+      "source": "https://www.climbing.com/gear/best-hangboards-climbing-training/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "does-your-favorite-climbing-hold-match-your-enneagram-type-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -10,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/does-your-favorite-climbing-hold-match-your-enneagram-type-2025-09-30/",
       "excerpt": "Does Your Favorite Climbing Hold Match Your Enneagram Type? Climbing Magazine logo Powered by Outside Culture Does Your Favorite Climbing Hold Match Your Enneagram Type? According to one routesetter, there's at least one climbing hold out there in the shape of your basic desir…",
       "source": "https://www.climbing.com/culture-climbing/does-your-favorite-climbing-hold-match-your-enneagram-type/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "can-your-personality-type-influence-your-workout-habits-science-says-y",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Can Your Personality Type Influence Your Workout Habits? Science Says Yes.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/personality-types-workout.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/can-your-personality-type-influence-your-workout-habits-science-says-y/",
+      "excerpt": "Does Your Personality Type Influence Workout Habits? Outside Online logo If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy Health > Training & P…",
+      "source": "https://www.outsideonline.com/health/training-performance/personality-traits-workout-habits/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "15-thoughts-a-backpacker-has-in-yoga-class-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "15 Thoughts a Backpacker Has in Yoga Class",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/yoga-for-backpackers.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/15-thoughts-a-backpacker-has-in-yoga-class-2025-09-30/",
+      "excerpt": "15 Thoughts a Backpacker Has in Yoga Class Outside Online logo Originally posted on Yoga Journal Health > Wellness 15 Thoughts a Backpacker Has in Yoga Class \"Why am I missing two toenails?\" Share Icon Share Bookmark Icon Save (Photo: Calin Van Paris/Canva) Published September…",
+      "source": "https://www.outsideonline.com/health/wellness/yoga-backpacker-thoughts/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1945,10 +1993,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 162,
+  "count": 166,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 162,
+    "total_items": 166,
     "per_page": 12,
     "total_pages": 14
   }

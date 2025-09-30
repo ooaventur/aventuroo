@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-father-daughter-chefs-behind-house-of-nanking-are-finally-sharing",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "The father-daughter chefs behind House of Nanking are finally sharing their recipes",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4480x2520+0+464/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe9%2Fe9%2Fb9a152dd447695864444fa939982%2Fkathyanddad.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/the-father-daughter-chefs-behind-house-of-nanking-are-finally-sharing/",
+      "excerpt": "A beloved San Francisco Chinese restaurant shares its secrets : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics B…",
+      "source": "https://www.npr.org/2025/09/30/nx-s1-5339782/san-francisco-chinese-cookbook-house-of-nanking",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "i-made-it-fun-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "I made it fun",
+      "cover": "https://images.aeonmedia.co/images/7dd2ccaf-d58d-42de-bd0a-9c18706845ea/main-this-gettyimages-892999230.jpg?width=1600&amp%3Bquality=75&amp%3Bformat=auto",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/i-made-it-fun-2025-09-30/",
+      "excerpt": "What can positive thinking do for a cancer patient? | Aeon Essays Photo by Tara Moore/Getty Images \" data-next-head=\"\"/> × CLOSE Philosophy Science Psychology Society Culture Essays Videos Popular About DONATE NEWSLETTER MENU / / Aeon DONATE / NEWSLETTER / SIGN IN / Photo by T…",
+      "source": "https://aeon.co/essays/what-can-positive-thinking-do-for-a-cancer-patient?utm_source=rss-feed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-picasso-saved-matisse-s-paintings-from-the-nazis-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -1093,10 +1117,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 91,
-  "updated_at": "2025-09-29",
+  "count": 93,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 91,
+    "total_items": 93,
     "per_page": 12,
     "total_pages": 8
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-business-leaders-are-seeking-reinventors-to-strengthen-their-team",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Why Business Leaders Are Seeking ‘Reinventors’ to Strengthen Their Team",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/business-leaders-seeking-reinventors-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/why-business-leaders-are-seeking-reinventors-to-strengthen-their-team/",
+      "excerpt": "Why Business Leaders Need Reinventors on Their Teams | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Maga…",
+      "source": "https://www.success.com/business-leaders-seeking-reinventors/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-is-a-positioning-statement-why-it-matters-and-how-to-write-yours",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/what-is-a-positioning-statement-why-it-matters-and-how-to-write-yours/",
       "excerpt": "What Is a Positioning Statement? Examples & Tips | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
       "source": "https://www.success.com/what-is-a-positioning-statement/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "unstoppable-attitude-quotes-to-help-you-cultivate-the-life-you-want-20",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Unstoppable Attitude Quotes to Help You Cultivate the Life You Want",
+      "cover": "https://www.success.com/wp-content/uploads/2023/02/Unstoppable-Attitude-Quotes-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/unstoppable-attitude-quotes-to-help-you-cultivate-the-life-you-want-20/",
+      "excerpt": "Unstoppable Attitude Quotes to Build Confidence | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine …",
+      "source": "https://www.success.com/youre-killing-it-15-quotes-for-an-unstoppable-attitude/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "money-can-buy-you-happiness-but-not-the-way-you-think-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Money Can Buy You Happiness… But Not the Way You Think",
+      "cover": "https://www.success.com/wp-content/uploads/2025/05/spending-money-for-happiness-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/money-can-buy-you-happiness-but-not-the-way-you-think-2025-09-30/",
+      "excerpt": "How to Spend Money for Happiness: A Better Approach | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magaz…",
+      "source": "https://www.success.com/spending-money-for-happiness/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -697,11 +733,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 61,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 58,
+    "total_items": 61,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

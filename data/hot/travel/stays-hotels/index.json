@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "tiktok-launches-travel-ads-to-target-trip-bookings-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "TikTok launches travel ads to target trip bookings",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/09/tiktok-768x445-1.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/tiktok-launches-travel-ads-to-target-trip-bookings-2025-09-30/",
+      "excerpt": "TikTok launches travel ads to target trip bookings Skip to content LATEST NEWS TikTok launches travel ads to target trip bookings EXTENDAM and Highgate acquire Hilton Porto Gaia Urban Living Festival 2025: Key takeaways for hospitality BWH Hotels GB expands with eight member a…",
+      "source": "https://boutiquehotelnews.com/news/technology/tiktok-travel-ads/?utm_source=rss&utm_medium=rss&utm_campaign=tiktok-travel-ads",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "extendam-and-highgate-acquire-hilton-porto-gaia-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -265,10 +277,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-09-29",
+  "count": 23,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 22,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }

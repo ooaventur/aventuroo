@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "slug": "the-renters-republic-2024-11-26",
+      "date": "2024-11-26",
+      "published_at": "2024-11-26T00:00:00Z",
+      "created_at": "2024-11-26T00:00:00Z",
+      "title": "The Renters’ Republic",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/11/53632665603_9e4cd663cb_o.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-renters-republic-2024-11-26/",
+      "excerpt": "The Renters’ Republic | Online Only | n+1 | Charlie Dulik Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/the-renters-republic/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "as-good-as-it-gets-2024-11-15",
+      "date": "2024-11-15",
+      "published_at": "2024-11-15T00:00:00Z",
+      "created_at": "2024-11-15T00:00:00Z",
+      "title": "As Good As It Gets?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/11/50861322637_dfab2e57d7_o.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/as-good-as-it-gets-2024-11-15/",
+      "excerpt": "As Good As It Gets? | Online Only | n+1 | Joel Suarez Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/as-good-as-it-gets/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 2,
+  "updated_at": "2024-11-26",
+  "pagination": {
+    "total_items": 2,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "robert-peel-life-of-the-week-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Robert Peel: life of the week",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/Life-Robert-Peel-WL-290787d.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/robert-peel-life-of-the-week-2025-09-30/",
+      "excerpt": "Robert Peel: life of the week | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georgian Victor…",
+      "source": "https://www.historyextra.com/membership/robert-peel-life-of-the-week-podcast-richard-gaunt/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vlad-the-impaler-was-medieval-europe-s-bloodiest-warlord-but-is-the-sc",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -118,6 +130,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/the-controversial-story-of-marge-schott-the-trailblazing-cincinnati-re/",
       "excerpt": "Marge Schott, The Cincinnati Reds Owner Ousted For Her Racism All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Controversial Story Of Marge Schott, The Trailblazing Cincinnati Reds Owner W…",
       "source": "https://allthatsinteresting.com/marge-schott",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "art-deco-everything-you-wanted-to-know-2025-09-28",
+      "date": "2025-09-28",
+      "published_at": "2025-09-28T00:00:00Z",
+      "created_at": "2025-09-28T00:00:00Z",
+      "title": "Art Deco: everything you wanted to know",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/Emma-Bastin-Art-Deco-WLAN-1c0f893.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/art-deco-everything-you-wanted-to-know-2025-09-28/",
+      "excerpt": "Art Deco: everything you wanted to know | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georg…",
+      "source": "https://www.historyextra.com/membership/art-deco-podcast-emma-bastin/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -865,11 +889,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 72,
+  "count": 74,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 72,
+    "total_items": 74,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

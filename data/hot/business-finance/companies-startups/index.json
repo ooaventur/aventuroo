@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "whoop-opens-blood-testing-service-to-what-it-says-is-a-350-000-person",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Whoop opens blood-testing service to what it says is a 350,000-person waitlist",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/09/whoop.png?resize=1200,769",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/whoop-opens-blood-testing-service-to-what-it-says-is-a-350-000-person/",
+      "excerpt": "Whoop opens blood-testing service to what it says is a 350,000-person waitlist | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle …",
+      "source": "https://techcrunch.com/2025/09/30/whoop-opens-its-blood-testing-service-to-350000-on-wait-list/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vibe-coding-startup-anything-nabs-a-100m-valuation-after-hitting-2m-ar",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -565,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 47,
-  "updated_at": "2025-09-29",
+  "count": 48,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 47,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

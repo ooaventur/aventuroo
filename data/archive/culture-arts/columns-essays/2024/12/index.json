@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "tired-as-a-mother-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Tired as a Mother",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I49_Dames_Kollwitz.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/tired-as-a-mother-2024-12-16/",
+      "excerpt": "Tired as a Mother | Issue 49 | n+1 | Nicholas Dames Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign …",
+      "source": "https://www.nplusonemag.com/issue-49/reviews/tired-as-a-mother/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-family-o-2024-12-16",
       "date": "2024-12-16",
       "published_at": "2024-12-16T00:00:00Z",
@@ -97,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "dancing-inside-the-box-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Dancing Inside the Box",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Martin_Jones.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/dancing-inside-the-box-2024-12-16/",
+      "excerpt": "Dancing Inside the Box | Issue 49 | n+1 | Dawn Lundy Martin Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe …",
+      "source": "https://www.nplusonemag.com/issue-49/essays/dancing-inside-the-box/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "casual-viewing-2024-12-16",
       "date": "2024-12-16",
       "published_at": "2024-12-16T00:00:00Z",
@@ -131,13 +155,25 @@
       "excerpt": "As Long As You Continue to Resist | Issue 49 | n+1 | Bassem Saad Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 49 Rerun The Intellectual Situation What’s Our Age Again? The Editors Politics Triumph of the…",
       "source": "https://www.nplusonemag.com/issue-49/reviews/as-long-as-you-continue-to-resist-2/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-s-our-age-again-2024-12-12",
+      "date": "2024-12-12",
+      "published_at": "2024-12-12T00:00:00Z",
+      "created_at": "2024-12-12T00:00:00Z",
+      "title": "What’s Our Age Again?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I49_IS_Owens-e1734027621868.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/what-s-our-age-again-2024-12-12/",
+      "excerpt": "What’s Our Age Again? | Issue 49 | n+1 | The Editors Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 49 Rerun The Intellectual Situation What’s Our Age Again? The Editors Politics Triumph of the Worst Mark …",
+      "source": "https://www.nplusonemag.com/issue-49/the-intellectual-situation/whats-our-age-again/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 11,
+  "count": 14,
   "updated_at": "2024-12-20",
   "pagination": {
-    "total_items": 11,
+    "total_items": 14,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }
