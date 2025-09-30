@@ -229,6 +229,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-30-greatest-hotels-in-spain-2025-03-13",
+      "date": "2025-03-13",
+      "published_at": "2025-03-13T00:00:00Z",
+      "created_at": "2025-03-13T00:00:00Z",
+      "title": "The 30 greatest hotels in Spain",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/can-ferrereta-majorca-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-30-greatest-hotels-in-spain-2025-03-13/",
+      "excerpt": "The 30 greatest hotels in Spain | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Trave…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/articles/best-hotels-in-spain-for-spring-and-summer/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-expert-guide-to-the-perfect-spring-weekend-in-seville-2025-03-12",
+      "date": "2025-03-12",
+      "published_at": "2025-03-12T00:00:00Z",
+      "created_at": "2025-03-12T00:00:00Z",
+      "title": "An expert guide to the perfect spring weekend in Seville",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Andalusia/Seville/seville-lead-Shutterstock_.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-guide-to-the-perfect-spring-weekend-in-seville-2025-03-12/",
+      "excerpt": "How to spend a weekend in Seville | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Tra…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/spain/andalusia/seville/articles/seville-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-expert-guide-to-ski-holidays-in-serre-chevalier-france-s-friendlies",
+      "date": "2025-03-12",
+      "published_at": "2025-03-12T00:00:00Z",
+      "created_at": "2025-03-12T00:00:00Z",
+      "title": "An expert guide to ski holidays in Serre Chevalier, France’s friendliest resort",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/ski/Resorts/serre-chevalier-lead-lifts.jpg?impolicy=OG-Standard",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-guide-to-ski-holidays-in-serre-chevalier-france-s-friendlies/",
+      "excerpt": "An expert guide to ski holidays in Serre Chevalier, France | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon…",
+      "source": "https://www.telegraph.co.uk/travel/ski/resort-guides/france/serre-chevalier/serre-chevalier-ski-holiday-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-all-inclusive-hotels-in-greece-2025-03-11",
+      "date": "2025-03-11",
+      "published_at": "2025-03-11T00:00:00Z",
+      "created_at": "2025-03-11T00:00:00Z",
+      "title": "The best all-inclusive hotels in Greece",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/ikos-odisia-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-all-inclusive-hotels-in-greece-2025-03-11/",
+      "excerpt": "The best all-inclusive hotels in Greece | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/greece/articles/best-all-inclusive-hotels-resorts-greece/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-expert-guide-to-ski-holidays-in-ischgl-austria-s-intermediate-party",
+      "date": "2025-03-10",
+      "published_at": "2025-03-10T00:00:00Z",
+      "created_at": "2025-03-10T00:00:00Z",
+      "title": "An expert guide to ski holidays in Ischgl, Austria's intermediate party paradise",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/ski/Resorts/ischgl-lead.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/an-expert-guide-to-ski-holidays-in-ischgl-austria-s-intermediate-party/",
+      "excerpt": "An expert guide to ski holidays in Ischgl, Austria | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscri…",
+      "source": "https://www.telegraph.co.uk/travel/ski/resort-guides/austria/ischgl/ischgl-ski-holiday-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "unlocking-success-maximize-your-brand-s-impact-with-travelpulse-conten",
       "date": "2025-03-06",
       "published_at": "2025-03-06T00:00:00Z",
@@ -241,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
+  "count": 25,
   "updated_at": "2025-03-29",
   "pagination": {
-    "total_items": 20,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

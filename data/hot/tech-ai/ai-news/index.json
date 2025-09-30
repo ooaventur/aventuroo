@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "anthropic-launches-claude-sonnet-4-5-with-new-coding-and-agentic-state",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Anthropic Launches Claude Sonnet 4.5 with New Coding and Agentic State-of-the-Art Results",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/Screenshot-2025-09-29-at-3.41.37-PM.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/anthropic-launches-claude-sonnet-4-5-with-new-coding-and-agentic-state/",
+      "excerpt": "Anthropic Launches Claude Sonnet 4.5 with New Coding and Agentic State-of-the-Art Results - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read o…",
+      "source": "https://www.marktechpost.com/2025/09/29/anthropic-launches-claude-sonnet-4-5-with-new-coding-and-agentic-state-of-the-art-results/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "top-10-local-llms-2025-context-windows-vram-targets-and-licenses-compa",
       "date": "2025-09-28",
       "published_at": "2025-09-28T00:00:00Z",
@@ -325,10 +337,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 27,
+  "count": 28,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 27,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

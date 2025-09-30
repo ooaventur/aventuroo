@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-best-rice-cookers-vetted-by-our-experts-2025-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The Best Rice Cookers, Vetted by Our Experts (2025)",
+      "cover": "https://assets.bonappetit.com/photos/68dae95d2e8ac914048e07db/master/pass/9.24_BA_Best_Rice_Cooker.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-rice-cookers-vetted-by-our-experts-2025-2025-09-29/",
+      "excerpt": "The Best Rice Cookers, Vetted by Our Experts (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Best Of…",
+      "source": "https://www.bonappetit.com/story/best-rice-cookers",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-absolute-best-dishes-we-ate-at-new-restaurants-in-2025-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/the-absolute-best-dishes-we-ate-at-new-restaurants-in-2025-2025-09-29/",
       "excerpt": "The Absolute Best Dishes We Ate at New Restaurants in 2025 | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search …",
       "source": "https://www.bonappetit.com/story/best-new-restaurants-dishes-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "our-most-popular-recipes-of-september-2025-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Our Most Popular Recipes of September 2025",
+      "cover": "https://assets.bonappetit.com/photos/68b1c749d8be0ecc5f3b4b9a/master/pass/20250701_1025_02_Routine_Raddichio%20Salad_034_FINAL.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/our-most-popular-recipes-of-september-2025-2025-09-29/",
+      "excerpt": "Our Most Popular Recipes of September 2025 | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking Our Most…",
+      "source": "https://www.bonappetit.com/gallery/most-popular-recipes-september-2025",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -505,10 +529,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 42,
+  "count": 44,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 42,
+    "total_items": 44,
     "per_page": 12,
     "total_pages": 4
   }

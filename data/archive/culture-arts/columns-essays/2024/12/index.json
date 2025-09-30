@@ -11,12 +11,72 @@
       "excerpt": "This Fall in Baseball | Online Only | n+1 | Alan Dean Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of …",
       "source": "https://www.nplusonemag.com/online-only/online-only/this-fall-in-baseball/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-family-o-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "The Family O",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Khong_Nguyen-scaled-e1733866325581.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-family-o-2024-12-16/",
+      "excerpt": "The Family O | Issue 49 | n+1 | Rachel Khong Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in and …",
+      "source": "https://www.nplusonemag.com/issue-49/fiction-drama/the-family-o/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "planet-puppet-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Planet Puppet",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Tavakoli.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/planet-puppet-2024-12-16/",
+      "excerpt": "Planet Puppet | Issue 49 | n+1 | Mina Tavakoli Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 49 Rerun The Intellectual Situation What’s Our Age Again? The Editors Politics Triumph of the Worst Mark Krotov…",
+      "source": "https://www.nplusonemag.com/issue-49/essays/planet-puppet/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "out-front-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Out Front",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Baglin_Pontarini.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/out-front-2024-12-16/",
+      "excerpt": "Out Front | Issue 49 | n+1 | Claire Baglin Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in and re…",
+      "source": "https://www.nplusonemag.com/issue-49/fiction-drama/out-front/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mill-rock-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Mill Rock",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Crawford_Sandroni.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/mill-rock-2024-12-16/",
+      "excerpt": "Mill Rock | Issue 49 | n+1 | Jill Crawford Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in and re…",
+      "source": "https://www.nplusonemag.com/issue-49/fiction-drama/mill-rock/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "casual-viewing-2024-12-16",
+      "date": "2024-12-16",
+      "published_at": "2024-12-16T00:00:00Z",
+      "created_at": "2024-12-16T00:00:00Z",
+      "title": "Casual Viewing",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/12/I48_Tavlin_Thie.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/casual-viewing-2024-12-16/",
+      "excerpt": "Casual Viewing | Issue 49 | n+1 | Will Tavlin Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 49 Rerun The Intellectual Situation What’s Our Age Again? The Editors Politics Triumph of the Worst Mark Krotov …",
+      "source": "https://www.nplusonemag.com/issue-49/essays/casual-viewing/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 1,
+  "count": 6,
   "updated_at": "2024-12-20",
   "pagination": {
-    "total_items": 1,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "youtube-agrees-to-pay-trump-24-5-million-to-settle-lawsuit-over-suspen",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "YouTube agrees to pay Trump $24.5 Million to settle lawsuit over suspended account",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108204981-17591477442025-09-26t201908z_1986867315_rc2wzgar30d3_rtrmadp_0_usa-trump.jpeg?v=1759147763&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/youtube-agrees-to-pay-trump-24-5-million-to-settle-lawsuit-over-suspen/",
+      "excerpt": "YouTube to pay Trump $24.5 Million to settle lawsuit over suspension Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/09/29/youtube-to-pay-trump-24point5-million-to-settle-lawsuit-over-suspension.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ea-going-private-in-55-billion-deal-that-will-pay-shareholders-210-a-s",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -553,10 +565,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
+  "count": 47,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 46,
+    "total_items": 47,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "opinion-it-s-time-to-move-our-feet-2025-08-30",
+      "date": "2025-08-30",
+      "published_at": "2025-08-30T00:00:00Z",
+      "created_at": "2025-08-30T00:00:00Z",
+      "title": "Opinion: It's time to 'move our feet'",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3078+0+285/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F65%2F4c6632e3405688ac07c36c8c0723%2Fap25241543387960.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/opinion-it-s-time-to-move-our-feet-2025-08-30/",
+      "excerpt": "Opinion: It's time to 'move our feet' : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Business Health Science C…",
+      "source": "https://www.npr.org/2025/08/30/nx-s1-5513925/opinion-its-time-to-move-our-feet",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "my-son-loved-his-first-day-of-kindergarten-it-brings-up-my-own-bitters",
       "date": "2025-08-29",
       "published_at": "2025-08-29T00:00:00Z",
@@ -61,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-08-29",
+  "count": 6,
+  "updated_at": "2025-08-30",
   "pagination": {
-    "total_items": 5,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

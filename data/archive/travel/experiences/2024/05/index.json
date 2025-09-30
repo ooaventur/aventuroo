@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "how-bringing-my-friend-on-an-intrepid-trip-brought-us-closer-together",
+      "date": "2024-05-27",
+      "published_at": "2024-05-27T00:00:00Z",
+      "created_at": "2024-05-27T00:00:00Z",
+      "title": "How bringing my friend on an Intrepid trip  brought us closer together",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/04/IMG_4576.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/how-bringing-my-friend-on-an-intrepid-trip-brought-us-closer-together/",
+      "excerpt": "How bringing my friend on an Intrepid trip brought us closer together | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Good Life …",
+      "source": "https://www.intrepidtravel.com/adventures/intrepid-trip-with-my-friend/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "good-for-people-good-for-country-meet-the-intrepid-foundation-s-newest",
+      "date": "2024-05-22",
+      "published_at": "2024-05-22T00:00:00Z",
+      "created_at": "2024-05-22T00:00:00Z",
+      "title": "Good for people, good for Country: meet The Intrepid Foundation’s newest Australia-based partner",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/05/Intrepid-Travel-Adventure-Tours-Australia-australia_northern-territory_outback_desert.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/good-for-people-good-for-country-meet-the-intrepid-foundation-s-newest/",
+      "excerpt": "Good for people, good for Country: meet The Intrepid Foundation's newest Australia-based partner | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good St…",
+      "source": "https://www.intrepidtravel.com/adventures/keeping-people-nature-culture-strong/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "giant-daisies-polar-bears-and-a-full-circle-moment-how-liz-carlson-is",
+      "date": "2024-05-20",
+      "published_at": "2024-05-20T00:00:00Z",
+      "created_at": "2024-05-20T00:00:00Z",
+      "title": "Giant daisies, polar bears and a full circle moment: how Liz Carlson is living out all of our wildest dreams",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/05/Antarctica-Intrepid-Guide-Liz-Carlson-Zodiac-Iceberg-in-background.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/giant-daisies-polar-bears-and-a-full-circle-moment-how-liz-carlson-is/",
+      "excerpt": "Giant daisies, polar bears and a full circle moment: how Liz Carlson is living out all of our wildest dreams | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good …",
+      "source": "https://www.intrepidtravel.com/adventures/liz-carlson/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "teenage-teachers-here-s-what-you-can-learn-from-the-new-intrepid-gener",
+      "date": "2024-05-17",
+      "published_at": "2024-05-17T00:00:00Z",
+      "created_at": "2024-05-17T00:00:00Z",
+      "title": "Teenage teachers: Here’s what you can learn from the new Intrepid generation",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/05/Me-and-rhinos-e1716324043293.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/teenage-teachers-here-s-what-you-can-learn-from-the-new-intrepid-gener/",
+      "excerpt": "Teenage teachers: Here's what you can learn from the new Intrepid generation | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories Good Trips Goo…",
+      "source": "https://www.intrepidtravel.com/adventures/learn-from-the-new-intrepid-generation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "psychological-benefits-of-traveling-alone-2024-05-16",
       "date": "2024-05-16",
       "published_at": "2024-05-16T00:00:00Z",
@@ -11,12 +59,24 @@
       "excerpt": "Psychological Benefits of Traveling Alone - Days to Come Skip to content Search for: Search Facebook Instagram YouTube pinterest Twitter Menu Book Travel Tours Flights Travel Insurance Food & Drink Lifestyle Photography Inspiration Culture Stories Sustainable Travel Tips & Tri…",
       "source": "https://www.tourradar.com/days-to-come/how-vacationing-can-significantly-improve-your-well-being/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "in-borneo-my-daughter-learned-first-hand-how-she-can-contribute-to-wil",
+      "date": "2024-05-15",
+      "published_at": "2024-05-15T00:00:00Z",
+      "created_at": "2024-05-15T00:00:00Z",
+      "title": "In Borneo, my daughter learned first-hand how she can contribute to wildlife conservation",
+      "cover": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/05/Intrepid-Travel-borneo_orangutan-sanctuary_38.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/in-borneo-my-daughter-learned-first-hand-how-she-can-contribute-to-wil/",
+      "excerpt": "In Borneo, my daughter learned first-hand how she can contribute to wildlife conservation | The Good Times by Intrepid Latest Posts Find Trips Africa Asia Central America Europe Middle East North America Australia & Oceania Polar South America Articles Good News Good Stories G…",
+      "source": "https://www.intrepidtravel.com/adventures/borneo-wildlife-conservation/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 1,
-  "updated_at": "2024-05-16",
+  "count": 6,
+  "updated_at": "2024-05-27",
   "pagination": {
-    "total_items": 1,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

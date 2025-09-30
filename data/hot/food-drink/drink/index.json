@@ -157,6 +157,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "custoza-the-italian-white-that-should-be-on-your-radar-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Custoza: the Italian white that should be on your radar",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/09/iStock-178019147-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/custoza-the-italian-white-that-should-be-on-your-radar-2025-09-29/",
+      "excerpt": "Custoza: the fresh Italian white you should be drinking View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Interview W…",
+      "source": "https://www.thedrinksbusiness.com/2025/09/custoza-the-italian-white-that-should-be-on-your-radar/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "circana-weekly-scans-bev-alc-declines-continue-na-beer-competition-hea",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -166,6 +178,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/drink/circana-weekly-scans-bev-alc-declines-continue-na-beer-competition-hea/",
       "excerpt": "Circana Weekly Scans: Bev-Alc Declines Continue, NA Beer Competition Heats Up | Brewbound Menu Become an Insider Become a Brewbound Insider Brewbound Live Jobs Beyond Beer Big Beer Craft Data Distribution Legislative M&A New Products On-Premise & At-The-Brewery Trends People M…",
       "source": "https://www.brewbound.com/news/circana-weekly-scans-bev-alc-declines-continue-na-beer-competition-heats-up",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "beer-institute-august-beer-shipments-11-4-as-industry-corrects-surplus",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Beer Institute: August Beer Shipments -11.4% as Industry Corrects Surplus Volumes",
+      "cover": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2021/09/27162828/brewbound_beer-institute_takeaways_opengraph.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/beer-institute-august-beer-shipments-11-4-as-industry-corrects-surplus/",
+      "excerpt": "Beer Institute: August Beer Shipments -11.4% as Industry Corrects Surplus Volumes | Brewbound Menu Become an Insider Become a Brewbound Insider Brewbound Live Jobs Beyond Beer Big Beer Craft Data Distribution Legislative M&A New Products On-Premise & At-The-Brewery Trends Peop…",
+      "source": "https://www.brewbound.com/news/beer-institute-august-beer-volume-11-4-as-industry-corrects-surplus-volumes",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1921,10 +1945,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 160,
+  "count": 162,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 160,
+    "total_items": 162,
     "per_page": 12,
     "total_pages": 14
   }

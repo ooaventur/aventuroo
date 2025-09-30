@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "uk-chancellor-pledges-new-youth-guarantee-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "UK chancellor pledges new 'youth guarantee'",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/fd30/live/fd15b090-9d35-11f0-92db-77261a15b9d2.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/uk-chancellor-pledges-new-youth-guarantee-2025-09-29/",
+      "excerpt": "UK chancellor pledges new 'youth guarantee' Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland N. Irel…",
+      "source": "https://www.bbc.com/news/videos/cvgv39n79v4o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "steelers-haven-t-always-looked-good-during-their-3-1-start-they-also-d",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -154,6 +166,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/chase-elliott-s-stunning-kansas-win-sparks-hope-for-hendrick-motorspor/",
       "excerpt": "Chase Elliott's stunning Kansas win sparks hope for Hendrick Motorsports in NASCAR playoffs - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Str…",
       "source": "https://abcnews.go.com/Politics/wireStory/chase-elliotts-stunning-kansas-win-sparks-hope-hendrick-126047291",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "are-labour-members-worried-about-jeremy-corbyn-s-new-party-2025-09-29",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "Are Labour members worried about Jeremy Corbyn's new party?",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/f77a/live/e7abdcf0-9d50-11f0-b741-177e3e2c2fc7.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/are-labour-members-worried-about-jeremy-corbyn-s-new-party-2025-09-29/",
+      "excerpt": "Are Labour members worried about Jeremy Corbyn's new party? Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N.…",
+      "source": "https://www.bbc.com/news/videos/c5y8vl7lzk8o?at_medium=RSS&at_campaign=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1537,10 +1561,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 128,
+  "count": 130,
   "updated_at": "2025-09-29",
   "pagination": {
-    "total_items": 128,
+    "total_items": 130,
     "per_page": 12,
     "total_pages": 11
   }
