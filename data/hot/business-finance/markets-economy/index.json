@@ -49,6 +49,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fca-seeks-to-loosen-uk-consumer-protection-rules-to-relieve-excessive",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "FCA seeks to loosen UK consumer protection rules to relieve ‘excessive burden’",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4e2b15aa-e86b-40a1-9575-3fe6b20d0bab.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/fca-seeks-to-loosen-uk-consumer-protection-rules-to-relieve-excessive/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/5520aeb2-2145-49b0-8882-6a0a1751086e",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "billionaire-barry-silbert-seeks-to-shake-legal-woes-ahead-of-grayscale",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Billionaire Barry Silbert seeks to shake legal woes ahead of Grayscale IPO",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2bb68398-384c-40d5-9d9b-6f73dd7180f7.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/billionaire-barry-silbert-seeks-to-shake-legal-woes-ahead-of-grayscale/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/73fd877f-2544-483a-8fd5-c2adcf3e25eb",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amazon-prime-video-teams-up-with-fanduel-for-real-time-betting-updates",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Amazon Prime Video teams up with FanDuel for real-time betting updates during NBA games",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108141051-1746462163874-gettyimages-2198600767-DH776209897_23818_Kings_Pelicans.jpeg?v=1759179573&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/amazon-prime-video-teams-up-with-fanduel-for-real-time-betting-updates/",
+      "excerpt": "Amazon Prime Video, FanDuel launch real-time NBA betting updates Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indust…",
+      "source": "https://www.cnbc.com/2025/09/30/amazon-prime-fanduel-real-time-nba-betting-updates.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uchicago-sells-prized-institute-amid-high-debt-and-low-returns-2025-09",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -697,11 +733,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 61,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 58,
+    "total_items": 61,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

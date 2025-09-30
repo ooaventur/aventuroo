@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "slug": "outside-thoughts-2024-10-29",
+      "date": "2024-10-29",
+      "published_at": "2024-10-29T00:00:00Z",
+      "created_at": "2024-10-29T00:00:00Z",
+      "title": "Outside Thoughts",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/10/coyote.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/outside-thoughts-2024-10-29/",
+      "excerpt": "Outside Thoughts | Online Only | n+1 | Stephen Squibb Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/outside-thoughts/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-art-of-the-rent-gap-2024-10-25",
+      "date": "2024-10-25",
+      "published_at": "2024-10-25T00:00:00Z",
+      "created_at": "2024-10-25T00:00:00Z",
+      "title": "The Art of the Rent Gap",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/10/apprentice.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/the-art-of-the-rent-gap-2024-10-25/",
+      "excerpt": "The Art of the Rent Gap | Online Only | n+1 | Samuel Stein Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tre…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/the-art-of-the-rent-gap/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 2,
+  "updated_at": "2024-10-29",
+  "pagination": {
+    "total_items": 2,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}

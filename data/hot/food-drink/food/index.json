@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "what-ba-editors-loved-in-september-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "What BA Editors Loved in September",
+      "cover": "https://assets.bonappetit.com/photos/68dbfd3f1606b810136da76d/master/pass/9.30_BA_Editors'_Faves_September_v2.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/what-ba-editors-loved-in-september-2025-09-30/",
+      "excerpt": "What BA Editors Loved in September | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Shopping Everything BA E…",
+      "source": "https://www.bonappetit.com/story/what-editors-loved-september-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "this-whetstone-set-sharpened-even-the-most-brutalized-knife-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "This Whetstone Set Sharpened Even The Most Brutalized Knife",
+      "cover": "https://assets.bonappetit.com/photos/68dbf89affc0ab929a0ff1ad/master/pass/9.24_BA_hapton_Whetstone_highly_recommend_lede_image.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/this-whetstone-set-sharpened-even-the-most-brutalized-knife-2025-09-30/",
+      "excerpt": "This Whetstone Set Sharpened Even The Most Brutalized Knife | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search…",
+      "source": "https://www.bonappetit.com/story/shapton-whetstone-highly-recommend",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "house-favorite-chicken-parmesan-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "House Favorite Chicken Parmesan",
+      "cover": "https://www.youtube.com/embed/KgCPbO1LWdQ",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/house-favorite-chicken-parmesan-2025-09-30/",
+      "excerpt": "House Favorite Chicken Parmesan Recipe - Pinch of Yum icon-arrow icon-chevron-white icon-chevron icon-comment icon-facebook icon-heart icon-instagram icon-instant-pot icon-list icon-lock icon-meal-prep icon-next icon-pinterest icon-popular icon-quote icon-search icon-star icon…",
+      "source": "https://pinchofyum.com/chicken-parmesan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-korean-inspired-hangover-cure-i-stand-by-as-a-professional-drinker",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -529,10 +565,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
-  "updated_at": "2025-09-29",
+  "count": 47,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 44,
+    "total_items": 47,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-30",
   "per_page": 12,
-  "total_items": 880,
+  "total_items": 895,
   "parents": [
     {
       "parent": "business-finance",
@@ -85,13 +85,13 @@
     },
     {
       "parent": "culture-arts",
-      "items": 142,
-      "pages": 12,
+      "items": 147,
+      "pages": 13,
       "children": [
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 101,
+          "items": 106,
           "pages": 9,
           "months": [
             {
@@ -151,6 +151,12 @@
             {
               "year": 2024,
               "month": 11,
+              "items": 5,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 10,
               "items": 2,
               "pages": 1
             }
@@ -781,8 +787,8 @@
     },
     {
       "parent": "travel",
-      "items": 407,
-      "pages": 34,
+      "items": 417,
+      "pages": 35,
       "children": [
         {
           "child": "destinations",
@@ -843,7 +849,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 126,
+          "items": 131,
           "pages": 11,
           "months": [
             {
@@ -945,13 +951,13 @@
             {
               "year": 2024,
               "month": 4,
-              "items": 5,
+              "items": 7,
               "pages": 1
             },
             {
               "year": 2024,
               "month": 3,
-              "items": 1,
+              "items": 4,
               "pages": 1
             },
             {
@@ -1051,7 +1057,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 125,
+          "items": 130,
           "pages": 11,
           "months": [
             {
@@ -1076,6 +1082,12 @@
               "year": 2025,
               "month": 5,
               "items": 5,
+              "pages": 1
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "items": 1,
               "pages": 1
             },
             {
@@ -1147,7 +1159,7 @@
             {
               "year": 2024,
               "month": 4,
-              "items": 3,
+              "items": 7,
               "pages": 1
             }
           ]

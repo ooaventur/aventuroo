@@ -23,12 +23,48 @@
       "excerpt": "As Good As It Gets? | Online Only | n+1 | Joel Suarez Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of …",
       "source": "https://www.nplusonemag.com/online-only/online-only/as-good-as-it-gets/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-evening-with-the-european-review-of-books-2024-11-13",
+      "date": "2024-11-13",
+      "published_at": "2024-11-13T00:00:00Z",
+      "created_at": "2024-11-13T00:00:00Z",
+      "title": "An evening with the European Review of Books",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/11/n1-erb-event.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/an-evening-with-the-european-review-of-books-2024-11-13/",
+      "excerpt": "An evening with the European Review of Books | Online Only | n+1 European Review of Books \" /> European Review of Books \" /> Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-onli…",
+      "source": "https://www.nplusonemag.com/online-only/events/an-evening-with-the-european-review-of-books/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "milestones-2024-11-06",
+      "date": "2024-11-06",
+      "published_at": "2024-11-06T00:00:00Z",
+      "created_at": "2024-11-06T00:00:00Z",
+      "title": "Milestones",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/11/Screenshot-2024-11-06-at-4.54.25-PM.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/milestones-2024-11-06/",
+      "excerpt": "Milestones | Online Only | n+1 | Mark Krotov Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree of Violence …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/milestones/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-celebration-of-the-intellectual-situation-2024-11-06",
+      "date": "2024-11-06",
+      "published_at": "2024-11-06T00:00:00Z",
+      "created_at": "2024-11-06T00:00:00Z",
+      "title": "A celebration of The Intellectual Situation",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/11/IntSit_IG.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/a-celebration-of-the-intellectual-situation-2024-11-06/",
+      "excerpt": "A celebration of The Intellectual Situation | Online Only | n+1 The Intellectual Situation \" /> The Intellectual Situation \" /> Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-o…",
+      "source": "https://www.nplusonemag.com/online-only/events/a-celebration-of-the-intellectual-situation/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
+  "count": 5,
   "updated_at": "2024-11-26",
   "pagination": {
-    "total_items": 2,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }

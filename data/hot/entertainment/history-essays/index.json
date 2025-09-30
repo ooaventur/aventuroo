@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "mexico-s-golden-age-of-cinema-photos-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Mexico's Golden Age of Cinema: Photos",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/mexico-s-golden-age-of-cinema-photos-2025-09-30/",
+      "excerpt": "<p>Mexico’s movie industry became a powerhouse in the 1930s.</p>",
+      "source": "https://www.www.history.com/articles/golden-age-mexican-cinema-movies",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hamas-launches-deadliest-attack-in-israeli-history-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Hamas launches deadliest attack in Israeli history",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/hamas-launches-deadliest-attack-in-israeli-history-2025-09-30/",
+      "excerpt": "<p>Nearly 1,200 killed and hundreds taken hostage.</p>",
+      "source": "https://www.www.history.com/this-day-in-history/october-7-hamas-attack-israel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "birth-of-the-pearl-1901-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Birth of the Pearl (1901)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/birth-of-the-pearl/birth-of-pearl-thumb.png",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/birth-of-the-pearl-1901-2025-09-30/",
+      "excerpt": "*Birth of the Pearl* (1901) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Film Birth of the Pearl (1901) Birth of the …",
+      "source": "https://publicdomainreview.org/collection/birth-of-the-pearl",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-was-the-holy-roman-empire-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -361,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-09-29",
+  "count": 33,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 30,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }

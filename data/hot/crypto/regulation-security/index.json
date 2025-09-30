@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "sec-weighs-plan-to-allow-blockchain-based-stock-trading-amid-crypto-pu",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "SEC weighs plan to allow blockchain-based stock trading amid crypto push: Report",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDMvMDE5NWVkNGMtYTg1YS03M2I5LWJhZWEtMmFkOTI4MmRmZTZk.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sec-weighs-plan-to-allow-blockchain-based-stock-trading-amid-crypto-pu/",
+      "excerpt": "SEC Weighs Plan to Let Stocks Trade on Blockchain Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Sam Bourgi 2 hours ago SEC weighs plan to allow blockchain-based stock trading amid crypto push: Report The SEC is exploring a plan to let blockchain-based…",
+      "source": "https://cointelegraph.com/news/sec-blockchain-stock-trading-tokenized-equities-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "can-solana-rival-wall-street-kyle-samani-thinks-so-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Can Solana rival Wall Street? Kyle Samani thinks so",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDQvMDE5NjBlNzgtNGFkYS03OWZhLWEzODItZWRmZGZmODU5OGY4.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/can-solana-rival-wall-street-kyle-samani-thinks-so-2025-09-30/",
+      "excerpt": "Can Solana rival Wall Street? Kyle Samani thinks so Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Marco Castrovilli 2 hours ago Can Solana rival Wall Street? Kyle Samani thinks so In an interview with Cointelegraph, Forward Industries’ Kyle Samani exp…",
+      "source": "https://cointelegraph.com/news/can-solana-rival-wall-street-kyle-samani-video?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bitcoin-isn-t-dying-it-s-becoming-domesticated-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Bitcoin isn’t dying, it’s becoming domesticated",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDEvMDE5NGIwOGMtOGUwNy03NzU0LWI2MTEtMjJlMjZhZmNlOWU0.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/bitcoin-isn-t-dying-it-s-becoming-domesticated-2025-09-30/",
+      "excerpt": "Bitcoin Isn’t Dying, It’s Becoming Domesticated Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Nic Puckrin 5 hours ago Bitcoin isn’t dying, it’s becoming domesticated Wall Street's ETFs are domesticating Bitcoin into a fee machine, stripping away peer-…",
+      "source": "https://cointelegraph.com/news/bitcoin-isnt-dying?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-money-your-data-your-choice-through-defi-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -1033,10 +1069,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 86,
-  "updated_at": "2025-09-29",
+  "count": 89,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 86,
+    "total_items": 89,
     "per_page": 12,
     "total_pages": 8
   }

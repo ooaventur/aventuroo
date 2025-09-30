@@ -25,6 +25,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "long-commutes-and-small-homes-are-wrecking-sleep-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Long commutes and small homes are wrecking sleep",
+      "cover": "https://www.sciencedaily.com/images/1920/asian-woman-sitting-in-bed-late-night.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/long-commutes-and-small-homes-are-wrecking-sleep-2025-09-30/",
+      "excerpt": "Long commutes and small homes are wrecking sleep | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Long c…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250930034158.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "first-living-cochlea-outside-the-body-shows-how-hearing-really-works-2",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "First living cochlea outside the body shows how hearing really works",
+      "cover": "https://www.sciencedaily.com/images/1920/live-mammalian-cochlea.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/first-living-cochlea-outside-the-body-shows-how-hearing-really-works-2/",
+      "excerpt": "First living cochlea outside the body shows how hearing really works | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research …",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929055003.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "black-mamba-venom-has-a-deadly-hidden-second-strike-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Black mamba venom has a deadly hidden second strike",
+      "cover": "https://www.sciencedaily.com/images/1920/biting-black-mamba.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/black-mamba-venom-has-a-deadly-hidden-second-strike-2025-09-30/",
+      "excerpt": "Black mamba venom has a deadly hidden second strike | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Bla…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250930034202.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-gen-x-women-can-t-stop-eating-ultra-processed-foods-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -937,10 +973,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 78,
+  "count": 81,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 78,
+    "total_items": 81,
     "per_page": 12,
     "total_pages": 7
   }

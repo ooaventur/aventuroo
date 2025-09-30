@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sec-axes-xrp-ada-sol-etfs-staking-dreams-crushed-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "SEC Axes XRP, ADA, SOL ETFs: Staking Dreams Crushed?",
+      "cover": "https://dailycoin.com/wp-content/uploads/2024/04/eth_ethereum_trouble_head-ache_full-moon_web.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/sec-axes-xrp-ada-sol-etfs-staking-dreams-crushed-2025-09-30/",
+      "excerpt": "SEC Axes XRP, ADA, SOL ETFs: Staking Dreams Crushed? - DailyCoin About us Events Contact Advertise Join newsletter Subscribe Search for: eSports & Web3 Gaming News Tokens Crypto News Crypto News Bitcoin (BTC) Ethereum (ETH) Altcoins Cardano (ADA) Ripple (XRP) Shiba Inu (SHIB) …",
+      "source": "https://dailycoin.com/sec-axes-xrp-ada-sol-etfs-staking-dreams-crushed/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "apex-token-soars-over-600-as-analysts-question-rally-s-integrity-2025",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/analyst-pinpoints-altcoins-and-narratives-set-to-outperform-in-q4-2025/",
       "excerpt": "Only A Few Altcoins and Narratives Could Rally in Q4 Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed Top …",
       "source": "https://beincrypto.com/analyst-altcoins-narratives-q4/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "3-2b-lunc-burns-serve-quick-boost-but-why-the-price-stall-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "3.2B LUNC Burns Serve Quick Boost, But Why The Price Stall?",
+      "cover": "https://dailycoin.com/wp-content/uploads/2024/07/Binance_Fire_Burning_Warehouse_Empty_Binance_LUNC_Crypto_web.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/3-2b-lunc-burns-serve-quick-boost-but-why-the-price-stall-2025-09-30/",
+      "excerpt": "3.2B LUNC Burns Serve Quick Boost, But Why The Price Stall? - DailyCoin About us Events Contact Advertise Join newsletter Subscribe Search for: eSports & Web3 Gaming News Tokens Crypto News Crypto News Bitcoin (BTC) Ethereum (ETH) Altcoins Cardano (ADA) Ripple (XRP) Shiba Inu …",
+      "source": "https://dailycoin.com/3-2b-lunc-burns-serve-quick-boost-but-why-the-price-stall/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -853,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 71,
+  "count": 73,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 71,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

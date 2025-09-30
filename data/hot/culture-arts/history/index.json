@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "who-was-the-real-james-herriot-the-true-story-behind-all-creatures-gre",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Who was the real James Herriot? The true story behind All Creatures Great and Small",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2024/09/GettyImages-50601083-1fa1d6b-e1759237771470.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/who-was-the-real-james-herriot-the-true-story-behind-all-creatures-gre/",
+      "excerpt": "The Real James Herriot | True Story Behind All Creatures Great And Small | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon…",
+      "source": "https://www.historyextra.com/period/20th-century/james-herriot-history/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-most-iconic-fads-of-the-1990s-from-the-rachel-to-the-macarena-2025",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -22,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/robert-peel-life-of-the-week-2025-09-30/",
       "excerpt": "Robert Peel: life of the week | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georgian Victor…",
       "source": "https://www.historyextra.com/membership/robert-peel-life-of-the-week-podcast-richard-gaunt/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "forget-the-longships-this-is-the-overlooked-story-of-how-the-vikings-d",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Forget the longships: this is the overlooked story of how the Vikings dominated eastern Europe",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/forget-viking-longships-0506285.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/forget-the-longships-this-is-the-overlooked-story-of-how-the-vikings-d/",
+      "excerpt": "Forget the longships: this is the overlooked story of how the Vikings dominated eastern Europe | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Ro…",
+      "source": "https://www.historyextra.com/period/viking/longships-norse-dominate-eastern-europe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-discover-what-could-be-the-earliest-human-settlement-on",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Archaeologists Discover What Could Be The Earliest Human Settlement On The Arabian Peninsula",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/masyoun-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-discover-what-could-be-the-earliest-human-settlement-on/",
+      "excerpt": "Archaeologists Find Oldest Settlement On Arabian Peninsula All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists Discover What Could Be The Earliest Human Settlement On The Arabian P…",
+      "source": "https://allthatsinteresting.com/arabian-peninsula-earliest-human-settlement",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -889,10 +925,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 74,
+  "count": 77,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 74,
+    "total_items": 77,
     "per_page": 12,
     "total_pages": 7
   }

@@ -13,6 +13,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "magnolia-bakery-s-ceo-shares-her-5-rules-for-perfect-banana-pudding-20",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Magnolia Bakery's CEO Shares Her 5 Rules For Perfect Banana Pudding",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/copycat-magnolia-bakery-banana-pudding-web-1-del049925-index-6806bb816315e.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/magnolia-bakery-s-ceo-shares-her-5-rules-for-perfect-banana-pudding-20/",
+      "excerpt": "Magnolia Bakery's CEO Shares Her 5 Rules For Perfect Banana Pudding We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Su…",
+      "source": "https://www.delish.com/kitchen-tools/kitchen-secrets/a68120957/secrets-for-best-banana-pudding/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "i-made-these-parmesan-tortellini-bites-they-re-even-better-than-mozzar",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "I Made These Parmesan Tortellini Bites—They’re Even Better Than Mozzarella Sticks!",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/parmesan-tortellini-bites-vertical-6633a21a1b80c.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/i-made-these-parmesan-tortellini-bites-they-re-even-better-than-mozzar/",
+      "excerpt": "I Tried Making Parmesan Tortellini Bites We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits…",
+      "source": "https://www.delish.com/food/a68066947/i-tried-parmesan-tortellini-bites/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "get-your-sundays-back-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Get Your Sundays Back",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/gs25217-hearst-samsung-delish-hero-16x9-mg-c-20250922-v02-mov-01-00-09-13-still002-1-68daede445f01.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/get-your-sundays-back-2025-09-30/",
+      "excerpt": "Get Your Sundays Back We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes Meals Holi…",
+      "source": "https://www.delish.com/videos/a65490543/get-your-sundays-back/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "classic-chicken-pot-pie-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Classic Chicken Pot Pie",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/chicken-pot-pie-index-653ae6ea7c929.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/classic-chicken-pot-pie-2025-09-30/",
+      "excerpt": "Best Classic Chicken Pot Pie Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Reci…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a58236/classic-chicken-pot-pie-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cheese-ball-bites-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Cheese Ball Bites",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/cheese-ball-bites-index-66bb5f1f8948d.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/cheese-ball-bites-2025-09-30/",
+      "excerpt": "Best Cheese Ball Bites Recipe We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. My Recipes Subscribe Membership Benefits Recipes Me…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/recipes/a50204/cheese-ball-bites-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "aldi-just-made-a-big-change-inside-its-stores-here-s-what-to-expect-20",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -1645,10 +1705,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 137,
+  "count": 142,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 137,
+    "total_items": 142,
     "per_page": 12,
     "total_pages": 12
   }

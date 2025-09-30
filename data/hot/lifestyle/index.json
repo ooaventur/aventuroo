@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "your-october-horoscope-is-here-it-s-time-to-act-more-intentionally-202",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Your October Horoscope Is Here — It’s Time To Act More Intentionally",
+      "cover": "https://www.refinery29.com/images/11935690.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/your-october-horoscope-is-here-it-s-time-to-act-more-intentionally-202/",
+      "excerpt": "Your October 2025 Horoscope Is Here Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together beauty enthus…",
+      "source": "https://www.refinery29.com/en-us/october-monthly-horoscope-2025-meanings-effects?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-horoscope-this-week-september-28-to-october-4-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -337,10 +349,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 28,
-  "updated_at": "2025-09-29",
+  "count": 29,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 28,
+    "total_items": 29,
     "per_page": 12,
     "total_pages": 3
   }

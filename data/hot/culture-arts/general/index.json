@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-are-some-of-the-world-s-best-directors-reviving-this-special-film",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Why Are Some of the World’s Best Directors Reviving This Special Film Format Created in the 1950s?",
+      "cover": "https://th-thumbnailer.cdn-si-edu.com/_8cPioO_G6pGM9uE0SfNms3Bnuw=/fit-in/1600x0/filters:focal(3000x2000:3001x2001)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/2f/1a/2f1a9c33-f0fe-4bb8-8ef3-6a4a04810829/obaa-mm-dsf7704.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/why-are-some-of-the-world-s-best-directors-reviving-this-special-film/",
+      "excerpt": "Why Are Some of the World’s Best Directors Reviving This Special Film Format Created in the 1950s? Skip to main content Search Shop Newsletters Renew Give a Gift Subscribe Membership i Subscribe Give a Gift Renew Sections Smart News History Science Innovation Arts & Culture Tr…",
+      "source": "https://www.smithsonianmag.com/arts-culture/why-are-some-of-the-worlds-best-directors-reviving-this-special-film-format-created-in-the-1950s-180987424/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "should-college-get-harder-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -1417,10 +1429,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 118,
+  "count": 119,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 118,
+    "total_items": 119,
     "per_page": 12,
     "total_pages": 10
   }
