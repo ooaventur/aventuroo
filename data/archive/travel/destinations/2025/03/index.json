@@ -289,6 +289,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-best-beach-hotels-in-italy-for-a-spring-getaway-2025-03-07",
+      "date": "2025-03-07",
+      "published_at": "2025-03-07T00:00:00Z",
+      "created_at": "2025-03-07T00:00:00Z",
+      "title": "The best beach hotels in Italy for a spring getaway",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/villa-sant-andrea-a-belmond-hotel-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-beach-hotels-in-italy-for-a-spring-getaway-2025-03-07/",
+      "excerpt": "The best beach hotels in Italy | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/articles/best-beach-hotels-in-italy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "unlocking-success-maximize-your-brand-s-impact-with-travelpulse-conten",
       "date": "2025-03-06",
       "published_at": "2025-03-06T00:00:00Z",
@@ -299,12 +311,60 @@
       "excerpt": "The TravelPulse Content Strategy program assists in sharing your story with travel advisors through multiple touchpoints.",
       "source": "https://www.travelpulse.com/news/features/unlocking-success-maximize-your-brands-impact-with-travelpulse-content-strategy?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-secret-to-the-perfect-countryside-escape-in-the-cotswolds-2025-03",
+      "date": "2025-03-06",
+      "published_at": "2025-03-06T00:00:00Z",
+      "created_at": "2025-03-06T00:00:00Z",
+      "title": "The secret to the perfect countryside escape in the Cotswolds",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United Kingdom/Cotswolds/cotswolds-destination-guide.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-secret-to-the-perfect-countryside-escape-in-the-cotswolds-2025-03/",
+      "excerpt": "An expert guide to holidays in the Cotswolds | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cotswolds/articles/cotswolds-travel-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-shopping-in-the-cotswolds-2025-03-06",
+      "date": "2025-03-06",
+      "published_at": "2025-03-06T00:00:00Z",
+      "created_at": "2025-03-06T00:00:00Z",
+      "title": "The best shopping in the Cotswolds",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/England/Cotswolds/cotswolds_shop_highgrove.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-shopping-in-the-cotswolds-2025-03-06/",
+      "excerpt": "The best Cotswolds shopping Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Travel Travel Search Destina…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cotswolds/articles/cotswolds-shopping/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-dog-friendly-hotels-in-the-lake-district-2025-03-06",
+      "date": "2025-03-06",
+      "published_at": "2025-03-06T00:00:00Z",
+      "created_at": "2025-03-06T00:00:00Z",
+      "title": "The best dog-friendly hotels in the Lake District",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/march/rothay-manor-lake-district-lead-image.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-dog-friendly-hotels-in-the-lake-district-2025-03-06/",
+      "excerpt": "Best dog-friendly hotels in the Lake District | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe no…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/cumbria/lake-district/articles/best-dog-friendly-hotels-in-the-lake-district/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-perfect-ski-holiday-in-zermatt-switzerland-s-most-iconic-resort-20",
+      "date": "2025-03-05",
+      "published_at": "2025-03-05T00:00:00Z",
+      "created_at": "2025-03-05T00:00:00Z",
+      "title": "The perfect ski holiday in Zermatt, Switzerland’s most iconic resort",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/ski/Resorts/zermatt-village-view.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-perfect-ski-holiday-in-zermatt-switzerland-s-most-iconic-resort-20/",
+      "excerpt": "An expert guide to ski holidays in Zermatt, Switzerland | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Su…",
+      "source": "https://www.telegraph.co.uk/travel/ski/resort-guides/switzerland/zermatt/zermatt-ski-holiday-guide/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
+  "count": 30,
   "updated_at": "2025-03-29",
   "pagination": {
-    "total_items": 25,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

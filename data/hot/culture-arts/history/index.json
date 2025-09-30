@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-most-iconic-fads-of-the-1990s-from-the-rachel-to-the-macarena-2025",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "The Most Iconic Fads Of The 1990s, From ‘The Rachel’ To The Macarena",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/beanie-babies-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-most-iconic-fads-of-the-1990s-from-the-rachel-to-the-macarena-2025/",
+      "excerpt": "The Biggest 1990s Fads, From Beanie Babies To Pokémania All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Most Iconic Fads Of The 1990s, From ‘The Rachel’ To The Macarena By Austin Harvey |…",
+      "source": "https://allthatsinteresting.com/1990s-fads",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vlad-the-impaler-was-medieval-europe-s-bloodiest-warlord-but-is-the-sc",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/vlad-the-impaler-was-medieval-europe-s-bloodiest-warlord-but-is-the-sc/",
       "excerpt": "Vlad the Impaler was medieval Europe's bloodiest warlord, but is the scale of his murder just a myth? | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient E…",
       "source": "https://www.historyextra.com/period/medieval/vlad-the-impaler-dracula-iii-forest-of-impaled-myth-new-research/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-incredible-life-and-violent-death-of-cicero-the-doomed-defender-of",
+      "date": "2025-09-29",
+      "published_at": "2025-09-29T00:00:00Z",
+      "created_at": "2025-09-29T00:00:00Z",
+      "title": "The Incredible Life And Violent Death Of Cicero, The Doomed Defender Of The Roman Republic",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/cicero-featured-1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-incredible-life-and-violent-death-of-cicero-the-doomed-defender-of/",
+      "excerpt": "Inside The Remarkable Life And Brutal Death Of Cicero All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Incredible Life And Violent Death Of Cicero, The Doomed Defender Of The Roman Republi…",
+      "source": "https://allthatsinteresting.com/cicero",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -841,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
-  "updated_at": "2025-09-29",
+  "count": 72,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 70,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }

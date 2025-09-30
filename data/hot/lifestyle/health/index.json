@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-hidden-iron-switch-that-makes-cancer-cells-self-destruct-2025-09-3",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "The hidden iron switch that makes cancer cells self-destruct",
+      "cover": "https://www.sciencedaily.com/images/1920/cancer-cell-divides.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/the-hidden-iron-switch-that-makes-cancer-cells-self-destruct-2025-09-3/",
+      "excerpt": "The hidden iron switch that makes cancer cells self-destruct | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929054920.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-finally-explain-the-real-reason-pregnant-women-get-morning",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Scientists finally explain the real reason pregnant women get morning sickness",
+      "cover": "https://www.sciencedaily.com/images/1920/black-woman-pregnancy-morning-sickness.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-finally-explain-the-real-reason-pregnant-women-get-morning/",
+      "excerpt": "Scientists finally explain the real reason pregnant women get morning sickness | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250929054923.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-gen-x-women-can-t-stop-eating-ultra-processed-foods-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -913,10 +937,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 76,
-  "updated_at": "2025-09-29",
+  "count": 78,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 76,
+    "total_items": 78,
     "per_page": 12,
     "total_pages": 7
   }

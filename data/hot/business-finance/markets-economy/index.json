@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "zijin-gold-shares-surge-68-in-hong-kong-trading-debut-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Zijin Gold shares surge 68% in Hong Kong trading debut",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F950aa8ea-e796-458b-8457-504f3c393112.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/zijin-gold-shares-surge-68-in-hong-kong-trading-debut-2025-09-30/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/3d1add72-9296-49a3-a5eb-ec21100e9b50",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uchicago-sells-prized-institute-amid-high-debt-and-low-returns-2025-09",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -649,10 +661,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
-  "updated_at": "2025-09-29",
+  "count": 55,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 54,
+    "total_items": 55,
     "per_page": 12,
     "total_pages": 5
   }

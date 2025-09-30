@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-is-a-positioning-statement-why-it-matters-and-how-to-write-yours",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "What Is a Positioning Statement? Why It Matters—and How to Write Yours",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/What-is-a-Positioning-Statement-Social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/what-is-a-positioning-statement-why-it-matters-and-how-to-write-yours/",
+      "excerpt": "What Is a Positioning Statement? Examples & Tips | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
+      "source": "https://www.success.com/what-is-a-positioning-statement/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-power-i-now-carry-because-of-my-illness-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -685,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 57,
-  "updated_at": "2025-09-29",
+  "count": 58,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 57,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

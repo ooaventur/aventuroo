@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "does-your-favorite-climbing-hold-match-your-enneagram-type-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Does Your Favorite Climbing Hold Match Your Enneagram Type?",
+      "cover": "https://www.climbing.com/wp-content/uploads/2025/09/GettyImages-1018748254-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/does-your-favorite-climbing-hold-match-your-enneagram-type-2025-09-30/",
+      "excerpt": "Does Your Favorite Climbing Hold Match Your Enneagram Type? Climbing Magazine logo Powered by Outside Culture Does Your Favorite Climbing Hold Match Your Enneagram Type? According to one routesetter, there's at least one climbing hold out there in the shape of your basic desir…",
+      "source": "https://www.climbing.com/culture-climbing/does-your-favorite-climbing-hold-match-your-enneagram-type/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "you-don-t-have-to-pay-700-for-a-pro-level-bike-computer-our-editors-un",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -1933,10 +1945,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 161,
-  "updated_at": "2025-09-29",
+  "count": 162,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 161,
+    "total_items": 162,
     "per_page": 12,
     "total_pages": 14
   }

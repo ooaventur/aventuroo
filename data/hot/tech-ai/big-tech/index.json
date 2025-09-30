@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "u-s-commerce-head-lutnick-wants-taiwan-to-help-america-make-50-of-its",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "U.S. Commerce head Lutnick wants Taiwan to help America make 50% of its chips locally",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108193540-1756885982276-gettyimages-2209504202-vcg111560411382.jpeg?v=1756886066&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/u-s-commerce-head-lutnick-wants-taiwan-to-help-america-make-50-of-its/",
+      "excerpt": "Taiwan should only produce half of America’s chips, says U.S. Commerce Chief Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transport…",
+      "source": "https://www.cnbc.com/2025/09/30/taiwan-should-only-produce-half-of-americas-chips-says-us-commerce-chief.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "youtube-agrees-to-pay-trump-24-5-million-to-settle-lawsuit-over-suspen",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -565,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 47,
-  "updated_at": "2025-09-29",
+  "count": 48,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 47,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

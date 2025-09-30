@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-08-30",
   "per_page": 12,
-  "total_items": 840,
+  "total_items": 860,
   "shards": [
     {
       "parent": "business-finance",
@@ -102,7 +102,7 @@
       "month": 12,
       "path": "culture-arts/columns-essays/2024/12/index.json",
       "path_gz": "culture-arts/columns-essays/2024/12/index.json.gz",
-      "items": 6,
+      "items": 11,
       "first_date": "2024-12-16",
       "last_date": "2024-12-20",
       "pages": 1
@@ -1220,8 +1220,8 @@
       "month": 3,
       "path": "travel/destinations/2025/03/index.json",
       "path_gz": "travel/destinations/2025/03/index.json.gz",
-      "items": 25,
-      "first_date": "2025-03-06",
+      "items": 30,
+      "first_date": "2025-03-05",
       "last_date": "2025-03-29",
       "pages": 3
     },
@@ -1337,8 +1337,8 @@
       "month": 5,
       "path": "travel/experiences/2024/05/index.json",
       "path_gz": "travel/experiences/2024/05/index.json.gz",
-      "items": 6,
-      "first_date": "2024-05-15",
+      "items": 11,
+      "first_date": "2024-05-08",
       "last_date": "2024-05-27",
       "pages": 1
     },
@@ -1649,8 +1649,8 @@
       "month": 5,
       "path": "travel/trip-ideas/2024/05/index.json",
       "path_gz": "travel/trip-ideas/2024/05/index.json.gz",
-      "items": 1,
-      "first_date": "2024-05-29",
+      "items": 6,
+      "first_date": "2024-05-13",
       "last_date": "2024-05-29",
       "pages": 1
     },
