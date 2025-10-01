@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "why-you-always-get-constipated-on-backpacking-trips-and-how-to-fix-it",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Why You Always Get Constipated on Backpacking Trips (and How to Fix It)",
+      "cover": "https://www.backpacker.com/wp-content/uploads/2025/09/open-lavatory.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/why-you-always-get-constipated-on-backpacking-trips-and-how-to-fix-it/",
+      "excerpt": "Why You Always Get Constipated on Backpacking Trips (and How to Fix It) Backpacker Magazine logo Powered by Outside Skills > Beginner Skills > Bathroom Etiquette Why You Always Get Constipated on Backpacking Trips (and How to Fix It) Getting stopped up during a backpacking tri…",
+      "source": "https://www.backpacker.com/skills/beginner-skills/bathroom-etiquette/why-you-always-get-constipated-on-backpacking-trips-and-how-to-fix-it/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "these-5-backcountry-huts-have-the-best-leaf-peeping-you-can-get-2025-1",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "These 5 Backcountry Huts Have The Best Leaf Peeping You Can Get",
+      "cover": "https://www.backpacker.com/wp-content/uploads/2025/09/fall-trees-on-lake-minnesota.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/these-5-backcountry-huts-have-the-best-leaf-peeping-you-can-get-2025-1/",
+      "excerpt": "5 Backcountry Huts You Should Visit For Fall Views - Backpacker Backpacker Magazine logo Powered by Outside Trips These 5 Backcountry Huts Have The Best Leaf Peeping You Can Get Fall is here. Watch the leaves transform from the comfort of these backcountry huts. Share Icon Sha…",
+      "source": "https://www.backpacker.com/trips/5-backcountry-huts-to-visit-for-fall-leaf-views/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "i-spent-weeks-riding-the-sika-by-fiftyone-it-s-a-road-bike-that-truly",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -10,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/i-spent-weeks-riding-the-sika-by-fiftyone-it-s-a-road-bike-that-truly/",
       "excerpt": "FiftyOne Sika Review: Lightweight All-Road Bike With Surprising Value We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. Search News…",
       "source": "https://www.bicycling.com/bikes-gear/a65902721/fiftyone-sika-review/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-supermoon-is-coming-next-week-use-this-trick-to-see-it-at-its-best-2",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "A Supermoon Is Coming Next Week—Use This Trick to See It at Its Best",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/supermoon-heron.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/a-supermoon-is-coming-next-week-use-this-trick-to-see-it-at-its-best-2/",
+      "excerpt": "A Supermoon Is Coming Next Week. Here's How to See It. Outside Online logo Travel > News and Analysis A Supermoon Is Coming Next Week—Use This Trick to See It at Its Best The moon is getting extra close to Earth, and this stargazing hack will make it look especially big and br…",
+      "source": "https://www.outsideonline.com/adventure-travel/news-analysis/supermoon-how-to-see/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -949,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 79,
+  "count": 82,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 79,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

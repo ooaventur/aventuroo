@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "castel-fiorentino-in-torremaggiore-italy-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Castel Fiorentino in Torremaggiore, Italy",
+      "cover": "https://img.atlasobscura.com/8A47u8THgraAU2JUT7ZzDuN9IQlwmFm0gl1t8yLLV5k/rt:fit/w:600/c:1085:723:nowe:418:959/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80Mjg1/Y2RmZC0xMTE2LTQy/M2EtODljZC01MTZl/YjE4OTA5MjQxOTAw/MjQ0NDE5NDliMGVm/ZmFfSU1HXzIwMjEx/MDIzXzExMTExNi5q/cGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/castel-fiorentino-in-torremaggiore-italy-2025-10-01/",
+      "excerpt": "Castel Fiorentino - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon-…",
+      "source": "https://www.atlasobscura.com/places/castel-fiorentino",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "world-s-largest-wheelbarrow-in-philippeville-belgium-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -349,10 +361,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 29,
+  "count": 30,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 29,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

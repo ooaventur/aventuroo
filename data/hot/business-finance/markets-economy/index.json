@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "taiwan-becomes-largest-importer-of-russian-naphtha-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Taiwan becomes largest importer of Russian naphtha",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fab371bfb-4319-4f2a-916e-fcce743ef2d6.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/taiwan-becomes-largest-importer-of-russian-naphtha-2025-10-01/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/536c2d90-7dff-486e-a493-6ee2e70bbdb2",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "stablecoin-surge-will-preserve-us-dollar-dominance-says-trump-jr-2025",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Stablecoin surge will preserve US dollar dominance, says Trump Jr",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb0c79c8d-73dc-44c7-aefe-70c26fc1be25.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/stablecoin-surge-will-preserve-us-dollar-dominance-says-trump-jr-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/b3fa2647-df40-4ccd-9283-18edc8321870",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "james-anderson-warns-nvidia-s-100bn-openai-bet-echoes-dotcom-bubble-20",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -373,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 31,
+  "count": 33,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 31,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }

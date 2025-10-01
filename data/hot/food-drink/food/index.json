@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "these-turkey-sweet-potatoes-fuel-my-family-and-my-workouts-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "These Turkey Sweet Potatoes Fuel My Family and My Workouts",
+      "cover": "https://assets.bonappetit.com/photos/68d2e9bbd647c88810262610/master/pass/20250814_BA-25-07-14-WEB_03_FGFP%20Gochujang%20Sweet%20Potatoes_059_FINAL_WEB.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/these-turkey-sweet-potatoes-fuel-my-family-and-my-workouts-2025-10-01/",
+      "excerpt": "These Turkey Sweet Potatoes Fuel My Family and My Workouts | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search …",
+      "source": "https://www.bonappetit.com/story/feel-good-food-plan-october-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meet-your-new-favorite-chocolate-chip-cookie-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Meet Your New Favorite Chocolate Chip Cookie",
+      "cover": "https://assets.bonappetit.com/photos/68d72cdc88ed9142a435dba2/master/pass/olive-oil-chocolate-chip-cookies_LEDE_V1_092525_2037_VOG_Badge_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/meet-your-new-favorite-chocolate-chip-cookie-2025-10-01/",
+      "excerpt": "Meet Your New Favorite Chocolate Chip Cookie | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking Meet Y…",
+      "source": "https://www.bonappetit.com/story/bake-club",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gochujang-turkey-sweet-potatoes-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Gochujang Turkey Sweet Potatoes",
+      "cover": "https://assets.bonappetit.com/photos/68d2e9bbd647c88810262610/master/pass/20250814_BA-25-07-14-WEB_03_FGFP%20Gochujang%20Sweet%20Potatoes_059_FINAL_WEB.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/gochujang-turkey-sweet-potatoes-2025-10-01/",
+      "excerpt": "Gochujang Turkey Sweet Potatoes Recipe | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Recipes Gochujang Tu…",
+      "source": "https://www.bonappetit.com/recipe/gochujang-turkey-sweet-potatoes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chocolate-chip-cookies-with-olive-oil-and-sea-salt-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Chocolate Chip Cookies With Olive Oil and Sea Salt",
+      "cover": "https://assets.bonappetit.com/photos/68dac02c33ad6ce2ff4c83dd/master/pass/olive-oil-chocolate-chip-cookies_RECIPE_V2_092525_2035_V1_Badge_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chocolate-chip-cookies-with-olive-oil-and-sea-salt-2025-10-01/",
+      "excerpt": "Chocolate Chip Cookies With Olive Oil and Sea Salt Recipe | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search R…",
+      "source": "https://www.bonappetit.com/recipe/chocolate-chip-cookies-olive-oil-sea-salt",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-ba-editors-loved-in-september-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -157,10 +205,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 13,
-  "updated_at": "2025-09-30",
+  "count": 17,
+  "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 13,
+    "total_items": 17,
     "per_page": 12,
     "total_pages": 2
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "a-week-in-victoria-bc-on-a-150-000-household-income-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "A Week In Victoria, BC On A $150,000 Household Income",
+      "cover": "https://www.refinery29.com/images/11935235.png?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/a-week-in-victoria-bc-on-a-150-000-household-income-2025-10-01/",
+      "excerpt": "A Week In Victoria, BC On A $150,000 Household Income Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings toge…",
+      "source": "https://www.refinery29.com/en-us/writer-merchandiser-victoria-150k-household-money-diary?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-october-horoscope-is-here-it-s-time-to-act-more-intentionally-202",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -181,10 +193,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 15,
-  "updated_at": "2025-09-30",
+  "count": 16,
+  "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 15,
+    "total_items": 16,
     "per_page": 12,
     "total_pages": 2
   }

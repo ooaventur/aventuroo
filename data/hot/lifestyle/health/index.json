@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "yoga-isn-t-as-heart-healthy-as-you-think-new-study-reveals-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Yoga isn’t as heart-healthy as you think, new study reveals",
+      "cover": "https://www.sciencedaily.com/images/1920/young-female-athlete-stretching-yoga.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/yoga-isn-t-as-heart-healthy-as-you-think-new-study-reveals-2025-10-01/",
+      "excerpt": "Yoga isn’t as heart-healthy as you think, new study reveals | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250930034240.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-hidden-iron-switch-that-makes-cancer-cells-self-destruct-2025-09-3",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/black-mamba-venom-has-a-deadly-hidden-second-strike-2025-09-30/",
       "excerpt": "Black mamba venom has a deadly hidden second strike | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Bla…",
       "source": "https://www.sciencedaily.com/releases/2025/09/250930034202.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-plant-compound-might-be-the-secret-weapon-against-gum-disease-2025-0",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "A plant compound might be the secret weapon against gum disease",
+      "cover": "https://www.sciencedaily.com/images/1920/gum-disease-mouth-ulcer.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-plant-compound-might-be-the-secret-weapon-against-gum-disease-2025-0/",
+      "excerpt": "A plant compound might be the secret weapon against gum disease | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organ…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250930034211.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -265,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-09-30",
+  "count": 24,
+  "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 22,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }
