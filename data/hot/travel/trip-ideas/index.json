@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "yes-there-s-good-vegan-food-in-barcelona-here-s-where-to-find-it-2025",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Yes, there’s good vegan food in Barcelona. Here’s where to find it.",
+      "cover": "https://adventure.com/wp-content/uploads/2025/10/Photo-Layouts-1600x1000-2025-09-30T115007.829.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/yes-there-s-good-vegan-food-in-barcelona-here-s-where-to-find-it-2025/",
+      "excerpt": "Yes, there’s good vegan food in Barcelona | Adventure.com × Adventure.com - digital travel magazine | Intrepid Group Features Book Club Climate Desk Food for Thought Wildlife Active Profiles Photography Features (cont.) Beverage Dept. Riding the Rails The Future of Travel Disp…",
+      "source": "https://adventure.com/guide-vegan-food-barcelona-where-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "world-s-largest-wheelbarrow-in-philippeville-belgium-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "World's Largest Wheelbarrow in Philippeville, Belgium",
+      "cover": "https://img.atlasobscura.com/YWyGWZEOsywU-NFaTFf0kAqhrRR8U93SyP3I62nJ6uI/rt:fit/w:600/c:2415:1610:nowe:83:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9kZTlk/YjY1Yi05OGJmLTQ5/YzUtOGRkYy1mMGZj/NTJjY2JjZjNlYTNk/ZTQ3NzdjODkxMzU3/YzZfUDEwNDAwODQu/SlBH.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/world-s-largest-wheelbarrow-in-philippeville-belgium-2025-09-30/",
+      "excerpt": "World's Largest Wheelbarrow - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p…",
+      "source": "https://www.atlasobscura.com/places/world-largest-wheelbarrow",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-teddy-roosevelt-and-the-city-of-buffalo-met-at-the-crossroads-of",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -70,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/provincial-museum-of-the-sea-in-san-cibrao-spain-2025-09-30/",
       "excerpt": "Provincial Museum of the Sea - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:…",
       "source": "https://www.atlasobscura.com/places/provincial-museum-of-the-sea",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "los-pinchos-del-jibaro-in-kissimmee-florida-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Los Pinchos Del Jibaro in Kissimmee, Florida",
+      "cover": "https://img.atlasobscura.com/Qo4NalFQYdXRkXvKYF0uEx1ROFssAgfgwb1YcN-OECo/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9hN2Ex/ODY3MmUxNjkyNTQ4/NDFfOE8zQTQ5MjUu/anBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/los-pinchos-del-jibaro-in-kissimmee-florida-2025-09-30/",
+      "excerpt": "Los Pinchos Del Jibaro - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" >…",
+      "source": "https://www.atlasobscura.com/places/los-pinchos-del-jibaro",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -709,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
-  "updated_at": "2025-09-30",
+  "count": 62,
+  "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 59,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

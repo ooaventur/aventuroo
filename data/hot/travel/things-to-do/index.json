@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "9-best-us-theme-parks-to-visit-during-halloween-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "9 Best US Theme Parks to Visit During Halloween",
+      "cover": "https://media.cntraveler.com/photos/68dc017d0cfc4541afbb4c40/master/pass/093025-Halloween-Theme-Parks-Disneyland-GettyImages-1235163034.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/9-best-us-theme-parks-to-visit-during-halloween-2025-09-30/",
+      "excerpt": "9 Best US Theme Parks to Visit During Halloween | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Inspiration 9 Best US Theme Parks…",
+      "source": "https://www.cntraveler.com/story/the-best-theme-parks-in-the-us-to-visit-for-halloween",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "is-the-895-amex-platinum-annual-fee-worth-it-for-travelers-2025-09-29",
       "date": "2025-09-29",
       "published_at": "2025-09-29T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-09-29",
+  "count": 26,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }

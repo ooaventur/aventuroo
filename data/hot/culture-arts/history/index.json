@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "researchers-discover-a-mysterious-new-species-of-marsupial-in-the-clou",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Researchers Discover A Mysterious New Species Of Marsupial In The ‘Cloud Forests’ Of Peru",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/marmosa-chachapoya-featured.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/researchers-discover-a-mysterious-new-species-of-marsupial-in-the-clou/",
+      "excerpt": "Researchers Discover A New Marsupial Species In Peru All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Researchers Discover A Mysterious New Species Of Marsupial In The ‘Cloud Forests’ Of Peru …",
+      "source": "https://allthatsinteresting.com/marmosa-chachapoya-marsupial",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "frida-kahlo-s-self-portrait-could-break-the-record-for-the-most-expens",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Frida Kahlo’s Self-Portrait Could Break The Record For The Most Expensive Work By A Female Artist To Sell At Auction",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/frida-kahlo-alongside-el-sueno-la-cama-featured.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/frida-kahlo-s-self-portrait-could-break-the-record-for-the-most-expens/",
+      "excerpt": "Frida Kahlo Self-Portrait May Sell For Over $40 Million At Auction All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Frida Kahlo’s Self-Portrait Could Break The Record For The Most Expensive Wo…",
+      "source": "https://allthatsinteresting.com/frida-kahlo-el-sueno-la-cama-auction",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "forget-the-longships-this-is-the-overlooked-story-of-how-the-vikings-d",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -925,10 +949,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
+  "count": 79,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 77,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }

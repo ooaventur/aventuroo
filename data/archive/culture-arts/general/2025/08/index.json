@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "restaurant-review-lex-yard-at-the-waldorf-astoria-2025-08-31",
+      "date": "2025-08-31",
+      "published_at": "2025-08-31T00:00:00Z",
+      "created_at": "2025-08-31T00:00:00Z",
+      "title": "Restaurant Review: Lex Yard at the Waldorf-Astoria",
+      "cover": "https://media.newyorker.com/photos/68a48078372089b493f3192d/master/pass/1-LexYard-MorganLevy-5527.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-lex-yard-at-the-waldorf-astoria-2025-08-31/",
+      "excerpt": "Restaurant Review: Lex Yard at the Waldorf-Astoria | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Men…",
+      "source": "https://www.newyorker.com/culture/the-food-scene/the-waldorf-astorias-fresh-bid-for-dining-relevance",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-veteran-pixar-animator-s-newest-book-is-an-epic-undertaking-that-beg",
       "date": "2025-08-29",
       "published_at": "2025-08-29T00:00:00Z",
@@ -61,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-08-29",
+  "count": 6,
+  "updated_at": "2025-08-31",
   "pagination": {
-    "total_items": 5,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

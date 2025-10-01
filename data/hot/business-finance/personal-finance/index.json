@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-some-social-security-recipients-will-get-2-payments-in-october-202",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Why Some Social Security Recipients Will Get 2 Payments in October",
+      "cover": "https://img.money.com/2025/09/News-Social-Security-October-Payments.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/why-some-social-security-recipients-will-get-2-payments-in-october-202/",
+      "excerpt": "Some Social Security Recipients to Be Paid Twice in October | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance…",
+      "source": "https://money.com/social-security-ssi-payments-october-2025/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-social-security-recipients-will-get-their-checks-in-october-2025",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -58,6 +70,30 @@
       "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-to-know-when-a-robo-advisor-makes-sense-and-when-a-human-financial/",
       "excerpt": "Pros and cons of robo-advisors versus human financial advisor Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industria…",
       "source": "https://www.cnbc.com/2025/09/30/robo-advisors-versus-human-financial-advisor.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-student-loan-refinance-companies-of-october-2025-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Best Student Loan Refinance Companies of October 2025",
+      "cover": "https://img.money.com/2023/12/Best-Student-Loan-Refinance-mbci_qkcy3__87is3x.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/best-student-loan-refinance-companies-of-october-2025-2025-09-30/",
+      "excerpt": "Best Student Loan Refinance Companies of October 2025 | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best …",
+      "source": "https://money.com/best-student-loan-refinance/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-debt-consolidation-loans-of-october-2025-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Best Debt Consolidation Loans of October 2025",
+      "cover": "https://img.money.com/2023/12/Best-Debt-Consolidation-mbci_6lcy3__g1js3x.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/best-debt-consolidation-loans-of-october-2025-2025-09-30/",
+      "excerpt": "Best Debt Consolidation Loans of October 2025 | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best Pet Insu…",
+      "source": "https://money.com/best-debt-consolidation-loans/?xid=moneyrss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -865,11 +901,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 72,
+  "count": 75,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 72,
+    "total_items": 75,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

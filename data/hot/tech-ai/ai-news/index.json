@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "zhipu-ai-releases-glm-4-6-achieving-enhancements-in-real-world-coding",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Zhipu AI Releases GLM-4.6: Achieving Enhancements in Real-World Coding, Long-Context Processing, Reasoning, Searching and Agentic AI",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/09/blog-banner-114.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/zhipu-ai-releases-glm-4-6-achieving-enhancements-in-real-world-coding/",
+      "excerpt": "Zhipu AI Releases GLM-4.6: Achieving Enhancements in Real-World Coding, Long-Context Processing, Reasoning, Searching and Agentic AI - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sear…",
+      "source": "https://www.marktechpost.com/2025/09/30/zhipu-ai-releases-glm-4-6-achieving-enhancements-in-real-world-coding-long-context-processing-reasoning-searching-and-agentic-ai/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-launches-sora-2-and-a-consent-gated-sora-ios-app-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -385,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
+  "count": 33,
   "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 32,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }
