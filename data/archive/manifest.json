@@ -1,8 +1,21 @@
 {
-  "generated_at": "2025-08-31",
+  "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 913,
+  "total_items": 3253,
   "shards": [
+    {
+      "parent": "business-finance",
+      "child": "companies-startups",
+      "slug": "business-finance/companies-startups",
+      "year": 2025,
+      "month": 9,
+      "path": "business-finance/companies-startups/2025/09/index.json",
+      "path_gz": "business-finance/companies-startups/2025/09/index.json.gz",
+      "items": 28,
+      "first_date": "2025-09-23",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
     {
       "parent": "business-finance",
       "child": "general",
@@ -44,6 +57,32 @@
     },
     {
       "parent": "business-finance",
+      "child": "general",
+      "slug": "business-finance/general",
+      "year": 2025,
+      "month": 9,
+      "path": "business-finance/general/2025/09/index.json",
+      "path_gz": "business-finance/general/2025/09/index.json.gz",
+      "items": 2,
+      "first_date": "2025-09-25",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "business-finance",
+      "child": "markets-economy",
+      "slug": "business-finance/markets-economy",
+      "year": 2025,
+      "month": 9,
+      "path": "business-finance/markets-economy/2025/09/index.json",
+      "path_gz": "business-finance/markets-economy/2025/09/index.json.gz",
+      "items": 34,
+      "first_date": "2025-09-19",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
+    {
+      "parent": "business-finance",
       "child": "personal-finance",
       "slug": "business-finance/personal-finance",
       "year": 2025,
@@ -82,6 +121,19 @@
       "pages": 1
     },
     {
+      "parent": "business-finance",
+      "child": "personal-finance",
+      "slug": "business-finance/personal-finance",
+      "year": 2025,
+      "month": 9,
+      "path": "business-finance/personal-finance/2025/09/index.json",
+      "path_gz": "business-finance/personal-finance/2025/09/index.json.gz",
+      "items": 45,
+      "first_date": "2025-09-03",
+      "last_date": "2025-09-25",
+      "pages": 4
+    },
+    {
       "parent": "crypto",
       "child": "altcoins-web3",
       "slug": "crypto/altcoins-web3",
@@ -95,6 +147,84 @@
       "pages": 1
     },
     {
+      "parent": "crypto",
+      "child": "altcoins-web3",
+      "slug": "crypto/altcoins-web3",
+      "year": 2025,
+      "month": 9,
+      "path": "crypto/altcoins-web3/2025/09/index.json",
+      "path_gz": "crypto/altcoins-web3/2025/09/index.json.gz",
+      "items": 46,
+      "first_date": "2025-09-15",
+      "last_date": "2025-09-25",
+      "pages": 4
+    },
+    {
+      "parent": "crypto",
+      "child": "bitcoin-majors",
+      "slug": "crypto/bitcoin-majors",
+      "year": 2025,
+      "month": 9,
+      "path": "crypto/bitcoin-majors/2025/09/index.json",
+      "path_gz": "crypto/bitcoin-majors/2025/09/index.json.gz",
+      "items": 5,
+      "first_date": "2025-09-25",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "crypto",
+      "child": "guides",
+      "slug": "crypto/guides",
+      "year": 2025,
+      "month": 9,
+      "path": "crypto/guides/2025/09/index.json",
+      "path_gz": "crypto/guides/2025/09/index.json.gz",
+      "items": 74,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 7
+    },
+    {
+      "parent": "crypto",
+      "child": "regulation-security",
+      "slug": "crypto/regulation-security",
+      "year": 2025,
+      "month": 9,
+      "path": "crypto/regulation-security/2025/09/index.json",
+      "path_gz": "crypto/regulation-security/2025/09/index.json.gz",
+      "items": 76,
+      "first_date": "2025-09-08",
+      "last_date": "2025-09-25",
+      "pages": 7
+    },
+    {
+      "parent": "culture-arts",
+      "child": "arts",
+      "slug": "culture-arts/arts",
+      "year": 2025,
+      "month": 9,
+      "path": "culture-arts/arts/2025/09/index.json",
+      "path_gz": "culture-arts/arts/2025/09/index.json.gz",
+      "items": 93,
+      "first_date": "2025-09-15",
+      "last_date": "2025-09-25",
+      "pages": 8
+    },
+    {
+      "parent": "culture-arts",
+      "child": "columns-essays",
+      "slug": "culture-arts/columns-essays",
+      "year": 2024,
+      "month": 9,
+      "path": "culture-arts/columns-essays/2024/09/index.json",
+      "path_gz": "culture-arts/columns-essays/2024/09/index.json.gz",
+      "items": 4,
+      "first_date": "2024-09-23",
+      "last_date": "2024-09-28",
+      "pages": 1
+    },
+    {
       "parent": "culture-arts",
       "child": "columns-essays",
       "slug": "culture-arts/columns-essays",
@@ -102,8 +232,8 @@
       "month": 10,
       "path": "culture-arts/columns-essays/2024/10/index.json",
       "path_gz": "culture-arts/columns-essays/2024/10/index.json.gz",
-      "items": 7,
-      "first_date": "2024-10-11",
+      "items": 8,
+      "first_date": "2024-10-08",
       "last_date": "2024-10-29",
       "pages": 1
     },
@@ -239,6 +369,19 @@
     },
     {
       "parent": "culture-arts",
+      "child": "columns-essays",
+      "slug": "culture-arts/columns-essays",
+      "year": 2025,
+      "month": 9,
+      "path": "culture-arts/columns-essays/2025/09/index.json",
+      "path_gz": "culture-arts/columns-essays/2025/09/index.json.gz",
+      "items": 48,
+      "first_date": "2025-09-02",
+      "last_date": "2025-09-25",
+      "pages": 4
+    },
+    {
+      "parent": "culture-arts",
       "child": "culture",
       "slug": "culture-arts/culture",
       "year": 2025,
@@ -265,6 +408,19 @@
     },
     {
       "parent": "culture-arts",
+      "child": "culture",
+      "slug": "culture-arts/culture",
+      "year": 2025,
+      "month": 9,
+      "path": "culture-arts/culture/2025/09/index.json",
+      "path_gz": "culture-arts/culture/2025/09/index.json.gz",
+      "items": 63,
+      "first_date": "2025-09-03",
+      "last_date": "2025-09-25",
+      "pages": 6
+    },
+    {
+      "parent": "culture-arts",
       "child": "general",
       "slug": "culture-arts/general",
       "year": 2025,
@@ -288,6 +444,19 @@
       "first_date": "2025-08-15",
       "last_date": "2025-08-31",
       "pages": 1
+    },
+    {
+      "parent": "culture-arts",
+      "child": "general",
+      "slug": "culture-arts/general",
+      "year": 2025,
+      "month": 9,
+      "path": "culture-arts/general/2025/09/index.json",
+      "path_gz": "culture-arts/general/2025/09/index.json.gz",
+      "items": 85,
+      "first_date": "2025-09-02",
+      "last_date": "2025-09-25",
+      "pages": 8
     },
     {
       "parent": "culture-arts",
@@ -329,6 +498,19 @@
       "pages": 1
     },
     {
+      "parent": "culture-arts",
+      "child": "history",
+      "slug": "culture-arts/history",
+      "year": 2025,
+      "month": 9,
+      "path": "culture-arts/history/2025/09/index.json",
+      "path_gz": "culture-arts/history/2025/09/index.json.gz",
+      "items": 49,
+      "first_date": "2025-09-18",
+      "last_date": "2025-09-25",
+      "pages": 5
+    },
+    {
       "parent": "entertainment",
       "child": "cinematography",
       "slug": "entertainment/cinematography",
@@ -340,6 +522,19 @@
       "first_date": "2025-08-06",
       "last_date": "2025-08-28",
       "pages": 1
+    },
+    {
+      "parent": "entertainment",
+      "child": "cinematography",
+      "slug": "entertainment/cinematography",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/cinematography/2025/09/index.json",
+      "path_gz": "entertainment/cinematography/2025/09/index.json.gz",
+      "items": 144,
+      "first_date": "2025-09-10",
+      "last_date": "2025-09-25",
+      "pages": 12
     },
     {
       "parent": "entertainment",
@@ -405,6 +600,19 @@
       "first_date": "2024-06-18",
       "last_date": "2024-06-18",
       "pages": 1
+    },
+    {
+      "parent": "entertainment",
+      "child": "general",
+      "slug": "entertainment/general",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/general/2025/09/index.json",
+      "path_gz": "entertainment/general/2025/09/index.json.gz",
+      "items": 48,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 4
     },
     {
       "parent": "entertainment",
@@ -538,6 +746,32 @@
     },
     {
       "parent": "entertainment",
+      "child": "history-essays",
+      "slug": "entertainment/history-essays",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/history-essays/2025/09/index.json",
+      "path_gz": "entertainment/history-essays/2025/09/index.json.gz",
+      "items": 24,
+      "first_date": "2025-09-10",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "entertainment",
+      "child": "movies",
+      "slug": "entertainment/movies",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/movies/2025/09/index.json",
+      "path_gz": "entertainment/movies/2025/09/index.json.gz",
+      "items": 62,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 6
+    },
+    {
+      "parent": "entertainment",
       "child": "trailers-latest",
       "slug": "entertainment/trailers-latest",
       "year": 2025,
@@ -561,6 +795,32 @@
       "first_date": "2025-08-11",
       "last_date": "2025-08-22",
       "pages": 1
+    },
+    {
+      "parent": "entertainment",
+      "child": "trailers-latest",
+      "slug": "entertainment/trailers-latest",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/trailers-latest/2025/09/index.json",
+      "path_gz": "entertainment/trailers-latest/2025/09/index.json.gz",
+      "items": 64,
+      "first_date": "2025-09-05",
+      "last_date": "2025-09-25",
+      "pages": 6
+    },
+    {
+      "parent": "entertainment",
+      "child": "tv-streaming",
+      "slug": "entertainment/tv-streaming",
+      "year": 2025,
+      "month": 9,
+      "path": "entertainment/tv-streaming/2025/09/index.json",
+      "path_gz": "entertainment/tv-streaming/2025/09/index.json.gz",
+      "items": 41,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 4
     },
     {
       "parent": "food-drink",
@@ -785,6 +1045,19 @@
     },
     {
       "parent": "food-drink",
+      "child": "drink",
+      "slug": "food-drink/drink",
+      "year": 2025,
+      "month": 9,
+      "path": "food-drink/drink/2025/09/index.json",
+      "path_gz": "food-drink/drink/2025/09/index.json.gz",
+      "items": 120,
+      "first_date": "2025-09-02",
+      "last_date": "2025-09-25",
+      "pages": 10
+    },
+    {
+      "parent": "food-drink",
       "child": "food",
       "slug": "food-drink/food",
       "year": 2025,
@@ -836,6 +1109,58 @@
       "pages": 1
     },
     {
+      "parent": "food-drink",
+      "child": "food",
+      "slug": "food-drink/food",
+      "year": 2025,
+      "month": 9,
+      "path": "food-drink/food/2025/09/index.json",
+      "path_gz": "food-drink/food/2025/09/index.json.gz",
+      "items": 36,
+      "first_date": "2025-09-05",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
+    {
+      "parent": "food-drink",
+      "child": "general",
+      "slug": "food-drink/general",
+      "year": 2025,
+      "month": 9,
+      "path": "food-drink/general/2025/09/index.json",
+      "path_gz": "food-drink/general/2025/09/index.json.gz",
+      "items": 72,
+      "first_date": "2025-09-19",
+      "last_date": "2025-09-25",
+      "pages": 6
+    },
+    {
+      "parent": "food-drink",
+      "child": "guides",
+      "slug": "food-drink/guides",
+      "year": 2025,
+      "month": 9,
+      "path": "food-drink/guides/2025/09/index.json",
+      "path_gz": "food-drink/guides/2025/09/index.json.gz",
+      "items": 10,
+      "first_date": "2025-09-21",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "lifestyle",
+      "child": "health",
+      "slug": "lifestyle/health",
+      "year": 2025,
+      "month": 9,
+      "path": "lifestyle/health/2025/09/index.json",
+      "path_gz": "lifestyle/health/2025/09/index.json.gz",
+      "items": 59,
+      "first_date": "2025-09-14",
+      "last_date": "2025-09-25",
+      "pages": 5
+    },
+    {
       "parent": "lifestyle",
       "child": "home-design",
       "slug": "lifestyle/home-design",
@@ -847,6 +1172,19 @@
       "first_date": "2025-08-29",
       "last_date": "2025-08-29",
       "pages": 1
+    },
+    {
+      "parent": "lifestyle",
+      "child": "home-design",
+      "slug": "lifestyle/home-design",
+      "year": 2025,
+      "month": 9,
+      "path": "lifestyle/home-design/2025/09/index.json",
+      "path_gz": "lifestyle/home-design/2025/09/index.json.gz",
+      "items": 121,
+      "first_date": "2025-09-22",
+      "last_date": "2025-09-25",
+      "pages": 11
     },
     {
       "parent": "lifestyle",
@@ -967,6 +1305,19 @@
     },
     {
       "parent": "lifestyle",
+      "child": "index",
+      "slug": "lifestyle",
+      "year": 2025,
+      "month": 9,
+      "path": "lifestyle/2025/09/index.json",
+      "path_gz": "lifestyle/2025/09/index.json.gz",
+      "items": 20,
+      "first_date": "2025-09-06",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "lifestyle",
       "child": "inspiration",
       "slug": "lifestyle/inspiration",
       "year": 2024,
@@ -1083,6 +1434,45 @@
       "pages": 2
     },
     {
+      "parent": "lifestyle",
+      "child": "inspiration",
+      "slug": "lifestyle/inspiration",
+      "year": 2025,
+      "month": 9,
+      "path": "lifestyle/inspiration/2025/09/index.json",
+      "path_gz": "lifestyle/inspiration/2025/09/index.json.gz",
+      "items": 35,
+      "first_date": "2025-09-03",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
+    {
+      "parent": "lifestyle",
+      "child": "outdoor",
+      "slug": "lifestyle/outdoor",
+      "year": 2025,
+      "month": 9,
+      "path": "lifestyle/outdoor/2025/09/index.json",
+      "path_gz": "lifestyle/outdoor/2025/09/index.json.gz",
+      "items": 107,
+      "first_date": "2025-09-09",
+      "last_date": "2025-09-25",
+      "pages": 9
+    },
+    {
+      "parent": "news",
+      "child": "economy",
+      "slug": "news/economy",
+      "year": 2025,
+      "month": 9,
+      "path": "news/economy/2025/09/index.json",
+      "path_gz": "news/economy/2025/09/index.json.gz",
+      "items": 64,
+      "first_date": "2025-09-12",
+      "last_date": "2025-09-25",
+      "pages": 6
+    },
+    {
       "parent": "news",
       "child": "politics",
       "slug": "news/politics",
@@ -1110,6 +1500,19 @@
     },
     {
       "parent": "news",
+      "child": "politics",
+      "slug": "news/politics",
+      "year": 2025,
+      "month": 9,
+      "path": "news/politics/2025/09/index.json",
+      "path_gz": "news/politics/2025/09/index.json.gz",
+      "items": 77,
+      "first_date": "2025-09-06",
+      "last_date": "2025-09-25",
+      "pages": 7
+    },
+    {
+      "parent": "news",
       "child": "top-stories",
       "slug": "news/top-stories",
       "year": 2025,
@@ -1119,6 +1522,97 @@
       "items": 1,
       "first_date": "2025-04-30",
       "last_date": "2025-04-30",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "general",
+      "slug": "shopping/general",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/general/2025/09/index.json",
+      "path_gz": "shopping/general/2025/09/index.json.gz",
+      "items": 5,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "marketplaces",
+      "slug": "shopping/marketplaces",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/marketplaces/2025/09/index.json",
+      "path_gz": "shopping/marketplaces/2025/09/index.json.gz",
+      "items": 5,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "multi-merchant",
+      "slug": "shopping/multi-merchant",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/multi-merchant/2025/09/index.json",
+      "path_gz": "shopping/multi-merchant/2025/09/index.json.gz",
+      "items": 7,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "subscriptions",
+      "slug": "shopping/subscriptions",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/subscriptions/2025/09/index.json",
+      "path_gz": "shopping/subscriptions/2025/09/index.json.gz",
+      "items": 7,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "tech-deals",
+      "slug": "shopping/tech-deals",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/tech-deals/2025/09/index.json",
+      "path_gz": "shopping/tech-deals/2025/09/index.json.gz",
+      "items": 3,
+      "first_date": "2025-09-25",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "travel-deals",
+      "slug": "shopping/travel-deals",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/travel-deals/2025/09/index.json",
+      "path_gz": "shopping/travel-deals/2025/09/index.json.gz",
+      "items": 6,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 1
+    },
+    {
+      "parent": "shopping",
+      "child": "vpn-security",
+      "slug": "shopping/vpn-security",
+      "year": 2025,
+      "month": 9,
+      "path": "shopping/vpn-security/2025/09/index.json",
+      "path_gz": "shopping/vpn-security/2025/09/index.json.gz",
+      "items": 4,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
       "pages": 1
     },
     {
@@ -1175,6 +1669,58 @@
     },
     {
       "parent": "tech-ai",
+      "child": "ai-news",
+      "slug": "tech-ai/ai-news",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/ai-news/2025/09/index.json",
+      "path_gz": "tech-ai/ai-news/2025/09/index.json.gz",
+      "items": 14,
+      "first_date": "2025-09-22",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "tech-ai",
+      "child": "audio-creator",
+      "slug": "tech-ai/audio-creator",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/audio-creator/2025/09/index.json",
+      "path_gz": "tech-ai/audio-creator/2025/09/index.json.gz",
+      "items": 121,
+      "first_date": "2025-09-16",
+      "last_date": "2025-09-25",
+      "pages": 11
+    },
+    {
+      "parent": "tech-ai",
+      "child": "big-tech",
+      "slug": "tech-ai/big-tech",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/big-tech/2025/09/index.json",
+      "path_gz": "tech-ai/big-tech/2025/09/index.json.gz",
+      "items": 30,
+      "first_date": "2025-09-22",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
+    {
+      "parent": "tech-ai",
+      "child": "gaming-tech",
+      "slug": "tech-ai/gaming-tech",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/gaming-tech/2025/09/index.json",
+      "path_gz": "tech-ai/gaming-tech/2025/09/index.json.gz",
+      "items": 74,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 7
+    },
+    {
+      "parent": "tech-ai",
       "child": "internet-platforms",
       "slug": "tech-ai/internet-platforms",
       "year": 2025,
@@ -1184,6 +1730,19 @@
       "items": 7,
       "first_date": "2025-08-15",
       "last_date": "2025-08-29",
+      "pages": 1
+    },
+    {
+      "parent": "tech-ai",
+      "child": "internet-platforms",
+      "slug": "tech-ai/internet-platforms",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/internet-platforms/2025/09/index.json",
+      "path_gz": "tech-ai/internet-platforms/2025/09/index.json.gz",
+      "items": 9,
+      "first_date": "2025-09-09",
+      "last_date": "2025-09-25",
       "pages": 1
     },
     {
@@ -1211,6 +1770,19 @@
       "first_date": "2025-08-21",
       "last_date": "2025-08-28",
       "pages": 1
+    },
+    {
+      "parent": "tech-ai",
+      "child": "security-privacy",
+      "slug": "tech-ai/security-privacy",
+      "year": 2025,
+      "month": 9,
+      "path": "tech-ai/security-privacy/2025/09/index.json",
+      "path_gz": "tech-ai/security-privacy/2025/09/index.json.gz",
+      "items": 75,
+      "first_date": "2025-09-01",
+      "last_date": "2025-09-25",
+      "pages": 7
     },
     {
       "parent": "travel",
@@ -1318,15 +1890,28 @@
     },
     {
       "parent": "travel",
+      "child": "destinations",
+      "slug": "travel/destinations",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/destinations/2025/09/index.json",
+      "path_gz": "travel/destinations/2025/09/index.json.gz",
+      "items": 22,
+      "first_date": "2025-09-03",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "travel",
       "child": "experiences",
       "slug": "travel/experiences",
       "year": 2024,
       "month": 1,
       "path": "travel/experiences/2024/01/index.json",
       "path_gz": "travel/experiences/2024/01/index.json.gz",
-      "items": 1,
-      "first_date": "2024-01-29",
-      "last_date": "2024-01-29",
+      "items": 6,
+      "first_date": "2024-01-22",
+      "last_date": "2024-01-31",
       "pages": 1
     },
     {
@@ -1578,6 +2163,32 @@
     },
     {
       "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/experiences/2025/09/index.json",
+      "path_gz": "travel/experiences/2025/09/index.json.gz",
+      "items": 19,
+      "first_date": "2025-09-08",
+      "last_date": "2025-09-23",
+      "pages": 2
+    },
+    {
+      "parent": "travel",
+      "child": "general",
+      "slug": "travel/general",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/general/2025/09/index.json",
+      "path_gz": "travel/general/2025/09/index.json.gz",
+      "items": 23,
+      "first_date": "2025-09-21",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "travel",
       "child": "stays-hotels",
       "slug": "travel/stays-hotels",
       "year": 2024,
@@ -1617,6 +2228,19 @@
     },
     {
       "parent": "travel",
+      "child": "stays-hotels",
+      "slug": "travel/stays-hotels",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/stays-hotels/2025/09/index.json",
+      "path_gz": "travel/stays-hotels/2025/09/index.json.gz",
+      "items": 19,
+      "first_date": "2025-09-02",
+      "last_date": "2025-09-25",
+      "pages": 2
+    },
+    {
+      "parent": "travel",
       "child": "things-to-do",
       "slug": "travel/things-to-do",
       "year": 2024,
@@ -1640,6 +2264,19 @@
       "first_date": "2024-04-03",
       "last_date": "2024-04-03",
       "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "things-to-do",
+      "slug": "travel/things-to-do",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/things-to-do/2025/09/index.json",
+      "path_gz": "travel/things-to-do/2025/09/index.json.gz",
+      "items": 20,
+      "first_date": "2025-09-17",
+      "last_date": "2025-09-24",
+      "pages": 2
     },
     {
       "parent": "travel",
@@ -1669,6 +2306,19 @@
     },
     {
       "parent": "travel",
+      "child": "tips-planning",
+      "slug": "travel/tips-planning",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/tips-planning/2025/09/index.json",
+      "path_gz": "travel/tips-planning/2025/09/index.json.gz",
+      "items": 28,
+      "first_date": "2025-09-25",
+      "last_date": "2025-09-25",
+      "pages": 3
+    },
+    {
+      "parent": "travel",
       "child": "transport",
       "slug": "travel/transport",
       "year": 2025,
@@ -1678,6 +2328,32 @@
       "items": 3,
       "first_date": "2025-08-14",
       "last_date": "2025-08-28",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "transport",
+      "slug": "travel/transport",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/transport/2025/09/index.json",
+      "path_gz": "travel/transport/2025/09/index.json.gz",
+      "items": 49,
+      "first_date": "2025-09-24",
+      "last_date": "2025-09-25",
+      "pages": 5
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2024,
+      "month": 2,
+      "path": "travel/trip-ideas/2024/02/index.json",
+      "path_gz": "travel/trip-ideas/2024/02/index.json.gz",
+      "items": 5,
+      "first_date": "2024-02-01",
+      "last_date": "2024-02-05",
       "pages": 1
     },
     {
@@ -1913,6 +2589,19 @@
       "first_date": "2025-08-13",
       "last_date": "2025-08-28",
       "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2025,
+      "month": 9,
+      "path": "travel/trip-ideas/2025/09/index.json",
+      "path_gz": "travel/trip-ideas/2025/09/index.json.gz",
+      "items": 33,
+      "first_date": "2025-09-01",
+      "last_date": "2025-09-25",
+      "pages": 3
     }
   ]
 }

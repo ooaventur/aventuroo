@@ -181,6 +181,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "cisa-warns-of-critical-linux-sudo-flaw-exploited-in-attacks-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "CISA warns of critical Linux Sudo flaw exploited in attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/30/Sudo.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cisa-warns-of-critical-linux-sudo-flaw-exploited-in-attacks-2025-09-30/",
+      "excerpt": "CISA warns of critical Linux Sudo flaw exploited in attacks News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts Fake M…",
+      "source": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-linux-sudo-flaw-exploited-in-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "chinese-hackers-exploiting-vmware-zero-day-since-october-2024-2025-09",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -565,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 47,
-  "updated_at": "2025-10-01",
+  "count": 48,
+  "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 47,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

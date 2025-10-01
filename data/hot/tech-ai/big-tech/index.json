@@ -109,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "doordash-launches-delivery-robot-in-latest-push-into-autonomous-techno",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "DoorDash launches delivery robot in latest push into autonomous technology",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108205440-1759185591385-DoorDash_Dot-03.jpg?v=1759185761&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/doordash-launches-delivery-robot-in-latest-push-into-autonomous-techno/",
+      "excerpt": "DoorDash launches delivery robot in push into autonomous technology Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Ind…",
+      "source": "https://www.cnbc.com/2025/09/30/doordash-launches-delivery-robot-in-push-into-autonomous-technology.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "disney-sent-cease-and-desist-letter-to-character-ai-over-use-of-copyri",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -373,10 +385,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 31,
-  "updated_at": "2025-10-01",
+  "count": 32,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 31,
+    "total_items": 32,
     "per_page": 12,
     "total_pages": 3
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "james-anderson-warns-nvidia-s-100bn-openai-bet-echoes-dotcom-bubble-20",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "James Anderson warns Nvidia’s $100bn OpenAI bet echoes dotcom bubble",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb7927776-bcd7-44d1-93a5-0b3c116e6ed1.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/james-anderson-warns-nvidia-s-100bn-openai-bet-echoes-dotcom-bubble-20/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/395dad75-9704-434b-b09c-93505f418b7e",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "call-for-entries-africa-s-fastest-growing-companies-2026-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Call for entries: Africa’s Fastest Growing Companies 2026",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Ff99a8ac0-3151-418a-8d67-97fb8656f69b.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/call-for-entries-africa-s-fastest-growing-companies-2026-2025-10-01/",
+      "excerpt": "Call for entries: Africa’s Fastest Growing Companies 2026 Accessibility help Skip to navigation Skip to content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World S…",
+      "source": "https://www.ft.com/content/8cd19c95-1b3b-4a4f-8df2-3e99a5e1b201",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zijin-gold-shares-surge-68-in-hong-kong-trading-debut-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/vanguard-cuts-fees-on-european-equity-funds-as-competition-mounts-2025/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/96b6856c-2329-4dfd-850e-881e585228fa",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-largest-leveraged-buyout-in-history-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "The largest leveraged buyout in history?",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%253A%252F%252Fnext-video-editor-images.s3.ap-northeast-1.amazonaws.com%252F9e7536a6-8605-4c60-80a4-77e441454d13%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/the-largest-leveraged-buyout-in-history-2025-09-30/",
+      "excerpt": "The largest leveraged buyout in history? Accessibility help Skip to navigation Skip to content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Hom…",
+      "source": "https://www.ft.com/content/4a13f923-cb6d-43f2-983b-2e84be342b55",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -337,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 28,
+  "count": 31,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 28,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

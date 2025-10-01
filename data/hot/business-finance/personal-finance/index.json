@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-u-s-government-has-shut-down-what-now-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "The U.S. Government Has Shut Down — What Now?",
+      "cover": "https://www.nerdwallet.com/tachyon/2025/09/GettyImages-2188931985.jpg?resize=1440%2C864",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/the-u-s-government-has-shut-down-what-now-2025-10-01/",
+      "excerpt": "The U.S. Government Has Shut Down — What Now? - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards Bes…",
+      "source": "https://www.nerdwallet.com/article/finance/government-shuts-down-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-some-social-security-recipients-will-get-2-payments-in-october-202",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -361,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
+  "count": 31,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

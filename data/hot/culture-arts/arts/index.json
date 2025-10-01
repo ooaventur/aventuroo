@@ -193,6 +193,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "mika-rottenberg-says-trump-s-smithsonian-situation-is-fucked-up-2025-0",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Mika Rottenberg Says Trump’s Smithsonian Situation Is ‘Fucked Up’",
+      "cover": "https://www.artnews.com/wp-content/uploads/2025/09/GettyImages-2207403899.webp?w=1600",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/mika-rottenberg-says-trump-s-smithsonian-situation-is-fucked-up-2025-0/",
+      "excerpt": "Mika Rottenberg Says Trump’s Smithsonian Situation Is ‘Fucked Up’ Skip to main content Follow Us Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Newsletters Plus Icon Click to Expand Search Input ARTnews E…",
+      "source": "https://www.artnews.com/art-news/news/mika-rottenberg-says-trumps-smithsonian-situation-is-fucked-up-1234754705/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "long-awaited-exhibition-for-rediscovered-old-master-michaelina-wautier",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -286,6 +298,30 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/arts/brazilian-artist-paulo-pasta-s-quiet-lyrical-abstractions-alight-in-ne/",
       "excerpt": "Brazilian Artist Paulo Pasta’s Quiet, Lyrical Abstractions Alight in New York Price Database 30 September 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics Hidd…",
       "source": "https://news.artnet.com/art-world/paulo-pasta-david-nolan-gallery-2694429",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "artnews-celebrates-2025-edition-of-annual-top-200-collectors-issue-202",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "ARTnews Celebrates 2025 Edition of Annual Top 200 Collectors Issue",
+      "cover": "https://www.artnews.com/wp-content/uploads/2025/09/DSC4205.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/artnews-celebrates-2025-edition-of-annual-top-200-collectors-issue-202/",
+      "excerpt": "ARTnews Celebrates 2025 Edition of Annual Top 200 Collectors Issue Skip to main content Follow Us Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Newsletters Plus Icon Click to Expand Search Input ARTnews …",
+      "source": "https://www.artnews.com/art-news/news/artnews-celebrates-2025-top-200-collectors-issue-1234754498/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "artnet-ceo-resigns-abruptly-before-annual-general-meeting-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Artnet CEO Resigns Abruptly Before Annual General Meeting",
+      "cover": "https://www.artnews.com/wp-content/uploads/2025/09/2208854307.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/artnet-ceo-resigns-abruptly-before-annual-general-meeting-2025-09-30/",
+      "excerpt": "Artnet CEO Jacob Pabst Resigns Ahead of Annual Meeting Skip to main content Follow Us Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Newsletters Plus Icon Click to Expand Search Input ARTnews Est. 1902 Su…",
+      "source": "https://www.artnews.com/art-news/news/artnet-ceo-resigns-handelblatt-1234754723/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1153,11 +1189,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 96,
-  "updated_at": "2025-10-01",
+  "count": 99,
+  "updated_at": "2025-09-30",
   "pagination": {
-    "total_items": 96,
+    "total_items": 99,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

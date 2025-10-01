@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-feather-detective-how-roxie-laybourne-pioneered-forensic-ornitholo",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "The Feather Detective: How Roxie Laybourne  Pioneered Forensic Ornithology",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2025/09/roxie_feather_Marginalian.jpg?fit=697%2C366&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-feather-detective-how-roxie-laybourne-pioneered-forensic-ornitholo/",
+      "excerpt": "The Feather Detective: How Roxie Laybourne Pioneered Forensic Ornithology – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly two decades, it …",
+      "source": "https://www.themarginalian.org/2025/09/30/roxie-laybourne/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-self-portraits-brought-my-messy-honest-beautiful-self-into-focus-2",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "How Self-Portraits Brought My Messy, Honest, Beautiful Self into Focus",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/09/Self-portraits.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-self-portraits-brought-my-messy-honest-beautiful-self-into-focus-2/",
+      "excerpt": "How Self-Portraits Brought My Messy, Honest, Beautiful Self into Focus - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfuln…",
+      "source": "https://tinybuddha.com/blog/my-messy-beautiful-self-finally-in-focus-how-self-portraits-became-love-letters-to-my-soul/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-business-leaders-are-seeking-reinventors-to-strengthen-their-team",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -313,10 +337,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
+  "count": 28,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 26,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

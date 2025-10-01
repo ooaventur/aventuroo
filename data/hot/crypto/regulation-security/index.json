@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sec-staff-open-to-advisers-using-trust-companies-as-crypto-custodians",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "SEC staff open to advisers using trust companies as crypto custodians",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OTlkMjUtZTUzZS03YTk2LWI4NjQtOGExYjEwZDRhY2Ri.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sec-staff-open-to-advisers-using-trust-companies-as-crypto-custodians/",
+      "excerpt": "SEC Open to Advisers Using State Trusts for Crypto Custody Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Stephen Katte 3 hours ago SEC staff open to advisers using trust companies as crypto custodians The SEC’s Division of Investment Management said i…",
+      "source": "https://cointelegraph.com/news/sec-open-investment-advisers-use-state-trusts-crypto-custody?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sec-weighs-plan-to-allow-blockchain-based-stock-trading-amid-crypto-pu",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -169,10 +181,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 14,
+  "count": 15,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 14,
+    "total_items": 15,
     "per_page": 12,
     "total_pages": 2
   }
