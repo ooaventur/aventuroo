@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "there-are-more-cves-but-cyber-insurers-aren-t-altering-policies-2025-1",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "There Are More CVEs, But Cyber Insurers Aren't Altering Policies",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6e0ea1e027e86d13/668c59f3ea2a358fd7724488/insurance(1800)_MUNGKHOOD_STUDIO_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/there-are-more-cves-but-cyber-insurers-aren-t-altering-policies-2025-1/",
+      "excerpt": "With nearly 47,000 CVEs expected by the end of the year, organizations must balance comprehensive vulnerability management with strategic cyber insurance policy selection to effectively navigate this rapidly evolving threat landscape.",
+      "source": "https://www.darkreading.com/cyber-risk/more-cves-cyber-insurers-arent-altering-policies",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "red-hat-investigates-widespread-breach-of-private-gitlab-repositories",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Red Hat Investigates Widespread Breach of Private GitLab Repositories",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte6d71588dafad9e6/68de96da927411cd424dda4a/redhat_KristofferTripplaar_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/red-hat-investigates-widespread-breach-of-private-gitlab-repositories/",
+      "excerpt": "A threat actor claimed 28,000 private repositories had been compromised, and the Linux software maker said it had &quot;initiated necessary remediation steps.&quot;",
+      "source": "https://www.darkreading.com/application-security/red-hat-widespread-breaches-private-gitlab-repositories",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "red-hat-confirms-security-incident-after-hackers-claim-github-breach-2",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -25,6 +49,90 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "phishing-is-moving-from-email-to-mobile-is-your-security-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Phishing Is Moving From Email to Mobile. Is Your Security?",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4760481746fcb74f/664fcfdedcead06c6fade457/iphone-Tiny_Ivan-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/phishing-is-moving-from-email-to-mobile-is-your-security-2025-10-02/",
+      "excerpt": "With SMS, voice, and QR-code phishing incidents on the rise, it's time to take a closer look at securing the mobile user.",
+      "source": "https://www.darkreading.com/cyber-risk/phishing-moving-email-mobile-is-your-security",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-outlook-stops-displaying-inline-svg-images-used-in-attacks-2",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Microsoft Outlook stops displaying inline SVG images used in attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/04/29/Outlook.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-outlook-stops-displaying-inline-svg-images-used-in-attacks-2/",
+      "excerpt": "Microsoft Outlook stops displaying inline SVG images used in attacks News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach…",
+      "source": "https://www.bleepingcomputer.com/news/security/microsoft-outlook-stops-displaying-inline-svg-images-used-in-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-defender-bug-triggers-erroneous-bios-update-alerts-2025-10-0",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Microsoft Defender bug triggers erroneous BIOS update alerts",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/10/11/Microsoft-Defender_for_Endpoint.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-defender-bug-triggers-erroneous-bios-update-alerts-2025-10-0/",
+      "excerpt": "Microsoft Defender bug triggers erroneous BIOS update alerts News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab …",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-bug-triggers-erroneous-bios-update-alerts/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hackerone-paid-81-million-in-bug-bounties-over-the-past-year-2025-10-0",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "HackerOne paid $81 million in bug bounties over the past year",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/02/HackerOne.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackerone-paid-81-million-in-bug-bounties-over-the-past-year-2025-10-0/",
+      "excerpt": "HackerOne paid $81 million in bug bounties over the past year News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab…",
+      "source": "https://www.bleepingcomputer.com/news/security/hackerone-paid-81-million-in-bug-bounties-over-the-past-year/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "for-one-nfl-team-tackling-cyber-threats-is-basic-defense-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "For One NFL Team, Tackling Cyber Threats Is Basic Defense",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a289b09429e9740/68dafb539ec5a632699b8306/Cleveland_Browns-Zuma_Press_Inc.-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/for-one-nfl-team-tackling-cyber-threats-is-basic-defense-2025-10-02/",
+      "excerpt": "The NFL's cyberattack surface is expanding at an unprecedented rate. To find out more, we spoke with a cyber defense coordinator from the Cleveland Browns.",
+      "source": "https://www.darkreading.com/cybersecurity-operations/for-one-nfl-team-tackling-cyber-threats-basic-defense",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "draytek-warns-of-remote-code-execution-bug-in-vigor-routers-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "DrayTek warns of remote code execution bug in Vigor routers",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/02/draytek.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/draytek-warns-of-remote-code-execution-bug-in-vigor-routers-2025-10-02/",
+      "excerpt": "DrayTek warns of remote code execution bug in Vigor routers News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab i…",
+      "source": "https://www.bleepingcomputer.com/news/security/draytek-warns-of-remote-code-execution-bug-in-vigor-routers/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "confucius-cyberspy-evolves-from-stealers-to-backdoors-in-pakistan-2025",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "'Confucius' Cyberspy Evolves From Stealers to Backdoors in Pakistan",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34e28e6a1ce0d9d6/68de3fcfd4203e8976c6bb9d/spy-Brian-Jackson-Alamy.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/confucius-cyberspy-evolves-from-stealers-to-backdoors-in-pakistan-2025/",
+      "excerpt": "The long-running South Asian advanced persistent threat (APT) group is advancing its objectives against Pakistani targets, with a shift to deploying Python-based surveillance malware.",
+      "source": "https://www.darkreading.com/threat-intelligence/south-asian-cyberspy-evolves-stealers-backdoors",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "clop-extortion-emails-claim-theft-of-oracle-e-business-suite-data-2025",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -34,6 +142,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/clop-extortion-emails-claim-theft-of-oracle-e-business-suite-data-2025/",
       "excerpt": "Clop extortion emails claim theft of Oracle E-Business Suite data News Featured Latest Windows 11 2025 Update (25H2) is now available, Here's what's new Adobe Analytics bug leaked customer tracking data to other tenants New bug in classic Outlook can only be fixed via Microsof…",
       "source": "https://www.bleepingcomputer.com/news/security/clop-extortion-emails-claim-theft-of-oracle-e-business-suite-data/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brave-browser-surpasses-the-100-million-active-monthly-users-mark-2025",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Brave browser surpasses the 100 million active monthly users mark",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/06/22/Brave.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/brave-browser-surpasses-the-100-million-active-monthly-users-mark-2025/",
+      "excerpt": "Brave browser surpasses the 100 million active monthly users mark News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach Gi…",
+      "source": "https://www.bleepingcomputer.com/news/software/brave-browser-surpasses-the-100-million-active-monthly-users-mark/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -805,11 +925,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 77,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 67,
+    "total_items": 77,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3315,
+  "total_items": 3331,
   "shards": [
     {
       "parent": "business-finance",
@@ -219,8 +219,8 @@
       "month": 8,
       "path": "culture-arts/columns-essays/2024/08/index.json",
       "path_gz": "culture-arts/columns-essays/2024/08/index.json.gz",
-      "items": 13,
-      "first_date": "2024-08-22",
+      "items": 18,
+      "first_date": "2024-08-18",
       "last_date": "2024-08-22",
       "pages": 2
     },
@@ -1493,9 +1493,9 @@
       "month": 7,
       "path": "news/politics/2025/07/index.json",
       "path_gz": "news/politics/2025/07/index.json.gz",
-      "items": 1,
+      "items": 2,
       "first_date": "2025-07-19",
-      "last_date": "2025-07-19",
+      "last_date": "2025-07-29",
       "pages": 1
     },
     {
@@ -1913,6 +1913,19 @@
       "first_date": "2025-09-03",
       "last_date": "2025-09-25",
       "pages": 2
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2023,
+      "month": 9,
+      "path": "travel/experiences/2023/09/index.json",
+      "path_gz": "travel/experiences/2023/09/index.json.gz",
+      "items": 5,
+      "first_date": "2023-09-21",
+      "last_date": "2023-09-26",
+      "pages": 1
     },
     {
       "parent": "travel",
@@ -2400,11 +2413,24 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "year": 2023,
+      "month": 9,
+      "path": "travel/trip-ideas/2023/09/index.json",
+      "path_gz": "travel/trip-ideas/2023/09/index.json.gz",
+      "items": 3,
+      "first_date": "2023-09-27",
+      "last_date": "2023-09-30",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2023,
       "month": 10,
       "path": "travel/trip-ideas/2023/10/index.json",
       "path_gz": "travel/trip-ideas/2023/10/index.json.gz",
-      "items": 1,
-      "first_date": "2023-10-31",
+      "items": 3,
+      "first_date": "2023-10-02",
       "last_date": "2023-10-31",
       "pages": 1
     },

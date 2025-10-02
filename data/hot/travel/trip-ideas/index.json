@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "shay-s-rebellion-last-battle-site-in-great-barrington-massachusetts-20",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Shay’s Rebellion Last Battle Site in Great Barrington, Massachusetts",
+      "cover": "https://img.atlasobscura.com/5DmAJHEuxR8SE6A7ANZqlPxWfJmY_vYv5GYlHlxB8PQ/rt:fit/w:600/c:963:642:nowe:242:575/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8yZWM1/ZDk2Yi1mOWIzLTQ5/N2QtOTJlZC1lYWIx/YTgxMTdmY2Y0YjA1/YzEzNWU5MTA0ZTJh/ZjFfMS5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/shay-s-rebellion-last-battle-site-in-great-barrington-massachusetts-20/",
+      "excerpt": "Shay’s Rebellion Last Battle Site - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-…",
+      "source": "https://www.atlasobscura.com/places/shay-s-rebellion-last-battle-site",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "flood-memorial-monument-in-grand-forks-north-dakota-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Flood Memorial Monument in Grand Forks, North Dakota",
+      "cover": "https://img.atlasobscura.com/1KFNiJPqJCAFchb3LJbT1sTSFAdtS4locB_j19qFasY/rt:fit/w:600/c:2888:1925:nowe:612:108/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wNDRk/OWU2Ny0yNzcyLTQw/OTktOWM1Mi1lMTA1/ZTY4NDI2NzdjNzBi/NmIwYjZmNTI3OGQ5/MjRfUFhMXzIwMjUw/OTEyXzE2Mjc0ODMw/OS5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/flood-memorial-monument-in-grand-forks-north-dakota-2025-10-02/",
+      "excerpt": "Flood Memorial Monument - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" …",
+      "source": "https://www.atlasobscura.com/places/flood-memorial-monument",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "carl-great-barrington-memorial-in-north-canaan-connecticut-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Carl 'Great' Barrington Memorial  in North Canaan, Connecticut",
+      "cover": "https://img.atlasobscura.com/o8QIsNiF2ZPlaW_EPx7X4ueBpUKME2D-hldFqhAIvvY/rt:fit/w:600/c:1496:997:nowe:273:299/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9lOTgy/OWJmZC0yMDI4LTQ3/NjAtODdkZS1hODE1/ZjIyZTgxOTk1MDhh/ZWI5NjUzM2E5NGQw/ZDJfMS5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/carl-great-barrington-memorial-in-north-canaan-connecticut-2025-10-02/",
+      "excerpt": "Carl 'Great' Barrington Memorial - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r…",
+      "source": "https://www.atlasobscura.com/places/carl-great-barrington-memorial",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "bambi-house-in-vienna-austria-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -505,10 +541,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 42,
+  "count": 45,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 42,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

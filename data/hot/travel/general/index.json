@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-10-best-hotels-in-jamaica-from-iconic-all-inclusives-to-breathtaki",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The 10 Best Hotels in Jamaica, From Iconic All-Inclusives to Breathtaking Mountain Retreats",
+      "cover": "https://media.cntraveler.com/photos/5bbccd04625211259a973f86/master/pass/Half-Moon__2018_View-of-one-of-the-pools-at-Fern-Tree-Spa-at-Half-Moon.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-10-best-hotels-in-jamaica-from-iconic-all-inclusives-to-breathtaki/",
+      "excerpt": "The 10 Best Hotels in Jamaica, From Iconic All-Inclusives to Breathtaking Mountain Retreats | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Tr…",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-jamaica",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "tsa-just-banned-this-popular-beauty-tool-from-checked-luggage-2025-10",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -361,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-10-01",
+  "count": 31,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

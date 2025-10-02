@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "webinar-are-your-hotel-packages-leaving-money-on-the-table-20-october",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "WEBINAR | Are your hotel packages leaving money on the table? | 20 October 14:00 – 15:00 BST | In partnership with Agilysys",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/webinar-are-your-hotel-packages-leaving-money-on-the-table-20-october/",
+      "excerpt": "<p><span class=\"span-reading-time rt-reading-time\" style=\"display: block;\"><span class=\"rt-label rt-prefix\">Reading Time: </span> <span class=\"rt-time\"> &#60; 1</span> <span class=\"rt-label rt-postfix\">minute</span></span>Hosted by BHN editor Eloise Hanson In partnership with&…",
+      "source": "https://boutiquehotelnews.com/upcoming-webinar/hotel-packages-cost-free-webinar/?utm_source=rss&utm_medium=rss&utm_campaign=hotel-packages-cost-free-webinar",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "amano-acquires-waterman-house-in-london-for-20-million-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -157,10 +169,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 13,
+  "count": 14,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 13,
+    "total_items": 14,
     "per_page": 12,
     "total_pages": 2
   }

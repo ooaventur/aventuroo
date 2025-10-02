@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "spend-your-bitcoin-don-t-just-hoard-it-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Spend your Bitcoin, don’t just hoard it",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTk5YTQtYjhlYi03OTI5LTk4ZWUtYTlkM2U3NmVhMzU4.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/spend-your-bitcoin-don-t-just-hoard-it-2025-10-02/",
+      "excerpt": "Spend Your Bitcoin, Don’t Just Hoard It Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Carel van Wyk 5 hours ago Spend your Bitcoin, don’t just hoard it Hoarding Bitcoin kills adoption. Real monetary revolution requires spending it like money, not trea…",
+      "source": "https://cointelegraph.com/news/spend-your-bitcoin-don-t-just-hoard-it?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-senate-to-hold-hearing-on-crypto-taxes-as-irs-offers-relief-on-corp",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -277,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 23,
+  "count": 24,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 23,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }
