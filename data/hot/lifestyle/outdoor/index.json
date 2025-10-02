@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "i-m-a-deaf-trail-runner-here-s-what-races-could-do-better-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "I’m a Deaf Trail Runner. Here’s What Races Could Do Better.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/STILL-3_Dealing-with-Pre-Race-Announcements-as-a-Deaf-Person.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/i-m-a-deaf-trail-runner-here-s-what-races-could-do-better-2025-10-02/",
+      "excerpt": "I’m a Deaf Trail Runner. Here’s What Races Could Do Better. Outside Online logo Culture > Opinion I’m a Deaf Trail Runner. Here’s What Races Could Do Better. From gestures to tech, small accessibility tweaks can make every mile safer and more enjoyable for Deaf athletes Share …",
+      "source": "https://www.outsideonline.com/culture/opinion/deaf-trail-runner-race-accessibility/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wolves-kill-6-hunting-dogs-in-northern-wisconsin-over-weekend-2025-10",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -1189,10 +1201,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 99,
-  "updated_at": "2025-10-01",
+  "count": 100,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 99,
+    "total_items": 100,
     "per_page": 12,
     "total_pages": 9
   }

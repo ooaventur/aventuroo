@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-am-i-not-getting-hired-9-reasons-recruiters-say-no-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Why Am I Not Getting Hired? 9 Reasons Recruiters Say No",
+      "cover": "https://www.success.com/wp-content/uploads/legacy/sites/default/files/main/articles/simplereasonsyoudidntgetthejob.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/why-am-i-not-getting-hired-9-reasons-recruiters-say-no-2025-10-02/",
+      "excerpt": "Why Am I Not Getting Hired? 9 Reasons Recruiters Say No | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> M…",
+      "source": "https://www.success.com/4-simple-reasons-you-didnt-get-the-job/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-measure-of-a-true-visionary-jane-goodall-on-the-indivisibility-of",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-measure-of-a-true-visionary-jane-goodall-on-the-indivisibility-of/",
       "excerpt": "The Measure of a True Visionary: Jane Goodall on the Indivisibility of Art and Science – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly two…",
       "source": "https://www.themarginalian.org/2025/10/01/jane-goodall-letters-art/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "shared-leadership-for-complex-times-how-having-2-ceos-could-boost-your",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Shared Leadership for Complex Times: How Having 2 CEOs Could Boost Your Strategy",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/co-ceo-model-shared-leadership-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/shared-leadership-for-complex-times-how-having-2-ceos-could-boost-your/",
+      "excerpt": "Co-CEO Model: How Shared Leadership Boosts Strategy | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magaz…",
+      "source": "https://www.success.com/co-ceo-model-shared-leadership/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "america-doesn-t-have-third-spaces-so-we-turned-to-work-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "America Doesn’t Have Third Spaces—So We Turned to Work",
+      "cover": "https://www.success.com/wp-content/uploads/2025/07/america-third-spaces-work.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/america-doesn-t-have-third-spaces-so-we-turned-to-work-2025-10-02/",
+      "excerpt": "America Lacks Third Spaces—So We Turned to Work | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine …",
+      "source": "https://www.success.com/america-third-spaces-work/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -433,11 +469,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 36,
+  "count": 39,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 36,
+    "total_items": 39,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

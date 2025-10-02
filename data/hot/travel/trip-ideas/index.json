@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "bambi-house-in-vienna-austria-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Bambi House in Vienna, Austria",
+      "cover": "https://img.atlasobscura.com/2CuMX1VitezRNDvL6XgC1bLI5kRk7BcA9sHlbV5_b9c/rt:fit/w:600/c:1560:1040:nowe:776:837/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xOTNm/OTVhOC05MGYxLTQ5/MWEtYjRiZC01NzM1/YjIwNWIxZGRkM2Y2/YmFlNGRmMzg4NDNi/NTNfSU1HXzI4MTYu/anBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/bambi-house-in-vienna-austria-2025-10-02/",
+      "excerpt": "Bambi House - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon--navba…",
+      "source": "https://www.atlasobscura.com/places/bambi-house",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "yes-there-s-good-vegan-food-in-barcelona-here-s-where-to-find-it-2025",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -493,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 41,
-  "updated_at": "2025-10-01",
+  "count": 42,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 41,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

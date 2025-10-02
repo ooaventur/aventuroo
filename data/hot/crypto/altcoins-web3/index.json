@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "xpl-token-gains-15-following-plasma-founder-s-rebuttal-of-negative-rep",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "XPL Token Gains 15% Following Plasma Founder’s Rebuttal of Negative Reports",
+      "cover": "https://assets.beincrypto.com/img/m1LYVNhv_xjnmTAGpTrCKgb_Mmg=/smart/d686824e32824f3289a97254a6403bef",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/xpl-token-gains-15-following-plasma-founder-s-rebuttal-of-negative-rep/",
+      "excerpt": "XPL Token Price Jumps 15% as Founder Addresses Controversy Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Fee…",
+      "source": "https://beincrypto.com/plasma-xpl-token-price-surge/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "vechain-treasury-drop-raises-red-flags-yet-breakout-potential-remains",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "VeChain Treasury Drop Raises Red Flags Yet Breakout Potential Remains",
+      "cover": "https://assets.beincrypto.com/img/tzWJnroFgQltUpJWy3Nlrw73jt4=/smart/705e9097366949cdb4824bd581e78fb3",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/vechain-treasury-drop-raises-red-flags-yet-breakout-potential-remains/",
+      "excerpt": "VeChain Treasury Drop 23.5% in Q2 as VET Faces Pressure Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed T…",
+      "source": "https://beincrypto.com/vechain-treasury-drop-raises-concerns/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "grayscale-is-quietly-accumulating-4-altcoins-are-these-the-next-big-wi",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Grayscale Is Quietly Accumulating 4 Altcoins —Are These the Next Big Winners?",
+      "cover": "https://assets.beincrypto.com/img/4lpzb7E8-WkEy2B6oDYNa_l0P5A=/smart/0fde596a72264d4da4e2198154ac3800",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/grayscale-is-quietly-accumulating-4-altcoins-are-these-the-next-big-wi/",
+      "excerpt": "Altcoins Grayscale Is Stacking Before the Next Rally Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed Top …",
+      "source": "https://beincrypto.com/altcoins-grayscales-investment-accumulating/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "evaa-to-launch-token-on-binance-alpha-mexc-ston-fi-and-gate-io-2025-10",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "EVAA to Launch Token on Binance Alpha, MEXC, STON.fi, and Gate.io",
+      "cover": "https://assets.beincrypto.com/img/esK2Elnu7ztqAeVRZrlZZ3c814k=/smart/33712cc901844bf5b52d5ecefc81b6dd",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/evaa-to-launch-token-on-binance-alpha-mexc-ston-fi-and-gate-io-2025-10/",
+      "excerpt": "EVAA Token Launch on Binance Alpha, MEXC, STON.fi & Gate.io Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Fe…",
+      "source": "https://beincrypto.com/evaa-token-launch-binance-mexc-gateio/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "xpl-crash-explained-fud-and-profit-taking-trigger-46-plunge-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -409,11 +457,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 34,
-  "updated_at": "2025-10-01",
+  "count": 38,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 34,
+    "total_items": 38,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

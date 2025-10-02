@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3298,
+  "total_items": 3315,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,8 +173,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 512,
-      "pages": 43,
+      "items": 517,
+      "pages": 44,
       "children": [
         {
           "child": "arts",
@@ -193,8 +193,8 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 179,
-          "pages": 15,
+          "items": 184,
+          "pages": 16,
           "months": [
             {
               "year": 2025,
@@ -277,8 +277,8 @@
             {
               "year": 2024,
               "month": 8,
-              "items": 8,
-              "pages": 1
+              "items": 13,
+              "pages": 2
             }
           ]
         },
@@ -949,8 +949,8 @@
     },
     {
       "parent": "news",
-      "items": 144,
-      "pages": 12,
+      "items": 146,
+      "pages": 13,
       "children": [
         {
           "child": "economy",
@@ -969,13 +969,13 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 79,
+          "items": 81,
           "pages": 7,
           "months": [
             {
               "year": 2025,
               "month": 9,
-              "items": 77,
+              "items": 79,
               "pages": 7
             },
             {
@@ -1248,8 +1248,8 @@
     },
     {
       "parent": "travel",
-      "items": 680,
-      "pages": 57,
+      "items": 690,
+      "pages": 58,
       "children": [
         {
           "child": "destinations",
@@ -1316,7 +1316,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 175,
+          "items": 180,
           "pages": 15,
           "months": [
             {
@@ -1456,6 +1456,12 @@
               "month": 11,
               "items": 10,
               "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 10,
+              "items": 5,
+              "pages": 1
             }
           ]
         },
@@ -1580,8 +1586,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 188,
-          "pages": 16,
+          "items": 193,
+          "pages": 17,
           "months": [
             {
               "year": 2025,
@@ -1718,7 +1724,13 @@
             {
               "year": 2023,
               "month": 11,
-              "items": 8,
+              "items": 12,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 10,
+              "items": 1,
               "pages": 1
             }
           ]

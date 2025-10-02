@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "flourless-double-chocolate-brownies-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Flourless Double-Chocolate Brownies",
+      "cover": "https://assets.bonappetit.com/photos/68d1a9a20438edc8cff2c860/master/pass/20250814_BA-25-07-14-WEB_02_Lauras%20Brownies_110_FINAL.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/flourless-double-chocolate-brownies-2025-10-02/",
+      "excerpt": "Flourless Double-Chocolate Brownies Recipe | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Recipes Double-C…",
+      "source": "https://www.bonappetit.com/recipe/flourless-brownies",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "emmy-winning-television-writer-aisha-muharrar-reflects-on-finding-smal",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Emmy-winning television writer Aisha Muharrar reflects on finding small pleasures following personal tragedy.",
+      "cover": "https://assets.bonappetit.com/photos/68c84742562f5aa970fb66cd/master/pass/Aisha.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/emmy-winning-television-writer-aisha-muharrar-reflects-on-finding-smal/",
+      "excerpt": "Emmy-winning television writer Aisha Muharrar reflects on finding small pleasures following personal tragedy. | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants Mo…",
+      "source": "https://www.bonappetit.com/story/fourth-trimester-brownie",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "these-turkey-sweet-potatoes-fuel-my-family-and-my-workouts-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -241,10 +265,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-10-01",
+  "count": 22,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 20,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

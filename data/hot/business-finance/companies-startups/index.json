@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "oneleet-raises-33m-to-shake-up-the-world-of-security-compliance-2025-1",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Oneleet raises $33M to shake up the world of security compliance",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/One-Leet.jpg?resize=1200,799",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/oneleet-raises-33m-to-shake-up-the-world-of-security-compliance-2025-1/",
+      "excerpt": "Oneleet raises $33M to shake up the world of security compliance | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest …",
+      "source": "https://techcrunch.com/2025/10/02/oneleet-raises-33m-to-shake-up-the-world-of-security-compliance/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-founders-need-to-know-before-choosing-their-exit-straight-from-ro",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -481,10 +493,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-10-01",
+  "count": 41,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 40,
+    "total_items": 41,
     "per_page": 12,
     "total_pages": 4
   }

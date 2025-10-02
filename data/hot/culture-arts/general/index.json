@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-unexpected-sweetness-of-bill-and-ted-s-waiting-for-godot-2025-10-0",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Unexpected Sweetness of Bill and Ted’s “Waiting for Godot”",
+      "cover": "https://media.newyorker.com/photos/68dd700cf9bb9f974bc61748/master/pass/r47560.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-unexpected-sweetness-of-bill-and-ted-s-waiting-for-godot-2025-10-0/",
+      "excerpt": "The Unexpected Sweetness of Bill and Ted’s “Waiting for Godot” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigat…",
+      "source": "https://www.newyorker.com/magazine/2025/10/13/waiting-for-godot-theatre-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uc-irvine-takes-over-orange-county-museum-of-art-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -673,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 56,
-  "updated_at": "2025-10-01",
+  "count": 57,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 56,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }
