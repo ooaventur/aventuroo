@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "viral-apple-cider-vinegar-weight-loss-study-retracted-for-flawed-scien",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Viral apple cider vinegar weight loss study retracted for flawed science",
+      "cover": "https://www.sciencedaily.com/images/1920/apple-cider-vinegar-weight-loss.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/viral-apple-cider-vinegar-weight-loss-study-retracted-for-flawed-scien/",
+      "excerpt": "Viral apple cider vinegar weight loss study retracted for flawed science | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from resea…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251001092216.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-common-supplement-could-supercharge-cancer-treatments-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "A common supplement could supercharge cancer treatments",
+      "cover": "https://www.sciencedaily.com/images/1920/cancer-target-detection.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-common-supplement-could-supercharge-cancer-treatments-2025-10-02/",
+      "excerpt": "A common supplement could supercharge cancer treatments | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251001092214.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "yoga-isn-t-as-heart-healthy-as-you-think-new-study-reveals-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -313,10 +337,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
-  "updated_at": "2025-10-01",
+  "count": 28,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 26,
+    "total_items": 28,
     "per_page": 12,
     "total_pages": 3
   }

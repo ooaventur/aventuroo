@@ -133,6 +133,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "ranch-fashion-wrangler-filson-team-up-for-limited-jacket-and-jeans-col",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Ranch Fashion: Wrangler, Filson Team Up for Limited Jacket and Jeans Collab",
+      "cover": "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2025/09/Untitled-design-2025-09-24T160415.694.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/ranch-fashion-wrangler-filson-team-up-for-limited-jacket-and-jeans-col/",
+      "excerpt": "Ranch Fashion: Wrangler, Filson Team Up for Limited Collab | GearJunkie Skip to content Subscribe Search Latest \" data-src=\"https://s3.amazonaws.com/images.gearjunkie.com/uploads/2025/10/CRKT-Q-Compact-Liner-Lock-blue-surface-300x200.jpg\" class=\"lazyload attachment-medium size…",
+      "source": "https://gearjunkie.com/apparel/wrangler-filson-collab",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "legendary-scientist-jane-goodall-passes-away-at-91-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -178,6 +190,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/from-playground-trips-to-grocery-runs-find-the-perfect-e-cargo-bike-fo/",
       "excerpt": "The 9 Best Cargo Bikes 2025: Top Cargo E-Bikes Reviewed We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other uses. Learn more in our Privacy Notice. Search Newsletter Bicycli…",
       "source": "https://www.bicycling.com/bikes-gear/a25054215/best-cargo-bikes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "built-for-transpacific-flights-and-japan-s-bullet-trains-patagonia-bla",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Built for Transpacific Flights and Japan’s Bullet Trains: Patagonia Black Hole Wheeled Duffel 40L Review",
+      "cover": "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2025/09/IMG_4367_Morgan-Tilton.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/built-for-transpacific-flights-and-japan-s-bullet-trains-patagonia-bla/",
+      "excerpt": "Patagonia Black Hole Wheeled Duffel 40L Review | GearJunkie Tested Skip to content Subscribe Search Latest \" data-src=\"https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/05/DSC1826-300x200.jpg\" class=\"lazyload attachment-medium size-medium optimized-size-content-resiz…",
+      "source": "https://gearjunkie.com/travel/patagonia-black-hole-wheeled-duffel-40l-review",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1165,10 +1189,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 97,
+  "count": 99,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 97,
+    "total_items": 99,
     "per_page": 12,
     "total_pages": 9
   }

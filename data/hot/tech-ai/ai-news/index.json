@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimod",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "ServiceNow AI Releases Apriel-1.5-15B-Thinker: An Open-Weights Multimodal Reasoning Model that Hits Frontier-Level Performance on a Single-GPU Budget",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-4.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimod/",
+      "excerpt": "ServiceNow AI Releases Apriel-1.5-15B-Thinker: An Open-Weights Multimodal Reasoning Model that Hits Frontier-Level Performance on a Single-GPU Budget - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI…",
+      "source": "https://www.marktechpost.com/2025/10/01/servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimodal-reasoning-model-that-hits-frontier-level-performance-on-a-single-gpu-budget/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-role-of-model-context-protocol-mcp-in-generative-ai-security-and-r",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -289,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 24,
-  "updated_at": "2025-10-01",
+  "count": 25,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 24,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

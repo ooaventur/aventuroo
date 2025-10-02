@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "angel-8217-s-envy-10-year-cask-strength-bourbon-is-the-brand-8217-s-fi",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Angel&#8217;s Envy 10-Year Cask-Strength Bourbon Is the Brand&#8217;s First Age-Stated Release",
+      "cover": "https://bevvy.co/articles/wp-content/uploads/2025/10/Angels-Envy_10_Cask_Strength.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/angel-8217-s-envy-10-year-cask-strength-bourbon-is-the-brand-8217-s-fi/",
+      "excerpt": "Angel's Envy Releases 10-Year Cask Strength Bourbon Bevvy ® Home Articles Submit Spirit Lucky? Bevvy Home Cocktails Spirits Collections About Bevvy Latest Drinks Angel’s Envy 10-Year Cask-Strength Bourbon Is the Brand’s First Age-Stated Release Fall Cocktails to Warm You Up As…",
+      "source": "https://bevvy.co/articles/angels-envy-10-year-cask-strength-bourbon/23008",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-haribo-weinland-could-be-gen-z-s-next-viral-treat-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -82,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/drink/q-a-maria-calvert-and-lydia-richards-hispanics-in-wine-spirits-2025-10/",
       "excerpt": "Q&A: Maria Calvert and Lydia Richards, Hispanics in Wine & Spirits - Imbibe Magazine Subscribe + Save Skip to content Imbibe-Logo-LIQUID-CULTURE2-10 Recipes Cocktails + Spirits Wine + Beer Food Alcohol-Free Mixers + Garnishes How-To Negroni Week Imbibe 75 Cocktails + Spirits A…",
       "source": "https://imbibemagazine.com/qa-maria-calvert-and-lydia-richards-hispanics-in-wine-spirits/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "jack-daniel-s-bets-on-berry-as-tennessee-blackberry-lands-in-uk-2025-1",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Jack Daniel’s bets on berry as Tennessee Blackberry lands in UK",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/10/BFJB253555S__FY26_Global_JDTB_JackGingerDS-Static_LR_-scaled-e1759311701110.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/jack-daniel-s-bets-on-berry-as-tennessee-blackberry-lands-in-uk-2025-1/",
+      "excerpt": "Jack Daniel’s bets on berry as Tennessee Blackberry lands in UK View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Int…",
+      "source": "https://www.thedrinksbusiness.com/2025/10/jack-daniels-bets-on-berry-as-tennessee-blackberry-lands-in-uk/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -985,10 +1009,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 82,
-  "updated_at": "2025-10-01",
+  "count": 84,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 82,
+    "total_items": 84,
     "per_page": 12,
     "total_pages": 7
   }

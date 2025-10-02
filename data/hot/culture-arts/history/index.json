@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "inside-the-tragic-life-and-death-of-bobby-driscoll-the-original-voice",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Inside The Tragic Life And Death Of Bobby Driscoll, The Original Voice Actor For Disney’s Peter Pan",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/bobby-driscoll.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-the-tragic-life-and-death-of-bobby-driscoll-the-original-voice/",
+      "excerpt": "Bobby Driscoll, The Doomed 'Peter Pan' Star Who Died At 31 Peter Pan \" /> All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside The Tragic Life And Death Of Bobby Driscoll, The Original Voic…",
+      "source": "https://allthatsinteresting.com/bobby-driscoll",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-death-of-o-j-simpson-the-former-football-star-whose-life-was-fille",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "The Death Of O.J. Simpson, The Former Football Star Whose Life Was Filled With Controversy",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/o-j-simpsons-death.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-death-of-o-j-simpson-the-former-football-star-whose-life-was-fille/",
+      "excerpt": "The Controversial Life And Death Of O.J. Simpson All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Death Of O.J. Simpson, The Former Football Star Whose Life Was Filled With Controversy By …",
+      "source": "https://allthatsinteresting.com/oj-simpson-death",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "stephen-stucker-rose-to-fame-with-his-hilarious-role-in-airplane-then",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -409,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 34,
-  "updated_at": "2025-10-01",
+  "count": 36,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 34,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }

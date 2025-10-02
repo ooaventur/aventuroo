@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "sweden-eyes-entering-the-bitcoin-digital-arms-race-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Sweden eyes entering the Bitcoin ‘digital arms race’",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDYvMDE5NzYyMGUtYTQzNi03OGVmLWI3ZjMtYWRiZDVhNDM0NDc2.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sweden-eyes-entering-the-bitcoin-digital-arms-race-2025-10-02/",
+      "excerpt": "Swedish Lawmakers Push for Strategic Bitcoin Reserve Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Stephen Katte 3 hours ago Sweden eyes entering the Bitcoin ‘digital arms race’ The proposal came from two Swedish Democrats, a party that is a key playe…",
+      "source": "https://cointelegraph.com/news/sweden-bitcoin-reserve-proposal-cbdc-policy?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "us-senate-to-hold-hearing-on-crypto-taxes-as-irs-offers-relief-on-corp",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "US Senate to hold hearing on crypto taxes as IRS offers relief on corporate tax",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDcvMDE5N2Y1YTYtZGJhNC03MzU4LWI0MDUtNzEyYmUzOTUxYzIy.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/us-senate-to-hold-hearing-on-crypto-taxes-as-irs-offers-relief-on-corp/",
+      "excerpt": "Senate Reviews Crypto Taxes Following CAMT Guidance By IRS Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Helen Partz 16 hours ago US Senate to hold hearing on crypto taxes as IRS offers relief on corporate tax The US Senate Finance Committee is holdin…",
+      "source": "https://cointelegraph.com/news/us-treasury-relief-guidance-camt-senate-crypto-taxes-hearing?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-lawmakers-grapple-with-crypto-tax-policy-amid-government-shutdown-2",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -253,10 +277,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 21,
-  "updated_at": "2025-10-01",
+  "count": 23,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 21,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }

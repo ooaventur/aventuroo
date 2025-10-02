@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3283,
+  "total_items": 3298,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,7 +173,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 507,
+      "items": 512,
       "pages": 43,
       "children": [
         {
@@ -193,7 +193,7 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 174,
+          "items": 179,
           "pages": 15,
           "months": [
             {
@@ -277,7 +277,7 @@
             {
               "year": 2024,
               "month": 8,
-              "items": 3,
+              "items": 8,
               "pages": 1
             }
           ]
@@ -1248,8 +1248,8 @@
     },
     {
       "parent": "travel",
-      "items": 670,
-      "pages": 56,
+      "items": 680,
+      "pages": 57,
       "children": [
         {
           "child": "destinations",
@@ -1316,7 +1316,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 170,
+          "items": 175,
           "pages": 15,
           "months": [
             {
@@ -1454,7 +1454,7 @@
             {
               "year": 2023,
               "month": 11,
-              "items": 5,
+              "items": 10,
               "pages": 1
             }
           ]
@@ -1580,7 +1580,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 183,
+          "items": 188,
           "pages": 16,
           "months": [
             {
@@ -1718,7 +1718,7 @@
             {
               "year": 2023,
               "month": 11,
-              "items": 3,
+              "items": 8,
               "pages": 1
             }
           ]

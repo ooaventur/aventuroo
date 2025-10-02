@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3283,
+  "total_items": 3298,
   "shards": [
     {
       "parent": "business-finance",
@@ -219,7 +219,7 @@
       "month": 8,
       "path": "culture-arts/columns-essays/2024/08/index.json",
       "path_gz": "culture-arts/columns-essays/2024/08/index.json.gz",
-      "items": 3,
+      "items": 8,
       "first_date": "2024-08-22",
       "last_date": "2024-08-22",
       "pages": 1
@@ -1922,8 +1922,8 @@
       "month": 11,
       "path": "travel/experiences/2023/11/index.json",
       "path_gz": "travel/experiences/2023/11/index.json.gz",
-      "items": 5,
-      "first_date": "2023-11-28",
+      "items": 10,
+      "first_date": "2023-11-09",
       "last_date": "2023-11-28",
       "pages": 1
     },
@@ -2390,8 +2390,8 @@
       "month": 11,
       "path": "travel/trip-ideas/2023/11/index.json",
       "path_gz": "travel/trip-ideas/2023/11/index.json.gz",
-      "items": 3,
-      "first_date": "2023-11-29",
+      "items": 8,
+      "first_date": "2023-11-26",
       "last_date": "2023-11-30",
       "pages": 1
     },
