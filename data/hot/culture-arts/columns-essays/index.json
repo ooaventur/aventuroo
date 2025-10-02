@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "thomas-laqueur-a-different-life-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Thomas Laqueur: A Different Life",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/0/8/4/7/30827480-1-eng-GB/4b88ed32dc36-pal-hermann-playing-cello.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/thomas-laqueur-a-different-life-2025-10-02/",
+      "excerpt": "Thomas Laqueur · A Different Life: Can cellos remember? My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover arc…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n18/thomas-laqueur/a-different-life",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "stephen-mulhall-self-interpreting-animals-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Stephen Mulhall: Self-Interpreting Animals",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/7/8/6/7/30827687-1-eng-GB/ab1954a21b2a-gaby-wood-illustration.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/stephen-mulhall-self-interpreting-animals-2025-10-02/",
+      "excerpt": "Stephen Mulhall · Self-Interpreting Animals My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archive Browse …",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n18/stephen-mulhall/self-interpreting-animals",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "josephine-quinn-at-the-institut-du-monde-arabe-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Josephine Quinn: At the Institut du monde arabe",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/4/2/4/7/30827424-1-eng-GB/de592820a4bd-ceramic-oil-lamp-first-century.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/josephine-quinn-at-the-institut-du-monde-arabe-2025-10-02/",
+      "excerpt": "Josephine Quinn · At the Institut du monde arabe: ‘Trésors sauvés de Gaza’ My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor B…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n18/josephine-quinn/at-the-institut-du-monde-arabe",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "james-meek-computers-that-want-things-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "James Meek: Computers that want things",
+      "cover": "https://www.lrb.co.uk/storage/social_image_on_bg/images/2/5/4/7/30827452-1-eng-GB/3fae20fda61b-lrb-4718-cover.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/james-meek-computers-that-want-things-2025-10-02/",
+      "excerpt": "James Meek · Computers that want things My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archive Browse by S…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n18/james-meek/computers-that-want-things",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ben-campbell-in-the-shoebox-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Ben Campbell: In the Shoebox",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/9/4/4/7/30827449-1-eng-GB/7ac01930df57-stepney-street-market-peter-campbell.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/ben-campbell-in-the-shoebox-2025-10-02/",
+      "excerpt": "Ben Campbell · In the Shoebox: Peter’s Snapshots My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archive Br…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n18/ben-campbell/in-the-shoebox",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "yun-sheng-short-cuts-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -85,10 +145,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 7,
-  "updated_at": "2025-10-01",
+  "count": 12,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 7,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

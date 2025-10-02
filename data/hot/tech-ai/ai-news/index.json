@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "liquid-ai-released-lfm2-audio-1-5b-an-end-to-end-audio-foundation-mode",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Liquid AI Released LFM2-Audio-1.5B: An End-to-End Audio Foundation Model with Sub-100 ms Response Latency",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-3.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/liquid-ai-released-lfm2-audio-1-5b-an-end-to-end-audio-foundation-mode/",
+      "excerpt": "Liquid AI Released LFM2-Audio-1.5B: An End-to-End Audio Foundation Model with Sub-100 ms Response Latency - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premiu…",
+      "source": "https://www.marktechpost.com/2025/10/01/liquid-ai-released-lfm2-audio-1-5b-an-end-to-end-audio-foundation-model-with-sub-100-ms-response-latency/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-build-an-advanced-agentic-retrieval-augmented-generation-rag-sy",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -277,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 23,
+  "count": 24,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 23,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }

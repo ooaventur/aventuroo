@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "trump-administration-puts-on-hold-18-billion-in-funding-for-new-york-c",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Trump administration puts on hold $18 billion in funding for New York City infrastructure projects",
+      "cover": "https://s.abcnews.com/images/US/wirestory_ada494e08ae9ae5269c6ce554ecdbd43_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/trump-administration-puts-on-hold-18-billion-in-funding-for-new-york-c/",
+      "excerpt": "Trump administration puts on hold $18 billion in funding for New York City infrastructure projects - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off…",
+      "source": "https://abcnews.go.com/Politics/wireStory/trump-administration-puts-hold-18-billion-funding-new-126125727",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "texas-redrawn-us-house-map-that-boosts-gop-begins-a-key-court-test-202",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Texas' redrawn US House map that boosts GOP begins a key court test",
+      "cover": "https://s.abcnews.com/images/US/wirestory_5e67fa8cccda52c4c4af22178db6a2de_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/texas-redrawn-us-house-map-that-boosts-gop-begins-a-key-court-test-202/",
+      "excerpt": "Texas' redrawn US House map that boosts GOP begins a key court test - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Texas' redrawn US…",
+      "source": "https://abcnews.go.com/Politics/wireStory/texas-redrawn-us-house-map-boosts-gop-begins-126110201",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "madison-cawthorn-seeks-comeback-running-for-congress-in-florida-2025-1",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Madison Cawthorn seeks comeback, running for Congress in Florida",
+      "cover": "https://s.abcnews.com/images/US/wirestory_63c97256d50a59545019e636d4ef04ce_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/madison-cawthorn-seeks-comeback-running-for-congress-in-florida-2025-1/",
+      "excerpt": "Madison Cawthorn seeks comeback, running for Congress in Florida - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Madison Cawthorn see…",
+      "source": "https://abcnews.go.com/Politics/wireStory/madison-cawthorn-seeks-comeback-running-congress-florida-126123908",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "labour-plans-new-law-to-ban-fracking-permanently-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/labour-plans-new-law-to-ban-fracking-permanently-2025-10-01/",
       "excerpt": "Labour plans new law to ban fracking permanently Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland N.…",
       "source": "https://www.bbc.com/news/articles/cjedpl9kpv2o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "labour-deputy-debate-exposes-differences-in-approach-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Labour deputy debate exposes differences in approach",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/c482/live/4d47d220-9ebf-11f0-9ab9-d38bf221fde2.png",
+      "canonical": "https://archive.aventuroo.com/news/politics/labour-deputy-debate-exposes-differences-in-approach-2025-10-01/",
+      "excerpt": "Labour deputy debate exposes differences in approach Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irelan…",
+      "source": "https://www.bbc.com/news/articles/cqxzpgjqd82o?at_medium=RSS&at_campaign=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1069,10 +1117,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 89,
+  "count": 93,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 89,
+    "total_items": 93,
     "per_page": 12,
     "total_pages": 8
   }

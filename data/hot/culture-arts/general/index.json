@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "slug": "the-age-of-enshittification-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "The Age of Enshittification",
+      "cover": "https://media.newyorker.com/photos/68dc542e7d45c3a6c2e6bf5a/master/pass/Chayka_Enshitification.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-age-of-enshittification-2025-10-01/",
+      "excerpt": "The Age of Enshittification | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Infinite Scroll The A…",
+      "source": "https://www.newyorker.com/culture/infinite-scroll/the-age-of-enshittification",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "madison-square-park-glows-up-with-larry-bell-s-glass-cubes-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Madison Square Park Glows Up With Larry Bell’s Glass Cubes",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/DSC07135.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/madison-square-park-glows-up-with-larry-bell-s-glass-cubes-2025-10-01/",
+      "excerpt": "Madison Square Park Glows Up With Larry Bell’s Glass Cubes Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn…",
+      "source": "https://hyperallergic.com/1046282/madison-square-park-glows-up-with-larry-bell-glass-cubes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-political-protest-a-collaborative-art-form-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Is Political Protest a Collaborative Art Form?",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/o36vZ-scaled.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/is-political-protest-a-collaborative-art-form-2025-10-01/",
+      "excerpt": "Is Political Protest a Collaborative Art Form? Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account …",
+      "source": "https://hyperallergic.com/1046320/is-political-protest-a-collaborative-art-form/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-will-the-us-government-shutdown-impact-museums-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "How Will the US Government Shutdown Impact Museums?",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/National_Gallery_of_Art_East_Building.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/how-will-the-us-government-shutdown-impact-museums-2025-10-01/",
+      "excerpt": "How Will the US Government Shutdown Impact Museums? Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My acc…",
+      "source": "https://hyperallergic.com/1046216/how-will-the-us-government-shutdown-impact-museums/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "exploring-the-intricacies-of-memory-with-ada-lim-n-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Exploring the Intricacies of Memory with Ada Limón",
+      "cover": "https://media.newyorker.com/photos/6851c4bc2e50bf4f03899837/master/pass/BookCurrents_SocialSite.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/exploring-the-intricacies-of-memory-with-ada-lim-n-2025-10-01/",
+      "excerpt": "Exploring the Intricacies of Memory with Ada Limón | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Men…",
+      "source": "https://www.newyorker.com/books/book-currents/exploring-the-intricacies-of-memory-with-ada-limon",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "atlanta-art-fair-shines-a-spotlight-on-the-southeast-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Atlanta Art Fair Shines a Spotlight on the Southeast",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/DSF4978-copy.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/atlanta-art-fair-shines-a-spotlight-on-the-southeast-2025-10-01/",
+      "excerpt": "Atlanta Art Fair Shines a Spotlight on the Southeast Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My ac…",
+      "source": "https://hyperallergic.com/1046222/atlanta-art-fair-2025-shines-a-spotlight-on-the-southeast-pullman-yards/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "adebunmi-gbadebo-and-the-mysteries-of-clay-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -10,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/adebunmi-gbadebo-and-the-mysteries-of-clay-2025-10-01/",
       "excerpt": "Adebunmi Gbadebo and the Mysteries of Clay | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Critic…",
       "source": "https://www.newyorker.com/culture/critics-notebook/adebunmi-gbadebo-and-the-mysteries-of-clay",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "10-exhibitions-to-see-in-upstate-new-york-this-october-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "10 Exhibitions to See in Upstate New York This October",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/XBQD5-scaled.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/10-exhibitions-to-see-in-upstate-new-york-this-october-2025-10-01/",
+      "excerpt": "10 Exhibitions to See in Upstate New York This October Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My …",
+      "source": "https://hyperallergic.com/1046381/10-exhibitions-to-see-in-upstate-new-york-october-2025/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -529,11 +613,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
+  "count": 51,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 44,
+    "total_items": 51,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "archaeologists-in-the-czech-republic-found-an-ice-age-hunter-s-toolkit",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Archaeologists In The Czech Republic Found An Ice Age Hunter’s Toolkit Dating Back 30,000 Years",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/stone-age-hunter-toolkit.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-the-czech-republic-found-an-ice-age-hunter-s-toolkit/",
+      "excerpt": "Archaeologists Uncover Ice Age Hunter's Toolkit In Czech Republic All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In The Czech Republic Found An Ice Age Hunter’s Toolkit Dating…",
+      "source": "https://allthatsinteresting.com/czech-republic-ice-age-hunter-toolkit",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-in-russia-just-unearthed-a-2-200-year-old-piece-of-a-gr",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Archaeologists In Russia Just Unearthed A 2,200-Year-Old Piece Of A Greek Satyr Mask",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/phanagoria-mask-recreation.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-russia-just-unearthed-a-2-200-year-old-piece-of-a-gr/",
+      "excerpt": "Ancient Greek Satyr Mask Unearthed In Phanagoria All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Russia Just Unearthed A 2,200-Year-Old Piece Of A Greek Satyr Mask By Ainsle…",
+      "source": "https://allthatsinteresting.com/russia-phanagoria-ancient-greek-satyr-mask",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "who-was-the-real-james-herriot-the-true-story-behind-all-creatures-gre",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -385,10 +409,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
+  "count": 34,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 32,
+    "total_items": 34,
     "per_page": 12,
     "total_pages": 3
   }

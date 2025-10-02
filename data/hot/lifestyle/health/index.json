@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "dolphin-ai-uncovers-hundreds-of-invisible-cancer-markers-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "DOLPHIN AI uncovers hundreds of invisible cancer markers",
+      "cover": "https://www.sciencedaily.com/images/1920/human-cell-structure.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/dolphin-ai-uncovers-hundreds-of-invisible-cancer-markers-2025-10-01/",
+      "excerpt": "DOLPHIN AI uncovers hundreds of invisible cancer markers | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organization…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251001092206.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "blocking-one-protein-supercharges-the-immune-system-against-cancer-202",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Blocking one protein supercharges the immune system against cancer",
+      "cover": "https://www.sciencedaily.com/images/1920/t-cells-cancer-cells.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/blocking-one-protein-supercharges-the-immune-system-against-cancer-202/",
+      "excerpt": "Blocking one protein supercharges the immune system against cancer | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research or…",
+      "source": "https://www.sciencedaily.com/releases/2025/09/250930034243.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-hidden-iron-switch-that-makes-cancer-cells-self-destruct-2025-09-3",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -289,11 +313,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 24,
+  "count": 26,
   "updated_at": "2025-10-01",
   "pagination": {
-    "total_items": 24,
+    "total_items": 26,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

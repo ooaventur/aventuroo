@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "the-most-mysterious-place-in-every-state-the-western-us-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Most Mysterious Place in Every State: the Western US",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/Creepy-Places-Western-US-3-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-mysterious-place-in-every-state-the-western-us-2025-10-02/",
+      "excerpt": "The Most Mysterious Place in Every State: the Western US Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago…",
+      "source": "https://matadornetwork.com/read/mysterious-places-in-the-western-us/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-most-mysterious-place-in-every-state-the-southwest-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Most Mysterious Place in Every State: the Southwest",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/Creepy-Places-Southwest-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-mysterious-place-in-every-state-the-southwest-2025-10-02/",
+      "excerpt": "The Most Mysterious Place in Every State: the Southwest Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago …",
+      "source": "https://matadornetwork.com/read/mysterious-places-in-the-southwest/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-most-mysterious-place-in-every-state-the-south-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Most Mysterious Place in Every State: the South",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/Creepy-Places-South-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-mysterious-place-in-every-state-the-south-2025-10-02/",
+      "excerpt": "The Most Mysterious Place in Every State: the South Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Dall…",
+      "source": "https://matadornetwork.com/read/mysterious-places-in-the-south/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-most-mysterious-place-in-every-state-the-midwest-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Most Mysterious Place in Every State: the Midwest",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/Creepy-Places-Midwest-US-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-mysterious-place-in-every-state-the-midwest-2025-10-02/",
+      "excerpt": "The Most Mysterious Place in Every State: the Midwest Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Da…",
+      "source": "https://matadornetwork.com/read/mysterious-places-in-the-midwest/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-most-mysterious-place-in-every-state-the-east-coast-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Most Mysterious Place in Every State: the East Coast",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/Creepy-Places-East-Coast-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-most-mysterious-place-in-every-state-the-east-coast-2025-10-02/",
+      "excerpt": "The Most Mysterious Place in Every State: East Coast Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Dal…",
+      "source": "https://matadornetwork.com/read/mysterious-places-east-coast/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-the-future-of-spa-travel-looks-more-sci-fi-than-swedish-2025-09-30",
       "date": "2025-09-30",
       "published_at": "2025-09-30T00:00:00Z",
@@ -157,10 +217,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 13,
-  "updated_at": "2025-09-30",
+  "count": 18,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 13,
+    "total_items": 18,
     "per_page": 12,
     "total_pages": 2
   }

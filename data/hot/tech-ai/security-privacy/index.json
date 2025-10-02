@@ -13,6 +13,78 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "undead-operating-systems-haunt-enterprise-security-networks-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Undead Operating Systems Haunt Enterprise Security Networks",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt29274c15e04bd343/68dd48d08bd37e44e71df1e6/runzero-eol-systems.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/undead-operating-systems-haunt-enterprise-security-networks-2025-10-01/",
+      "excerpt": "Windows 10 reaches end-of-life on Oct. 14, which will triple the number of vulnerable enterprise systems and create a massive attack surface for cybercriminals.",
+      "source": "https://www.darkreading.com/endpoint-security/undead-operating-systems-haunt-enterprise-security-networks",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "shutdown-threatens-us-intel-sharing-cyber-defense-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Shutdown Threatens US Intel Sharing, Cyber Defense",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt97e61cd8c96e949e/68dd894cd4dde604748f137e/shutdown_Lightspring_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/shutdown-threatens-us-intel-sharing-cyber-defense-2025-10-01/",
+      "excerpt": "Lapse of critical information sharing and mass furloughs at CISA are just some of the concerns.",
+      "source": "https://www.darkreading.com/cyber-risk/shutdown-us-intel-sharing-cyber-defense",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "new-bug-in-classic-outlook-can-only-be-fixed-via-microsoft-support-202",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "New bug in classic Outlook can only be fixed via Microsoft support",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/08/22/Outlook.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/new-bug-in-classic-outlook-can-only-be-fixed-via-microsoft-support-202/",
+      "excerpt": "New bug in classic Outlook can only be fixed via Microsoft support News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/new-bug-in-classic-outlook-can-only-be-fixed-via-microsoft-support/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-sheds-light-on-shinyhunters-salesforce-tactics-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Google Sheds Light on ShinyHunters' Salesforce Tactics",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte87021ab2157852a/68dd91dcd4203eb43dc6b9e6/vishing_FranRodriguez_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/google-sheds-light-on-shinyhunters-salesforce-tactics-2025-10-01/",
+      "excerpt": "Mandiant provided proactive defenses against UNC6040's social engineering attacks that have led to several Salesforce breaches.",
+      "source": "https://www.darkreading.com/threat-intelligence/google-sheds-light-shinyhunters-salesforce-tactics",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "f-droid-project-threatened-by-google-s-new-dev-registration-rules-2025",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "F-Droid project threatened by Google's new dev registration rules",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/02/08/Android.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/f-droid-project-threatened-by-google-s-new-dev-registration-rules-2025/",
+      "excerpt": "F-Droid project threatened by Google's new dev registration rules News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts …",
+      "source": "https://www.bleepingcomputer.com/news/security/f-droid-project-threatened-by-googles-new-dev-registration-rules/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "data-breach-at-dealership-software-provider-impacts-766k-clients-2025",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Data breach at dealership software provider impacts 766k clients",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/01/Motility.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/data-breach-at-dealership-software-provider-impacts-766k-clients-2025/",
+      "excerpt": "Data breach at dealership software provider impacts 766k clients News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts F…",
+      "source": "https://www.bleepingcomputer.com/news/security/data-breach-at-dealership-software-provider-impacts-766k-clients/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "china-imposes-one-hour-reporting-rule-for-major-cyber-incidents-2025-1",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -22,6 +94,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/china-imposes-one-hour-reporting-rule-for-major-cyber-incidents-2025-1/",
       "excerpt": "The sweeping new regulations show that China's serious about hardening its own networks after launching widespread attacks on global networks.",
       "source": "https://www.darkreading.com/cybersecurity-operations/china-one-hour-reporting-rule-major-cyber-incidents",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "android-malware-uses-vnc-to-give-attackers-hands-on-access-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Android malware uses VNC to give attackers hands-on access",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/01/Cleopatra.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/android-malware-uses-vnc-to-give-attackers-hands-on-access-2025-10-01/",
+      "excerpt": "Android malware uses VNC to give attackers hands-on access News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts Fake Mi…",
+      "source": "https://www.bleepingcomputer.com/news/security/android-malware-uses-vnc-to-give-attackers-hands-on-access/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "adobe-analytics-bug-leaked-customer-tracking-data-to-other-tenants-202",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Adobe Analytics bug leaked customer tracking data to other tenants",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/09/12/adobe.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/adobe-analytics-bug-leaked-customer-tracking-data-to-other-tenants-202/",
+      "excerpt": "Adobe Analytics bug leaked customer tracking data to other tenants News Featured Latest CISA warns of critical Linux Sudo flaw exploited in attacks Harrods suffers new data breach exposing 430,000 customer records Akira ransomware breaching MFA-protected SonicWall VPN accounts…",
+      "source": "https://www.bleepingcomputer.com/news/security/adobe-analytics-bug-leaked-customer-tracking-data-to-other-tenants/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-50-battering-ram-can-bust-confidential-computing-2025-10-01",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "A $50 'Battering RAM' Can Bust Confidential Computing",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt894ab2aa53abcc14/68dd1dd6cc6e59b54c33e375/securecontainer-Sergey_Novikov-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/a-50-battering-ram-can-bust-confidential-computing-2025-10-01/",
+      "excerpt": "Researchers have demonstrated an attack that can break through modern Intel and AMD processor technologies that protect encrypted data stored in memory.",
+      "source": "https://www.darkreading.com/cloud-security/50-battering-ram-bust-confidential-computing",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -577,11 +685,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 48,
+  "count": 57,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 48,
+    "total_items": 57,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }
