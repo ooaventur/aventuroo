@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-end-of-quarterly-earnings-what-the-sec-proposal-could-mean-for-inv",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The End of Quarterly Earnings? What the SEC Proposal Could Mean for Investors",
+      "cover": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2022/08/GettyImages-1178688501.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/the-end-of-quarterly-earnings-what-the-sec-proposal-could-mean-for-inv/",
+      "excerpt": "The End of Quarterly Earnings? What the SEC Proposal Could Mean for Investors - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards…",
+      "source": "https://www.nerdwallet.com/article/investing/end-of-quarterly-earning-reports",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-25-000-day-trading-rule-may-soon-go-away-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -106,6 +118,30 @@
       "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/best-private-student-loans-of-october-2025-2025-10-02/",
       "excerpt": "Best Student Loans of October 2025 | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best Pet Insurance Best …",
       "source": "https://money.com/student-loans/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai-can-plan-a-trip-would-you-lend-it-your-credit-card-to-book-it-2025",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "AI Can Plan a Trip. Would You Lend It Your Credit Card to Book It?",
+      "cover": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2021/11/GettyImages-828488312.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/ai-can-plan-a-trip-would-you-lend-it-your-credit-card-to-book-it-2025/",
+      "excerpt": "How Credit Card Companies Are Using AI - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards Best 0% AP…",
+      "source": "https://www.nerdwallet.com/article/credit-cards/how-credit-card-companies-use-artificial-intelligence",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "6-federal-services-that-won-t-be-affected-by-the-government-shutdown-2",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "6 Federal Services That Won’t Be Affected by the Government Shutdown",
+      "cover": "https://img.money.com/2025/10/News-Government-Shutdown-Financial-Services.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/6-federal-services-that-won-t-be-affected-by-the-government-shutdown-2/",
+      "excerpt": "6 Federal Services Unaffected by the Government Shutdown | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Be…",
+      "source": "https://money.com/shutdown-services-continue/?xid=moneyrss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -709,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
+  "count": 62,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 59,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

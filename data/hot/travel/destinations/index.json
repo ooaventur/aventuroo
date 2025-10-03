@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-town-where-ghosts-never-check-out-and-tourists-are-checking-in-202",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Town Where Ghosts Never Check Out — and Tourists Are Checking In",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/rowhouses.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-town-where-ghosts-never-check-out-and-tourists-are-checking-in-202/",
+      "excerpt": "The Town Where Ghosts Never Check Out — and Tourists Are Checking In Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos A…",
+      "source": "https://matadornetwork.com/read/haunted-cape-may/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-most-mysterious-place-in-every-state-the-western-us-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -253,10 +265,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 21,
+  "count": 22,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 21,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

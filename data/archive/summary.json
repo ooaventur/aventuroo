@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3331,
+  "total_items": 3346,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,7 +173,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 522,
+      "items": 527,
       "pages": 44,
       "children": [
         {
@@ -193,8 +193,8 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 189,
-          "pages": 16,
+          "items": 194,
+          "pages": 17,
           "months": [
             {
               "year": 2025,
@@ -279,6 +279,18 @@
               "month": 8,
               "items": 18,
               "pages": 2
+            },
+            {
+              "year": 2024,
+              "month": 7,
+              "items": 3,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 6,
+              "items": 2,
+              "pages": 1
             }
           ]
         },
@@ -1248,8 +1260,8 @@
     },
     {
       "parent": "travel",
-      "items": 700,
-      "pages": 59,
+      "items": 710,
+      "pages": 60,
       "children": [
         {
           "child": "destinations",
@@ -1316,7 +1328,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 185,
+          "items": 190,
           "pages": 16,
           "months": [
             {
@@ -1466,7 +1478,13 @@
             {
               "year": 2023,
               "month": 9,
-              "items": 5,
+              "items": 6,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 8,
+              "items": 4,
               "pages": 1
             }
           ]
@@ -1592,7 +1610,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 198,
+          "items": 203,
           "pages": 17,
           "months": [
             {
@@ -1742,7 +1760,7 @@
             {
               "year": 2023,
               "month": 9,
-              "items": 3,
+              "items": 8,
               "pages": 1
             }
           ]

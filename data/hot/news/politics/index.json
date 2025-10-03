@@ -73,6 +73,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "nebraska-republicans-are-targeting-voter-approved-medical-marijuana-fo",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Nebraska Republicans are targeting voter-approved medical marijuana, following other GOP-led states",
+      "cover": "https://s.abcnews.com/images/US/wirestory_dd27ba6c4a6105c4422f80753cd489dd_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/nebraska-republicans-are-targeting-voter-approved-medical-marijuana-fo/",
+      "excerpt": "Nebraska Republicans are targeting voter-approved medical marijuana, following other GOP-led states - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Of…",
+      "source": "https://abcnews.go.com/Politics/wireStory/nebraska-republicans-targeting-voter-approved-medical-marijuana-gop-126165426",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mississippi-civil-rights-attorney-seeks-congressional-seat-held-by-gop",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Mississippi civil rights attorney seeks congressional seat held by GOP's Trent Kelly",
+      "cover": "https://s.abcnews.com/images/Politics/wirestory_2fbdbd3dc1e11fcf05f8041dedab4b7b_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/mississippi-civil-rights-attorney-seeks-congressional-seat-held-by-gop/",
+      "excerpt": "Mississippi civil rights attorney seeks congressional seat held by GOP's Trent Kelly - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on …",
+      "source": "https://abcnews.go.com/Politics/wireStory/mississippi-civil-rights-attorney-seeks-congressional-seat-held-126159359",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "michelle-mone-should-be-stripped-of-peerage-says-badenoch-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -1297,11 +1321,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 108,
+  "count": 110,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 108,
+    "total_items": 110,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

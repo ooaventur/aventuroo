@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "prime-day-hasn-t-started-but-these-deals-are-already-live-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Prime Day Hasn’t Started — But These Deals Are Already Live",
+      "cover": "https://www.refinery29.com/images/11936263.jpg?crop=2000%2C1051%2Cx0%2Cy890",
+      "canonical": "https://archive.aventuroo.com/lifestyle/prime-day-hasn-t-started-but-these-deals-are-already-live-2025-10-02/",
+      "excerpt": "26 Amazon Prime Day Early Deals To Shop Now Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together beaut…",
+      "source": "https://www.refinery29.com/en-us/2021/06/10521693/early-amazon-prime-day-deals?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "i-have-been-changed-for-good-thanks-to-r-e-m-beauty-s-new-wicked-drop",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "I Have Been Changed For Good, Thanks To r.e.m. Beauty’s New Wicked Drop",
+      "cover": "https://www.refinery29.com/images/11936073.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/i-have-been-changed-for-good-thanks-to-r-e-m-beauty-s-new-wicked-drop/",
+      "excerpt": "r.e.m. Beauty Wicked For Good Makeup Collection Review Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings tog…",
+      "source": "https://www.refinery29.com/en-us/rem-beauty-wicked-for-good-makeup-products?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "from-friends-to-lovers-10-women-on-the-time-they-turned-a-friendship-i",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -265,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
+  "count": 24,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 22,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }

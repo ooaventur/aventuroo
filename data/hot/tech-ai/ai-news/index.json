@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "ibm-released-new-granite-4-0-models-with-a-novel-hybrid-mamba-2-transf",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "IBM Released new Granite 4.0 Models with a Novel Hybrid Mamba-2/Transformer Architecture: Drastically Reducing Memory Use without Sacrificing Performance",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-1-1.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ibm-released-new-granite-4-0-models-with-a-novel-hybrid-mamba-2-transf/",
+      "excerpt": "IBM Released new Granite 4.0 Models with a Novel Hybrid Mamba-2/Transformer Architecture: Drastically Reducing Memory Use without Sacrificing Performance - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voic…",
+      "source": "https://www.marktechpost.com/2025/10/02/ibm-released-new-granite-4-0-models-with-a-novel-hybrid-mamba-2-transformer-architecture-drastically-reducing-memory-use-without-sacrificing-performance/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-role-of-model-context-protocol-mcp-in-generative-ai-security-and-r",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
+  "count": 26,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }

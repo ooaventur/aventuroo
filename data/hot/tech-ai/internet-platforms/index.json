@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-everyone-is-saying-about-sora-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "What everyone is saying about Sora",
+      "cover": "https://www.platformer.news/content/images/2025/10/Screenshot-2025-10-02-at-3.32.10---PM.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/what-everyone-is-saying-about-sora-2025-10-03/",
+      "excerpt": "What everyone is saying about Sora Home About Ethics Sign in Subscribe OpenAI What everyone is saying about Sora It's cool. It's scary. It's a hit Casey Newton Oct 2, 2025 — 10 min read My Sora feed on Thursday afternoon. This is a column about AI. My boyfriend works at Anthro…",
+      "source": "https://www.platformer.news/sora-2-reactions-openai/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-launches-a-social-network-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -25,10 +37,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 2,
-  "updated_at": "2025-10-01",
+  "count": 3,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 2,
+    "total_items": 3,
     "per_page": 12,
     "total_pages": 1
   }

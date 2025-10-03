@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-best-island-to-visit-in-hawaii-for-every-type-of-traveler-2025-10",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Best Island to Visit in Hawaii for Every Type of Traveler",
+      "cover": "https://media.cntraveler.com/photos/68dd65bd49646ee5225ee00d/master/pass/Oahu_peter-thomas-6x7d4FnHWZs-unsplash.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/the-best-island-to-visit-in-hawaii-for-every-type-of-traveler-2025-10/",
+      "excerpt": "The Best Island to Visit in Hawaii for Every Type of Traveler | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North America Chevr…",
+      "source": "https://www.cntraveler.com/story/best-island-to-visit-in-hawaii-for-every-type-of-traveler",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "are-national-parks-closed-during-the-government-shutdown-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Are National Parks Closed During the Government Shutdown?",
+      "cover": "https://media.cntraveler.com/photos/68decbbef39bc867bd4273c8/master/pass/GettyImages-1366785474-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/are-national-parks-closed-during-the-government-shutdown-2025-10-02/",
+      "excerpt": "Are National Parks Closed During the Government Shutdown? | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North America Chevron U…",
+      "source": "https://www.cntraveler.com/story/what-the-government-shutdown-means-for-national-parks",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "14-unwritten-rules-for-visiting-paris-from-etiquette-to-attitude-2025",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "14 Unwritten Rules for Visiting Paris, From Etiquette to Attitude",
+      "cover": "https://media.cntraveler.com/photos/68deb9b49246568280186ff5/master/pass/GettyImages-1815364539%20copy.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/14-unwritten-rules-for-visiting-paris-from-etiquette-to-attitude-2025/",
+      "excerpt": "14 Unwritten Rules for Visiting Paris, From Etiquette to Attitude | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Europe Chevron …",
+      "source": "https://www.cntraveler.com/story/unwritten-rules-to-know-before-traveling-to-paris",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-most-exciting-hotel-openings-of-fall-2025-2025-10-01",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -97,10 +133,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 8,
-  "updated_at": "2025-10-01",
+  "count": 11,
+  "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 8,
+    "total_items": 11,
     "per_page": 12,
     "total_pages": 1
   }

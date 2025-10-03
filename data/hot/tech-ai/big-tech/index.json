@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "openai-s-sora-2-is-putting-safety-and-censorship-to-the-test-with-stun",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "OpenAI's Sora 2 is putting safety and censorship to the test with stunningly real videos",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108207285-1759447450525-gettyimages-2238317673-Illustration_Sora_2.jpeg?v=1759447514&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/openai-s-sora-2-is-putting-safety-and-censorship-to-the-test-with-stun/",
+      "excerpt": "OpenAI's Sora 2 is putting safety and censorship to the test Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrial…",
+      "source": "https://www.cnbc.com/2025/10/02/openai-invite-code-sora-2-censorship.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-current-ai-models-won-t-make-scientific-breakthroughs-according-to",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -190,6 +202,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/microsoft-hikes-price-of-top-tier-xbox-game-pass-ultimate-by-10-2025-1/",
       "excerpt": "Microsoft hikes price of top-tier Xbox Game Pass Ultimate by $10 Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indust…",
       "source": "https://www.cnbc.com/2025/10/01/microsoft-price-hike-xbox-game-pass-ultimate.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meta-greenlights-facebook-instagram-ads-based-on-your-ai-chats-2025-10",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Meta greenlights Facebook, Instagram ads based on your AI chats",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108039162-17272877402024-09-25t180807z_254912789_rc2u7aaxwajp_rtrmadp_0_meta-platforms-virtual-reality.jpeg?v=1739984866&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/meta-greenlights-facebook-instagram-ads-based-on-your-ai-chats-2025-10/",
+      "excerpt": "Meta greenlights Facebook, Instagram ads based on your AI chats Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/10/01/meta-facebook-instagram-ads-ai-chat.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -625,10 +649,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 52,
-  "updated_at": "2025-10-02",
+  "count": 54,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 52,
+    "total_items": 54,
     "per_page": 12,
     "total_pages": 5
   }

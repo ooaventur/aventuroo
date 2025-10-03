@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "lentil-burgers-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Lentil Burgers",
+      "cover": "https://cookieandkate.com/images/2025/09/lentil-veggie-burgers-recipe.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/lentil-burgers-2025-10-02/",
+      "excerpt": "Lentil Burgers - Cookie and Kate Skip to content About Cookbook Subscribe Videos Saved Search All recipes View all Course Appetizers Baked goods Breakfast Dessert Dinner Drinks Salads Sauces Sides Snacks Soups Cuisine Asian French Indian Italian Mediterranean Mexican Diet Dair…",
+      "source": "https://cookieandkate.com/lentil-burgers/?adt_ei=*|EMAIL|*",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "flourless-double-chocolate-brownies-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/emmy-winning-television-writer-aisha-muharrar-reflects-on-finding-smal/",
       "excerpt": "Emmy-winning television writer Aisha Muharrar reflects on finding small pleasures following personal tragedy. | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants Mo…",
       "source": "https://www.bonappetit.com/story/fourth-trimester-brownie",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-knife-set-after-years-of-testing-knives-2025-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Best Knife Set After Years of Testing Knives (2025)",
+      "cover": "https://assets.bonappetit.com/photos/68ded0dfa427ceaf06878bfa/master/pass/10.02_BA_Best_knife_sets_lede_v3.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/best-knife-set-after-years-of-testing-knives-2025-2025-10-02/",
+      "excerpt": "Best Knife Set After Years of Testing Knives (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Shoppin…",
+      "source": "https://www.bonappetit.com/story/best-knife-sets",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -277,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 23,
+  "count": 25,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 23,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

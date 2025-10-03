@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "tintagel-dark-age-settlement-in-tintagel-england-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Tintagel Dark Age Settlement in Tintagel, England",
+      "cover": "https://img.atlasobscura.com/WRt0MQu-3_5Fad-FDZGlWYef9GMkXBHApOOnDllBr9o/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wNmI1/YWVkZi04NDg0LTRj/MWYtOGU2OS1kY2Q4/YmJmNjA3NmM1OThl/NjFmZmJiNWU2MmQw/MTBfSU1HXzIxODUu/anBlZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/tintagel-dark-age-settlement-in-tintagel-england-2025-10-02/",
+      "excerpt": "Tintagel Dark Age Settlement - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:…",
+      "source": "https://www.atlasobscura.com/places/tintagel-dark-age-settlement",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "shay-s-rebellion-last-battle-site-in-great-barrington-massachusetts-20",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -541,10 +553,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 45,
+  "count": 46,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 45,
+    "total_items": 46,
     "per_page": 12,
     "total_pages": 4
   }
