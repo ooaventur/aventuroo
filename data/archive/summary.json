@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3361,
+  "total_items": 3374,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,7 +173,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 532,
+      "items": 537,
       "pages": 45,
       "children": [
         {
@@ -193,7 +193,7 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 199,
+          "items": 204,
           "pages": 17,
           "months": [
             {
@@ -295,7 +295,13 @@
             {
               "year": 2024,
               "month": 5,
-              "items": 2,
+              "items": 4,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 4,
+              "items": 3,
               "pages": 1
             }
           ]
@@ -1266,8 +1272,8 @@
     },
     {
       "parent": "travel",
-      "items": 720,
-      "pages": 60,
+      "items": 728,
+      "pages": 61,
       "children": [
         {
           "child": "destinations",
@@ -1334,7 +1340,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 195,
+          "items": 200,
           "pages": 17,
           "months": [
             {
@@ -1492,6 +1498,12 @@
               "month": 8,
               "items": 9,
               "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "items": 5,
+              "pages": 1
             }
           ]
         },
@@ -1616,7 +1628,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 208,
+          "items": 211,
           "pages": 18,
           "months": [
             {
@@ -1773,6 +1785,12 @@
               "year": 2023,
               "month": 8,
               "items": 5,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 7,
+              "items": 3,
               "pages": 1
             }
           ]

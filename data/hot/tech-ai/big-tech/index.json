@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "u-s-model-upgrades-are-pushing-ai-startups-to-move-fast-it-s-unclear-i",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "U.S. model upgrades are pushing AI startups to move fast – it's unclear if Europe can keep up",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108166937-1751460466152-gettyimages-2210000239-TFSPI_16042025-6546.jpeg?v=1759472466&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/u-s-model-upgrades-are-pushing-ai-startups-to-move-fast-it-s-unclear-i/",
+      "excerpt": "OpenAI, Anthropic push AI startups to move fast – can Europe keep up Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/03/openai-anthropic-push-ai-startups-to-move-fast-can-europe-keep-up.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "silicon-valley-s-new-defense-tech-neoprimes-are-pulling-billions-in-fu",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/openai-s-sora-2-is-putting-safety-and-censorship-to-the-test-with-stun/",
       "excerpt": "OpenAI's Sora 2 is putting safety and censorship to the test Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrial…",
       "source": "https://www.cnbc.com/2025/10/02/openai-invite-code-sora-2-censorship.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "jeff-bezos-says-ai-is-in-an-industrial-bubble-but-society-to-get-gigan",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Jeff Bezos says AI is in an 'industrial bubble' but society to get 'gigantic' benefits from the tech",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108207384-1759486738896-Jeff_BEzos_Elkann.jpg?v=1759486969&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/jeff-bezos-says-ai-is-in-an-industrial-bubble-but-society-to-get-gigan/",
+      "excerpt": "Jeff Bezos: AI in an 'industrial bubble' but society to benefit Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/10/03/jeff-bezos-ai-in-an-industrial-bubble-but-society-to-benefit.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -661,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 55,
+  "count": 57,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 55,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

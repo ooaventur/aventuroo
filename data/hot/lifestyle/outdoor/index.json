@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "join-the-movement-this-winter-warren-miller-s-sno-ciety-is-coming-to-a",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Join the Movement this Winter. Warren Miller’s ‘SNO-CIETY’ Is Coming to a City Near You.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/09/dad-in-Alaska-4-2.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/join-the-movement-this-winter-warren-miller-s-sno-ciety-is-coming-to-a/",
+      "excerpt": "Warren Miller's SNO-CIETY Is Coming to a City Near You. Find a Show. Outside Online logo Culture > Books & Media Join the Movement this Winter. Warren Miller's 'SNO-CIETY' Is Coming to a City Near You. The World Premiere of Warren Miller's SNO-CIETY takes place in Salt Lake Ci…",
+      "source": "https://www.outsideonline.com/culture/books-media/warren-miller-sno-ciety-tour/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ultimate-storm-protection-seamless-integration-patagonia-powslayer-ski",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -1381,10 +1393,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 115,
-  "updated_at": "2025-10-02",
+  "count": 116,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 115,
+    "total_items": 116,
     "per_page": 12,
     "total_pages": 10
   }

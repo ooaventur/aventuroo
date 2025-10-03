@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "oracle-links-clop-extortion-attacks-to-july-2025-vulnerabilities-2025",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Oracle links Clop extortion attacks to July 2025 vulnerabilities",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/03/24/Oracle_logo.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/oracle-links-clop-extortion-attacks-to-july-2025-vulnerabilities-2025/",
+      "excerpt": "Oracle links Clop extortion attacks to July 2025 vulnerabilities News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach Git…",
+      "source": "https://www.bleepingcomputer.com/news/security/oracle-links-clop-extortion-attacks-to-july-security-flaws/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gmail-business-users-can-now-send-encrypted-emails-to-anyone-2025-10-0",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Gmail business users can now send encrypted emails to anyone",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/03/Gmail.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/gmail-business-users-can-now-send-encrypted-emails-to-anyone-2025-10-0/",
+      "excerpt": "Gmail business users can now send encrypted emails to anyone News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab …",
+      "source": "https://www.bleepingcomputer.com/news/google/gmail-business-users-can-now-send-encrypted-emails-to-anyone/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-service-desk-is-the-new-attack-vector-here-s-how-to-defend-it-202",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -949,10 +973,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 79,
+  "count": 81,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 79,
+    "total_items": 81,
     "per_page": 12,
     "total_pages": 7
   }
