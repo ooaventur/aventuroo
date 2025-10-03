@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "jewellers-explore-openings-after-uk-india-trade-deal-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Jewellers explore openings after UK-India trade deal",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F5c7fcab3-5733-41e2-8cb5-1e6523b924da.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900",
+      "canonical": "https://archive.aventuroo.com/news/economy/jewellers-explore-openings-after-uk-india-trade-deal-2025-10-03/",
+      "excerpt": "Jewellers explore openings after UK-India trade deal Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World S…",
+      "source": "https://www.ft.com/content/33199d0a-22e1-4985-8fab-8553bdfb1f51",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "india-moves-to-internationalise-rupee-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/india-moves-to-internationalise-rupee-2025-10-03/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/f2a242a9-3cc3-451c-8b53-589926991c2c",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-s-visa-scheme-for-global-tech-workers-draws-backlash-at-home-202",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "China’s visa scheme for global tech workers draws backlash at home",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2add4c93-4b0b-468c-bf6a-8ed24ae47c82.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/china-s-visa-scheme-for-global-tech-workers-draws-backlash-at-home-202/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/01a0029c-9f7c-4b31-a120-d1652f198448",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1333,10 +1357,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 111,
+  "count": 113,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 111,
+    "total_items": 113,
     "per_page": 12,
     "total_pages": 10
   }

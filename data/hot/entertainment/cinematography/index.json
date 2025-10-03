@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "this-new-lineup-of-tripods-could-bring-balance-to-the-camera-stability",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "This New Lineup of Tripods Could Bring Balance to the Camera Stability Market",
+      "cover": "https://nofilmschool.com/media-library/libec-lx-tripod-system-series.jpg?id=61692013&width=1600",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/this-new-lineup-of-tripods-could-bring-balance-to-the-camera-stability/",
+      "excerpt": "This New Lineup of Tripods Could Bring Balance to the Camera Stability Market | No Film School Sections Podcast Newsletter Gear guides About Contact Advertise Community Guidelines Terms Privacy DMCA Takedown Notice No Film School AI Screenwriting \\e607 Directing \\e606 Cinemato…",
+      "source": "https://nofilmschool.com/libec-lx-tripod-system-series",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-legendary-line-that-made-braveheart-a-symbol-of-resistance-2025-10",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/cinematography/the-legendary-line-that-made-braveheart-a-symbol-of-resistance-2025-10/",
       "excerpt": "The Legendary Line That Made 'Braveheart' a Symbol of Resistance | No Film School Sections Podcast Newsletter Gear guides About Contact Advertise Community Guidelines Terms Privacy DMCA Takedown Notice No Film School AI Screenwriting \\e607 Directing \\e606 Cinematography & Came…",
       "source": "https://nofilmschool.com/braveheart-theyll-never-take-our-freedom",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-large-format-revolution-continues-with-more-full-frame-cinema-prim",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Large Format Revolution Continues With More Full-Frame Cinema Primes On the Way",
+      "cover": "https://nofilmschool.com/media-library/lensworks-x65-ultra-large-format-spherical-primes.webp?id=61691946&width=1600",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/the-large-format-revolution-continues-with-more-full-frame-cinema-prim/",
+      "excerpt": "The Large Format Revolution Continues With More Full-Frame Cinema Primes On the Way | No Film School Sections Podcast Newsletter Gear guides About Contact Advertise Community Guidelines Terms Privacy DMCA Takedown Notice No Film School AI Screenwriting \\e607 Directing \\e606 Ci…",
+      "source": "https://nofilmschool.com/lensworks-x65-ultra-large-format-spherical-primes",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -394,6 +418,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/cinematography/openai-s-sora-2-brings-realistic-physics-audio-and-continuity-to-ai-vi/",
       "excerpt": "OpenAI’s Sora 2 Brings Realistic Physics, Audio, and Continuity to AI Videos, Launches App | CineD Advertisement Podcast: DJI Osmo Nano & Oren Soffer Shooting GFX ETERNA 55 – Focus Check Episode 83 - TUNE IN now! NEW PODCAST EPISODE: DJI Osmo Nano | Oren Soffer Shooting GFX ET…",
       "source": "https://www.cined.com/openais-sora-2-brings-realistic-physics-audio-and-continuity-to-ai-videos-launches-app/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-s-new-sora-2-generative-ai-model-is-here-to-absolutely-wreck-yo",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "OpenAI’s New Sora 2 Generative AI Model is Here to Absolutely Wreck Your Day",
+      "cover": "https://nofilmschool.com/media-library/openai-sora-2.png?id=61686368&width=1600",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/openai-s-new-sora-2-generative-ai-model-is-here-to-absolutely-wreck-yo/",
+      "excerpt": "OpenAI’s New Sora 2 Generative AI Model is Here to Absolutely Wreck Your Day | No Film School Sections Podcast Newsletter Gear guides About Contact Advertise Community Guidelines Terms Privacy DMCA Takedown Notice No Film School AI Screenwriting \\e607 Directing \\e606 Cinematog…",
+      "source": "https://nofilmschool.com/openai-sora-2",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1789,10 +1825,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 149,
+  "count": 152,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 149,
+    "total_items": 152,
     "per_page": 12,
     "total_pages": 13
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "a-fireball-spinoff-a-prolific-class-actioneer-and-the-fate-of-beer-s-c",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "A Fireball Spinoff, a Prolific Class-Actioneer, and the Fate of Beer’s C-Store Dominance",
+      "cover": "https://vinepair.com/wp-content/uploads/2025/09/hoptake-fireball-social.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/a-fireball-spinoff-a-prolific-class-actioneer-and-the-fate-of-beer-s-c/",
+      "excerpt": "A Fireball Spinoff, a Prolific Class-Actioneer, and the Fate of Beer’s C-Store Dominance | VinePair VinePair - Drinking Is Culture Articles Beer Cheese Coffee Spirits Wine Booze News Columns Ask Adam Buy This Booze Free Pour Good Wines You Can Actually Find Hop Take Need To Kn…",
+      "source": "https://vinepair.com/articles/hop-take-big-liquor-malt-based-invasion-of-beer-aisle/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "workforce-cut-cognac-business-for-sale-as-uncle-nearest-navigates-rece",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -1297,11 +1309,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 108,
-  "updated_at": "2025-10-02",
+  "count": 109,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 108,
+    "total_items": 109,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

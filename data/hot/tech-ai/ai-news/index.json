@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "thinking-machines-launches-tinker-a-low-level-training-api-that-abstra",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Thinking Machines Launches Tinker: A Low-Level Training API that Abstracts Distributed LLM Fine-Tuning without Hiding the Knobs",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-6.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/thinking-machines-launches-tinker-a-low-level-training-api-that-abstra/",
+      "excerpt": "Thinking Machines Launches Tinker: A Low-Level Training API that Abstracts Distributed LLM Fine-Tuning without Hiding the Knobs - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search Ne…",
+      "source": "https://www.marktechpost.com/2025/10/02/thinking-machines-launches-tinker-a-low-level-training-api-that-abstracts-distributed-llm-fine-tuning-without-hiding-the-knobs/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "neuphonic-open-sources-neutts-air-a-748m-parameter-on-device-speech-la",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Neuphonic Open-Sources NeuTTS Air: A 748M-Parameter On-Device Speech Language Model with Instant Voice Cloning",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-7.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/neuphonic-open-sources-neutts-air-a-748m-parameter-on-device-speech-la/",
+      "excerpt": "Neuphonic Open-Sources NeuTTS Air: A 748M-Parameter On-Device Speech Language Model with Instant Voice Cloning - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub P…",
+      "source": "https://www.marktechpost.com/2025/10/02/neuphonic-open-sources-neutts-air-a-748m-parameter-on-device-speech-language-model-with-instant-voice-cloning/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-build-an-advanced-voice-ai-pipeline-with-whisperx-for-transcrip",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "How to Build an Advanced Voice AI Pipeline with WhisperX for Transcription, Alignment, Analysis, and Export?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-5.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-build-an-advanced-voice-ai-pipeline-with-whisperx-for-transcrip/",
+      "excerpt": "How to Build an Advanced Voice AI Pipeline with WhisperX for Transcription, Alignment, Analysis, and Export? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Pre…",
+      "source": "https://www.marktechpost.com/2025/10/02/how-to-build-an-advanced-voice-ai-pipeline-with-whisperx-for-transcription-alignment-analysis-and-export/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimod",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -313,10 +349,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
-  "updated_at": "2025-10-02",
+  "count": 29,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 26,
+    "total_items": 29,
     "per_page": 12,
     "total_pages": 3
   }

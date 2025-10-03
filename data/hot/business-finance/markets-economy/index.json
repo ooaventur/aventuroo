@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "there-s-value-in-value-stocks-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "There’s value in value stocks",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2c87ca9a-fc58-4883-93dd-697e59368f8f.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/there-s-value-in-value-stocks-2025-10-03/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/8409f810-5312-4ab5-8da7-ed8010be92f7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "moser-lures-fresh-audience-in-metaverse-match-up-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Moser lures fresh audience in metaverse match-up",
+      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Ffbd7fa0a-cee7-4559-9326-68c7ce8bc600.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&amp;fit=scale-down&amp;width=900",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/moser-lures-fresh-audience-in-metaverse-match-up-2025-10-03/",
+      "excerpt": "Moser lures fresh audience in metaverse match-up Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Secti…",
+      "source": "https://www.ft.com/content/fbc7f2c5-4e24-4727-97a8-b680b00a35e8",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gulf-states-rush-to-load-up-on-foreign-debt-at-lowest-premiums-on-reco",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Gulf states rush to load up on foreign debt at lowest premiums on record",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F33121f91-a9d5-4dd3-aea8-c608c1cae0b7.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/gulf-states-rush-to-load-up-on-foreign-debt-at-lowest-premiums-on-reco/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/c8edd080-d051-4c48-83d2-f09c2a0ea0de",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "deutsche-bank-needs-germany-s-fiscal-bazooka-to-have-perfect-aim-2025",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Deutsche Bank needs Germany’s fiscal bazooka to have perfect aim",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F14617fdd-6921-42aa-9111-2b09ca39d656.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/deutsche-bank-needs-germany-s-fiscal-bazooka-to-have-perfect-aim-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/982d58a1-1b6d-4149-b1dc-0cc7924c7223",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "china-asks-s-p-s-mainland-ratings-group-to-rectify-operations-2025-10",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -481,10 +529,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-10-02",
+  "count": 44,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 40,
+    "total_items": 44,
     "per_page": 12,
     "total_pages": 4
   }

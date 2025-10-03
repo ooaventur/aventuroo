@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "silicon-valley-s-new-defense-tech-neoprimes-are-pulling-billions-in-fu",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Silicon Valley’s new defense tech ‘neoprimes’ are pulling billions in funding to challenge legacy giants",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108203096-1758680752113-gettyimages-1273601403-_r0a0074.jpeg?v=1758680796&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/silicon-valley-s-new-defense-tech-neoprimes-are-pulling-billions-in-fu/",
+      "excerpt": "Silicon Valley’s defense tech startups are booming as war shifts Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indust…",
+      "source": "https://www.cnbc.com/2025/10/03/silicon-valley-defense-tech-startups-war-lockheed-boeing-raytheon-anduril-palantir-mva-milvet.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-s-sora-2-is-putting-safety-and-censorship-to-the-test-with-stun",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -649,10 +661,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 55,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 54,
+    "total_items": 55,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,11 +1,11 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 5478,
+  "total_items": 5515,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 389,
+      "items": 393,
       "pages": 33,
       "children": [
         {
@@ -23,7 +23,7 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 40,
+          "items": 44,
           "pages": 4
         },
         {
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 344,
+      "items": 348,
       "pages": 29,
       "children": [
         {
@@ -97,26 +97,26 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 65,
+          "items": 67,
           "pages": 6
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 51,
+          "items": 53,
           "pages": 5
         }
       ]
     },
     {
       "parent": "entertainment",
-      "items": 932,
-      "pages": 78,
+      "items": 942,
+      "pages": 79,
       "children": [
         {
           "child": "cinematography",
           "slug": "entertainment/cinematography",
-          "items": 149,
+          "items": 152,
           "pages": 13
         },
         {
@@ -140,27 +140,27 @@
         {
           "child": "trailers-latest",
           "slug": "entertainment/trailers-latest",
-          "items": 127,
+          "items": 132,
           "pages": 11
         },
         {
           "child": "tv-streaming",
           "slug": "entertainment/tv-streaming",
-          "items": 156,
-          "pages": 13
+          "items": 158,
+          "pages": 14
         }
       ]
     },
     {
       "parent": "food-drink",
-      "items": 260,
-      "pages": 22,
+      "items": 266,
+      "pages": 23,
       "children": [
         {
           "child": "drink",
           "slug": "food-drink/drink",
-          "items": 108,
-          "pages": 9
+          "items": 109,
+          "pages": 10
         },
         {
           "child": "food",
@@ -171,7 +171,7 @@
         {
           "child": "general",
           "slug": "food-drink/general",
-          "items": 125,
+          "items": 130,
           "pages": 11
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 651,
+      "items": 655,
       "pages": 55,
       "children": [
         {
@@ -202,14 +202,14 @@
         {
           "child": "home-design",
           "slug": "lifestyle/home-design",
-          "items": 202,
-          "pages": 17
+          "items": 205,
+          "pages": 18
         },
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 24,
-          "pages": 2
+          "items": 25,
+          "pages": 3
         },
         {
           "child": "inspiration",
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 701,
+      "items": 704,
       "pages": 59,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 111,
+          "items": 113,
           "pages": 10
         },
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 110,
+          "items": 111,
           "pages": 10
         },
         {
@@ -307,25 +307,25 @@
     },
     {
       "parent": "tech-ai",
-      "items": 774,
+      "items": 780,
       "pages": 65,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 26,
+          "items": 29,
           "pages": 3
         },
         {
           "child": "audio-creator",
           "slug": "tech-ai/audio-creator",
-          "items": 132,
-          "pages": 11
+          "items": 134,
+          "pages": 12
         },
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 54,
+          "items": 55,
           "pages": 5
         },
         {

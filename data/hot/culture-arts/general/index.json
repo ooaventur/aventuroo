@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "required-reading-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Required Reading",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/rome-colosseum-gaza-strike.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/required-reading-2025-10-02/",
+      "excerpt": "Required Reading Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Membership Donate About Us Clo…",
+      "source": "https://hyperallergic.com/1046519/required-reading-753/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "outgoing-moma-director-glenn-lowry-to-advise-saudi-backed-biennial-202",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -94,6 +106,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/ann-craven-s-moonlit-meditations-2025-10-02/",
       "excerpt": "Ann Craven’s Moonlit Meditations Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Membership Don…",
       "source": "https://hyperallergic.com/1046532/ann-craven-moonlit-meditations-farnsworth-art-museum/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-view-from-the-easel-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "A View From the Easel",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/Image-5-Long-Island-Brandon-Hendrick-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-view-from-the-easel-2025-10-02/",
+      "excerpt": "A View From the Easel Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Membership Donate About U…",
+      "source": "https://hyperallergic.com/1046390/a-view-from-the-easel-305/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -781,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 65,
+  "count": 67,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 65,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }

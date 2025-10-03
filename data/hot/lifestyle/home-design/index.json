@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "triennale-milano-completes-renovation-that-enhances-giovanni-muzio-s-o",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Triennale Milano completes renovation that \"enhances Giovanni Muzio's original 1933 design\"",
+      "cover": "https://static.dezeen.com/uploads/2025/10/cucina-triennale-sq.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/home-design/triennale-milano-completes-renovation-that-enhances-giovanni-muzio-s-o/",
+      "excerpt": "Triennale Milano renovation \"enhances Giovanni Muzio's original design\" m_auth=HVP1CTQmin1RLkLPfBngAg>m_preview=env-1>m_cookies_win=x\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"> Magazine Awards Jobs Events Guide Showroom School Shows Courses Competitions Foll…",
+      "source": "https://www.dezeen.com/2025/10/03/triennale-milano-renovation-luca-cipelletti/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wooj-goes-cordless-with-portable-lamps-for-life-on-the-go-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -358,6 +370,30 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/home-design/a-palm-springs-residence-is-redesigned-with-art-at-its-core-2025-10-02/",
       "excerpt": "A Palm Springs Residence Is Redesigned With Art at Its Core Read Design Milk Topics Architecture Art Commercial Home Furnishings Interior Design Lifestyle Pets Style + Fashion Tech Travel Columns Designer Desktops Destination Design Fresh Milk Friday Five Get Out! Skim Milk Ta…",
       "source": "https://design-milk.com/a-palm-springs-residence-is-redesigned-with-art-at-its-core/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "8-best-quilts-and-coverlets-tested-by-ad-editors-2025-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "8 Best Quilts and Coverlets, Tested by AD Editors (2025)",
+      "cover": "https://media.architecturaldigest.com/photos/67c8667813ef41f717074a7b/master/pass/ADSleepWeek25_quiltscoverlets_horizontal%20copy.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/home-design/8-best-quilts-and-coverlets-tested-by-ad-editors-2025-2025-10-02/",
+      "excerpt": "8 Best Quilts and Coverlets, Tested by AD Editors (2025) | Architectural Digest Skip to main content AD PRO DIRECTORY APPLY NOW DIRECTORY ARCHITECTURE + DESIGN SHOPPING CELEBRITY AD IT YOURSELF AD PRO Menu Menu Search Menu Menu Decor Under $300 The Newest Arrivals Amy Astley’s…",
+      "source": "https://www.architecturaldigest.com/story/best-quilts-and-coverlets-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "8-best-area-rugs-for-living-rooms-and-lofts-2025-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "8 Best Area Rugs for Living Rooms and Lofts (2025)",
+      "cover": "https://media.architecturaldigest.com/photos/6740ffcbe06ebed16937dfea/master/pass/AreaRugs_header.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/home-design/8-best-area-rugs-for-living-rooms-and-lofts-2025-2025-10-02/",
+      "excerpt": "8 Best Area Rugs for Living Rooms and Lofts (2025) | Architectural Digest Skip to main content AD PRO DIRECTORY APPLY NOW DIRECTORY ARCHITECTURE + DESIGN SHOPPING CELEBRITY AD IT YOURSELF AD PRO Menu Menu Search Menu Menu Decor Under $300 The Newest Arrivals Amy Astley’s Picks…",
+      "source": "https://www.architecturaldigest.com/story/best-area-rugs",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2425,11 +2461,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 202,
-  "updated_at": "2025-10-02",
+  "count": 205,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 202,
+    "total_items": 205,
     "per_page": 12,
-    "total_pages": 17
+    "total_pages": 18
   }
 }

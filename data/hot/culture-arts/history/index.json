@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "dimitrios-itsios-the-greek-world-war-ii-hero-who-almost-single-handedl",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Dimitrios Itsios, The Greek World War II Hero Who Almost Single-Handedly Killed 232 Nazis",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/dimitrios-itsios.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/dimitrios-itsios-the-greek-world-war-ii-hero-who-almost-single-handedl/",
+      "excerpt": "Dimitrios Itsios, The Greek War Hero Who Killed 200 Nazis All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Dimitrios Itsios, The Greek World War II Hero Who Almost Single-Handedly Killed 232 N…",
+      "source": "https://allthatsinteresting.com/dimitrios-itsios",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-overshadowed-ancient-empire-that-rivalled-rome-with-maritime-might",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -82,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-boston-are-uncovering-the-neighborhood-that-was-dest/",
       "excerpt": "Archaeologists Uncover Area Burned During Battle Of Bunker Hill All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Boston Are Uncovering The Neighborhood That Was Destroyed Dur…",
       "source": "https://allthatsinteresting.com/boston-bunker-hill-archaeological-excavation",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "alert-canada-the-tiny-canadian-outpost-that-s-considered-the-northernm",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Alert, Canada: The Tiny Canadian Outpost That’s Considered The Northernmost Human Settlement On Earth",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/hms-alert-1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/alert-canada-the-tiny-canadian-outpost-that-s-considered-the-northernm/",
+      "excerpt": "Inside Alert, Canada: The World's Northernmost Settlement All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Alert, Canada: The Tiny Canadian Outpost That’s Considered The Northernmost Human Set…",
+      "source": "https://allthatsinteresting.com/alert-canada",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -613,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 51,
-  "updated_at": "2025-10-02",
+  "count": 53,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 51,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

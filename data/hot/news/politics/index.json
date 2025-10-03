@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "new-mexico-legislature-approves-bills-to-prop-up-rural-health-care-202",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "New Mexico Legislature approves bills to prop up rural health care",
+      "cover": "https://s.abcnews.com/images/US/wirestory_163f62bff8bf2efe4cc5323b0f5424af_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/new-mexico-legislature-approves-bills-to-prop-up-rural-health-care-202/",
+      "excerpt": "New Mexico Legislature approves bills to prop up rural health care - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on New Mexico Legisla…",
+      "source": "https://abcnews.go.com/Politics/wireStory/new-mexico-legislature-approves-bills-prop-rural-health-126166522",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "two-child-benefit-cap-has-been-devastating-phillipson-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -1321,10 +1333,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 110,
-  "updated_at": "2025-10-02",
+  "count": 111,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 110,
+    "total_items": 111,
     "per_page": 12,
     "total_pages": 10
   }

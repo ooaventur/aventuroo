@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "trump-floated-a-seriously-disturbing-plan-for-u-s-cities-experts-say-i",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Trump Floated A Seriously Disturbing Plan For U.S. Cities. Experts Say It's 'Very Concerning.'",
+      "cover": "https://img.huffingtonpost.com/asset/68de9757180000d75f5d0eae.jpeg?cache=gG1ehPPnsc&amp;ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/trump-floated-a-seriously-disturbing-plan-for-u-s-cities-experts-say-i/",
+      "excerpt": "Experts Sound Off After Trump's 'Training Grounds' Remark To Military | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media…",
+      "source": "https://www.huffpost.com/entry/donald-trump-us-cities-dangerous-experts_n_68de8f3be4b028d81f309e8f",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "prime-day-hasn-t-started-but-these-deals-are-already-live-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -289,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 24,
+  "count": 25,
   "updated_at": "2025-10-02",
   "pagination": {
-    "total_items": 24,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

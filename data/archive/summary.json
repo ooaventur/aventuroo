@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3346,
+  "total_items": 3361,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,8 +173,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 527,
-      "pages": 44,
+      "items": 532,
+      "pages": 45,
       "children": [
         {
           "child": "arts",
@@ -193,7 +193,7 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 194,
+          "items": 199,
           "pages": 17,
           "months": [
             {
@@ -289,6 +289,12 @@
             {
               "year": 2024,
               "month": 6,
+              "items": 5,
+              "pages": 1
+            },
+            {
+              "year": 2024,
+              "month": 5,
               "items": 2,
               "pages": 1
             }
@@ -1260,7 +1266,7 @@
     },
     {
       "parent": "travel",
-      "items": 710,
+      "items": 720,
       "pages": 60,
       "children": [
         {
@@ -1328,8 +1334,8 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 190,
-          "pages": 16,
+          "items": 195,
+          "pages": 17,
           "months": [
             {
               "year": 2025,
@@ -1484,7 +1490,7 @@
             {
               "year": 2023,
               "month": 8,
-              "items": 4,
+              "items": 9,
               "pages": 1
             }
           ]
@@ -1610,8 +1616,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 203,
-          "pages": 17,
+          "items": 208,
+          "pages": 18,
           "months": [
             {
               "year": 2025,
@@ -1761,6 +1767,12 @@
               "year": 2023,
               "month": 9,
               "items": 8,
+              "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 8,
+              "items": 5,
               "pages": 1
             }
           ]
