@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "let-s-get-things-done-together-like-the-builders-of-stonehenge-did-202",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Let’s get things done together, like the builders of Stonehenge did",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/History-Extra-Substack-Stone-Circles-Kate-Hazell-AW-6fc982e.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/let-s-get-things-done-together-like-the-builders-of-stonehenge-did-202/",
+      "excerpt": "Let’s get things done together, like the builders of Stonehenge did | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medi…",
+      "source": "https://www.historyextra.com/membership/lets-get-things-done-together-like-the-builders-of-stonehenge-did/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "history-s-smallest-billionaire-meet-the-tiny-titan-who-was-briefly-the",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "History’s smallest billionaire? Meet the tiny titan who was, briefly, the richest man alive",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/andrew-carnegie-small-billionaire-9b2cf09.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/history-s-smallest-billionaire-meet-the-tiny-titan-who-was-briefly-the/",
+      "excerpt": "History’s smallest billionaire? Meet the tiny titan who was, briefly, the richest man alive | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman…",
+      "source": "https://www.historyextra.com/period/victorian/smallest-billionaire-briefly-the-richest-man-alive-andrew-carnegie/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "dimitrios-itsios-the-greek-world-war-ii-hero-who-almost-single-handedl",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -649,10 +673,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 56,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 54,
+    "total_items": 56,
     "per_page": 12,
     "total_pages": 5
   }

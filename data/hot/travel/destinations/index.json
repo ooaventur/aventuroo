@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-best-venice-hotels-with-canal-views-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "The best Venice hotels with canal views",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/june/sina-palazzo-sant-angelo-venice-view.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-venice-hotels-with-canal-views-2025-10-03/",
+      "excerpt": "The best Venice hotels with canal views | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log …",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/veneto/venice/articles/best-venice-hotels-with-canal-views/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "17-airbnbs-in-london-s-trendiest-neighborhoods-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "17 Airbnbs in London’s Trendiest Neighborhoods",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2021/12/Airbnb-London-Clapham.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/17-airbnbs-in-london-s-trendiest-neighborhoods-2025-10-03/",
+      "excerpt": "The 17 Best London Airbnbs for 2025 Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Dallas-Fort Worth De…",
+      "source": "https://matadornetwork.com/read/airbnb-london/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "13-rome-airbnbs-with-a-gorgeous-view-of-the-colosseum-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "13 Rome Airbnbs With a Gorgeous View of the Colosseum",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2022/09/47luxury-colosseum-airbnb.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/13-rome-airbnbs-with-a-gorgeous-view-of-the-colosseum-2025-10-03/",
+      "excerpt": "13 Rome Airbnbs With a Gorgeous View of the Colosseum Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chicago Da…",
+      "source": "https://matadornetwork.com/read/rome-airbnbs-near-colosseum/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-town-where-ghosts-never-check-out-and-tourists-are-checking-in-202",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -265,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-10-02",
+  "count": 25,
+  "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 22,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

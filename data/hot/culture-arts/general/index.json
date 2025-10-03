@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "taylor-swift-s-new-album-the-life-of-a-showgirl-reviewed-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Taylor Swift’s New Album, “The Life of a Showgirl,” Reviewed",
+      "cover": "https://media.newyorker.com/photos/68e00a1f98d4ba56f45558f3/master/pass/r47610.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/taylor-swift-s-new-album-the-life-of-a-showgirl-reviewed-2025-10-03/",
+      "excerpt": "Taylor Swift’s New Album, “The Life of a Showgirl,” Reviewed | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigatio…",
+      "source": "https://www.newyorker.com/magazine/2025/10/13/why-does-taylor-swift-think-shes-cursed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "man-ray-s-deadpan-wit-on-display-at-the-met-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/man-ray-s-deadpan-wit-on-display-at-the-met-2025-10-03/",
       "excerpt": "Man Ray’s Deadpan Wit on Display at the Met | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Going…",
       "source": "https://www.newyorker.com/culture/goings-on/man-rays-deadpan-wit-on-display-at-the-met",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "delaware-art-museum-presents-imprinted-illustrating-race-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Delaware Art Museum Presents Imprinted: Illustrating Race",
+      "cover": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/John-Coltrane_Spirit-Flight_R-Gutierrez.jpg?fit=2400%2C1619&quality=90&ssl=1",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/delaware-art-museum-presents-imprinted-illustrating-race-2025-10-03/",
+      "excerpt": "Delaware Art Museum Presents “Imprinted: Illustrating Race” Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedI…",
+      "source": "https://hyperallergic.com/1045912/delaware-art-museum-imprinted-illustrating-race/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -46,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/trump-fires-majority-of-federal-humanities-council-2025-10-02/",
       "excerpt": "Trump Fires Majority of Federal Humanities Council Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My acco…",
       "source": "https://hyperallergic.com/1046341/trump-fires-majority-of-federal-humanities-council/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-unexpected-sweetness-of-bill-and-ted-s-waiting-for-godot-2025-10-2",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "The Unexpected Sweetness of Bill and Ted’s “Waiting for Godot”",
+      "cover": "https://media.newyorker.com/photos/68dd700cf9bb9f974bc61748/master/pass/r47560.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-unexpected-sweetness-of-bill-and-ted-s-waiting-for-godot-2025-10-2/",
+      "excerpt": "The Unexpected Sweetness of Bill and Ted’s “Waiting for Godot” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigat…",
+      "source": "https://www.newyorker.com/culture/the-theatre/the-unexpected-sweetness-of-bill-and-teds-waiting-for-godot",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -829,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 69,
+  "count": 72,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 69,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }

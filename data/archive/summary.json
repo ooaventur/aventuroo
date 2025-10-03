@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3374,
+  "total_items": 3388,
   "parents": [
     {
       "parent": "business-finance",
@@ -173,8 +173,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 537,
-      "pages": 45,
+      "items": 542,
+      "pages": 46,
       "children": [
         {
           "child": "arts",
@@ -193,8 +193,8 @@
         {
           "child": "columns-essays",
           "slug": "culture-arts/columns-essays",
-          "items": 204,
-          "pages": 17,
+          "items": 209,
+          "pages": 18,
           "months": [
             {
               "year": 2025,
@@ -301,7 +301,7 @@
             {
               "year": 2024,
               "month": 4,
-              "items": 3,
+              "items": 8,
               "pages": 1
             }
           ]
@@ -1272,8 +1272,8 @@
     },
     {
       "parent": "travel",
-      "items": 728,
-      "pages": 61,
+      "items": 737,
+      "pages": 62,
       "children": [
         {
           "child": "destinations",
@@ -1340,8 +1340,8 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 200,
-          "pages": 17,
+          "items": 205,
+          "pages": 18,
           "months": [
             {
               "year": 2025,
@@ -1504,6 +1504,12 @@
               "month": 7,
               "items": 5,
               "pages": 1
+            },
+            {
+              "year": 2023,
+              "month": 6,
+              "items": 5,
+              "pages": 1
             }
           ]
         },
@@ -1628,7 +1634,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 211,
+          "items": 215,
           "pages": 18,
           "months": [
             {
@@ -1790,7 +1796,7 @@
             {
               "year": 2023,
               "month": 7,
-              "items": 3,
+              "items": 7,
               "pages": 1
             }
           ]
