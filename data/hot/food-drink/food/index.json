@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "12-early-prime-day-deals-on-espresso-machines-from-breville-de-longhi",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "12 Early Prime Day Deals on Espresso Machines from Breville, De’Longhi and Nespresso, Up to 40% Off",
+      "cover": "https://assets.bonappetit.com/photos/68653f704aba479f62f538d3/master/pass/BA%20Webart%20Best%20Healthy%20Snaks_2000x1125%20Espresso.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/12-early-prime-day-deals-on-espresso-machines-from-breville-de-longhi/",
+      "excerpt": "12 Early Prime Day Deals on Espresso Machines from Breville, De’Longhi and Nespresso, Up to 40% Off | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron…",
+      "source": "https://www.bonappetit.com/story/amazon-prime-day-espresso-maker-deals-2025-10-04",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "starbucks-launched-protein-cold-foam-we-tried-every-flavor-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -349,10 +361,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 29,
-  "updated_at": "2025-10-03",
+  "count": 30,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 29,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

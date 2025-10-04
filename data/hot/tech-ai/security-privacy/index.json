@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "openai-wants-chatgpt-to-be-your-emotional-support-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "OpenAI wants ChatGPT to be your emotional support",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/openai-wants-chatgpt-to-be-your-emotional-support-2025-10-04/",
+      "excerpt": "OpenAI wants ChatGPT to be your emotional support News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab instance Ne…",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-be-your-emotional-support/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-prepares-4-chatgpt-go-for-several-new-countries-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "OpenAI prepares $4 ChatGPT Go for several new countries",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/03/28/OpenAI.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/openai-prepares-4-chatgpt-go-for-several-new-countries-2025-10-04/",
+      "excerpt": "OpenAI prepares $4 ChatGPT Go for several new countries News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab insta…",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-4-chatgpt-go-for-several-new-countries/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "massive-surge-in-scans-targeting-palo-alto-networks-login-portals-2025",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Massive surge in scans targeting Palo Alto Networks login portals",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/10/09/Palo-Alto-Networks.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/massive-surge-in-scans-targeting-palo-alto-networks-login-portals-2025/",
+      "excerpt": "Massive surge in scans targeting Palo Alto Networks login portals News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach Gi…",
+      "source": "https://www.bleepingcomputer.com/news/security/massive-surge-in-scans-targeting-palo-alto-networks-login-portals/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hackers-steal-identifiable-discord-user-data-in-third-party-breach-202",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -1141,11 +1177,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 95,
+  "count": 98,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 95,
+    "total_items": 98,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

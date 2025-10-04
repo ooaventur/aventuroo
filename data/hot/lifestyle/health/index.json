@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-chaos-enzyme-may-hold-the-key-to-stopping-cancer-spread-2025-10-0",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "This “chaos enzyme” may hold the key to stopping cancer spread",
+      "cover": "https://www.sciencedaily.com/images/1920/restoring-order-to-dividing-cancer-cells-may-prevent-metastasis.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/this-chaos-enzyme-may-hold-the-key-to-stopping-cancer-spread-2025-10-0/",
+      "excerpt": "This “chaos enzyme” may hold the key to stopping cancer spread | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organi…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092858.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-vitamin-d-mistake-weakening-your-immunity-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "The vitamin D mistake weakening your immunity",
+      "cover": "https://www.sciencedaily.com/images/1920/vitamin-d-blocks.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/the-vitamin-d-mistake-weakening-your-immunity-2025-10-04/",
+      "excerpt": "The vitamin D mistake weakening your immunity | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations The vitam…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092911.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "surprising-study-reveals-what-really-kills-fatty-liver-disease-patient",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -445,10 +469,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
+  "count": 39,
   "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 37,
+    "total_items": 39,
     "per_page": 12,
     "total_pages": 4
   }

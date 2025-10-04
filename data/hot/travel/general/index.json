@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-fall-is-the-best-time-to-visit-cape-may-on-the-jersey-shore-2025-1",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Why Fall Is the Best Time to Visit Cape May on the Jersey Shore",
+      "cover": "https://media.cntraveler.com/photos/68e03b59a2b3a2b5310f9cbf/master/pass/GettyImages-694739440%20copy%202.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/why-fall-is-the-best-time-to-visit-cape-may-on-the-jersey-shore-2025-1/",
+      "excerpt": "Why Fall Is the Best Time to Visit Cape May on the Jersey Shore | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video North America Che…",
+      "source": "https://www.cntraveler.com/story/why-fall-is-the-best-time-to-visit-cape-may-on-the-jersey-shore",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-to-know-about-the-eu-s-new-biometric-entry-and-exit-system-2025-1",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -493,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 41,
-  "updated_at": "2025-10-03",
+  "count": 42,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 41,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }

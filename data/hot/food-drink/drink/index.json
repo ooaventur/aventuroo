@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "insider-s-week-in-beer-a-victory-for-the-forgotten-generation-2025-10",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Insider’s Week in Beer: 🙌 A Victory for the Forgotten Generation",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/insider-s-week-in-beer-a-victory-for-the-forgotten-generation-2025-10/",
+      "excerpt": "Daily Briefing Log In to Read the Full Newsletter Log in to your Insider account to view the full newsletter. If you’re not an Insider, continue to the free version. View Free Version Log In",
+      "source": "https://newsletter.bevnet.com/subscriber/f14f8fcbafa7420ebf484aae9758d62c",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "woodford-reserve-launches-first-high-proof-rye-whiskey-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -1585,11 +1597,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 132,
-  "updated_at": "2025-10-03",
+  "count": 133,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 132,
+    "total_items": 133,
     "per_page": 12,
-    "total_pages": 11
+    "total_pages": 12
   }
 }

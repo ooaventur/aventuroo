@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "amazon-reviewers-praise-samsung-galaxy-s25-fe-for-its-cinematic-camera",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Amazon Reviewers Praise Samsung Galaxy S25 FE for its Cinematic Camera",
+      "cover": "https://ymcinema.com/wp-content/uploads/2025/10/Amazon-Reviewers-Praise-Samsung-Galaxy-S25-FE-for-Its-Cinematic-Camera.001.webp",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/amazon-reviewers-praise-samsung-galaxy-s25-fe-for-its-cinematic-camera/",
+      "excerpt": "Amazon Reviewers Praise Samsung Galaxy S25 FE for its Cinematic Camera - Y.M.Cinema Magazine The Technology Behind Filmmaking News Amazon Reviewers Praise Samsung Galaxy S25 FE for its Cinematic Camera Sony Announces a New 10K Global Shutter Large Format Sensor OMNIVISION Push…",
+      "source": "https://ymcinema.com/2025/10/04/amazon-samsung-galaxy-s25-fe-camera-filmmaking/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zoss-expands-osmodo-rig-line-for-dji-osmo-pocket-3-with-box-style-hous",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -2161,11 +2173,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 180,
+  "count": 181,
   "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 180,
+    "total_items": 181,
     "per_page": 12,
-    "total_pages": 15
+    "total_pages": 16
   }
 }

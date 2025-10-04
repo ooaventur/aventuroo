@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-little-known-story-of-the-bonus-army-the-20-000-veterans-who-march",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "The Little-Known Story Of The Bonus Army, The 20,000 Veterans Who Marched On Washington In 1932",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/walter-w-waters.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-little-known-story-of-the-bonus-army-the-20-000-veterans-who-march/",
+      "excerpt": "Bonus Army: The WW1 Veterans Who Marched On Washington All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Little-Known Story Of The Bonus Army, The 20,000 Veterans Who Marched On Washington …",
+      "source": "https://allthatsinteresting.com/bonus-army",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "we-ll-soon-know-what-1500s-europe-smelled-like-thanks-to-scientists-wh",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -757,10 +769,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 63,
-  "updated_at": "2025-10-03",
+  "count": 64,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 63,
+    "total_items": 64,
     "per_page": 12,
     "total_pages": 6
   }
