@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "in-tennessee-a-us-house-primary-special-election-draws-a-crowd-2025-10",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "In Tennessee, a US House primary special election draws a crowd",
+      "cover": "https://s.abcnews.com/images/Politics/wirestory_91fea191e9e1852e597173d6b0ed7f05_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/in-tennessee-a-us-house-primary-special-election-draws-a-crowd-2025-10/",
+      "excerpt": "In Tennessee, a US House primary special election draws a crowd - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on In Tennessee, a US Ho…",
+      "source": "https://abcnews.go.com/Politics/wireStory/tennessee-us-house-primary-special-election-draws-crowd-126207754",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "green-party-leader-on-holding-government-to-account-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -1561,10 +1573,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 130,
+  "count": 131,
   "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 130,
+    "total_items": 131,
     "per_page": 12,
     "total_pages": 11
   }

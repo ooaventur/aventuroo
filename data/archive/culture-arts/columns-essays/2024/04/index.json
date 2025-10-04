@@ -145,6 +145,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "success-2024-04-10",
+      "date": "2024-04-10",
+      "published_at": "2024-04-10T00:00:00Z",
+      "created_at": "2024-04-10T00:00:00Z",
+      "title": "Success?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/IS_Wingrave.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/success-2024-04-10/",
+      "excerpt": "Success? | Issue 47 | n+1 | David Wingrave Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in and re…",
+      "source": "https://www.nplusonemag.com/issue-47/reviews/success/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "not-only-not-only-but-also-but-also-2024-04-10",
       "date": "2024-04-10",
       "published_at": "2024-04-10T00:00:00Z",
@@ -215,12 +227,60 @@
       "excerpt": "An Age of Hyperabundance | Issue 47 | n+1 | Laura Preston Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 47 Passage The Intellectual Situation Who Sees Gaza? The Editors Politics No Human Being Can Exist S…",
       "source": "https://www.nplusonemag.com/issue-47/essays/an-age-of-hyperabundance/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "acid-rhythms-2024-04-10",
+      "date": "2024-04-10",
+      "published_at": "2024-04-10T00:00:00Z",
+      "created_at": "2024-04-10T00:00:00Z",
+      "title": "Acid Rhythms",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/ic-voice-1-8a_crop.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/acid-rhythms-2024-04-10/",
+      "excerpt": "Acid Rhythms | Issue 47 | n+1 | William Harris Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 47 Passage The Intellectual Situation Who Sees Gaza? The Editors Politics No Human Being Can Exist Saree Makdis…",
+      "source": "https://www.nplusonemag.com/issue-47/reviews/acid-rhythms/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-nudge-or-a-nuzzle-2024-04-09",
+      "date": "2024-04-09",
+      "published_at": "2024-04-09T00:00:00Z",
+      "created_at": "2024-04-09T00:00:00Z",
+      "title": "A Nudge or a Nuzzle",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/desks.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/a-nudge-or-a-nuzzle-2024-04-09/",
+      "excerpt": "A Nudge or a Nuzzle | Online Only | n+1 | Gillian Linden Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only featured- Tree …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/a-nudge-or-a-nuzzle/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tree-chair-cone-dog-bishop-piano-vineyard-door-or-penny-2024-04-05",
+      "date": "2024-04-05",
+      "published_at": "2024-04-05T00:00:00Z",
+      "created_at": "2024-04-05T00:00:00Z",
+      "title": "Tree, Chair, Cone, Dog, Bishop, Piano, Vineyard, Door, or Penny",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/Lyn-Hejinian-copy.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/tree-chair-cone-dog-bishop-piano-vineyard-door-or-penny-2024-04-05/",
+      "excerpt": "Tree, Chair, Cone, Dog, Bishop, Piano, Vineyard, Door, or Penny | Online Only | n+1 | Colin Vanderburg Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events fo…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/tree-chair-cone-dog-bishop-piano-vineyard-door-or-penny/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "traces-of-enayat-2024-04-04",
+      "date": "2024-04-04",
+      "published_at": "2024-04-04T00:00:00Z",
+      "created_at": "2024-04-04T00:00:00Z",
+      "title": "Traces of Enayat",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/I47_Iman-Mersal_Nadia-Jahi-Omar-reduced.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/traces-of-enayat-2024-04-04/",
+      "excerpt": "Traces of Enayat | Issue 47 | n+1 | Iman Mersal Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Available Now Issue 51: Force Majeure Subscribe online and gain access to the entire archive. Subscribe Or sign in a…",
+      "source": "https://www.nplusonemag.com/issue-47/essays/traces-of-enayat/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 18,
+  "count": 23,
   "updated_at": "2024-04-26",
   "pagination": {
-    "total_items": 18,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }

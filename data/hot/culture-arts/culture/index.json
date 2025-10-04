@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "lit-hub-weekly-september-29-october-3-2025-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Lit Hub Weekly: September 29 – October 3, 2025",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/lit-hub-weekly-september-29-october-3-2025-2025-10-04/",
+      "excerpt": "“Laying someone to rest is the final act of care that leaves a lingering impression, not only on the dead, but on you.” Eden Royce on the importance of funerary details in the face of grief. &#124; Lit Hub Memoir Kate Colby on drawing inspiration from Edward Hopper’s Cape Cod …",
+      "source": "https://lithub.com/lit-hub-weekly-september-29-october-3-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "letter-poems-to-friends-of-all-kinds-in-dear-acorn-love-oak-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Letter poems to friends — of all kinds — in 'Dear Acorn, (Love, Oak)'",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2399x1349+0+913/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe3%2F1a%2F2333cd4c4b84a0daf5b5db94131e%2Fdearacorn-int-dearacorn.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/letter-poems-to-friends-of-all-kinds-in-dear-acorn-love-oak-2025-10-04/",
+      "excerpt": "'Dear Acorn, (Love, Oak)' is a picture book of letter poems to friends : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World P…",
+      "source": "https://www.npr.org/2025/10/04/nx-s1-5511419/picture-this-dear-acorn-love-oak-joyce-sidman-melissa-sweet",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-should-you-read-next-here-are-the-best-reviewed-books-of-the-week",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -841,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
-  "updated_at": "2025-10-03",
+  "count": 72,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 70,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }
