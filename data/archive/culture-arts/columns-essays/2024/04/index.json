@@ -95,13 +95,73 @@
       "excerpt": "Nicolás Medina Mora and Elias Rodriques in conversation | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-o…",
       "source": "https://www.nplusonemag.com/online-only/events/nicolas-medina-mora-and-elias-rodriques-in-conversation/",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hannah-proctor-and-tess-edmonson-in-conversation-2024-04-17",
+      "date": "2024-04-17",
+      "published_at": "2024-04-17T00:00:00Z",
+      "created_at": "2024-04-17T00:00:00Z",
+      "title": "Hannah Proctor and Tess Edmonson in conversation",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/n1-may-events3.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/hannah-proctor-and-tess-edmonson-in-conversation-2024-04-17/",
+      "excerpt": "Hannah Proctor and Tess Edmonson in conversation | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only fea…",
+      "source": "https://www.nplusonemag.com/online-only/events/hannah-proctor-and-tess-edmonson-in-conversation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "auto-show-dispatch-2024-04-15",
+      "date": "2024-04-15",
+      "published_at": "2024-04-15T00:00:00Z",
+      "created_at": "2024-04-15T00:00:00Z",
+      "title": "Auto Show Dispatch",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/08/correcttraficstill.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/auto-show-dispatch-2024-04-15/",
+      "excerpt": "Auto Show Dispatch | Issue 48 | n+1 | Mark Krotov Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 48 Inside Job The Intellectual Situation Hollow Man The Editors Politics Crow Jane Makes a Modest Proposal S…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/auto-show-dispatch/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "who-sees-gaza-2024-04-10",
+      "date": "2024-04-10",
+      "published_at": "2024-04-10T00:00:00Z",
+      "created_at": "2024-04-10T00:00:00Z",
+      "title": "Who Sees Gaza?",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/I47_IS.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/who-sees-gaza-2024-04-10/",
+      "excerpt": "Who Sees Gaza? | Issue 47 | n+1 | The Editors Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 47 Passage The Intellectual Situation Who Sees Gaza? The Editors Politics No Human Being Can Exist Saree Makdisi…",
+      "source": "https://www.nplusonemag.com/issue-47/the-intellectual-situation/who-sees-gaza/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "no-human-being-can-exist-2024-04-10",
+      "date": "2024-04-10",
+      "published_at": "2024-04-10T00:00:00Z",
+      "created_at": "2024-04-10T00:00:00Z",
+      "title": "No Human Being Can Exist",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/I47_Saree-Makdisi_Jordan-Nassar-e1712762545494.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/no-human-being-can-exist-2024-04-10/",
+      "excerpt": "No Human Being Can Exist | Issue 47 | n+1 | Saree Makdisi Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 47 Passage The Intellectual Situation Who Sees Gaza? The Editors Politics No Human Being Can Exist S…",
+      "source": "https://www.nplusonemag.com/issue-47/politics/no-human-being-can-exist-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "an-age-of-hyperabundance-2024-04-10",
+      "date": "2024-04-10",
+      "published_at": "2024-04-10T00:00:00Z",
+      "created_at": "2024-04-10T00:00:00Z",
+      "title": "An Age of Hyperabundance",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2024/04/I47_Laura-Preston_Dana-Lok-e1712760340820.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/an-age-of-hyperabundance-2024-04-10/",
+      "excerpt": "An Age of Hyperabundance | Issue 47 | n+1 | Laura Preston Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password Issue 47 Passage The Intellectual Situation Who Sees Gaza? The Editors Politics No Human Being Can Exist S…",
+      "source": "https://www.nplusonemag.com/issue-47/essays/an-age-of-hyperabundance/",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 8,
+  "count": 13,
   "updated_at": "2024-04-26",
   "pagination": {
-    "total_items": 8,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

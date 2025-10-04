@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "this-week-s-news-in-venn-diagrams-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "This week’s news in Venn diagrams.",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/05/LH-venn-cover-copy.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/this-week-s-news-in-venn-diagrams-2025-10-03/",
+      "excerpt": "This week’s news in Venn diagrams. ‹ Literary Hub Craft and Criticism Fiction and Poetry News and Culture Lit Hub Radio Reading Lists Book Marks CrimeReads About Log In Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction …",
+      "source": "https://lithub.com/this-weeks-news-in-venn-diagrams-oct-3/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-loneliness-of-sonia-and-sunny-is-a-terrific-tangled-love-story-202",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -829,10 +841,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 69,
+  "count": 70,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 69,
+    "total_items": 70,
     "per_page": 12,
     "total_pages": 6
   }

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3388,
+  "total_items": 3403,
   "shards": [
     {
       "parent": "business-finance",
@@ -219,10 +219,10 @@
       "month": 4,
       "path": "culture-arts/columns-essays/2024/04/index.json",
       "path_gz": "culture-arts/columns-essays/2024/04/index.json.gz",
-      "items": 8,
-      "first_date": "2024-04-17",
+      "items": 13,
+      "first_date": "2024-04-10",
       "last_date": "2024-04-26",
-      "pages": 1
+      "pages": 2
     },
     {
       "parent": "culture-arts",
@@ -1974,8 +1974,8 @@
       "month": 6,
       "path": "travel/experiences/2023/06/index.json",
       "path_gz": "travel/experiences/2023/06/index.json.gz",
-      "items": 5,
-      "first_date": "2023-06-23",
+      "items": 10,
+      "first_date": "2023-06-06",
       "last_date": "2023-06-29",
       "pages": 1
     },
@@ -2498,6 +2498,19 @@
       "first_date": "2025-09-24",
       "last_date": "2025-09-25",
       "pages": 5
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2023,
+      "month": 6,
+      "path": "travel/trip-ideas/2023/06/index.json",
+      "path_gz": "travel/trip-ideas/2023/06/index.json.gz",
+      "items": 5,
+      "first_date": "2023-06-16",
+      "last_date": "2023-06-22",
+      "pages": 1
     },
     {
       "parent": "travel",

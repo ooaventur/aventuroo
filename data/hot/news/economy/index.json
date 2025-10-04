@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trump-and-democrats-deadlocked-over-government-funding-as-shutdown-dra",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Trump and Democrats deadlocked over government funding as shutdown drags on",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F51419f9b-d7bb-4737-ae59-073e44752a6c.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/trump-and-democrats-deadlocked-over-government-funding-as-shutdown-dra/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/f1ada36e-22ff-4976-a9a0-09f4b2d20603",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "jewellers-explore-openings-after-uk-india-trade-deal-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -1441,11 +1453,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 120,
+  "count": 121,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 120,
+    "total_items": 121,
     "per_page": 12,
-    "total_pages": 10
+    "total_pages": 11
   }
 }

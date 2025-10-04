@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "aws-open-sources-an-mcp-server-for-bedrock-agentcore-to-streamline-ai",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "AWS Open-Sources an MCP Server for Bedrock AgentCore to Streamline AI Agent Development",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-9.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/aws-open-sources-an-mcp-server-for-bedrock-agentcore-to-streamline-ai/",
+      "excerpt": "AWS Open-Sources an MCP Server for Bedrock AgentCore to Streamline AI Agent Development - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our…",
+      "source": "https://www.marktechpost.com/2025/10/03/aws-open-sources-an-mcp-server-for-bedrock-agentcore-to-streamline-ai-agent-development/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimod",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -361,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
+  "count": 31,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

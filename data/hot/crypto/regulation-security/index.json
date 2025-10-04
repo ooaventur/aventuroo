@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "vietnam-central-bank-expects-credit-growth-amid-rapid-crypto-adoption",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Vietnam central bank expects credit growth amid rapid crypto adoption",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWFiMTAtMmRiMy03ZTc1LWFmMjUtNzM2ZmJjYjY3Zjk0.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/vietnam-central-bank-expects-credit-growth-amid-rapid-crypto-adoption/",
+      "excerpt": "Vietnam Central Bank Expects Credit Growth. Crypto to Benefit? Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Vince Quill 6 hours ago Vietnam central bank expects credit growth amid rapid crypto adoption Vietnam is one of the leading countries for cryp…",
+      "source": "https://cointelegraph.com/news/vietnam-central-bank-expects-credit-growth-rapid-crypto-adoption?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uptober-starts-with-us-shutdown-brazil-wants-bitcoin-miners-global-exp",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -25,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fdic-to-review-rule-that-may-shape-banks-crypto-relationships-2025-10",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "FDIC to review rule that may shape banks’ crypto relationships",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWFiODctNDhhMC03OGQwLWFlMGEtMjk4MDRkYTJkMWI1.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/fdic-to-review-rule-that-may-shape-banks-crypto-relationships-2025-10/",
+      "excerpt": "FDIC Set to Discuss Rule That May Shape Banks’ Crypto Relationships Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Turner Wright 4 hours ago FDIC to review rule that may shape banks’ crypto relationships An FDIC meeting will follow up on acting chair T…",
+      "source": "https://cointelegraph.com/news/fdic-vote-reputational-risk-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "compliance-isn-t-supposed-to-cost-you-your-privacy-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/compliance-isn-t-supposed-to-cost-you-your-privacy-2025-10-03/",
       "excerpt": "Compliance Isn’t Supposed To Cost You Your Privacy Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Amal Ibraymi 5 hours ago Compliance isn’t supposed to cost you your privacy Current compliance rules create data honeypots that endanger users. Zero-knowl…",
       "source": "https://cointelegraph.com/news/compliance-cost-your-privacy?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "companies-weigh-in-as-uk-prepares-to-reverse-crypto-etn-ban-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Companies weigh in as UK prepares to reverse crypto ETN ban",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWFhYjItNGUwMy03ZmEwLWE5ZGEtMTM5MGQ5YjU0ZmYx.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/companies-weigh-in-as-uk-prepares-to-reverse-crypto-etn-ban-2025-10-03/",
+      "excerpt": "Companies Weigh in as UK Prepares to Reverse Crypto ETN Ban Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Turner Wright 6 hours ago Companies weigh in as UK prepares to reverse crypto ETN ban The UK will lift a ban on specific crypto exchange-traded p…",
+      "source": "https://cointelegraph.com/news/uk-prepares-reverse-crypto-etn-ban?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -337,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 28,
+  "count": 31,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 28,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

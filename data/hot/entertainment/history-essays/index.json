@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "how-snoopy-reflected-changing-attitudes-on-the-vietnam-war-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "How Snoopy Reflected Changing Attitudes on the Vietnam War",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/FX7K0M_ch0m4x?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/how-snoopy-reflected-changing-attitudes-on-the-vietnam-war-2025-10-03/",
+      "excerpt": "How Snoopy Reflected Changing Attitudes on the Vietnam War Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial Amer…",
+      "source": "https://www.history.com/articles/snoopy-flying-ace-vietnam-charles-schulz",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-grave-robbing-ignited-a-deadly-riot-in-new-york-city-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -265,10 +277,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
+  "count": 23,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 22,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }

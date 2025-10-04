@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "we-ll-soon-know-what-1500s-europe-smelled-like-thanks-to-scientists-wh",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "We’ll Soon Know What 1500s Europe Smelled Like Thanks To Scientists Who Are Recreating Its Scents",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2020/11/matija-strlic.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/we-ll-soon-know-what-1500s-europe-smelled-like-thanks-to-scientists-wh/",
+      "excerpt": "Scientists Set Out To Recreate The Smells Of Historic Europe All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email We’ll Soon Know What 1500s Europe Smelled Like Thanks To Scientists Who Are Recrea…",
+      "source": "https://allthatsinteresting.com/project-odeuropa",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-tallest-bridge-in-the-world-just-opened-in-china-standing-more-tha",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "The Tallest Bridge In The World Just Opened In China — Standing More Than 2,000 Feet Above The Ground",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/huajiang-grand-canyon-bridge.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-tallest-bridge-in-the-world-just-opened-in-china-standing-more-tha/",
+      "excerpt": "The Tallest Bridge In The World Just Opened In China All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Tallest Bridge In The World Just Opened In China — Standing More Than 2,000 Feet Above…",
+      "source": "https://allthatsinteresting.com/tallest-bridge-in-the-world",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-stalingrad-of-africa-the-story-of-the-battle-for-tunis-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/history-s-smallest-billionaire-meet-the-tiny-titan-who-was-briefly-the/",
       "excerpt": "History’s smallest billionaire? Meet the tiny titan who was, briefly, the richest man alive | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman…",
       "source": "https://www.historyextra.com/period/victorian/smallest-billionaire-briefly-the-richest-man-alive-andrew-carnegie/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "divers-in-france-just-uncovered-a-trove-of-847-ancient-roman-coins-at",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Divers In France Just Uncovered A Trove Of 847 Ancient Roman Coins At The Bottom Of The Rhône River",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/roman-coins-in-rhone.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/divers-in-france-just-uncovered-a-trove-of-847-ancient-roman-coins-at/",
+      "excerpt": "Hundreds Of Roman-Era Coins Found In The Rhône River All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Divers In France Just Uncovered A Trove Of 847 Ancient Roman Coins At The Bottom Of The Rh…",
+      "source": "https://allthatsinteresting.com/arles-france-ancient-roman-coins",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -673,10 +709,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 56,
+  "count": 59,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 56,
+    "total_items": 59,
     "per_page": 12,
     "total_pages": 5
   }

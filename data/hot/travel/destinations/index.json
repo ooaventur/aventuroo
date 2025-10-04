@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "this-2-in-1-hotel-in-the-hottest-place-on-earth-radiates-old-school-co",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "This 2-in-1 Hotel in the Hottest Place on Earth Radiates Old-School Cool",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/IMG_7035-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/this-2-in-1-hotel-in-the-hottest-place-on-earth-radiates-old-school-co/",
+      "excerpt": "The Oasis in Death Valley: Cool Digs in the Hottest Place on Earth Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Air…",
+      "source": "https://matadornetwork.com/read/oasis-at-death-valley/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-venice-hotels-with-canal-views-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-venice-hotels-with-canal-views-2025-10-03/",
       "excerpt": "The best Venice hotels with canal views | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log …",
       "source": "https://www.telegraph.co.uk/travel/destinations/europe/italy/veneto/venice/articles/best-venice-hotels-with-canal-views/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "drift-into-socal-s-coastal-bliss-at-this-breezy-hotel-and-spa-in-surf",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Drift Into SoCal’s Coastal Bliss at This Breezy Hotel and Spa in ‘Surf City USA’",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/09/From_The_Pier-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/drift-into-socal-s-coastal-bliss-at-this-breezy-hotel-and-spa-in-surf/",
+      "excerpt": "Paséa Hotel & Spa: A Relaxing Getaway in SoCal's Surf City USA Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires C…",
+      "source": "https://matadornetwork.com/read/pasea-hotel-spa/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -301,10 +325,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
+  "count": 27,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 25,
+    "total_items": 27,
     "per_page": 12,
     "total_pages": 3
   }

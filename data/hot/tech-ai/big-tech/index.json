@@ -85,6 +85,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "amazon-shutters-4-fresh-stores-in-southern-california-as-grocery-strat",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Amazon shutters 4 Fresh stores in Southern California as grocery strategy keeps shifting",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108075680-1734095017193-gettyimages-2188958302-ryder-amazon-2.jpeg?v=1759515061&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amazon-shutters-4-fresh-stores-in-southern-california-as-grocery-strat/",
+      "excerpt": "Amazon shuts 4 Fresh stores in Southern California after UK closures Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/03/amazon-shuts-4-fresh-stores-in-southern-california-after-uk-closures.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai-chipmaker-cerebras-withdraws-ipo-2025-10-03",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "AI chipmaker Cerebras withdraws IPO",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108207840-1759525583790-gettyimages-2223516693-FRANCE_RAISE_SUMMIT.jpeg?v=1759525621&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/ai-chipmaker-cerebras-withdraws-ipo-2025-10-03/",
+      "excerpt": "AI chipmaker Cerebras withdraws IPO Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth Sports Li…",
+      "source": "https://www.cnbc.com/2025/10/03/cerebras-withdraws-ipo-ai.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-current-ai-models-won-t-make-scientific-breakthroughs-according-to",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -721,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 60,
+  "count": 62,
   "updated_at": "2025-10-03",
   "pagination": {
-    "total_items": 60,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }
