@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "esg-might-be-more-resilient-than-critics-expect-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "ESG might be more resilient than critics expect",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fcc401e6d-1734-45d2-a760-334dd6c19d3b.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/esg-might-be-more-resilient-than-critics-expect-2025-10-04/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/32870df4-ba4a-42cd-9fcb-480df70c5022",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "there-s-value-in-value-stocks-2025-10-03",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -553,10 +565,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
-  "updated_at": "2025-10-03",
+  "count": 47,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 46,
+    "total_items": 47,
     "per_page": 12,
     "total_pages": 4
   }

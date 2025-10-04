@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sn-hetta-s-lascaux-iv-caves-in-france-host-site-specific-contemporary",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "snøhetta’s lascaux IV caves in france host site-specific contemporary dance work",
+      "cover": "https://www.designboom.com/wp-content/uploads/2025/10/snohetta-lascaux-iv-caves-france-site-specific-contemporary-dance-work-daniel-proietto-designboom-700-1-500x400-22b08q85r744.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/sn-hetta-s-lascaux-iv-caves-in-france-host-site-specific-contemporary/",
+      "excerpt": "snøhetta's lascaux IV in france hosts contemporary dance work home > art > snøhetta’s lascaux IV caves in france host site-specific contemporary dance work art magazine architecture video art topics design interviews technology readers submissions & listings competitions cours…",
+      "source": "https://www.designboom.com/art/snohetta-lascaux-iv-caves-france-site-specific-contemporary-dance-work-daniel-proietto-10-04-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "untamed-flora-subsumes-abandoned-greenhouses-in-romain-veillon-s-secre",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -142,6 +154,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/arts/mazzoleni-doubles-down-on-italy-with-new-milan-space-2025-10-03/",
       "excerpt": "Mazzoleni Doubles Down on Italy With New Milan Space Price Database 03 October 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics Hidden Buy Browse Artists Artne…",
       "source": "https://news.artnet.com/art-world/mazzoleni-milan-2694869",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "london-for-frieze-or-paris-for-basel-asian-collectors-dealers-make-tou",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "London for Frieze or Paris for Basel? Asian Collectors, Dealers Make Tough Choices",
+      "cover": "https://p-news-upload.storage.googleapis.com/2025/09/french-and-british-flags-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/london-for-frieze-or-paris-for-basel-asian-collectors-dealers-make-tou/",
+      "excerpt": "London for Frieze or Paris for Basel? Asian Collectors, Dealers Make Tough Choices Price Database 03 October 2025 Artworks Artists Auctions Artnet Auctions Global Auction Houses Galleries Events News Price Database Use the Artnet Price Database Market Alerts Artnet Analytics H…",
+      "source": "https://news.artnet.com/market/asian-collectors-dealers-london-paris-2695778",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2113,10 +2137,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 176,
-  "updated_at": "2025-10-03",
+  "count": 178,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 176,
+    "total_items": 178,
     "per_page": 12,
     "total_pages": 15
   }

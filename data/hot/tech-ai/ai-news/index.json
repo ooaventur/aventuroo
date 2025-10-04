@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "can-a-small-language-model-predict-kernel-latency-memory-and-model-acc",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Can a Small Language Model Predict Kernel Latency, Memory, and Model Accuracy from Code? A New Regression Language Model (RLM) Says Yes",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-11.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/can-a-small-language-model-predict-kernel-latency-memory-and-model-acc/",
+      "excerpt": "Can a Small Language Model Predict Kernel Latency, Memory, and Model Accuracy from Code? A New Regression Language Model (RLM) Says Yes - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship S…",
+      "source": "https://www.marktechpost.com/2025/10/03/can-a-small-language-model-predict-kernel-latency-memory-and-model-accuracy-from-code-a-new-regression-language-model-rlm-says-yes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-coding-guide-to-build-an-autonomous-agentic-ai-for-time-series-forec",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "A Coding Guide to Build an Autonomous Agentic AI for Time Series Forecasting with Darts and Hugging Face",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-10.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-guide-to-build-an-autonomous-agentic-ai-for-time-series-forec/",
+      "excerpt": "A Coding Guide to Build an Autonomous Agentic AI for Time Series Forecasting with Darts and Hugging Face - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium…",
+      "source": "https://www.marktechpost.com/2025/10/03/a-coding-guide-to-build-an-autonomous-agentic-ai-for-time-series-forecasting-with-darts-and-hugging-face/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "thinking-machines-launches-tinker-a-low-level-training-api-that-abstra",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -373,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 31,
-  "updated_at": "2025-10-03",
+  "count": 33,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 31,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }

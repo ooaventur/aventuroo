@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "trump-reverses-187m-funding-cuts-for-new-york-counterterrorism-after-b",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Trump reverses $187M funding cuts for New York counterterrorism after bipartisan outcry",
+      "cover": "https://s.abcnews.com/images/US/wirestory_fb98d85cb66e555b8114af10e57d3663_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/trump-reverses-187m-funding-cuts-for-new-york-counterterrorism-after-b/",
+      "excerpt": "Trump reverses $187M funding cuts for New York counterterrorism after bipartisan outcry - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream …",
+      "source": "https://abcnews.go.com/Politics/wireStory/trump-reverses-187m-funding-cuts-new-york-counterterrorism-126197230",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "north-carolina-governor-signs-criminal-justice-bill-into-law-after-ukr",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "North Carolina governor signs criminal justice bill into law after Ukrainian refugee’s death",
+      "cover": "https://s.abcnews.com/images/US/wirestory_89628f222063cb8f8b153df084f22b80_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/north-carolina-governor-signs-criminal-justice-bill-into-law-after-ukr/",
+      "excerpt": "North Carolina governor signs criminal justice bill into law after Ukrainian refugee’s death - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On St…",
+      "source": "https://abcnews.go.com/Politics/wireStory/north-carolina-governor-signs-criminal-justice-bill-law-126198353",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "green-party-leader-on-holding-government-to-account-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Green Party leader on holding government to account",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/33da/live/47587650-a06b-11f0-b741-177e3e2c2fc7.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/green-party-leader-on-holding-government-to-account-2025-10-04/",
+      "excerpt": "Green Party leader Zac Polanski on holding government to account Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics Engla…",
+      "source": "https://www.bbc.com/news/videos/c62l1j70qlgo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zohran-mamdani-s-rise-in-the-new-york-mayoral-race-sparks-anti-muslim",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -34,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/trump-no-longer-distancing-himself-from-project-2025-as-he-uses-shutdo/",
       "excerpt": "Trump no longer distancing himself from Project 2025 as he uses shutdown to further pursue its goals - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? O…",
       "source": "https://abcnews.go.com/Politics/wireStory/trump-longer-distancing-project-2025-shutdown-pursue-goals-126170597",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "republican-led-georgia-state-senate-committee-plans-to-question-fani-w",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "Republican-led Georgia state Senate committee plans to question Fani Willis next month",
+      "cover": "https://s.abcnews.com/images/US/wirestory_d81f6f4a782f11f7c40a27faf60a39b2_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/republican-led-georgia-state-senate-committee-plans-to-question-fani-w/",
+      "excerpt": "Republican-led Georgia state Senate committee plans to question Fani Willis next month - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream o…",
+      "source": "https://abcnews.go.com/Politics/wireStory/republican-led-georgia-state-senate-committee-plans-question-126193272",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1513,10 +1561,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 126,
-  "updated_at": "2025-10-03",
+  "count": 130,
+  "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 126,
+    "total_items": 130,
     "per_page": 12,
     "total_pages": 11
   }
