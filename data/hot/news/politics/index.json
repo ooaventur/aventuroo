@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "will-the-government-shutdown-affect-next-year-s-election-recent-histor",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Will the government shutdown affect next year's election? Recent history provides clues",
+      "cover": "https://s.abcnews.com/images/US/wirestory_a264af20a7e626e7fe2861d2cbf413b5_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/will-the-government-shutdown-affect-next-year-s-election-recent-histor/",
+      "excerpt": "Will the government shutdown affect next year's election? Recent history provides clues - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream …",
+      "source": "https://abcnews.go.com/Politics/wireStory/government-shutdown-affect-years-election-recent-history-clues-126226754",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "trump-will-celebrate-the-navy-s-250th-anniversary-in-the-midst-of-the",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Trump will celebrate the Navy's 250th anniversary in the midst of the shutdown",
+      "cover": "https://s.abcnews.com/images/US/wirestory_926e1f114b704bc069dd9ad8fff449e0_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/trump-will-celebrate-the-navy-s-250th-anniversary-in-the-midst-of-the/",
+      "excerpt": "Trump will celebrate the Navy's 250th anniversary in the midst of the shutdown - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Trump …",
+      "source": "https://abcnews.go.com/Politics/wireStory/trump-celebrate-navys-250th-anniversary-midst-shutdown-126227027",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "georgia-s-ruling-party-claims-landslide-win-in-local-vote-boycotted-by",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Georgia's ruling party claims landslide win in local vote boycotted by main opposition",
+      "cover": "https://s.abcnews.com/images/International/wirestory_811af43de4ca6363d1126c01761eec81_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/georgia-s-ruling-party-claims-landslide-win-in-local-vote-boycotted-by/",
+      "excerpt": "Georgia's ruling party claims landslide win in local vote boycotted by main opposition - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream o…",
+      "source": "https://abcnews.go.com/Politics/wireStory/georgias-ruling-party-claims-landslide-win-local-vote-126227119",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-reverses-187m-funding-cuts-for-new-york-counterterrorism-after-b",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -298,6 +334,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/republicans-are-relishing-a-role-reversal-in-the-shutdown-fight-can-tr/",
       "excerpt": "Republicans are relishing a role reversal in the shutdown fight. Can Trump keep them united? - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On St…",
       "source": "https://abcnews.go.com/Politics/wireStory/republicans-relishing-role-reversal-shutdown-fight-trump-united-126156795",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "political-thinking-with-nick-robinson-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Political Thinking with Nick Robinson",
+      "cover": "https://ichef.bbci.co.uk/images/ic/240x135/p0m05xpm.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/political-thinking-with-nick-robinson-2025-10-02/",
+      "excerpt": "Political Thinking with Nick Robinson - Bridget Phillipson on life as education secretary - BBC Sounds Homepage Accessibility links Skip to content Accessibility Help BBC Account Notifications Home News Sport Weather iPlayer Sounds Bitesize CBeebies CBBC Food Home News Sport B…",
+      "source": "https://www.bbc.co.uk/sounds/play/m002kf52?at_medium=RSS&at_campaign=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1573,11 +1621,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 131,
-  "updated_at": "2025-10-04",
+  "count": 135,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 131,
+    "total_items": 135,
     "per_page": 12,
-    "total_pages": 11
+    "total_pages": 12
   }
 }

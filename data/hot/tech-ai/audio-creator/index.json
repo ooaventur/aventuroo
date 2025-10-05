@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "some-riffs-just-have-that-big-swing-to-them-you-can-definitely-hear-th",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "“Some riffs just have that big swing to them. You can definitely hear that in the first Van Halen album”: How Wolfgang Van Halen created a new song with echoes of classic VH – and Peter Gabriel’s Sledgehammer",
+      "cover": "https://cdn.mos.cms.futurecdn.net/EH8WXxFHPceMPmWSCQmJWn-1280-80.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/some-riffs-just-have-that-big-swing-to-them-you-can-definitely-hear-th/",
+      "excerpt": "“Some riffs just have that big swing to them. You can definitely hear that in the first Van Halen album”: How Wolfgang Van Halen created a new song with echoes of classic VH – and Peter Gabriel’s Sledgehammer | MusicRadar Skip to main content Open menu Close main menu MusicRad…",
+      "source": "https://www.musicradar.com/artists/some-riffs-just-have-that-big-swing-to-them-you-can-definitely-hear-that-in-the-first-van-halen-album-how-wolfgang-van-halen-created-a-new-song-with-echoes-of-classic-vh-and-peter-gabriels-sledgehammer",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "we-wanted-to-make-the-barrier-as-low-as-we-could-sequential-on-designi",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -1861,10 +1873,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 155,
-  "updated_at": "2025-10-04",
+  "count": 156,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 155,
+    "total_items": 156,
     "per_page": 12,
     "total_pages": 13
   }

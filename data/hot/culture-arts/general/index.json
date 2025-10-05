@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "restaurant-review-bartolo-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Restaurant Review: Bartolo",
+      "cover": "https://media.newyorker.com/photos/68de9e0c48c1bd4b17405731/master/pass/Victor%20Llorente_Bartolo_479.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-bartolo-2025-10-05/",
+      "excerpt": "Restaurant Review: Bartolo | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The Food Scene The Old…",
+      "source": "https://www.newyorker.com/culture/the-food-scene/the-old-school-spanish-restaurant-gets-the-respect-it-deserves",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-did-we-love-to-catch-a-predator-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -937,10 +949,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 78,
-  "updated_at": "2025-10-04",
+  "count": 79,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 78,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "can-you-take-home-a-wine-bottle-from-a-restaurant-each-state-s-wine-ta",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Can You Take Home a Wine Bottle From a Restaurant? Each State’s Wine Take-Home Laws.",
+      "cover": "https://vinepair.com/wp-content/uploads/2025/10/wine-take-home-laws-social.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/can-you-take-home-a-wine-bottle-from-a-restaurant-each-state-s-wine-ta/",
+      "excerpt": "Can You Take Home a Wine Bottle From a Restaurant? Each State’s Wine Take-Home Laws. | VinePair VinePair - Drinking Is Culture Articles Beer Cheese Coffee Spirits Wine Booze News Columns Ask Adam Buy This Booze Free Pour Good Wines You Can Actually Find Hop Take Need To Know T…",
+      "source": "https://vinepair.com/articles/us-state-restaurant-wine-take-home-laws/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "insider-s-week-in-beer-a-victory-for-the-forgotten-generation-2025-10",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -1597,10 +1609,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 133,
-  "updated_at": "2025-10-04",
+  "count": 134,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 133,
+    "total_items": 134,
     "per_page": 12,
     "total_pages": 12
   }

@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "parkmobile-pays-1-each-for-2021-data-breach-that-hit-22-million-2025-1",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "ParkMobile pays... $1 each for 2021 data breach that hit 22 million",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2021/04/30/parkmobile-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/parkmobile-pays-1-each-for-2021-data-breach-that-hit-22-million-2025-1/",
+      "excerpt": "ParkMobile pays... $1 each for 2021 data breach that hit 22 million News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach …",
+      "source": "https://www.bleepingcomputer.com/news/security/parkmobile-pays-1-each-for-2021-data-breach-that-hit-22-million/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-wants-chatgpt-to-be-your-emotional-support-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -1225,10 +1237,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 102,
+  "count": 103,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 102,
+    "total_items": 103,
     "per_page": 12,
     "total_pages": 9
   }

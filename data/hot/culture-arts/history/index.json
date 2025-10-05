@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "gray-barker-ufo-conspiracy-theorist-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Gray Barker: UFO conspiracy theorist",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/LEAD-2K4TMTPwebready-507e302.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/gray-barker-ufo-conspiracy-theorist-2025-10-05/",
+      "excerpt": "Gray Barker: UFO conspiracy theorist | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georgian…",
+      "source": "https://www.historyextra.com/period/gray-barker-ufo-conspiracy-theorist/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-little-known-story-of-the-bonus-army-the-20-000-veterans-who-march",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -769,10 +781,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
-  "updated_at": "2025-10-04",
+  "count": 65,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 64,
+    "total_items": 65,
     "per_page": 12,
     "total_pages": 6
   }

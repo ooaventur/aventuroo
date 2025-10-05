@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "hangman-s-hill-in-essex-england-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Hangman’s Hill in Essex, England",
+      "cover": "https://img.atlasobscura.com/Uy5nkYOkLbKUOS4_ze1lE46cLk9J0U7ofBEPhXIKVKU/rt:fit/w:600/c:600:400:nowe:40:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy81ZDNj/ZjRmYS1kZTU1LTRh/MmQtYTkyOS1hYmNj/OThlNzFkZmY3NWY5/Mjg3MDMwMWFiMjk5/ODdfSGFuZ21hbnNI/aWxsMi5wbmc.png",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/hangman-s-hill-in-essex-england-2025-10-05/",
+      "excerpt": "Hangman’s Hill - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon--na…",
+      "source": "https://www.atlasobscura.com/places/hangmans-hill-essex",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zany-neighbors-from-pet-peacocks-to-naked-beekepers-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -805,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
-  "updated_at": "2025-10-04",
+  "count": 68,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 67,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-ai-paper-proposes-a-novel-dual-branch-encoder-decoder-architectur",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "This AI Paper Proposes a Novel Dual-Branch Encoder-Decoder Architecture for Unsupervised Speech Enhancement (SE)",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-1-2.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/this-ai-paper-proposes-a-novel-dual-branch-encoder-decoder-architectur/",
+      "excerpt": "This AI Paper Proposes a Novel Dual-Branch Encoder-Decoder Architecture for Unsupervised Speech Enhancement (SE) - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub…",
+      "source": "https://www.marktechpost.com/2025/10/04/this-ai-paper-proposes-a-novel-dual-branch-encoder-decoder-architecture-for-unsupervised-speech-enhancement-se/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recogniti",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "How to Evaluate Voice Agents in 2025: Beyond Automatic Speech Recognition (ASR) and Word Error Rate (WER) to Task Success, Barge-In, and Hallucination-Under-Noise",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-14.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recogniti/",
+      "excerpt": "How to Evaluate Voice Agents in 2025: Beyond Automatic Speech Recognition (ASR) and Word Error Rate (WER) to Task Success, Barge-In, and Hallucination-Under-Noise - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutor…",
+      "source": "https://www.marktechpost.com/2025/10/05/how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recognition-asr-and-word-error-rate-wer-to-task-success-barge-in-and-hallucination-under-noise/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-coding-implementation-to-build-a-transformer-based-regression-langua",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -421,11 +445,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
+  "count": 37,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 35,
+    "total_items": 37,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

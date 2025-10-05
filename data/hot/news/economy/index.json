@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "what-will-the-fed-s-minutes-say-about-the-path-for-interest-rates-2025",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "What will the Fed’s minutes say about the path for interest rates?",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7f8fb7e4-b54b-49a7-aa91-58d7580ab9a5.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/what-will-the-fed-s-minutes-say-about-the-path-for-interest-rates-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/d074fea8-7b3c-4978-9d6e-8aa31b9904db",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "europeans-need-to-learn-to-love-risk-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Europeans need to learn to love risk",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb2b809ce-ed4b-41e6-af9a-071f5a170121.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/europeans-need-to-learn-to-love-risk-2025-10-05/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/11001b88-632e-4521-8936-2ff1914399a1",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "eu-pushes-new-ai-strategy-to-reduce-tech-reliance-on-us-and-china-2025",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1513,10 +1537,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 126,
+  "count": 128,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 126,
+    "total_items": 128,
     "per_page": 12,
     "total_pages": 11
   }
