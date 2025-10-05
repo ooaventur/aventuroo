@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "streamyard-goes-48-khz-welcome-to-the-alliance-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "StreamYard goes 48 kHz! Welcome to the Alliance!",
+      "cover": "https://www.provideocoalition.com/wp-content/uploads/StreamYard-48-kHz-Alliance.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/cinematography/streamyard-goes-48-khz-welcome-to-the-alliance-2025-10-05/",
+      "excerpt": "StreamYard goes 48 kHz! Welcome to the Alliance! by Allan Tépper - ProVideo Coalition Read More... from StreamYard goes 48 kHz! Welcome to the Alliance! \" /> Read More... from StreamYard goes 48 kHz! Welcome to the Alliance! \" /> Skip to content Latest News Production Post Pro…",
+      "source": "https://www.provideocoalition.com/streamyard-goes-48-khz-welcome-to-the-alliance/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "smallrig-autumn-savings-day-up-to-30-off-camera-accessories-and-riggin",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -2245,10 +2257,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 187,
+  "count": 188,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 187,
+    "total_items": 188,
     "per_page": 12,
     "total_pages": 16
   }

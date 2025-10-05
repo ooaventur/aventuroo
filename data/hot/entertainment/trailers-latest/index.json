@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "what-s-the-next-step-for-friday-the-13th-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "What’s the next step for Friday the 13th?",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/10/Friday-the-13th-banner.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/what-s-the-next-step-for-friday-the-13th-2025-10-05/",
+      "excerpt": "What's the next step for Friday the 13th? Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcoming Originals I…",
+      "source": "https://www.joblo.com/whats-the-next-step-for-friday-the-13th/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-s-the-best-james-bond-movie-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "What’s the Best James Bond Movie?",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/02/james-bond-audition.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/what-s-the-best-james-bond-movie-2025-10-05/",
+      "excerpt": "What's the Best James Bond Movie? Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcoming Originals Interview…",
+      "source": "https://www.joblo.com/james-bond-poll/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "weekend-box-office-taylor-swift-body-slams-the-rock-with-a-strong-open",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Weekend Box Office: Taylor Swift body-slams The Rock with a strong opening",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/08/one-battle-after-another.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/weekend-box-office-taylor-swift-body-slams-the-rock-with-a-strong-open/",
+      "excerpt": "Weekend Box Office: Taylor Swift body-slams The Rock with a strong opening Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trai…",
+      "source": "https://www.joblo.com/weekend-box-office-taylor-swift/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "shell-review-max-minghella-s-sophomore-effort-slumps-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Shell Review: Max Minghella’s Sophomore Effort Slumps",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/10/MV5BYmViOTA3MTctOTU1Mi00OWQwLThlMGYtZmZjYTEyZDgxYzZiXkEyXkFqcGc@._V1_-edited-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/shell-review-max-minghella-s-sophomore-effort-slumps-2025-10-05/",
+      "excerpt": "Shell Review: Max Minghella's Sophomore Effort Slumps Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcoming…",
+      "source": "https://www.joblo.com/shell-review-max-minghellas-sophomore-effort-slumps/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mr-scorsese-tv-review-an-extensive-deep-dive-into-the-career-and-impac",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Mr. Scorsese TV Review: An extensive deep dive into the career and impact of the filmmaker on cinematic history",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/10/mr-scorsese-review-miller.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/mr-scorsese-tv-review-an-extensive-deep-dive-into-the-career-and-impac/",
+      "excerpt": "Mr. Scorsese TV Review: An extensive deep dive into the career and impact of the filmmaker on cinematic history Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-…",
+      "source": "https://www.joblo.com/mr-scorsese-tv-review-an-extensive-deep-dive-into-the-career-and-impact-of-the-filmmaker-on-cinematic-history/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-is-the-descent-coming-to-4k-plus-neil-marshall-on-his-giallo-thri",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -2017,11 +2077,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 168,
-  "updated_at": "2025-10-04",
+  "count": 173,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 168,
+    "total_items": 173,
     "per_page": 12,
-    "total_pages": 14
+    "total_pages": 15
   }
 }

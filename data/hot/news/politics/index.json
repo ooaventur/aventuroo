@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "young-tories-rate-kemi-badenoch-s-first-year-as-leader-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Young Tories rate Kemi Badenoch's first year as leader",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/055e/live/f69fa0e0-a208-11f0-928c-71dbb8619e94.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/young-tories-rate-kemi-badenoch-s-first-year-as-leader-2025-10-05/",
+      "excerpt": "Young Tories rate Kemi Badenoch's first year as leader Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irel…",
+      "source": "https://www.bbc.com/news/videos/c2375x5endlo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "will-the-government-shutdown-affect-next-year-s-election-recent-histor",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/trump-will-celebrate-the-navy-s-250th-anniversary-in-the-midst-of-the/",
       "excerpt": "Trump will celebrate the Navy's 250th anniversary in the midst of the shutdown - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Trump …",
       "source": "https://abcnews.go.com/Politics/wireStory/trump-celebrate-navys-250th-anniversary-midst-shutdown-126227027",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "government-shutdown-enters-fifth-day-as-democrats-and-republicans-rema",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Government shutdown enters fifth day as Democrats and Republicans remain at an impasse",
+      "cover": "https://s.abcnews.com/images/US/wirestory_3891740009c19847590be2a0fd6d1fd4_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/government-shutdown-enters-fifth-day-as-democrats-and-republicans-rema/",
+      "excerpt": "Government shutdown enters fifth day as Democrats and Republicans remain at an impasse - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream o…",
+      "source": "https://abcnews.go.com/Politics/wireStory/government-shutdown-enters-day-democrats-republicans-remain-impasse-126231150",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1621,10 +1645,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 135,
+  "count": 137,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 135,
+    "total_items": 137,
     "per_page": 12,
     "total_pages": 12
   }

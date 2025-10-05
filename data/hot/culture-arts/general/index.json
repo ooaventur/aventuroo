@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "brandon-taylor-on-the-quandary-of-black-art-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Brandon Taylor on the Quandary of Black Art",
+      "cover": "https://media.newyorker.com/photos/68e009363ec487a63b53106c/master/pass/JACKSON---BRANDON-TAYLOR-BY-DONAVON-SMALLWOOD.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/brandon-taylor-on-the-quandary-of-black-art-2025-10-05/",
+      "excerpt": "Brandon Taylor on the Quandary of Black Art | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The N…",
+      "source": "https://www.newyorker.com/culture/the-new-yorker-interview/brandon-taylor-on-the-quandary-of-black-art",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-did-we-love-to-catch-a-predator-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -949,10 +961,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 79,
+  "count": 80,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 79,
+    "total_items": 80,
     "per_page": 12,
     "total_pages": 7
   }

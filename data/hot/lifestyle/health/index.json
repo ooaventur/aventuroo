@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "strong-friendships-may-literally-slow-aging-at-the-cellular-level-2025",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Strong friendships may literally slow aging at the cellular level",
+      "cover": "https://www.sciencedaily.com/images/1920/diverse-friends-together-happy.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/strong-friendships-may-literally-slow-aging-at-the-cellular-level-2025/",
+      "excerpt": "Strong friendships may literally slow aging at the cellular level | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research org…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092917.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "scientists-just-found-cancer-cells-hidden-power-source-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -529,10 +541,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
+  "count": 45,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 44,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "inside-the-chilling-story-of-ed-gein-s-furniture-and-how-the-serial-ki",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Inside The Chilling Story Of Ed Gein’s Furniture — And How The Serial Killer Created Household Items Out Of Human Body Parts",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/ed-gein-furniture.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-the-chilling-story-of-ed-gein-s-furniture-and-how-the-serial-ki/",
+      "excerpt": "The Horrific Story Of Ed Gein's Furniture Made From Human Skin All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside The Chilling Story Of Ed Gein’s Furniture — And How The Serial Killer Cre…",
+      "source": "https://allthatsinteresting.com/ed-gein-furniture",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "gray-barker-ufo-conspiracy-theorist-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -781,10 +793,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 65,
+  "count": 66,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 65,
+    "total_items": 66,
     "per_page": 12,
     "total_pages": 6
   }

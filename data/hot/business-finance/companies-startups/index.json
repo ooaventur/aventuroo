@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-young-minds-app-wants-to-protect-and-educate-children-online-and-w",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "The Young Minds App wants to protect and educate children online and will show its tech at TechCrunch Disrupt 2025",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/Nino-Dvalidze.jpg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/the-young-minds-app-wants-to-protect-and-educate-children-online-and-w/",
+      "excerpt": "The Young Minds App wants to protect and educate children online and will show its tech at TechCrunch Disrupt 2025 | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit …",
+      "source": "https://techcrunch.com/2025/10/05/the-young-minds-app-wants-to-protect-and-educate-children-online-and-will-show-its-tech-at-techcrunch-disrupt-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "techcrunch-mobility-toyota-makes-a-1-5b-bet-on-the-startup-ecosystem-2",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "TechCrunch Mobility: Toyota makes a $1.5B bet on the startup ecosystem",
+      "cover": "https://techcrunch.com/wp-content/uploads/2017/07/toyota-ai.png?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/techcrunch-mobility-toyota-makes-a-1-5b-bet-on-the-startup-ecosystem-2/",
+      "excerpt": "TechCrunch Mobility: Toyota makes a $1.5B bet on the startup ecosystem | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics L…",
+      "source": "https://techcrunch.com/2025/10/05/techcrunch-mobility-toyota-makes-a-1-5b-bet-on-the-startup-ecosystem/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-and-jony-ive-may-be-struggling-to-figure-out-their-ai-device-20",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "OpenAI and Jony Ive may be struggling to figure out their AI device",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/05/portrait.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/openai-and-jony-ive-may-be-struggling-to-figure-out-their-ai-device-20/",
+      "excerpt": "OpenAI and Jony Ive may be struggling to figure out their AI device | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Late…",
+      "source": "https://techcrunch.com/2025/10/05/openai-and-jony-ive-may-be-struggling-to-figure-out-their-ai-device/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "startups-and-the-u-s-government-it-s-getting-complicated-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -709,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
-  "updated_at": "2025-10-04",
+  "count": 62,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 59,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

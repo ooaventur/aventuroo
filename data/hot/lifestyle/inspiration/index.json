@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-three-elements-of-the-good-life-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "The Three Elements of the Good Life",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2014/02/self1.jpg?fit=600%2C315&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-three-elements-of-the-good-life-2025-10-05/",
+      "excerpt": "The Three Elements of the Good Life – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly two decades, it has remained free and ad-free and aliv…",
+      "source": "https://www.themarginalian.org/2025/10/05/carl-rogers-good-life/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "meta-s-new-business-ai-wants-to-be-your-24-7-sales-agent-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -577,11 +589,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 48,
-  "updated_at": "2025-10-04",
+  "count": 49,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 48,
+    "total_items": 49,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }
