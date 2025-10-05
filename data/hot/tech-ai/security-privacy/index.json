@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "openai-rolls-out-gpt-codex-alpha-with-early-access-to-new-models-2025",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "OpenAI rolls out GPT Codex Alpha with early access to new models",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/04/11/OpenAI-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/openai-rolls-out-gpt-codex-alpha-with-early-access-to-new-models-2025/",
+      "excerpt": "OpenAI rolls out GPT Codex Alpha with early access to new models News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach Git…",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-gpt-codex-alpha-with-early-access-to-new-models/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-prepares-4-chatgpt-go-for-several-new-countries-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -49,6 +61,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "leaked-apple-ipad-pro-m5-benchmark-shows-massive-improvements-2025-10",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Leaked Apple iPad Pro M5 benchmark shows massive improvements",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/07/28/Apple.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/leaked-apple-ipad-pro-m5-benchmark-shows-massive-improvements-2025-10/",
+      "excerpt": "Leaked Apple iPad Pro M5 benchmark shows massive improvements News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach GitLab…",
+      "source": "https://www.bleepingcomputer.com/news/technology/leaked-apple-ipad-pro-m5-benchmark-shows-massive-improvements/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hackers-steal-identifiable-discord-user-data-in-third-party-breach-202",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -58,6 +82,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-steal-identifiable-discord-user-data-in-third-party-breach-202/",
       "excerpt": "Hackers steal identifiable Discord user data in third-party breach News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach G…",
       "source": "https://www.bleepingcomputer.com/news/security/hackers-steal-identifiable-discord-user-data-in-third-party-breach/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "discord-discloses-data-breach-after-hackers-steal-support-tickets-2025",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Discord discloses data breach after hackers steal support tickets",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2020/11/13/Discord-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/discord-discloses-data-breach-after-hackers-steal-support-tickets-2025/",
+      "excerpt": "Discord discloses data breach after hackers steal support tickets News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers breach Gi…",
+      "source": "https://www.bleepingcomputer.com/news/security/discord-discloses-data-breach-after-hackers-steal-support-tickets/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chatgpt-social-could-be-a-thing-as-leak-shows-direct-messages-support",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "ChatGPT social could be a thing, as leak shows direct messages support",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/03/24/ChatGPT_headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chatgpt-social-could-be-a-thing-as-leak-shows-direct-messages-support/",
+      "excerpt": "ChatGPT social could be a thing, as leak shows direct messages support News Featured Latest Clop extortion emails claim theft of Oracle E-Business Suite data Windows 11 2025 Update (25H2) is now available, Here's what's new Red Hat confirms security incident after hackers brea…",
+      "source": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-social-could-be-a-thing-as-leak-shows-direct-messages-support/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1177,10 +1225,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 98,
+  "count": 102,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 98,
+    "total_items": 102,
     "per_page": 12,
     "total_pages": 9
   }

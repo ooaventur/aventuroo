@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 5966,
+  "total_items": 5991,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 415,
+      "items": 416,
       "pages": 35,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 58,
+          "items": 59,
           "pages": 5
         },
         {
@@ -36,13 +36,13 @@
     },
     {
       "parent": "crypto",
-      "items": 793,
+      "items": 794,
       "pages": 67,
       "children": [
         {
           "child": "altcoins-web3",
           "slug": "crypto/altcoins-web3",
-          "items": 42,
+          "items": 43,
           "pages": 4
         },
         {
@@ -73,13 +73,13 @@
     },
     {
       "parent": "culture-arts",
-      "items": 417,
+      "items": 420,
       "pages": 35,
       "children": [
         {
           "child": "arts",
           "slug": "culture-arts/arts",
-          "items": 181,
+          "items": 184,
           "pages": 16
         },
         {
@@ -110,8 +110,8 @@
     },
     {
       "parent": "entertainment",
-      "items": 1038,
-      "pages": 87,
+      "items": 1049,
+      "pages": 88,
       "children": [
         {
           "child": "cinematography",
@@ -140,14 +140,14 @@
         {
           "child": "trailers-latest",
           "slug": "entertainment/trailers-latest",
-          "items": 164,
+          "items": 168,
           "pages": 14
         },
         {
           "child": "tv-streaming",
           "slug": "entertainment/tv-streaming",
-          "items": 190,
-          "pages": 16
+          "items": 197,
+          "pages": 17
         }
       ]
     },
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 831,
+      "items": 836,
       "pages": 70,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 33,
+          "items": 34,
           "pages": 3
         },
         {
@@ -349,14 +349,14 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 98,
+          "items": 102,
           "pages": 9
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 652,
+      "items": 656,
       "pages": 55,
       "children": [
         {
@@ -374,7 +374,7 @@
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 42,
+          "items": 43,
           "pages": 4
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 64,
+          "items": 67,
           "pages": 6
         }
       ]

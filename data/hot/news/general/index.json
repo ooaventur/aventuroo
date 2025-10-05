@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "trump-authorises-deployment-of-300-national-guard-troops-to-chicago-20",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Trump authorises deployment of 300 National Guard troops to Chicago",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/c0dd/live/4ac49720-a187-11f0-b1c5-b56e9bf8a857.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/trump-authorises-deployment-of-300-national-guard-troops-to-chicago-20/",
+      "excerpt": "Trump authorises National Guard deployment to Chicago Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irela…",
+      "source": "https://www.bbc.com/news/articles/c2dnk0ee6pyo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "syria-holds-first-elections-since-assad-but-not-in-all-provinces-2025",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Syria holds first elections since Assad, but not in all provinces",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/2ba5/live/7fd003f0-a042-11f0-92db-77261a15b9d2.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/syria-holds-first-elections-since-assad-but-not-in-all-provinces-2025/",
+      "excerpt": "Syria holds first elections since Assad, but not in all provinces Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics Engl…",
+      "source": "https://www.bbc.com/news/articles/czrpx1vvr45o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "russia-ukraine-war-list-of-key-events-day-1-319-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Russia-Ukraine war: List of key events, day 1,319",
+      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-10-04T134956Z_2117962588_RC215HAFTD8C_RTRMADP_3_UKRAINE-CRISIS-ATTACK-SUMY-REGION-1759622173.jpg?resize=1200%2C630",
+      "canonical": "https://archive.aventuroo.com/news/general/russia-ukraine-war-list-of-key-events-day-1-319-2025-10-05/",
+      "excerpt": "Russia-Ukraine war: List of key events, day 1,319 | Russia-Ukraine war News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle East Explain…",
+      "source": "https://www.aljazeera.com/news/2025/10/5/russia-ukraine-war-list-of-key-events-day-1319?traffic_source=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "largest-us-lutheran-denomination-installs-first-black-presiding-bishop",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Largest US Lutheran denomination installs first Black presiding bishop",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5623x3163+0+0/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F2f%2Fd2ee577a46278a61b194936c7a6b%2Fap25269610503338.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/largest-us-lutheran-denomination-installs-first-black-presiding-bishop/",
+      "excerpt": "Largest US Lutheran denomination installs first Black presiding bishop : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World P…",
+      "source": "https://www.npr.org/2025/10/04/nx-s1-5562642/yehiel-curry-evangelical-lutheran-church-us-first-black-presiding-bishop",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "federal-judge-temporarily-blocks-trump-s-national-guard-deployment-to",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Federal judge temporarily blocks Trump's National Guard deployment to Portland",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F12%2F81%2F0632998d4b4c804c4f8b3a72f40c%2Fap25261057018396.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/federal-judge-temporarily-blocks-trump-s-national-guard-deployment-to/",
+      "excerpt": "Judge blocks Trump's National Guard deployment in Oregon : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Busine…",
+      "source": "https://www.npr.org/2025/10/04/nx-s1-5557239/trump-national-guard-portland-court-ruling",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wind-and-rain-warnings-as-storm-amy-hits-parts-of-uk-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -49,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trump-urges-hamas-to-move-quickly-on-gaza-peace-plan-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Trump urges Hamas to 'move quickly' on Gaza peace plan",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+0/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F49%2F0e26e31c467ab1cb13f4eaa76c29%2Fgettyimages-2237863015.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/trump-urges-hamas-to-move-quickly-on-gaza-peace-plan-2025-10-04/",
+      "excerpt": "Trump urges Hamas to 'move quickly' on Gaza peace plan : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Business…",
+      "source": "https://www.npr.org/2025/10/04/nx-s1-5562600/trump-hamas-gaza-peace-plan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-tells-israel-to-stop-bombing-gaza-after-hamas-agrees-to-release",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -58,6 +130,30 @@
       "canonical": "https://archive.aventuroo.com/news/general/trump-tells-israel-to-stop-bombing-gaza-after-hamas-agrees-to-release/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/2ffb2726-68cd-4934-b096-d40cbf7f9573",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "trump-authorises-national-guard-deployment-to-chicago-despite-objectio",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Trump authorises National Guard deployment to Chicago despite objections",
+      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/reuters_68e1a0bd-1759617213.jpg?resize=1920%2C1440",
+      "canonical": "https://archive.aventuroo.com/news/general/trump-authorises-national-guard-deployment-to-chicago-despite-objectio/",
+      "excerpt": "Trump authorises National Guard deployment to Chicago despite objections | Donald Trump News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Mi…",
+      "source": "https://www.aljazeera.com/news/2025/10/4/border-patrol-agents-shoot-woman-amid-chicago-immigration-protests?traffic_source=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tories-pledge-to-remove-750-000-migrants-under-borders-plan-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Tories pledge to remove 750,000 migrants under borders plan",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/8569/live/c19342e0-a14e-11f0-8a00-7f108f799fea.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/tories-pledge-to-remove-750-000-migrants-under-borders-plan-2025-10-04/",
+      "excerpt": "Conservatives pledge to remove 750,000 migrants under borders plan Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics Eng…",
+      "source": "https://www.bbc.com/news/articles/c708g5x2yqzo?at_medium=RSS&at_campaign=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -253,6 +349,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "netanyahu-says-he-hopes-to-announce-hostage-release-in-the-coming-days",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Netanyahu says he hopes to announce hostage release in the 'coming days'",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/1ec7/live/17f63870-a160-11f0-8480-e139cd7c3f3c.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/netanyahu-says-he-hopes-to-announce-hostage-release-in-the-coming-days/",
+      "excerpt": "Netanyahu says he hopes to announce hostage release in the 'coming days' Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politi…",
+      "source": "https://www.bbc.com/news/articles/c5yqv4lz0geo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "national-parks-caught-in-the-crosshairs-of-government-shutdown-2025-10",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "National parks caught in the crosshairs of government shutdown",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5659x3183+0+295/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2Fb7%2F7e6571b841c9a5a60ad1009bdb65%2Fap25274573890359.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/national-parks-caught-in-the-crosshairs-of-government-shutdown-2025-10/",
+      "excerpt": "National parks caught in the crosshairs of government shutdown : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics …",
+      "source": "https://www.npr.org/2025/10/04/nx-s1-5562507/national-parks-government-shutdown",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "munich-airport-resumes-operations-after-more-drone-sightings-halted-fl",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -385,6 +505,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "israel-pounds-gaza-killing-70-despite-trump-s-call-for-it-to-halt-bomb",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Israel pounds Gaza, killing 70, despite Trump’s call for it to halt bombing",
+      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/AA-20251003-39302047-39302017-ISRAELI_ATTACK_ON_OMAR_ALMUKHTAR_STREET_OF_GAZA_CITY-1759542585.jpg?resize=1920%2C1440",
+      "canonical": "https://archive.aventuroo.com/news/general/israel-pounds-gaza-killing-70-despite-trump-s-call-for-it-to-halt-bomb/",
+      "excerpt": "Israel pounds Gaza, killing 70, despite Trump’s call for it to halt bombing | Gaza News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle …",
+      "source": "https://www.aljazeera.com/news/2025/10/4/israel-pounds-gaza-killing-61-despite-trumps-call-for-it-to-halt-bombing?traffic_source=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "is-taylor-swift-s-new-song-actually-romantic-a-charli-xcx-diss-track-2",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -394,6 +526,18 @@
       "canonical": "https://archive.aventuroo.com/news/general/is-taylor-swift-s-new-song-actually-romantic-a-charli-xcx-diss-track-2/",
       "excerpt": "Taylor Swift diss track Actually Romantic rumoured to be about Charli XCX Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Polit…",
       "source": "https://www.bbc.com/news/articles/ckg24xvyzxwo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-an-end-to-war-in-sight-in-gaza-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Is an end to war in sight in Gaza?",
+      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/image-1759615391.jpg?resize=1920%2C1080&amp;quality=80",
+      "canonical": "https://archive.aventuroo.com/news/general/is-an-end-to-war-in-sight-in-gaza-2025-10-04/",
+      "excerpt": "Is an end to war in sight in Gaza? | Gaza | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle East Explained Opinion Sport Video More Show m…",
+      "source": "https://www.aljazeera.com/video/inside-story/2025/10/4/is-an-end-to-war-in-sight-in-gaza?traffic_source=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -514,6 +658,30 @@
       "canonical": "https://archive.aventuroo.com/news/general/eurosceptic-babi-on-course-to-win-power-in-czech-election-2025-10-04/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/d7c8ca34-73f9-48bb-a4d3-d5834653ecf0",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "environment-prize-nominees-heroes-of-our-time-says-william-2025-10-04",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Environment prize nominees 'heroes of our time', says William",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/86a5/live/4f93edc0-a16c-11f0-b741-177e3e2c2fc7.jpg",
+      "canonical": "https://archive.aventuroo.com/news/general/environment-prize-nominees-heroes-of-our-time-says-william-2025-10-04/",
+      "excerpt": "Earthshot prize: Prince William to travel to Brazil for awards ceremony Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politic…",
+      "source": "https://www.bbc.com/news/articles/cz08591znr8o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chelsea-s-estevao-defeats-liverpool-with-late-goal-to-leave-arsenal-to",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Chelsea’s Estevao defeats Liverpool with late goal to leave Arsenal top",
+      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-10-04T184244Z_343998433_UP1ELA41FZ71B_RTRMADP_3_SOCCER-ENGLAND-CHE-LIV-1759603774.jpg?resize=1920%2C1440",
+      "canonical": "https://archive.aventuroo.com/news/general/chelsea-s-estevao-defeats-liverpool-with-late-goal-to-leave-arsenal-to/",
+      "excerpt": "Chelsea’s Estevao defeats Liverpool with late goal to leave Arsenal top | Football News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle …",
+      "source": "https://www.aljazeera.com/sports/2025/10/4/chelsea-beat-liverpool-with-late-estevao-goal-as-arsenal-top-premier-league?traffic_source=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2711,178 +2879,10 @@
       "excerpt": "PSG defeat Barcelona in Champions League after late Goncalo Ramos winner | Football News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle…",
       "source": "https://www.aljazeera.com/sports/2025/10/1/psg-beat-barcelona-for-winning-start-to-champions-league-defence?traffic_source=rss",
       "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "protesters-and-police-clash-as-morocco-unrest-escalates-2025-10-01",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Protesters and police clash as Morocco unrest escalates",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/image-1759350389.jpg?resize=1620%2C1080&amp;quality=80",
-      "canonical": "https://archive.aventuroo.com/news/general/protesters-and-police-clash-as-morocco-unrest-escalates-2025-10-01/",
-      "excerpt": "Protesters and police clash as Morocco unrest escalates | Protests | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle East Explained Opinio…",
-      "source": "https://www.aljazeera.com/video/newsfeed/2025/10/1/protesters-and-police-clash-as-morocco-unrest-escalates?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "ppe-medpro-must-repay-122mn-over-substandard-covid-gowns-high-court-ru",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "PPE Medpro must repay £122mn over substandard Covid gowns, High Court rules",
-      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa75d42b2-bdc7-4f43-abb0-9fc49ed30d3d.jpg?source=next-home-page&dpr=2&width=1600&fit=scale-down",
-      "canonical": "https://archive.aventuroo.com/news/general/ppe-medpro-must-repay-122mn-over-substandard-covid-gowns-high-court-ru/",
-      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
-      "source": "https://www.ft.com/content/998e455c-dfa0-40f1-aa77-beacef5aca91",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "pope-leo-xiv-says-inhuman-treatment-of-immigrants-in-the-u-s-isn-t-pro",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Pope Leo XIV says 'inhuman treatment of immigrants' in the U.S. isn't 'pro-life'",
-      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5888x3312+0+0/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F34%2F76%2Fa1f0d5254d75b98885976d0c572b%2Fap25274289345422.jpg",
-      "canonical": "https://archive.aventuroo.com/news/general/pope-leo-xiv-says-inhuman-treatment-of-immigrants-in-the-u-s-isn-t-pro/",
-      "excerpt": "Pope Leo XIV says 'inhuman treatment of immigrants' in the U.S. isn't 'pro-life' : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News Nation…",
-      "source": "https://www.npr.org/2025/10/01/nx-s1-5560169/pope-leo-xiv-says-inhuman-treatment-of-immigrants-in-the-u-s-isnt-pro-life",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "polarised-politics-to-blame-for-us-govt-shutdown-2025-10-01",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "“Polarised” politics to blame for US govt shutdown",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/niall-horz-1759316785.jpg?resize=1920%2C1080&amp;quality=80",
-      "canonical": "https://archive.aventuroo.com/news/general/polarised-politics-to-blame-for-us-govt-shutdown-2025-10-01/",
-      "excerpt": "“Polarised” politics to blame for US govt shutdown | Donald Trump | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle East Explained Opinion…",
-      "source": "https://www.aljazeera.com/video/quotable/2025/10/1/polarised-politics-to-blame-for-us-govt-shutdown?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "over-90-people-believed-buried-under-rubble-after-indonesia-school-col",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Over 90 people believed buried under rubble after Indonesia school collapse",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-09-30T033927Z_1802898610_RC202HAAG75S_RTRMADP_3_INDONESIA-DISASTER-1759284506.jpg?resize=1920%2C1440",
-      "canonical": "https://archive.aventuroo.com/news/general/over-90-people-believed-buried-under-rubble-after-indonesia-school-col/",
-      "excerpt": "Over 90 people believed buried under rubble after Indonesia school collapse | Education News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Mi…",
-      "source": "https://www.aljazeera.com/news/2025/10/1/over-90-people-believed-buried-under-rubble-after-indonesia-school-collapse?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "new-trump-executive-order-guarantees-qatar-security-after-israeli-atta",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "New Trump executive order guarantees Qatar security after Israeli attack",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/09/2025-09-09T151951Z_2_LWD346609092025RP1_RTRWNEV_C_3466-QATAR-SECURITY-AFTERMATH-1757449759.jpg?resize=1920%2C1080&amp;quality=80",
-      "canonical": "https://archive.aventuroo.com/news/general/new-trump-executive-order-guarantees-qatar-security-after-israeli-atta/",
-      "excerpt": "New Trump executive order guarantees Qatar security after Israeli attack | Donald Trump News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Mi…",
-      "source": "https://www.aljazeera.com/news/2025/10/1/new-trump-executive-order-guarantees-qatar-security-after-israeli-attack?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "mbappe-scores-hat-trick-as-real-madrid-dominates-kairat-in-champions-l",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Mbappe scores hat-trick as Real Madrid dominates Kairat in Champions League",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/AFP__20250930__77AR28L__v1__HighRes__FblEurC1KairatAlmatyRealMadrid-1759294788.jpg?resize=1920%2C1406",
-      "canonical": "https://archive.aventuroo.com/news/general/mbappe-scores-hat-trick-as-real-madrid-dominates-kairat-in-champions-l/",
-      "excerpt": "Mbappe scores hat-trick as Real Madrid dominates Kairat in Champions League | Football News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Mid…",
-      "source": "https://www.aljazeera.com/sports/2025/10/1/mbappe-scores-hat-trick-as-real-madrid-dominates-kairat-in-champions-league?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "live-us-government-shutdown-starts-as-trump-threatens-mass-layoffs-202",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "LIVE: US government shutdown starts as Trump threatens mass layoffs",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/AP25274003537859-1759291847.jpg?resize=1920%2C1440",
-      "canonical": "https://archive.aventuroo.com/news/general/live-us-government-shutdown-starts-as-trump-threatens-mass-layoffs-202/",
-      "excerpt": "LIVE: US government shutdown starts as Trump threatens mass layoffs | Government News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle Ea…",
-      "source": "https://www.aljazeera.com/news/liveblog/2025/10/1/live-us-government-shuts-down-starts-as-trump-threatens-mass-layoffs?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "kimmel-and-colbert-appear-as-guests-on-each-other-s-shows-2025-10-01",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Kimmel and Colbert appear as guests on each other's shows",
-      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2500x1406+0+130/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbb%2Ffb%2F8dd73982430ba430cffa32c60769%2F3116179-0319.jpg",
-      "canonical": "https://archive.aventuroo.com/news/general/kimmel-and-colbert-appear-as-guests-on-each-other-s-shows-2025-10-01/",
-      "excerpt": "Kimmel and Colbert appear as guests on each other’s shows : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Busin…",
-      "source": "https://www.npr.org/2025/10/01/g-s1-91403/kimmel-colbert-guests-each-others-shows",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "jpmorgan-takes-on-hargreaves-lansdown-in-the-uk-with-diy-investment-pu",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "JPMorgan takes on Hargreaves Lansdown in the UK with ‘DIY’ investment push",
-      "cover": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8fe37d8a-01ed-4aae-9fe7-2502bc52db4d.jpg?source=next-home-page&dpr=2&width=1600&fit=scale-down",
-      "canonical": "https://archive.aventuroo.com/news/general/jpmorgan-takes-on-hargreaves-lansdown-in-the-uk-with-diy-investment-pu/",
-      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
-      "source": "https://www.ft.com/content/c5d587fd-3f48-47d8-b699-7c1f0e0052f8",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "jane-fonda-calls-for-creative-nonviolent-noncooperation-to-defend-free",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Jane Fonda calls for 'creative nonviolent noncooperation' to defend free speech",
-      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
-      "canonical": "https://archive.aventuroo.com/news/general/jane-fonda-calls-for-creative-nonviolent-noncooperation-to-defend-free/",
-      "excerpt": "Jane Fonda calls for 'creative nonviolent noncooperation' to defend free speech : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News Nationa…",
-      "source": "https://www.npr.org/2025/10/01/nx-s1-5559359/jane-fonda-calls-for-creative-nonviolent-noncooperation-to-defend-free-speech",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "israeli-forces-board-gaza-flotilla-detain-greta-thunberg-other-activis",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Israeli forces board Gaza flotilla, detain Greta Thunberg, other activists",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-10-01T181957Z_1983963755_RC263HAORK1I_RTRMADP_3_ISRAEL-PALESTINIANS-SUMUD-FLOTILLA-1759343509.jpg?resize=1200%2C675",
-      "canonical": "https://archive.aventuroo.com/news/general/israeli-forces-board-gaza-flotilla-detain-greta-thunberg-other-activis/",
-      "excerpt": "Israeli forces board Gaza flotilla, detain Greta Thunberg, other activists | Gaza News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle E…",
-      "source": "https://www.aljazeera.com/news/2025/10/1/israeli-forces-board-gaza-flotilla-detain-greta-thunberg-other-activists?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "israel-kills-journalist-yahia-barzaq-known-for-his-newborn-baby-portra",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Israel kills journalist Yahia Barzaq known for his newborn baby portraits",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/image-1759356957.jpg?resize=1920%2C1080&amp;quality=80",
-      "canonical": "https://archive.aventuroo.com/news/general/israel-kills-journalist-yahia-barzaq-known-for-his-newborn-baby-portra/",
-      "excerpt": "Israel kills journalist Yahia Barzaq known for his newborn baby portraits | Gaza | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pacific Middle East Ex…",
-      "source": "https://www.aljazeera.com/video/newsfeed/2025/10/1/israel-kills-journalist-yahia-barzaq-known-for-his-newborn-baby-portraits?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "israel-intercepts-gaza-sumud-flotilla-vessels-what-we-know-so-far-2025",
-      "date": "2025-10-01",
-      "published_at": "2025-10-01T00:00:00Z",
-      "created_at": "2025-10-01T00:00:00Z",
-      "title": "Israel intercepts Gaza Sumud flotilla vessels: What we know so far",
-      "cover": "https://www.aljazeera.com/wp-content/uploads/2025/10/2025-10-01T200210Z_254592667_RC273HAWSAU7_RTRMADP_3_ISRAEL-PALESTINIANS-FLOTILLA-GREECE-1759360619.jpg?resize=1920%2C1440",
-      "canonical": "https://archive.aventuroo.com/news/general/israel-intercepts-gaza-sumud-flotilla-vessels-what-we-know-so-far-2025/",
-      "excerpt": "Israel intercepts Gaza Sumud flotilla vessels: What we know so far | Israel-Palestine conflict News | Al Jazeera Skip links Skip to Content play Live Sign up Show navigation menu Navigation menu News Show more news sections Africa Asia US & Canada Latin America Europe Asia Pac…",
-      "source": "https://www.aljazeera.com/news/2025/10/1/israel-intercepts-gaza-sumud-flotilla-vessels-what-we-know-so-far?traffic_source=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
   "count": 240,
-  "updated_at": "2025-10-04",
+  "updated_at": "2025-10-05",
   "pagination": {
     "total_items": 240,
     "per_page": 12,

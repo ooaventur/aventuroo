@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3448,
+  "total_items": 3458,
   "shards": [
     {
       "parent": "business-finance",
@@ -1984,6 +1984,19 @@
       "child": "experiences",
       "slug": "travel/experiences",
       "year": 2023,
+      "month": 3,
+      "path": "travel/experiences/2023/03/index.json",
+      "path_gz": "travel/experiences/2023/03/index.json.gz",
+      "items": 5,
+      "first_date": "2023-03-08",
+      "last_date": "2023-03-26",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2023,
       "month": 4,
       "path": "travel/experiences/2023/04/index.json",
       "path_gz": "travel/experiences/2023/04/index.json.gz",
@@ -2543,11 +2556,24 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "year": 2023,
+      "month": 3,
+      "path": "travel/trip-ideas/2023/03/index.json",
+      "path_gz": "travel/trip-ideas/2023/03/index.json.gz",
+      "items": 3,
+      "first_date": "2023-03-28",
+      "last_date": "2023-03-31",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2023,
       "month": 4,
       "path": "travel/trip-ideas/2023/04/index.json",
       "path_gz": "travel/trip-ideas/2023/04/index.json.gz",
-      "items": 4,
-      "first_date": "2023-04-20",
+      "items": 6,
+      "first_date": "2023-04-04",
       "last_date": "2023-04-29",
       "pages": 1
     },

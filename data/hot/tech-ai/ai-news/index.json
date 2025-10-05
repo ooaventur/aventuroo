@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "google-proposes-tumix-multi-agent-test-time-scaling-with-tool-use-mixt",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "Google Proposes TUMIX: Multi-Agent Test-Time Scaling With Tool-Use Mixture",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-12.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-proposes-tumix-multi-agent-test-time-scaling-with-tool-use-mixt/",
+      "excerpt": "Google Proposes TUMIX: Multi-Agent Test-Time Scaling With Tool-Use Mixture - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusive ar…",
+      "source": "https://www.marktechpost.com/2025/10/04/google-proposes-tumix-multi-agent-test-time-scaling-with-tool-use-mixture/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "can-a-small-language-model-predict-kernel-latency-memory-and-model-acc",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -397,10 +409,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
+  "count": 34,
   "updated_at": "2025-10-04",
   "pagination": {
-    "total_items": 33,
+    "total_items": 34,
     "per_page": 12,
     "total_pages": 3
   }
