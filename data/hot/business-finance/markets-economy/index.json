@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "argentina-s-wily-currency-traders-drain-javier-milei-s-dollars-2025-10",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Argentina’s wily currency traders drain Javier Milei’s dollars",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7ce2c201-192e-4348-ab0c-1fc4fcd5cc14.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/argentina-s-wily-currency-traders-drain-javier-milei-s-dollars-2025-10/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/04259ad9-b53a-4575-bb06-852735b878ed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "esg-might-be-more-resilient-than-critics-expect-2025-10-04",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -565,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 47,
-  "updated_at": "2025-10-04",
+  "count": 48,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 47,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

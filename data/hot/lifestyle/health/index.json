@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "this-new-semaglutide-dose-helped-nearly-half-of-patients-lose-20-body",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "This new semaglutide dose helped nearly half of patients lose 20% body weight",
+      "cover": "https://www.sciencedaily.com/images/1920/smiling-woman-holding-jeans-weight-loss.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/this-new-semaglutide-dose-helped-nearly-half-of-patients-lose-20-body/",
+      "excerpt": "This new semaglutide dose helped nearly half of patients lose 20% body weight | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from …",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092913.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "think-light-drinking-protects-your-brain-think-again-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Think light drinking protects your brain? Think again",
+      "cover": "https://www.sciencedaily.com/images/1920/human-brain-in-alcohol-glass.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/think-light-drinking-protects-your-brain-think-again-2025-10-05/",
+      "excerpt": "Think light drinking protects your brain? Think again | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations T…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092919.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hidden-cellular-power-switch-could-transform-parkinson-s-treatment-202",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Hidden cellular “power switch” could transform Parkinson’s treatment",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-neuron-cell-close-up.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/hidden-cellular-power-switch-could-transform-parkinson-s-treatment-202/",
+      "excerpt": "Hidden cellular “power switch” could transform Parkinson’s treatment | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research …",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251004092903.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-chaos-enzyme-may-hold-the-key-to-stopping-cancer-spread-2025-10-0",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -469,10 +505,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 39,
-  "updated_at": "2025-10-04",
+  "count": 42,
+  "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 39,
+    "total_items": 42,
     "per_page": 12,
     "total_pages": 4
   }
