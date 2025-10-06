@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "ukraine-asks-for-flexibility-in-spending-140bn-russian-asset-loan-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Ukraine asks for flexibility in spending €140bn Russian asset loan",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4d0f4365-9cfa-41c3-98d6-46203ce89e81.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/ukraine-asks-for-flexibility-in-spending-140bn-russian-asset-loan-2025/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/d6391320-0bf7-4346-b7cc-2bc49b7b5f51",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "risk-management-property-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Risk Management: Property",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff153c810-9b0c-4e74-8fce-a6943ab20535.jpg?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/news/economy/risk-management-property-2025-10-06/",
+      "excerpt": "Risk Management: Property Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle E…",
+      "source": "https://www.ft.com/reports/risk-management-property",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "making-do-without-public-data-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Making do without public data",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4f2834ec-dc42-44ca-8317-d42a620a884f.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/making-do-without-public-data-2025-10-06/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/37ed584e-2fd7-421c-afc1-d6f0b40cd658",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "firstft-gold-in-record-breaking-rally-as-investors-fear-missing-out-20",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "FirstFT: Gold in record-breaking rally as investors fear missing out",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa1d28023-a649-4749-830d-157d369baa5b.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/firstft-gold-in-record-breaking-rally-as-investors-fear-missing-out-20/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/955a7c25-8049-445e-a258-2ffce49a776e",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "aston-martin-issues-profit-warning-citing-us-tariff-impact-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Aston Martin issues profit warning citing US tariff impact",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc88e1d9a-4916-425b-9150-d14931d9d986.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/aston-martin-issues-profit-warning-citing-us-tariff-impact-2025-10-06/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/dd5bee6b-87cb-4fde-aabb-3db5d5173947",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wto-clings-to-signs-trump-still-needs-it-sometimes-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1585,11 +1645,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 132,
-  "updated_at": "2025-10-05",
+  "count": 137,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 132,
+    "total_items": 137,
     "per_page": 12,
-    "total_pages": 11
+    "total_pages": 12
   }
 }

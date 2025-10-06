@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "kremlin-backed-crypto-coin-moves-6bn-despite-us-sanctions-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Kremlin-backed crypto coin moves $6bn despite US sanctions",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5a1720ae-1902-450f-9a23-c32131919e10.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/kremlin-backed-crypto-coin-moves-6bn-despite-us-sanctions-2025-10-06/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/5eff10ae-aa4c-4756-a807-6635a4762166",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-growing-rice-differently-could-ease-climate-change-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "How growing rice differently could ease climate change",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F22f0a803-4dc3-4897-ad0b-d396d1431808.gif?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/how-growing-rice-differently-could-ease-climate-change-2025-10-06/",
+      "excerpt": "How growing rice differently could ease climate change Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World…",
+      "source": "https://www.ft.com/content/53f1a080-5dbb-499e-a6d1-5f39e1ff49c7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "america-s-economy-needs-expanded-deposit-insurance-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "America’s economy needs expanded deposit insurance",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9533d238-b0ef-497e-8fa8-73ac2a59a73b.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/america-s-economy-needs-expanded-deposit-insurance-2025-10-06/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/526ff07f-eb69-403c-9715-8dd27a910ec1",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "opec-agrees-modest-output-rise-after-market-jitters-over-larger-move-2",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -589,10 +625,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 49,
-  "updated_at": "2025-10-05",
+  "count": 52,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 49,
+    "total_items": 52,
     "per_page": 12,
     "total_pages": 5
   }

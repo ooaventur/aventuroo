@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "taylor-s-showgirl-weekend-totals-33m-box-office-2-7m-day-one-album-sal",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Taylor’s ‘Showgirl’ Weekend Totals: $33M Box Office, 2.7M Day-One Album Sales Plus Sizable Vinyl Sales",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/10/taylor-swift-showgirl-launch-weekend-totals.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/taylor-s-showgirl-weekend-totals-33m-box-office-2-7m-day-one-album-sal/",
+      "excerpt": "Taylor’s ‘Showgirl’ Weekend Totals: $33M Box Office, 2.7M Sales SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Mus…",
+      "source": "https://www.digitalmusicnews.com/2025/10/05/taylor-showgirl-weekend-totals/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "spotify-s-stock-is-slipping-after-a-goldman-sachs-downgrade-and-ceo-sw",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Spotify’s Stock Is Slipping After a Goldman Sachs Downgrade and CEO Switch-Up",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/10/spotify-stock-slips-after-ceo-switch.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/spotify-s-stock-is-slipping-after-a-goldman-sachs-downgrade-and-ceo-sw/",
+      "excerpt": "Spotify Stock Slips After Goldman Sachs Downgrade, CEO Leaving SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musi…",
+      "source": "https://www.digitalmusicnews.com/2025/10/05/spotify-stock-slips-goldman-sachs-downgrade/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "outrage-simmers-over-tina-turner-statue-in-memphis-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Outrage Simmers Over Tina Turner Statue in Memphis",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/10/outrage-over-memphis-tina-turner-statue.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/outrage-simmers-over-tina-turner-statue-in-memphis-2025-10-06/",
+      "excerpt": "Outrage Simmers Over Tina Turner Statue in Memphis Categories Music Industry News Information For Musicians Music Tech Entertainment Law Compliance Pop Culture DMN Pro Jobs Listings Vice President, Global Head of Fraud Prevention Sales Executive More Jobs Music Trends DMN TV A…",
+      "source": "https://www.digitalmusicnews.com/2025/10/05/outrage-simmers-over-tina-turner-statue-in-memphis/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-bad-bunny-playing-the-super-bowl-really-a-big-deal-depends-on-who-y",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Is Bad Bunny Playing the Super Bowl Really a Big Deal? Depends on Who You Ask—But Advertisers Don’t Think So",
+      "cover": "https://www.digitalmusicnews.com/wp-content/uploads/2025/10/bad-bunny-super-bowl-outrage.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/audio-creator/is-bad-bunny-playing-the-super-bowl-really-a-big-deal-depends-on-who-y/",
+      "excerpt": "Is Bad Bunny Playing the Super Bowl Really a Big Deal? SUBSCRIBE LOG IN Log In Lost your password? Register Lost your password? Register Stripe Customer ID Stripe Customer ID A password will be e-mailed to you. Search Categories Music Industry News Information For Musicians Mu…",
+      "source": "https://www.digitalmusicnews.com/2025/10/05/bad-bunny-super-bowl-comments/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "some-riffs-just-have-that-big-swing-to-them-you-can-definitely-hear-th",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1873,11 +1921,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 156,
-  "updated_at": "2025-10-05",
+  "count": 160,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 156,
+    "total_items": 160,
     "per_page": 12,
-    "total_pages": 13
+    "total_pages": 14
   }
 }

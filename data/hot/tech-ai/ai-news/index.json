@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "streamtensor-a-pytorch-to-accelerator-compiler-that-streams-llm-interm",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "StreamTensor: A PyTorch-to-Accelerator Compiler that Streams LLM Intermediates Across FPGA Dataflows",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-17.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/streamtensor-a-pytorch-to-accelerator-compiler-that-streams-llm-interm/",
+      "excerpt": "StreamTensor: A PyTorch-to-Accelerator Compiler that Streams LLM Intermediates Across FPGA Dataflows - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Con…",
+      "source": "https://www.marktechpost.com/2025/10/05/streamtensor-a-pytorch-to-accelerator-compiler-that-streams-llm-intermediates-across-fpga-dataflows/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-ai-paper-proposes-a-novel-dual-branch-encoder-decoder-architectur",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -469,10 +481,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 39,
-  "updated_at": "2025-10-05",
+  "count": 40,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 39,
+    "total_items": 40,
     "per_page": 12,
     "total_pages": 4
   }

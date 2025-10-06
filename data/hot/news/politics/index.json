@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "voting-underway-on-new-maps-that-could-swing-us-house-control-check-tr",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Voting underway on new maps that could swing US House control, check Trump's power",
+      "cover": "https://s.abcnews.com/images/Politics/wirestory_43868bbcfb81cf2b1ef5d2862b2665a9_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/voting-underway-on-new-maps-that-could-swing-us-house-control-check-tr/",
+      "excerpt": "Voting underway on new maps that could swing US House control, check Trump's power - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Vo…",
+      "source": "https://abcnews.go.com/Politics/wireStory/voting-underway-california-new-maps-swing-us-house-126241676",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "young-tories-rate-kemi-badenoch-s-first-year-as-leader-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1657,10 +1669,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 138,
-  "updated_at": "2025-10-05",
+  "count": 139,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 138,
+    "total_items": 139,
     "per_page": 12,
     "total_pages": 12
   }
