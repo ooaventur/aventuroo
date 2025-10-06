@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "vertical-morality-might-describe-why-maga-christians-seem-so-unchristi",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "‘Vertical Morality’ Might Describe Why MAGA Christians Seem So Unchristian",
+      "cover": "https://img.huffingtonpost.com/asset/68defae9180000cb7e5d0f33.jpeg?cache=pga07DKRwK&amp;ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/vertical-morality-might-describe-why-maga-christians-seem-so-unchristi/",
+      "excerpt": "The Reason Behind MAGA Christians' Un-Christian Actions | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Celebrity TV …",
+      "source": "https://www.huffpost.com/entry/vertical-morality-maga-christians_n_68dc8386e4b0b11989f00fb8",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-horoscope-this-week-october-5-to-11-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -397,10 +409,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
-  "updated_at": "2025-10-05",
+  "count": 34,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 33,
+    "total_items": 34,
     "per_page": 12,
     "total_pages": 3
   }

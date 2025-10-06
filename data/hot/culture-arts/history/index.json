@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "britain-s-female-slaveowners-the-heiresses-who-made-fortunes-from-ensl",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Britain's female slaveowners: the heiresses who made fortunes from enslavement",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Miranda-Kaufmann-Britains-female-slaveowners-WL-AN-79b05ce.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/britain-s-female-slaveowners-the-heiresses-who-made-fortunes-from-ensl/",
+      "excerpt": "Britain's female slaveowners: the heiresses who made fortunes from enslavement | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo…",
+      "source": "https://www.historyextra.com/membership/britains-female-slaveowners-podcast-miranda-kauffman/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "roman-homes-everything-you-wanted-to-know-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -841,10 +853,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
-  "updated_at": "2025-10-05",
+  "count": 71,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 70,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }

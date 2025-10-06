@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "where-to-play-eat-and-stay-on-a-trip-to-the-alamo-in-san-antonio-texas",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Where to Play, Eat, and Stay on a Trip to The Alamo in San Antonio, Texas",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/What-to-do-in-The-Alamo-San-Antonio-social.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/where-to-play-eat-and-stay-on-a-trip-to-the-alamo-in-san-antonio-texas/",
+      "excerpt": "Visiting The Alamo in San Antonio: Where to Play, Eat, and Stay Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires …",
+      "source": "https://matadornetwork.com/read/visiting-the-alamo/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-family-hotels-in-sri-lanka-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "The best family hotels in Sri Lanka",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2025/october/uga-chena-huts-sri-lanka-family-lead.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-family-hotels-in-sri-lanka-2025-10-06/",
+      "excerpt": "Best family-friendly hotels in Sri Lanka | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/asia/sri-lanka/articles/best-family-friendly-hotels-sri-lanka/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "new-2026-flights-will-make-seeing-egypt-s-pyramids-easier-than-ever-20",
       "date": "2025-10-04",
       "published_at": "2025-10-04T00:00:00Z",
@@ -337,10 +361,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 28,
-  "updated_at": "2025-10-04",
+  "count": 30,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 28,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

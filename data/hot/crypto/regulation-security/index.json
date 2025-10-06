@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sanctioned-a7a5-becomes-largest-non-us-dollar-stablecoin-data-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Sanctioned A7A5 becomes largest non-US dollar stablecoin: Data",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDUvMDE5NjhmOTItNWIyNC03ZDUxLThlOGEtZmUyZTYzMDhmMmEz.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sanctioned-a7a5-becomes-largest-non-us-dollar-stablecoin-data-2025-10/",
+      "excerpt": "A7A5 Becomes Top Non-Dollar Stablecoin Amid Sanctions Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Helen Partz 4 hours ago Sanctioned A7A5 becomes largest non-US dollar stablecoin: Data Despite sanctions and scrutiny, the ruble-backed A7A5 …",
+      "source": "https://cointelegraph.com/news/sanctioned-a7a5-largest-non-us-dollar-stablecoin?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "no-companies-apply-for-vietnam-crypto-pilot-amid-high-barriers-2025-10",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -22,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/japan-s-new-pm-may-be-a-boon-for-risk-assets-crypto-markets-2025-10-06/",
       "excerpt": "Japan's New PM: Boon For Crypto Markets, Risk Assets Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Zoltan Vardai 2 hours ago Japan’s new PM may be a boon for risk assets, crypto markets Japan’s new prime minister may drive a renewed wave of risk appet…",
       "source": "https://cointelegraph.com/news/japan-new-pm-boon-risk-assets-crypto-markets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "eu-eyes-crypto-oversight-under-esma-to-end-fragmented-supervision-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "EU eyes crypto oversight under ESMA to end fragmented supervision",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWJhMjUtNzM2Zi03OGM2LTg1MWUtYTYzMTJjNzEyMzUy.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/eu-eyes-crypto-oversight-under-esma-to-end-fragmented-supervision-2025/",
+      "excerpt": "EU Eyes Central Crypto Oversight as MiCA Faces Tensions Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Sam Bourgi 3 hours ago EU eyes crypto oversight under ESMA to end fragmented supervision ESMA moves to take direct control of crypto oversi…",
+      "source": "https://cointelegraph.com/news/eu-crypto-oversight-esma-fragmented-supervision?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "crypto-s-meteoric-rise-could-make-or-break-africa-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Crypto’s meteoric rise could make or break Africa",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDUvMDE5NzExMDQtODc1Ni03OTliLTk5ODEtODIwOWQ5NzBmNTdj.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-s-meteoric-rise-could-make-or-break-africa-2025-10-06/",
+      "excerpt": "Crypto’s Meteoric Rise Could Make Or Break Africa Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Ure Utah 5 hours ago Crypto’s meteoric rise could make or break Africa Africa stands at a crossroads: harness cryptocurrency’s $4-trillion potent…",
+      "source": "https://cointelegraph.com/news/crypto-make-or-break-africa?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -409,11 +445,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 34,
+  "count": 37,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 34,
+    "total_items": 37,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "new-research-reveals-what-s-really-hiding-in-bottled-water-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "New research reveals what’s really hiding in bottled water",
+      "cover": "https://www.sciencedaily.com/images/1920/microplastic-pollution-water-sample.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-research-reveals-what-s-really-hiding-in-bottled-water-2025-10-06/",
+      "excerpt": "New research reveals what’s really hiding in bottled water | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizati…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251006051131.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "nearly-half-of-drivers-killed-in-crashes-had-thc-in-their-blood-2025-1",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -625,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 52,
+  "count": 53,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 52,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

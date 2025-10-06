@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "turkey-s-halkbank-faces-criminal-charges-after-us-supreme-court-reject",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Turkey’s Halkbank faces criminal charges after US Supreme Court rejects appeal",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4cf43dac-1105-4f38-9ce1-af64922fdf09.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/turkey-s-halkbank-faces-criminal-charges-after-us-supreme-court-reject/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/74f1536f-c89f-4eaa-bfa4-0a2a2d933c48",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "shawbrook-to-float-in-london-in-boost-to-struggling-market-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -649,10 +661,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 55,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 54,
+    "total_items": 55,
     "per_page": 12,
     "total_pages": 5
   }

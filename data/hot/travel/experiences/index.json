@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "trolltrappan-in-sweden-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Trolltrappan in Sweden",
+      "cover": "https://img.atlasobscura.com/4wsnccqWdMOucX8jfhBypCyjJuAzazEzldGcn08Kxhg/rt:fit/w:600/c:1803:1202:nowe:691:641/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8zYTEx/OTliZS04NGViLTQ1/NDctYTEzZS1kMDJi/N2JhMzY2ZjFkZjY1/NjYzMzk3NTdkMmJh/N2RfSU1HMjAyNTA4/MDMxMzQ0NDYuanBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/trolltrappan-in-sweden-2025-10-06/",
+      "excerpt": "Trolltrappan - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon--navb…",
+      "source": "https://www.atlasobscura.com/places/trolltrappan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "port-melbourne-lighthouses-in-port-melbourne-australia-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Port Melbourne Lighthouses in Port Melbourne, Australia",
+      "cover": "https://img.atlasobscura.com/sG5xdfhgtmfj2LF_oI-c-W9Htw70vaNdkv4evlkgXJc/rt:fit/w:600/c:5297:3531:nowe:372:205/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80NTRi/ZTY1Ni1iMDUxLTQy/ZGYtYTczZC03NzVj/ZjNiZmViYTM3OWVk/NTNiM2U3NTk4NTIw/OThfRFNDXzY3NTku/SlBH.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/port-melbourne-lighthouses-in-port-melbourne-australia-2025-10-06/",
+      "excerpt": "Port Melbourne Lighthouses - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-…",
+      "source": "https://www.atlasobscura.com/places/port-melbourne-beacons",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "grave-of-howard-hughes-in-houston-texas-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Grave of Howard Hughes  in Houston, Texas",
+      "cover": "https://img.atlasobscura.com/SOcpuFjd0-WdiiLwNdmp3ViMmtkM4Llb8JvOK0AT5Xs/rt:fit/w:600/c:3485:2323:nowe:302:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9iZjUy/M2MxOS1mMzg3LTRk/NTEtODBjMC1iYzk5/ZmIxZDQ1MGI3OThl/ZDgyYTE5NDAxMjY4/YWRfSG93YXJkX0h1/Z2hlc19HcmF2ZXNp/dGUuanBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/grave-of-howard-hughes-in-houston-texas-2025-10-06/",
+      "excerpt": "Grave of Howard Hughes - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" >…",
+      "source": "https://www.atlasobscura.com/places/grave-of-howard-hughes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-most-mysterious-place-you-can-visit-in-every-us-state-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -121,11 +157,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 10,
-  "updated_at": "2025-10-02",
+  "count": 13,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 10,
+    "total_items": 13,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 2
   }
 }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-best-filtered-water-bottles-for-fresh-drinking-water-anywhere-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "The Best Filtered Water Bottles for Fresh, Drinking Water Anywhere (2025)",
+      "cover": "https://assets.bonappetit.com/photos/68e3e57fab7f157d6126cff7/master/pass/10.06_BA_Best_filtered_water_bottle_lede_image.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-filtered-water-bottles-for-fresh-drinking-water-anywhere-2025/",
+      "excerpt": "The Best Filtered Water Bottles for Fresh, Drinking Water Anywhere (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Nav…",
+      "source": "https://www.bonappetit.com/story/best-filtered-water-bottles",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-travel-coffee-mugs-vetted-by-our-experts-2025-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Best Travel Coffee Mugs, Vetted by Our Experts (2025)",
+      "cover": "https://assets.bonappetit.com/photos/68e0496b98f3ed4f2412a618/master/pass/10.06_BA_Best_Travel_Coffee_Mugs_lede_v2.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/best-travel-coffee-mugs-vetted-by-our-experts-2025-2025-10-06/",
+      "excerpt": "Best Travel Coffee Mugs, Vetted by Our Experts (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Se…",
+      "source": "https://www.bonappetit.com/story/best-travel-coffee-mugs",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "6-quick-meals-our-editors-make-with-a-can-of-beans-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -385,10 +409,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
-  "updated_at": "2025-10-05",
+  "count": 34,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 32,
+    "total_items": 34,
     "per_page": 12,
     "total_pages": 3
   }

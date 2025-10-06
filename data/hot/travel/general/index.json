@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "12-best-things-to-do-in-geneva-for-every-season-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "12 Best Things to Do in Geneva for Every Season",
+      "cover": "https://media.cntraveler.com/photos/68dfda23a71f6397bbc0c117/master/pass/Geneva%20Hero_270525_GettyImages-1217815220.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/12-best-things-to-do-in-geneva-for-every-season-2025-10-06/",
+      "excerpt": "12 Best Things to Do in Geneva for Every Season | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Prime Day Close Banner Close 00 D…",
+      "source": "https://www.cntraveler.com/story/12-best-things-to-do-in-geneva-for-every-season",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-connecticut-towns-that-inspired-gilmore-girls-25-years-later-2025",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -553,10 +565,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
-  "updated_at": "2025-10-05",
+  "count": 47,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 46,
+    "total_items": 47,
     "per_page": 12,
     "total_pages": 4
   }
