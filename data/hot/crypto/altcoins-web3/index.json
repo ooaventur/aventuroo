@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "binance-lists-aster-as-transparency-and-hype-collide-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Binance Lists Aster as Transparency and Hype Collide",
+      "cover": "https://assets.beincrypto.com/img/eYRIw9EjAMlxDb0ILJSrxGGGiyw=/smart/8ed5fa78ee574fc0b4736636d40ebb00",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/binance-lists-aster-as-transparency-and-hype-collide-2025-10-06/",
+      "excerpt": "Binance Lists Aster as Transparency and Hype Collide Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed Top …",
+      "source": "https://beincrypto.com/binance-aster-listing-transparency-hype/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "3-altcoins-at-risk-of-major-liquidations-in-the-second-week-of-october",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "3 Altcoins at Risk of Major Liquidations in the Second Week of October",
+      "cover": "https://assets.beincrypto.com/img/rchHtP_HCAw6jbGzrLNhNjrS3Go=/smart/8a813cd766dd4cd3a854ef935f43c7ba",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/3-altcoins-at-risk-of-major-liquidations-in-the-second-week-of-october/",
+      "excerpt": "Why ETH, XRP, and BNB Face Major Liquidation Risks This Week Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter F…",
+      "source": "https://beincrypto.com/altcoins-liquidations-risk-october-second-week/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-must-watch-cloud-mining-app-of-2025-swl-miner-lets-users-earn-8-00",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -553,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
-  "updated_at": "2025-10-05",
+  "count": 48,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 46,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

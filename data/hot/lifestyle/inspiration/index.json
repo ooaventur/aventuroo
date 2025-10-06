@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "transforming-corporate-giving-with-sustainable-impact-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Transforming Corporate Giving With Sustainable Impact",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/pexels-cottonbro-442._imresizer.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/transforming-corporate-giving-with-sustainable-impact-2025-10-06/",
+      "excerpt": "Championing Sustainability in Corporate Giving | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine S…",
+      "source": "https://www.success.com/corporate-giving-sustainable-impact/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-ai-meeting-assistants-are-changing-the-way-teams-communicate-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "How AI Meeting Assistants Are Changing the Way Teams Communicate",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/AI-Assistants-Meetings-Social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-ai-meeting-assistants-are-changing-the-way-teams-communicate-2025/",
+      "excerpt": "AI Meeting Assistants Are Changing Communication | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
+      "source": "https://www.success.com/ai-meeting-assistants-communication/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-one-size-fits-all-leadership-will-always-fail-and-what-works-inste",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -613,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 51,
-  "updated_at": "2025-10-05",
+  "count": 53,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 51,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "roman-homes-everything-you-wanted-to-know-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Roman homes: everything you wanted to know",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Hannah-Platts-EV-Roman-homes-WL-AN-b1c1e23.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/roman-homes-everything-you-wanted-to-know-2025-10-05/",
+      "excerpt": "Roman homes: everything you wanted to know | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Ge…",
+      "source": "https://www.historyextra.com/membership/roman-homes-podcast-hannah-platts/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "inside-the-chilling-story-of-ed-gein-s-furniture-and-how-the-serial-ki",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -82,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/the-stalingrad-of-africa-the-story-of-the-battle-for-tunis-2025-10-03/",
       "excerpt": "In 1943, Allied and Axis troops contested one of the most decisive campaigns of the Second World War. Saul David tells the story of the battle for Tunis – as hard-fought as the struggle for the Soviet city",
       "source": "https://www.historyextra.com/period/the-stalingrad-of-africa/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-stalingrad-of-africa-the-story-of-the-battle-for-tunis-2025-10-0-2",
+      "date": "2025-10-03",
+      "published_at": "2025-10-03T00:00:00Z",
+      "created_at": "2025-10-03T00:00:00Z",
+      "title": "The Stalingrad of Africa: the story of the battle for Tunis",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/09/LEAD-GettyImages-92424178-67fb9bb.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-stalingrad-of-africa-the-story-of-the-battle-for-tunis-2025-10-0-2/",
+      "excerpt": "The Stalingrad of Africa: the story of the battle for Tunis | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tud…",
+      "source": "https://www.historyextra.com/membership/the-stalingrad-of-africa/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -202,6 +226,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/rare-objects-unearthed-in-ancient-troy-2025-10-02/",
       "excerpt": "\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ìýé¶ãÈ0ý}u¾VYu}©VI\u0003\u001b¸ï$÷\u0001 \u0010\u0004 \u0002 \u0000®­>Çÿü\u0002~#¿Ä\u0011\u0000È[]½FíÑLõ½Ü\"##cËÈ¼ú¦ÒÓÇ~µ°M\u000eÞÿ'üQðLßùübû '£?\u0017à£mZþýïþt°\u0013³°ÞQl'_&ãÚGå\u0005ÚÄëÈ ?ÿþlF\u0005g\u0013DïÈÿñwV°> l?y5-«z_ÚnØ¾ ½{!U¾?®ÿ=m ï\u0005¦e[/ 6'¸ÿîý\u000f¤ÖkZ¡MÊ?ÃüøþÃ¯õ\\J¶öÁ.ýj×¤Úè§ý_\\ß ._é½Òëèà·ëÓ \u000eÏ]È¿…",
       "source": "https://archaeology.org/news/2025/10/02/rare-objects-unearthed-in-ancient-troy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "queer-life-in-georgian-britain-2025-10-02",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Queer life in Georgian Britain",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Anthony-Delany-Queer-GeorgiansWL-064666a.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/queer-life-in-georgian-britain-2025-10-02/",
+      "excerpt": "Queer life in Georgian Britain | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georgian Victo…",
+      "source": "https://www.historyextra.com/membership/queer-life-in-georgian-britain-podcast-anthony-delaney/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -805,10 +841,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 70,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 67,
+    "total_items": 70,
     "per_page": 12,
     "total_pages": 6
   }

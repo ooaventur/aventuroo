@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3508,
+  "total_items": 3518,
   "shards": [
     {
       "parent": "business-finance",
@@ -1987,8 +1987,8 @@
       "month": 11,
       "path": "travel/experiences/2022/11/index.json",
       "path_gz": "travel/experiences/2022/11/index.json.gz",
-      "items": 5,
-      "first_date": "2022-11-21",
+      "items": 10,
+      "first_date": "2022-11-06",
       "last_date": "2022-11-27",
       "pages": 1
     },
@@ -2602,6 +2602,19 @@
       "first_date": "2025-09-24",
       "last_date": "2025-09-25",
       "pages": 5
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2022,
+      "month": 11,
+      "path": "travel/trip-ideas/2022/11/index.json",
+      "path_gz": "travel/trip-ideas/2022/11/index.json.gz",
+      "items": 5,
+      "first_date": "2022-11-13",
+      "last_date": "2022-11-18",
+      "pages": 1
     },
     {
       "parent": "travel",

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "would-you-eat-yogurt-made-with-ants-scientists-did-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Would you eat yogurt made with ants? Scientists did",
+      "cover": "https://www.sciencedaily.com/images/1920/live-forest-ants-in-warm-jar-of-milk.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/would-you-eat-yogurt-made-with-ants-scientists-did-2025-10-06/",
+      "excerpt": "Would you eat yogurt made with ants? Scientists did | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Wou…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251005085623.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "nearly-half-of-drivers-killed-in-crashes-had-thc-in-their-blood-2025-1",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -97,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "scientists-find-hidden-brain-damage-behind-dementia-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Scientists find hidden brain damage behind dementia",
+      "cover": "https://www.sciencedaily.com/images/1920/mri-brain-cerebral-arteries.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-find-hidden-brain-damage-behind-dementia-2025-10-05/",
+      "excerpt": "Scientists find hidden brain damage behind dementia | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Sci…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251005085637.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "scientists-discover-hidden-protein-that-switches-off-hunger-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -106,6 +130,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-discover-hidden-protein-that-switches-off-hunger-2025-10-05/",
       "excerpt": "Scientists discover hidden protein that switches off hunger | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251004092905.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "it-s-not-just-genes-parents-can-pass-down-longevity-another-way-2025-1",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "It’s not just genes — parents can pass down longevity another way",
+      "cover": "https://www.sciencedaily.com/images/1920/four-generations-of-women.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/it-s-not-just-genes-parents-can-pass-down-longevity-another-way-2025-1/",
+      "excerpt": "It’s not just genes — parents can pass down longevity another way | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research org…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251005085628.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -589,10 +625,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 49,
+  "count": 52,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 49,
+    "total_items": 52,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "the-violent-hilarious-return-of-hothead-paisan-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "The Violent, Hilarious Return of “Hothead Paisan”",
+      "cover": "https://media.newyorker.com/photos/68cc797bcad22292d142b266/master/pass/Livingston_HotheadPaisan.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-violent-hilarious-return-of-hothead-paisan-2025-10-06/",
+      "excerpt": "The Violent, Hilarious Return of “Hothead Paisan” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu…",
+      "source": "https://www.newyorker.com/books/second-read/the-violent-hilarious-return-of-hothead-paisan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "pan-african-dreams-post-colonial-realities-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Pan-African Dreams, Post-Colonial Realities",
+      "cover": "https://media.newyorker.com/photos/68dd6fc7c145ecb4d3868c4e/master/pass/r47526.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/pan-african-dreams-post-colonial-realities-2025-10-06/",
+      "excerpt": "Pan-African Dreams, Post-Colonial Realities | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu A Cri…",
+      "source": "https://www.newyorker.com/magazine/2025/10/13/the-second-emancipation-howard-w-french-book-review-slow-poison-mahmood-mamdani",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "briefly-noted-book-reviews-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Briefly Noted Book Reviews",
+      "cover": "https://media.newyorker.com/photos/68dc3b8ccef5882bf6b60a91/master/pass/r47650.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/briefly-noted-book-reviews-2025-10-06/",
+      "excerpt": "Briefly Noted Book Reviews | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Books Briefly Noted “I…",
+      "source": "https://www.newyorker.com/magazine/2025/10/13/if-anyone-builds-it-everyone-dies-the-improbable-victoria-woodhull-the-wilderness-the-unbroken-coast",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "brian-stauffer-s-winds-of-change-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Brian Stauffer’s “Winds of Change”",
+      "cover": "https://media.newyorker.com/photos/68e0248fdd805c595e6517da/master/pass/CoverStory-web_box_stauffer_leaves.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/brian-stauffer-s-winds-of-change-2025-10-06/",
+      "excerpt": "Brian Stauffer’s “Winds of Change” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Cover Story Br…",
+      "source": "https://www.newyorker.com/culture/cover-story/cover-story-2025-10-13",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-season-of-rage-at-the-philharmonic-and-the-met-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "A Season of Rage at the Philharmonic and the Met",
+      "cover": "https://media.newyorker.com/photos/68dd700c88f95ee5666351bb/master/pass/r47561.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-season-of-rage-at-the-philharmonic-and-the-met-2025-10-06/",
+      "excerpt": "A Season of Rage at the Philharmonic and the Met | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu …",
+      "source": "https://www.newyorker.com/magazine/2025/10/13/gustavo-dudamel-new-york-philharmonic-music-review-metropolitan-opera-kavalier-and-clay",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "restaurant-review-bartolo-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1021,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 85,
-  "updated_at": "2025-10-05",
+  "count": 90,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 85,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }

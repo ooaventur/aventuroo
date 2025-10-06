@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "no-companies-apply-for-vietnam-crypto-pilot-amid-high-barriers-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "No companies apply for Vietnam crypto pilot amid high barriers",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTJlNjItODJjMC03ZTg2LTk5NmMtNTg1N2M3ZjY2NjNm.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/no-companies-apply-for-vietnam-crypto-pilot-amid-high-barriers-2025-10/",
+      "excerpt": "Vietnam’s Crypto Pilot Sees No Applicants Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Ezra Reguerra 2 hours ago No companies apply for Vietnam crypto pilot amid high barriers Vietnam’s crypto pilot gets no takers, with steep capital rules and bans o…",
+      "source": "https://cointelegraph.com/news/vietnam-crypto-pilot-no-applicants-strict-rules?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "japan-s-new-pm-may-be-a-boon-for-risk-assets-crypto-markets-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Japan’s new PM may be a boon for risk assets, crypto markets",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDgvMDE5OGU3MzctMGEyMi03ZTA1LTlmNzUtMTIwNzhkOThjN2Qx.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/japan-s-new-pm-may-be-a-boon-for-risk-assets-crypto-markets-2025-10-06/",
+      "excerpt": "Japan's New PM: Boon For Crypto Markets, Risk Assets Ecosystem English News Indices In Depth Learn Podcasts Buy Crypto About Zoltan Vardai 2 hours ago Japan’s new PM may be a boon for risk assets, crypto markets Japan’s new prime minister may drive a renewed wave of risk appet…",
+      "source": "https://cointelegraph.com/news/japan-new-pm-boon-risk-assets-crypto-markets?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vietnam-central-bank-expects-credit-growth-amid-rapid-crypto-adoption",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -385,10 +409,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
-  "updated_at": "2025-10-03",
+  "count": 34,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 32,
+    "total_items": 34,
     "per_page": 12,
     "total_pages": 3
   }

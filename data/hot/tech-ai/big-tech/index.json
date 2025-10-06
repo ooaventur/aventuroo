@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "tesla-teaser-video-sparks-speculation-of-long-awaited-roadster-or-mass",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Tesla teaser video sparks speculation of long-awaited Roadster or mass market model",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108168278-17518962972025-06-13t010710z_885255829_rc2gk1a9xltd_rtrmadp_0_space-warfare.jpeg?v=1753301789&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/tesla-teaser-video-sparks-speculation-of-long-awaited-roadster-or-mass/",
+      "excerpt": "Tesla teaser video sparks speculaton of Roadster or mass market model Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/06/tesla-teaser-video-sparks-speculaton-of-roadster-or-mass-market-model.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amd-stock-skyrockets-35-as-openai-looks-to-take-stake-in-ai-chipmaker",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "AMD stock skyrockets 35% as OpenAI looks to take stake in AI chipmaker",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208050-1759751674240-Untitled-9.jpg?v=1759751695&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amd-stock-skyrockets-35-as-openai-looks-to-take-stake-in-ai-chipmaker/",
+      "excerpt": "OpenAI looks to take 10% stake in AMD through AI chip deal Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials …",
+      "source": "https://www.cnbc.com/2025/10/06/openai-amd-chip-deal-ai.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "u-s-model-upgrades-are-pushing-ai-startups-to-move-fast-it-s-unclear-i",
       "date": "2025-10-03",
       "published_at": "2025-10-03T00:00:00Z",
@@ -745,10 +769,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 62,
-  "updated_at": "2025-10-03",
+  "count": 64,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 62,
+    "total_items": 64,
     "per_page": 12,
     "total_pages": 6
   }
