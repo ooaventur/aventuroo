@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "cyndi-lauper-enlists-sza-cher-and-joni-mitchell-for-an-unusual-grammy",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Cyndi Lauper Enlists SZA, Cher and Joni Mitchell for an Unusual ‘Grammy Salute’ That Benefits as Much From Her Farewell-Tour Chatter as Her Famous Guests: TV Review",
+      "cover": "https://variety.com/wp-content/uploads/2025/10/3093082_2238bc-e1759708142208.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/cyndi-lauper-enlists-sza-cher-and-joni-mitchell-for-an-unusual-grammy/",
+      "excerpt": "'Cyndi Lauper: Live from the Hollywood Bowl' Is Unusual and Special 'Cyndi Lauper: Live from the Hollywood Bowl' Is Unusual and Special Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awar…",
+      "source": "https://variety.com/2025/tv/tv-reviews/cyndi-lauper-grammy-salute-live-hollywood-bowl-cbs-review-1236540750/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "white-house-slams-snl-after-cold-open-targets-trump-and-fcc-chair-bren",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "White House Slams ‘SNL’ After Cold Open Targets Trump and FCC Chair Brendan Carr: ‘I Have More Entertaining Things To Do, Like Watch Paint Dry’",
+      "cover": "https://variety.com/wp-content/uploads/2025/10/MixCollage-05-Oct-2025-12-54-PM-2582.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/white-house-slams-snl-after-cold-open-targets-trump-and-fcc-chair-bren/",
+      "excerpt": "White House Slams 'SNL' After Cold Open Targets Trump and Brendan Carr White House Slams 'SNL' After Cold Open Targets Trump and Brendan Carr Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Ico…",
+      "source": "https://variety.com/2025/tv/news/white-house-responds-snl-trump-brendan-carr-fcc-late-night-1236540655/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "van-jones-apologizes-for-his-insensitive-and-hurtful-comment-about-chi",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Van Jones Apologizes for His ‘Insensitive and Hurtful’ Comment About Children in Gaza: ‘I’m Praying and Working for an Immediate End to This War’",
+      "cover": "https://variety.com/wp-content/uploads/2025/10/MixCollage-05-Oct-2025-11-30-AM-3668.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/van-jones-apologizes-for-his-insensitive-and-hurtful-comment-about-chi/",
+      "excerpt": "Van Jones Apologizes for His Comment About Children in Gaza Van Jones Apologizes for His Comment About Children in Gaza Plus Icon Film Plus Icon TV Plus Icon What To Watch Plus Icon Music Plus Icon Docs Plus Icon Digital & Gaming Plus Icon Global Plus Icon Awards Circuit Plus …",
+      "source": "https://variety.com/2025/tv/news/van-jones-apology-gaza-children-real-time-bill-maher-1236540614/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tulsa-king-recap-one-of-dwight-s-crew-leads-dunmire-straight-to-the-se",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Tulsa King Recap: One of Dwight’s Crew Leads Dunmire Straight to the Secret Stash — Who Is It?",
+      "cover": "https://tvline.com/wp-content/uploads/2025/10/tulsa-king-season-3-episode-3-recap-the-g-and-the-og.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/tv-streaming/tulsa-king-recap-one-of-dwight-s-crew-leads-dunmire-straight-to-the-se/",
+      "excerpt": "'Tulsa King' Season 3, Episode 3 Recap: 'The G and the OG' WHEN'S YOUR FAVORITE SHOW BACK? GET OUR NEWSLETTERS! Open Menu Close EVERY NEW SHOW FALL TV PREVIEW OCTOBER CALENDAR RENEW/CANCEL SCORECARD Search Icon Open Search Close Read Next: SNL Host Bad Bunny Jokes About Super …",
+      "source": "https://tvline.com/recaps/tulsa-king-season-3-episode-3-recap-the-g-and-the-og-1235528571/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-interrupts-snl-cold-open-to-threaten-show-not-to-do-anything-too",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -2473,10 +2521,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 206,
-  "updated_at": "2025-10-05",
+  "count": 210,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 206,
+    "total_items": 210,
     "per_page": 12,
     "total_pages": 18
   }

@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "tories-invoke-thatcher-legacy-in-search-of-a-comeback-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Tories invoke Thatcher legacy in search of a comeback",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/e2a6/live/b61c2550-a1f6-11f0-947b-6b8b23372a50.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/tories-invoke-thatcher-legacy-in-search-of-a-comeback-2025-10-05/",
+      "excerpt": "Tories invoke Thatcher legacy in search of a comeback Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irela…",
+      "source": "https://www.bbc.com/news/articles/c23755eg09zo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "government-shutdown-enters-fifth-day-as-democrats-and-republicans-rema",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1645,10 +1657,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 137,
+  "count": 138,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 137,
+    "total_items": 138,
     "per_page": 12,
     "total_pages": 12
   }

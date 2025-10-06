@@ -25,6 +25,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "uk-homebuyers-to-get-more-upfront-information-on-properties-for-sale-2",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "UK homebuyers to get more upfront information on properties for sale",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F46d514e6-4b15-40a3-8183-cd1ed6a6c365.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/uk-homebuyers-to-get-more-upfront-information-on-properties-for-sale-2/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/008b8641-c6e4-4e89-ad85-9ffe2bfb05fe",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tories-tout-47bn-in-spending-cuts-in-bid-to-reclaim-fiscal-reputation",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Tories tout £47bn in spending cuts in bid to reclaim fiscal reputation",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6fd3ec13-069c-45ee-9437-226e81b106bb.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/tories-tout-47bn-in-spending-cuts-in-bid-to-reclaim-fiscal-reputation/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/974eebc2-2ee0-401b-b056-c10df8825fe3",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "europeans-need-to-learn-to-love-risk-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/burundi-endures-worst-economic-crisis-in-a-country-not-at-war-2025-10/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/4aca0f0a-1e61-4846-96d7-b8e01b1f76f8",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "billionaire-beef-baron-says-us-not-producing-enough-to-satisfy-protein",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Billionaire beef baron says US not producing enough to satisfy protein craze",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4687a9ec-b851-41fa-86ed-4f83ab6a56ab.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/billionaire-beef-baron-says-us-not-producing-enough-to-satisfy-protein/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/5fadad35-6202-4a8a-b809-a7e17eb42866",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1549,10 +1585,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 129,
+  "count": 132,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 129,
+    "total_items": 132,
     "per_page": 12,
     "total_pages": 11
   }

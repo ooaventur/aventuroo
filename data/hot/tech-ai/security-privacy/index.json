@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "oracle-patches-ebs-zero-day-exploited-in-clop-data-theft-attacks-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Oracle patches EBS zero-day exploited in Clop data theft attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/03/21/Oracle.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/oracle-patches-ebs-zero-day-exploited-in-clop-data-theft-attacks-2025/",
+      "excerpt": "Oracle patches EBS zero-day exploited in Clop data theft attacks News Featured Latest Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit 22 million ShinyHunters launches Salesforce data leak site to extort…",
+      "source": "https://www.bleepingcomputer.com/news/security/oracle-patches-ebs-zero-day-exploited-in-clop-data-theft-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "parkmobile-pays-1-each-for-2021-data-breach-that-hit-22-million-2025-1",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -1249,10 +1261,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 104,
+  "count": 105,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 104,
+    "total_items": 105,
     "per_page": 12,
     "total_pages": 9
   }

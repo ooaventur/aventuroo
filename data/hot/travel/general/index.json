@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-connecticut-towns-that-inspired-gilmore-girls-25-years-later-2025",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "The Connecticut Towns That Inspired 'Gilmore Girls,' 25 Years Later",
+      "cover": "https://media.cntraveler.com/photos/68e055d7de88d8c8c914fe70/master/pass/GettyImages-905325-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-connecticut-towns-that-inspired-gilmore-girls-25-years-later-2025/",
+      "excerpt": "The Connecticut Towns That Inspired 'Gilmore Girls,' 25 Years Later | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Close Banner …",
+      "source": "https://www.cntraveler.com/story/the-connecticut-towns-that-inspired-gilmore-girls-25-years-later",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-12-best-steakhouses-in-nyc-from-old-school-joints-to-new-hot-spots",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -541,10 +553,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 45,
+  "count": 46,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 45,
+    "total_items": 46,
     "per_page": 12,
     "total_pages": 4
   }

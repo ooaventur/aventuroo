@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-smashing-machine-2000-arcade-joblo-checked-out-this-cool-nyc-pop-u",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "The Smashing Machine 2000 Arcade: JoBlo Checked Out This Cool NYC Pop-Up",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/10/benny-safdie-smashing-pic.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/the-smashing-machine-2000-arcade-joblo-checked-out-this-cool-nyc-pop-u/",
+      "excerpt": "The Smashing Machine 2000 Arcade: JoBlo Checked Out This Cool NYC Pop-Up Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Traile…",
+      "source": "https://www.joblo.com/the-smashing-machine-2000-arcade-joblo-checked-out-this-cool-nyc-pop-up/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-advice-tom-cruise-gave-glen-powell-on-the-running-man-and-chad-pow",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "The advice Tom Cruise gave Glen Powell on The Running Man and Chad Powers",
+      "cover": "https://www.joblo.com/wp-content/uploads/2025/10/powell-cruise.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/the-advice-tom-cruise-gave-glen-powell-on-the-running-man-and-chad-pow/",
+      "excerpt": "The advice Cruise gave Powell on The Running Man, Chad Powers Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters …",
+      "source": "https://www.joblo.com/tom-cruise-gave-tips-to-glen-powell-for-two-movies/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "shell-review-max-minghella-s-sophomore-effort-slumps-2025-10-05",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/mr-scorsese-tv-review-an-extensive-deep-dive-into-the-career-and-impac/",
       "excerpt": "Mr. Scorsese TV Review: An extensive deep dive into the career and impact of the filmmaker on cinematic history Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-…",
       "source": "https://www.joblo.com/mr-scorsese-tv-review-an-extensive-deep-dive-into-the-career-and-impact-of-the-filmmaker-on-cinematic-history/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "could-laurie-metcalf-reprise-mrs-loomis-for-scream-7-2025-10-05",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Could Laurie Metcalf reprise Mrs. Loomis for Scream 7?",
+      "cover": "https://www.youtube.com/embed/8Lie_WopS60",
+      "canonical": "https://archive.aventuroo.com/entertainment/trailers-latest/could-laurie-metcalf-reprise-mrs-loomis-for-scream-7-2025-10-05/",
+      "excerpt": "Could Laurie Metcalf reprise Mrs. Loomis for Scream 7? Movies TV Reviews Trailers Originals search search Movies News Reviews Trailers Posters Release Dates Box Office Interviews Lists Originals Genres Action Horror Sci-Fi Thrillers Horror News Reviews Trailers Posters Upcomin…",
+      "source": "https://www.joblo.com/laurie-metcalf-on-scream-2-character-return/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2077,10 +2113,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 173,
+  "count": 176,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 173,
+    "total_items": 176,
     "per_page": 12,
     "total_pages": 15
   }

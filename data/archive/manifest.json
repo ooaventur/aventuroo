@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3488,
+  "total_items": 3498,
   "shards": [
     {
       "parent": "business-finance",
@@ -1983,6 +1983,19 @@
       "parent": "travel",
       "child": "experiences",
       "slug": "travel/experiences",
+      "year": 2022,
+      "month": 12,
+      "path": "travel/experiences/2022/12/index.json",
+      "path_gz": "travel/experiences/2022/12/index.json.gz",
+      "items": 5,
+      "first_date": "2022-12-18",
+      "last_date": "2022-12-31",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
       "year": 2023,
       "month": 1,
       "path": "travel/experiences/2023/01/index.json",
@@ -2585,8 +2598,8 @@
       "month": 1,
       "path": "travel/trip-ideas/2023/01/index.json",
       "path_gz": "travel/trip-ideas/2023/01/index.json.gz",
-      "items": 5,
-      "first_date": "2023-01-16",
+      "items": 10,
+      "first_date": "2023-01-01",
       "last_date": "2023-01-30",
       "pages": 1
     },

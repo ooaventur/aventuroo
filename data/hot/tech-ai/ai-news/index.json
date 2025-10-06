@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "salesforce-ai-research-releases-coda-1-7b-a-discrete-diffusion-code-mo",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Salesforce AI Research Releases CoDA-1.7B: a Discrete-Diffusion Code Model with Bidirectional, Parallel Token Generation",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-16.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/salesforce-ai-research-releases-coda-1-7b-a-discrete-diffusion-code-mo/",
+      "excerpt": "Salesforce AI Research Releases CoDA-1.7B: a Discrete-Diffusion Code Model with Bidirectional, Parallel Token Generation - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub …",
+      "source": "https://www.marktechpost.com/2025/10/05/salesforce-ai-research-releases-coda-1-7b-a-discrete-diffusion-code-model-with-bidirectional-parallel-token-generation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recogniti",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recogniti/",
       "excerpt": "How to Evaluate Voice Agents in 2025: Beyond Automatic Speech Recognition (ASR) and Word Error Rate (WER) to Task Success, Barge-In, and Hallucination-Under-Noise - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutor…",
       "source": "https://www.marktechpost.com/2025/10/05/how-to-evaluate-voice-agents-in-2025-beyond-automatic-speech-recognition-asr-and-word-error-rate-wer-to-task-success-barge-in-and-hallucination-under-noise/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "agentic-design-methodology-how-to-build-reliable-and-human-like-ai-age",
+      "date": "2025-10-05",
+      "published_at": "2025-10-05T00:00:00Z",
+      "created_at": "2025-10-05T00:00:00Z",
+      "title": "Agentic Design Methodology: How to Build Reliable and Human-Like AI Agents using Parlant",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-15.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/agentic-design-methodology-how-to-build-reliable-and-human-like-ai-age/",
+      "excerpt": "Agentic Design Methodology: How to Build Reliable and Human-Like AI Agents using Parlant - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read ou…",
+      "source": "https://www.marktechpost.com/2025/10/05/agentic-design-methodology-how-to-build-reliable-and-human-like-ai-agents-using-parlant/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -445,10 +469,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
+  "count": 39,
   "updated_at": "2025-10-05",
   "pagination": {
-    "total_items": 37,
+    "total_items": 39,
     "per_page": 12,
     "total_pages": 4
   }
