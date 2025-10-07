@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "is-india-softening-on-crypto-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Is India softening on crypto?",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F7a6236b2-cafa-4b9b-a66d-f8762fdfe270.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/is-india-softening-on-crypto-2025-10-07/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/86ed3d35-4592-4dec-90d3-5e8018354eac",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ukraine-asks-for-flexibility-in-spending-140bn-russian-asset-loan-2025",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/uk-steel-industry-warns-of-biggest-crisis-due-to-new-eu-tariffs-2025-1/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/86626bff-6eb6-4486-9ddd-9f24f7d0991b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "trump-says-us-truck-imports-to-face-25-tariff-from-november-1-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Trump says US truck imports to face 25% tariff from November 1",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2246ca49-2bc4-46e6-b079-34b71130625a.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/trump-says-us-truck-imports-to-face-25-tariff-from-november-1-2025-10/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/db9c7d0e-f950-4761-86c4-96aa41044d16",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1765,10 +1789,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 147,
-  "updated_at": "2025-10-06",
+  "count": 149,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 147,
+    "total_items": 149,
     "per_page": 12,
     "total_pages": 13
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "9-best-affordable-hotels-in-kyoto-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "9 Best Affordable Hotels in Kyoto",
+      "cover": "https://media.cntraveler.com/photos/5ee902732f3cc6dbc9e6a2f9/master/pass/Ace%20Hotel%20Kyoto_Ace%20Suite%202.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/9-best-affordable-hotels-in-kyoto-2025-10-06/",
+      "excerpt": "9 Best Affordable Hotels in Kyoto | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Prime Day Close Banner Close 00 Days : 00 Hours…",
+      "source": "https://www.cntraveler.com/gallery/best-affordable-hotels-in-kyoto",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-island-to-visit-in-hawaii-for-every-type-of-traveler-2025-10",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -133,10 +145,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 11,
-  "updated_at": "2025-10-02",
+  "count": 12,
+  "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 11,
+    "total_items": 12,
     "per_page": 12,
     "total_pages": 1
   }

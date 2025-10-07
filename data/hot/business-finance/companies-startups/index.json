@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "A 19-year-old nabs backing from Google execs for his AI memory startup, Supermemory",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/Dhravya-Shah-Supermemory.jpeg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup/",
+      "excerpt": "A 19-year-old nabs backing from Google execs for his AI memory startup, Supermemory | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu To…",
+      "source": "https://techcrunch.com/2025/10/06/a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup-supermemory/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-young-minds-app-wants-to-protect-and-educate-children-online-and-w",
       "date": "2025-10-05",
       "published_at": "2025-10-05T00:00:00Z",
@@ -106,6 +118,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/instacrops-will-demo-its-water-saving-crop-boosting-ai-at-techcrunch-d/",
       "excerpt": "Instacrops will demo its water-saving, crop-boosting AI at TechCrunch Disrupt 2025 | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Tog…",
       "source": "https://techcrunch.com/2025/10/04/instacrops-will-demo-its-water-saving-crop-boosting-ai-at-techcrunch-disrupt-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "if-you-re-not-an-ai-startup-good-luck-raising-money-from-vcs-2025-10-0",
+      "date": "2025-10-04",
+      "published_at": "2025-10-04T00:00:00Z",
+      "created_at": "2025-10-04T00:00:00Z",
+      "title": "If you’re not an AI startup, good luck raising money from VCs",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-941290532.jpg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/if-you-re-not-an-ai-startup-good-luck-raising-money-from-vcs-2025-10-0/",
+      "excerpt": "If you’re not an AI startup, good luck raising money from VCs | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI …",
+      "source": "https://techcrunch.com/2025/10/04/if-youre-not-an-ai-startup-good-luck-raising-money-from-vcs/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -793,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 66,
+  "count": 68,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 66,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }

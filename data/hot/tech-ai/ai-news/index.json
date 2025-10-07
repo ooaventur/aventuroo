@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "openai-unveils-agentkit-that-lets-developers-drag-and-drop-to-build-ai",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "OpenAI unveils AgentKit that lets developers drag and drop to build AI agents",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/3KvTQAKS3QyovxhH9eBHkZ/51b427793c6d5e1cb53a9c033b9c76cf/crimedy7_illustration_of_the_openai_devday_and_announcing_age_a97efe78-4647-4a53-b5f1-b36126ded9c3_2.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-unveils-agentkit-that-lets-developers-drag-and-drop-to-build-ai/",
+      "excerpt": "<p><a href=\"https://openai.com/\">OpenAI</a> launched an agent builder that the company hopes will eliminate fragmented tools and make it easier for enterprises to utilize OpenAI’s system to create agents. </p><p><a href=\"https://openai.com/index/introducing-agentkit/\">AgentKit…",
+      "source": "https://venturebeat.com/ai/openai-unveils-agentkit-that-lets-developers-drag-and-drop-to-build-ai",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-announces-apps-sdk-allowing-chatgpt-to-launch-and-run-third-par",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "OpenAI announces Apps SDK allowing ChatGPT to launch and run third party apps like Zillow, Canva, Spotify",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/7LhLUUL4BbXIc1jxZwCZdI/f7d15d9760b1726ea415ec138ac572c9/openai-apps-sdk.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-announces-apps-sdk-allowing-chatgpt-to-launch-and-run-third-par/",
+      "excerpt": "<p>OpenAI&#x27;s annual conference for third-party developers, DevDay, kicked off with a bang today as co-founder and <b>CEO Sam Altman</b><a href=\"https://openai.com/index/introducing-apps-in-chatgpt/\"><b> announced a new &quot;Apps SDK&quot; </b></a><b>that makes it &quot;po…",
+      "source": "https://venturebeat.com/ai/openai-announces-apps-sdk-allowing-chatgpt-to-launch-and-run-third-party",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-silicon-valley-to-nairobi-what-the-global-south-s-ai-leapfrogging",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "From Silicon Valley to Nairobi: What the Global South’s AI leapfrogging teaches tech leaders",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4Q37uFeaOTOHth5Mg2Etp0/d0efb504bde53367b7f2a1c2c8728a06/image1.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/from-silicon-valley-to-nairobi-what-the-global-south-s-ai-leapfrogging/",
+      "excerpt": "<p>When I write about the cognitive migration now underway, brought about by the rapid advance of gen AI, I do so from the perspective of someone who has spent four decades in the technology industry. My own journey runs from coding business applications in Fortran and COBOL t…",
+      "source": "https://venturebeat.com/ai/from-silicon-valley-to-nairobi-what-the-global-souths-ai-leapfrogging",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-new-agency-focused-supervision-approach-scales-software-ai-agents-wi",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -241,6 +277,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "salesforce-launches-ai-trust-layer-to-tackle-enterprise-deployment-fai",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Salesforce launches AI 'trust layer' to tackle enterprise deployment failures plaguing 80% of projects",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/48XIfBjEA8DoLNpIystf9B/bd01a15251d9d54f64a7ae8d5d23d1ba/nuneybits_Vector_art_of_layered_data_cloud_12e322ec-5b63-4bec-a9ce-7a255cb1694e.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/salesforce-launches-ai-trust-layer-to-tackle-enterprise-deployment-fai/",
+      "excerpt": "<p><a href=\"https://www.salesforce.com/\"><u>Salesforce Inc.</u></a> is expanding its artificial intelligence platform with new data management and governance capabilities, aiming to address what the company says is a crisis in enterprise AI adoption where more than 80% of proj…",
+      "source": "https://venturebeat.com/ai/salesforce-launches-ai-trust-layer-to-tackle-enterprise-deployment-failures",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "new-ai-training-method-creates-powerful-software-agents-with-just-78-e",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -262,6 +310,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ibm-released-new-granite-4-0-models-with-a-novel-hybrid-mamba-2-transf/",
       "excerpt": "IBM Released new Granite 4.0 Models with a Novel Hybrid Mamba-2/Transformer Architecture: Drastically Reducing Memory Use without Sacrificing Performance - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voic…",
       "source": "https://www.marktechpost.com/2025/10/02/ibm-released-new-granite-4-0-models-with-a-novel-hybrid-mamba-2-transformer-architecture-drastically-reducing-memory-use-without-sacrificing-performance/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-s-jules-coding-agent-moves-beyond-chat-with-new-command-line-an",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "Google's Jules coding agent moves beyond chat with new command line and API",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6DgO4LKk1asvY2loy5Uksj/c692f8e8345f2348e6d6571a6b303a7d/crimedy7_illustration_of_a_robot_coding_a_program_--ar_169_--_7dafd9d4-817a-4c5c-abbe-fb9112e639c7_3.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-s-jules-coding-agent-moves-beyond-chat-with-new-command-line-an/",
+      "excerpt": "<p><a href=\"https://www.google.com/\"><u>Google</u></a> wants its coding assistant, Jules, to be far more integrated into developers’ terminals than ever. The company wants to make it a more workflow-native tool, hoping that more people will use it beyond the chat interface. </…",
+      "source": "https://venturebeat.com/ai/googles-jules-coding-agent-moves-beyond-chat-with-new-command-line-and-api",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -553,11 +613,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
+  "count": 51,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 46,
+    "total_items": 51,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

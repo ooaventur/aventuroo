@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-role-of-artificial-intelligence-in-today-s-cybersecurity-landscape",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "The role of Artificial Intelligence in today’s cybersecurity landscape",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/10/01/wazuh-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/the-role-of-artificial-intelligence-in-today-s-cybersecurity-landscape/",
+      "excerpt": "The role of Artificial Intelligence in today’s cybersecurity landscape News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that h…",
+      "source": "https://www.bleepingcomputer.com/news/security/the-role-of-artificial-intelligence-in-todays-cybersecurity-landscape/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "steam-and-microsoft-warn-of-unity-flaw-exposing-gamers-to-attacks-2025",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Steam and Microsoft warn of Unity flaw exposing gamers to attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/06/Unity.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/steam-and-microsoft-warn-of-unity-flaw-exposing-gamers-to-attacks-2025/",
+      "excerpt": "Steam and Microsoft warn of Unity flaw exposing gamers to attacks News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit 22…",
+      "source": "https://www.bleepingcomputer.com/news/security/steam-and-microsoft-warn-of-unity-flaw-exposing-gamers-to-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "self-propagating-malware-hits-whatsapp-users-in-brazil-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -46,6 +70,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/self-propagating-malware-hits-whatsapp-users-in-brazil-2025-10-06/",
       "excerpt": "The enterprise-focused Water Saci campaign spreads Sorvepotel, which can steal credentials and monitor browser activity to defraud financial institutions in the region.",
       "source": "https://www.darkreading.com/cyberattacks-data-breaches/self-propagating-malware-hits-whatsapp-users-brazil",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "redis-warns-of-critical-flaw-impacting-thousands-of-instances-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Redis warns of critical flaw impacting thousands of instances",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/12/01/Redis.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/redis-warns-of-critical-flaw-impacting-thousands-of-instances-2025-10/",
+      "excerpt": "Redis warns of critical flaw impacting thousands of instances News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit 22 mil…",
+      "source": "https://www.bleepingcomputer.com/news/security/redis-warns-of-max-severity-flaw-impacting-thousands-of-instances/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "red-hat-data-breach-escalates-as-shinyhunters-joins-extortion-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Red Hat data breach escalates as ShinyHunters joins extortion",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/02/redhat-header-vign.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/red-hat-data-breach-escalates-as-shinyhunters-joins-extortion-2025-10/",
+      "excerpt": "Red Hat data breach escalates as ShinyHunters joins extortion News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit 22 mil…",
+      "source": "https://www.bleepingcomputer.com/news/security/red-hat-data-breach-escalates-as-shinyhunters-joins-extortion/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -94,6 +142,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-critical-goanywhere-bug-exploited-in-ransomware-attacks-2025/",
       "excerpt": "Microsoft: Critical GoAnywhere bug exploited in ransomware attacks News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit 2…",
       "source": "https://www.bleepingcomputer.com/news/security/microsoft-critical-goanywhere-bug-exploited-in-ransomware-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "linkedin-sues-proapis-for-using-1m-fake-accounts-to-scrape-user-data-2",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "LinkedIn sues ProAPIs for using 1M fake accounts to scrape user data",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/26/linkedin-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/linkedin-sues-proapis-for-using-1m-fake-accounts-to-scrape-user-data-2/",
+      "excerpt": "LinkedIn sues ProAPIs for using 1M fake accounts to scrape user data News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit…",
+      "source": "https://www.bleepingcomputer.com/news/legal/linkedin-sues-proapis-for-using-1m-fake-accounts-to-scrape-user-data/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cyberattackers-exploit-zimbra-zero-day-via-ics-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Cyberattackers Exploit Zimbra Zero-Day Via ICS",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltaaed4fa1478cbde5/68e419ef749dc7719fb34cf4/xss_nialowwa_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cyberattackers-exploit-zimbra-zero-day-via-ics-2025-10-06/",
+      "excerpt": "A threat actor purporting to be from the Libyan Navy's Office of Protocol targeted Brazil's military earlier this year using the rare tactic.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-exploit-zimbra-zero-day-ics",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "clop-ransomware-hits-oracle-customers-via-zero-day-flaw-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Clop Ransomware Hits Oracle Customers Via Zero-Day Flaw",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blteb6e7ee80adc3b23/68e3ff78cca34a802c787962/horse_clopping_catnap_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/clop-ransomware-hits-oracle-customers-via-zero-day-flaw-2025-10-06/",
+      "excerpt": "The infamous Clop gang has targeted a wide range of Oracle E-Business Suite customers using a newly disclosed zero-day vulnerability.",
+      "source": "https://www.darkreading.com/application-security/clop-ransomware-oracle-customers-zero-day-flaw",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1357,10 +1441,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 113,
+  "count": 120,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 113,
+    "total_items": 120,
     "per_page": 12,
     "total_pages": 10
   }

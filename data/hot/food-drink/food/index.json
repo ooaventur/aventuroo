@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "opera-cake-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "opera cake",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/10/opera-cake-13-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/opera-cake-2025-10-06/",
+      "excerpt": "opera cake – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris two weeks in italy nin…",
+      "source": "https://smittenkitchen.com/2025/10/opera-cake/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "best-travel-coffee-mugs-vetted-by-our-experts-2025-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/best-travel-coffee-mugs-vetted-by-our-experts-2025-2025-10-06/",
       "excerpt": "Best Travel Coffee Mugs, Vetted by Our Experts (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Se…",
       "source": "https://www.bonappetit.com/story/best-travel-coffee-mugs",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "best-cookware-sets-vetted-by-our-experts-2025-2025-10-06",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Best Cookware Sets, Vetted by Our Experts (2025)",
+      "cover": "https://assets.bonappetit.com/photos/67b916a23b230c59617d38a4/master/pass/best-cookware-sets_LEDE_021925_1398_VOG_Badge_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/best-cookware-sets-vetted-by-our-experts-2025-2025-10-06/",
+      "excerpt": "Best Cookware Sets, Vetted by Our Experts (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search …",
+      "source": "https://www.bonappetit.com/story/best-cookware-sets",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -409,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 34,
+  "count": 36,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 34,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }

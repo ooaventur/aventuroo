@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "jenrick-defends-calling-handsworth-worst-integrated-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Jenrick defends calling Handsworth 'worst-integrated'",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/9ae6/live/a75376e0-a30e-11f0-8d57-2757fb03f316.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/jenrick-defends-calling-handsworth-worst-integrated-2025-10-07/",
+      "excerpt": "Jenrick defends calling Handsworth 'worst-integrated' Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irela…",
+      "source": "https://www.bbc.com/news/articles/cy85zlpwne6o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "voting-underway-on-new-maps-that-could-swing-us-house-control-check-tr",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -46,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/tories-pledge-to-cut-bills-as-energy-price-battle-takes-shape-2025-10/",
       "excerpt": "Conservatives pledge to cut bills as energy price battle takes shape Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics E…",
       "source": "https://www.bbc.com/news/articles/ce32r5k43vwo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "state-investigating-claim-bundles-of-ballots-ended-up-in-a-resident-s",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "State investigating claim bundles of ballots ended up in a resident's Amazon order",
+      "cover": "https://s.abcnews.com/images/US/wirestory_811d1789235ee94787e8bbb7bfeefe28_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/state-investigating-claim-bundles-of-ballots-ended-up-in-a-resident-s/",
+      "excerpt": "State investigating claim bundles of ballots ended up in a resident's Amazon order - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on St…",
+      "source": "https://abcnews.go.com/Politics/wireStory/maine-investigating-claim-bundles-ballots-ended-residents-amazon-126272292",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1849,10 +1873,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 154,
-  "updated_at": "2025-10-06",
+  "count": 156,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 154,
+    "total_items": 156,
     "per_page": 12,
     "total_pages": 13
   }

@@ -61,6 +61,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "brad-gerstner-on-openai-s-dealmaking-with-amd-nvidia-the-best-chips-wi",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Brad Gerstner on OpenAI's dealmaking with AMD, Nvidia: 'The best chips will win'",
+      "cover": "https://image.cnbcfm.com/api/v1/image/107308533-1695926023092-107308533-1695924795035-IMG_6662.jpg?v=1706571689&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/brad-gerstner-on-openai-s-dealmaking-with-amd-nvidia-the-best-chips-wi/",
+      "excerpt": "Gerstner on OpenAI's AMD, Nvidia deals: 'The best chips will win' Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indus…",
+      "source": "https://www.cnbc.com/2025/10/06/gerstner-open-ai-amd-nvidia-chips.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "applovin-stock-tanks-on-report-sec-is-investigating-company-over-data",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "AppLovin stock tanks on report SEC is investigating company over data-collection practices",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208434-1759780523910-108208434-1759780250864-gettyimages-2201540260-APPLOVIN_SHARES.jpeg?v=1759780546&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/applovin-stock-tanks-on-report-sec-is-investigating-company-over-data/",
+      "excerpt": "AppLovin stock tanks report SEC investigating company data collection Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/06/applovin-stock-tanks-on-report-sec-is-investigating-company-over-data-collection-practices.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "anthropic-lands-its-biggest-enterprise-deployment-ever-with-deloitte-d",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -829,10 +853,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 69,
+  "count": 71,
   "updated_at": "2025-10-06",
   "pagination": {
-    "total_items": 69,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }
