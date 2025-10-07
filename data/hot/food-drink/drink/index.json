@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "advini-stays-committed-to-gtr-sustainability-and-new-horizons-2025-10",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Advini stays committed to GTR, sustainability and new horizons",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/10/Advini-2-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/advini-stays-committed-to-gtr-sustainability-and-new-horizons-2025-10/",
+      "excerpt": "Advini stays committed to GTR, sustainability and new horizons View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Inte…",
+      "source": "https://www.thedrinksbusiness.com/2025/10/advini-stays-committed-to-gtr-sustainability-and-new-horizons/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-brown-forman-is-doubling-down-in-travel-retail-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -1885,10 +1897,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 157,
-  "updated_at": "2025-10-06",
+  "count": 158,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 157,
+    "total_items": 158,
     "per_page": 12,
     "total_pages": 14
   }

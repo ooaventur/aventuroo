@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "eu-weighs-sanctions-on-ruble-backed-stablecoin-a7a5-report-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "EU weighs sanctions on ruble-backed stablecoin A7A5: Report",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWJiZWYtNGJlOS03ZTU3LWE3N2UtMzNkMTY5MzY4N2Nh.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/eu-weighs-sanctions-on-ruble-backed-stablecoin-a7a5-report-2025-10-07/",
+      "excerpt": "A7A5 under fire as EU weighs sanctions on ruble-pegged stablecoin Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Stephen Katte 4 hours ago EU weighs sanctions on ruble-backed stablecoin A7A5: Report Several banks in Russia, Belarus and Centra…",
+      "source": "https://cointelegraph.com/news/eu-could-sanction-russian-ruble-stablecoin-a7a5?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sanctioned-a7a5-becomes-largest-non-us-dollar-stablecoin-data-2025-10",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -445,10 +457,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
-  "updated_at": "2025-10-06",
+  "count": 38,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 37,
+    "total_items": 38,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "did-shackleton-know-his-ship-was-doomed-a-new-study-suggests-so-2025-1",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Did Shackleton Know His Ship Was Doomed? A New Study Suggests So.",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/10/Endurance1.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/did-shackleton-know-his-ship-was-doomed-a-new-study-suggests-so-2025-1/",
+      "excerpt": "Shackleton Knew His Ship Was Doomed, a New Study Suggests Outside Online logo Adventure > Exploration & Survival Did Shackleton Know His Ship Was Doomed? A New Study Suggests So. Researchers believe Shackleton knew of his ship’s weaknesses in ice. Should that change our unders…",
+      "source": "https://www.outsideonline.com/outdoor-adventure/exploration-survival/shackleton-endurance-flaws/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zone-2-training-transforms-your-fitness-and-health-experts-explain-how",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -214,6 +226,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/from-flights-to-campsites-these-slippers-go-anywhere-the-north-face-th/",
       "excerpt": "The North Face ThermoBall Traction Bootie Review | GearJunkie Tested Skip to content Subscribe Search Latest \" data-src=\"https://s3.amazonaws.com/images.gearjunkie.com/uploads/2025/09/North-Face-ThermoBall-Traction-Bootie-2-300x200.jpg\" class=\"lazyload attachment-medium size-m…",
       "source": "https://gearjunkie.com/footwear/the-north-face-thermoball-traction-bootie-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "early-prime-big-deal-days-the-best-outdoor-sales-from-amazon-2025-10-0",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Early Prime Big Deal Days: The Best Outdoor Sales From Amazon",
+      "cover": "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/09/Merrell-Moab-3-hiking-boot.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/early-prime-big-deal-days-the-best-outdoor-sales-from-amazon-2025-10-0/",
+      "excerpt": "Early Prime Big Deal Days: The Best Outdoor Sales From Amazon | GearJunkie Skip to content Subscribe Search Latest \" data-src=\"https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/09/Merrell-Moab-3-hiking-boot-300x200.jpg\" class=\"lazyload attachment-medium size-medium o…",
+      "source": "https://gearjunkie.com/deals/amazon-prime-day-sales-outdoor-gear",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2101,10 +2125,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 175,
-  "updated_at": "2025-10-06",
+  "count": 177,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 175,
+    "total_items": 177,
     "per_page": 12,
     "total_pages": 15
   }

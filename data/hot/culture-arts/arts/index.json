@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "which-brands-are-cutting-through-with-gen-alpha-in-2025-and-why-2025-1",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Which brands are cutting through with Gen Alpha in 2025, and why?",
+      "cover": "https://www.creativeboom.com/upload/articles/7e/7e6dbeadbcb2b134a32a13d912c57a49aff1ebb0_800.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/which-brands-are-cutting-through-with-gen-alpha-in-2025-and-why-2025-1/",
+      "excerpt": "Which brands are cutting through with Gen Alpha in 2025, and why? | Creative Boom Subscribe Latest News Inspiration Insight Tips Resources Podcast Community Topics Advertising Animation Art & Culture Creative Industry Digital Film Graphic Design Illustration Photography Produc…",
+      "source": "https://www.creativeboom.com/insight/which-brands-are-cutting-through-with-gen-alpha-and-why-the-beano-has-some-answers/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "robot-food-rebrands-the-protein-ball-co-with-an-unruly-ballsy-by-natur",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Robot Food rebrands The Protein Ball Co. with an unruly, 'Ballsy by Nature' identity",
+      "cover": "https://www.creativeboom.com/upload/articles/1600/42ac0cbcda2bfe95549929244c3d47f8b0f46af3_800.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/robot-food-rebrands-the-protein-ball-co-with-an-unruly-ballsy-by-natur/",
+      "excerpt": "Robot Food rebrands The Protein Ball Co. with an unruly, 'Ballsy by Nature' identity | Creative Boom Subscribe Latest News Inspiration Insight Tips Resources Podcast Community Topics Advertising Animation Art & Culture Creative Industry Digital Film Graphic Design Illustration…",
+      "source": "https://www.creativeboom.com/news/robot-food-rebrands-the-protein-ball-co-with-an-unruly-ballsy-by-nature-identity/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "riba-unveils-refreshed-brand-by-johnson-banks-ahead-of-bicentenary-202",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "RIBA unveils refreshed brand by Johnson Banks ahead of bicentenary",
+      "cover": "https://www.creativeboom.com/upload/articles/a3/a3cae169081100bd6689297cbf6626daa42d3aca_800.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/riba-unveils-refreshed-brand-by-johnson-banks-ahead-of-bicentenary-202/",
+      "excerpt": "RIBA unveils refreshed brand by Johnson Banks ahead of bicentenary | Creative Boom Subscribe Latest News Inspiration Insight Tips Resources Podcast Community Topics Advertising Animation Art & Culture Creative Industry Digital Film Graphic Design Illustration Photography Produ…",
+      "source": "https://www.creativeboom.com/news/riba-unveils-refreshed-brand-by-johnson-banks-ahead-of-bicentenary/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-are-young-collectors-buying-old-art-frieze-masters-new-director-ex",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -130,6 +166,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/arts/smith-diction-rebrands-living-roots-wine-with-flexible-identity-and-pl/",
       "excerpt": "Smith & Diction rebrands Living Roots wine with flexible identity and playful storytelling | Creative Boom Subscribe Latest News Inspiration Insight Tips Resources Podcast Community Topics Advertising Animation Art & Culture Creative Industry Digital Film Graphic Design Illust…",
       "source": "https://www.creativeboom.com/news/smith-diction-rebrands-living-roots-wine-with-flexible-identity-and-playful-storytelling/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "painter-odili-donald-odita-sues-jack-shainman-gallery-over-withheld-ar",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Painter Odili Donald Odita Sues Jack Shainman Gallery over ‘Withheld’ Artworks",
+      "cover": "https://www.artnews.com/wp-content/uploads/2025/10/Odili-Donald-Odita-Portrait.jpeg?w=1600",
+      "canonical": "https://archive.aventuroo.com/culture-arts/arts/painter-odili-donald-odita-sues-jack-shainman-gallery-over-withheld-ar/",
+      "excerpt": "Odili Donald Odita Sues Jack Shainman Gallery over 'Withheld' Artworks Skip to main content Follow Us Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Icon Link Plus Icon Newsletters Plus Icon Click to Expand Search Input ARTn…",
+      "source": "https://www.artnews.com/art-news/news/odili-donald-odita-sues-jack-shainman-gallery-1234755506/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2557,11 +2605,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 213,
-  "updated_at": "2025-10-06",
+  "count": 217,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 213,
+    "total_items": 217,
     "per_page": 12,
-    "total_pages": 18
+    "total_pages": 19
   }
 }

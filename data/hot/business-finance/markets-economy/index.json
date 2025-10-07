@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "emerging-markets-roar-back-with-biggest-stock-rally-in-15-years-2025-1",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Emerging markets roar back with biggest stock rally in 15 years",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa8a917ef-b2e2-462e-a747-5a4d37d79f17.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/emerging-markets-roar-back-with-biggest-stock-rally-in-15-years-2025-1/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/fbf77fd7-5cfc-4ab9-9793-5cd514bd75ca",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "business-school-teaching-case-study-the-farming-subsidy-debate-2025-10",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Business school teaching case study: The farming subsidy debate",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0fa188b9-9515-4e7d-828b-f5b00cc9f8f0.jpg?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/business-school-teaching-case-study-the-farming-subsidy-debate-2025-10/",
+      "excerpt": "Business school teaching case study: The farming subsidy debate Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close H…",
+      "source": "https://www.ft.com/content/c453f608-a187-4742-b534-668173f15881",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "turkey-s-halkbank-faces-criminal-charges-after-us-supreme-court-reject",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -661,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 55,
-  "updated_at": "2025-10-06",
+  "count": 57,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 55,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

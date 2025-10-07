@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "openai-debuts-agent-builder-and-agentkit-a-visual-first-stack-for-buil",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "OpenAI Debuts Agent Builder and AgentKit: A Visual-First Stack for Building, Deploying, and Evaluating AI Agents",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-19.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-debuts-agent-builder-and-agentkit-a-visual-first-stack-for-buil/",
+      "excerpt": "OpenAI Debuts Agent Builder and AgentKit: A Visual-First Stack for Building, Deploying, and Evaluating AI Agents - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub…",
+      "source": "https://www.marktechpost.com/2025/10/06/openai-debuts-agent-builder-and-agentkit-a-visual-first-stack-for-building-deploying-and-evaluating-ai-agents/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "building-a-human-handoff-interface-for-ai-powered-insurance-agent-usin",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Building a Human Handoff Interface for AI-Powered Insurance Agent Using Parlant and Streamlit",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-20.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/building-a-human-handoff-interface-for-ai-powered-insurance-agent-usin/",
+      "excerpt": "Building a Human Handoff Interface for AI-Powered Insurance Agent Using Parlant and Streamlit - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Re…",
+      "source": "https://www.marktechpost.com/2025/10/06/building-a-human-handoff-interface-for-ai-powered-insurance-agent-using-parlant-and-streamlit/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "streamtensor-a-pytorch-to-accelerator-compiler-that-streams-llm-interm",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -265,6 +289,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "western-qwen-ibm-wows-with-granite-4-llm-launch-and-hybrid-mamba-trans",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "'Western Qwen': IBM wows with Granite 4 LLM launch and hybrid Mamba/Transformer architecture",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/3mUEXkfbZzFQU13ok91Ge1/5d45f30c7caee9db4f3fcf50a0de08ad/cfr0z3n_hyperrealistic_detailed_graphic_novel_epic_cosmic_sci-f_ebca386f-881a-4d02-8447-fb58434a989b.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/western-qwen-ibm-wows-with-granite-4-llm-launch-and-hybrid-mamba-trans/",
+      "excerpt": "<p>IBM today <a href=\"https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models\">announced the release of Granite 4.0</a>, the newest generation of its homemade family of open source large language models (LLMs) designed to balance hi…",
+      "source": "https://venturebeat.com/ai/western-qwen-ibm-wows-with-granite-4-llm-launch-and-hybrid-mamba-transformer",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "servicenow-ai-releases-apriel-1-5-15b-thinker-an-open-weights-multimod",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -313,6 +349,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hubspot-s-dharmesh-shah-on-ai-mastery-why-prompts-context-and-experime",
+      "date": "2025-10-02",
+      "published_at": "2025-10-02T00:00:00Z",
+      "created_at": "2025-10-02T00:00:00Z",
+      "title": "HubSpot’s Dharmesh Shah on AI mastery: Why prompts, context, and experimentation matter most",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6f29Qn8RvQtjLGOLTlW9Vn/31244d93390adbe93f93b2f390287602/Dharmesh_Keynote.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/hubspot-s-dharmesh-shah-on-ai-mastery-why-prompts-context-and-experime/",
+      "excerpt": "<p><i>Presented by HubSpot</i></p><hr/><p>INBOUND, HubSpot&#x27;s annual conference for marketing and sales professionals, took place in San Francisco this year, with three days of insights and events across marketing, sales, CX, and AI innovation. It was a mix of the new, lik…",
+      "source": "https://venturebeat.com/ai/hubspots-dharmesh-shah-on-ai-mastery-why-prompts-context-and-experimentation",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "google-s-jules-coding-agent-moves-beyond-chat-with-new-command-line-an",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -337,6 +385,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "slack-is-giving-ai-unprecedented-access-to-your-workplace-conversation",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Slack is giving AI unprecedented access to your workplace conversations",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5k3wlTTbMsmVlMaAJ3XXgj/4e6ae0aad7af803cd31dc3553ee3d854/nuneybits_Vector_art_of_magnifying_glass_over_data_streams_69b8c62e-aa03-4988-82b8-616614764fe2-1.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/slack-is-giving-ai-unprecedented-access-to-your-workplace-conversation/",
+      "excerpt": "<p><a href=\"https://slack.com/\"><u>Slack</u></a> is fundamentally reshaping how artificial intelligence agents access and use enterprise data, launching new platform capabilities that allow developers to tap directly into the rich conversational data flowing through workplace …",
+      "source": "https://venturebeat.com/ai/slack-is-giving-ai-unprecedented-access-to-your-workplace-conversations",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "mlperf-inference-v5-1-2025-results-explained-for-gpus-cpus-and-ai-acce",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -346,6 +406,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/mlperf-inference-v5-1-2025-results-explained-for-gpus-cpus-and-ai-acce/",
       "excerpt": "MLPerf Inference v5.1 (2025): Results Explained for GPUs, CPUs, and AI Accelerators - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exc…",
       "source": "https://www.marktechpost.com/2025/10/01/mlperf-inference-v5-1-2025-results-explained-for-gpus-cpus-and-ai-accelerators/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-gove",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Microsoft retires AutoGen and debuts Agent Framework to unify and govern enterprise AI agents",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/2f4EJNTQnhiMLcntQGtR4S/9a0be14dda5d85f7807f3706255fa584/crimedy7_illustration_ai_agent_observability_abstract_--ar_16_e049a9be-1144-4a9b-9f5f-323e9457ee9a_0.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-gove/",
+      "excerpt": "<p><a href=\"https://www.microsoft.com/\"><u>Microsoft</u></a>’s multi-agent framework, AutoGen, acts as the backbone for many enterprise projects, particularly with the release of <a href=\"https://venturebeat.com/ai/microsoft-autogen-v0-4-a-turning-point-toward-more-intelligent…",
+      "source": "https://venturebeat.com/ai/microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-govern",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -382,6 +454,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-ai-proposes-reasoningbank-a-strategy-level-i-agent-memory-frame/",
       "excerpt": "Google AI Proposes ReasoningBank: A Strategy-Level I Agent Memory Framework that Makes LLM Agents Self-Evolve at Test Time - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hu…",
       "source": "https://www.marktechpost.com/2025/10/01/google-ai-proposes-reasoningbank-a-strategy-level-i-agent-memory-framework-that-makes-llm-agents-self-evolve-at-test-time/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "github-leads-the-enterprise-claude-leads-the-pack-cursor-s-speed-can-t",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "GitHub leads the enterprise, Claude leads the pack—Cursor’s speed can’t close",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4mpxx2sCfzGbAB2SBsTwsF/5f197f7ba05d8ab2768240394e1f7c18/Main_Chart_for_Story_Take_5.svg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/github-leads-the-enterprise-claude-leads-the-pack-cursor-s-speed-can-t/",
+      "excerpt": "<p>In the race to deploy generative AI for coding, the fastest tools are not winning enterprise deals. A new VentureBeat analysis, combining a comprehensive survey of 86 engineering teams with our own hands-on performance testing, reveals an industry paradox: developers want s…",
+      "source": "https://venturebeat.com/ai/github-leads-the-enterprise-claude-leads-the-pack-cursors-speed-cant-close",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -613,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 51,
-  "updated_at": "2025-10-06",
+  "count": 58,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 51,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

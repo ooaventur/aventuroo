@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-tragic-story-of-carl-mccunn-the-wildlife-photographer-who-got-stra",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "The Tragic Story Of Carl McCunn, The Wildlife Photographer Who Got Stranded In Alaska",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/carl-mccunn-final-photo.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-tragic-story-of-carl-mccunn-the-wildlife-photographer-who-got-stra/",
+      "excerpt": "Carl McCunn, The Photographer Who Died In The Alaska Wilderness All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Tragic Story Of Carl McCunn, The Wildlife Photographer Who Got Stranded In …",
+      "source": "https://allthatsinteresting.com/carl-mccunn",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-happened-to-south-america-s-megafauna-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/what-happened-to-south-america-s-megafauna-2025-10-06/",
       "excerpt": "News - What Happened to South America’s Megafauna? - Archaeology Magazine JOIN TODAY JOIN TODAY Skip to content Search… Search Archaeology Magazine Toggle site navigation Join Today! A publication of the Archaeological Institute of America Renew Subscription Subscribe Search… …",
       "source": "https://archaeology.org/news/2025/10/06/what-happened-to-south-americas-megafauna/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-chilling-story-of-marilyn-bergeron-the-canadian-woman-who-vanished",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "The Chilling Story Of Marilyn Bergeron, The Canadian Woman Who Vanished Without A Trace In 2008",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/smiling-marilyn-bergeron.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-chilling-story-of-marilyn-bergeron-the-canadian-woman-who-vanished/",
+      "excerpt": "Inside The Eerie Disappearance Of Marilyn Bergeron All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Chilling Story Of Marilyn Bergeron, The Canadian Woman Who Vanished Without A Trace In 2…",
+      "source": "https://allthatsinteresting.com/marilyn-bergeron",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -913,10 +937,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 76,
-  "updated_at": "2025-10-06",
+  "count": 78,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 76,
+    "total_items": 78,
     "per_page": 12,
     "total_pages": 7
   }
