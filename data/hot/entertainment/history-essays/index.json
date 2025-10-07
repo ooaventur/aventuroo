@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "who-was-the-witch-of-buchenwald-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Who Was the ‘Witch of Buchenwald?’",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1414085495_ijc6oy?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/who-was-the-witch-of-buchenwald-2025-10-07/",
+      "excerpt": "Who was the 'Witch of Buchenwald?' Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution …",
+      "source": "https://www.history.com/articles/ilse-koch-witch-of-buchenwald",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "where-does-the-phrase-read-the-room-come-from-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Where Does the Phrase ‘Read the Room’ Come From?",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/892039922_rfewgq?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/where-does-the-phrase-read-the-room-come-from-2025-10-07/",
+      "excerpt": "Where Does the Phrase 'Read the Room' Come From? Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Americ…",
+      "source": "https://www.history.com/articles/read-the-room",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vertiginous-accounts-travels-in-the-air-1871-edition-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -10,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/vertiginous-accounts-travels-in-the-air-1871-edition-2025-10-07/",
       "excerpt": "Vertiginous Accounts: *Travels in the Air* (1871 edition) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Books Vertigin…",
       "source": "https://publicdomainreview.org/collection/travels-in-the-air",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "7-places-that-tell-the-story-of-latino-heritage-in-the-us-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "7 Places That Tell the Story of Latino Heritage in the US",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/2218312353_n7hife?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/7-places-that-tell-the-story-of-latino-heritage-in-the-us-2025-10-07/",
+      "excerpt": "7 Places That Tell the Story of Latino Heritage in the US Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial Ameri…",
+      "source": "https://www.history.com/articles/hispanic-heritage-landmarks",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "5-books-that-take-you-inside-the-salem-witch-trials-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "5 Books That Take You Inside the Salem Witch Trials",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/515417102_xgj9s0?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/5-books-that-take-you-inside-the-salem-witch-trials-2025-10-07/",
+      "excerpt": "5 Books That Take You Inside the Salem Witch Trials Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Ame…",
+      "source": "https://www.history.com/articles/5-essential-books-salem-witch-trials",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -313,10 +361,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
+  "count": 30,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 26,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

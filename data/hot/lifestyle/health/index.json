@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "bacteria-hidden-inside-tumors-could-help-beat-cancer-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Bacteria hidden inside tumors could help beat cancer",
+      "cover": "https://www.sciencedaily.com/images/1920/cancer-tumor-cell-destruction-nanoparticles.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/bacteria-hidden-inside-tumors-could-help-beat-cancer-2025-10-07/",
+      "excerpt": "Bacteria hidden inside tumors could help beat cancer | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Ba…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251007081835.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-psychedelic-surprise-dmt-helps-the-brain-heal-after-stroke-2025-10-0",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -697,10 +709,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 59,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 58,
+    "total_items": 59,
     "per_page": 12,
     "total_pages": 5
   }

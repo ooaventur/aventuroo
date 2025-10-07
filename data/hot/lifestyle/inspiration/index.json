@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-weight-of-regrets-and-the-choice-to-live-better-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "The Weight of Regrets and the Choice to Live Better",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/10/Heavy-weight-of-regret.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-weight-of-regrets-and-the-choice-to-live-better-2025-10-07/",
+      "excerpt": "The Weight of Regrets and the Choice to Live Better - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfulness & Peace Purpose…",
+      "source": "https://tinybuddha.com/blog/the-weight-of-regrets-and-the-choice-to-live-better/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "matt-ebert-s-legacy-building-more-than-a-billion-dollar-business-2025",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -685,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 57,
+  "count": 58,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 57,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

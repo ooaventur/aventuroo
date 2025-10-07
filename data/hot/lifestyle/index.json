@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "teaching-left-her-deeply-unhappy-a-job-at-costco-brought-her-back-to-l",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Teaching Left Her Deeply Unhappy — A Job At Costco Brought Her Back To Life",
+      "cover": "https://img.huffingtonpost.com/asset/68e3d45318000051b15d1261.jpg?cache=8NOPx2TN4D&amp;ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/teaching-left-her-deeply-unhappy-a-job-at-costco-brought-her-back-to-l/",
+      "excerpt": "How Working At Costco Changed A Teacher’s Life | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Celebrity TV & Film Bo…",
+      "source": "https://www.huffpost.com/entry/teacher-costco-career-switch_n_68d57a8fe4b06bdb6cd8ac49",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "stan-expectation-the-allure-of-cultural-clout-why-has-the-reaction-to",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Stan Expectation & The Allure Of Cultural Clout: Why Has The Reaction To The Life Of A Showgirl Been So Heated?",
+      "cover": "https://www.refinery29.com/images/11936991.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/stan-expectation-the-allure-of-cultural-clout-why-has-the-reaction-to/",
+      "excerpt": "Why The Life Of A Showgirl Reaction Has Been So Heated Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings tog…",
+      "source": "https://www.refinery29.com/en-us/2025/10/11936988/taylor-swift-the-life-of-a-showgirl-review-fan-reaction?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "i-m-embracing-the-western-trend-with-these-tecovas-cowboy-boots-access",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "I’m Embracing The Western Trend With These Tecovas Cowboy Boots & Accessories",
+      "cover": "https://www.refinery29.com/images/11936915.png?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/i-m-embracing-the-western-trend-with-these-tecovas-cowboy-boots-access/",
+      "excerpt": "Tecovas Cowboy Boots Are A Western Fall Staple Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together be…",
+      "source": "https://www.refinery29.com/en-us/tecovas-cowboy-boots-new-arrivals?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "vertical-morality-might-describe-why-maga-christians-seem-so-unchristi",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -421,11 +457,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
-  "updated_at": "2025-10-06",
+  "count": 38,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 35,
+    "total_items": 38,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

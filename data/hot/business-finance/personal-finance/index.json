@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "you-can-still-get-a-tax-break-for-buying-an-ev-in-these-13-states-2025",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "You Can Still Get a Tax Break for Buying an EV in These 13 States",
+      "cover": "https://img.money.com/2025/10/News-EV-Tax-Credit-States.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/you-can-still-get-a-tax-break-for-buying-an-ev-in-these-13-states-2025/",
+      "excerpt": "EV Tax Credits and Rebates Still Available in 13 States | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Bes…",
+      "source": "https://money.com/state-ev-tax-credit-rebates/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mortgage-rates-today-tuesday-october-7-kind-of-a-big-jump-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Mortgage Rates Today, Tuesday, October 7: Kind of a Big Jump",
+      "cover": "https://www.nerdwallet.com/assets/blog/wp-content/uploads/2025/08/TUESDAY-MORTGAGE-RATES.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/mortgage-rates-today-tuesday-october-7-kind-of-a-big-jump-2025-10-07/",
+      "excerpt": "Mortgage Rates Today, Tuesday, October 7: Kind of a Big Jump - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back c…",
+      "source": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-october-7-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-is-tsa-affected-by-the-government-shutdown-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -10,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-is-tsa-affected-by-the-government-shutdown-2025-10-07/",
       "excerpt": "How Is TSA Affected by the Government Shutdown? - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards B…",
       "source": "https://www.nerdwallet.com/article/travel/how-is-tsa-affected-government-shutdown",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "don-t-blame-ai-for-the-crummy-job-market-yet-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Don’t Blame AI for the Crummy Job Market — Yet",
+      "cover": "https://img.money.com/2025/10/News-AI-Stealing-Jobs-Not-Yet-Yale-Analysis.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/don-t-blame-ai-for-the-crummy-job-market-yet-2025-10-07/",
+      "excerpt": "Study Finds AI Hasn't Changed the Job Market — Yet | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best Pet…",
+      "source": "https://money.com/ai-job-market-impact/?xid=moneyrss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -925,10 +961,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
+  "count": 80,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 77,
+    "total_items": 80,
     "per_page": 12,
     "total_pages": 7
   }

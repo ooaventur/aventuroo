@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "overshooters-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Overshooters",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/10/Wonderful_ballon_ascents_-_or_The_conquest_of_the_skies._A_history_of_balloons_and_balloon_voyages_1870_14597383037.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/overshooters-2025-10-07/",
+      "excerpt": "Overshooters | Online Only | n+1 | Wim Carton and Andreas Malm Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-default flavor-online-only type-online-only term-announcements format-pullquote tax-online-only …",
+      "source": "https://www.nplusonemag.com/online-only/online-only/overshooters/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "n-1-seeks-managing-editor-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "n+1 Seeks Managing Editor",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2021/12/190403_issuetiles_fb.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/n-1-seeks-managing-editor-2025-10-07/",
+      "excerpt": "n+1 Seeks Managing Editor | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-default flavor-online-only type-online-only term-online-only format-with_image tax-online-only featured- Online O…",
+      "source": "https://www.nplusonemag.com/online-only/announcements/n1-seeks-managing-editor/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "thomas-laqueur-a-different-life-2025-10-02",
       "date": "2025-10-02",
       "published_at": "2025-10-02T00:00:00Z",
@@ -265,10 +289,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-10-02",
+  "count": 24,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 22,
+    "total_items": 24,
     "per_page": 12,
     "total_pages": 2
   }
