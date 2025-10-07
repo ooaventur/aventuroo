@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "why-we-ve-been-chasing-10-000-steps-for-decades-and-what-japanese-walk",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Why We’ve Been Chasing 10,000 Steps for Decades—and What Japanese Walking Gets Right Instead",
+      "cover": "https://www.outsideonline.com/wp-content/uploads/2025/10/japanese-walking-featured-image-med-line.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/why-we-ve-been-chasing-10-000-steps-for-decades-and-what-japanese-walk/",
+      "excerpt": "Japanese Walking Proves That 10,000 Steps a Day Isn't Necessary Outside Online logo If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate link policy Health > T…",
+      "source": "https://www.outsideonline.com/health/training-performance/japanese-walking/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "wahoo-s-kickr-core-is-discounted-for-prime-big-deal-days-upgrade-your",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Wahoo’s Kickr Core Is Discounted for Prime Big Deal Days—Upgrade Your Indoor Setup Now",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/kickr-core-0531-1542054552.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/wahoo-s-kickr-core-is-discounted-for-prime-big-deal-days-upgrade-your/",
+      "excerpt": "Wahoo’s Kickr Core Is Discounted for Prime Big Deal Days—Upgrade Your Indoor Setup Now Search Newsletter Bicycling Membership My Bookmarks Tour de France Bikes and Gear Mountain Bikes Culture Training Skills and Tips Health and Nutrition News Racing Repair Rides Follow Subscri…",
+      "source": "https://www.bicycling.com/bikes-gear/a68877134/prime-big-deal-days-wahoo-kickr-core-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-climbing-shoes-of-2025-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "The Best Climbing Shoes of 2025",
+      "cover": "https://www.climbing.com/wp-content/uploads/2025/10/Mad-Rock-D2-One_h-1.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/the-best-climbing-shoes-of-2025-2025-10-07/",
+      "excerpt": "The Best Rock Climbing Shoes of 2025, Tested By Real Climbers Climbing Magazine logo Powered by Outside If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's affiliate li…",
+      "source": "https://www.climbing.com/gear/best-climbing-shoes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "did-shackleton-know-his-ship-was-doomed-a-new-study-suggests-so-2025-1",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/did-shackleton-know-his-ship-was-doomed-a-new-study-suggests-so-2025-1/",
       "excerpt": "Shackleton Knew His Ship Was Doomed, a New Study Suggests Outside Online logo Adventure > Exploration & Survival Did Shackleton Know His Ship Was Doomed? A New Study Suggests So. Researchers believe Shackleton knew of his ship’s weaknesses in ice. Should that change our unders…",
       "source": "https://www.outsideonline.com/outdoor-adventure/exploration-survival/shackleton-endurance-flaws/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "deal-of-the-week-this-1-5-ounce-headlamp-is-ultralight-and-ultra-cheap",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Deal of the Week: This 1.5-Ounce Headlamp Is Ultralight and Ultra-Cheap",
+      "cover": "https://www.backpacker.com/wp-content/uploads/2025/10/SOL-headlamp.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/outdoor/deal-of-the-week-this-1-5-ounce-headlamp-is-ultralight-and-ultra-cheap/",
+      "excerpt": "Deal of the Week: This 1.5-Ounce Headlamp Is Ultralight and Ultra-Cheap Backpacker Magazine logo Powered by Outside If you buy through our links, we may earn an affiliate commission. This supports our mission to get more people active and outside. Learn about Outside Online's …",
+      "source": "https://www.backpacker.com/gear/essentials/lighting/deal-of-the-week-this-1-5-ounce-headlamp-is-ultralight-and-ultra-cheap/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2125,11 +2173,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 177,
+  "count": 181,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 177,
+    "total_items": 181,
     "per_page": 12,
-    "total_pages": 15
+    "total_pages": 16
   }
 }

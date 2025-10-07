@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "inside-rivian-s-design-factory-and-the-story-behind-those-distinct-hea",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Inside Rivian's design factory and the story behind those distinct headlights",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208493-1759785210203-250822-cn-26-tech-rivian-design00_00_00_00Still003.png?v=1759785271&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/inside-rivian-s-design-factory-and-the-story-behind-those-distinct-hea/",
+      "excerpt": "Inside Rivian's design lab and the story behind the special headlights Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/07/rivian-factory-ev-electric-truck-suv-headlights.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "tesla-teaser-video-sparks-speculation-of-long-awaited-roadster-or-mass",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -853,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 71,
-  "updated_at": "2025-10-06",
+  "count": 72,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 71,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }

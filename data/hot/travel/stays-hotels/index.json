@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-malone-set-to-reopen-february-2026-after-refurbishment-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "The Malone set to reopen February 2026 after refurbishment",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-07-at-11.50.12.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/the-malone-set-to-reopen-february-2026-after-refurbishment-2025-10-07/",
+      "excerpt": "The Malone set to reopen February 2026 after refurbishment Skip to content LATEST NEWS The Malone set to reopen February 2026 after refurbishment Tewinbury Farm expands offer with hotel and pub purchase Bayard Capital invests in design-led nature brand ÖÖD Group Sonesta partne…",
+      "source": "https://boutiquehotelnews.com/news/hotel/the-malone-refurbishment-reopen/?utm_source=rss&utm_medium=rss&utm_campaign=the-malone-refurbishment-reopen",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tewinbury-farm-expands-offer-with-hotel-and-pub-purchase-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Tewinbury Farm expands offer with hotel and pub purchase",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-07-at-10.29.26.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/tewinbury-farm-expands-offer-with-hotel-and-pub-purchase-2025-10-07/",
+      "excerpt": "Tewinbury Farm expands offer with hotel and pub purchase Skip to content LATEST NEWS The Malone set to reopen February 2026 after refurbishment Tewinbury Farm expands offer with hotel and pub purchase Bayard Capital invests in design-led nature brand ÖÖD Group Sonesta partners…",
+      "source": "https://boutiquehotelnews.com/news/finance-and-investment/tewinbury-farm-expands/?utm_source=rss&utm_medium=rss&utm_campaign=tewinbury-farm-expands",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sonesta-partners-with-viator-to-expand-loyalty-benefits-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -241,10 +265,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 20,
-  "updated_at": "2025-10-06",
+  "count": 22,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 20,
+    "total_items": 22,
     "per_page": 12,
     "total_pages": 2
   }

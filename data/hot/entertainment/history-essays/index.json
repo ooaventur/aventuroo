@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "vertiginous-accounts-travels-in-the-air-1871-edition-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Vertiginous Accounts: Travels in the Air (1871 edition)",
+      "cover": "https://pdr-assets.b-cdn.net/collections/travels-in-the-air/travelsinair00flam_0012-edit-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/vertiginous-accounts-travels-in-the-air-1871-edition-2025-10-07/",
+      "excerpt": "Vertiginous Accounts: *Travels in the Air* (1871 edition) — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Collections / Books Vertigin…",
+      "source": "https://publicdomainreview.org/collection/travels-in-the-air",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-8-oldest-artifacts-ever-discovered-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-10-06",
+  "count": 26,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }

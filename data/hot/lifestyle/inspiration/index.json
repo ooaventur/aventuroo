@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "matt-ebert-s-legacy-building-more-than-a-billion-dollar-business-2025",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Matt Ebert’s Legacy: Building More Than a Billion-Dollar Business",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/matt-ebert-building-business-legacy-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/matt-ebert-s-legacy-building-more-than-a-billion-dollar-business-2025/",
+      "excerpt": "Matt Ebert’s Legacy: Building More Than a Billion-Dollar Business | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.d…",
+      "source": "https://www.success.com/matt-ebert-building-business-legacy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-the-publisher-the-legacy-we-build-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "From the Publisher: The Legacy We Build",
+      "cover": "https://www.success.com/wp-content/uploads/2025/07/glenn-sanford-success-ai-platform-launch-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/from-the-publisher-the-legacy-we-build-2025-10-07/",
+      "excerpt": "Building a Lasting Legacy: Insights From SUCCESS Publisher | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"…",
+      "source": "https://www.success.com/building-a-lasting-legacy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-the-editor-how-will-you-be-remembered-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "From the Editor: How Will You Be Remembered?",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/Kerrie-Lee-Brown-and-Russell-Brunson-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/from-the-editor-how-will-you-be-remembered-2025-10-07/",
+      "excerpt": "How Will You Be Remembered? Building Your Legacy | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
+      "source": "https://www.success.com/how-will-you-be-remembered/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "transforming-corporate-giving-with-sustainable-impact-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -649,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
-  "updated_at": "2025-10-06",
+  "count": 57,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 54,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

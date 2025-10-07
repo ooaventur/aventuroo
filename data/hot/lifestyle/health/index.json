@@ -13,6 +13,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "scientists-find-brain-circuit-that-traps-alcohol-users-in-the-vicious",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Scientists find brain circuit that traps alcohol users in the vicious cycle of addiction",
+      "cover": "https://www.sciencedaily.com/images/1920/alcoholism-alcohol-addiction-whiskey-glass.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-find-brain-circuit-that-traps-alcohol-users-in-the-vicious/",
+      "excerpt": "Scientists find brain circuit that traps alcohol users in the vicious cycle of addiction | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251006051124.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-finally-reveal-what-s-behind-long-covid-s-mysterious-brain",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Scientists finally reveal what’s behind long COVID’s mysterious brain fog",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-fog-concept-art.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-finally-reveal-what-s-behind-long-covid-s-mysterious-brain/",
+      "excerpt": "Scientists finally reveal what’s behind long COVID’s mysterious brain fog | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from rese…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251006051127.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-psychedelic-surprise-dmt-helps-the-brain-heal-after-stroke-2025-10-0",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "A psychedelic surprise: DMT helps the brain heal after stroke",
+      "cover": "https://www.sciencedaily.com/images/1920/human-brain-boost-protection-power.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-psychedelic-surprise-dmt-helps-the-brain-heal-after-stroke-2025-10-0/",
+      "excerpt": "A psychedelic surprise: DMT helps the brain heal after stroke | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiz…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251006051129.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "would-you-eat-yogurt-made-with-ants-scientists-did-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -46,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/nearly-half-of-drivers-killed-in-crashes-had-thc-in-their-blood-2025-1/",
       "excerpt": "Nearly half of drivers killed in crashes had THC in their blood | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organ…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251005085621.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "nanotech-transforms-vinegar-into-a-lifesaving-superbug-killer-2025-10",
+      "date": "2025-10-06",
+      "published_at": "2025-10-06T00:00:00Z",
+      "created_at": "2025-10-06T00:00:00Z",
+      "title": "Nanotech transforms vinegar into a lifesaving superbug killer",
+      "cover": "https://www.sciencedaily.com/images/1920/bacteria-superbug-pseudomonas-aeruginosa-rod-shaped-pathogen.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/nanotech-transforms-vinegar-into-a-lifesaving-superbug-killer-2025-10/",
+      "excerpt": "Nanotech transforms vinegar into a lifesaving superbug killer | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiz…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251006051122.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -649,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 58,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 54,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

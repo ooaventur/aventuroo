@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "IBM claims 45% productivity gains with Project Bob, its multi-model IDE that orchestrates LLMs with full repository context",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/1KaPgJ6Dv1ujagh0OQt10H/faa327ac91ec31ae438c00d1aefe5604/IBM_project_Bob_2-smk.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide/",
+      "excerpt": "<p>For many enterprises, there continue to be barriers to fully adopting and benefiting from agentic AI.</p><p><a href=\"https://www.ibm.com/\"><u>IBM</u></a><u> </u>is betting the blocker isn&#x27;t building AI agents but governing them in production.</p><p>At its TechXchange 2…",
+      "source": "https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-deepmind-introduces-codemender-a-new-ai-agent-that-uses-gemini",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Google DeepMind Introduces CodeMender: A New AI Agent that Uses Gemini Deep Think to Automatically Patch Critical Software Vulnerabilities",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-21.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-deepmind-introduces-codemender-a-new-ai-agent-that-uses-gemini/",
+      "excerpt": "Google DeepMind Introduces CodeMender: A New AI Agent that Uses Gemini Deep Think to Automatically Patch Critical Software Vulnerabilities - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorshi…",
+      "source": "https://www.marktechpost.com/2025/10/07/google-deepmind-introduces-codemender-a-new-ai-agent-that-uses-gemini-deep-think-to-automatically-patch-critical-software-vulnerabilities/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "building-a-human-handoff-interface-for-ai-powered-insurance-agent-usin",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -373,6 +397,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "thinking-machines-first-official-product-is-here-meet-tinker-an-api-fo",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Thinking Machines' first official product is here: meet Tinker, an API for distributed LLM fine-tuning",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/3hJxQbx34jZHQTjRslYPoS/a25f1037f58eabad800218eea95a59a6/cfr0z3n_top_down_close_up_isometric_view_on_hyperrealistic_deta_eb76faf0-0fc1-4bd8-a00e-100dbe99574b.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/thinking-machines-first-official-product-is-here-meet-tinker-an-api-fo/",
+      "excerpt": "<p>Thinking Machines, <a href=\"https://venturebeat.com/ai/ex-openai-cto-mira-murati-unveils-thinking-machines-a-startup-focused-on-multimodality-human-ai-collaboration\">the AI startup founded earlier this year</a> by former OpenAI CTO Mira Murati, has<a href=\"https://thinkingm…",
+      "source": "https://venturebeat.com/ai/thinking-machines-first-official-product-is-here-meet-tinker-an-api-for",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-role-of-model-context-protocol-mcp-in-generative-ai-security-and-r",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -445,6 +481,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hopper-s-ai-agent-can-book-flights-and-cancel-trips-without-human-help",
+      "date": "2025-10-01",
+      "published_at": "2025-10-01T00:00:00Z",
+      "created_at": "2025-10-01T00:00:00Z",
+      "title": "Hopper's AI agent can book flights and cancel trips without human help",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/2j1p443EWqDPT9LNzQwnDT/c3cd40ea73e952b3e8d693d347743aad/nuneybits_Vector_art_of_business_travel_6cd3b152-a9f8-4c95-b214-4f45d7c4afcb.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/hopper-s-ai-agent-can-book-flights-and-cancel-trips-without-human-help/",
+      "excerpt": "<p><a href=\"https://hts.hopper.com/\"><u>Hopper Technology Solutions</u></a> launched a breakthrough artificial intelligence system Wednesday that can autonomously handle complex travel customer service issues from start to finish, a major advance in AI-powered automation for t…",
+      "source": "https://venturebeat.com/ai/hoppers-ai-agent-can-book-flights-and-cancel-trips-without-human-help",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "google-ai-proposes-reasoningbank-a-strategy-level-i-agent-memory-frame",
       "date": "2025-10-01",
       "published_at": "2025-10-01T00:00:00Z",
@@ -490,6 +538,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-launches-sora-2-and-a-consent-gated-sora-ios-app-2025-09-30/",
       "excerpt": "OpenAI Launches Sora 2 and a Consent-Gated Sora iOS App - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusive articles Facebook Ins…",
       "source": "https://www.marktechpost.com/2025/09/30/openai-launches-sora-2-and-a-consent-gated-sora-ios-app/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "openai-debuts-sora-2-ai-video-generator-app-with-sound-and-self-insert",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "OpenAI debuts Sora 2 AI video generator app with sound and self-insertion cameos, API coming soon",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6HZ0aDkDEdcqOp1Pvhiwmn/1f0af41587d2b98757082a9b67fadb9b/videoframe_5245.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-debuts-sora-2-ai-video-generator-app-with-sound-and-self-insert/",
+      "excerpt": "<p>OpenAI today <a href=\"https://openai.com/index/sora-2/\">announced the release of Sora 2</a>, its latest video generation model, which now includes AI generated audio matching the generated video, as well.</p><p>It is paired with the launch of a new <a href=\"https://apps.app…",
+      "source": "https://venturebeat.com/ai/openai-debuts-sora-2-ai-video-generator-app-with-sound-and-self-insertion",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meta-s-new-cwm-model-learns-how-code-works-not-just-what-it-looks-like",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "Meta’s new CWM model learns how code works, not just what it looks like",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/7ApQWTx77OJXSmAc7uFnoE/365430b659d871f4d1343359d10f3a83/code_world_model.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-s-new-cwm-model-learns-how-code-works-not-just-what-it-looks-like/",
+      "excerpt": "<p><a href=\"https://www.meta.com/\">Meta</a>’s AI research team has released a new large language model (LLM) for coding that enhances code understanding by learning not only what code looks like, but also what it does when executed. The model, named <a href=\"https://ai.meta.co…",
+      "source": "https://venturebeat.com/ai/metas-new-cwm-model-learns-how-code-works-not-just-what-it-looks-like",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -697,11 +769,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 64,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 58,
+    "total_items": 64,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }
