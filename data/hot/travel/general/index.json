@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "top-20-resorts-in-new-england-readers-choice-awards-2025-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Top 20 Resorts in New England: Readers' Choice Awards 2025",
+      "cover": "https://media.cntraveler.com/photos/652861a282a6b5707e85af1d/master/pass/Chatham%20Bars%20Inn%20%20Bluff%20View.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/top-20-resorts-in-new-england-readers-choice-awards-2025-2025-10-07/",
+      "excerpt": "Top 20 Resorts in New England: Readers' Choice Awards 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards…",
+      "source": "https://www.cntraveler.com/gallery/top-resorts-in-new-england-readers-choice-awards-2015",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "top-15-hotels-in-colorado-readers-choice-awards-2025-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -97,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "readers-choice-awards-5-top-hotels-in-shanghai-2025-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Readers' Choice Awards: 5 Top Hotels in Shanghai 2025",
+      "cover": "https://media.cntraveler.com/photos/61e0ee7dabc79c35233fa51e/master/pass/The-Sukhothai-Shanghai.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/readers-choice-awards-5-top-hotels-in-shanghai-2025-2025-10-07/",
+      "excerpt": "Readers' Choice Awards: 5 Top Hotels in Shanghai 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025…",
+      "source": "https://www.cntraveler.com/gallery/shanghai-top-hotels",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "readers-choice-awards-2025-top-10-hotels-in-washington-dc-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -130,6 +154,30 @@
       "canonical": "https://archive.aventuroo.com/travel/general/readers-choice-awards-15-best-resorts-in-florida-2025-2025-10-07/",
       "excerpt": "Readers’ Choice Awards: 15 Best Resorts in Florida 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 20…",
       "source": "https://www.cntraveler.com/gallery/top-resorts-in-florida",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "readers-choice-awards-12-best-hotels-in-ireland-2025-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Readers’ Choice Awards: 12 Best Hotels in Ireland 2025",
+      "cover": "https://media.cntraveler.com/photos/61d7cfc7124c14f95cd3ccf4/master/pass/Lough-Eske-Castle.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/readers-choice-awards-12-best-hotels-in-ireland-2025-2025-10-07/",
+      "excerpt": "Readers’ Choice Awards: 12 Best Hotels in Ireland 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 202…",
+      "source": "https://www.cntraveler.com/gallery/top-hotels-in-ireland",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "readers-choice-awards-10-top-hotels-in-t-rkiye-2025-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Readers’ Choice Awards: 10 Top Hotels in Türkiye 2025",
+      "cover": "https://media.cntraveler.com/photos/61dcd368eeed581c31926ffa/master/pass/Four-Seasons-Hotel-Istanbul-at-the-Bosphorus.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/readers-choice-awards-10-top-hotels-in-t-rkiye-2025-2025-10-07/",
+      "excerpt": "Readers’ Choice Awards: 10 Top Hotels in Türkiye 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025…",
+      "source": "https://www.cntraveler.com/gallery/turkey-top-hotels",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -853,11 +901,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 71,
+  "count": 75,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 71,
+    "total_items": 75,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

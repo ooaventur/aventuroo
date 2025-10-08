@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "st-james-s-place-unveils-low-cost-funds-after-sweeping-overhaul-of-fee",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "St James’s Place unveils low-cost funds after sweeping overhaul of fees",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe9ec6cae-9264-41f1-b249-31743d3e19b5.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/st-james-s-place-unveils-low-cost-funds-after-sweeping-overhaul-of-fee/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/1725c72a-a7ef-4a81-bb9c-c4a1db7b2dda",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "japanese-stocks-blossom-ahead-of-time-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/japanese-stocks-blossom-ahead-of-time-2025-10-08/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/ab7bb263-ad0d-4577-8f73-b93276656c15",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gold-price-tops-4-000-for-first-time-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Gold price tops $4,000 for first time",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc3725b1d-de88-4956-9698-f099e9e93a40.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/gold-price-tops-4-000-for-first-time-2025-10-08/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/ed7f86e8-d12a-4c0a-a7d6-8400bfde6140",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cocoa-price-tumbles-to-20-month-low-as-record-rally-ends-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Cocoa price tumbles to 20-month low as record rally ends",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fea30b8eb-5710-45c8-b2d1-716305f33ea6.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/cocoa-price-tumbles-to-20-month-low-as-record-rally-ends-2025-10-08/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/b6ce5520-b72b-40fc-8ccd-c688f47d9e26",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -709,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
+  "count": 62,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 59,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

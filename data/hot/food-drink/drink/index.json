@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "ian-macleod-to-boost-gtr-sales-with-pricing-scrutiny-and-npds-2025-10",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Ian Macleod to boost GTR sales with pricing scrutiny and NPDs",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/10/Ian-Macleod-Mark-Robinson-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/ian-macleod-to-boost-gtr-sales-with-pricing-scrutiny-and-npds-2025-10/",
+      "excerpt": "Ian Macleod to boost GTR sales with pricing scrutiny and NPDs View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Inter…",
+      "source": "https://www.thedrinksbusiness.com/2025/10/ian-macleod-fine-tunes-its-gtr-focus-with-new-strategies/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wine-improvement-districts-promise-to-sell-more-wine-so-why-are-they-s",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -2161,11 +2173,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 180,
-  "updated_at": "2025-10-07",
+  "count": 181,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 180,
+    "total_items": 181,
     "per_page": 12,
-    "total_pages": 15
+    "total_pages": 16
   }
 }

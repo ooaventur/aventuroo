@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "an-intelligent-conversational-machine-learning-pipeline-integrating-la",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "An Intelligent Conversational Machine Learning Pipeline Integrating LangChain Agents and XGBoost for Automated Data Science Workflows",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-22.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/an-intelligent-conversational-machine-learning-pipeline-integrating-la/",
+      "excerpt": "An Intelligent Conversational Machine Learning Pipeline Integrating LangChain Agents and XGBoost for Automated Data Science Workflows - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
+      "source": "https://www.marktechpost.com/2025/10/07/an-intelligent-conversational-machine-learning-pipeline-integrating-langchain-agents-and-xgboost-for-automated-data-science-workflows/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-dev-day-2025-chatgpt-becomes-the-new-app-store-and-hardware-is",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -805,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
-  "updated_at": "2025-10-07",
+  "count": 68,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 67,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }
