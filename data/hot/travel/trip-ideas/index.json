@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "fossil-lake-safari-quarry-in-kemmerer-wyoming-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Fossil Lake Safari Quarry in Kemmerer, Wyoming",
+      "cover": "https://img.atlasobscura.com/Y5Oy7RtPRKicUGWP-24-N7_yNMLtReVsl6-e75o3oxk/rt:fit/w:600/c:630:420:nowe:613:759/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8xMTky/ZDRkNy1jOTExLTRk/YWUtOTMwZi04ZjJl/N2RhMThkMmNjMTdi/YzkyMjc3MWVlNTQx/YTJfSU1HXzEyNjUg/KDIpLmpwZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/fossil-lake-safari-quarry-in-kemmerer-wyoming-2025-10-08/",
+      "excerpt": "Fossil Lake Safari Quarry - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2…",
+      "source": "https://www.atlasobscura.com/places/fossil-lake-safari",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "yates-cider-mill-in-rochester-hills-michigan-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/statue-of-jj-donovan-in-bellingham-washington-2025-10-07/",
       "excerpt": "Statue of JJ Donovan - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > a…",
       "source": "https://www.atlasobscura.com/places/statue-of-jj-donovan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "jane-goodall-the-gentle-disrupter-whose-research-on-chimpanzees-redefi",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Jane Goodall, the gentle disrupter whose research on chimpanzees redefined what it meant to be human",
+      "cover": "https://adventure.com/wp-content/uploads/2025/10/Jane-Goodall_US_Mission_Uganda_Creative-Commons.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/jane-goodall-the-gentle-disrupter-whose-research-on-chimpanzees-redefi/",
+      "excerpt": "Jane Goodall, the gentle disrupter whose research on chimpanzees redefined what it meant to be human - Adventure.com × Adventure.com - digital travel magazine | Intrepid Group Features Book Club Climate Desk Food for Thought Wildlife Active Profiles Photography Features (cont.…",
+      "source": "https://adventure.com/jane-goodall-primatologist-tribute-legacy/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1105,10 +1129,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 92,
-  "updated_at": "2025-10-07",
+  "count": 94,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 92,
+    "total_items": 94,
     "per_page": 12,
     "total_pages": 8
   }

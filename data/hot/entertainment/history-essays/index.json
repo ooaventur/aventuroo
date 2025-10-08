@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-adventures-and-experiences-of-the-first-slovak-novel-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "The Adventures and Experiences of the First Slovak Novel",
+      "cover": "https://pdr-assets.b-cdn.net/essays/the-adventures-and-experiences-of-the-first-slovak-novel/slovak-thumb.jpg",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-adventures-and-experiences-of-the-first-slovak-novel-2025-10-08/",
+      "excerpt": "The Adventures and Experiences of the First Slovak Novel — The Public Domain Review Home Essays Collections Explore Shop Support PDR About Blog Search Search The Public Domain Review Support PDR Essays Collections Explore Shop About Blog X Bluesky Essays The Adventures and Exp…",
+      "source": "https://publicdomainreview.org/essay/the-adventures-and-experiences-of-the-first-slovak-novel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "who-was-the-witch-of-buchenwald-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -361,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-10-07",
+  "count": 31,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

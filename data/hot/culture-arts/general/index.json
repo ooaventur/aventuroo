@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "season-2-update-five-years-later-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Season 2 Update: Five Years Later",
+      "cover": "https://media.newyorker.com/photos/68e586521174aa5ed9d52592/master/pass/ITD_announcement_social.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/season-2-update-five-years-later-2025-10-08/",
+      "excerpt": "Season 2 Update: Five Years Later | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu In the Dark Sea…",
+      "source": "https://www.newyorker.com/podcast/in-the-dark/season-2-update-five-years-later",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-musical-indictment-of-the-harris-county-jail-in-criminal-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "A Musical Indictment of the Harris County Jail in “Criminal”",
+      "cover": "https://media.newyorker.com/photos/68e573551ea4d19e1fa92440/master/pass/GIF_8.gif",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-musical-indictment-of-the-harris-county-jail-in-criminal-2025-10-08/",
+      "excerpt": "A Musical Indictment of the Harris County Jail in “Criminal” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigatio…",
+      "source": "https://www.newyorker.com/culture/the-new-yorker-documentary/a-musical-indictment-of-the-harris-county-jail-in-criminal",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-explosive-ecstasy-of-june-leaf-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -1309,10 +1333,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 109,
+  "count": 111,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 109,
+    "total_items": 111,
     "per_page": 12,
     "total_pages": 10
   }

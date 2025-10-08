@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "101-best-amazon-prime-day-travel-deals-of-2025-up-to-50-off-luggage-ou",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "101 Best Amazon Prime Day Travel Deals of 2025: Up to 50% Off Luggage, Outdoor Gear, & Shoes",
+      "cover": "https://media.cntraveler.com/photos/68e43079c71fc34e80a01d19/master/pass/10.3_CNT_The-Best-Prime-Big-Deal-Days-for-Travelers%20copy.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/101-best-amazon-prime-day-travel-deals-of-2025-up-to-50-off-luggage-ou/",
+      "excerpt": "101 Best Amazon Prime Day Travel Deals of 2025: Up to 50% Off Luggage, Outdoor Gear, & Shoes | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who T…",
+      "source": "https://www.cntraveler.com/story/amazon-prime-day-deals-october-2025-1",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "top-cruise-lines-readers-choice-awards-2025-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -901,10 +913,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 75,
-  "updated_at": "2025-10-07",
+  "count": 76,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 75,
+    "total_items": 76,
     "per_page": 12,
     "total_pages": 7
   }

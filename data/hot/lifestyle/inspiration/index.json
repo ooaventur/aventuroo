@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "want-a-six-figure-salary-to-work-with-ai-netflix-is-paying-700k-for-th",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Want a Six-Figure Salary to Work With AI? Netflix Is Paying $700K for This Skill Set",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/netflix-700k-job-ai-hybrid-skills-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/want-a-six-figure-salary-to-work-with-ai-netflix-is-paying-700k-for-th/",
+      "excerpt": "Netflix’s $700K AI Job Highlights Demand for Hybrid Skills | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"…",
+      "source": "https://www.success.com/netflix-700k-job-ai-hybrid-skills/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "never-stop-learning-quotes-to-motivate-your-pursuit-of-knowledge-2025",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "‘Never Stop Learning’ Quotes to Motivate Your Pursuit of Knowledge",
+      "cover": "https://www.success.com/wp-content/uploads/2017/11/never-stop-learning-quotes-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/never-stop-learning-quotes-to-motivate-your-pursuit-of-knowledge-2025/",
+      "excerpt": "40 ‘Never Stop Learning’ Quotes to Inspire Growth | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazin…",
+      "source": "https://www.success.com/15-quotes-to-inspire-you-to-never-stop-learning/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "50-fearless-quotes-about-failure-to-help-you-grow-learn-and-succeed-20",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "50 Fearless Quotes About Failure to Help You Grow, Learn and Succeed",
+      "cover": "https://www.success.com/wp-content/uploads/2016/07/Fearless-Quotes-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/50-fearless-quotes-about-failure-to-help-you-grow-learn-and-succeed-20/",
+      "excerpt": "50 Quotes About Failure for Growth & Resilience | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine …",
+      "source": "https://www.success.com/21-quotes-about-failing-fearlessly/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-weight-of-regrets-and-the-choice-to-live-better-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -709,11 +745,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
-  "updated_at": "2025-10-07",
+  "count": 62,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 59,
+    "total_items": 62,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

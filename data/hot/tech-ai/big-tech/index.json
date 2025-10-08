@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "anthropic-to-open-first-india-office-as-rival-openai-boosts-presence-i",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Anthropic to open first India office as rival OpenAI boosts presence in the country",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108204189-1758834976885-gettyimages-2233950387-boivin-notitle250909_npSDA.jpeg?v=1759912431&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/anthropic-to-open-first-india-office-as-rival-openai-boosts-presence-i/",
+      "excerpt": "Anthropic to open first India office in 2026 Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth …",
+      "source": "https://www.cnbc.com/2025/10/08/anthropic-to-open-first-india-office-in-2026.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amazon-launches-prescription-vending-machines-at-one-medical-clinics-i",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Amazon launches prescription vending machines at One Medical clinics in Los Angeles",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108209055-1759869425516-Amazon_Pharmacy_Kiosks_-_OM_lobby.png?v=1759869684&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amazon-launches-prescription-vending-machines-at-one-medical-clinics-i/",
+      "excerpt": "Amazon debuts prescription kiosks at Los Angeles One Medical clinics Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/08/amazon-debuts-prescription-kiosks-at-los-angeles-one-medical-clinics.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "tesla-releases-driver-assist-tech-update-ahead-of-expected-major-annou",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -961,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 80,
+  "count": 82,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 80,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

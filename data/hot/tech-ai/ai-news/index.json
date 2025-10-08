@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "model-context-protocol-mcp-vs-function-calling-vs-openapi-tools-when-t",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Model Context Protocol (MCP) vs Function Calling vs OpenAPI Tools — When to Use Each?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-25.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/model-context-protocol-mcp-vs-function-calling-vs-openapi-tools-when-t/",
+      "excerpt": "Model Context Protocol (MCP) vs Function Calling vs OpenAPI Tools — When to Use Each? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our e…",
+      "source": "https://www.marktechpost.com/2025/10/08/model-context-protocol-mcp-vs-function-calling-vs-openapi-tools-when-to-use-each/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meta-ai-open-sources-openzl-a-format-aware-compression-framework-with",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Meta AI Open-Sources OpenZL: A Format-Aware Compression Framework with a Universal Decoder",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-23.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-ai-open-sources-openzl-a-format-aware-compression-framework-with/",
+      "excerpt": "Meta AI Open-Sources OpenZL: A Format-Aware Compression Framework with a Universal Decoder - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read …",
+      "source": "https://www.marktechpost.com/2025/10/08/meta-ai-open-sources-openzl-a-format-aware-compression-framework-with-a-universal-decoder/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-ai-introduces-gemini-2-5-computer-use-preview-a-browser-control",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Google AI Introduces Gemini 2.5 ‘Computer Use’ (Preview): A Browser-Control Model to Power AI Agents to Interact with User Interfaces",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-24.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-ai-introduces-gemini-2-5-computer-use-preview-a-browser-control/",
+      "excerpt": "Google AI Introduces Gemini 2.5 'Computer Use' (Preview): A Browser-Control Model to Power AI Agents to Interact with User Interfaces - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
+      "source": "https://www.marktechpost.com/2025/10/08/google-ai-introduces-gemini-2-5-computer-use-preview-a-browser-control-model-to-power-ai-agents-to-interact-with-user-interfaces/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "an-intelligent-conversational-machine-learning-pipeline-integrating-la",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/an-intelligent-conversational-machine-learning-pipeline-integrating-la/",
       "excerpt": "An Intelligent Conversational Machine Learning Pipeline Integrating LangChain Agents and XGBoost for Automated Data Science Workflows - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
       "source": "https://www.marktechpost.com/2025/10/07/an-intelligent-conversational-machine-learning-pipeline-integrating-langchain-agents-and-xgboost-for-automated-data-science-workflows/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai21-s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-cont",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "AI21’s Jamba Reasoning 3B Redefines What “Small” Means in LLMs — 250K Context on a Laptop",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5oeaGc6bdeKn9zv5ZBduGS/f5fd953849eaf0b642bec868df68b07e/crimedy7_illustration_of_dozens_of_small_robots_working_on_a__4b54aeff-0eaf-4af3-abfa-c8fe2d943247_2.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ai21-s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-cont/",
+      "excerpt": "<p>The latest addition to the small model wave for enterprises comes from <a href=\"https://www.ai21.com/\"><u>AI21 Labs</u></a>, which is betting that bringing models to devices will free up traffic in data centers. </p><p>AI21’s Jamba Reasoning 3B, a “tiny” open-source model t…",
+      "source": "https://venturebeat.com/ai/ai21s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-context-on",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -817,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 68,
+  "count": 72,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 68,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }

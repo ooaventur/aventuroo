@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "charles-schwab-backs-singapore-s-qapita-a-carta-challenger-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Charles Schwab backs Singapore’s Qapita, a Carta challenger",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/qapita-founders.jpg?resize=1200,800",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/charles-schwab-backs-singapore-s-qapita-a-carta-challenger-2025-10-08/",
+      "excerpt": "Charles Schwab backs Singapore's Qapita, a Carta challenger | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Am…",
+      "source": "https://techcrunch.com/2025/10/08/charles-schwab-backs-singapores-qapita-in-26-5m-bet-to-challenge-carta-with-u-s-private-market-platform/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-s-doe-proposes-cutting-billions-in-grants-for-gm-ford-and-lots-o",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -877,10 +889,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 73,
+  "count": 74,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 73,
+    "total_items": 74,
     "per_page": 12,
     "total_pages": 7
   }

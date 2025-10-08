@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-tax-move-is-one-of-the-irs-best-kept-secrets-for-retirees-advisor",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "This tax move is one of the IRS’ ‘best-kept secrets for retirees,’ advisor says",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208936-1759857208110-gettyimages-93910421-13avr0008rf.jpeg?v=1759857218&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/this-tax-move-is-one-of-the-irs-best-kept-secrets-for-retirees-advisor/",
+      "excerpt": "How retirees can get a bigger tax break for charitable gifts with QCDs Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/08/retirees-bigger-tax-break-charitable-giving-qcd.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "most-americans-now-say-retiring-at-65-is-no-longer-realistic-2025-10-0",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Most Americans Now Say Retiring at 65 Is No Longer Realistic",
+      "cover": "https://img.money.com/2025/10/News-37-Percent-Think-Retire-On-Time.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/most-americans-now-say-retiring-at-65-is-no-longer-realistic-2025-10-0/",
+      "excerpt": "Survey: Most Americans Say Retiring at 65 Is Unrealistic | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Be…",
+      "source": "https://money.com/retiring-at-65-unrealistic-for-most-americans-tiaa-survey/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "you-can-still-get-a-tax-break-for-buying-an-ev-in-these-13-states-2025",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -985,10 +1009,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 82,
-  "updated_at": "2025-10-07",
+  "count": 84,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 82,
+    "total_items": 84,
     "per_page": 12,
     "total_pages": 7
   }
