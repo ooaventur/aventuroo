@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "kazakhstan-shuts-130-crypto-platforms-seizes-17m-for-illicit-activity",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Kazakhstan shuts 130 crypto platforms, seizes $17M for illicit activity",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDIvMDE5NTQ3ZjAtODgxNS03NTEzLTg1NGEtMWRhNGY2OWY1OGJm.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/kazakhstan-shuts-130-crypto-platforms-seizes-17m-for-illicit-activity/",
+      "excerpt": "Kazakhstan Cracks Down On Illicit Crypto Activity, Seizes $17M Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Helen Partz 5 hours ago Kazakhstan shuts 130 crypto platforms, seizes $17M for illicit activity Despite Kazakhstan’s public pro-cryp…",
+      "source": "https://cointelegraph.com/news/kazakhstan-closes-130-crypto-exchanges-seizes-16-7-million?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "fireblocks-partners-with-galaxy-bakkt-to-expand-crypto-custody-for-ins",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Fireblocks partners with Galaxy, Bakkt to expand crypto custody for institutions",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDUvMDE5NmU5MTQtYTJjOS03Y2RkLWIxMDktMjA4ZjlhZGYwYjg1.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/fireblocks-partners-with-galaxy-bakkt-to-expand-crypto-custody-for-ins/",
+      "excerpt": "Fireblocks Expands Regulated Crypto Custody Network Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Amin Haqshanas 5 hours ago Fireblocks partners with Galaxy, Bakkt to expand crypto custody for institutions Fireblocks Trust Company has teamed…",
+      "source": "https://cointelegraph.com/news/fireblocks-galaxy-bakkt-institutional-crypto-custody?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dubai-s-crypto-grand-strategy-aims-to-challenge-asian-crown-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Dubai’s crypto grand strategy aims to challenge Asian crown",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjQtMTIvMDE5M2Q2ODYtMDljNC03NDE0LThkNTUtNDg5NjYwY2U4NzY2.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/dubai-s-crypto-grand-strategy-aims-to-challenge-asian-crown-2025-10-08/",
+      "excerpt": "Dubai’s Crypto Grand Strategy Aims To Challenge Asian Crown Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Joshua Chu 5 hours ago Dubai’s crypto grand strategy aims to challenge Asian crown Dubai deploys oil wealth and Islamic finance to chal…",
+      "source": "https://cointelegraph.com/news/dubai-crypto-grand-strategy?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "coinbase-enables-staking-for-ny-residents-after-regulatory-approval-20",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Coinbase enables staking for NY residents after regulatory approval",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWM0MzYtMTc0YS03YjMyLTk4YzMtNWFjYWY2MWM1NzIx.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/coinbase-enables-staking-for-ny-residents-after-regulatory-approval-20/",
+      "excerpt": "Coinbase Enables Staking for NY Residents after Regulatory Approval Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 3 hours ago Coinbase enables staking for NY residents after regulatory approval Coinbase has launched crypto stak…",
+      "source": "https://cointelegraph.com/news/coinbase-staking-new-york-residents?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "stimulus-talk-meets-shutdown-what-tariff-funded-checks-could-mean-for",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -529,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
-  "updated_at": "2025-10-07",
+  "count": 48,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 44,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

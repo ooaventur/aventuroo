@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "will-a-i-trap-you-in-the-permanent-underclass-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Will A.I. Trap You in the “Permanent Underclass”?",
+      "cover": "https://media.newyorker.com/photos/68e64fb201bcb023bee50ffa/master/pass/NewYorker_AIUnderclass_final_2.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/will-a-i-trap-you-in-the-permanent-underclass-2025-10-08/",
+      "excerpt": "Will A.I. Trap You in the “Permanent Underclass”? | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu…",
+      "source": "https://www.newyorker.com/culture/infinite-scroll/will-ai-trap-you-in-the-permanent-underclass",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-real-battle-of-one-battle-after-another-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -22,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/season-2-update-five-years-later-2025-10-08/",
       "excerpt": "Season 2 Update: Five Years Later | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu In the Dark Sea…",
       "source": "https://www.newyorker.com/podcast/in-the-dark/season-2-update-five-years-later",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "robert-rauschenberg-s-new-york-pictures-from-the-real-world-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Robert Rauschenberg’s New York: Pictures from the Real World",
+      "cover": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/Rauschenberg-0016-New_York_City-Flag.jpg?fit=2400%2C1610&quality=90&ssl=1",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/robert-rauschenberg-s-new-york-pictures-from-the-real-world-2025-10-08/",
+      "excerpt": "Robert Rauschenberg’s New York: Pictures from the Real World Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram Linked…",
+      "source": "https://hyperallergic.com/1047043/robert-rauschenbergs-new-york-pictures-from-the-real-world/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "exhibition-strategies-massart-graduate-gallery-thinks-beyond-campus-20",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Exhibition Strategies: MassArt Graduate Gallery Thinks Beyond Campus",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/Hyperallergic_Announcement-MassArt-x-SoWa_Heirloom-Convoy_2024-Alumni-exhibition-04.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/exhibition-strategies-massart-graduate-gallery-thinks-beyond-campus-20/",
+      "excerpt": "Exhibition Strategies: MassArt Graduate Gallery Thinks Beyond Campus Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagra…",
+      "source": "https://hyperallergic.com/1047328/massart-graduate-gallery-thinks-beyond-campus/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1333,10 +1369,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 111,
+  "count": 114,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 111,
+    "total_items": 114,
     "per_page": 12,
     "total_pages": 10
   }

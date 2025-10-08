@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "how-the-government-shutdown-is-impacting-travel-from-flight-delays-to",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "How the Government Shutdown Is Impacting Travel, From Flight Delays to National Parks",
+      "cover": "https://media.cntraveler.com/photos/68e3ebd0affdeaef81364e2f/master/pass/GettyImages-709133759.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/how-the-government-shutdown-is-impacting-travel-from-flight-delays-to/",
+      "excerpt": "How the Government Shutdown Is Impacting Travel, From Flight Delays to National Parks | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel V…",
+      "source": "https://www.cntraveler.com/story/how-a-government-shutdown-could-impact-travel-2",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "31-best-amazon-prime-day-2025-outdoor-deals-according-to-a-lifelong-ca",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "31 Best Amazon Prime Day 2025 Outdoor Deals, According to a Lifelong Camper",
+      "cover": "https://media.cntraveler.com/photos/68e560562e64ada0ec64290a/master/pass/10.07%20The%20Best%20Outdoor%20Deals%20to%20Shop%20This%20Prime%20Day%20(Day%201)_3.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/31-best-amazon-prime-day-2025-outdoor-deals-according-to-a-lifelong-ca/",
+      "excerpt": "31 Best Amazon Prime Day 2025 Outdoor Deals, According to a Lifelong Camper | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Reade…",
+      "source": "https://www.cntraveler.com/story/best-amazon-prime-day-outdoor-deals-october-2025-1",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "101-best-amazon-prime-day-travel-deals-of-2025-up-to-50-off-luggage-ou",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -913,10 +937,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 76,
+  "count": 78,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 76,
+    "total_items": 78,
     "per_page": 12,
     "total_pages": 7
   }

@@ -25,6 +25,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "microsoft-enables-exchange-online-auto-archiving-by-default-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Microsoft enables Exchange Online auto-archiving by default",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/07/03/Exchange_Server.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-enables-exchange-online-auto-archiving-by-default-2025-10-08/",
+      "excerpt": "Microsoft enables Exchange Online auto-archiving by default News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micro…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-exchange-online-auto-archiving-by-default-to-fight-overflowing-mailboxes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-365-outage-blocks-access-to-teams-exchange-online-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Microsoft 365 outage blocks access to Teams, Exchange Online",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/08/04/Microsoft-365.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-365-outage-blocks-access-to-teams-exchange-online-2025-10-08/",
+      "excerpt": "Microsoft 365 outage blocks access to Teams, Exchange Online News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micr…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-blocks-access-to-teams-exchange-online/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "london-police-arrests-suspects-linked-to-nursery-breach-child-doxing-2",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "London police arrests suspects linked to nursery breach, child doxing",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/28/law-enforcement-arrest-bright.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/london-police-arrests-suspects-linked-to-nursery-breach-child-doxing-2/",
+      "excerpt": "London police arrests suspects linked to nursery breach, child doxing News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for f…",
+      "source": "https://www.bleepingcomputer.com/news/security/london-police-arrests-suspects-linked-to-nursery-breach-child-doxing/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "hackers-exploit-auth-bypass-in-service-finder-wordpress-theme-2025-10",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Hackers exploit auth bypass in Service Finder WordPress theme",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/12/07/back.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-exploit-auth-bypass-in-service-finder-wordpress-theme-2025-10/",
+      "excerpt": "Hackers exploit auth bypass in Service Finder WordPress theme News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mic…",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-in-service-finder-wordpress-theme/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "figma-mcp-server-opens-orgs-to-agentic-ai-compromise-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Figma MCP Server Opens Orgs to Agentic AI Compromise",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdac6ed6a12f42609/68e692b574ac3958a20962e2/network-Jezper-alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/figma-mcp-server-opens-orgs-to-agentic-ai-compromise-2025-10-08/",
+      "excerpt": "Patch now: A bug (CVE-2025-53967) in the popular Web design tool's option for talking to agentic AI can lead to remote code execution (RCE).",
+      "source": "https://www.darkreading.com/vulnerabilities-threats/figma-mcp-server-agentic-ai-compromise",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "cyberattack-leads-to-beer-shortage-as-asahi-recovers-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -34,6 +94,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/cyberattack-leads-to-beer-shortage-as-asahi-recovers-2025-10-08/",
       "excerpt": "A ransomware last week left the Asahi brewery in Japan struggling to take orders and deliver its products domestically, as manufacturers become a favored target.",
       "source": "https://www.darkreading.com/ics-ot-security/cyberattack-beer-shortage-asahi-recovers",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "crimson-collective-hackers-target-aws-cloud-instances-for-data-theft-2",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Crimson Collective hackers target AWS cloud instances for data theft",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/09/08/hacker.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/crimson-collective-hackers-target-aws-cloud-instances-for-data-theft-2/",
+      "excerpt": "Crimson Collective hackers target AWS cloud instances for data theft News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for fl…",
+      "source": "https://www.bleepingcomputer.com/news/security/crimson-collective-hackers-target-aws-cloud-instances-for-data-theft/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-nexus-actors-weaponize-nezha-open-source-tool-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "China-Nexus Actors Weaponize 'Nezha' Open Source Tool",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt56e6541b650ad42b/68e59f28ec7e1f6b53533656/Nezha-Keren_Su_China_Span-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/china-nexus-actors-weaponize-nezha-open-source-tool-2025-10-08/",
+      "excerpt": "A threat actor is putting a spin on classic remote monitoring and management (RMM) attacks, using a Chinese open source tool instead.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-nezha-open-source-tool",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "calling-all-influencers-spear-phishers-dangle-tesla-red-bull-jobs-2025",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Calling All Influencers: Spear-Phishers Dangle Tesla, Red Bull Jobs",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt13340062f0c4bc3e/68e638decac3ea7ed3ac7955/tesla-Itsik_Marom-Alamy.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/calling-all-influencers-spear-phishers-dangle-tesla-red-bull-jobs-2025/",
+      "excerpt": "Wanna work for a hot brand? Cyberattackers continue to evolve lures for job seekers in an impersonation campaign aimed at stealing résumés from social media pros.",
+      "source": "https://www.darkreading.com/remote-workforce/influencers-phishers-tesla-red-bull-jobs",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1633,10 +1729,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 136,
+  "count": 144,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 136,
+    "total_items": 144,
     "per_page": 12,
     "total_pages": 12
   }

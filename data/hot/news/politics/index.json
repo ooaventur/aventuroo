@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "irs-to-furlough-nearly-half-of-its-workforce-as-shutdown-enters-second",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "IRS to furlough nearly half of its workforce as shutdown enters second week",
+      "cover": "https://s.abcnews.com/images/US/wirestory_952b84666a5099547546af9ee44d883f_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/irs-to-furlough-nearly-half-of-its-workforce-as-shutdown-enters-second/",
+      "excerpt": "IRS to furlough nearly half of its workforce as shutdown enters second week - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on IRS to fu…",
+      "source": "https://abcnews.go.com/Politics/wireStory/irs-furlough-half-workforce-shutdown-enters-week-126336966",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "federal-government-shutdown-grinds-into-a-second-week-but-quiet-talks",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -70,6 +82,30 @@
       "canonical": "https://archive.aventuroo.com/news/politics/democratic-arizona-gov-hobbs-launches-reelection-bid-as-her-party-aims/",
       "excerpt": "Democratic Arizona Gov. Hobbs launches reelection bid as her party aims to build power nationally - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off …",
       "source": "https://abcnews.go.com/Politics/wireStory/democratic-arizona-gov-hobbs-launches-reelection-bid-party-126322752",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "congresswoman-carolyn-cheeks-kilpatrick-a-tireless-advocate-for-detroi",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Congresswoman Carolyn Cheeks Kilpatrick, a tireless advocate for Detroit, dies at age 80",
+      "cover": "https://s.abcnews.com/images/US/wirestory_bd19af10386187758fc7b425b229d93b_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/congresswoman-carolyn-cheeks-kilpatrick-a-tireless-advocate-for-detroi/",
+      "excerpt": "Congresswoman Carolyn Cheeks Kilpatrick, a tireless advocate for Detroit, dies at age 80 - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream…",
+      "source": "https://abcnews.go.com/Politics/wireStory/congresswoman-carolyn-cheeks-kilpatrick-tireless-advocate-detroit-dies-126333434",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "college-football-picks-playing-3-time-zones-away-just-part-of-deal-moo",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "College football picks: Playing 3 time zones away just part of deal, Moore says no excuses allowed",
+      "cover": "https://s.abcnews.com/images/Sports/wirestory_317d3d8557be52793fbb87999b898aed_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/college-football-picks-playing-3-time-zones-away-just-part-of-deal-moo/",
+      "excerpt": "College football picks: Playing 3 time zones away just part of deal, Moore says no excuses allowed - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off…",
+      "source": "https://abcnews.go.com/Politics/wireStory/college-football-picks-playing-3-time-zones-part-126336978",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2317,10 +2353,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 193,
+  "count": 196,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 193,
+    "total_items": 196,
     "per_page": 12,
     "total_pages": 17
   }

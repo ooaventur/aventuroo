@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "anthropic-ai-releases-petri-an-open-source-framework-for-automated-aud",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Anthropic AI Releases Petri: An Open-Source Framework for Automated Auditing by Using AI Agents to Test the Behaviors of Target Models on Diverse Scenarios",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-26.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/anthropic-ai-releases-petri-an-open-source-framework-for-automated-aud/",
+      "excerpt": "Anthropic AI Releases Petri: An Open-Source Framework for Automated Auditing by Using AI Agents to Test the Behaviors of Target Models on Diverse Scenarios - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Vo…",
+      "source": "https://www.marktechpost.com/2025/10/08/anthropic-ai-releases-petri-an-open-source-framework-for-automated-auditing-by-using-ai-agents-to-test-the-behaviors-of-target-models-on-diverse-scenarios/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "an-intelligent-conversational-machine-learning-pipeline-integrating-la",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -865,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 72,
+  "count": 73,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 72,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

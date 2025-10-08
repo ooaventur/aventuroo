@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "issue-51-reading-and-celebration-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Issue 51 Reading and Celebration",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/10/issue-51-flyer-w-address.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/issue-51-reading-and-celebration-2025-10-08/",
+      "excerpt": "Issue 51 Reading and Celebration | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-default flavor-online-only type-online-only term-announcements format-pullquote tax-online-only featured- …",
+      "source": "https://www.nplusonemag.com/online-only/events/issue-51-reading-and-celebration/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "overshooters-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -289,11 +301,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 24,
-  "updated_at": "2025-10-07",
+  "count": 25,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 24,
+    "total_items": 25,
     "per_page": 12,
-    "total_pages": 2
+    "total_pages": 3
   }
 }

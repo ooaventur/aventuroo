@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "this-is-the-only-vanilla-perfume-i-m-wearing-this-fall-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "This Is The Only Vanilla Perfume I’m Wearing This Fall",
+      "cover": "https://www.refinery29.com/images/11936433.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/this-is-the-only-vanilla-perfume-i-m-wearing-this-fall-2025-10-08/",
+      "excerpt": "Noyz Only Human Fragrance Gourmand Perfume Review Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together…",
+      "source": "https://www.refinery29.com/en-us/noyz-only-human-fragrance-review?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-haircut-trends-from-paris-fashion-week-street-style-2025-10-0",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "The Best Haircut Trends From Paris Fashion Week Street Style",
+      "cover": "https://www.refinery29.com/images/11936794.png?crop=2000%2C1050%2Cx0%2Cy150",
+      "canonical": "https://archive.aventuroo.com/lifestyle/the-best-haircut-trends-from-paris-fashion-week-street-style-2025-10-0/",
+      "excerpt": "The Best Haircut Trends From PFW SS 2026 Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together beauty e…",
+      "source": "https://www.refinery29.com/en-us/paris-fashion-week-haircut-trends-spring-summer-2026?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gap-x-sandy-liang-is-bringing-girlhood-nostalgia-to-our-closets-2025-1",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Gap x Sandy Liang Is Bringing Girlhood Nostalgia To Our Closets",
+      "cover": "https://www.refinery29.com/images/11937237.png?crop=2000%2C1051%2Cx0%2Cy32",
+      "canonical": "https://archive.aventuroo.com/lifestyle/gap-x-sandy-liang-is-bringing-girlhood-nostalgia-to-our-closets-2025-1/",
+      "excerpt": "Gap x Sandy Liang Collab Celebrates Girlhood Nostalgia Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings tog…",
+      "source": "https://www.refinery29.com/en-us/gap-sandy-liang-collaboration-2025?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "teaching-left-her-deeply-unhappy-a-job-at-costco-brought-her-back-to-l",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -481,10 +517,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 40,
-  "updated_at": "2025-10-07",
+  "count": 43,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 40,
+    "total_items": 43,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,14 +1,14 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 6997,
+  "total_items": 7120,
   "shards": [
     {
       "parent": "business-finance",
       "child": "companies-startups",
       "slug": "business-finance/companies-startups",
       "path": "business-finance/companies-startups/index.json",
-      "items": 74,
+      "items": 79,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 7,
@@ -20,7 +20,7 @@
       "slug": "business-finance/general",
       "path": "business-finance/general/index.json",
       "items": 240,
-      "first_date": "2025-10-02",
+      "first_date": "2025-10-03",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -41,10 +41,10 @@
       "child": "personal-finance",
       "slug": "business-finance/personal-finance",
       "path": "business-finance/personal-finance/index.json",
-      "items": 84,
+      "items": 90,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 7,
+      "pages": 8,
       "is_global": false
     },
     {
@@ -52,9 +52,9 @@
       "child": "altcoins-web3",
       "slug": "crypto/altcoins-web3",
       "path": "crypto/altcoins-web3/index.json",
-      "items": 57,
+      "items": 60,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-07",
+      "last_date": "2025-10-08",
       "pages": 5,
       "is_global": false
     },
@@ -75,7 +75,7 @@
       "slug": "crypto/guides",
       "path": "crypto/guides/index.json",
       "items": 240,
-      "first_date": "2025-09-30",
+      "first_date": "2025-10-01",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -96,9 +96,9 @@
       "child": "regulation-security",
       "slug": "crypto/regulation-security",
       "path": "crypto/regulation-security/index.json",
-      "items": 44,
+      "items": 48,
       "first_date": "2025-09-14",
-      "last_date": "2025-10-07",
+      "last_date": "2025-10-08",
       "pages": 4,
       "is_global": false
     },
@@ -118,10 +118,10 @@
       "child": "columns-essays",
       "slug": "culture-arts/columns-essays",
       "path": "culture-arts/columns-essays/index.json",
-      "items": 24,
+      "items": 25,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-07",
-      "pages": 2,
+      "last_date": "2025-10-08",
+      "pages": 3,
       "is_global": false
     },
     {
@@ -129,7 +129,7 @@
       "child": "culture",
       "slug": "culture-arts/culture",
       "path": "culture-arts/culture/index.json",
-      "items": 113,
+      "items": 118,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 10,
@@ -140,7 +140,7 @@
       "child": "general",
       "slug": "culture-arts/general",
       "path": "culture-arts/general/index.json",
-      "items": 111,
+      "items": 114,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 10,
@@ -151,10 +151,10 @@
       "child": "history",
       "slug": "culture-arts/history",
       "path": "culture-arts/history/index.json",
-      "items": 96,
-      "first_date": "2025-09-18",
+      "items": 106,
+      "first_date": "2025-09-17",
       "last_date": "2025-10-08",
-      "pages": 8,
+      "pages": 9,
       "is_global": false
     },
     {
@@ -174,7 +174,7 @@
       "slug": "entertainment/general",
       "path": "entertainment/general/index.json",
       "items": 240,
-      "first_date": "2025-10-01",
+      "first_date": "2025-10-02",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -184,7 +184,7 @@
       "child": "history-essays",
       "slug": "entertainment/history-essays",
       "path": "entertainment/history-essays/index.json",
-      "items": 31,
+      "items": 32,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 3,
@@ -206,10 +206,10 @@
       "child": "trailers-latest",
       "slug": "entertainment/trailers-latest",
       "path": "entertainment/trailers-latest/index.json",
-      "items": 220,
+      "items": 230,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 19,
+      "pages": 20,
       "is_global": false
     },
     {
@@ -218,7 +218,7 @@
       "slug": "entertainment/tv-streaming",
       "path": "entertainment/tv-streaming/index.json",
       "items": 240,
-      "first_date": "2025-09-26",
+      "first_date": "2025-09-28",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -228,10 +228,10 @@
       "child": "drink",
       "slug": "food-drink/drink",
       "path": "food-drink/drink/index.json",
-      "items": 190,
+      "items": 198,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 16,
+      "pages": 17,
       "is_global": false
     },
     {
@@ -239,7 +239,7 @@
       "child": "food",
       "slug": "food-drink/food",
       "path": "food-drink/food/index.json",
-      "items": 52,
+      "items": 55,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 5,
@@ -250,10 +250,10 @@
       "child": "general",
       "slug": "food-drink/general",
       "path": "food-drink/general/index.json",
-      "items": 200,
+      "items": 208,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-07",
-      "pages": 17,
+      "last_date": "2025-10-08",
+      "pages": 18,
       "is_global": false
     },
     {
@@ -284,7 +284,7 @@
       "slug": "lifestyle/beauty-style",
       "path": "lifestyle/beauty-style/index.json",
       "items": 240,
-      "first_date": "2025-10-04",
+      "first_date": "2025-10-05",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -316,9 +316,9 @@
       "child": "index",
       "slug": "lifestyle",
       "path": "lifestyle/index.json",
-      "items": 40,
+      "items": 43,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-07",
+      "last_date": "2025-10-08",
       "pages": 4,
       "is_global": false
     },
@@ -327,7 +327,7 @@
       "child": "inspiration",
       "slug": "lifestyle/inspiration",
       "path": "lifestyle/inspiration/index.json",
-      "items": 62,
+      "items": 64,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 6,
@@ -338,10 +338,10 @@
       "child": "outdoor",
       "slug": "lifestyle/outdoor",
       "path": "lifestyle/outdoor/index.json",
-      "items": 211,
+      "items": 226,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 18,
+      "pages": 19,
       "is_global": false
     },
     {
@@ -349,10 +349,10 @@
       "child": "economy",
       "slug": "news/economy",
       "path": "news/economy/index.json",
-      "items": 180,
+      "items": 183,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 15,
+      "pages": 16,
       "is_global": false
     },
     {
@@ -371,7 +371,7 @@
       "child": "politics",
       "slug": "news/politics",
       "path": "news/politics/index.json",
-      "items": 193,
+      "items": 196,
       "first_date": "2025-09-08",
       "last_date": "2025-10-08",
       "pages": 17,
@@ -383,7 +383,7 @@
       "slug": "news/top-stories",
       "path": "news/top-stories/index.json",
       "items": 240,
-      "first_date": "2025-10-05",
+      "first_date": "2025-10-06",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -470,10 +470,10 @@
       "child": "ai-news",
       "slug": "tech-ai/ai-news",
       "path": "tech-ai/ai-news/index.json",
-      "items": 72,
+      "items": 73,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 6,
+      "pages": 7,
       "is_global": false
     },
     {
@@ -481,10 +481,10 @@
       "child": "audio-creator",
       "slug": "tech-ai/audio-creator",
       "path": "tech-ai/audio-creator/index.json",
-      "items": 216,
+      "items": 223,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 18,
+      "pages": 19,
       "is_global": false
     },
     {
@@ -492,10 +492,10 @@
       "child": "big-tech",
       "slug": "tech-ai/big-tech",
       "path": "tech-ai/big-tech/index.json",
-      "items": 82,
+      "items": 87,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 7,
+      "pages": 8,
       "is_global": false
     },
     {
@@ -536,7 +536,7 @@
       "child": "security-privacy",
       "slug": "tech-ai/security-privacy",
       "path": "tech-ai/security-privacy/index.json",
-      "items": 136,
+      "items": 144,
       "first_date": "2025-09-26",
       "last_date": "2025-11-13",
       "pages": 12,
@@ -558,9 +558,9 @@
       "child": "experiences",
       "slug": "travel/experiences",
       "path": "travel/experiences/index.json",
-      "items": 15,
+      "items": 17,
       "first_date": "2025-09-29",
-      "last_date": "2025-10-07",
+      "last_date": "2025-10-08",
       "pages": 2,
       "is_global": false
     },
@@ -569,7 +569,7 @@
       "child": "general",
       "slug": "travel/general",
       "path": "travel/general/index.json",
-      "items": 76,
+      "items": 78,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
       "pages": 7,
@@ -614,7 +614,7 @@
       "slug": "travel/transport",
       "path": "travel/transport/index.json",
       "items": 240,
-      "first_date": "2025-10-01",
+      "first_date": "2025-10-02",
       "last_date": "2025-10-08",
       "pages": 20,
       "is_global": false
@@ -624,10 +624,10 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "path": "travel/trip-ideas/index.json",
-      "items": 94,
+      "items": 99,
       "first_date": "2025-09-26",
       "last_date": "2025-10-08",
-      "pages": 8,
+      "pages": 9,
       "is_global": false
     }
   ]
