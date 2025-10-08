@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "four-fresh-signs-of-the-ai-bubble-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Four fresh signs of the AI bubble",
+      "cover": "https://www.platformer.news/content/images/2025/10/lanju-fotografie-muy0ywmdsPY-unsplash.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/four-fresh-signs-of-the-ai-bubble-2025-10-08/",
+      "excerpt": "Four fresh signs of the AI bubble Home About Ethics Sign in Subscribe AI Four fresh signs of the AI bubble The numbers are all mostly going up. The worries are, too Casey Newton Oct 7, 2025 — 8 min read (Lanju Fotografie / Unsplash) This post is for paying subscribers only Sub…",
+      "source": "https://www.platformer.news/ai-bubble-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-s-platform-play-2025-10-06",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -49,10 +61,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 4,
-  "updated_at": "2025-10-06",
+  "count": 5,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 4,
+    "total_items": 5,
     "per_page": 12,
     "total_pages": 1
   }

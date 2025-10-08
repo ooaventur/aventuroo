@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-entrepreneur-s-reading-list-that-transforms-ideas-into-empires-202",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "The Entrepreneur’s Reading List That Transforms Ideas Into Empires",
+      "cover": "https://addicted2success.com/wp-content/uploads/2025/10/The-Entrepreneurs-Reading-List-That-Transforms-Ideas-Into-Empires.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-entrepreneur-s-reading-list-that-transforms-ideas-into-empires-202/",
+      "excerpt": "The Entrepreneur’s Reading List That Transforms Ideas Into Empires - Addicted 2 Success Home Scale Your Business Entrepreneurs Startups Master Sales Techniques Explode Your Social Media Network Like a Pro Expert Interviews Change Your Mindset Personal Development Shift Your Mi…",
+      "source": "https://addicted2success.com/entrepreneur-profile/the-entrepreneurs-reading-list-that-transforms-ideas-into-empires/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "matt-ebert-s-legacy-building-more-than-a-billion-dollar-business-2025",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -697,10 +709,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 59,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 58,
+    "total_items": 59,
     "per_page": 12,
     "total_pages": 5
   }

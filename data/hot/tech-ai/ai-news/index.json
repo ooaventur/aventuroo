@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "openai-dev-day-2025-chatgpt-becomes-the-new-app-store-and-hardware-is",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "OpenAI Dev Day 2025: ChatGPT becomes the new app store — and hardware is coming",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5SsXpDqbiyZvm7DJbht3pv/765b6ae01f75c4e84f15e6f9f026bdf2/nuneybits_A_developer_working_on_a_retro_computer_on_gradient_b_a06360d7-aa20-4d82-949f-48730f690988.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/openai-dev-day-2025-chatgpt-becomes-the-new-app-store-and-hardware-is/",
+      "excerpt": "<p>In a packed hall at Fort Mason Center in San Francisco, against a backdrop of the Golden Gate Bridge, <a href=\"https://openai.com/\"><u>OpenAI</u></a> CEO Sam Altman laid out a bold vision to remake the digital world. The company that brought generative AI to the mainstream …",
+      "source": "https://venturebeat.com/ai/openai-dev-day-2025-chatgpt-becomes-the-new-app-store-and-hardware-is-coming",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "openai-debuts-agent-builder-and-agentkit-a-visual-first-stack-for-buil",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -22,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide/",
       "excerpt": "<p>For many enterprises, there continue to be barriers to fully adopting and benefiting from agentic AI.</p><p><a href=\"https://www.ibm.com/\"><u>IBM</u></a><u> </u>is betting the blocker isn&#x27;t building AI agents but governing them in production.</p><p>At its TechXchange 2…",
       "source": "https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "has-this-stealth-startup-finally-cracked-the-code-on-enterprise-ai-age",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Has this stealth startup finally cracked the code on enterprise AI agent reliability? Meet AUI's Apollo-1",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4P5b8GF6swZD4TbE4YQYeC/d313c89fdbd0abca57787aca76175c61/cfr0z3n_realistic_hyper_detailed_minimalist_sci-fi_splash_page__733c277b-dfb5-4961-b0eb-ce28078a96e6.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/has-this-stealth-startup-finally-cracked-the-code-on-enterprise-ai-age/",
+      "excerpt": "<p>For more than a decade, conversational AI has promised human-like assistants that can do more than chat. Yet even as large language models (LLMs) like ChatGPT, Gemini, and Claude learn to reason, explain, and code, one critical category of interaction remains largely unsolv…",
+      "source": "https://venturebeat.com/ai/has-this-stealth-startup-finally-cracked-the-code-on-enterprise-ai-agent",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-s-ai-can-now-surf-the-web-for-you-click-on-buttons-and-fill-out",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Google's AI can now surf the web for you, click on buttons, and fill out forms with Gemini 2.5 Computer Use",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5s9EWAUfhOBtT7gJSTJBtI/2fd316df548ef4c0fb40f47c53118ace/cfr0z3n_ultra_minimalist_clean_line_bold_simple_shapes_Google_c_628f064a-d4fe-4c36-9014-3c31c5160b0f__1_.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-s-ai-can-now-surf-the-web-for-you-click-on-buttons-and-fill-out/",
+      "excerpt": "<p>Some of the largest providers of large language models (LLMs) have sought to move beyond multimodal chatbots — extending their models out into &quot;agents&quot; that can actually take more actions on behalf of the user across websites. Recall <a href=\"https://venturebeat.c…",
+      "source": "https://venturebeat.com/ai/googles-ai-can-now-surf-the-web-for-you-click-on-buttons-and-fill-out-forms",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -769,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
+  "count": 67,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 64,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }

@@ -49,6 +49,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "gas-street-lamps-of-brooklyn-heights-in-brooklyn-new-york-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Gas Street Lamps of Brooklyn Heights in Brooklyn, New York",
+      "cover": "https://img.atlasobscura.com/uGIsg-ZGDBylSto-_0ZMtnXGrLvTVZ17BC15DZRQwfo/rt:fit/w:600/c:845:563:nowe:274:138/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9mYTcy/OWI4My00YTAwLTQ1/ZDEtOTdiOS0zNjA5/NjZiNTVhMGJmYmM1/NzZlNzY2Njc0ZTIw/YjZfUG9wbGFyIFN0/cmVldC5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/gas-street-lamps-of-brooklyn-heights-in-brooklyn-new-york-2025-10-07/",
+      "excerpt": "Gas Street Lamps of Brooklyn Heights - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:bord…",
+      "source": "https://www.atlasobscura.com/places/brooklyn-heights-gas-street-lamps",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "der-lake-museum-village-in-sainte-marie-du-lac-nuisement-france-2025-1",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Der Lake Museum Village in Sainte-Marie-du-Lac-Nuisement, France",
+      "cover": "https://img.atlasobscura.com/jJ79O2N8cgeWSPwhCIUmPIvgtj7krMzdizPGBzx-KgE/rt:fit/w:600/c:4032:2688:nowe:0:28/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9kNmRj/MzQ2MS1mZmRjLTQy/ZWQtOWUxZC03ZmIx/YzA4YmZjMjA4ZTY5/MjY3NjRlZThlN2Nj/MDFfRGVyNS5qcGVn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/der-lake-museum-village-in-sainte-marie-du-lac-nuisement-france-2025-1/",
+      "excerpt": "Der Lake Museum Village - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" …",
+      "source": "https://www.atlasobscura.com/places/der-lake-museum-village",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "cop-slide-in-boston-massachusetts-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -1081,10 +1105,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 90,
+  "count": 92,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 90,
+    "total_items": 92,
     "per_page": 12,
     "total_pages": 8
   }

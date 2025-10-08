@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "trump-s-doe-proposes-cutting-billions-in-grants-for-gm-ford-and-lots-o",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Trump’s DOE proposes cutting billions in grants for GM, Ford, and lots of startups",
+      "cover": "https://techcrunch.com/wp-content/uploads/2024/10/critical-infrastructure.jpeg?resize=1200,675",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/trump-s-doe-proposes-cutting-billions-in-grants-for-gm-ford-and-lots-o/",
+      "excerpt": "Trump's DOE proposes cutting billions in grants for GM, Ford, and lots of startups | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Tog…",
+      "source": "https://techcrunch.com/2025/10/07/trumps-doe-proposes-cutting-billions-in-grants-for-gm-ford-and-lots-of-startups/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "startup-battlefield-company-io-invented-a-method-to-make-edible-fat-fr",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -853,10 +865,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 71,
+  "count": 72,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 71,
+    "total_items": 72,
     "per_page": 12,
     "total_pages": 6
   }

@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "is-ai-really-coming-after-your-job-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Is AI Really Coming After Your Job?",
+      "cover": "https://www.nerdwallet.com/tachyon/2025/10/GettyImages-2203083102-1.jpg?resize=1440%2C864",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/is-ai-really-coming-after-your-job-2025-10-07/",
+      "excerpt": "Is AI Really Coming After Your Job? - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards Best 0% APR c…",
+      "source": "https://www.nerdwallet.com/article/finance/-is-ai-taking-over-your-job",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-is-tsa-affected-by-the-government-shutdown-2025-10-07",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/how-is-tsa-affected-by-the-government-shutdown-2025-10-07/",
       "excerpt": "How Is TSA Affected by the Government Shutdown? - NerdWallet Credit cards Credit cards Explore more credit card resources Best credit cards Best credit cards Best credit card bonus offers Best balance transfer credit cards Best travel credit cards Best cash back credit cards B…",
       "source": "https://www.nerdwallet.com/article/travel/how-is-tsa-affected-government-shutdown",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "furloughed-federal-workers-face-threat-of-no-back-pay-from-shutdown-de",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Furloughed federal workers face threat of no back pay from shutdown, despite 2019 law requiring it",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108206387-1759328019881-gettyimages-2238126599-ad_023_shutdownwed.jpeg?v=1759419843&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/furloughed-federal-workers-face-threat-of-no-back-pay-from-shutdown-de/",
+      "excerpt": "Government shutdown: Furloughed workers face threat of no back pay Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indu…",
+      "source": "https://www.cnbc.com/2025/10/07/government-shutdown-furloughed-workers-threat-of-no-back-pay.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -961,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 80,
+  "count": 82,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 80,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

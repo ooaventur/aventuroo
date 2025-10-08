@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "michael-dell-says-at-some-point-there-ll-be-too-many-ai-data-centers-b",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Michael Dell says 'at some point there'll be too many' AI data centers, but not yet",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108027353-1724959199104-gettyimages-2153343037-DELL_TECHNOLOGIES_CONFERENCE.jpeg?v=1759865096&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/michael-dell-says-at-some-point-there-ll-be-too-many-ai-data-centers-b/",
+      "excerpt": "Michael Dell: 'At some point there'll be too many' AI data centers Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indu…",
+      "source": "https://www.cnbc.com/2025/10/07/michael-dell-too-many-ai-data-centers.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "inside-rivian-s-design-factory-and-the-story-behind-those-distinct-hea",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/inside-rivian-s-design-factory-and-the-story-behind-those-distinct-hea/",
       "excerpt": "Inside Rivian's design lab and the story behind the special headlights Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
       "source": "https://www.cnbc.com/2025/10/07/rivian-factory-ev-electric-truck-suv-headlights.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dell-stock-pops-as-company-ups-long-term-revenue-growth-expectations-2",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Dell stock pops as company ups long-term revenue growth expectations",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108195762-1757363848862-gettyimages-2202849951-AFP_36ZE2Y4.jpeg?v=1759841247&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/dell-stock-pops-as-company-ups-long-term-revenue-growth-expectations-2/",
+      "excerpt": "Dell stock pops as company ups long-term revenue growth expectations Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/07/dell-stock-revenue-growth.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -925,10 +949,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
+  "count": 79,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 77,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }

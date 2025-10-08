@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "kyoto-raised-its-per-person-hotel-tax-up-to-900-to-combat-overtourism",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Kyoto Raised Its Per-Person Hotel Tax Up To 900% to Combat Overtourism",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/shutterstock_2598161891.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/kyoto-raised-its-per-person-hotel-tax-up-to-900-to-combat-overtourism/",
+      "excerpt": "Kyoto Raised Its Per-Person Hotel Tax Up To 900% to Combat Overtourism Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos…",
+      "source": "https://matadornetwork.com/read/kyoto-tourist-tax/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "aston-ka-anapali-shores-is-an-affordable-family-stay-with-luxurious-sp",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "Aston Kaʻanapali Shores Is an Affordable Family Stay With Luxurious Space and Beachfront Views",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/aston-kanaapali-shores-social.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/aston-ka-anapali-shores-is-an-affordable-family-stay-with-luxurious-sp/",
+      "excerpt": "Review of Affordable Maui Family Resort: Aston Kaʻanapali Shores Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires…",
+      "source": "https://matadornetwork.com/read/aston-kaanapali-shores-maui/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "where-to-play-eat-and-stay-on-a-trip-to-the-alamo-in-san-antonio-texas",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -397,10 +421,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
-  "updated_at": "2025-10-06",
+  "count": 35,
+  "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 33,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

@@ -73,6 +73,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "bitgo-secures-vara-license-amid-regulatory-crackdown-2025-10-07",
+      "date": "2025-10-07",
+      "published_at": "2025-10-07T00:00:00Z",
+      "created_at": "2025-10-07T00:00:00Z",
+      "title": "BitGo secures VARA license amid regulatory crackdown",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWJmNzgtNjFlMC03ODQxLTg3NGItNjNkOGMyMWM4YmQ2.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/bitgo-secures-vara-license-amid-regulatory-crackdown-2025-10-07/",
+      "excerpt": "BitGo Secures VARA License amid Regulatory Crackdown Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 7 hours ago BitGo secures VARA license amid regulatory crackdown Dubai's regulator announced it had issued financial penalties a…",
+      "source": "https://cointelegraph.com/news/vara-penalizes-crypto-companies-bitgo-secures-license?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sanctioned-a7a5-becomes-largest-non-us-dollar-stablecoin-data-2025-10",
       "date": "2025-10-06",
       "published_at": "2025-10-06T00:00:00Z",
@@ -517,10 +529,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 43,
+  "count": 44,
   "updated_at": "2025-10-07",
   "pagination": {
-    "total_items": 43,
+    "total_items": 44,
     "per_page": 12,
     "total_pages": 4
   }
