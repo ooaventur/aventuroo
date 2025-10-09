@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "beyond-the-pubs-discovering-dublin-s-elegant-side-at-the-shelbourne-20",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Beyond the Pubs: Discovering Dublin’s Elegant Side at The Shelbourne",
+      "cover": "https://cdn1.matadornetwork.com/blogs/1/2025/10/shelbourne-1824-bar-social.jpeg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/beyond-the-pubs-discovering-dublin-s-elegant-side-at-the-shelbourne-20/",
+      "excerpt": "Review: Discovering Dublin’s Elegant Side at The Shelbourne Guides Videos Topics Creators Account Profile Travel Map Bookmarks Interests Settings Sign Out Sign In Featured Cities Abu Dhabi Amsterdam Aspen Athens Atlanta Barcelona Beijing Belfast Berlin Boston Buenos Aires Chic…",
+      "source": "https://matadornetwork.com/read/the-shelbourne-dublin/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "kyoto-raised-its-per-person-hotel-tax-up-to-900-to-combat-overtourism",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -421,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
-  "updated_at": "2025-10-07",
+  "count": 36,
+  "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 35,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }

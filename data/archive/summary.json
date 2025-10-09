@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3607,
+  "total_items": 3619,
   "parents": [
     {
       "parent": "business-finance",
@@ -979,7 +979,7 @@
     },
     {
       "parent": "news",
-      "items": 147,
+      "items": 149,
       "pages": 13,
       "children": [
         {
@@ -999,13 +999,13 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 82,
+          "items": 84,
           "pages": 7,
           "months": [
             {
               "year": 2025,
               "month": 9,
-              "items": 79,
+              "items": 81,
               "pages": 7
             },
             {
@@ -1278,8 +1278,8 @@
     },
     {
       "parent": "travel",
-      "items": 936,
-      "pages": 78,
+      "items": 946,
+      "pages": 79,
       "children": [
         {
           "child": "destinations",
@@ -1346,7 +1346,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 304,
+          "items": 309,
           "pages": 26,
           "months": [
             {
@@ -1598,7 +1598,7 @@
             {
               "year": 2022,
               "month": 4,
-              "items": 5,
+              "items": 10,
               "pages": 1
             }
           ]
@@ -1724,7 +1724,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 315,
+          "items": 320,
           "pages": 27,
           "months": [
             {
@@ -1976,7 +1976,7 @@
             {
               "year": 2022,
               "month": 4,
-              "items": 1,
+              "items": 6,
               "pages": 1
             }
           ]

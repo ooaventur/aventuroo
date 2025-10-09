@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "jensen-huang-says-trump-s-h-1b-changes-would-ve-prevented-his-family-f",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Jensen Huang says Trump's H-1B changes would've prevented his family from immigrating",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108095984-1738420659991-gettyimages-2196376751-AFP_36WW2KE.jpeg?v=1759949445&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/jensen-huang-says-trump-s-h-1b-changes-would-ve-prevented-his-family-f/",
+      "excerpt": "Trump's H-1B changes would keep Jensen Huang's family from immigrating Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/08/jensen-huang-h1b-immigration-trump.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-adds-limits-to-work-from-anywhere-policy-that-began-during-covi",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Google adds limits to 'Work from Anywhere' policy that began during Covid",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108198794-1757946595048-gettyimages-2217999139-BLOOMBERG_TECH.jpeg?v=1757946638&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/google-adds-limits-to-work-from-anywhere-policy-that-began-during-covi/",
+      "excerpt": "Google adds limits to 'Work from Anywhere' policy that began in Covid Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/08/google-adds-limits-to-work-from-anywhere-policy-that-began-in-covid.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "coreweave-stock-rallies-as-it-introduces-new-ai-tools-for-developers-2",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/anthropic-to-open-first-india-office-as-rival-openai-boosts-presence-i/",
       "excerpt": "Anthropic to open first India office in 2026 Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth …",
       "source": "https://www.cnbc.com/2025/10/08/anthropic-to-open-first-india-office-in-2026.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amd-stock-continues-rally-after-openai-deal-now-up-43-this-week-so-far",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "AMD stock continues rally after OpenAI deal, now up 43% this week so far",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208259-1759767774187-gettyimages-2239199521-AMD_OPENAI.jpeg?v=1759767826&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/amd-stock-continues-rally-after-openai-deal-now-up-43-this-week-so-far/",
+      "excerpt": "AMD stock continues rally after OpenAI deal, now up 43% this week Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indus…",
+      "source": "https://www.cnbc.com/2025/10/08/amd-stock-rally-openai-deal.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1045,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 87,
+  "count": 90,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 87,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }

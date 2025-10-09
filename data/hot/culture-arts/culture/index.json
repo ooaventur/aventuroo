@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "here-are-the-winners-of-the-2025-kirkus-prize-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Here are the winners of the 2025 Kirkus Prize.",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/08/kirkus2025.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/here-are-the-winners-of-the-2025-kirkus-prize-2025-10-09/",
+      "excerpt": "Literary Hub » Here are the winners of the 2025 Kirkus Prize. Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction and Poetry Short Story From the Novel Poem News and Culture History Science Politics Biography Memoir Food …",
+      "source": "https://lithub.com/here-are-the-winners-of-the-2025-kirkus-prize/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "venetian-vespers-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/culture/lit-hub-daily-october-8-2025-2025-10-08/",
       "excerpt": "Literary Hub » Lit Hub Daily: October 8, 2025 Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction and Poetry Short Story From the Novel Poem News and Culture History Science Politics Biography Memoir Food Technology Books…",
       "source": "https://lithub.com/lit-hub-daily-october-8-2025/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "irish-novelist-naoise-dolan-has-been-abducted-by-israel-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Irish novelist Naoise Dolan has been abducted by Israel.",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/10/Naoise-Dolan.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/irish-novelist-naoise-dolan-has-been-abducted-by-israel-2025-10-08/",
+      "excerpt": "Literary Hub » Irish novelist Naoise Dolan has been abducted by Israel. Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction and Poetry Short Story From the Novel Poem News and Culture History Science Politics Biography Me…",
+      "source": "https://lithub.com/irish-novelist-naoise-dolan-has-been-abducted-by-israel/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1417,10 +1441,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 118,
-  "updated_at": "2025-10-08",
+  "count": 120,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 118,
+    "total_items": 120,
     "per_page": 12,
     "total_pages": 10
   }

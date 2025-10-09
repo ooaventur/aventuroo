@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "to-scale-agentic-ai-notion-tore-down-its-tech-stack-and-started-fresh",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "To scale agentic AI, Notion tore down its tech stack and started fresh",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4UhFQT7cP4EsW10hrJr6Tj/c13730af61d302ca31c26f54c8253fca/Notion.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/to-scale-agentic-ai-notion-tore-down-its-tech-stack-and-started-fresh/",
+      "excerpt": "<p>Many organizations would be hesitant to overhaul their tech stack and start from scratch. \n\nNot <a href=\"https://www.notion.com/\">Notion</a>. \n\nFor the 3.0 version of its productivity software (released in September), the company didn’t hesitate to rebuild from the ground u…",
+      "source": "https://venturebeat.com/ai/to-scale-agentic-ai-notion-tore-down-its-tech-stack-and-started-fresh",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "samsung-ai-researcher-s-new-open-reasoning-model-trm-outperforms-model",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Samsung AI researcher's new, open reasoning model TRM outperforms models 10,000X larger — on specific problems",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4Y3jccClBvI8kQZ6vIONvV/6e12602d0648cdc7e769b10d531f649e/cfr0z3n_watercolor_evocative_storybook_artwork_of_a_giant_robot_3432736a-32c4-46e0-af0f-9e87b1fd4208.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/samsung-ai-researcher-s-new-open-reasoning-model-trm-outperforms-model/",
+      "excerpt": "<p>The trend of AI researchers developing new, <a href=\"https://www.linkedin.com/pulse/next-big-thing-ai-think-small-models-venturebeat-yyrte/?trackingId=x3X3vTZhTnmwCTUtOWGAug%3D%3D\">small</a> open source generative models that outperform far larger, proprietary peers continu…",
+      "source": "https://venturebeat.com/ai/samsung-ai-researchers-new-open-reasoning-model-trm-outperforms-models-10",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "new-memory-framework-builds-ai-agents-that-can-handle-the-real-world-s",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "New memory framework builds AI agents that can handle the real world's unpredictability",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/39zNK5TPsGY3tZEmUTjk69/dd9b6dccec081ae2be6dea6d03bac8a1/Robot_arranging_memory.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/new-memory-framework-builds-ai-agents-that-can-handle-the-real-world-s/",
+      "excerpt": "<p>Researchers at the <a href=\"https://illinois.edu/\"><u>University of Illinois Urbana-Champaign</u></a> and <a href=\"https://research.google/teams/cloud-ai-research/\"><u>Google Cloud AI Research</u></a> have developed a framework that enables large language model (LLM) agents…",
+      "source": "https://venturebeat.com/ai/new-memory-framework-builds-ai-agents-that-can-handle-the-real-worlds",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "model-context-protocol-mcp-vs-function-calling-vs-openapi-tools-when-t",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-ai-open-sources-openzl-a-format-aware-compression-framework-with/",
       "excerpt": "Meta AI Open-Sources OpenZL: A Format-Aware Compression Framework with a Universal Decoder - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read …",
       "source": "https://www.marktechpost.com/2025/10/08/meta-ai-open-sources-openzl-a-format-aware-compression-framework-with-a-universal-decoder/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "here-s-what-jony-ive-and-sam-altman-revealed-about-their-secretive-ai",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Here’s what Jony Ive and Sam Altman revealed about their secretive AI hardware project at OpenAI’s Dev Day",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4fLD8mX9t3gwHcGqklFuYh/3bb0d401ff6683290bdda3fb7ba49bd8/nuneybits_Vector_art_of_Jony_Ive_fcebd973-1896-4973-8899-a0a7538cff14.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/here-s-what-jony-ive-and-sam-altman-revealed-about-their-secretive-ai/",
+      "excerpt": "<p>In a packed theater at Fort Mason, after a whirlwind keynote of product announcements, <a href=\"https://openai.com/\"><u>OpenAI</u></a> CEO Sam Altman sat down with Sir Jony Ive, the legendary designer behind Apple&#x27;s most iconic products. The conversation, held exclusiv…",
+      "source": "https://venturebeat.com/ai/heres-what-jony-ive-and-sam-altman-revealed-about-their-secretive-ai",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -877,10 +925,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 73,
+  "count": 77,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 73,
+    "total_items": 77,
     "per_page": 12,
     "total_pages": 7
   }

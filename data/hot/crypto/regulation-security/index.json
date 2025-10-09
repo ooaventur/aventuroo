@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "us-senate-confirms-treasury-official-as-government-shutdown-continues",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "US Senate confirms Treasury official as government shutdown continues",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDMvMDE5NWQ4NDItZjdlNy03NjM3LWI1YjItZmY1NmVhNTc4MzM5.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/us-senate-confirms-treasury-official-as-government-shutdown-continues/",
+      "excerpt": "US Senate Confirms Treasury Official as Government Shutdown Continues Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 5 hours ago US Senate confirms Treasury official as government shutdown continues As the Treasury’s Under Secre…",
+      "source": "https://cointelegraph.com/news/us-senate-treasury-confirmation-government-shutdown?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "kazakhstan-shuts-130-crypto-platforms-seizes-17m-for-illicit-activity",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -577,11 +589,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 48,
+  "count": 49,
   "updated_at": "2025-10-08",
   "pagination": {
-    "total_items": 48,
+    "total_items": 49,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

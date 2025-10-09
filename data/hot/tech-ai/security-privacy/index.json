@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Hackers claim Discord breach exposed data of 5.5 million users",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2021/03/05/discord-header-l.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10/",
+      "excerpt": "Hackers claim Discord breach exposed data of 5.5 million users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mi…",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-claim-discord-breach-exposed-data-of-55-million-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "vampire-bot-malware-sinks-fangs-into-job-hunters-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Vampire Bot Malware Sinks Fangs Into Job Hunters",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8b4c6f940f2e116e/68e6c66bc9271fd81a85477b/vampire_n.k.junky_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/vampire-bot-malware-sinks-fangs-into-job-hunters-2025-10-08/",
+      "excerpt": "The campaign is the latest by BatShadow, one of a growing number of cybercrime groups operating out of Vietnam.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/vampire-bot-malware-job-hunters",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "salesforce-refuses-to-pay-ransom-over-widespread-data-theft-attacks-20",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -22,6 +46,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/salesforce-refuses-to-pay-ransom-over-widespread-data-theft-attacks-20/",
       "excerpt": "Salesforce refuses to pay ransom over widespread data theft attacks News Featured Latest Oracle patches EBS zero-day exploited in Clop data theft attacks Discord discloses data breach after hackers steal support tickets ParkMobile pays... $1 each for 2021 data breach that hit …",
       "source": "https://www.bleepingcomputer.com/news/security/salesforce-refuses-to-pay-ransom-over-widespread-data-theft-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "red-hat-hackers-team-up-with-scattered-lapsus-hunters-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Red Hat Hackers Team Up With Scattered Lapsus$ Hunters",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c759e0b4d766e27/68e6c44474ac395392096358/hackers_JGPhotography_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/red-hat-hackers-team-up-with-scattered-lapsus-hunters-2025-10-08/",
+      "excerpt": "Crimson Collective, which recently breached the GitLab instance of Red Hat Consulting, has teamed up with the notorious cybercriminal collective.",
+      "source": "https://www.darkreading.com/threat-intelligence/red-hat-hackers-team-up-scattered-lapsus-hunters",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "qilin-ransomware-claims-asahi-brewery-attack-leaks-data-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Qilin ransomware claims Asahi brewery attack, leaks data",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/03/Asahi-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/qilin-ransomware-claims-asahi-brewery-attack-leaks-data-2025-10-08/",
+      "excerpt": "Qilin ransomware claims Asahi brewery attack, leaks data News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Microsof…",
+      "source": "https://www.bleepingcomputer.com/news/security/qilin-ransomware-claims-asahi-brewery-attack-leaks-data/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "new-filefix-attack-uses-cache-smuggling-to-evade-security-software-202",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "New FileFix attack uses cache smuggling to evade security software",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/04/hacker-arms-raised-brighter.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/new-filefix-attack-uses-cache-smuggling-to-evade-security-software-202/",
+      "excerpt": "New FileFix attack uses cache smuggling to evade security software News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaw…",
+      "source": "https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-cache-smuggling-to-evade-security-software/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -61,6 +121,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "lockbit-qilin-amp-dragonforce-join-forces-in-ransomware-cartel-2025-10",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "LockBit, Qilin &amp; DragonForce Join Forces in Ransomware 'Cartel'",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt85553c6b654c580a/68e6b0158b00605697757dff/Petes_Dragon_Moviestore_Collection_Ltd_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/lockbit-qilin-amp-dragonforce-join-forces-in-ransomware-cartel-2025-10/",
+      "excerpt": "The three extortion gangs also invited other e-crime attackers to join their collaboration to share attack information and resources, in the wake of LockBit 5.0 being released.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/extortion-gangs-join-forces-ransomware-cartel",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hackers-exploit-auth-bypass-in-service-finder-wordpress-theme-2025-10",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -82,6 +154,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/figma-mcp-server-opens-orgs-to-agentic-ai-compromise-2025-10-08/",
       "excerpt": "Patch now: A bug (CVE-2025-53967) in the popular Web design tool's option for talking to agentic AI can lead to remote code execution (RCE).",
       "source": "https://www.darkreading.com/vulnerabilities-threats/figma-mcp-server-agentic-ai-compromise",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "defend-the-target-not-just-the-door-a-modern-plan-for-google-workspace",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Defend the Target, Not Just the Door: A Modern Plan for Google Workspace",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/07/02/identity-cybersecurity-framework.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/defend-the-target-not-just-the-door-a-modern-plan-for-google-workspace/",
+      "excerpt": "Defend the Target, Not Just the Door: A Modern Plan for Google Workspace News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 fo…",
+      "source": "https://www.bleepingcomputer.com/news/security/defend-the-target-not-just-the-door-a-modern-plan-for-google-workspace/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1729,11 +1813,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 144,
+  "count": 151,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 144,
+    "total_items": 151,
     "per_page": 12,
-    "total_pages": 12
+    "total_pages": 13
   }
 }

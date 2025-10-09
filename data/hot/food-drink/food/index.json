@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "save-hundreds-with-the-best-anti-prime-day-deals-from-sur-la-table-b-2",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Save Hundreds With the Best Anti-Prime Day Deals from Sur La Table, Breville, and More",
+      "cover": "https://assets.bonappetit.com/photos/686589d68fbf156a301876bb/master/pass/7.2_BA_Prime-Day-Competitor-Sales-Lede-Image.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/save-hundreds-with-the-best-anti-prime-day-deals-from-sur-la-table-b-2/",
+      "excerpt": "Save Hundreds With the Best Anti-Prime Day Deals from Sur La Table, Breville, and More | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Se…",
+      "source": "https://www.bonappetit.com/story/anti-prime-day-deals-2025-10-08",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-protein-greens-and-electrolyte-deals-on-prime-day-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -661,10 +673,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 55,
-  "updated_at": "2025-10-08",
+  "count": 56,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 55,
+    "total_items": 56,
     "per_page": 12,
     "total_pages": 5
   }
