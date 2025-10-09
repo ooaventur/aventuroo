@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hacktivists-target-critical-infrastructure-hit-decoy-plant-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Hacktivists target critical infrastructure, hit decoy plant",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/01/18/Russian__hacker.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hacktivists-target-critical-infrastructure-hit-decoy-plant-2025-10-09/",
+      "excerpt": "Hacktivists target critical infrastructure, hit decoy plant News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micro…",
+      "source": "https://www.bleepingcomputer.com/news/security/hacktivists-target-critical-infrastructure-hit-decoy-plant/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10/",
       "excerpt": "Hackers claim Discord breach exposed data of 5.5 million users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mi…",
       "source": "https://www.bleepingcomputer.com/news/security/hackers-claim-discord-breach-exposed-data-of-55-million-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "azure-outage-blocks-access-to-microsoft-365-services-admin-portals-202",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Azure outage blocks access to Microsoft 365 services, admin portals",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2023/06/12/microsoft-azure.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/azure-outage-blocks-access-to-microsoft-365-services-admin-portals-202/",
+      "excerpt": "Azure outage blocks access to Microsoft 365 services, admin portals News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for fla…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/azure-outage-blocks-access-to-microsoft-365-services-admin-portals/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1813,10 +1837,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 151,
+  "count": 153,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 151,
+    "total_items": 153,
     "per_page": 12,
     "total_pages": 13
   }

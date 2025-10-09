@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "prime-day-is-over-but-these-sales-are-still-going-on-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Prime Day Is Over, But These Sales Are Still Going On",
+      "cover": "https://assets.bonappetit.com/photos/68e6c0e1ab7f157d6126d0fc/master/pass/10.08_BA_Prime%20Day%20is%20over%20but%20these%20deals%20are%20still%20going%20on%20lede%20image.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/prime-day-is-over-but-these-sales-are-still-going-on-2025-10-09/",
+      "excerpt": "Prime Day Is Over, But These Sales Are Still Going On | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Prime Day Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Se…",
+      "source": "https://www.bonappetit.com/story/after-prime-day-deals-10-9-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-protein-greens-and-electrolyte-deals-on-prime-day-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -673,10 +685,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 56,
+  "count": 57,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 56,
+    "total_items": 57,
     "per_page": 12,
     "total_pages": 5
   }

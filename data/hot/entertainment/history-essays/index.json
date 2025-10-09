@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "women-in-the-us-military-timeline-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Women in the US Military: Timeline",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/G403C1_m0hpge?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/women-in-the-us-military-timeline-2025-10-09/",
+      "excerpt": "Women in the US Military: Timeline Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution …",
+      "source": "https://www.history.com/articles/women-us-military-timeline",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-adventures-and-experiences-of-the-first-slovak-novel-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -385,10 +397,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
-  "updated_at": "2025-10-08",
+  "count": 33,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 32,
+    "total_items": 33,
     "per_page": 12,
     "total_pages": 3
   }

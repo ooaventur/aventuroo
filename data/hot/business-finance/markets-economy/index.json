@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "uk-investors-will-be-able-to-put-crypto-products-in-isas-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "UK investors will be able to put crypto products in Isas",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4fa6626e-d332-4118-9b20-6f72ddc71434.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/uk-investors-will-be-able-to-put-crypto-products-in-isas-2025-10-09/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/539ff55b-7032-47da-8f06-38ae9ee709a1",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-it-time-to-get-into-gold-it-depends-on-your-age-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Is it time to get into gold? It depends on your age",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fac0122c0-73b6-473c-9d34-284e1f2acd4a.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/is-it-time-to-get-into-gold-it-depends-on-your-age-2025-10-09/",
+      "excerpt": "Is it time to get into gold? It depends on your age Financial Times Opinion Insight & Comment Is it time to get into gold? It depends on your age There is little upside for the young, but the yellow metal is perfect for protecting your pension — and global uncertainty is not g…",
+      "source": "https://www.ft.com/content/6a0d3691-7373-4491-b4fa-fff80936f431",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "gold-miners-outstrip-ai-and-bitcoin-to-put-unloved-industry-in-spotlig",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/china-unveils-sweeping-rare-earth-export-controls-to-protect-national/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/c4b2c5d9-c82f-401e-b763-bc9581019cb7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "candy-maker-ferrero-goes-all-in-on-sports-with-super-bowl-ad-world-cup",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Candy maker Ferrero goes all in on sports with Super Bowl ad, World Cup promotions",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108209552-1759949396821-gettyimages-1203862963-igor0627.jpeg?v=1759949563&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/candy-maker-ferrero-goes-all-in-on-sports-with-super-bowl-ad-world-cup/",
+      "excerpt": "Candy maker Ferrero announces Super Bowl ad, World Cup promotions Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indus…",
+      "source": "https://www.cnbc.com/2025/10/09/candy-maker-ferrero-super-bowl-ad-world-cup-promotions.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -841,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
+  "count": 73,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 70,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

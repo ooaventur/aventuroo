@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "why-powering-business-is-the-real-lightbulb-moment-for-africa-2025-10",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Why powering business is the real lightbulb moment for Africa",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1d4dc5fa-5a08-44fd-a0ff-d5bcef5e484f.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/why-powering-business-is-the-real-lightbulb-moment-for-africa-2025-10/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/e23cbd2b-5aa2-47ca-beb9-e10571ceca5f",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-pfizer-s-deal-with-trump-means-for-global-drug-pricing-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +34,42 @@
       "canonical": "https://archive.aventuroo.com/news/economy/uk-food-industry-blames-government-for-rising-grocery-bills-2025-10-09/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/06faa830-1f83-4ae3-a61a-128e94a946f8",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "renewable-energy-outpaces-coal-for-electricity-generation-in-historic",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Renewable energy outpaces coal for electricity generation in historic first, report says",
+      "cover": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3677x2068+0+192/resize/1600/quality/1600/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F13%2Fef2545384569b0d6d66d9b9b865a%2Fgettyimages-2148708407.jpg",
+      "canonical": "https://archive.aventuroo.com/news/economy/renewable-energy-outpaces-coal-for-electricity-generation-in-historic/",
+      "excerpt": "Renewables outpace coal for electricity generation for first time : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politi…",
+      "source": "https://www.npr.org/2025/10/09/nx-s1-5564746/renewable-energy-coal-electricity-first",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "quantitative-easing-is-under-the-microscope-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Quantitative easing is under the microscope",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fnext-video-editor-images.s3.ap-northeast-1.amazonaws.com%2F0e293c00-82aa-42fb-9115-2088d6f6f3d0?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/news/economy/quantitative-easing-is-under-the-microscope-2025-10-09/",
+      "excerpt": "Quantitative easing is under the microscope Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections W…",
+      "source": "https://www.ft.com/content/de05489d-bd68-48f0-a85a-b2bc763dc8c4",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-be-a-macroeconomic-dove-in-trump-s-trade-war-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "How to be a macroeconomic dove in Trump’s trade war",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F91dac038-e5a7-49cf-8029-36fdf89c7879.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/how-to-be-a-macroeconomic-dove-in-trump-s-trade-war-2025-10-09/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/21d48e2a-a420-42ca-9278-f39345a0aa35",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2305,11 +2353,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 192,
+  "count": 196,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 192,
+    "total_items": 196,
     "per_page": 12,
-    "total_pages": 16
+    "total_pages": 17
   }
 }

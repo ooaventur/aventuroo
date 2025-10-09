@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "openai-expands-budget-friendly-chatgpt-go-to-16-more-countries-in-asia",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "OpenAI expands budget-friendly ChatGPT Go to 16 more countries in Asia",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108209778-1759986401217-gettyimages-2236404267-radecka-illustra250920_np0Hx.jpeg?v=1760005858&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/openai-expands-budget-friendly-chatgpt-go-to-16-more-countries-in-asia/",
+      "excerpt": "OpenAI expands its cheapest ChatGPT plan to 16 more countries in Asia Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/09/openai-expands-its-cheapest-chatgpt-plan-to-16-more-countries-in-asia.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-launches-gemini-subscriptions-to-help-corporate-workers-build-a",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Google launches Gemini subscriptions to help corporate workers build AI agents",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108209783-1759987027007-gettyimages-2209279501-cw1_7703_vcm1yjgr.jpeg?v=1759987093&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/google-launches-gemini-subscriptions-to-help-corporate-workers-build-a/",
+      "excerpt": "Google launches Gemini Enterprise to boost AI agent use at work Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/10/09/google-launches-gemini-enterprise-to-boost-ai-agent-use-at-work.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "focus-on-value-creation-the-stock-market-will-settle-itself-says-snowf",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "‘Focus on value creation; the stock market will settle itself,’ says Snowflake CEO amid bubble fears",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108206045-1759265547118-Snowflake-CB-Photo-20250930-KK-PRESS-029.jpg?v=1759265883&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/focus-on-value-creation-the-stock-market-will-settle-itself-says-snowf/",
+      "excerpt": "‘Focus on value; the stock market will settle itself,’ says Snowflake CEO amid bubble fears Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Cl…",
+      "source": "https://www.cnbc.com/2025/10/09/focus-on-value-the-stock-market-will-settle-itself-says-snowflake-ceo-amid-bubble-fears-.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "citi-backs-stablecoin-firm-bvnk-as-wall-street-warms-to-crypto-2025-10",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1093,10 +1129,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 91,
+  "count": 94,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 91,
+    "total_items": 94,
     "per_page": 12,
     "total_pages": 8
   }

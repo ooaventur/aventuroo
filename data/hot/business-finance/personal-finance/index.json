@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "shutdown-fears-have-americans-pausing-pricey-purchases-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Shutdown Fears Have Americans Pausing Pricey Purchases",
+      "cover": "https://img.money.com/2025/10/News-Americans-Pausing-Purchases.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/shutdown-fears-have-americans-pausing-pricey-purchases-2025-10-09/",
+      "excerpt": "Shutdown Fears Have Americans Pausing Pricey Purchases | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best…",
+      "source": "https://money.com/americans-delay-purchases-government-shutdown/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-tax-move-is-one-of-the-irs-best-kept-secrets-for-retirees-advisor",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -1153,11 +1165,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 96,
-  "updated_at": "2025-10-08",
+  "count": 97,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 96,
+    "total_items": 97,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }
