@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "uk-lifts-ban-on-crypto-exchange-traded-notes-as-market-has-evolved-202",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "UK lifts ban on crypto exchange-traded notes as ‘market has evolved’",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjQtMTEvMDE5MzYzNDctNTY0MC03MTJjLThlZDItNzkwNGU0NzhlZmJk.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/uk-lifts-ban-on-crypto-exchange-traded-notes-as-market-has-evolved-202/",
+      "excerpt": "UK Ban On Crypto ETNs Lifted As Market Tipped To Grow By 20% Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Brian Quarmby 4 hours ago UK lifts ban on crypto exchange-traded notes as ‘market has evolved’ The UK has lifted its four-year ban on …",
+      "source": "https://cointelegraph.com/news/uk-lifts-ban-crypto-exchange-traded-notes?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-senate-confirms-treasury-official-as-government-shutdown-continues",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -589,10 +601,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 49,
-  "updated_at": "2025-10-08",
+  "count": 50,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 49,
+    "total_items": 50,
     "per_page": 12,
     "total_pages": 5
   }

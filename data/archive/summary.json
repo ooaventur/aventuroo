@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3619,
+  "total_items": 3629,
   "parents": [
     {
       "parent": "business-finance",
@@ -1278,8 +1278,8 @@
     },
     {
       "parent": "travel",
-      "items": 946,
-      "pages": 79,
+      "items": 956,
+      "pages": 80,
       "children": [
         {
           "child": "destinations",
@@ -1346,8 +1346,8 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 309,
-          "pages": 26,
+          "items": 314,
+          "pages": 27,
           "months": [
             {
               "year": 2025,
@@ -1600,6 +1600,12 @@
               "month": 4,
               "items": 10,
               "pages": 1
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "items": 5,
+              "pages": 1
             }
           ]
         },
@@ -1724,8 +1730,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 320,
-          "pages": 27,
+          "items": 325,
+          "pages": 28,
           "months": [
             {
               "year": 2025,
@@ -1976,7 +1982,13 @@
             {
               "year": 2022,
               "month": 4,
-              "items": 6,
+              "items": 7,
+              "pages": 1
+            },
+            {
+              "year": 2022,
+              "month": 3,
+              "items": 4,
               "pages": 1
             }
           ]

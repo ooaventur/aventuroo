@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "citi-backs-stablecoin-firm-bvnk-as-wall-street-warms-to-crypto-2025-10",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Citi backs stablecoin firm BVNK as Wall Street warms to crypto",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108209250-1759925008409-BVNK-Headshots-4Mar2025_011.jpg?v=1759925060&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/citi-backs-stablecoin-firm-bvnk-as-wall-street-warms-to-crypto-2025-10/",
+      "excerpt": "BVNK funding: Citi backs stablecoin firm as big banks warm to crypto Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/09/biti-bvnk-stablecoin-banks-crypto.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "softbank-to-buy-abb-robotics-unit-for-5-4-billion-as-it-boosts-its-ai",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -1081,10 +1093,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 90,
-  "updated_at": "2025-10-08",
+  "count": 91,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 90,
+    "total_items": 91,
     "per_page": 12,
     "total_pages": 8
   }

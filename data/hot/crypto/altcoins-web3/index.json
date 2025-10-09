@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "midnight-redefines-blockchain-privacy-with-zero-knowledge-and-rational",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Midnight Redefines Blockchain Privacy With Zero-Knowledge and Rational Design",
+      "cover": "https://assets.beincrypto.com/img/f_erx2LAwH-CR_ZxKZusk0QAz00=/smart/7fa2833f12c34165aa9834f854ea6851",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/midnight-redefines-blockchain-privacy-with-zero-knowledge-and-rational/",
+      "excerpt": "Midnight's Fahmi on Privacy, Compliance, and Enterprise Adoption Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunt…",
+      "source": "https://beincrypto.com/midnight-redefines-blockchain-privacy-with-zero-knowledge-and-rational-design/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-s-1b-memecoin-rescue-plan-reinforces-10-price-bid-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -745,10 +757,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 62,
-  "updated_at": "2025-10-08",
+  "count": 63,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 62,
+    "total_items": 63,
     "per_page": 12,
     "total_pages": 6
   }

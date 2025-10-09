@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "iwb-shows-how-voga-is-a-fashionable-asset-for-the-jet-set-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "IWB shows how Voga is a fashionable asset for the jet set",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/10/VOGA_dettaglio-2-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/iwb-shows-how-voga-is-a-fashionable-asset-for-the-jet-set-2025-10-09/",
+      "excerpt": "IWB shows how Voga is a fashionable asset for the jet set View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Interview…",
+      "source": "https://www.thedrinksbusiness.com/2025/10/iwb-shows-how-voga-is-a-fashionable-asset-for-the-jet-set/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "halewood-reveals-its-dynamic-strategy-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Halewood reveals its ‘dynamic’ strategy",
+      "cover": "https://www.thedrinksbusiness.com/content/uploads/2025/10/Whitley-Neill-Gin-1.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/halewood-reveals-its-dynamic-strategy-2025-10-09/",
+      "excerpt": "Halewood reveals its ‘dynamic’ strategy View Asian edition Menu The Drinks Business Search Sign in My account Sign out Sign in My account Sign out Green Awards DB Conference Latest issue Subscribe News Wine Fine Wine Beer Spirits Retail Asia The Big Interview Wine Masters Meda…",
+      "source": "https://www.thedrinksbusiness.com/2025/10/halewood-reveals-its-dynamic-strategy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-spirits-exports-slump-as-tariffs-and-consumer-shifts-bite-2025-10-0",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -2389,10 +2413,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 199,
-  "updated_at": "2025-10-08",
+  "count": 201,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 199,
+    "total_items": 201,
     "per_page": 12,
     "total_pages": 17
   }

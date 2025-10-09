@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "stanford-researchers-released-agentflow-in-the-flow-reinforcement-lear",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Stanford Researchers Released AgentFlow: In-the-Flow Reinforcement Learning RL for Modular, Tool-Using AI Agents",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-27.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/stanford-researchers-released-agentflow-in-the-flow-reinforcement-lear/",
+      "excerpt": "Stanford Researchers Released AgentFlow: In-the-Flow Reinforcement Learning RL for Modular, Tool-Using AI Agents - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub…",
+      "source": "https://www.marktechpost.com/2025/10/08/stanford-researchers-released-agentflow-in-the-flow-reinforcement-learning-rl-for-modular-tool-using-ai-agents/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforc",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "RA3: Mid-Training with Temporal Action Abstractions for Faster Reinforcement Learning (RL) Post-Training in Code LLMs",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-28.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforc/",
+      "excerpt": "RA3: Mid-Training with Temporal Action Abstractions for Faster Reinforcement Learning (RL) Post-Training in Code LLMs - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub New…",
+      "source": "https://www.marktechpost.com/2025/10/08/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforcement-learning-rl-post-training-in-code-llms/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "to-scale-agentic-ai-notion-tore-down-its-tech-stack-and-started-fresh",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -925,10 +949,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
-  "updated_at": "2025-10-08",
+  "count": 79,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 77,
+    "total_items": 79,
     "per_page": 12,
     "total_pages": 7
   }

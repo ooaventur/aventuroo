@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "scientists-suggest-the-brain-may-work-best-with-7-senses-not-just-5-20",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Scientists suggest the brain may work best with 7 senses, not just 5",
+      "cover": "https://www.sciencedaily.com/images/1920/rainbow-color-brain-regions.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-suggest-the-brain-may-work-best-with-7-senses-not-just-5-20/",
+      "excerpt": "Scientists suggest the brain may work best with 7 senses, not just 5 | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research …",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251008030955.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-just-found-a-molecule-that-could-stop-parkinson-s-in-its-tr",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Scientists just found a molecule that could stop Parkinson’s in its tracks",
+      "cover": "https://www.sciencedaily.com/images/1920/overworked-neuron-brain-cell.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-just-found-a-molecule-that-could-stop-parkinson-s-in-its-tr/",
+      "excerpt": "Scientists just found a molecule that could stop Parkinson’s in its tracks | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from res…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251008030949.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "new-pill-could-finally-control-stubborn-high-blood-pressure-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "New pill could finally control stubborn high blood pressure",
+      "cover": "https://www.sciencedaily.com/images/1920/blood-pressure-gauge-heart.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/new-pill-could-finally-control-stubborn-high-blood-pressure-2025-10-09/",
+      "excerpt": "New pill could finally control stubborn high blood pressure | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizat…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251008030947.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-reveal-green-tea-s-fat-burning-secret-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Scientists reveal green tea’s fat-burning secret",
+      "cover": "https://www.sciencedaily.com/images/1920/green-tea-on-wood-table.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-reveal-green-tea-s-fat-burning-secret-2025-10-08/",
+      "excerpt": "Scientists reveal green tea’s fat-burning secret | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Scient…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251008030951.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "you-don-t-have-to-lose-weight-to-lower-your-diabetes-risk-scientists-s",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -709,11 +757,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
-  "updated_at": "2025-10-07",
+  "count": 63,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 59,
+    "total_items": 63,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

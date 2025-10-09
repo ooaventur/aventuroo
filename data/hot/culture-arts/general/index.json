@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-slow-easy-splendor-of-peter-hujar-s-day-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "The Slow, Easy Splendor of Peter Hujar’s Day",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/PETER-HUJARS-DAY-_-STILL-1.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-slow-easy-splendor-of-peter-hujar-s-day-2025-10-08/",
+      "excerpt": "The Slow, Easy Splendor of Peter Hujar’s Day Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Me…",
+      "source": "https://hyperallergic.com/1048071/the-slow-easy-splendor-of-peter-hujars-day-ira-sachs/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-real-battle-of-one-battle-after-another-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -94,6 +106,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/robert-rauschenberg-s-new-york-pictures-from-the-real-world-2025-10-08/",
       "excerpt": "Robert Rauschenberg’s New York: Pictures from the Real World Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram Linked…",
       "source": "https://hyperallergic.com/1047043/robert-rauschenbergs-new-york-pictures-from-the-real-world/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "portrait-of-enslaved-man-dispels-years-of-falsehoods-2025-10-08",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Portrait of Enslaved Man Dispels Years of Falsehoods",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/fredericks.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/portrait-of-enslaved-man-dispels-years-of-falsehoods-2025-10-08/",
+      "excerpt": "Portrait of Enslaved Man Dispels Years of Falsehoods Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My ac…",
+      "source": "https://hyperallergic.com/1047549/portrait-of-enslaved-man-dispels-years-of-falsehoods/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1465,10 +1489,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 122,
+  "count": 124,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 122,
+    "total_items": 124,
     "per_page": 12,
     "total_pages": 11
   }

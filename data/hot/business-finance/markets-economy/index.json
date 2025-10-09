@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "gold-miners-outstrip-ai-and-bitcoin-to-put-unloved-industry-in-spotlig",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Gold miners outstrip AI and bitcoin to put ‘unloved’ industry in spotlight",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F6e3d3e45-cb46-4cb7-bb49-88b1c0df8457.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/gold-miners-outstrip-ai-and-bitcoin-to-put-unloved-industry-in-spotlig/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/96e28b50-4983-4c3b-be8d-54ea39a4469b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "gold-as-debasement-trade-doesn-t-add-up-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Gold as ‘debasement trade’ doesn’t add up",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F32c6b0e8-01b1-4152-89a4-1fcfe18a6df9.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/gold-as-debasement-trade-doesn-t-add-up-2025-10-09/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/4eefc53c-de68-4495-b729-b028916dd645",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "china-unveils-sweeping-rare-earth-export-controls-to-protect-national",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "China unveils sweeping rare-earth export controls to protect ‘national security’",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F903a30c7-5e79-4077-a3d8-ff474caff5b4.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/china-unveils-sweeping-rare-earth-export-controls-to-protect-national/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/c4b2c5d9-c82f-401e-b763-bc9581019cb7",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-pension-funds-are-still-pushing-for-climate-action-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -805,10 +841,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
-  "updated_at": "2025-10-08",
+  "count": 70,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 67,
+    "total_items": 70,
     "per_page": 12,
     "total_pages": 6
   }
