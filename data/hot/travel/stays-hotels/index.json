@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "leisureplex-hotel-group-acquires-cumbria-hotel-and-apartment-site-2025",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Leisureplex Hotel Group acquires Cumbria hotel and apartment site",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/04f184a9830cc32a4c00703630b1a63643a31e57-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/leisureplex-hotel-group-acquires-cumbria-hotel-and-apartment-site-2025/",
+      "excerpt": "Leisureplex Hotel Group acquires Cumbria hotel and apartment site Skip to content LATEST NEWS Leisureplex Hotel Group acquires Cumbria hotel and apartment site COMO joins $300 million project in Melbourne Hilton launches independent conversion brand Outset Collection SMRDC Fes…",
+      "source": "https://boutiquehotelnews.com/news/finance-and-investment/leisureplex-hotel-group-hotel-apartment/?utm_source=rss&utm_medium=rss&utm_campaign=leisureplex-hotel-group-hotel-apartment",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "como-joins-300-million-project-in-melbourne-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
+  "count": 26,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }

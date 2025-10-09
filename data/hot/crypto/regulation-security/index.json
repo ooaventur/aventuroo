@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "shapeshift-revives-privacy-focus-with-zcash-shielded-support-2025-10-0",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Shapeshift revives privacy focus with Zcash shielded support",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWE5OTYtZWI5Zi03MWNlLWIzZjctMjFmMWY0ZWE4OTgy.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/shapeshift-revives-privacy-focus-with-zcash-shielded-support-2025-10-0/",
+      "excerpt": "ShapeShift Rolls Out Support for Shielded Zcash Transactions Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Adrian Zmudzinski 4 hours ago Shapeshift revives privacy focus with Zcash shielded support ShapeShift has reintroduced support for Zca…",
+      "source": "https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-senate-confirms-treasury-official-as-government-shutdown-continues",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -601,10 +613,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 50,
+  "count": 51,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 50,
+    "total_items": 51,
     "per_page": 12,
     "total_pages": 5
   }

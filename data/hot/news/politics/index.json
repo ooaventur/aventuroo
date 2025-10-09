@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "vice-president-jd-vance-to-visit-indiana-again-as-white-house-presses",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Vice President JD Vance to visit Indiana again as White House presses for redistricting",
+      "cover": "https://s.abcnews.com/images/US/wirestory_d2ebc55ea9d2177cbadeebf16c4f929a_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/vice-president-jd-vance-to-visit-indiana-again-as-white-house-presses/",
+      "excerpt": "Vice President JD Vance to visit Indiana again as White House presses for redistricting - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream …",
+      "source": "https://abcnews.go.com/Politics/wireStory/vice-president-jd-vance-visit-indiana-white-house-126374054",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "starmer-praises-trump-over-role-in-gaza-ceasefire-deal-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Starmer praises Trump over role in Gaza ceasefire deal",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/4eb5/live/1e2f4f90-a527-11f0-94a8-5d6a26920553.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/starmer-praises-trump-over-role-in-gaza-ceasefire-deal-2025-10-09/",
+      "excerpt": "Keir Starmer praises Donald Trump over role in Gaza ceasefire deal Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics Eng…",
+      "source": "https://www.bbc.com/news/articles/c33rgd5gmrxo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "senate-republicans-vote-down-legislation-to-check-trump-s-use-of-war-p",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -85,6 +109,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "five-ways-abolishing-stamp-duty-could-change-the-housing-market-2025-1",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Five ways abolishing stamp duty could change the housing market",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/e48c/live/cdb688c0-a4f5-11f0-8e74-1f6664d312e9.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/five-ways-abolishing-stamp-duty-could-change-the-housing-market-2025-1/",
+      "excerpt": "Stamp duty: Five ways abolishing the tax could change the housing market Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politi…",
+      "source": "https://www.bbc.com/news/articles/c9v7wppzm2ro?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "watch-standing-ovation-as-badenoch-says-tories-would-scrap-stamp-duty",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -130,6 +166,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/retired-justice-kennedy-laments-coarse-discourse-of-trump-era-and-its/",
       "excerpt": "Retired Justice Kennedy laments coarse discourse of Trump era and its effects on the Supreme Court - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off…",
       "source": "https://abcnews.go.com/Politics/wireStory/retired-justice-kennedy-laments-coarse-discourse-trump-era-126345517",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "pressure-points-ahead-could-bring-a-quicker-end-to-the-shutdown-2025-1",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "Pressure points ahead could bring a quicker end to the shutdown",
+      "cover": "https://s.abcnews.com/images/US/wirestory_f390e3c7ec1fb1220f9cf1b484de618a_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/pressure-points-ahead-could-bring-a-quicker-end-to-the-shutdown-2025-1/",
+      "excerpt": "Pressure points ahead could bring a quicker end to the shutdown - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Pressure points ahead…",
+      "source": "https://abcnews.go.com/Politics/wireStory/pressure-points-ahead-bring-quicker-end-shutdown-126341865",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2449,11 +2497,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 204,
+  "count": 208,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 204,
+    "total_items": 208,
     "per_page": 12,
-    "total_pages": 17
+    "total_pages": 18
   }
 }

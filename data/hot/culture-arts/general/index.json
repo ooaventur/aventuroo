@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "a-cartoonist-s-journey-to-the-scene-of-a-riot-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "A Cartoonist’s Journey to the Scene of a Riot",
+      "cover": "https://media.newyorker.com/photos/68e705df10c54fb7dd4d5831/master/pass/sacco_TheOnceandFutureRiot_site.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-cartoonist-s-journey-to-the-scene-of-a-riot-2025-10-09/",
+      "excerpt": "A Cartoonist’s Journey to the Scene of a Riot | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Pag…",
+      "source": "https://www.newyorker.com/books/page-turner/a-cartoonists-journey-to-the-scene-of-a-riot",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "will-a-i-trap-you-in-the-permanent-underclass-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -1489,10 +1501,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 124,
+  "count": 125,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 124,
+    "total_items": 125,
     "per_page": 12,
     "total_pages": 11
   }

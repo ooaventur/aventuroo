@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "my-history-hero-isabel-allende-chooses-in-s-su-rez-c1507-80-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "My history hero: Isabel Allende chooses Inés Suárez (c1507–80)",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Hero-Banner-Nov-25-Isabel-AllendeShutterstockInes-SuarezTopfoto-WL-fe94988-e1760022667871.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/my-history-hero-isabel-allende-chooses-in-s-su-rez-c1507-80-2025-10-09/",
+      "excerpt": "My history hero: Isabel Allende chooses Inés Suárez (c1507–80) | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval …",
+      "source": "https://www.historyextra.com/membership/my-history-hero-isabel-allende-chooses-ines-suarez/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ancient-roman-theatre-was-a-powerful-weapon-of-empire-so-why-were-acto",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1547,12 +1559,36 @@
       "excerpt": "How Witold Pilecki Voluntarily Entered Auschwitz — Then Escaped All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Witold Pilecki: The Polish Resistance Leader Who Voluntarily Entered Auschwitz …",
       "source": "https://allthatsinteresting.com/witold-pilecki",
       "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "humongous-fungus-the-2-500-year-old-michigan-mushroom-that-s-as-heavy",
+      "date": "2025-09-14",
+      "published_at": "2025-09-14T00:00:00Z",
+      "created_at": "2025-09-14T00:00:00Z",
+      "title": "Humongous Fungus, The 2,500-Year-Old Michigan Mushroom That’s As Heavy As Three Blue Whales",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/10/armillaria-gallica.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/humongous-fungus-the-2-500-year-old-michigan-mushroom-that-s-as-heavy/",
+      "excerpt": "Humongous Fungus: The Michigan Mushroom That Weighs 440 Tons All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Humongous Fungus, The 2,500-Year-Old Michigan Mushroom That’s As Heavy As Three Bl…",
+      "source": "https://allthatsinteresting.com/humongous-fungus-michigan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-did-jimi-hendrix-die-the-full-story-behind-his-tragic-demise-in-19",
+      "date": "2025-09-14",
+      "published_at": "2025-09-14T00:00:00Z",
+      "created_at": "2025-09-14T00:00:00Z",
+      "title": "How Did Jimi Hendrix Die? The Full Story Behind His Tragic Demise In 1970",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/10/jimi-hendrix-performing-in-wight.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/how-did-jimi-hendrix-die-the-full-story-behind-his-tragic-demise-in-19/",
+      "excerpt": "Jimi Hendrix's Death: How The Rock Icon Died At 27 All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email How Did Jimi Hendrix Die? The Full Story Behind His Tragic Demise In 1970 By Marco Margarito…",
+      "source": "https://allthatsinteresting.com/jimi-hendrix-death",
+      "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 129,
+  "count": 132,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 129,
+    "total_items": 132,
     "per_page": 12,
     "total_pages": 11
   }

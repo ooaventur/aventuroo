@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "zendesk-launches-new-ai-capabilities-for-the-resolution-platform-creat",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Zendesk launches new AI capabilities for the Resolution Platform, creating the ultimate service experience for all",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4R86iST9TxSRjXnmBYAPYq/f6f37e05d97e7714daf1e1ff97064ee7/Zendesk_AI_Summit_Logo.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/zendesk-launches-new-ai-capabilities-for-the-resolution-platform-creat/",
+      "excerpt": "<p><i>Presented by Zendesk</i></p><hr/><p>Zendesk powers nearly 5 billion resolutions every year for over 100,000 customers around the world, with about 20,000 of its customers (and growing) using its AI services. Zendesk is poised to generate about $200 million in AI-related …",
+      "source": "https://venturebeat.com/ai/zendesk-launches-new-ai-capabilities-for-the-resolution-platform-creating",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-mit-got-wrong-about-ai-agents-new-g2-data-shows-they-re-already-d",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "What MIT got wrong about AI agents: New G2 data shows they’re already driving enterprise ROI",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5mIuAF6rRa5YJq9dkzNaRb/3bb2774412459aecbe9e0718901209d7/u7277289442_AI_agents_and_human_workers_sit_side-by-side_at_com_4680144f-3cfb-4bf3-9663-98adb31cb8e2.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/what-mit-got-wrong-about-ai-agents-new-g2-data-shows-they-re-already-d/",
+      "excerpt": "<p>Check your research, MIT: 95% of <a href=\"https://venturebeat.com/ai/to-scale-agentic-ai-notion-tore-down-its-tech-stack-and-started-fresh\"><u>AI projects</u></a> aren’t failing — far from it.</p><p>According to new data from <a href=\"https://www.g2.com/\">G2</a>, nearly 60%…",
+      "source": "https://venturebeat.com/ai/what-mit-got-wrong-about-ai-agents-new-g2-data-shows-theyre-already-driving",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tiny-recursive-model-trm-a-tiny-7m-model-that-surpass-deepseek-r1-gemi",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Tiny Recursive Model (TRM): A Tiny 7M Model that Surpass DeepSeek-R1, Gemini 2.5 pro, and o3-mini at Reasoning on both ARG-AGI 1 and ARC-AGI 2",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-29.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/tiny-recursive-model-trm-a-tiny-7m-model-that-surpass-deepseek-r1-gemi/",
+      "excerpt": "Tiny Recursive Model (TRM): A Tiny 7M Model that Surpass DeepSeek-R1, Gemini 2.5 pro, and o3-mini at Reasoning on both ARG-AGI 1 and ARC-AGI 2 - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponso…",
+      "source": "https://www.marktechpost.com/2025/10/09/tiny-recursive-model-trm-a-tiny-7m-model-that-surpass-deepseek-r1-gemini-2-5-pro-and-o3-mini-at-reasoning-on-both-arg-agi-1-and-arc-agi-2/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-next-ai-battleground-google-s-gemini-enterprise-and-aws-s-quick-su",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The next AI battleground: Google’s Gemini Enterprise and AWS’s Quick Suite bring full-stack, in-context AI to the workplace",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/9w5D1Pdi01jrnTmHGWnBE/a95c3ffe6198418598ec508d069e8bbc/crimedy7_illustration_of_a_robot_coding_a_program_--ar_169_--_7dafd9d4-817a-4c5c-abbe-fb9112e639c7_1.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/the-next-ai-battleground-google-s-gemini-enterprise-and-aws-s-quick-su/",
+      "excerpt": "<p>The friction of having to open a separate chat window to prompt an agent could be a hassle for many enterprises. And AI companies are seeing an opportunity to bring more and more <a href=\"https://venturebeat.com/data-infrastructure/habib-at-vb-transform-writers-vision-for-f…",
+      "source": "https://venturebeat.com/ai/the-next-ai-battleground-googles-gemini-enterprise-and-awss-quick-suite",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "stanford-researchers-released-agentflow-in-the-flow-reinforcement-lear",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +70,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforc/",
       "excerpt": "RA3: Mid-Training with Temporal Action Abstractions for Faster Reinforcement Learning (RL) Post-Training in Code LLMs - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub New…",
       "source": "https://www.marktechpost.com/2025/10/08/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforcement-learning-rl-post-training-in-code-llms/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "echelon-s-ai-agents-take-aim-at-accenture-and-deloitte-consulting-mode",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Echelon's AI agents take aim at Accenture and Deloitte consulting models",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6Wx0cy48ounMBeal2k0YPo/61ea707f3d72649cd7670e2cc4e809b6/nuneybits_Vector_art_of_AI_robot_coding_9f59b4e8-0719-4d4f-8bf3-025933b4c3f3.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/echelon-s-ai-agents-take-aim-at-accenture-and-deloitte-consulting-mode/",
+      "excerpt": "<p><a href=\"https://www.echelonai.com/\"><u>Echelon</u></a>, an artificial intelligence startup that automates enterprise software implementations, emerged from stealth mode today with $4.75 million in seed funding led by <a href=\"https://baincapitalventures.com/\"><u>Bain Capit…",
+      "source": "https://venturebeat.com/ai/echelons-ai-agents-take-aim-at-accenture-and-deloitte-consulting-models",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "capturing-the-trillion-dollar-opportunity-with-autonomous-professional",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Capturing the trillion dollar opportunity with autonomous professional services",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/3l7zwEpqZEcJCV1hNbbq7A/028b5862a4a109db343a3b2495cc020a/AdobeStock_69357066.jpeg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/capturing-the-trillion-dollar-opportunity-with-autonomous-professional/",
+      "excerpt": "<p><i>Presented by Certinia</i></p><hr/><p>Every professional services leader knows the feeling: a pipeline full of promising deals, but a bench that’s already stretched thin. </p><p>That’s because growth has always been tied to a finite supply of consultants with finite avail…",
+      "source": "https://venturebeat.com/ai/capturing-the-trillion-dollar-opportunity-with-autonomous-professional",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -949,11 +1021,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 79,
+  "count": 85,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 79,
+    "total_items": 85,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }

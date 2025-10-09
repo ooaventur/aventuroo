@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "these-lola-tung-hairstyles-will-inspire-your-next-look-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "These Lola Tung Hairstyles Will Inspire Your Next Look",
+      "cover": "https://www.refinery29.com/images/11935218.png?crop=2000%2C1050%2Cx0%2Cy0",
+      "canonical": "https://archive.aventuroo.com/lifestyle/these-lola-tung-hairstyles-will-inspire-your-next-look-2025-10-09/",
+      "excerpt": "11 Lola Tung Hairstyles To Inspire Your Next Look Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings together…",
+      "source": "https://www.refinery29.com/en-us/lola-tung-hair-inspiration?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-is-the-only-vanilla-perfume-i-m-wearing-this-fall-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -529,10 +541,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 44,
-  "updated_at": "2025-10-08",
+  "count": 45,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 44,
+    "total_items": 45,
     "per_page": 12,
     "total_pages": 4
   }

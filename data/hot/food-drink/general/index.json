@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "i-m-obsessed-with-this-ninja-pizza-oven-and-it-s-on-sale-for-the-lowes",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "I'm Obsessed With This Ninja Pizza Oven—And It's On Sale For The Lowest Price EVER",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/5de46bf8-a0ac-4c0a-a78f-6daf3f9e-68e6d7848b769.png",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/i-m-obsessed-with-this-ninja-pizza-oven-and-it-s-on-sale-for-the-lowes/",
+      "excerpt": "Ninja’s Outdoor Pizza Oven Is On Sale For The Lowest Price EVER My Recipes Subscribe Membership Benefits Recipes Meals Holidays Food Trends News Kitchen Tips & Tools All Videos About Us Newsletter Follow Your Privacy Choices Privacy Notice Terms Of Use Skip to Content Recipes …",
+      "source": "https://www.delish.com/kitchen-tools/cookware-reviews/a68919686/ninja-pizza-oven-october-2025-sale/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "goulash-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Goulash",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/goulash-index-64de8d20b97d5.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/goulash-2025-10-09/",
+      "excerpt": "Best Goulash Recipe My Recipes Subscribe Membership Benefits Recipes Meals Holidays Food Trends News Kitchen Tips & Tools All Videos About Us Newsletter Follow Your Privacy Choices Privacy Notice Terms Of Use Skip to Content Recipes Dinners Fall Recipes Kitchen Tips News searc…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a55501/best-goulash-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "check-your-freezer-a-popular-aldi-app-was-recalled-for-a-life-threaten",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Check Your Freezer: A Popular Aldi App Was Recalled For A Life-Threatening Allergen",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/aldi-storefront-royalty-free-image-1760020733.pjpeg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/check-your-freezer-a-popular-aldi-app-was-recalled-for-a-life-threaten/",
+      "excerpt": "Check Your Freezer: A Popular Aldi App Was Recalled For A Life-Threatening Allergen My Recipes Subscribe Membership Benefits Recipes Meals Holidays Food Trends News Kitchen Tips & Tools All Videos About Us Newsletter Follow Your Privacy Choices Privacy Notice Terms Of Use Skip…",
+      "source": "https://www.delish.com/food-news/a68987665/aldi-vegetable-spring-roll-recall/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "black-magic-margaritas-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Black Magic Margaritas",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/black-magic-margaritas-index-6706eb2c68e07.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/black-magic-margaritas-2025-10-09/",
+      "excerpt": "Best Black Magic Margarita Recipe My Recipes Subscribe Membership Benefits Recipes Meals Holidays Food Trends News Kitchen Tips & Tools All Videos About Us Newsletter Follow Your Privacy Choices Privacy Notice Terms Of Use Skip to Content Recipes Dinners Fall Recipes Kitchen T…",
+      "source": "https://www.delish.com/cooking/recipe-ideas/a55953/black-magic-margaritas-recipe/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "79-treats-perfect-for-the-grown-ups-at-your-halloween-party-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "79 Treats Perfect For The Grown-Ups At Your Halloween Party",
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/candy-corn-colada-index-web-706-rl-del099925-68dee472542c1.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/general/79-treats-perfect-for-the-grown-ups-at-your-halloween-party-2025-10-09/",
+      "excerpt": "79 Best Adult Halloween Party Ideas - Spooky Halloween Recipes We are firm believers that Halloween is for all ages. Kiddos and grown-ups alike, we all love to play dress up for a night (and eat way too much candy)! If a monster mash is on your agenda this spooky season, you'r…",
+      "source": "https://www.delish.com/holiday-recipes/halloween/g68989172/halloween-party-recipes/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-do-all-fast-food-chains-look-like-boring-gray-boxes-now-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -2689,11 +2749,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 224,
-  "updated_at": "2025-10-08",
+  "count": 229,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 224,
+    "total_items": 229,
     "per_page": 12,
-    "total_pages": 19
+    "total_pages": 20
   }
 }

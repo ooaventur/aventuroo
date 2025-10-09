@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "ocean-protocol-exits-asi-alliance-what-it-means-for-the-project-and-to",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Ocean Protocol Exits ASI Alliance: What It Means for the Project and Token Holders",
+      "cover": "https://assets.beincrypto.com/img/v8eQt0iQ0YUsmUUMVYLkJXNYUfs=/smart/33b0bd193b9d4825bb07c8c0d47e4cc1",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/ocean-protocol-exits-asi-alliance-what-it-means-for-the-project-and-to/",
+      "excerpt": "Ocean Withdraws ASI Alliance, Sparking OCEAN Price Debate Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed…",
+      "source": "https://beincrypto.com/ocean-protocol-withdraws-from-asi/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "mnt-rockets-20-as-investors-eye-it-as-the-next-big-ethereum-l2-2025-10",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "MNT Rockets 20% as Investors Eye It as the Next Big Ethereum L2",
+      "cover": "https://assets.beincrypto.com/img/CGnucLwqXiLoLbg-MKy5lXyVNnU=/smart/31a7d08b0c834618babfc07941b1046a",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/mnt-rockets-20-as-investors-eye-it-as-the-next-big-ethereum-l2-2025-10/",
+      "excerpt": "MNT Hits New ATH as Investors Bet Big on Layer-2 Growth Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed T…",
+      "source": "https://beincrypto.com/mnt-ath-momentum-builds/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "midnight-redefines-blockchain-privacy-with-zero-knowledge-and-rational",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -13,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "lunc-burns-blaze-on-but-price-faces-brutal-sell-signals-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "LUNC Burns Blaze On, But Price Faces Brutal Sell Signals",
+      "cover": "https://dailycoin.com/wp-content/uploads/2023/12/lunc_binance_cut_elimate_luna_Web.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/lunc-burns-blaze-on-but-price-faces-brutal-sell-signals-2025-10-09/",
+      "excerpt": "LUNC Burns Blaze On, But Price Faces Brutal Sell Signals - DailyCoin About us Events Contact Advertise Join newsletter Subscribe Search for: eSports & Web3 Gaming News Tokens Crypto News Crypto News Bitcoin (BTC) Ethereum (ETH) Altcoins Cardano (ADA) Ripple (XRP) Shiba Inu (SH…",
+      "source": "https://dailycoin.com/lunc-burns-blaze-on-but-price-faces-brutal-sell-signals/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "from-180-to-60-000-why-some-analysts-say-zcash-rally-is-just-getting-s",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/from-180-to-60-000-why-some-analysts-say-zcash-rally-is-just-getting-s/",
       "excerpt": "From $180 to $60,000? The Wild Predictions for Zcash’s Future Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter …",
       "source": "https://beincrypto.com/zcash-analyst-price-predictions/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "coinbase-lists-linea-other-gems-amid-big-dex-roll-out-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Coinbase Lists LINEA, Other Gems Amid Big DEX Roll-Out",
+      "cover": "https://dailycoin.com/wp-content/uploads/2024/06/defi_blockchain_trade_exchange_gems_assets_QuickSwap_Falkor_swap_unbranded_web.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/coinbase-lists-linea-other-gems-amid-big-dex-roll-out-2025-10-09/",
+      "excerpt": "Coinbase Lists LINEA, Other Gems Amid Big DEX Roll-Out - DailyCoin About us Events Contact Advertise Join newsletter Subscribe Search for: eSports & Web3 Gaming News Tokens Crypto News Crypto News Bitcoin (BTC) Ethereum (ETH) Altcoins Cardano (ADA) Ripple (XRP) Shiba Inu (SHIB…",
+      "source": "https://dailycoin.com/coinbase-lists-linea-other-gems-amid-big-dex-roll-out/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -793,10 +841,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 66,
+  "count": 70,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 66,
+    "total_items": 70,
     "per_page": 12,
     "total_pages": 6
   }

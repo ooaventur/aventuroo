@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "house-of-mohamed-el-sayed-in-cairo-egypt-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "House of Mohamed El Sayed in Cairo, Egypt",
+      "cover": "https://img.atlasobscura.com/6voPKLg2_buq2XM37m-ZSSzsFcJqOhzx75U3HSUjpIU/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NjRl/MjYyMC05NGRlLTQ3/MDUtOWUwZi03N2Zk/N2VmMTVjMGExNmZl/NjZhMmEwZGQ0ZDlk/YzlfS2hhbGlsIHBh/bGFjZSAxLmpwZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/house-of-mohamed-el-sayed-in-cairo-egypt-2025-10-09/",
+      "excerpt": "House of Mohamed El Sayed - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2…",
+      "source": "https://www.atlasobscura.com/places/house-of-mohamed-el-sayed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "fuente-de-san-isidro-st-isidore-s-fountain-in-madrid-spain-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -205,10 +217,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 17,
-  "updated_at": "2025-10-08",
+  "count": 18,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 17,
+    "total_items": 18,
     "per_page": 12,
     "total_pages": 2
   }

@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "the-world-s-best-bar-for-2025-is-in-hong-kong-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The World's Best Bar for 2025 Is in Hong Kong",
+      "cover": "https://media.cntraveler.com/photos/68e7d54a857c1368d38a4063/master/pass/Bar%20Leone-team.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-world-s-best-bar-for-2025-is-in-hong-kong-2025-10-09/",
+      "excerpt": "The World's Best Bar for 2025 Is in Hong Kong | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Europe …",
+      "source": "https://www.cntraveler.com/story/worlds-50-best-bars-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "9-fabulous-affordable-hotels-in-miami-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "9 Fabulous Affordable Hotels in Miami",
+      "cover": "https://media.cntraveler.com/photos/642b60cfb680533fc0c2adad/master/pass/Mayfair%20House%20Hotel%20&%20Garden_18%20Sipsip%20and%20Rooftop%20Pool%20Will-Pryce.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/9-fabulous-affordable-hotels-in-miami-2025-10-09/",
+      "excerpt": "9 Fabulous Affordable Hotels in Miami | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 North America C…",
+      "source": "https://www.cntraveler.com/gallery/the-best-affordable-hotels-in-miami-florida",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "20-booking-com-promo-codes-october-2025-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "20% Booking.com Promo Codes | October 2025",
+      "cover": "https://media.cntraveler.com/photos/67ad15a2528d664ce9a088e3/master/pass/00-Lede-04-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/20-booking-com-promo-codes-october-2025-2025-10-09/",
+      "excerpt": "20% Booking.com Promo Codes | October 2025 | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Shopping T…",
+      "source": "https://www.cntraveler.com/story/booking-com-promo-codes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "15-best-puglia-airbnbs-for-your-next-trip-to-italy-s-southern-coast-20",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "15 Best Puglia Airbnbs for Your Next Trip to Italy's Southern Coast",
+      "cover": "https://media.cntraveler.com/photos/68e6c01166cfa2aab38a988f/master/pass/Screen%20Shot%202025-10-08%20at%203.48.23%20PM.png",
+      "canonical": "https://archive.aventuroo.com/travel/general/15-best-puglia-airbnbs-for-your-next-trip-to-italy-s-southern-coast-20/",
+      "excerpt": "15 Best Puglia Airbnbs for Your Next Trip to Italy's Southern Coast | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choi…",
+      "source": "https://www.cntraveler.com/gallery/best-puglia-airbnbs",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "winding-through-the-scottish-highlands-on-the-royal-scotsman-train-202",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -997,11 +1045,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 83,
-  "updated_at": "2025-10-08",
+  "count": 87,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 83,
+    "total_items": 87,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }

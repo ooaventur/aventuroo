@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "weirder-deeper-pervier-lovelier-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Weirder, Deeper, Pervier, Lovelier",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/10/Screenshot-2025-10-06-at-3.02.19-PM.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/weirder-deeper-pervier-lovelier-2025-10-09/",
+      "excerpt": "Weirder, Deeper, Pervier, Lovelier | Online Only | n+1 | Sam Dembling Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-event flavor-online-only type-online-only term-events format-pullquote tax-online-only fe…",
+      "source": "https://www.nplusonemag.com/online-only/online-only/weirder-deeper-pervier-lovelier/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "issue-51-reading-and-celebration-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -301,10 +313,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 25,
-  "updated_at": "2025-10-08",
+  "count": 26,
+  "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 25,
+    "total_items": 26,
     "per_page": 12,
     "total_pages": 3
   }

@@ -13,6 +13,66 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "take-note-cyber-risks-with-ai-notetakers-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Take Note: Cyber-Risks With AI Notetakers",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt76aca78e3296ad0e/68e7b3ee9447f4b8a282542d/OtterAI_Timon_Schneider_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/take-note-cyber-risks-with-ai-notetakers-2025-10-09/",
+      "excerpt": "Transcription applications are joining your online meetings. Here's how to create policies for ensuring compliance and security of your information.",
+      "source": "https://www.darkreading.com/cyber-risk/take-note-cyber-risks-with-ai-notetakers",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "sonicwall-firewall-configs-stolen-for-all-cloud-backup-customers-2025",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "SonicWall: Firewall configs stolen for all cloud backup customers",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/05/13/SonicWall_logo.jpeg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sonicwall-firewall-configs-stolen-for-all-cloud-backup-customers-2025/",
+      "excerpt": "SonicWall: Firewall configs stolen for all cloud backup customers News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws…",
+      "source": "https://www.bleepingcomputer.com/news/security/sonicwall-firewall-configs-stolen-for-all-cloud-backup-customers/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "rondodox-botnet-targets-56-n-day-flaws-in-worldwide-attacks-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "RondoDox botnet targets 56 n-day flaws in worldwide attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/09/botnet.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/rondodox-botnet-targets-56-n-day-flaws-in-worldwide-attacks-2025-10-09/",
+      "excerpt": "RondoDox botnet targets 56 n-day flaws in worldwide attacks News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micro…",
+      "source": "https://www.bleepingcomputer.com/news/security/rondodox-botnet-targets-56-n-day-flaws-in-worldwide-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-windows-backup-now-available-for-enterprise-users-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Microsoft: Windows Backup now available for enterprise users",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/05/28/Windows-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-windows-backup-now-available-for-enterprise-users-2025-10-09/",
+      "excerpt": "Microsoft: Windows Backup now available for enterprise users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micr…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-backup-now-available-for-enterprise-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-defender-mistakenly-flags-sql-server-as-end-of-life-2025-10",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Microsoft Defender mistakenly flags SQL Server as end-of-life",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/09/Microsoft-SQL-Server.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-defender-mistakenly-flags-sql-server-as-end-of-life-2025-10/",
+      "excerpt": "Microsoft Defender mistakenly flags SQL Server as end-of-life News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mic…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-mistakenly-flags-sql-server-as-end-of-life/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hacktivists-target-critical-infrastructure-hit-decoy-plant-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +94,42 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10/",
       "excerpt": "Hackers claim Discord breach exposed data of 5.5 million users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mi…",
       "source": "https://www.bleepingcomputer.com/news/security/hackers-claim-discord-breach-exposed-data-of-55-million-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-infostealer-to-full-rat-dissecting-the-purerat-attack-chain-2025",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "From infostealer to full RAT: dissecting the PureRAT attack chain",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/10/08/huntress-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/from-infostealer-to-full-rat-dissecting-the-purerat-attack-chain-2025/",
+      "excerpt": "From infostealer to full RAT: dissecting the PureRAT attack chain News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws…",
+      "source": "https://www.bleepingcomputer.com/news/security/from-infostealer-to-full-rat-dissecting-the-purerat-attack-chain/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "fastly-ciso-using-major-incidents-as-career-catalysts-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Fastly CISO: Using Major Incidents as Career Catalysts",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltee980ee7f757d7d8/68e57fc382f68e634a4ac918/cia1800_Postmodern_Studio_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fastly-ciso-using-major-incidents-as-career-catalysts-2025-10-09/",
+      "excerpt": "Marshall Erwin shares how crisis leadership shaped his path from CIA analyst to the US Congress to protecting global Web traffic at Fastly.",
+      "source": "https://www.darkreading.com/cybersecurity-operations/fastly-ciso-major-incidents-career-catalysts",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chaos-ransomware-upgrades-with-aggressive-new-c-variant-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Chaos Ransomware Upgrades With Aggressive New C++ Variant",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt7e80ab080709bd8e/68e7841d2ce1cb062b683015/Ransomware(1800)_Olekcii_Mach_Alamy.png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chaos-ransomware-upgrades-with-aggressive-new-c-variant-2025-10-09/",
+      "excerpt": "New encryption, wiper, and cryptocurrency-stealing capabilities make the evolving ransomware-as-a-service operation more dangerous than ever.",
+      "source": "https://www.darkreading.com/threat-intelligence/chaos-ransomware-upgrades-aggressive-new-variant",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1837,11 +1933,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 153,
+  "count": 161,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 153,
+    "total_items": 161,
     "per_page": 12,
-    "total_pages": 13
+    "total_pages": 14
   }
 }

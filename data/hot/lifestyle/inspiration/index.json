@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-god-i-lost-the-one-i-found-and-the-faith-that-changed-me-2025-10-0",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The God I Lost, the One I Found, and the Faith That Changed Me",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/10/Peaceful-woman-in-a-forest.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-god-i-lost-the-one-i-found-and-the-faith-that-changed-me-2025-10-0/",
+      "excerpt": "The God I Lost, the One I Found, and the Faith That Changed Me - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfulness & Pe…",
+      "source": "https://tinybuddha.com/blog/the-god-i-lost-the-one-i-found-and-the-faith-that-changed-me/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "music-at-work-when-it-helps-and-when-it-hurts-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -793,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 66,
+  "count": 67,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 66,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }
