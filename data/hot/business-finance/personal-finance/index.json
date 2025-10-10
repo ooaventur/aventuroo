@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "debt-keeps-7-in-10-adults-from-building-wealth-or-saving-survey-finds",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Debt keeps 7 in 10 adults from building wealth or saving, survey finds — 5 strategies for debt relief",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108190870-1756224655955-gettyimages-1409602142-boj_0195.jpeg?v=1759955786&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/debt-keeps-7-in-10-adults-from-building-wealth-or-saving-survey-finds/",
+      "excerpt": "Debt relief strategies to consider Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth Sports Lif…",
+      "source": "https://www.cnbc.com/2025/10/10/debt-relief-strategies.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "can-you-still-get-a-free-covid-vaccine-here-s-how-to-find-out-2025-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Can You Still Get a Free COVID Vaccine? Here’s How to Find Out",
+      "cover": "https://img.money.com/2025/10/News-Covid-Booster-Insurance.png",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/can-you-still-get-a-free-covid-vaccine-here-s-how-to-find-out-2025-10/",
+      "excerpt": "Can You Get a COVID Booster Shot for Free This Fall? | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Best P…",
+      "source": "https://money.com/free-covid-booster-2025-coverage-under-new-trump-administration-policy/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "weekly-mortgage-rates-drop-on-squirrelly-jobs-data-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1285,11 +1309,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 107,
-  "updated_at": "2025-10-09",
+  "count": 109,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 107,
+    "total_items": 109,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "we-tested-openai-s-sora-2-video-generator-to-find-out-why-hollywood-is",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "We tested OpenAI’s Sora 2 video generator to find out why Hollywood is freaking out",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108210376-OpenAI_Hollywood_C_Clean.jpg?v=1760071837&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/we-tested-openai-s-sora-2-video-generator-to-find-out-why-hollywood-is/",
+      "excerpt": "How Sora 2 by OpenAI is challenging Hollywood Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Wealth…",
+      "source": "https://www.cnbc.com/2025/10/10/how-sora-2-by-openai-is-challenging-hollywood.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "singapore-police-probe-nvidia-customer-megaspeed-over-alleged-china-ex",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/shaq-sam-altman-backed-college-startup-campus-taps-former-meta-ai-head/",
       "excerpt": "Sam Altman-backed college startup taps former Meta AI head as CTO Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indus…",
       "source": "https://www.cnbc.com/2025/10/10/sam-altman-college-startup-campus-meta-ai.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "rocket-lab-s-stock-set-for-20-gain-this-week-after-flurry-of-new-launc",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Rocket Lab's stock set for 20% gain this week after flurry of new launch deals",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108210564-1760103734133-gettyimages-2228901269-img_2432.jpeg?v=1760103784&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/rocket-lab-s-stock-set-for-20-gain-this-week-after-flurry-of-new-launc/",
+      "excerpt": "Rocket Lab stock set for 20% weekly gain after flurry of launch deals Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/10/rocket-lab-stock-launch-deals-japan.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -70,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/china-blacklists-major-chip-research-firm-techinsights-following-repor/",
       "excerpt": "China blacklists major chip research firm following report on Huawei Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
       "source": "https://www.cnbc.com/2025/10/10/china-blacklists-major-chip-ai-research-firm-techinsights-analyzed-report-huawei.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "applied-digital-stock-climbs-16-as-ai-demand-fuels-data-center-growth",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Applied Digital stock climbs 16% as AI demand fuels data center growth",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108210756-1760119642025-gettyimages-2147797953-PGONCHAR_5058.jpeg?v=1760119665&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/applied-digital-stock-climbs-16-as-ai-demand-fuels-data-center-growth/",
+      "excerpt": "Applied Digital stock climbs 16% as AI demand fuels data center growth Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/10/applied-digital-stock-ai-data-center-earnings.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1285,11 +1321,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 107,
+  "count": 110,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 107,
+    "total_items": 110,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

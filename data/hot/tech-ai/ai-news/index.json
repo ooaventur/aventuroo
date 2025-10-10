@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "together-ai-s-atlas-adaptive-speculator-delivers-400-inference-speedup",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Together AI's ATLAS adaptive speculator delivers 400% inference speedup by learning from workloads in real-time",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/QKYmkzNToGEJHgfWYSkzb/8dca1ce8a9cecbd949cb5dabb0e4a54b/ATLAS-ai-inference-smk.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/together-ai-s-atlas-adaptive-speculator-delivers-400-inference-speedup/",
+      "excerpt": "<p>Enterprises expanding AI deployments are hitting an invisible performance wall. The culprit? Static speculators that can&#x27;t keep up with shifting workloads.</p><p>Speculators are smaller AI models that work alongside large language models during inference. They draft mu…",
+      "source": "https://venturebeat.com/ai/together-ais-atlas-adaptive-speculator-delivers-400-inference-speedup-by",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-research-releases-skala-a-deep-learning-exchange-correlation",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -130,6 +142,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforc/",
       "excerpt": "RA3: Mid-Training with Temporal Action Abstractions for Faster Reinforcement Learning (RL) Post-Training in Code LLMs - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub New…",
       "source": "https://www.marktechpost.com/2025/10/08/ra3-mid-training-with-temporal-action-abstractions-for-faster-reinforcement-learning-rl-post-training-in-code-llms/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "nvidia-researchers-boost-llms-reasoning-skills-by-getting-them-to-thin",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Nvidia researchers boost LLMs reasoning skills by getting them to 'think' during pre-training",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/2PTqNZnnwoy3Jnl9Nb0jwP/bceecea29350a1a5646c728208c5baac/nuneybits_Vector_art_of_a_robot_thinking_neon_colors_bc248938-48f9-44e0-8bd0-3a2fd7b9f913.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/nvidia-researchers-boost-llms-reasoning-skills-by-getting-them-to-thin/",
+      "excerpt": "<p>Researchers at Nvidia have developed a new technique that flips the script on how large language models (LLMs) learn to reason. </p><p>The method, called <a href=\"https://arxiv.org/abs/2510.01265\"><u>reinforcement learning pre-training</u></a> (RLP), integrates RL into the …",
+      "source": "https://venturebeat.com/ai/nvidia-researchers-boost-llms-reasoning-skills-by-getting-them-to-think",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1081,10 +1105,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 90,
+  "count": 92,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 90,
+    "total_items": 92,
     "per_page": 12,
     "total_pages": 8
   }

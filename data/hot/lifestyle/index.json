@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "the-funniest-posts-from-women-this-week-oct-3-10-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "The Funniest Posts From Women This Week (Oct. 3-10)",
+      "cover": "https://img.huffingtonpost.com/asset/68e8446d1500007b58269dc4.jpg?cache=ReLeJVBTSS&amp;ops=1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/the-funniest-posts-from-women-this-week-oct-3-10-2025-10-10/",
+      "excerpt": "The Funniest Posts From Women This Week (Oct. 3-10) | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Celebrity TV & Fi…",
+      "source": "https://www.huffpost.com/entry/funniest-women-social-media-posts-2025-10-10_n_68e824cce4b0972b77592518",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "body-language-experts-say-stephen-miller-s-cnn-glitch-might-just-be-th",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Body Language Experts Say Stephen Miller's CNN 'Glitch' Might Just Be The 'Reptilian' Brain In Action",
+      "cover": "https://img.huffingtonpost.com/asset/68e8176f160000313a483612.jpeg?ops=500_281%2Cscalefit_1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/body-language-experts-say-stephen-miller-s-cnn-glitch-might-just-be-th/",
+      "excerpt": "Body Language Experts Decode Stephen Miller's 'Plenary Authority' Glitch On CNN | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & …",
+      "source": "https://www.huffpost.com/entry/stephen-miller-plenary-authority-cnn-glitch-body-language_n_68e816dbe4b0972b77591c1b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ayo-edebiri-says-after-the-hunt-is-a-rorschach-test-that-interrogates",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Ayo Edebiri Says After The Hunt Is A “Rorschach Test” That Interrogates Your Discomfort",
+      "cover": "https://www.refinery29.com/images/11937749.jpg?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/ayo-edebiri-says-after-the-hunt-is-a-rorschach-test-that-interrogates/",
+      "excerpt": "Ayo Edebiri & Andrew Garfield On After The Hunt Debates Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings to…",
+      "source": "https://www.refinery29.com/en-us/2025/10/11937612/after-the-hunt-review-ayo-edebiri-andrew-garfield-interview?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "20-matching-lounge-sets-sweatsuits-to-cozy-up-in-year-round-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "20 Matching Lounge Sets & Sweatsuits To Cozy Up In Year-Round",
+      "cover": "https://www.refinery29.com/images/11937543.png?crop=2000%2C1051%2Cx0%2Cy32",
+      "canonical": "https://archive.aventuroo.com/lifestyle/20-matching-lounge-sets-sweatsuits-to-cozy-up-in-year-round-2025-10-10/",
+      "excerpt": "20 Best Matching Lounge Sets & Sweatsuits For Fall Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings togethe…",
+      "source": "https://www.refinery29.com/en-us/best-matching-sweatsuits-womens?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "these-lola-tung-hairstyles-will-inspire-your-next-look-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -565,11 +613,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 47,
-  "updated_at": "2025-10-09",
+  "count": 51,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 47,
+    "total_items": 51,
     "per_page": 12,
-    "total_pages": 4
+    "total_pages": 5
   }
 }

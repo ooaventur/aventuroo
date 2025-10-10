@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "thousands-fall-ill-as-mosquito-fever-explodes-across-southern-china-20",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Thousands fall ill as mosquito fever explodes across southern China",
+      "cover": "https://www.sciencedaily.com/images/1920/mosquito-biting-human-skin.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/thousands-fall-ill-as-mosquito-fever-explodes-across-southern-china-20/",
+      "excerpt": "Thousands fall ill as mosquito fever explodes across southern China | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research o…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251009033244.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "scientists-discover-brain-circuit-that-can-switch-off-chronic-pain-202",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -13,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "mit-s-new-precision-gene-editing-tool-could-transform-medicine-2025-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "MIT’s new precision gene editing tool could transform medicine",
+      "cover": "https://www.sciencedaily.com/images/1920/genetic-manipulation-dna-modification.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/mit-s-new-precision-gene-editing-tool-could-transform-medicine-2025-10/",
+      "excerpt": "MIT’s new precision gene editing tool could transform medicine | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organi…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251010091553.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-sweet-fix-for-baldness-stevia-compound-boosts-hair-growth-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -22,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/a-sweet-fix-for-baldness-stevia-compound-boosts-hair-growth-2025-10-10/",
       "excerpt": "A sweet fix for baldness? Stevia compound boosts hair growth | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251009033212.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-unlock-nature-s-secret-to-a-cancer-fighting-molecule-2025-1",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Scientists unlock nature’s secret to a cancer-fighting molecule",
+      "cover": "https://www.sciencedaily.com/images/1920/green-bioscience-plants-test-tubes.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-unlock-nature-s-secret-to-a-cancer-fighting-molecule-2025-1/",
+      "excerpt": "Scientists unlock nature’s secret to a cancer-fighting molecule | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organ…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251009033206.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -805,10 +841,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 70,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 67,
+    "total_items": 70,
     "per_page": 12,
     "total_pages": 6
   }

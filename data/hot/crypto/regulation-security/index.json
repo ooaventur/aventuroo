@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "tokenization-needs-guardrails-not-just-innovation-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Tokenization needs guardrails, not just innovation",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDYvMDE5N2FhNjQtNzhkYi03YzhmLTgzYTctYTc3MWQ5MzZjNTA5.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/tokenization-needs-guardrails-not-just-innovation-2025-10-10/",
+      "excerpt": "Tokenization Needs Guardrails, Not Just Innovation Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Vincent Kadar 5 hours ago Tokenization needs guardrails, not just innovation Real-world asset tokenization needs compliance frameworks and verif…",
+      "source": "https://cointelegraph.com/news/tokenization-guardrails-not-just-innovation?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "telegram-s-durov-we-re-running-out-of-time-to-save-the-free-internet-2",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/south-korea-ramps-up-crypto-seizures-will-target-cold-wallets-2025-10/",
       "excerpt": "South Korea Tax Agency Targets Cold Wallets in Crypto Seizures Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Ezra Reguerra 3 hours ago South Korea ramps up crypto seizures, will target cold wallets South Korea’s National Tax Service warned t…",
       "source": "https://cointelegraph.com/news/south-korea-nts-cold-wallet-tax-seizures-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "aurelion-treasury-launches-nasdaq-s-first-tether-gold-backed-reserve-2",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Aurelion Treasury launches Nasdaq’s first Tether Gold-backed reserve",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWNlNWYtNWJjOS03NTJjLWJkOWUtZjVlZTQ3NDQxNmQw.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/aurelion-treasury-launches-nasdaq-s-first-tether-gold-backed-reserve-2/",
+      "excerpt": "Prestige Wealth Rebrands To Open Nasdaq's First Tether Gold Treasury Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Zoltan Vardai 4 hours ago Aurelion Treasury launches Nasdaq’s first Tether Gold-backed reserve The move marks the debut of Nas…",
+      "source": "https://cointelegraph.com/news/aurelion-treasury-tether-gold-corporate-fund?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -649,10 +673,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 56,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 54,
+    "total_items": 56,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-road-to-2026-overcoming-today-s-hotel-challenges-to-secure-tomorro",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "The Road to 2026: Overcoming Today's Hotel Challenges to Secure Tomorrow's Success",
+      "cover": "https://qtxasset.com/quartz/qcloud1/media/image/DirecTV%20Hospitality%20Listing%20Logo.png?VersionId=ZfT_bwXhGj3MiKdOKW2Ct.iB8hdzl8eL",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/the-road-to-2026-overcoming-today-s-hotel-challenges-to-secure-tomorro/",
+      "excerpt": "The Road to 2026: Overcoming Today's Hotel Challenges to Secure Tomorrow's Success | Hotel Management Hotel Management The Hospitality Show Hospitality Investor Hotec Operations Hotec Design Advertise About Us Own Operate Tech Design Procure Trending Topics Profitability F&B S…",
+      "source": "https://www.hotelmanagement.net/resource/road-2026-overcoming-todays-hotel-challenges-secure-tomorrows-success",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "open-forum-debates-the-challenges-facing-london-s-hospitality-and-real",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Open forum debates the challenges facing London’s hospitality and real estate sectors",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-10-at-15.43.41.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/open-forum-debates-the-challenges-facing-london-s-hospitality-and-real/",
+      "excerpt": "Open forum debates the challenges facing London's hospitality and real estate sectors Skip to content LATEST NEWS City of London offices acquired by Firethorn for hotel conversion Open forum debates the challenges facing London’s hospitality and real estate sectors Leisureplex…",
+      "source": "https://boutiquehotelnews.com/news/open-forum-debates-the-challenges-facing-londons-hospitality-and-real-estate-sectors/?utm_source=rss&utm_medium=rss&utm_campaign=open-forum-debates-the-challenges-facing-londons-hospitality-and-real-estate-sectors",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "city-of-london-offices-acquired-by-firethorn-for-hotel-conversion-2025",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "City of London offices acquired by Firethorn for hotel conversion",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-10-at-19.13.17.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/city-of-london-offices-acquired-by-firethorn-for-hotel-conversion-2025/",
+      "excerpt": "City of London offices acquired by Firethorn for hotel conversion Skip to content LATEST NEWS City of London offices acquired by Firethorn for hotel conversion Open forum debates the challenges facing London’s hospitality and real estate sectors Leisureplex Hotel Group acquire…",
+      "source": "https://boutiquehotelnews.com/news/finance-and-investment/firethorn-london-hotel-conversion/?utm_source=rss&utm_medium=rss&utm_campaign=firethorn-london-hotel-conversion",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "leisureplex-hotel-group-acquires-cumbria-hotel-and-apartment-site-2025",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/travel/stays-hotels/como-joins-300-million-project-in-melbourne-2025-10-09/",
       "excerpt": "COMO joins $300 million project in Melbourne Skip to content LATEST NEWS COMO joins $300 million project in Melbourne Hilton launches independent conversion brand Outset Collection SMRDC Fest 2025: Driving growth and innovation The Malone set to reopen February 2026 after refu…",
       "source": "https://boutiquehotelnews.com/news/hotel/como-melbourne-project/?utm_source=rss&utm_medium=rss&utm_campaign=como-melbourne-project",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ai-at-your-service-transforming-hotel-operations-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "AI at Your Service: Transforming Hotel Operations",
+      "cover": "https://qtxasset.com/cdn-cgi/image/w%3D1200%2Ch%3D630%2Cf%3Dauto%2Cfit%3Dcrop%2Cg%3D0.5x0.5/https://qtxasset.com/quartz/qcloud1/media/image/Listing_Canary.png?VersionId=Igcy5QQ_nAd.ZLuhiI.HkjxwyoK2ByQ4",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/ai-at-your-service-transforming-hotel-operations-2025-10-09/",
+      "excerpt": "AI at Your Service: Transforming Hotel Operations | Hotel Management Roundtables | Webinars AI at Your Service: Transforming Hotel Operations Oct 22, 2025 1:00pm ET Explore how artificial intelligence is reshaping hotel operations—from personalized guest experiences to predict…",
+      "source": "https://www.hotelmanagement.net/premium/roundtables-webinars/748143",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -313,10 +361,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
-  "updated_at": "2025-10-09",
+  "count": 30,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 26,
+    "total_items": 30,
     "per_page": 12,
     "total_pages": 3
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "damion-searls-and-christine-smallwood-in-conversation-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Damion Searls and Christine Smallwood in conversation",
+      "cover": "https://www.nplusonemag.com/wp-content/uploads/2025/10/analog-days.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/damion-searls-and-christine-smallwood-in-conversation-2025-10-10/",
+      "excerpt": "Damion Searls and Christine Smallwood in conversation | Online Only | n+1 Subscribe Magazine Online Only Bookstore Events Donate Search n+1 Sign In Email Address Password Forgot Password card-default flavor-online-only type-online-only term-online-only format-with_image tax-on…",
+      "source": "https://www.nplusonemag.com/online-only/events/damion-searls-and-christine-smallwood-in-conversation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "weirder-deeper-pervier-lovelier-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -313,10 +325,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 26,
-  "updated_at": "2025-10-09",
+  "count": 27,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 26,
+    "total_items": 27,
     "per_page": 12,
     "total_pages": 3
   }

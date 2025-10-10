@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-garvagh-pyramid-in-garvagh-northern-ireland-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "The Garvagh Pyramid in Garvagh, Northern Ireland",
+      "cover": "https://img.atlasobscura.com/SNHXlV8pJUonoTFDYSNA4naqpkvAs9tFzwfSPUahl8Y/rt:fit/w:600/c:4098:2732:nowe:1303:1252/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9kOTJl/N2VhOS0wM2Y4LTQz/OWEtYTViOC1hMTZh/ZTg3MGY5MDI2MTMw/ZWQxYzJlZDA5Mjg5/NzlfX01HXzkwOTku/cG5n.png",
+      "canonical": "https://archive.aventuroo.com/travel/experiences/the-garvagh-pyramid-in-garvagh-northern-ireland-2025-10-10/",
+      "excerpt": "The Garvagh Pyramid - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > ao…",
+      "source": "https://www.atlasobscura.com/places/the-garvagh-pyramid",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "house-of-mohamed-el-sayed-in-cairo-egypt-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -217,10 +229,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 18,
-  "updated_at": "2025-10-09",
+  "count": 19,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 18,
+    "total_items": 19,
     "per_page": 12,
     "total_pages": 2
   }
