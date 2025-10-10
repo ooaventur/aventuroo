@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "smithsonian-institution-postpones-prestigious-portrait-exhibition-2025",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Smithsonian Institution Postpones Prestigious Portrait Exhibition",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/npg.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/smithsonian-institution-postpones-prestigious-portrait-exhibition-2025/",
+      "excerpt": "Smithsonian Institution Postpones Prestigious Portrait Exhibition Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram L…",
+      "source": "https://hyperallergic.com/1048386/smithsonian-institution-postpones-prestigious-outwin-portrait-competition-exhibition/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "required-reading-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -82,6 +94,30 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/california-school-shutters-exhibition-after-altering-political-art-202/",
       "excerpt": "California School Shutters Exhibition After Altering \"Political\" Art Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagra…",
       "source": "https://hyperallergic.com/1048434/pepperdine-university-california-school-shutters-exhibition-after-altering-political-art/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-view-from-the-easel-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "A View From the Easel",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/rember-3.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-view-from-the-easel-2025-10-09/",
+      "excerpt": "A View From the Easel Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Membership Donate About U…",
+      "source": "https://hyperallergic.com/1048202/a-view-from-the-easel-306/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-tandem-dance-of-the-seen-and-imagined-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "A Tandem Dance of the Seen and Imagined",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/IMG_5055.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/a-tandem-dance-of-the-seen-and-imagined-2025-10-09/",
+      "excerpt": "A Tandem Dance of the Seen and Imagined Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My account Members…",
+      "source": "https://hyperallergic.com/1048010/elsie-siegel-abigail-dudley-tandem-dance-of-the-seen-and-imagined/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1585,11 +1621,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 132,
+  "count": 135,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 132,
+    "total_items": 135,
     "per_page": 12,
-    "total_pages": 11
+    "total_pages": 12
   }
 }

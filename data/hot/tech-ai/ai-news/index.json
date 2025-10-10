@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "microsoft-research-releases-skala-a-deep-learning-exchange-correlation",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Microsoft Research Releases Skala: a Deep-Learning Exchange–Correlation Functional Targeting Hybrid-Level Accuracy at Semi-Local Cost",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-30.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-research-releases-skala-a-deep-learning-exchange-correlation/",
+      "excerpt": "Microsoft Research Releases Skala: a Deep-Learning Exchange–Correlation Functional Targeting Hybrid-Level Accuracy at Semi-Local Cost - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
+      "source": "https://www.marktechpost.com/2025/10/09/microsoft-research-releases-skala-a-deep-learning-exchange-correlation-functional-targeting-hybrid-level-accuracy-at-semi-local-cost/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "zendesk-launches-new-ai-capabilities-for-the-resolution-platform-creat",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1033,10 +1045,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 86,
-  "updated_at": "2025-10-09",
+  "count": 87,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 86,
+    "total_items": 87,
     "per_page": 12,
     "total_pages": 8
   }

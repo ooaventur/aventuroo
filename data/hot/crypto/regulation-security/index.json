@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "telegram-s-durov-we-re-running-out-of-time-to-save-the-free-internet-2",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Telegram’s Durov: We’re ‘running out of time to save the free internet’",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDMvMDE5NTljZmQtZTI5Ny03NTVkLTk1MzAtYzM1ZTM5ZjcxYTBm.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/telegram-s-durov-we-re-running-out-of-time-to-save-the-free-internet-2/",
+      "excerpt": "Time Is Running Out to Save internet Freedom, Warns Pavel Durov Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Stephen Katte 2 hours ago Telegram’s Durov: We’re ‘running out of time to save the free internet’ EU lawmakers have sought to intro…",
+      "source": "https://cointelegraph.com/news/telegram-pavel-durov-warns-global-privacy-threats-will-get-worse?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uk-lifts-ban-on-crypto-exchange-traded-notes-as-market-has-evolved-202",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -625,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 52,
-  "updated_at": "2025-10-09",
+  "count": 53,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 52,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "inside-trundle-manor-the-pittsburgh-museum-packed-with-macabre-curiosi",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Inside Trundle Manor, The Pittsburgh Museum Packed With Macabre Curiosities",
+      "cover": "https://www.youtube.com/embed/D7XUvHP3wss",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-trundle-manor-the-pittsburgh-museum-packed-with-macabre-curiosi/",
+      "excerpt": "Inside Trundle Manor, Pennsylvania's Macabre Museum Of Oddities All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside Trundle Manor, The Pittsburgh Museum Packed With Macabre Curiosities By …",
+      "source": "https://allthatsinteresting.com/trundle-manor",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-650-year-old-sandal-was-found-in-the-nest-of-a-bone-eating-vultur",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/my-history-hero-isabel-allende-chooses-in-s-su-rez-c1507-80-2025-10-09/",
       "excerpt": "My history hero: Isabel Allende chooses Inés Suárez (c1507–80) | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval …",
       "source": "https://www.historyextra.com/membership/my-history-hero-isabel-allende-chooses-ines-suarez/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "inside-the-real-story-behind-hacksaw-ridge-and-the-heroic-medic-who-sa",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Inside The Real Story Behind ‘Hacksaw Ridge’ And The Heroic Medic Who Saved Dozens Of His Fellow Soldiers",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/true-story-of-hacksaw-ridge.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-the-real-story-behind-hacksaw-ridge-and-the-heroic-medic-who-sa/",
+      "excerpt": "The True Story Of 'Hacksaw Ridge' And Desmond Doss All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside The Real Story Behind ‘Hacksaw Ridge’ And The Heroic Medic Who Saved Dozens Of His Fe…",
+      "source": "https://allthatsinteresting.com/hacksaw-ridge-true-story",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1609,10 +1633,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 134,
-  "updated_at": "2025-10-09",
+  "count": 136,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 134,
+    "total_items": 136,
     "per_page": 12,
     "total_pages": 12
   }

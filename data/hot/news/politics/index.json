@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "national-guard-set-to-patrol-memphis-but-blocked-in-illinois-for-2-wee",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "National Guard set to patrol Memphis but blocked in Illinois for 2 weeks",
+      "cover": "https://s.abcnews.com/images/US/wirestory_abf0fab0c6010bc5ab5a1ac3eaee6eae_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/national-guard-set-to-patrol-memphis-but-blocked-in-illinois-for-2-wee/",
+      "excerpt": "National Guard set to patrol Memphis but blocked in Illinois for 2 weeks - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on National Gua…",
+      "source": "https://abcnews.go.com/Politics/wireStory/national-guard-set-patrol-memphis-blocked-illinois-2-126389523",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-to-watch-for-in-the-virginia-governor-s-race-debate-between-spanb",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -2521,10 +2533,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 210,
-  "updated_at": "2025-10-09",
+  "count": 211,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 210,
+    "total_items": 211,
     "per_page": 12,
     "total_pages": 18
   }

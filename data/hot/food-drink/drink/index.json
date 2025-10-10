@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "with-craft-beer-reeling-the-brewers-association-is-killing-the-right-s",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "With Craft Beer Reeling, The Brewers Association Is Killing the Right Sacred Cow",
+      "cover": "https://vinepair.com/wp-content/uploads/2025/10/hop-take-brewers-association-social.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/drink/with-craft-beer-reeling-the-brewers-association-is-killing-the-right-s/",
+      "excerpt": "With Craft Beer Reeling, The Brewers Association Is Killing the Right Sacred Cow | VinePair VinePair - Drinking Is Culture Articles Beer Cheese Coffee Spirits Wine Booze News Columns Ask Adam Buy This Booze Free Pour Good Wines You Can Actually Find Hop Take Need To Know Techn…",
+      "source": "https://vinepair.com/articles/hop-take-brewers-association-cutting-back-annual-conference/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wine-101-caymus-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -2725,10 +2737,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 227,
-  "updated_at": "2025-10-09",
+  "count": 228,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 227,
+    "total_items": 228,
     "per_page": 12,
     "total_pages": 19
   }

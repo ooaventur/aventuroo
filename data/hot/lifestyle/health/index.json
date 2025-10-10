@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "a-sweet-fix-for-baldness-stevia-compound-boosts-hair-growth-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "A sweet fix for baldness? Stevia compound boosts hair growth",
+      "cover": "https://www.sciencedaily.com/images/1920/baldness-hair-regrowth-before-after.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-sweet-fix-for-baldness-stevia-compound-boosts-hair-growth-2025-10-10/",
+      "excerpt": "A sweet fix for baldness? Stevia compound boosts hair growth | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251009033212.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "scientists-suggest-the-brain-may-work-best-with-7-senses-not-just-5-20",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -781,10 +793,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 65,
-  "updated_at": "2025-10-09",
+  "count": 66,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 65,
+    "total_items": 66,
     "per_page": 12,
     "total_pages": 6
   }
