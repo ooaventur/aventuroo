@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-american-diy-fleet-that-patrolled-for-nazi-u-boats-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The American DIY Fleet That Patrolled for Nazi U-Boats",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/2ME3H6H_vl5i6n?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-american-diy-fleet-that-patrolled-for-nazi-u-boats-2025-10-09/",
+      "excerpt": "The American DIY Fleet That Patrolled for Nazi U-Boats Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America …",
+      "source": "https://www.history.com/articles/coast-guard-auxiliary-wwii-hooligans-navy",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-10th-amendment-was-created-to-check-federal-power-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The 10th Amendment Was Created to Check Federal Power",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/514906618_m3vjcl?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-10th-amendment-was-created-to-check-federal-power-2025-10-09/",
+      "excerpt": "The 10th Amendment Was Created to Check Federal Power Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America A…",
+      "source": "https://www.history.com/articles/james-madison-10th-amendment-constitution",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-adventures-and-experiences-of-the-first-slovak-novel-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -397,10 +421,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 33,
+  "count": 35,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 33,
+    "total_items": 35,
     "per_page": 12,
     "total_pages": 3
   }

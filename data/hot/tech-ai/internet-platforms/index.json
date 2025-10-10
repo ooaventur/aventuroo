@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "how-leaderboards-lost-their-spot-as-the-best-way-to-judge-ai-2025-10-1",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "How leaderboards lost their spot as the best way to judge AI",
+      "cover": "https://www.platformer.news/content/images/2025/10/PublicLaunch_Blog_2b--2-.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/how-leaderboards-lost-their-spot-as-the-best-way-to-judge-ai-2025-10-1/",
+      "excerpt": "How leaderboards lost their spot as the best way to judge AI Home About Ethics Sign in Subscribe AI How leaderboards lost their spot as the best way to judge AI Meta-backed Scale has a new leaderboard to challenge the industry leader. But has the AI industry already moved on? …",
+      "source": "https://www.platformer.news/ai-leaderboards-decline-lmarena-scale/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "four-fresh-signs-of-the-ai-bubble-2025-10-08",
       "date": "2025-10-08",
       "published_at": "2025-10-08T00:00:00Z",
@@ -61,10 +73,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 5,
-  "updated_at": "2025-10-08",
+  "count": 6,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 5,
+    "total_items": 6,
     "per_page": 12,
     "total_pages": 1
   }

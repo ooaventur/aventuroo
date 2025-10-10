@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Microsoft engineer resigns over cloud business from Israeli military",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108210333-1760054855608-gettyimages-2230322280-MICROSOFT_PROTEST.jpeg?v=1760054911&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2/",
+      "excerpt": "Microsoft engineer resigns over cloud business from Israeli military Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
+      "source": "https://www.cnbc.com/2025/10/09/microsoft-engineer-resigns-over-cloud-business-from-israeli-military.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "youtube-will-give-banned-creators-a-second-chance-after-rule-rollback",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -13,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trump-meets-with-jared-isaacman-about-top-nasa-job-after-pulling-nomin",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Trump meets with Jared Isaacman about top NASA job after pulling nomination",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108128758-17441525482024-08-19t194706z_1071612592_rc26j9ajo4mt_rtrmadp_0_space-exploration-polaris-dawn.jpeg?v=1744152576&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/trump-meets-with-jared-isaacman-about-top-nasa-job-after-pulling-nomin/",
+      "excerpt": "Trump meets with Isaacman about top NASA job after pulling nomination Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation I…",
+      "source": "https://www.cnbc.com/2025/10/09/trump-jared-isaacman-nasa-nomination.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "top-hollywood-agencies-slam-openai-s-sora-as-exploitation-and-a-risk-t",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/top-hollywood-agencies-slam-openai-s-sora-as-exploitation-and-a-risk-t/",
       "excerpt": "Top Hollywood agencies slam OpenAI's Sora as 'exploitation' Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials…",
       "source": "https://www.cnbc.com/2025/10/09/caa-open-ai-sora-copyright-talent-agency.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tesla-faces-u-s-auto-safety-probe-after-reports-fsd-ran-red-lights-cau",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Tesla faces U.S. auto safety probe after reports FSD ran red lights, caused collisions",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108210247-1760038822111-gettyimages-2233586542-dellatorre-notitle250906_npBBM.jpeg?v=1760038899&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/tesla-faces-u-s-auto-safety-probe-after-reports-fsd-ran-red-lights-cau/",
+      "excerpt": "Tesla faces auto safety probe after FSD-involved collisions Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials…",
+      "source": "https://www.cnbc.com/2025/10/09/tesla-auto-safety-probe-fsd-collisions.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1189,10 +1225,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 99,
-  "updated_at": "2025-10-09",
+  "count": 102,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 99,
+    "total_items": 102,
     "per_page": 12,
     "total_pages": 9
   }

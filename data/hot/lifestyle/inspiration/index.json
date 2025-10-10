@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "why-do-i-have-no-energy-the-science-backed-energy-management-framework",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Why Do I Have No Energy? The Science-Backed Energy Management Framework for Overwhelmed High-Achievers",
+      "cover": "https://cdn.lifehack.org/wp-content/uploads/2025/10/stressed-professional-energy-management.jpeg-1.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/why-do-i-have-no-energy-the-science-backed-energy-management-framework/",
+      "excerpt": "Why Do I Have No Energy? The Science-Backed Energy Management Framework for Overwhelmed High-Achievers - LifeHack Skip to content Menu Menu Start Here The Time/Life Assessment The Time Flow System Time Flow in Motion Mastering Your Time Resources Procrastination Focus Distract…",
+      "source": "https://www.lifehack.org/991240/why-do-i-have-no-energy",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-is-attention-residue-the-hidden-focus-killer-that-s-sabotaging-yo",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "What Is Attention Residue? The Hidden Focus Killer That’s Sabotaging Your Productivity",
+      "cover": "https://cdn.lifehack.org/wp-content/uploads/2025/10/featured-focused-woman-working-laptop.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/what-is-attention-residue-the-hidden-focus-killer-that-s-sabotaging-yo/",
+      "excerpt": "What Is Attention Residue? The Hidden Focus Killer - LifeHack Skip to content Menu Menu Start Here The Time/Life Assessment The Time Flow System Time Flow in Motion Mastering Your Time Resources Procrastination Focus Distraction Prioritization Planning & Scheduling Delegation …",
+      "source": "https://www.lifehack.org/991222/what-is-attention-residue",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-fuels-great-leadership-new-study-reveals-the-secrets-to-lasting-e",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +58,30 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/music-at-work-when-it-helps-and-when-it-hurts-2025-10-09/",
       "excerpt": "Music at Work: When It Helps and When It Hurts | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine S…",
       "source": "https://www.success.com/workplace-music/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-not-to-be-a-victim-of-success-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "How Not to Be a Victim of Success",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2025/10/rockwellkent_success.jpg?fit=1118%2C587&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-not-to-be-a-victim-of-success-2025-10-09/",
+      "excerpt": "How Not to Be a Victim of Success – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly two decades, it has remained free and ad-free and alive …",
+      "source": "https://www.themarginalian.org/2025/10/09/rockwell-kent-success/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "what-every-fitness-business-owner-needs-to-know-about-relocating-their",
+      "date": "2025-10-08",
+      "published_at": "2025-10-08T00:00:00Z",
+      "created_at": "2025-10-08T00:00:00Z",
+      "title": "What Every Fitness Business Owner Needs To Know About Relocating Their Gym",
+      "cover": "https://addicted2success.com/wp-content/uploads/2025/10/What-Every-Fitness-Business-Owner-Needs-To-Know-About-Relocating-Their-Gym.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/what-every-fitness-business-owner-needs-to-know-about-relocating-their/",
+      "excerpt": "What Every Fitness Business Owner Needs To Know About Relocating Their Gym - Addicted 2 Success Home Scale Your Business Entrepreneurs Startups Master Sales Techniques Explode Your Social Media Network Like a Pro Expert Interviews Change Your Mindset Personal Development Shift…",
+      "source": "https://addicted2success.com/lifestyle/business/what-every-fitness-business-owner-needs-to-know-about-relocating-their-gym/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -805,10 +853,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 71,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 67,
+    "total_items": 71,
     "per_page": 12,
     "total_pages": 6
   }

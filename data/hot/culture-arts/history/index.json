@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-650-year-old-sandal-was-found-in-the-nest-of-a-bone-eating-vultur",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "This 650-Year-Old Sandal Was Found In The Nest Of A Bone-Eating Vulture Inside A Spanish Cave",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/sandal-found-in-bearded-vulture-nest.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/this-650-year-old-sandal-was-found-in-the-nest-of-a-bone-eating-vultur/",
+      "excerpt": "650-Year-Old Sandal Found In A Vulture's Nest In Spain All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email This 650-Year-Old Sandal Was Found In The Nest Of A Bone-Eating Vulture Inside A Spanish…",
+      "source": "https://allthatsinteresting.com/spain-medieval-sandal-vulture-nest",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-woman-in-the-well-has-been-identified-nearly-two-decades-after-bei",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "‘The Woman In The Well’ Has Been Identified Nearly Two Decades After Being Discovered In Canada",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/woman-in-the-well-sketch.jpeg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-woman-in-the-well-has-been-identified-nearly-two-decades-after-bei/",
+      "excerpt": "Canada's 'Woman In The Well' Identified As Alice Spence All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email ‘The Woman In The Well’ Has Been Identified Nearly Two Decades After Being Discovered I…",
+      "source": "https://allthatsinteresting.com/canada-woman-in-the-well-alice-spence",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "my-history-hero-isabel-allende-chooses-in-s-su-rez-c1507-80-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1585,11 +1609,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 132,
+  "count": 134,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 132,
+    "total_items": 134,
     "per_page": 12,
-    "total_pages": 11
+    "total_pages": 12
   }
 }

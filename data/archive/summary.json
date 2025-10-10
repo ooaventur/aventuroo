@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3649,
+  "total_items": 3660,
   "parents": [
     {
       "parent": "business-finance",
@@ -979,7 +979,7 @@
     },
     {
       "parent": "news",
-      "items": 149,
+      "items": 150,
       "pages": 13,
       "children": [
         {
@@ -999,13 +999,13 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 84,
-          "pages": 7,
+          "items": 85,
+          "pages": 8,
           "months": [
             {
               "year": 2025,
               "month": 9,
-              "items": 81,
+              "items": 82,
               "pages": 7
             },
             {
@@ -1278,8 +1278,8 @@
     },
     {
       "parent": "travel",
-      "items": 976,
-      "pages": 82,
+      "items": 986,
+      "pages": 83,
       "children": [
         {
           "child": "destinations",
@@ -1346,8 +1346,8 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 324,
-          "pages": 27,
+          "items": 329,
+          "pages": 28,
           "months": [
             {
               "year": 2025,
@@ -1618,6 +1618,12 @@
               "month": 1,
               "items": 5,
               "pages": 1
+            },
+            {
+              "year": 2021,
+              "month": 12,
+              "items": 5,
+              "pages": 1
             }
           ]
         },
@@ -1742,8 +1748,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 335,
-          "pages": 28,
+          "items": 340,
+          "pages": 29,
           "months": [
             {
               "year": 2025,
@@ -2012,7 +2018,13 @@
             {
               "year": 2022,
               "month": 1,
-              "items": 5,
+              "items": 9,
+              "pages": 1
+            },
+            {
+              "year": 2021,
+              "month": 12,
+              "items": 1,
               "pages": 1
             }
           ]

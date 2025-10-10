@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-best-postpartum-meal-delivery-services-for-nourishing-recovery-202",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The Best Postpartum Meal Delivery Services for Nourishing Recovery",
+      "cover": "https://assets.bonappetit.com/photos/68e6cf63c3be7c9d34235ed1/master/pass/9.19_BA_Best%20Postpartum%20Meal%20Kits%20lede.png",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-postpartum-meal-delivery-services-for-nourishing-recovery-202/",
+      "excerpt": "The Best Postpartum Meal Delivery Services for Nourishing Recovery | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu…",
+      "source": "https://www.bonappetit.com/story/best-post-partum-meal-delivery-services",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "save-hundreds-with-the-best-anti-prime-day-deals-from-sur-la-table-b-2",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +46,30 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/how-to-wash-rice-and-why-you-should-be-doing-it-2025-10-09/",
       "excerpt": "How to Wash Rice and Why You Should Be Doing It | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking How…",
       "source": "https://www.bonappetit.com/story/how-to-wash-rice",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bake-club-is-back-with-a-showstopping-dessert-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Bake Club Is Back With a Showstopping Dessert",
+      "cover": "https://assets.bonappetit.com/photos/683df1b3a65cbe26fcbb686f/master/pass/banana-pudding-paris-brest_RECIPE_V2_052825_1669_VOG_Badge_final.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/bake-club-is-back-with-a-showstopping-dessert-2025-10-09/",
+      "excerpt": "Bake Club Is Back With a Showstopping Dessert | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking Bake …",
+      "source": "https://www.bonappetit.com/story/bake-club-is-back-with-a-showstopping-dessert",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "18-cozy-crockpot-recipes-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "18 Cozy Crockpot Recipes",
+      "cover": "https://pinchofyum.com/wp-content/uploads/Cozy-Crockpot-Recipes-01-scaled.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/18-cozy-crockpot-recipes-2025-10-09/",
+      "excerpt": "18 Cozy Crockpot Recipes To Warm You Up - Pinch of Yum icon-arrow icon-chevron-white icon-chevron icon-comment icon-facebook icon-heart icon-instagram icon-instant-pot icon-list icon-lock icon-meal-prep icon-next icon-pinterest icon-popular icon-quote icon-search icon-star ico…",
+      "source": "https://pinchofyum.com/cozy-crockpot-recipes",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -697,11 +733,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
+  "count": 61,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 58,
+    "total_items": 61,
     "per_page": 12,
-    "total_pages": 5
+    "total_pages": 6
   }
 }

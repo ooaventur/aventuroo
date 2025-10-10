@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "yellowstone-day-tours-if-you-have-one-day-to-visit-book-this-10-person",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Yellowstone Day Tours: If You Have One Day to Visit, Book This 10-Person Highlights Tour",
+      "cover": "https://media.cntraveler.com/photos/68e69bfc897d9d55eb76d853/master/pass/GettyImages-1149648524-resized-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/yellowstone-day-tours-if-you-have-one-day-to-visit-book-this-10-person/",
+      "excerpt": "Yellowstone Day Tours: If You Have One Day to Visit, Book This 10-Person Highlights Tour | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Trave…",
+      "source": "https://www.cntraveler.com/story/yellowstone-day-tour",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-world-s-best-bar-for-2025-is-in-hong-kong-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -13,6 +25,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-best-hotels-in-the-bahamas-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The Best Hotels in the Bahamas",
+      "cover": "https://media.cntraveler.com/photos/63f566dd0630e21ed808832c/master/pass/Atlantis%20Paradise%20Island_Atlantis_Property_Shot_Royal_Hero%20SKY.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-hotels-in-the-bahamas-2025-10-09/",
+      "excerpt": "The Best Hotels in the Bahamas | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Central America and th…",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-the-bahamas",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-airbnbs-in-ann-arbor-for-a-perfect-game-day-weekend-2025-10-0",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The Best Airbnbs in Ann Arbor for a Perfect Game-Day Weekend",
+      "cover": "https://media.cntraveler.com/photos/68e7d3bf857c1368d38a4061/master/pass/0632a4ed-0bb5-49e2-be9d-38014b3fd10b.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-airbnbs-in-ann-arbor-for-a-perfect-game-day-weekend-2025-10-0/",
+      "excerpt": "The Best Airbnbs in Ann Arbor for a Perfect Game-Day Weekend | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awar…",
+      "source": "https://www.cntraveler.com/gallery/best-airbnbs-in-ann-arbor-michigan",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "9-fabulous-affordable-hotels-in-miami-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/travel/general/9-fabulous-affordable-hotels-in-miami-2025-10-09/",
       "excerpt": "9 Fabulous Affordable Hotels in Miami | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 North America C…",
       "source": "https://www.cntraveler.com/gallery/the-best-affordable-hotels-in-miami-florida",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "41-best-restaurants-in-charleston-from-raw-bars-to-barbecue-joints-202",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "41 Best Restaurants in Charleston, From Raw Bars to Barbecue Joints",
+      "cover": "https://media.cntraveler.com/photos/5ad504955523685aebcb55a4/master/pass/Leon's-Oyster-Shop_Peter-Frank_2018_PFE_7752.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/41-best-restaurants-in-charleston-from-raw-bars-to-barbecue-joints-202/",
+      "excerpt": "41 Best Restaurants in Charleston, From Raw Bars to Barbecue Joints | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choi…",
+      "source": "https://www.cntraveler.com/gallery/best-restaurants-in-charleston",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1045,10 +1093,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 87,
+  "count": 91,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 87,
+    "total_items": 91,
     "per_page": 12,
     "total_pages": 8
   }

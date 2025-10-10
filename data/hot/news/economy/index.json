@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "trouble-in-india-s-tata-group-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Trouble in India’s Tata Group",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ffab696f8-8e03-4c81-b5e4-d2d253386ce9.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/trouble-in-india-s-tata-group-2025-10-10/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/1f669057-aff6-42ec-9afe-3f77e7a22ea5",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-powering-business-is-the-real-lightbulb-moment-for-africa-2025-10",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/uk-food-industry-blames-government-for-rising-grocery-bills-2025-10-09/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/06faa830-1f83-4ae3-a61a-128e94a946f8",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "tata-group-fighting-multiple-fires-after-cyber-attacks-and-boardroom-s",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Tata Group ‘fighting multiple fires’ after cyber attacks and boardroom splits",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa9f8face-39f8-4386-8133-785face0e112.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/tata-group-fighting-multiple-fires-after-cyber-attacks-and-boardroom-s/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/7505d77d-b831-4373-a9b3-9de132e012dd",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2377,10 +2401,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 198,
-  "updated_at": "2025-10-09",
+  "count": 200,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 198,
+    "total_items": 200,
     "per_page": 12,
     "total_pages": 17
   }

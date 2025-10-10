@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7410,
+  "total_items": 7476,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 507,
+      "items": 515,
       "pages": 43,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 87,
+          "items": 91,
           "pages": 8
         },
         {
@@ -29,14 +29,14 @@
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 103,
+          "items": 107,
           "pages": 9
         }
       ]
     },
     {
       "parent": "crypto",
-      "items": 841,
+      "items": 842,
       "pages": 71,
       "children": [
         {
@@ -66,15 +66,15 @@
         {
           "child": "regulation-security",
           "slug": "crypto/regulation-security",
-          "items": 51,
+          "items": 52,
           "pages": 5
         }
       ]
     },
     {
       "parent": "culture-arts",
-      "items": 656,
-      "pages": 55,
+      "items": 665,
+      "pages": 56,
       "children": [
         {
           "child": "arts",
@@ -97,20 +97,20 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 125,
+          "items": 132,
           "pages": 11
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 132,
-          "pages": 11
+          "items": 134,
+          "pages": 12
         }
       ]
     },
     {
       "parent": "entertainment",
-      "items": 1233,
+      "items": 1235,
       "pages": 103,
       "children": [
         {
@@ -128,7 +128,7 @@
         {
           "child": "history-essays",
           "slug": "entertainment/history-essays",
-          "items": 33,
+          "items": 35,
           "pages": 3
         },
         {
@@ -153,25 +153,25 @@
     },
     {
       "parent": "food-drink",
-      "items": 510,
-      "pages": 43,
+      "items": 525,
+      "pages": 44,
       "children": [
         {
           "child": "drink",
           "slug": "food-drink/drink",
-          "items": 221,
+          "items": 227,
           "pages": 19
         },
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 58,
-          "pages": 5
+          "items": 61,
+          "pages": 6
         },
         {
           "child": "general",
           "slug": "food-drink/general",
-          "items": 229,
+          "items": 235,
           "pages": 20
         },
         {
@@ -184,8 +184,8 @@
     },
     {
       "parent": "lifestyle",
-      "items": 897,
-      "pages": 75,
+      "items": 903,
+      "pages": 76,
       "children": [
         {
           "child": "beauty-style",
@@ -208,13 +208,13 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 45,
+          "items": 47,
           "pages": 4
         },
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 67,
+          "items": 71,
           "pages": 6
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 886,
-      "pages": 74,
+      "items": 890,
+      "pages": 75,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 198,
+          "items": 200,
           "pages": 17
         },
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 208,
+          "items": 210,
           "pages": 18
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1070,
+      "items": 1080,
       "pages": 90,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 85,
+          "items": 86,
           "pages": 8
         },
         {
@@ -325,7 +325,7 @@
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 99,
+          "items": 102,
           "pages": 9
         },
         {
@@ -343,27 +343,27 @@
         {
           "child": "internet-platforms",
           "slug": "tech-ai/internet-platforms",
-          "items": 5,
+          "items": 6,
           "pages": 1
         },
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 161,
+          "items": 166,
           "pages": 14
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 785,
-      "pages": 66,
+      "items": 796,
+      "pages": 67,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 36,
-          "pages": 3
+          "items": 40,
+          "pages": 4
         },
         {
           "child": "experiences",
@@ -374,7 +374,7 @@
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 87,
+          "items": 91,
           "pages": 8
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 111,
+          "items": 114,
           "pages": 10
         }
       ]

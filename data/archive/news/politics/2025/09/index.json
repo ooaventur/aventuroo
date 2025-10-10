@@ -913,6 +913,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "reform-would-scrap-high-speed-northern-rail-line-2025-09-09",
+      "date": "2025-09-09",
+      "published_at": "2025-09-09T00:00:00Z",
+      "created_at": "2025-09-09T00:00:00Z",
+      "title": "Reform 'would scrap' high-speed northern rail line",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/ca96/live/77bb79c0-8a2a-11f0-b917-03bcebef22ec.png",
+      "canonical": "https://archive.aventuroo.com/news/politics/reform-would-scrap-high-speed-northern-rail-line-2025-09-09/",
+      "excerpt": "Reform UK says it would scrap high-speed northern rail plans Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N…",
+      "source": "https://www.bbc.com/news/articles/c24rnr6d1d0o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "uk-could-suspend-visas-for-countries-with-no-migrant-return-deals-2025",
       "date": "2025-09-08",
       "published_at": "2025-09-08T00:00:00Z",
@@ -973,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 81,
+  "count": 82,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 81,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

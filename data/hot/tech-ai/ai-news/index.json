@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-most-important-openai-announcement-you-probably-missed-at-devday-2",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The most important OpenAI announcement you probably missed at DevDay 2025",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/2buVKIMlQ2KFcFg8BPHoqU/c5d2dfbfd8cfe9a9432106a936fa204f/nuneybits_A_retro_glowing_computer_on_gradient_background_that__094dfc70-9906-4074-bb00-d32b04faf5f9-1.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/the-most-important-openai-announcement-you-probably-missed-at-devday-2/",
+      "excerpt": "<p>OpenAI’s annual developer conference on Monday was a spectacle of ambitious AI product launches, from an <a href=\"https://openai.com/index/introducing-apps-in-chatgpt/\"><u>app store for ChatGPT</u></a> to a stunning <a href=\"https://openai.com/index/sora-2/\"><u>video-genera…",
+      "source": "https://venturebeat.com/ai/the-most-important-openai-announcement-you-probably-missed-at-devday-2025",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "stanford-researchers-released-agentflow-in-the-flow-reinforcement-lear",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1021,10 +1033,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 85,
+  "count": 86,
   "updated_at": "2025-10-09",
   "pagination": {
-    "total_items": 85,
+    "total_items": 86,
     "per_page": 12,
     "total_pages": 8
   }

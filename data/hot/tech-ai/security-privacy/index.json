@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "sonicwall-100-of-firewall-backups-possibly-breached-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "SonicWall: 100% of Firewall Backups Possibly Breached",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt112ca71e9c02c3f1/68e7e9f2a5e04f20e417da4e/wall_of_fire_Fir_Mamat_Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/sonicwall-100-of-firewall-backups-possibly-breached-2025-10-09/",
+      "excerpt": "SonicWall said a breach it disclosed last month affected firewall configuration files for all customers who have used SonicWall’s cloud backup service — up from its previous 5% estimate.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/sonicwall-100-firewall-backups-breached",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "rondodox-botnet-targets-56-n-day-flaws-in-worldwide-attacks-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -49,6 +61,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "new-android-spyware-clayrat-imitates-whatsapp-tiktok-youtube-2025-10-0",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "New Android spyware ClayRat imitates WhatsApp, TikTok, YouTube",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/05/03/Android-3.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/new-android-spyware-clayrat-imitates-whatsapp-tiktok-youtube-2025-10-0/",
+      "excerpt": "New Android spyware ClayRat imitates WhatsApp, TikTok, YouTube News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million use…",
+      "source": "https://www.bleepingcomputer.com/news/security/new-android-spyware-clayrat-imitates-whatsapp-tiktok-youtube/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-windows-backup-now-available-for-enterprise-users-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-windows-backup-now-available-for-enterprise-users-2025-10-09/",
       "excerpt": "Microsoft: Windows Backup now available for enterprise users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Micr…",
       "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-backup-now-available-for-enterprise-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-hackers-target-universities-in-payroll-pirate-attacks-2025-1",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Microsoft: Hackers target universities in “payroll pirate” attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/05/13/Phishing.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-hackers-target-universities-in-payroll-pirate-attacks-2025-1/",
+      "excerpt": "Microsoft: Hackers target universities in “payroll pirate” attacks News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million…",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-target-university-hr-employees-in-payroll-pirate-attacks/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -85,6 +121,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hackers-now-use-velociraptor-dfir-tool-in-ransomware-attacks-2025-10-0",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "Hackers now use Velociraptor DFIR tool in ransomware attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/02/12/ransomware-2.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-now-use-velociraptor-dfir-tool-in-ransomware-attacks-2025-10-0/",
+      "excerpt": "Hackers now use Velociraptor DFIR tool in ransomware attacks News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million users…",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-now-use-velociraptor-dfir-tool-in-ransomware-attacks/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -94,6 +142,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/hackers-claim-discord-breach-exposed-data-of-5-5-million-users-2025-10/",
       "excerpt": "Hackers claim Discord breach exposed data of 5.5 million users News Featured Latest Clop exploited Oracle zero-day for data theft since early August Microsoft kills more Microsoft Account bypasses in Windows 11 Google's new AI bug bounty program pays up to $30,000 for flaws Mi…",
       "source": "https://www.bleepingcomputer.com/news/security/hackers-claim-discord-breach-exposed-data-of-55-million-users/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "github-copilot-camoleak-ai-attack-exfiltrates-data-2025-10-09",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "GitHub Copilot 'CamoLeak' AI Attack Exfiltrates Data",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt692f1730df7f9381/68e697b669b210173587ba87/GitHub_Copilot-SOPA_Images_Limited-Alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/github-copilot-camoleak-ai-attack-exfiltrates-data-2025-10-09/",
+      "excerpt": "While GitHub has advanced protections for its built-in AI agent, a researcher came up with a creative proof-of-concept (PoC) attack for exfiltrating code and secrets via Copilot.",
+      "source": "https://www.darkreading.com/application-security/github-copilot-camoleak-ai-attack-exfils-data",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1933,10 +1993,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 161,
+  "count": 166,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 161,
+    "total_items": 166,
     "per_page": 12,
     "total_pages": 14
   }
