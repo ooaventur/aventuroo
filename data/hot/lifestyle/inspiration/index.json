@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "demi-guo-is-shaping-a-new-era-of-female-leadership-in-artificial-intel",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Demi Guo Is Shaping a New Era of Female Leadership in Artificial Intelligence",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/demi-guo-women-in-ai-innovation-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/demi-guo-is-shaping-a-new-era-of-female-leadership-in-artificial-intel/",
+      "excerpt": "Demi Guo: Leading a New Era of Women in AI Innovation | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Mag…",
+      "source": "https://www.success.com/demi-guo-women-in-ai-innovation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "5-lessons-a-single-mom-learned-traveling-with-her-adult-son-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "5 Lessons a Single Mom Learned Traveling With Her Adult Son",
+      "cover": "https://www.success.com/wp-content/uploads/2025/08/lessons-mom-learned-traveling-with-son-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/5-lessons-a-single-mom-learned-traveling-with-her-adult-son-2025-10-10/",
+      "excerpt": "5 Lessons a Single Mom Learned Traveling With Her Adult Son | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default…",
+      "source": "https://www.success.com/lessons-mom-learned-traveling-with-son/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-do-i-have-no-energy-the-science-backed-energy-management-framework",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -853,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 71,
-  "updated_at": "2025-10-09",
+  "count": 73,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 71,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

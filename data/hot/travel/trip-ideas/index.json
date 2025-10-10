@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sino-french-war-memorial-park-in-keelung-city-taiwan-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Sino-French War Memorial Park in Keelung City, Taiwan",
+      "cover": "https://img.atlasobscura.com/G3HWsSL2Efu1eODUTiIYZsfC1QXLQwZbjVrP699xyjY/rt:fit/w:600/c:2537:1691:nowe:879:605/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8zZGM5/ZWYyOC1mMWI4LTQz/YmEtOGNiMS1lYzhm/MmNmMDBmNzRiYjg2/ZWRhZmZiZTIyY2Ni/MGRfMjAyNTA1MDZf/MTQxMzM2LmpwZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/sino-french-war-memorial-park-in-keelung-city-taiwan-2025-10-10/",
+      "excerpt": "Sino-French War Memorial Park - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm…",
+      "source": "https://www.atlasobscura.com/places/sino-french-war-memorial-park",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "young-samsui-woman-mural-in-singapore-singapore-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/volkswagen-beetle-spider-in-avoca-iowa-2025-10-09/",
       "excerpt": "Volkswagen Beetle Spider - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\"…",
       "source": "https://www.atlasobscura.com/places/volkswagen-beetle-spider",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "this-expert-says-degrowth-is-the-most-powerful-solution-to-overtourism",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "This expert says ‘degrowth’ is the most powerful solution to overtourism",
+      "cover": "https://adventure.com/wp-content/uploads/2025/09/Hero-Degrowth-in-tourism-cruise-stephanie-klepacki-VAqe8TwhhEI-unsplash-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/this-expert-says-degrowth-is-the-most-powerful-solution-to-overtourism/",
+      "excerpt": "This expert says 'degrowth' is the most powerful solution to overtourism | Adventure.com × Adventure.com - digital travel magazine | Intrepid Group Features Book Club Climate Desk Food for Thought Wildlife Active Profiles Photography Features (cont.) Beverage Dept. Riding the …",
+      "source": "https://adventure.com/degrowth-tourism-overtourism-solutions/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1369,10 +1393,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 114,
-  "updated_at": "2025-10-09",
+  "count": 116,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 114,
+    "total_items": 116,
     "per_page": 12,
     "total_pages": 10
   }

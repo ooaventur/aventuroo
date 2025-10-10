@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-are-computer-use-agents-from-web-to-os-a-technical-explainer-2025",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "What are ‘Computer-Use Agents’? From Web to OS—A Technical Explainer",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-31.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/what-are-computer-use-agents-from-web-to-os-a-technical-explainer-2025/",
+      "excerpt": "What are 'Computer-Use Agents'? From Web to OS—A Technical Explainer - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusive articles…",
+      "source": "https://www.marktechpost.com/2025/10/10/what-are-computer-use-agents-from-web-to-os-a-technical-explainer/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-research-releases-skala-a-deep-learning-exchange-correlation",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-research-releases-skala-a-deep-learning-exchange-correlation/",
       "excerpt": "Microsoft Research Releases Skala: a Deep-Learning Exchange–Correlation Functional Targeting Hybrid-Level Accuracy at Semi-Local Cost - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
       "source": "https://www.marktechpost.com/2025/10/09/microsoft-research-releases-skala-a-deep-learning-exchange-correlation-functional-targeting-hybrid-level-accuracy-at-semi-local-cost/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-open-sources-an-mcp-server-for-the-google-ads-api-bringing-llm",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Google Open-Sources an MCP Server for the Google Ads API, Bringing LLM-Native Access to Ads Data",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-1-3.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-open-sources-an-mcp-server-for-the-google-ads-api-bringing-llm/",
+      "excerpt": "Google Open-Sources an MCP Server for the Google Ads API, Bringing LLM-Native Access to Ads Data - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content…",
+      "source": "https://www.marktechpost.com/2025/10/10/google-open-sources-an-mcp-server-for-the-google-ads-api-bringing-llm-native-access-to-ads-data/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "agentic-context-engineering-ace-self-improving-llms-via-evolving-conte",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Agentic Context Engineering (ACE): Self-Improving LLMs via Evolving Contexts, Not Fine-Tuning",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-32.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/agentic-context-engineering-ace-self-improving-llms-via-evolving-conte/",
+      "excerpt": "Agentic Context Engineering (ACE): Self-Improving LLMs via Evolving Contexts, Not Fine-Tuning - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Re…",
+      "source": "https://www.marktechpost.com/2025/10/10/agentic-context-engineering-ace-self-improving-llms-via-evolving-contexts-not-fine-tuning/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1045,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 87,
+  "count": 90,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 87,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }

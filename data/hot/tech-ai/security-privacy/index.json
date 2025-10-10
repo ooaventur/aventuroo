@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fbi-takes-down-breachforums-portal-used-for-salesforce-extortion-2025",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "FBI takes down BreachForums portal used for Salesforce extortion",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/10/BreachForums_seized.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fbi-takes-down-breachforums-portal-used-for-salesforce-extortion-2025/",
+      "excerpt": "FBI takes down BreachForums portal used for Salesforce extortion News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million u…",
+      "source": "https://www.bleepingcomputer.com/news/security/fbi-takes-down-breachforums-portal-used-for-salesforce-extortion/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "take-note-cyber-risks-with-ai-notetakers-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -1993,10 +2005,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 166,
+  "count": 167,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 166,
+    "total_items": 167,
     "per_page": 12,
     "total_pages": 14
   }

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "singapore-police-probe-nvidia-customer-megaspeed-over-alleged-china-ex",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Singapore police probe Nvidia customer Megaspeed over alleged China export violations",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108186411-1755245023980-gettyimages-2228729615-vcg111582736767.jpeg?v=1760094922&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/singapore-police-probe-nvidia-customer-megaspeed-over-alleged-china-ex/",
+      "excerpt": "Singapore, U.S. investigate Nvidia client Megaspeed Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail …",
+      "source": "https://www.cnbc.com/2025/10/10/singapore-us-investigate-nvidia-client-megaspeed-export-controls-violation.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "shaq-sam-altman-backed-college-startup-campus-taps-former-meta-ai-head",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Shaq, Sam Altman-backed college startup Campus taps former Meta AI head as CTO",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108203075-1758667425880-gettyimages-2236544323-STARGATE_DATA_CENTER.jpeg?v=1758900553&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/shaq-sam-altman-backed-college-startup-campus-taps-former-meta-ai-head/",
+      "excerpt": "Sam Altman-backed college startup taps former Meta AI head as CTO Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Indus…",
+      "source": "https://www.cnbc.com/2025/10/10/sam-altman-college-startup-campus-meta-ai.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "qualcomm-shares-fall-after-china-opens-antitrust-probe-into-the-u-s-ch",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Qualcomm shares fall after China opens antitrust probe into the U.S. chip giant",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108178363-1753794609661-gettyimages-1251437334-porzycki-microchi230410_npEgg.jpeg?v=1760090690&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/qualcomm-shares-fall-after-china-opens-antitrust-probe-into-the-u-s-ch/",
+      "excerpt": "Qualcomm shares fall after China opens antitrust probe into chip giant Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/10/qualcomm-shares-today-after-china-opens-antitrust-probe.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2/",
       "excerpt": "Microsoft engineer resigns over cloud business from Israeli military Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
       "source": "https://www.cnbc.com/2025/10/09/microsoft-engineer-resigns-over-cloud-business-from-israeli-military.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "google-search-comes-under-renewed-scrutiny-in-uk-as-competition-watchd",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Google search comes under renewed scrutiny in UK as competition watchdog flexes new powers",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108199151-1758008394340-gettyimages-2210075113-VukValcicGoogleHQ170425_3.jpeg?v=1760088060&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/google-search-comes-under-renewed-scrutiny-in-uk-as-competition-watchd/",
+      "excerpt": "UK's CMA activates new powers to regulate Google search Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Ret…",
+      "source": "https://www.cnbc.com/2025/10/10/uks-cma-activates-new-powers-to-regulate-google-search.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1237,10 +1285,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 103,
+  "count": 107,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 103,
+    "total_items": 107,
     "per_page": 12,
     "total_pages": 9
   }

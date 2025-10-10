@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "scientists-discover-brain-circuit-that-can-switch-off-chronic-pain-202",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Scientists discover brain circuit that can switch off chronic pain",
+      "cover": "https://www.sciencedaily.com/images/1920/fluorescent-imaging-npy-neurons.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-discover-brain-circuit-that-can-switch-off-chronic-pain-202/",
+      "excerpt": "Scientists discover brain circuit that can switch off chronic pain | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research or…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251009033126.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-sweet-fix-for-baldness-stevia-compound-boosts-hair-growth-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -793,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 66,
+  "count": 67,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 66,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "rose-byrne-hits-the-motherlode-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Rose Byrne Hits the Motherlode",
+      "cover": "https://media.newyorker.com/photos/68e5940b6b1a7f30878d4f80/master/pass/SCHULMAN%20:%20ROSE-BYRNE-AH4A6111.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/rose-byrne-hits-the-motherlode-2025-10-10/",
+      "excerpt": "Rose Byrne Hits the Motherlode | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Persons of Interes…",
+      "source": "https://www.newyorker.com/culture/persons-of-interest/rose-byrne-hits-the-motherlode",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "misty-copeland-s-ballet-send-off-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Misty Copeland’s Ballet Send-Off",
+      "cover": "https://media.newyorker.com/photos/68e7deaf4d0ca9c1aaafbcb9/master/pass/misty%20final%201.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/misty-copeland-s-ballet-send-off-2025-10-10/",
+      "excerpt": "Misty Copeland’s Ballet Send-Off | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Goings On Misty …",
+      "source": "https://www.newyorker.com/culture/goings-on/misty-copelands-ballet-send-off",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "l-szl-krasznahorkai-and-contemporary-europe-s-perilous-reality-2025-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -10,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/l-szl-krasznahorkai-and-contemporary-europe-s-perilous-reality-2025-10/",
       "excerpt": "László Krasznahorkai and Contemporary Europe’s Perilous Reality | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Naviga…",
       "source": "https://www.newyorker.com/culture/cultural-comment/laszlo-krasznahorkai-and-contemporary-europes-perilous-reality",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "art-and-life-in-richard-linklater-s-blue-moon-and-nouvelle-vague-2025",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Art and Life in Richard Linklater’s “Blue Moon” and “Nouvelle Vague”",
+      "cover": "https://media.newyorker.com/photos/68e7c6a510c54fb7dd4d58b8/master/pass/r47611.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/art-and-life-in-richard-linklater-s-blue-moon-and-nouvelle-vague-2025/",
+      "excerpt": "Art and Life in Richard Linklater’s “Blue Moon” and “Nouvelle Vague” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open N…",
+      "source": "https://www.newyorker.com/magazine/2025/10/20/blue-moon-movie-review-nouvelle-vague",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1621,10 +1657,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 135,
+  "count": 138,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 135,
+    "total_items": 138,
     "per_page": 12,
     "total_pages": 12
   }
