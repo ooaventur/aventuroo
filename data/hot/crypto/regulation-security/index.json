@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "texas-lawmaker-behind-state-s-crypto-reserve-bill-ether-may-be-next-20",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Texas lawmaker behind state’s crypto reserve bill: Ether may be next",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTI4NjktMDI5NS03ZmExLTg2MGYtNmFmMzAxZmY2Mjc3.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/texas-lawmaker-behind-state-s-crypto-reserve-bill-ether-may-be-next-20/",
+      "excerpt": "Texas Lawmaker Behind State’s Crypto Reserve Bill: Ether may be Next Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 5 hours ago Texas lawmaker behind state’s crypto reserve bill: Ether may be next The cryptocurrency with the sec…",
+      "source": "https://cointelegraph.com/news/texas-senator-crypto-reserve-bill-ether-next?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "telegram-s-durov-we-re-running-out-of-time-to-save-the-free-internet-2",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/crypto/regulation-security/south-korea-ramps-up-crypto-seizures-will-target-cold-wallets-2025-10/",
       "excerpt": "South Korea Tax Agency Targets Cold Wallets in Crypto Seizures Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Ezra Reguerra 3 hours ago South Korea ramps up crypto seizures, will target cold wallets South Korea’s National Tax Service warned t…",
       "source": "https://cointelegraph.com/news/south-korea-nts-cold-wallet-tax-seizures-crypto?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "sec-s-future-proofing-push-to-shape-how-much-freedom-crypto-enjoys-aft",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "SEC’s ‘future-proofing’ push to shape how much freedom crypto enjoys after Trump",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDQvMDE5NWZiZmYtZDExMy03ODA5LTgwMDMtZTQ0YmRhMTYxZDNl.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/sec-s-future-proofing-push-to-shape-how-much-freedom-crypto-enjoys-aft/",
+      "excerpt": "SEC’s ‘Future-Proofing’ Push to Shape Crypto Freedom After Trump Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 5 hours ago SEC’s ‘future-proofing’ push to shape how much freedom crypto enjoys after Trump Could a future US presi…",
+      "source": "https://cointelegraph.com/news/paul-atkins-sec-future-proof-regulations?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -673,10 +697,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 56,
+  "count": 58,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 56,
+    "total_items": 58,
     "per_page": 12,
     "total_pages": 5
   }

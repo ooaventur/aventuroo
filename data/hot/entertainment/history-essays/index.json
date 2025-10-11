@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "aids-quilt-displayed-for-the-first-time-on-the-national-mall-2025-10-1",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "AIDS Quilt displayed for the first time on the National Mall",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/aids-quilt-gettyimages-542346538?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/aids-quilt-displayed-for-the-first-time-on-the-national-mall-2025-10-1/",
+      "excerpt": "AIDS Quilt displayed for the first time on the National Mall Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial Am…",
+      "source": "https://www.history.com/this-day-in-history/aids-quilt-display-national-mall-1987",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "9-remarkable-facts-about-the-us-navy-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "9 Remarkable Facts About the US Navy",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/556638593_jx7qca?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/9-remarkable-facts-about-the-us-navy-2025-10-10/",
+      "excerpt": "9 Remarkable Facts About the US Navy Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolutio…",
+      "source": "https://www.history.com/articles/us-navy-history-facts",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "women-in-the-us-military-timeline-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -421,11 +445,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 35,
-  "updated_at": "2025-10-09",
+  "count": 37,
+  "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 35,
+    "total_items": 37,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

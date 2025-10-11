@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "what-is-the-senedd-by-election-in-caerphilly-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "What is the Senedd by-election in Caerphilly?",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/4686/live/b2eb1970-a603-11f0-92db-77261a15b9d2.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/what-is-the-senedd-by-election-in-caerphilly-2025-10-10/",
+      "excerpt": "Why is there an Senedd by-election happening Caerphilly? Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ir…",
+      "source": "https://www.bbc.com/news/videos/c77d2g5mgelo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "trump-s-quest-for-nobel-peace-prize-falls-short-despite-high-profile-n",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -121,6 +133,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "indiana-governor-meets-indiana-republicans-again-on-redistricting-gop",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Indiana governor meets Indiana Republicans again on redistricting GOP-led state",
+      "cover": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/indiana-governor-meets-indiana-republicans-again-on-redistricting-gop/",
+      "excerpt": "Indiana governor meets Indiana Republicans again on redistricting GOP-led state - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on India…",
+      "source": "https://abcnews.go.com/Politics/wireStory/indiana-governor-meets-indiana-republicans-redistricting-gop-led-126412050",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "farage-stunned-ex-wales-reform-leader-took-bribes-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -142,6 +166,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/cindy-mccain-suffers-a-mild-stroke-and-will-take-leave-from-world-food/",
       "excerpt": "Cindy McCain suffers a mild stroke and will take leave from World Food Program - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Cindy …",
       "source": "https://abcnews.go.com/Politics/wireStory/cindy-mccain-suffers-mild-stroke-leave-world-food-126384334",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "astrazeneca-agrees-to-lower-drug-prices-for-medicaid-under-trump-admin",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "AstraZeneca agrees to lower drug prices for Medicaid under Trump administration deal",
+      "cover": "https://s.abcnews.com/images/US/wirestory_2da852b2edf18c72977fb922aa054e42_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/astrazeneca-agrees-to-lower-drug-prices-for-medicaid-under-trump-admin/",
+      "excerpt": "AstraZeneca agrees to lower drug prices for Medicaid under Trump administration deal - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on …",
+      "source": "https://abcnews.go.com/Politics/wireStory/astrazeneca-agrees-lower-drug-prices-medicaid-trump-administration-126418888",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2701,10 +2737,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 225,
+  "count": 228,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 225,
+    "total_items": 228,
     "per_page": 12,
     "total_pages": 19
   }

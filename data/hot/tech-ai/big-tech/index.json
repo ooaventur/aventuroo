@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "tech-megacaps-lose-770-billion-in-value-as-nasdaq-suffers-steepest-dro",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Tech megacaps lose $770 billion in value as Nasdaq suffers steepest drop since April",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108200522-1758187156935-gettyimages-2235458143-boivin-notitle250917_npZhw.jpeg?v=1760081677&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/tech-megacaps-lose-770-billion-in-value-as-nasdaq-suffers-steepest-dro/",
+      "excerpt": "Tech megacaps lose $770 billion in value as Nasdaq plunges 3.6% Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industr…",
+      "source": "https://www.cnbc.com/2025/10/10/tech-megacaps-market-cap-mag-7.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "singapore-police-probe-nvidia-customer-megaspeed-over-alleged-china-ex",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -61,6 +73,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "navan-sets-price-range-for-ipo-expects-market-cap-of-up-to-6-5-billion",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Navan sets price range for IPO, expects market cap of up to $6.5 billion",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/navan-sets-price-range-for-ipo-expects-market-cap-of-up-to-6-5-billion/",
+      "excerpt": "Navan updated its IPO prospectus and offered a pricing range, as it seeks to potentially hit the public market during a government shutdown.",
+      "source": "https://www.cnbc.com/2025/10/10/navan-sets-price-range-for-ipo-expects-market-cap-up-to-6point5-billion.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -70,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/microsoft-engineer-resigns-over-cloud-business-from-israeli-military-2/",
       "excerpt": "Microsoft engineer resigns over cloud business from Israeli military Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation In…",
       "source": "https://www.cnbc.com/2025/10/09/microsoft-engineer-resigns-over-cloud-business-from-israeli-military.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "govini-a-defense-tech-startup-taking-on-palantir-hits-100-million-in-a",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Govini, a defense tech startup taking on Palantir, hits $100 million in annual recurring revenue",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/govini-a-defense-tech-startup-taking-on-palantir-hits-100-million-in-a/",
+      "excerpt": "Defense startup taking on Palantir hits $100 million in ARR Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials…",
+      "source": "https://www.cnbc.com/2025/10/10/defense-tech-govini-palantir-revenue.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1321,10 +1357,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 110,
+  "count": 113,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 110,
+    "total_items": 113,
     "per_page": 12,
     "total_pages": 10
   }

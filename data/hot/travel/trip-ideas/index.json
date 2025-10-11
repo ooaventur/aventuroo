@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "street-of-the-dead-in-singapore-singapore-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Street of the Dead in Singapore, Singapore",
+      "cover": "https://img.atlasobscura.com/pdjqgKXJjNJHLprlxe3hXRHMT8DBBvxTFWK_gxy_zis/rt:fit/w:600/c:1260:840:nowe:0:3/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9lOGE0/M2ZiMy00NjdhLTQ4/NzMtYWExNC1hOGU5/MjAzYzViOWM4MWE2/ZWQ5ODA1Yjg3NjYw/OWJfMzYyMDU5ODQ4/OV9iZDQzZGJjMDQx/X28uanBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/street-of-the-dead-in-singapore-singapore-2025-10-10/",
+      "excerpt": "Street of the Dead - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon…",
+      "source": "https://www.atlasobscura.com/places/street-of-the-dead",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sino-french-war-memorial-park-in-keelung-city-taiwan-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/langlais-art-preserve-in-cushing-maine-2025-10-10/",
       "excerpt": "Langlais Art Preserve - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > …",
       "source": "https://www.atlasobscura.com/places/langlais-art-preserve",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "grave-of-marinus-van-der-lubbe-in-leipzig-germany-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Grave of Marinus van der Lubbe in Leipzig, Germany",
+      "cover": "https://img.atlasobscura.com/TvuyLQpwvbA95_X3cGJNJQS6LNKknY6ErgxPB98FGis/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wZDlh/NWZkOC1iOWVkLTQ4/NjYtYjcwMi1iNjU4/NjgxMTFmYzBhNGQ1/NjljZDcyOTBmN2E5/NTNfMjAyNDAzMTBf/MTIxODU2LmpwZw.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/grave-of-marinus-van-der-lubbe-in-leipzig-germany-2025-10-10/",
+      "excerpt": "Grave of Marinus van der Lubbe - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r s…",
+      "source": "https://www.atlasobscura.com/places/grave-of-marinus-van-der-lubbe",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1453,10 +1477,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 121,
+  "count": 123,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 121,
+    "total_items": 123,
     "per_page": 12,
     "total_pages": 11
   }

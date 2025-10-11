@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "researchers-just-analyzed-the-ravaged-remains-of-1-8-million-year-old",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Researchers Just Analyzed The Ravaged Remains Of 1.8-Million-Year-Old Human Ancestors With AI — And Revealed They Were Eaten By Leopards",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/leopard-teeth-on-human-skull.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/researchers-just-analyzed-the-ravaged-remains-of-1-8-million-year-old/",
+      "excerpt": "Researchers Use AI To Find That Leopards Ate Our Human Ancestors All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Researchers Just Analyzed The Ravaged Remains Of 1.8-Million-Year-Old Human An…",
+      "source": "https://allthatsinteresting.com/tanzania-homo-habilis-eaten-by-leopards",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "inside-trundle-manor-the-pittsburgh-museum-packed-with-macabre-curiosi",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-trundle-manor-the-pittsburgh-museum-packed-with-macabre-curiosi/",
       "excerpt": "Inside Trundle Manor, Pennsylvania's Macabre Museum Of Oddities All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside Trundle Manor, The Pittsburgh Museum Packed With Macabre Curiosities By …",
       "source": "https://allthatsinteresting.com/trundle-manor",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-in-turkey-just-found-intact-1-300-year-old-bread-bearin",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Archaeologists In Turkey Just Found Intact 1,300-Year-Old Bread Bearing The Image Of Jesus",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/jesus-bread-loaf.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-turkey-just-found-intact-1-300-year-old-bread-bearin/",
+      "excerpt": "Medieval Bread Bearing Image Of Jesus Found In Turkey All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Turkey Just Found Intact 1,300-Year-Old Bread Bearing The Image Of Jesu…",
+      "source": "https://allthatsinteresting.com/turkey-medieval-jesus-bread-loaf",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1633,10 +1657,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 136,
+  "count": 138,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 136,
+    "total_items": 138,
     "per_page": 12,
     "total_pages": 12
   }

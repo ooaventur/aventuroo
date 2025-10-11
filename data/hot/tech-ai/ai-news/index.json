@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "will-updating-your-ai-agents-help-or-hamper-their-performance-raindrop",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Will updating your AI agents help or hamper their performance? Raindrop's new tool Experiments tells you",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6wvVdQj4t7NiC0a8xS9bQu/8b37da63cebde173a1c338aeb371eba8/cfr0z3n_sharp_detailed_graphic_novel_style_splash_page_bicolore_b6659495-c268-49de-9a52-76abb547bf5a.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/will-updating-your-ai-agents-help-or-hamper-their-performance-raindrop/",
+      "excerpt": "<p>It seems like almost every week for the last two years since ChatGPT launched, new large language models (LLMs) from rival labs or from OpenAI itself have been released. Enterprises are hard pressed to keep up with the massive pace of change, let alone understand how to ada…",
+      "source": "https://venturebeat.com/ai/will-updating-your-ai-agents-help-or-hamper-their-performance-raindrops-new",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-are-computer-use-agents-from-web-to-os-a-technical-explainer-2025",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/microsoft-research-releases-skala-a-deep-learning-exchange-correlation/",
       "excerpt": "Microsoft Research Releases Skala: a Deep-Learning Exchange–Correlation Functional Targeting Hybrid-Level Accuracy at Semi-Local Cost - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Sea…",
       "source": "https://www.marktechpost.com/2025/10/09/microsoft-research-releases-skala-a-deep-learning-exchange-correlation-functional-targeting-hybrid-level-accuracy-at-semi-local-cost/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meta-superintelligence-labs-metaembed-rethinks-multimodal-embeddings-a",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Meta Superintelligence Labs’ MetaEmbed Rethinks Multimodal Embeddings and Enables Test-Time Scaling with Flexible Late Interaction",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-33.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-superintelligence-labs-metaembed-rethinks-multimodal-embeddings-a/",
+      "excerpt": "Meta Superintelligence Labs' MetaEmbed Rethinks Multimodal Embeddings and Enables Test-Time Scaling with Flexible Late Interaction - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search…",
+      "source": "https://www.marktechpost.com/2025/10/10/meta-superintelligence-labs-metaembed-rethinks-multimodal-embeddings-and-enables-test-time-scaling-with-flexible-late-interaction/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1105,10 +1129,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 92,
+  "count": 94,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 92,
+    "total_items": 94,
     "per_page": 12,
     "total_pages": 8
   }

@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "rose-byrne-hits-the-mother-lode-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Rose Byrne Hits the Mother Lode",
+      "cover": "https://media.newyorker.com/photos/68e5940b6b1a7f30878d4f80/master/pass/SCHULMAN%20:%20ROSE-BYRNE-AH4A6111.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/rose-byrne-hits-the-mother-lode-2025-10-10/",
+      "excerpt": "Rose Byrne Hits the Mother Lode | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Persons of Intere…",
+      "source": "https://www.newyorker.com/culture/persons-of-interest/rose-byrne-hits-the-mother-lode",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "people-really-hate-the-philadelphia-art-museum-rebrand-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "People Really Hate the Philadelphia Art Museum Rebrand",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/pma-new.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/people-really-hate-the-philadelphia-art-museum-rebrand-2025-10-10/",
+      "excerpt": "People Really Hate the Philadelphia Art Museum Rebrand Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn My …",
+      "source": "https://hyperallergic.com/1048843/people-really-hate-the-philadelphia-art-museum-rebrand/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "misty-copeland-s-ballet-send-off-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -58,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/general/john-carpenter-s-three-favorite-film-scores-2025-10-10/",
       "excerpt": "John Carpenter’s Three Favorite Film Scores | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The N…",
       "source": "https://www.newyorker.com/podcast/the-new-yorker-radio-hour/john-carpenters-three-favorite-film-scores",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "independent-art-fair-partners-with-henry-street-settlement-2025-10-10",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Independent Art Fair Partners With Henry Street Settlement",
+      "cover": "https://hyperallergic-newspack.s3.amazonaws.com/uploads/2025/09/DSC06639.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/independent-art-fair-partners-with-henry-street-settlement-2025-10-10/",
+      "excerpt": "Independent Art Fair Partners With Henry Street Settlement Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube Instagram LinkedIn…",
+      "source": "https://hyperallergic.com/1048606/independent-art-fair-partners-with-henry-street-settlement/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1693,10 +1729,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 141,
+  "count": 144,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 141,
+    "total_items": 144,
     "per_page": 12,
     "total_pages": 12
   }
