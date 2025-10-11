@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "why-i-have-to-buy-doughnuts-with-cash-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Why I have to buy doughnuts with cash",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff8ef4a58-744c-49e1-a0a4-82629b4334aa.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/why-i-have-to-buy-doughnuts-with-cash-2025-10-11/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/8766ef23-3938-4de2-8a37-602c798034aa",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "revolut-s-address-matters-more-than-its-ceo-s-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Revolut’s address matters more than its CEO’s",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe2f4e56f-5d43-41e9-a265-c34d21e1e06a.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/revolut-s-address-matters-more-than-its-ceo-s-2025-10-11/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/086a7bdf-a59a-441e-8d78-c67c249d2e23",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "q-a-are-you-due-a-share-of-11bn-car-finance-compensation-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Q&A: Are you due a share of £11bn car finance compensation?",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fcb3989e5-00ff-4be6-8d54-b4e6939997dc.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/q-a-are-you-due-a-share-of-11bn-car-finance-compensation-2025-10-11/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/b3380720-3fd7-4179-89b9-73adc9d288fc",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "witness-history-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -2629,10 +2665,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 219,
-  "updated_at": "2025-10-10",
+  "count": 222,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 219,
+    "total_items": 222,
     "per_page": 12,
     "total_pages": 19
   }

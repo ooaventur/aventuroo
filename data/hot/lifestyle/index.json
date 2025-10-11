@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "popular-grocery-store-recalls-this-dish-due-to-possible-contamination",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Popular Grocery Store Recalls This Dish Due To Possible Contamination Of Harmful Bacteria",
+      "cover": "https://img.huffingtonpost.com/asset/68e96c0e1600004a5b483809.jpeg?ops=1200_630",
+      "canonical": "https://archive.aventuroo.com/lifestyle/popular-grocery-store-recalls-this-dish-due-to-possible-contamination/",
+      "excerpt": "Sprouts Farmers Market Recalls This Dish Due To Listeria Concerns | HuffPost Life Skip to Main Content × Main Menu U.S. Edition News U.S. News World News Business Environment Health Social Justice Crime Politics Congress Extremism Opinion Entertainment Culture & Arts Media Cel…",
+      "source": "https://www.huffpost.com/entry/sprouts-recall-lunch-listeria-harmful_n_68e932e1e4b0972b7759c5dc",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "body-language-experts-say-stephen-miller-s-cnn-glitch-might-just-be-th",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -613,10 +625,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 51,
+  "count": 52,
   "updated_at": "2025-10-10",
   "pagination": {
-    "total_items": 51,
+    "total_items": 52,
     "per_page": 12,
     "total_pages": 5
   }

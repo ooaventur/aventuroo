@@ -1,11 +1,11 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7662,
+  "total_items": 7671,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 529,
+      "items": 530,
       "pages": 45,
       "children": [
         {
@@ -23,7 +23,7 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 86,
+          "items": 87,
           "pages": 8
         },
         {
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 693,
+      "items": 695,
       "pages": 58,
       "children": [
         {
@@ -103,7 +103,7 @@
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 138,
+          "items": 140,
           "pages": 12
         }
       ]
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 916,
+      "items": 917,
       "pages": 77,
       "children": [
         {
@@ -208,7 +208,7 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 51,
+          "items": 52,
           "pages": 5
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 927,
+      "items": 931,
       "pages": 78,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 219,
+          "items": 222,
           "pages": 19
         },
         {
@@ -245,8 +245,8 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 228,
-          "pages": 19
+          "items": 229,
+          "pages": 20
         },
         {
           "child": "top-stories",
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1116,
-      "pages": 93,
+      "items": 1117,
+      "pages": 94,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 94,
+          "items": 95,
           "pages": 8
         },
         {

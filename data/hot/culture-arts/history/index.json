@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "7-fearsome-death-gods-from-hades-of-ancient-greek-myth-to-the-maya-dea",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "7 Fearsome Death Gods, From Hades Of Ancient Greek Myth To The Maya ‘Death Bat’ Camazotz",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/mictlantecuhtli.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/7-fearsome-death-gods-from-hades-of-ancient-greek-myth-to-the-maya-dea/",
+      "excerpt": "Gods Of Death Who Terrified Cultures Around The World All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email 7 Fearsome Death Gods, From Hades Of Ancient Greek Myth To The Maya ‘Death Bat’ Camazotz …",
+      "source": "https://allthatsinteresting.com/gods-of-death",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-secret-tunnel-that-once-led-roman-emperors-into-the-colosseum-is-o",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "The Secret Tunnel That Once Led Roman Emperors Into The Colosseum Is Opening To The Public For The First Time Ever",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/commodus-passage-in-the-colosseum.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-secret-tunnel-that-once-led-roman-emperors-into-the-colosseum-is-o/",
+      "excerpt": "Secret Tunnel Beneath The Colosseum Opens To Visitors All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Secret Tunnel That Once Led Roman Emperors Into The Colosseum Is Opening To The Publi…",
+      "source": "https://allthatsinteresting.com/roman-colosseum-commodus-passage",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "researchers-just-analyzed-the-ravaged-remains-of-1-8-million-year-old",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -1657,10 +1681,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 138,
-  "updated_at": "2025-10-10",
+  "count": 140,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 138,
+    "total_items": 140,
     "per_page": 12,
     "total_pages": 12
   }
