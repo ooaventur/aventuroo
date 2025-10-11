@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "your-wellness-weekend-can-now-include-sports-clinics-with-pro-athletes",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Your Wellness Weekend Can Now Include Sports Clinics With Pro Athletes",
+      "cover": "https://media.cntraveler.com/photos/68e96420dc2b13f11c7fe1da/master/pass/Arnold%20Palmer%20Course%20Hole%2017%20for%20@amble%20by%20@mr_gru.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/your-wellness-weekend-can-now-include-sports-clinics-with-pro-athletes/",
+      "excerpt": "Your Wellness Weekend Can Now Include Sports Clinics With Pro Athletes | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' C…",
+      "source": "https://www.cntraveler.com/story/your-wellness-weekend-can-now-include-sports-clinics-with-pro-athletes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-unexpected-delights-of-columbus-ohio-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "The Unexpected Delights of Columbus, Ohio",
+      "cover": "https://media.cntraveler.com/photos/68e94acbf1deb875d4f3dd3a/master/pass/068t000000CJWnSAAX.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-unexpected-delights-of-columbus-ohio-2025-10-11/",
+      "excerpt": "The Unexpected Delights of Columbus, Ohio | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 North Ameri…",
+      "source": "https://www.cntraveler.com/story/columbus-ohio-rumaan-alam",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-new-restaurants-in-new-york-city-of-2025-so-far-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "The Best New Restaurants in New York City of 2025 (So Far)",
+      "cover": "https://media.cntraveler.com/photos/68e7e148f0a39733a3388a19/master/pass/Olmo-_DSF2781-%20interior%20shots%20are%20by%20Collin%20Hughes;%20food%20is%20by%20Murray%20Hall.%20.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-new-restaurants-in-new-york-city-of-2025-so-far-2025-10-11/",
+      "excerpt": "The Best New Restaurants in New York City of 2025 (So Far) | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards…",
+      "source": "https://www.cntraveler.com/gallery/best-new-restaurants-nyc",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "where-was-the-woman-in-cabin-10-filmed-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -1153,11 +1189,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 96,
-  "updated_at": "2025-10-10",
+  "count": 99,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 96,
+    "total_items": 99,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

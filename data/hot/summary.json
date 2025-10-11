@@ -1,11 +1,11 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7671,
+  "total_items": 7694,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 530,
+      "items": 534,
       "pages": 45,
       "children": [
         {
@@ -23,13 +23,13 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 87,
+          "items": 90,
           "pages": 8
         },
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 110,
+          "items": 111,
           "pages": 10
         }
       ]
@@ -73,8 +73,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 695,
-      "pages": 58,
+      "items": 704,
+      "pages": 59,
       "children": [
         {
           "child": "arts",
@@ -91,20 +91,20 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 144,
-          "pages": 12
+          "items": 145,
+          "pages": 13
         },
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 144,
-          "pages": 12
+          "items": 146,
+          "pages": 13
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 140,
-          "pages": 12
+          "items": 146,
+          "pages": 13
         }
       ]
     },
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 917,
+      "items": 920,
       "pages": 77,
       "children": [
         {
@@ -196,8 +196,8 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 70,
-          "pages": 6
+          "items": 73,
+          "pages": 7
         },
         {
           "child": "home-design",
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 931,
+      "items": 933,
       "pages": 78,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 222,
+          "items": 223,
           "pages": 19
         },
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 229,
+          "items": 230,
           "pages": 20
         },
         {
@@ -356,7 +356,7 @@
     },
     {
       "parent": "travel",
-      "items": 817,
+      "items": 822,
       "pages": 69,
       "children": [
         {
@@ -374,8 +374,8 @@
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 96,
-          "pages": 8
+          "items": 99,
+          "pages": 9
         },
         {
           "child": "stays-hotels",
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 123,
+          "items": 125,
           "pages": 11
         }
       ]

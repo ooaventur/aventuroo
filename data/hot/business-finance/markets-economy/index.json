@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "trump-reaches-deal-with-astrazeneca-to-lower-u-s-drug-prices-2025-10-1",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Trump reaches deal with AstraZeneca to lower U.S. drug prices",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/trump-reaches-deal-with-astrazeneca-to-lower-u-s-drug-prices-2025-10-1/",
+      "excerpt": "Trump announced the agreement with AstraZeneca on Friday, after striking a similar deal with Pfizer late last month.",
+      "source": "https://www.cnbc.com/2025/10/10/trump-astrazeneca-drug-pricing-deal.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "think-the-rally-may-continue-but-may-also-tank-you-ve-got-options-2025",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -46,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/think-the-rally-may-continue-but-may-also-tank-you-ve-got-options-2025/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/27b4aa81-3628-4fff-bba8-2cf5a55be081",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "spirit-airlines-wins-approval-for-475-million-lifeline-in-bankruptcy-c",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Spirit Airlines wins approval for $475 million lifeline in bankruptcy court",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/spirit-airlines-wins-approval-for-475-million-lifeline-in-bankruptcy-c/",
+      "excerpt": "Spirit Airlines: Bankruptcy court approves lifeline financing Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industria…",
+      "source": "https://www.cnbc.com/2025/10/10/spirit-airlines-bankruptcy-court-approves-lifeline-financing.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -106,6 +130,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/are-data-centres-a-setback-for-the-green-energy-transition-2025-10-10/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/6e4193a0-aaf3-4752-8b45-696eae57ba18",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "airlines-tell-passengers-to-prepare-for-delays-as-government-shutdown",
+      "date": "2025-10-10",
+      "published_at": "2025-10-10T00:00:00Z",
+      "created_at": "2025-10-10T00:00:00Z",
+      "title": "Airlines tell passengers to prepare for delays as government shutdown continues",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108208728-1759839195695-gettyimages-2239662825-6m0a0441_ak6jtsxa.jpeg?v=1759949227&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/airlines-tell-passengers-to-prepare-for-delays-as-government-shutdown/",
+      "excerpt": "Government shutdown: Airlines tell passengers to prepare for delays Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Ind…",
+      "source": "https://www.cnbc.com/2025/10/10/government-shutdown-airlines-passengers-delays.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1045,10 +1081,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 87,
+  "count": 90,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 87,
+    "total_items": 90,
     "per_page": 12,
     "total_pages": 8
   }

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "mit-s-stealth-immune-cells-could-change-cancer-treatment-forever-2025",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "MIT’s “stealth” immune cells could change cancer treatment forever",
+      "cover": "https://www.sciencedaily.com/images/1920/natural-killer-nk-cell.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/mit-s-stealth-immune-cells-could-change-cancer-treatment-forever-2025/",
+      "excerpt": "MIT’s “stealth” immune cells could change cancer treatment forever | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research or…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251011043535.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "for-the-first-time-scientists-pinpoint-brain-cells-linked-to-depressio",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "For the first time, scientists pinpoint brain cells linked to depression",
+      "cover": "https://www.sciencedaily.com/images/1920/human-brain-activity-neuron-close-up.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/for-the-first-time-scientists-pinpoint-brain-cells-linked-to-depressio/",
+      "excerpt": "For the first time, scientists pinpoint brain cells linked to depression | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from resea…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251010091559.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-toxic-alzheimer-s-protein-could-be-the-key-to-fighting-cancer-2025-1",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "A toxic Alzheimer’s protein could be the key to fighting cancer",
+      "cover": "https://www.sciencedaily.com/images/1920/brain-missing-puzzle-pieces-degenerative-diseases.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-toxic-alzheimer-s-protein-could-be-the-key-to-fighting-cancer-2025-1/",
+      "excerpt": "A toxic Alzheimer’s protein could be the key to fighting cancer | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organ…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251010091555.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "thousands-fall-ill-as-mosquito-fever-explodes-across-southern-china-20",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -841,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
-  "updated_at": "2025-10-10",
+  "count": 73,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 70,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

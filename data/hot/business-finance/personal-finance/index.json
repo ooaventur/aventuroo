@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "wealth-requires-long-term-effort-says-the-art-of-spending-money-author",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Wealth requires long-term effort, says 'The Art of Spending Money' author: Getting rich quickly won't cut it",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108207816-1759523489981-gettyimages-1095321376-185-1825-edit.jpeg?v=1759523495&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/wealth-requires-long-term-effort-says-the-art-of-spending-money-author/",
+      "excerpt": "Morgan Housel: Wealth requires long-term effort Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation Industrials Retail Weal…",
+      "source": "https://www.cnbc.com/2025/10/11/morgan-housel-wealth-requires-long-term-effort.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-is-the-best-week-of-the-year-to-buy-a-house-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -1321,10 +1333,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 110,
-  "updated_at": "2025-10-10",
+  "count": 111,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 110,
+    "total_items": 111,
     "per_page": 12,
     "total_pages": 10
   }

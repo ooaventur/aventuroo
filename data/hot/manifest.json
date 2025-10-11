@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7671,
+  "total_items": 7694,
   "shards": [
     {
       "parent": "business-finance",
@@ -30,7 +30,7 @@
       "child": "markets-economy",
       "slug": "business-finance/markets-economy",
       "path": "business-finance/markets-economy/index.json",
-      "items": 87,
+      "items": 90,
       "first_date": "2025-09-26",
       "last_date": "2025-10-11",
       "pages": 8,
@@ -41,9 +41,9 @@
       "child": "personal-finance",
       "slug": "business-finance/personal-finance",
       "path": "business-finance/personal-finance/index.json",
-      "items": 110,
+      "items": 111,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
+      "last_date": "2025-10-11",
       "pages": 10,
       "is_global": false
     },
@@ -129,10 +129,10 @@
       "child": "culture",
       "slug": "culture-arts/culture",
       "path": "culture-arts/culture/index.json",
-      "items": 144,
+      "items": 145,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
-      "pages": 12,
+      "last_date": "2025-10-11",
+      "pages": 13,
       "is_global": false
     },
     {
@@ -140,10 +140,10 @@
       "child": "general",
       "slug": "culture-arts/general",
       "path": "culture-arts/general/index.json",
-      "items": 144,
+      "items": 146,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
-      "pages": 12,
+      "last_date": "2025-10-11",
+      "pages": 13,
       "is_global": false
     },
     {
@@ -151,10 +151,10 @@
       "child": "history",
       "slug": "culture-arts/history",
       "path": "culture-arts/history/index.json",
-      "items": 140,
+      "items": 146,
       "first_date": "2025-09-14",
       "last_date": "2025-10-11",
-      "pages": 12,
+      "pages": 13,
       "is_global": false
     },
     {
@@ -207,7 +207,7 @@
       "slug": "entertainment/trailers-latest",
       "path": "entertainment/trailers-latest/index.json",
       "items": 240,
-      "first_date": "2025-09-28",
+      "first_date": "2025-09-29",
       "last_date": "2025-10-11",
       "pages": 20,
       "is_global": false
@@ -273,7 +273,7 @@
       "slug": "index",
       "path": "index/index.json",
       "items": 240,
-      "first_date": "2025-10-10",
+      "first_date": "2025-10-11",
       "last_date": "2025-11-13",
       "pages": 20,
       "is_global": true
@@ -294,10 +294,10 @@
       "child": "health",
       "slug": "lifestyle/health",
       "path": "lifestyle/health/index.json",
-      "items": 70,
+      "items": 73,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
-      "pages": 6,
+      "last_date": "2025-10-11",
+      "pages": 7,
       "is_global": false
     },
     {
@@ -349,7 +349,7 @@
       "child": "economy",
       "slug": "news/economy",
       "path": "news/economy/index.json",
-      "items": 222,
+      "items": 223,
       "first_date": "2025-09-26",
       "last_date": "2025-10-11",
       "pages": 19,
@@ -371,7 +371,7 @@
       "child": "politics",
       "slug": "news/politics",
       "path": "news/politics/index.json",
-      "items": 229,
+      "items": 230,
       "first_date": "2025-09-26",
       "last_date": "2025-10-11",
       "pages": 20,
@@ -482,7 +482,7 @@
       "slug": "tech-ai/audio-creator",
       "path": "tech-ai/audio-creator/index.json",
       "items": 240,
-      "first_date": "2025-09-27",
+      "first_date": "2025-09-29",
       "last_date": "2025-10-11",
       "pages": 20,
       "is_global": false
@@ -569,10 +569,10 @@
       "child": "general",
       "slug": "travel/general",
       "path": "travel/general/index.json",
-      "items": 96,
+      "items": 99,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
-      "pages": 8,
+      "last_date": "2025-10-11",
+      "pages": 9,
       "is_global": false
     },
     {
@@ -603,7 +603,7 @@
       "slug": "travel/tips-planning",
       "path": "travel/tips-planning/index.json",
       "items": 240,
-      "first_date": "2025-10-04",
+      "first_date": "2025-10-05",
       "last_date": "2025-10-11",
       "pages": 20,
       "is_global": false
@@ -614,7 +614,7 @@
       "slug": "travel/transport",
       "path": "travel/transport/index.json",
       "items": 240,
-      "first_date": "2025-10-04",
+      "first_date": "2025-10-05",
       "last_date": "2025-10-11",
       "pages": 20,
       "is_global": false
@@ -624,9 +624,9 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "path": "travel/trip-ideas/index.json",
-      "items": 123,
+      "items": 125,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
+      "last_date": "2025-10-11",
       "pages": 11,
       "is_global": false
     }

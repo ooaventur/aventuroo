@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "republicans-try-to-weaken-50-year-old-law-protecting-whales-seals-and",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Republicans try to weaken 50-year-old law protecting whales, seals and polar bears",
+      "cover": "https://s.abcnews.com/images/US/wirestory_0a04ce8516a60d858b3a5bea86b7bd21_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/republicans-try-to-weaken-50-year-old-law-protecting-whales-seals-and/",
+      "excerpt": "Republicans try to weaken 50-year-old law protecting whales, seals and polar bears - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Re…",
+      "source": "https://abcnews.go.com/Politics/wireStory/republicans-weaken-50-year-law-protecting-whales-seals-126425918",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "new-orleans-is-electing-a-new-mayor-and-a-wide-field-is-pledging-chang",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -2749,10 +2761,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 229,
+  "count": 230,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 229,
+    "total_items": 230,
     "per_page": 12,
     "total_pages": 20
   }
