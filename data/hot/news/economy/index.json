@@ -313,6 +313,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-inquiry-2025-10-09-2",
+      "date": "2025-10-09",
+      "published_at": "2025-10-09T00:00:00Z",
+      "created_at": "2025-10-09T00:00:00Z",
+      "title": "The Inquiry",
+      "cover": "https://ichef.bbci.co.uk/images/ic/240x135/p0m69fxh.jpg",
+      "canonical": "https://archive.aventuroo.com/news/economy/the-inquiry-2025-10-09-2/",
+      "excerpt": "World Service - Listen Live - BBC Sounds Homepage Accessibility links Skip to content Accessibility Help BBC Account Notifications Home News Sport Weather iPlayer Sounds Bitesize CBeebies CBBC Food Home News Sport Business Innovation Culture Travel Earth Video Live More menu S…",
+      "source": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-inquiry-2025-10-09",
       "date": "2025-10-09",
       "published_at": "2025-10-09T00:00:00Z",
@@ -2677,10 +2689,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 223,
+  "count": 224,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 223,
+    "total_items": 224,
     "per_page": 12,
     "total_pages": 19
   }

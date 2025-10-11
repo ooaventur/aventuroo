@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "when-men-drink-women-and-children-pay-the-price-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "When men drink, women and children pay the price",
+      "cover": "https://www.sciencedaily.com/images/1920/drunk-man-empty-beer-bottles-on-floor.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/when-men-drink-women-and-children-pay-the-price-2025-10-11/",
+      "excerpt": "When men drink, women and children pay the price | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations When m…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251010091550.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "mit-s-stealth-immune-cells-could-change-cancer-treatment-forever-2025",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/mit-s-stealth-immune-cells-could-change-cancer-treatment-forever-2025/",
       "excerpt": "MIT’s “stealth” immune cells could change cancer treatment forever | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research or…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251011043535.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-1-in-4-older-adults-regain-happiness-after-struggling-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "How 1 in 4 older adults regain happiness after struggling",
+      "cover": "https://www.sciencedaily.com/images/1920/happy-senior-friends-nature-hiking.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/how-1-in-4-older-adults-regain-happiness-after-struggling-2025-10-11/",
+      "excerpt": "How 1 in 4 older adults regain happiness after struggling | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizatio…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251010091600.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -877,10 +901,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 73,
+  "count": 75,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 73,
+    "total_items": 75,
     "per_page": 12,
     "total_pages": 7
   }

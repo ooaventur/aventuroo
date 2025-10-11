@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7694,
+  "total_items": 7709,
   "parents": [
     {
       "parent": "business-finance",
@@ -36,7 +36,7 @@
     },
     {
       "parent": "crypto",
-      "items": 856,
+      "items": 857,
       "pages": 72,
       "children": [
         {
@@ -66,14 +66,14 @@
         {
           "child": "regulation-security",
           "slug": "crypto/regulation-security",
-          "items": 58,
+          "items": 59,
           "pages": 5
         }
       ]
     },
     {
       "parent": "culture-arts",
-      "items": 704,
+      "items": 706,
       "pages": 59,
       "children": [
         {
@@ -103,7 +103,7 @@
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 146,
+          "items": 148,
           "pages": 13
         }
       ]
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 920,
+      "items": 923,
       "pages": 77,
       "children": [
         {
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 73,
+          "items": 75,
           "pages": 7
         },
         {
@@ -214,7 +214,7 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 75,
+          "items": 76,
           "pages": 7
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 933,
+      "items": 934,
       "pages": 78,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 223,
+          "items": 224,
           "pages": 19
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1117,
+      "items": 1118,
       "pages": 94,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 95,
+          "items": 96,
           "pages": 8
         },
         {
@@ -356,8 +356,8 @@
     },
     {
       "parent": "travel",
-      "items": 822,
-      "pages": 69,
+      "items": 829,
+      "pages": 70,
       "children": [
         {
           "child": "destinations",
@@ -368,7 +368,7 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 19,
+          "items": 20,
           "pages": 2
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 125,
+          "items": 131,
           "pages": 11
         }
       ]

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "when-dirt-meets-data-scottsmiracle-gro-saved-150m-using-ai-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "When dirt meets data: ScottsMiracle-Gro saved $150M using AI",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/7d0hJ4qtWTk5GaypvPfHJY/53aa8c26a39b5f10e16b3073dd73a388/videoframe_878.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/when-dirt-meets-data-scottsmiracle-gro-saved-150m-using-ai-2025-10-11/",
+      "excerpt": "<p><b>How a semiconductor veteran turned over a century of horticultural wisdom into AI-led competitive advantage </b></p><p>For decades, a ritual played out across ScottsMiracle-Gro’s media facilities. Every few weeks, workers walked acres of towering compost and wood chip pi…",
+      "source": "https://venturebeat.com/ai/when-dirt-meets-data-scottsmiracle-gro",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "liquid-ai-releases-lfm2-8b-a1b-an-on-device-mixture-of-experts-with-8",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1141,10 +1153,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 95,
+  "count": 96,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 95,
+    "total_items": 96,
     "per_page": 12,
     "total_pages": 8
   }

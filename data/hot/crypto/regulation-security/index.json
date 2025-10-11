@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "crypto-com-ceo-calls-for-probe-into-exchanges-after-20b-liquidations-2",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Crypto.com CEO calls for probe into exchanges after $20B liquidations",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWQzNWMtMWM3MC03ZDU2LTg0YzgtM2Y4YjAxNzdiNGEz.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/crypto-com-ceo-calls-for-probe-into-exchanges-after-20b-liquidations-2/",
+      "excerpt": "Crypto.com CEO Urges Probe After $20B Liquidations Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Amin Haqshanas 5 hours ago Crypto.com CEO calls for probe into exchanges after $20B liquidations Crypto.com CEO Kris Marszalek has urged regulat…",
+      "source": "https://cointelegraph.com/news/crypto-com-ceo-regulatory-probe-exchanges-20b-liquidations?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "tokenization-needs-guardrails-not-just-innovation-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -697,10 +709,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 58,
-  "updated_at": "2025-10-10",
+  "count": 59,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 58,
+    "total_items": 59,
     "per_page": 12,
     "total_pages": 5
   }
