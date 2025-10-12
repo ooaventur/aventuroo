@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7721,
+  "total_items": 7724,
   "parents": [
     {
       "parent": "business-finance",
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 936,
-      "pages": 78,
+      "items": 938,
+      "pages": 79,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 225,
+          "items": 227,
           "pages": 19
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1121,
+      "items": 1122,
       "pages": 94,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 99,
+          "items": 100,
           "pages": 9
         },
         {

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7721,
+  "total_items": 7724,
   "shards": [
     {
       "parent": "business-finance",
@@ -219,7 +219,7 @@
       "path": "entertainment/tv-streaming/index.json",
       "items": 240,
       "first_date": "2025-10-02",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -349,9 +349,9 @@
       "child": "economy",
       "slug": "news/economy",
       "path": "news/economy/index.json",
-      "items": 225,
+      "items": 227,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 19,
       "is_global": false
     },
@@ -470,9 +470,9 @@
       "child": "ai-news",
       "slug": "tech-ai/ai-news",
       "path": "tech-ai/ai-news/index.json",
-      "items": 99,
+      "items": 100,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 9,
       "is_global": false
     },
@@ -505,7 +505,7 @@
       "path": "tech-ai/gaming-tech/index.json",
       "items": 240,
       "first_date": "2025-10-04",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },

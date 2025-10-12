@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-fr",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Sentient AI Releases ROMA: An Open-Source and AGI Focused Meta-Agent Framework for Building AI Agents with Hierarchical Task Execution",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-38.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-fr/",
+      "excerpt": "Sentient AI Releases ROMA: An Open-Source and AGI Focused Meta-Agent Framework for Building AI Agents with Hierarchical Task Execution - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Se…",
+      "source": "https://www.marktechpost.com/2025/10/11/sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-framework-for-building-ai-agents-with-hierarchical-task-execution/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "when-dirt-meets-data-scottsmiracle-gro-saved-150m-using-ai-2025-10-11",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1189,10 +1201,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 99,
-  "updated_at": "2025-10-11",
+  "count": 100,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 99,
+    "total_items": 100,
     "per_page": 12,
     "total_pages": 9
   }

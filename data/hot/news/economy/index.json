@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-is-existential-trump-s-tariffs-drive-us-car-sector-into-turmoil-2",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "‘This is existential’: Trump’s tariffs drive US car sector into turmoil",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F2c775cb0-77f4-4866-8160-ce2970b8ea35.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/this-is-existential-trump-s-tariffs-drive-us-car-sector-into-turmoil-2/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/55d76579-b794-46f6-aa4d-41588d9fd44d",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "technological-sovereignty-with-american-characteristics-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Technological sovereignty with American characteristics",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F91dca73d-8501-40d8-9e64-33bd10c885d0.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/technological-sovereignty-with-american-characteristics-2025-10-12/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/caf2f510-e311-4fe1-a450-36dd1f244c46",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-i-have-to-buy-doughnuts-with-cash-2025-10-11",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -2701,10 +2725,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 225,
-  "updated_at": "2025-10-11",
+  "count": 227,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 225,
+    "total_items": 227,
     "per_page": 12,
     "total_pages": 19
   }
