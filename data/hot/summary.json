@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7724,
+  "total_items": 7734,
   "parents": [
     {
       "parent": "business-finance",
@@ -73,8 +73,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 708,
-      "pages": 59,
+      "items": 711,
+      "pages": 60,
       "children": [
         {
           "child": "arts",
@@ -97,7 +97,7 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 146,
+          "items": 149,
           "pages": 13
         },
         {
@@ -184,8 +184,8 @@
     },
     {
       "parent": "lifestyle",
-      "items": 923,
-      "pages": 77,
+      "items": 925,
+      "pages": 78,
       "children": [
         {
           "child": "beauty-style",
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 75,
+          "items": 76,
           "pages": 7
         },
         {
@@ -208,7 +208,7 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 52,
+          "items": 53,
           "pages": 5
         },
         {
@@ -227,14 +227,14 @@
     },
     {
       "parent": "news",
-      "items": 938,
+      "items": 942,
       "pages": 79,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 227,
-          "pages": 19
+          "items": 230,
+          "pages": 20
         },
         {
           "child": "general",
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 231,
+          "items": 232,
           "pages": 20
         },
         {
@@ -356,7 +356,7 @@
     },
     {
       "parent": "travel",
-      "items": 832,
+      "items": 833,
       "pages": 70,
       "children": [
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 134,
+          "items": 135,
           "pages": 12
         }
       ]

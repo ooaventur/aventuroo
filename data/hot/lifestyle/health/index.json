@@ -49,6 +49,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "breakthrough-compounds-may-reverse-nerve-damage-caused-by-multiple-scl",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis",
+      "cover": "https://www.sciencedaily.com/images/1920/multiple-sclerosis-nerve-disorder-and-damaged-myelin.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/breakthrough-compounds-may-reverse-nerve-damage-caused-by-multiple-scl/",
+      "excerpt": "Breakthrough compounds may reverse nerve damage caused by multiple sclerosis | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from r…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251011102259.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-toxic-alzheimer-s-protein-could-be-the-key-to-fighting-cancer-2025-1",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -901,10 +913,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 75,
+  "count": 76,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 75,
+    "total_items": 76,
     "per_page": 12,
     "total_pages": 7
   }

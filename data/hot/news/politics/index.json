@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "jewish-parents-fear-sending-their-children-to-university-phillipson-20",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Jewish parents fear sending their children to university - Phillipson",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/7213/live/fe993820-a74d-11f0-928c-71dbb8619e94.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/jewish-parents-fear-sending-their-children-to-university-phillipson-20/",
+      "excerpt": "Jewish parents fear sending their children to uni - Phillipson Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England…",
+      "source": "https://www.bbc.com/news/videos/cr5q5j91ve2o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ap-top-25-poll-preview-major-top-10-shakeups-in-store-after-oklahoma-a",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -2773,10 +2785,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 231,
+  "count": 232,
   "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 231,
+    "total_items": 232,
     "per_page": 12,
     "total_pages": 20
   }

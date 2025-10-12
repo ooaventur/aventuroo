@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7724,
+  "total_items": 7734,
   "shards": [
     {
       "parent": "business-finance",
@@ -20,7 +20,7 @@
       "slug": "business-finance/general",
       "path": "business-finance/general/index.json",
       "items": 240,
-      "first_date": "2025-10-06",
+      "first_date": "2025-10-07",
       "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
@@ -76,7 +76,7 @@
       "path": "crypto/guides/index.json",
       "items": 240,
       "first_date": "2025-10-03",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -109,7 +109,7 @@
       "path": "culture-arts/arts/index.json",
       "items": 240,
       "first_date": "2025-09-30",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -140,9 +140,9 @@
       "child": "general",
       "slug": "culture-arts/general",
       "path": "culture-arts/general/index.json",
-      "items": 146,
+      "items": 149,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 13,
       "is_global": false
     },
@@ -164,7 +164,7 @@
       "path": "entertainment/cinematography/index.json",
       "items": 240,
       "first_date": "2025-09-30",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -230,7 +230,7 @@
       "path": "food-drink/drink/index.json",
       "items": 240,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -273,7 +273,7 @@
       "slug": "index",
       "path": "index/index.json",
       "items": 240,
-      "first_date": "2025-10-11",
+      "first_date": "2025-10-12",
       "last_date": "2025-11-13",
       "pages": 20,
       "is_global": true
@@ -284,7 +284,7 @@
       "slug": "lifestyle/beauty-style",
       "path": "lifestyle/beauty-style/index.json",
       "items": 240,
-      "first_date": "2025-10-08",
+      "first_date": "2025-10-09",
       "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
@@ -294,7 +294,7 @@
       "child": "health",
       "slug": "lifestyle/health",
       "path": "lifestyle/health/index.json",
-      "items": 75,
+      "items": 76,
       "first_date": "2025-09-26",
       "last_date": "2025-10-11",
       "pages": 7,
@@ -306,8 +306,8 @@
       "slug": "lifestyle/home-design",
       "path": "lifestyle/home-design/index.json",
       "items": 240,
-      "first_date": "2025-10-05",
-      "last_date": "2025-10-11",
+      "first_date": "2025-10-06",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -316,9 +316,9 @@
       "child": "index",
       "slug": "lifestyle",
       "path": "lifestyle/index.json",
-      "items": 52,
+      "items": 53,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-10",
+      "last_date": "2025-10-12",
       "pages": 5,
       "is_global": false
     },
@@ -339,8 +339,8 @@
       "slug": "lifestyle/outdoor",
       "path": "lifestyle/outdoor/index.json",
       "items": 240,
-      "first_date": "2025-09-29",
-      "last_date": "2025-10-11",
+      "first_date": "2025-09-30",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -349,10 +349,10 @@
       "child": "economy",
       "slug": "news/economy",
       "path": "news/economy/index.json",
-      "items": 227,
+      "items": 230,
       "first_date": "2025-09-26",
       "last_date": "2025-10-12",
-      "pages": 19,
+      "pages": 20,
       "is_global": false
     },
     {
@@ -361,7 +361,7 @@
       "slug": "news/general",
       "path": "news/general/index.json",
       "items": 240,
-      "first_date": "2025-10-08",
+      "first_date": "2025-10-09",
       "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
@@ -371,7 +371,7 @@
       "child": "politics",
       "slug": "news/politics",
       "path": "news/politics/index.json",
-      "items": 231,
+      "items": 232,
       "first_date": "2025-09-26",
       "last_date": "2025-10-12",
       "pages": 20,
@@ -603,8 +603,8 @@
       "slug": "travel/tips-planning",
       "path": "travel/tips-planning/index.json",
       "items": 240,
-      "first_date": "2025-10-05",
-      "last_date": "2025-10-11",
+      "first_date": "2025-10-06",
+      "last_date": "2025-10-12",
       "pages": 20,
       "is_global": false
     },
@@ -624,9 +624,9 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "path": "travel/trip-ideas/index.json",
-      "items": 134,
+      "items": 135,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-11",
+      "last_date": "2025-10-12",
       "pages": 12,
       "is_global": false
     }

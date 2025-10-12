@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "tim-curry-does-the-time-warp-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Tim Curry Does the Time Warp",
+      "cover": "https://media.newyorker.com/photos/68e8054a6b1a7f30878d502a/master/pass/Shulman-GettyImages-1266238429.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/tim-curry-does-the-time-warp-2025-10-12/",
+      "excerpt": "Tim Curry Does the Time Warp | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The New Yorker Inter…",
+      "source": "https://www.newyorker.com/culture/the-new-yorker-interview/tim-curry-does-the-time-warp",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "restaurant-review-chateau-royale-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Restaurant Review: Chateau Royale",
+      "cover": "https://media.newyorker.com/photos/68e7f4c623e10998447573a0/master/pass/1-Thea%20Traff_Tables-Chateau-Royale_Final-01.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/restaurant-review-chateau-royale-2025-10-12/",
+      "excerpt": "Restaurant Review: Chateau Royale | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu The Food Scene …",
+      "source": "https://www.newyorker.com/culture/the-food-scene/how-french-should-a-restaurant-be",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-life-in-prison-to-the-eras-tour-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "From Life in Prison to the Eras Tour",
+      "cover": "https://media.newyorker.com/photos/68e81d085376c43d8c7f0352/master/pass/Illustration-Final-SwiftGarcia.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/from-life-in-prison-to-the-eras-tour-2025-10-12/",
+      "excerpt": "From Life in Prison to the Eras Tour | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Personal His…",
+      "source": "https://www.newyorker.com/culture/personal-history/from-life-in-prison-to-the-eras-tour",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-making-of-adaptation-2025-10-11",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1753,10 +1789,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 146,
-  "updated_at": "2025-10-11",
+  "count": 149,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 146,
+    "total_items": 149,
     "per_page": 12,
     "total_pages": 13
   }
