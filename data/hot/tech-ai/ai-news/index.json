@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "meet-opentslm-a-family-of-time-series-language-models-tslms-revolution",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Meet OpenTSLM: A Family of Time-Series Language Models (TSLMs) Revolutionizing Medical Time-Series Analysis",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-36.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meet-opentslm-a-family-of-time-series-language-models-tslms-revolution/",
+      "excerpt": "Meet OpenTSLM: A Family of Time-Series Language Models (TSLMs) Revolutionizing Medical Time-Series Analysis - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Prem…",
+      "source": "https://www.marktechpost.com/2025/10/11/meet-opentslm-a-family-of-time-series-language-models-tslms-revolutionizing-medical-time-series-analysis/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "liquid-ai-releases-lfm2-8b-a1b-an-on-device-mixture-of-experts-with-8",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -22,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/liquid-ai-releases-lfm2-8b-a1b-an-on-device-mixture-of-experts-with-8/",
       "excerpt": "Liquid AI Releases LFM2-8B-A1B: An On-Device Mixture-of-Experts with 8.3B Params and a 1.5B Active Params per Token - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News …",
       "source": "https://www.marktechpost.com/2025/10/10/liquid-ai-releases-lfm2-8b-a1b-an-on-device-mixture-of-experts-with-8-3b-params-and-a-1-5b-active-params-per-token/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-vibe-coding-ruining-a-generation-of-engineers-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Is vibe coding ruining a generation of engineers?",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/6O2FgBkLOdYG0bQrbbceee/70c01c9a6f6498e1888781c6ec759dd8/Junior_coders.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/is-vibe-coding-ruining-a-generation-of-engineers-2025-10-11/",
+      "excerpt": "<p>AI tools are revolutionizing <a href=\"https://venturebeat.com/ai/replacing-coders-with-ai-why-bill-gates-sam-altman-and-experience-say-you\">software development</a> by automating repetitive tasks, refactoring bloated code, and identifying bugs in real-time. Developers can n…",
+      "source": "https://venturebeat.com/ai/is-vibe-coding-ruining-a-generation-of-engineers",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-coding-guide-to-master-self-supervised-learning-with-lightly-ai-for",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "A Coding Guide to Master Self-Supervised Learning with Lightly AI for Efficient Data Curation and Active Learning",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-37.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-guide-to-master-self-supervised-learning-with-lightly-ai-for/",
+      "excerpt": "A Coding Guide to Master Self-Supervised Learning with Lightly AI for Efficient Data Curation and Active Learning - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hu…",
+      "source": "https://www.marktechpost.com/2025/10/11/a-coding-guide-to-master-self-supervised-learning-with-lightly-ai-for-efficient-data-curation-and-active-learning/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1153,11 +1189,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 96,
+  "count": 99,
   "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 96,
+    "total_items": 99,
     "per_page": 12,
-    "total_pages": 8
+    "total_pages": 9
   }
 }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "thinking-machines-lab-co-founder-andrew-tulloch-heads-to-meta-2025-10",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Thinking Machines Lab co-founder Andrew Tulloch heads to Meta",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2173579488.jpg?resize=1200,799",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/thinking-machines-lab-co-founder-andrew-tulloch-heads-to-meta-2025-10/",
+      "excerpt": "Thinking Machines Lab co-founder Andrew Tulloch heads to Meta | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI …",
+      "source": "https://techcrunch.com/2025/10/11/thinking-machines-lab-co-founder-andrew-tulloch-heads-to-meta/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "kalshi-hits-5b-valuation-days-after-rival-polymarket-gets-2b-nyse-back",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -1117,10 +1129,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 93,
-  "updated_at": "2025-10-10",
+  "count": 94,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 93,
+    "total_items": 94,
     "per_page": 12,
     "total_pages": 8
   }

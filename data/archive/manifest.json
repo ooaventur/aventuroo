@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3730,
+  "total_items": 3740,
   "shards": [
     {
       "parent": "business-finance",
@@ -1983,6 +1983,45 @@
       "parent": "travel",
       "child": "experiences",
       "slug": "travel/experiences",
+      "year": 2020,
+      "month": 11,
+      "path": "travel/experiences/2020/11/index.json",
+      "path_gz": "travel/experiences/2020/11/index.json.gz",
+      "items": 3,
+      "first_date": "2020-11-09",
+      "last_date": "2020-11-25",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2020,
+      "month": 12,
+      "path": "travel/experiences/2020/12/index.json",
+      "path_gz": "travel/experiences/2020/12/index.json.gz",
+      "items": 1,
+      "first_date": "2020-12-16",
+      "last_date": "2020-12-16",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2021,
+      "month": 1,
+      "path": "travel/experiences/2021/01/index.json",
+      "path_gz": "travel/experiences/2021/01/index.json.gz",
+      "items": 1,
+      "first_date": "2021-01-15",
+      "last_date": "2021-01-15",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
       "year": 2021,
       "month": 3,
       "path": "travel/experiences/2021/03/index.json",
@@ -2862,6 +2901,45 @@
       "first_date": "2025-09-24",
       "last_date": "2025-09-25",
       "pages": 5
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2021,
+      "month": 2,
+      "path": "travel/trip-ideas/2021/02/index.json",
+      "path_gz": "travel/trip-ideas/2021/02/index.json.gz",
+      "items": 1,
+      "first_date": "2021-02-03",
+      "last_date": "2021-02-03",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2021,
+      "month": 3,
+      "path": "travel/trip-ideas/2021/03/index.json",
+      "path_gz": "travel/trip-ideas/2021/03/index.json.gz",
+      "items": 3,
+      "first_date": "2021-03-05",
+      "last_date": "2021-03-05",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2021,
+      "month": 4,
+      "path": "travel/trip-ideas/2021/04/index.json",
+      "path_gz": "travel/trip-ideas/2021/04/index.json.gz",
+      "items": 1,
+      "first_date": "2021-04-16",
+      "last_date": "2021-04-16",
+      "pages": 1
     },
     {
       "parent": "travel",

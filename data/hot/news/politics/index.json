@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "ap-top-25-poll-preview-major-top-10-shakeups-in-store-after-oklahoma-a",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "AP Top 25 poll preview: Major top 10 shakeups in store after Oklahoma and Oregon losses",
+      "cover": "https://s.abcnews.com/images/Sports/wirestory_2d4adb68f52251993cbc7041e4679395_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/ap-top-25-poll-preview-major-top-10-shakeups-in-store-after-oklahoma-a/",
+      "excerpt": "AP Top 25 poll preview: Major top 10 shakeups in store after Oklahoma and Oregon losses - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream …",
+      "source": "https://abcnews.go.com/Politics/wireStory/ap-top-25-poll-preview-major-top-10-126436120",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "republicans-try-to-weaken-50-year-old-law-protecting-whales-seals-and",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -2761,10 +2773,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 230,
-  "updated_at": "2025-10-11",
+  "count": 231,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 230,
+    "total_items": 231,
     "per_page": 12,
     "total_pages": 20
   }

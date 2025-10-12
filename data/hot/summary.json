@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7709,
+  "total_items": 7721,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 534,
+      "items": 535,
       "pages": 45,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 93,
+          "items": 94,
           "pages": 8
         },
         {
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 706,
+      "items": 708,
       "pages": 59,
       "children": [
         {
@@ -91,7 +91,7 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 145,
+          "items": 146,
           "pages": 13
         },
         {
@@ -103,7 +103,7 @@
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 148,
+          "items": 149,
           "pages": 13
         }
       ]
@@ -153,7 +153,7 @@
     },
     {
       "parent": "food-drink",
-      "items": 546,
+      "items": 547,
       "pages": 46,
       "children": [
         {
@@ -165,7 +165,7 @@
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 64,
+          "items": 65,
           "pages": 6
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 934,
+      "items": 936,
       "pages": 78,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 224,
+          "items": 225,
           "pages": 19
         },
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 230,
+          "items": 231,
           "pages": 20
         },
         {
@@ -307,14 +307,14 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1118,
+      "items": 1121,
       "pages": 94,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 96,
-          "pages": 8
+          "items": 99,
+          "pages": 9
         },
         {
           "child": "audio-creator",
@@ -356,7 +356,7 @@
     },
     {
       "parent": "travel",
-      "items": 829,
+      "items": 832,
       "pages": 70,
       "children": [
         {
@@ -404,8 +404,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 131,
-          "pages": 11
+          "items": 134,
+          "pages": 12
         }
       ]
     }

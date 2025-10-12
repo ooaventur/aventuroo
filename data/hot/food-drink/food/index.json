@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "31-winter-salads-we-re-loving-right-now-2025-10-11",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "31 Winter Salads We’re Loving Right Now",
+      "cover": "https://assets.bonappetit.com/photos/6830a02fd85b51976eb5217e/master/pass/20250519_04_Muffaletta%20Salad_044_FINAL.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/31-winter-salads-we-re-loving-right-now-2025-10-11/",
+      "excerpt": "31 Winter Salads We’re Loving Right Now | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Recipes 31 Winter S…",
+      "source": "https://www.bonappetit.com/gallery/winter-salads-recipes-ideas",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-asashi-beer-supply-in-japan-almost-ran-out-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -769,10 +781,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 64,
-  "updated_at": "2025-10-10",
+  "count": 65,
+  "updated_at": "2025-10-11",
   "pagination": {
-    "total_items": 64,
+    "total_items": 65,
     "per_page": 12,
     "total_pages": 6
   }
