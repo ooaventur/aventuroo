@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "these-scottsdale-airbnbs-are-tailor-made-for-bachelorette-parties-2025",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "These Scottsdale Airbnbs Are Tailor-Made for Bachelorette Parties",
+      "cover": "https://media.cntraveler.com/photos/68debd46e440c29c7040a348/master/pass/CNT_Best_Bachelorette_Airbnbs_in_Scottsdale_1083470536118137891.png",
+      "canonical": "https://archive.aventuroo.com/travel/general/these-scottsdale-airbnbs-are-tailor-made-for-bachelorette-parties-2025/",
+      "excerpt": "These Scottsdale Airbnbs Are Tailor-Made for Bachelorette Parties | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice…",
+      "source": "https://www.cntraveler.com/gallery/best-airbnbs-in-scottsdale",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "my-favorite-airbnb-in-phoenicia-ny-a-cozy-catskills-treehouse-near-pho",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "My Favorite Airbnb in Phoenicia, NY: A Cozy Catskills Treehouse Near Phoenicia Diner",
+      "cover": "https://media.cntraveler.com/photos/68e9484b51f1935d0244a54a/master/pass/Untitled%20design-3.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/my-favorite-airbnb-in-phoenicia-ny-a-cozy-catskills-treehouse-near-pho/",
+      "excerpt": "My Favorite Airbnb in Phoenicia, NY: A Cozy Catskills Treehouse Near Phoenicia Diner | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Vi…",
+      "source": "https://www.cntraveler.com/story/my-favorite-airbnb-a-cozy-catskills-treehouse-near-phoenicia-diner",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-wellness-weekend-can-now-include-sports-clinics-with-pro-athletes",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1189,10 +1213,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 99,
-  "updated_at": "2025-10-11",
+  "count": 101,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 99,
+    "total_items": 101,
     "per_page": 12,
     "total_pages": 9
   }

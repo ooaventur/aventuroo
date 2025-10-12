@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fake-inflation-refund-texts-target-new-yorkers-in-new-scam-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Fake 'Inflation Refund' texts target New Yorkers in new scam",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/10/14/hand-holding-dollar-sign.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/fake-inflation-refund-texts-target-new-yorkers-in-new-scam-2025-10-12/",
+      "excerpt": "Fake 'Inflation Refund' texts target New Yorkers in new scam News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million users…",
+      "source": "https://www.bleepingcomputer.com/news/security/fake-inflation-refund-texts-target-new-yorkers-in-new-scam/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "spain-dismantles-gxc-team-cybercrime-syndicate-arrests-leader-2025-10",
+      "date": "2025-10-11",
+      "published_at": "2025-10-11T00:00:00Z",
+      "created_at": "2025-10-11T00:00:00Z",
+      "title": "Spain dismantles “GXC Team” cybercrime syndicate, arrests leader",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/10/money.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/spain-dismantles-gxc-team-cybercrime-syndicate-arrests-leader-2025-10/",
+      "excerpt": "Spain dismantles “GXC Team” cybercrime syndicate, arrests leader News Featured Latest SonicWall: Firewall configs stolen for all cloud backup customers New FileFix attack uses cache smuggling to evade security software Hackers claim Discord breach exposed data of 5.5 million u…",
+      "source": "https://www.bleepingcomputer.com/news/security/spain-dismantles-gxc-team-cybercrime-syndicate-arrests-leader/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "windows-11-23h2-home-and-pro-reach-end-of-support-in-30-days-2025-10-1",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -2197,10 +2221,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 183,
+  "count": 185,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 183,
+    "total_items": 185,
     "per_page": 12,
     "total_pages": 16
   }

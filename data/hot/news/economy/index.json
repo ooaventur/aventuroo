@@ -37,6 +37,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hostage-releases-and-upbeat-us-bank-earnings-herald-a-better-few-days",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Hostage releases and upbeat US bank earnings herald a better few days",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd68e9c11-5731-462d-b170-2eaa70c1457a.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/hostage-releases-and-upbeat-us-bank-earnings-herald-a-better-few-days/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/7955f1a5-3da9-4edb-a3bf-8f912fd36efa",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "global-economy-defies-trump-s-trade-war-but-cracks-in-the-foundation-e",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Global economy defies Trump’s trade war but ‘cracks in the foundation’ emerge",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fa6849c21-26ae-42a9-9ded-28f142040847.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/global-economy-defies-trump-s-trade-war-but-cracks-in-the-foundation-e/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/6c8486ae-e5eb-4343-a723-57416cf772af",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "fifa-world-cup-fans-are-outraged-over-what-they-say-are-unprecedented",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -2761,10 +2785,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 230,
+  "count": 232,
   "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 230,
+    "total_items": 232,
     "per_page": 12,
     "total_pages": 20
   }

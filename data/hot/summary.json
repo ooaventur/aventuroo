@@ -1,18 +1,18 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7734,
+  "total_items": 7753,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 535,
+      "items": 538,
       "pages": 45,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 94,
-          "pages": 8
+          "items": 97,
+          "pages": 9
         },
         {
           "child": "general",
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 925,
+      "items": 929,
       "pages": 78,
       "children": [
         {
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 76,
+          "items": 79,
           "pages": 7
         },
         {
@@ -214,7 +214,7 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 76,
+          "items": 77,
           "pages": 7
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 942,
+      "items": 944,
       "pages": 79,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 230,
+          "items": 232,
           "pages": 20
         },
         {
@@ -307,7 +307,7 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1122,
+      "items": 1124,
       "pages": 94,
       "children": [
         {
@@ -349,15 +349,15 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 183,
+          "items": 185,
           "pages": 16
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 833,
-      "pages": 70,
+      "items": 841,
+      "pages": 71,
       "children": [
         {
           "child": "destinations",
@@ -368,13 +368,13 @@
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 20,
+          "items": 21,
           "pages": 2
         },
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 99,
+          "items": 101,
           "pages": 9
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 135,
+          "items": 140,
           "pages": 12
         }
       ]
