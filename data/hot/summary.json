@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7812,
+  "total_items": 7863,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 542,
+      "items": 551,
       "pages": 46,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 97,
+          "items": 100,
           "pages": 9
         },
         {
@@ -23,13 +23,13 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 94,
+          "items": 96,
           "pages": 8
         },
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 111,
+          "items": 115,
           "pages": 10
         }
       ]
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 726,
+      "items": 731,
       "pages": 61,
       "children": [
         {
@@ -91,19 +91,19 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 151,
+          "items": 152,
           "pages": 13
         },
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 157,
+          "items": 158,
           "pages": 14
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 151,
+          "items": 154,
           "pages": 13
         }
       ]
@@ -153,7 +153,7 @@
     },
     {
       "parent": "food-drink",
-      "items": 548,
+      "items": 549,
       "pages": 46,
       "children": [
         {
@@ -165,7 +165,7 @@
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 66,
+          "items": 67,
           "pages": 6
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 939,
+      "items": 944,
       "pages": 79,
       "children": [
         {
@@ -196,8 +196,8 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 82,
-          "pages": 7
+          "items": 85,
+          "pages": 8
         },
         {
           "child": "home-design",
@@ -208,13 +208,13 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 54,
+          "items": 55,
           "pages": 5
         },
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 83,
+          "items": 84,
           "pages": 7
         },
         {
@@ -227,7 +227,7 @@
     },
     {
       "parent": "news",
-      "items": 957,
+      "items": 960,
       "pages": 80,
       "children": [
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 237,
+          "items": 240,
           "pages": 20
         },
         {
@@ -307,14 +307,14 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1131,
-      "pages": 95,
+      "items": 1146,
+      "pages": 96,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 107,
-          "pages": 9
+          "items": 109,
+          "pages": 10
         },
         {
           "child": "audio-creator",
@@ -325,7 +325,7 @@
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 113,
+          "items": 118,
           "pages": 10
         },
         {
@@ -349,38 +349,38 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 185,
-          "pages": 16
+          "items": 193,
+          "pages": 17
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 845,
-      "pages": 71,
+      "items": 858,
+      "pages": 72,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 41,
+          "items": 43,
           "pages": 4
         },
         {
           "child": "experiences",
           "slug": "travel/experiences",
-          "items": 21,
-          "pages": 2
+          "items": 25,
+          "pages": 3
         },
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 101,
+          "items": 102,
           "pages": 9
         },
         {
           "child": "stays-hotels",
           "slug": "travel/stays-hotels",
-          "items": 31,
+          "items": 32,
           "pages": 3
         },
         {
@@ -404,8 +404,8 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 144,
-          "pages": 12
+          "items": 149,
+          "pages": 13
         }
       ]
     }

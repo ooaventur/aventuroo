@@ -25,6 +25,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "william-patrick-hitler-the-nephew-of-adolf-hitler-who-fought-on-the-si",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "William Patrick Hitler, The Nephew Of Adolf Hitler Who Fought On The Side Of The Allies During World War II",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2023/02/william-patrick-hitler.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/william-patrick-hitler-the-nephew-of-adolf-hitler-who-fought-on-the-si/",
+      "excerpt": "William Patrick Hitler: Adolf Hitler's Nephew Who Fought For The U.S. All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email William Patrick Hitler, The Nephew Of Adolf Hitler Who Fought On The Side…",
+      "source": "https://allthatsinteresting.com/william-patrick-hitler",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-eerie-story-of-la-pascualita-the-mannequin-that-some-people-think",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "The Eerie Story Of La Pascualita, The Mannequin That Some People Think Is An Embalmed Corpse",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2023/07/la-pascualita.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-eerie-story-of-la-pascualita-the-mannequin-that-some-people-think/",
+      "excerpt": "La Pascualita, Mexico's Mysterious 'Corpse Bride' Mannequin All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Eerie Story Of La Pascualita, The Mannequin That Some People Think Is An Embalm…",
+      "source": "https://allthatsinteresting.com/la-pascualita",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "21-chilling-photos-of-serial-killer-ed-gein-s-house-and-the-horrific-c",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "21 Chilling Photos Of Serial Killer Ed Gein’s House — And The Horrific Crimes He Committed There",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2017/11/edward-gein-home-winter.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/21-chilling-photos-of-serial-killer-ed-gein-s-house-and-the-horrific-c/",
+      "excerpt": "Ed Gein's House: Photos Of America's Most Disturbing Crime Scene All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email 21 Chilling Photos Of Serial Killer Ed Gein’s House — And The Horrific Crimes …",
+      "source": "https://allthatsinteresting.com/ed-gein-house",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "think-men-were-always-the-hunters-stone-age-women-took-down-mammoths-t",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1813,10 +1849,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 151,
+  "count": 154,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 151,
+    "total_items": 154,
     "per_page": 12,
     "total_pages": 13
   }

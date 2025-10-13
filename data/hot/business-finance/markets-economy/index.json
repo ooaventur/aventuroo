@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-eu-must-find-a-regulatory-reverse-gear-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "The EU must find a regulatory reverse gear",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fc28a032c-72f5-46ff-b916-3672f0eaccc0.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/the-eu-must-find-a-regulatory-reverse-gear-2025-10-13/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/6519cf91-e61c-43ea-ae80-fb616d37141b",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "strava-plots-wall-street-debut-as-running-boom-boosts-fitness-app-2025",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/s-p-warns-on-us-insurers-growing-bet-on-private-credit-2025-10-13/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/c68d5a70-9ac3-43dd-8857-310cb3fb3f5c",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "farage-tells-crypto-conference-i-am-your-champion-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Farage tells crypto conference ‘I am your champion’",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1f2a1f34-17cd-47ff-a0cb-1e0a7f8e6648.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/farage-tells-crypto-conference-i-am-your-champion-2025-10-13/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/a12fb65d-25e3-4bf9-8459-7ee52e694dab",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1129,10 +1153,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 94,
+  "count": 96,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 94,
+    "total_items": 96,
     "per_page": 12,
     "total_pages": 8
   }

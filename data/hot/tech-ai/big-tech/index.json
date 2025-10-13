@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "quantum-stocks-surge-after-jpmorgan-investing-push-into-strategic-tech",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Quantum stocks surge after JPMorgan investing push into strategic tech",
+      "cover": "https://image.cnbcfm.com/api/v1/image/107300946-1694709033004-gettyimages-1347310377-79.jpeg?v=1760368287&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/quantum-stocks-surge-after-jpmorgan-investing-push-into-strategic-tech/",
+      "excerpt": "Quantum stocks surge after JPMorgan investing push into strategic tech Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Transportation …",
+      "source": "https://www.cnbc.com/2025/10/13/quantum-stocks-jpmorgan-investing-push.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "oracle-ceo-magouyrk-of-course-openai-can-pay-60-billion-per-year-2025",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Oracle CEO Magouyrk: 'Of course' OpenAI can pay $60 billion per year",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108211335-1760372227610-ClayMagouryrk-1.jpg?v=1760372374&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/oracle-ceo-magouyrk-of-course-openai-can-pay-60-billion-per-year-2025/",
+      "excerpt": "In July, OpenAI signed a five-year cloud deal with Oracle, which is confident that the startup will be able to pay its bills.",
+      "source": "https://www.cnbc.com/2025/10/13/oracle-ceo-magouyrk-of-course-openai-can-pay-60-billion-per-year.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "meta-shares-have-been-stuck-here-s-why-one-analyst-just-got-more-optim",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Meta shares have been stuck. Here's why one analyst just got more optimistic",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108085101-1736538668949-gettyimages-2173579376-META_CONNECT.jpeg?v=1760372494&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/meta-shares-have-been-stuck-here-s-why-one-analyst-just-got-more-optim/",
+      "excerpt": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "source": "https://www.cnbc.com/2025/10/13/meta-shares-have-been-stuck-heres-why-one-analyst-just-got-more-optimistic.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-broadcom-s-big-openai-deal-fits-into-the-data-center-boom-and-what",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "How Broadcom's big OpenAI deal fits into the data center boom and what it means for the AI trade",
+      "cover": "https://image.cnbcfm.com/api/v1/image/108075459-1734045037227-gettyimages-2189656779-075a6757_wegh5q6p.jpeg?v=1760375429&amp;w=1920&amp;h=1080",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/how-broadcom-s-big-openai-deal-fits-into-the-data-center-boom-and-what/",
+      "excerpt": "How Broadcom's OpenAI deal fits into data center boom; what it means for AI trade Skip Navigation Markets Pre-Markets U.S. Markets Currencies Cryptocurrency Futures & Commodities Bonds Funds & ETFs Business Economy Finance Health & Science Media Real Estate Energy Climate Tran…",
+      "source": "https://www.cnbc.com/2025/10/13/how-broadcoms-openai-deal-fits-into-data-center-boom-what-it-means-for-ai-trade.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chip-stocks-bounce-on-broadcom-openai-deal-and-easing-china-tensions-2",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Chip stocks bounce on Broadcom, OpenAI deal and easing China tensions",
+      "cover": "assets/img/cover-fallback.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/big-tech/chip-stocks-bounce-on-broadcom-openai-deal-and-easing-china-tensions-2/",
+      "excerpt": "President Donald Trump said in a post to Truth Social over the weekend to not worry about China and it \"will all be fine,\" quelling some market fears.",
+      "source": "https://www.cnbc.com/2025/10/13/chip-stocks-broadcom-open-ai-china-trump.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "we-tested-openai-s-sora-2-video-generator-to-find-out-why-hollywood-is",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -1357,10 +1417,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 113,
-  "updated_at": "2025-10-10",
+  "count": 118,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 113,
+    "total_items": 118,
     "per_page": 12,
     "total_pages": 10
   }

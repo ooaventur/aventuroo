@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "on-tiktok-women-deported-from-the-u-s-are-boldly-telling-their-stories",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "On TikTok, Women Deported From the U.S. Are Boldly Telling Their Stories",
+      "cover": "https://www.refinery29.com/images/11936861.png?crop=40%3A21",
+      "canonical": "https://archive.aventuroo.com/lifestyle/on-tiktok-women-deported-from-the-u-s-are-boldly-telling-their-stories/",
+      "excerpt": "Why Women Are Sharing Life After Deportation on TikTok Skip navigation! ADVERTISEMENT A community celebrating Black voices, Black art, and Black folx. Latines learning, remembering, healing, and finding joy in our diverse stories. Beautycon is a global platform that brings tog…",
+      "source": "https://www.refinery29.com/en-us/latina-deportation-stories-tiktok?utm_source=feed&utm_medium=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "can-the-national-guard-detain-and-arrest-you-here-are-some-surprising",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -649,10 +661,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 54,
+  "count": 55,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 54,
+    "total_items": 55,
     "per_page": 12,
     "total_pages": 5
   }

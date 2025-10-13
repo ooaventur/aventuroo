@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "This new AI technique creates ‘digital twin’ consumers, and it could kill the traditional survey industry",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/51ORdJ4l6mg6ZSTkJpGFOw/85fa4483c879359d1872778236f4fc20/nuneybits_Vector_art_of_AI_shopper_silhouette_e82a806b-f70d-4b1d-9418-71b2ffd65ea4.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill/",
+      "excerpt": "<p>A new <a href=\"https://arxiv.org/pdf/2510.08338\"><u>research paper</u></a> quietly published last week outlines a breakthrough method that allows large language models (LLMs) to simulate human consumer behavior with startling accuracy, a development that could reshape the m…",
+      "source": "https://venturebeat.com/ai/this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill-the",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "swireasoning-entropy-driven-alternation-of-latent-and-explicit-chain-o",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken/",
       "excerpt": "Google Introduces Speech-to-Retrieval (S2R) Approach that Maps a Spoken Query Directly to an Embedding and Retrieves Information without First Converting Speech to Text - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP…",
       "source": "https://www.marktechpost.com/2025/10/12/google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken-query-directly-to-an-embedding-and-retrieves-information-without-first-converting-speech-to-text/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "breaking-the-bottleneck-why-ai-demands-an-ssd-first-future-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Breaking the bottleneck: Why AI demands an SSD-first future",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4rRjfWe1S9u2XgvoKASwHM/ddafa77e43acdade763516ae3aa9a5fe/Solidigm_2.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/breaking-the-bottleneck-why-ai-demands-an-ssd-first-future-2025-10-13/",
+      "excerpt": "<p><i>Presented by Solidigm</i></p><hr/><p>As AI adoption surges, data centers face a critical bottleneck in storage — and traditional HDDs are at the center of it. Data that once sat idle as cold archives is now being pulled into frequent use to build more accurate models and…",
+      "source": "https://venturebeat.com/ai/breaking-the-bottleneck-why-ai-demands-an-ssd-first-future",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1285,11 +1309,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 107,
+  "count": 109,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 107,
+    "total_items": 109,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

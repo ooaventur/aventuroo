@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "visit-artist-studios-at-the-manufacturers-village-in-east-orange-new-j",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Visit Artist Studios at the Manufacturers Village in East Orange, New Jersey",
+      "cover": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/Tom-Nussbaum-3.jpg?fit=2400%2C1800&quality=90&ssl=1",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/visit-artist-studios-at-the-manufacturers-village-in-east-orange-new-j/",
+      "excerpt": "Visit Artist Studios at the Manufacturers Village in East Orange, New Jersey Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky YouTube …",
+      "source": "https://hyperallergic.com/1047939/visit-artist-studios-at-the-manufacturers-village-in-east-orange-new-jersey/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "v-r-lang-a-forgotten-queen-bee-of-modern-poetry-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1885,10 +1897,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 157,
+  "count": 158,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 157,
+    "total_items": 158,
     "per_page": 12,
     "total_pages": 14
   }
