@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Google Introduces Speech-to-Retrieval (S2R) Approach that Maps a Spoken Query Directly to an Embedding and Retrieves Information without First Converting Speech to Text",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-41.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken/",
+      "excerpt": "Google Introduces Speech-to-Retrieval (S2R) Approach that Maps a Spoken Query Directly to an Embedding and Retrieves Information without First Converting Speech to Text - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP…",
+      "source": "https://www.marktechpost.com/2025/10/12/google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken-query-directly-to-an-embedding-and-retrieves-information-without-first-converting-speech-to-text/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-coding-implementation-of-secure-ai-agent-with-self-auditing-guardrai",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1249,10 +1261,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 104,
+  "count": 105,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 104,
+    "total_items": 105,
     "per_page": 12,
     "total_pages": 9
   }

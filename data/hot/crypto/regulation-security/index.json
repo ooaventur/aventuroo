@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "white-house-reportedly-mulling-pardon-for-binance-founder-cz-2025-10-1",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "White House reportedly mulling pardon for Binance founder CZ",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjQtMTEvMDE5MzRiMGEtYTlkNi03YzJiLWIzOTQtYmQ4NDNkMDBjNjYy.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/white-house-reportedly-mulling-pardon-for-binance-founder-cz-2025-10-1/",
+      "excerpt": "Binance Founder CZ Reportedly in Line for Trump Administration Pardon Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Stephen Katte 3 hours ago White House reportedly mulling pardon for Binance founder CZ Binance co-founder Changpeng Zhao said…",
+      "source": "https://cointelegraph.com/news/trump-white-house-mulls-cz-pardon-binance?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "crypto-com-ceo-calls-for-probe-into-exchanges-after-20b-liquidations-2",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -709,10 +721,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 59,
-  "updated_at": "2025-10-11",
+  "count": 60,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 59,
+    "total_items": 60,
     "per_page": 12,
     "total_pages": 5
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "naked-bike-riders-demonstrate-against-federal-troops-in-portland-prote",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Naked bike riders demonstrate against federal troops in Portland protest",
+      "cover": "https://s.abcnews.com/images/US/wirestory_43ecafc5f5ce0a7d7f44dc016fbe86d0_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/naked-bike-riders-demonstrate-against-federal-troops-in-portland-prote/",
+      "excerpt": "Naked bike riders demonstrate against federal troops in Portland protest - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Naked bike r…",
+      "source": "https://abcnews.go.com/Politics/wireStory/naked-bike-riders-demonstrate-federal-troops-quintessentially-portland-126459644",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "jewish-parents-fear-sending-their-children-to-university-phillipson-20",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -2785,10 +2797,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 232,
-  "updated_at": "2025-10-12",
+  "count": 233,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 232,
+    "total_items": 233,
     "per_page": 12,
     "total_pages": 20
   }

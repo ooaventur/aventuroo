@@ -1,12 +1,12 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7771,
+  "total_items": 7785,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 538,
-      "pages": 45,
+      "items": 542,
+      "pages": 46,
       "children": [
         {
           "child": "companies-startups",
@@ -23,7 +23,7 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 90,
+          "items": 94,
           "pages": 8
         },
         {
@@ -36,7 +36,7 @@
     },
     {
       "parent": "crypto",
-      "items": 859,
+      "items": 860,
       "pages": 72,
       "children": [
         {
@@ -66,7 +66,7 @@
         {
           "child": "regulation-security",
           "slug": "crypto/regulation-security",
-          "items": 59,
+          "items": 60,
           "pages": 5
         }
       ]
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 934,
+      "items": 936,
       "pages": 78,
       "children": [
         {
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 80,
+          "items": 81,
           "pages": 7
         },
         {
@@ -214,7 +214,7 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 81,
+          "items": 82,
           "pages": 7
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 946,
-      "pages": 79,
+      "items": 952,
+      "pages": 80,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 234,
+          "items": 239,
           "pages": 20
         },
         {
@@ -245,7 +245,7 @@
         {
           "child": "politics",
           "slug": "news/politics",
-          "items": 232,
+          "items": 233,
           "pages": 20
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1128,
-      "pages": 94,
+      "items": 1129,
+      "pages": 95,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 104,
+          "items": 105,
           "pages": 9
         },
         {
