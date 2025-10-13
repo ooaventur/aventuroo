@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "woman-who-stole-ancient-relic-over-50-years-ago-returns-it-to-greece-2",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Woman who stole ancient relic over 50 years ago returns it to Greece",
+      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/13/71a28ac7-6649-4f4c-a683-530a986842ba/thumbnail/1200x630/047c0fe6c342021cc6918aa2fd098ba2/greece-558968522-1227687969404468-8897202409785170496-n.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/woman-who-stole-ancient-relic-over-50-years-ago-returns-it-to-greece-2/",
+      "excerpt": "German woman who stole ancient relic over 50 years ago returns it to Greece: \"Never too late to do the right thing\" - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta …",
+      "source": "https://www.cbsnews.com/news/woman-stole-ancient-relic-50-years-ago-returns-it-greece/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "why-now-the-lost-chances-to-reach-a-hostage-deal-and-a-cease-fire-mont",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/why-now-the-lost-chances-to-reach-a-hostage-deal-and-a-cease-fire-mont/",
       "excerpt": "On Gaza, President Trump put few, if any, guardrails on Israel’s offensive, bucking international demands for a cease-fire. Then he changed course.",
       "source": "https://www.nytimes.com/2025/10/12/us/politics/lost-chances-hostage-deal-gaza-israel.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "who-are-the-hostages-released-from-captivity-in-gaza-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Who Are the Hostages Released From Captivity in Gaza?",
+      "cover": "https://static01.nyt.com/images/2025/10/09/multimedia/09int-israel-hostage-thumbnails-top-zqjm/09int-israel-hostage-thumbnails-top-zqjm-mediumSquareAt3X.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/who-are-the-hostages-released-from-captivity-in-gaza-2025-10-13/",
+      "excerpt": "Israel says 20 living hostages have been freed as part of a prisoner exchange. Here’s what we know about them.",
+      "source": "https://www.nytimes.com/2025/10/09/world/middleeast/israel-hostages-alive-gaza.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -25,6 +49,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "u-s-and-china-appear-to-escalate-trade-war-for-leverage-in-dealmaking",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "U.S. and China Appear to Escalate Trade War for Leverage in Dealmaking",
+      "cover": "https://api.time.com/wp-content/uploads/2025/10/trump-and-xi.jpg?quality=85&amp;w=1200&amp;h=628&amp;crop=1",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/u-s-and-china-appear-to-escalate-trade-war-for-leverage-in-dealmaking/",
+      "excerpt": "What to Know as U.S. and China Reignite Trade Spat | TIME Skip to Content Explore Close Subscribe Loading... U.S. and China Appear to Escalate Trade War for Leverage in Dealmaking World trade by Miranda Jeyaretnam Reporter U.S. President Donald Trump chats with Chinese Preside…",
+      "source": "https://time.com/7325306/us-china-trump-xi-trade-tensions-truce-export-controls-tariffs/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "they-fought-outbreaks-worldwide-now-they-re-fighting-for-new-lives-202",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "They Fought Outbreaks Worldwide. Now They’re Fighting for New Lives.",
+      "cover": "https://static01.nyt.com/images/2025/08/19/multimedia/00HS-scientists-top-vmfg/00HS-scientists-top-vmfg-mediumSquareAt3X.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/they-fought-outbreaks-worldwide-now-they-re-fighting-for-new-lives-202/",
+      "excerpt": "Hundreds of infectious disease specialists have been let go by the Trump administration. Here are four who focused on keeping pandemics at bay.",
+      "source": "https://www.nytimes.com/2025/10/13/health/trump-layoffs-scientists-public-health.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-significance-of-stephen-colbert-s-memorable-appearance-on-elsbeth",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -34,6 +82,18 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/the-significance-of-stephen-colbert-s-memorable-appearance-on-elsbeth/",
       "excerpt": "Stephen Colbert’s Memorable Appearance on 'Elsbeth' | TIME Skip to Content Explore Close Subscribe Loading... The Significance of Stephen Colbert’s Memorable Appearance on Elsbeth Entertainment Television by Scarlett Harris Stephen Colbert and Amy Sedaris on Elsbeth Stephen Co…",
       "source": "https://time.com/7325127/elsbeth-stephen-colbert-season-3-late-night/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-rock-star-philosopher-who-just-won-a-1-million-prize-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "The ‘Rock Star’ Philosopher Who Just Won a $1 Million Prize",
+      "cover": "https://api.time.com/wp-content/uploads/2025/10/michael-sandel.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/the-rock-star-philosopher-who-just-won-a-1-million-prize-2025-10-13/",
+      "excerpt": "What the $1 Million Berggruen Prize Means to Michael Sandel | TIME Skip to Content Explore Close Subscribe Updated: Loading... The ‘Rock Star’ Philosopher Who Just Won a $1 Million Prize U.S. Education by Belinda Luscombe Editor at Large Professor Michael Sandel leads a dialog…",
+      "source": "https://time.com/7323933/berggruen-prize-michael-sandel-interview/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -49,6 +109,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "speaker-of-israeli-knesset-removes-hostage-pin-following-release-2025",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Speaker of Israeli Knesset removes hostage pin following release",
+      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_vert_knessetspeakerpin_251013/1/abs/index.m3u8",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/speaker-of-israeli-knesset-removes-hostage-pin-following-release-2025/",
+      "excerpt": "Speaker of Israeli Knesset removes hostage pin following release Morning Rundown: Hostages released amid ceasefire, CDC layoffs get reversed, and Patrick Mahomes turns back the clock IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to C…",
+      "source": "https://www.nbcnews.com/video/shorts/speaker-of-israeli-knesset-removes-hostage-pin-following-release-249764933720",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "returned-hostage-eitan-mor-reunites-with-his-family-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Returned hostage Eitan Mor reunites with his family",
+      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_mo_mor_reunion_251013/1/abs/index.m3u8",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/returned-hostage-eitan-mor-reunites-with-his-family-2025-10-13/",
+      "excerpt": "Returned hostage Eitan Mor reunites with his family Morning Rundown: Hostages released amid ceasefire, CDC layoffs get reversed, and Patrick Mahomes turns back the clock IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC Ne…",
+      "source": "https://www.nbcnews.com/video/returned-hostage-eitan-mor-reunites-with-his-family-249760325863",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "reflecting-on-oct-7-and-2-years-of-gaza-war-with-israeli-hostages-set",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -58,6 +142,18 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/reflecting-on-oct-7-and-2-years-of-gaza-war-with-israeli-hostages-set/",
       "excerpt": "Reflecting on Oct. 7 and 2 years of Gaza war with Israeli hostages set to come home - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicag…",
       "source": "https://www.cbsnews.com/video/reflecting-on-oct-7-2-years-of-gaza-war-with-israeli-hostages-set-to-come-home/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "palestinian-prisoners-released-as-part-of-ceasefire-deal-with-israel-2",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Palestinian prisoners released as part of ceasefire deal with Israel",
+      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_mo_palestinian_prisoners_release_251013/1/abs/index.m3u8",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/palestinian-prisoners-released-as-part-of-ceasefire-deal-with-israel-2/",
+      "excerpt": "Palestinian prisoners released as part of ceasefire deal with Israel Morning Rundown: Hostages released amid ceasefire, CDC layoffs get reversed, and Patrick Mahomes turns back the clock IE 11 is not supported. For an optimal experience visit our site on another browser. Skip …",
+      "source": "https://www.nbcnews.com/video/palestinian-prisoners-released-as-part-of-ceasefire-deal-with-israel-249762373514",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -73,6 +169,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "originalist-bombshell-complicates-case-on-trump-s-power-to-fire-offici",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Originalist ‘Bombshell’ Complicates Case on Trump’s Power to Fire Officials",
+      "cover": "https://static01.nyt.com/images/2025/10/07/multimedia/13-dc-bar/13-dc-bar-mediumSquareAt3X.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/originalist-bombshell-complicates-case-on-trump-s-power-to-fire-offici/",
+      "excerpt": "As the Supreme Court seems poised to expand the president’s power, a leading scholar whose work the justices have often cited issued a provocative dissent.",
+      "source": "https://www.nytimes.com/2025/10/13/us/politics/originalism-trump-supreme-court-unitary-executive.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "ntsb-faa-gather-evidence-from-california-chopper-crash-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -82,6 +190,54 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/ntsb-faa-gather-evidence-from-california-chopper-crash-2025-10-13/",
       "excerpt": "NTSB, FAA gather evidence from California chopper crash - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angel…",
       "source": "https://www.cbsnews.com/video/ntsb-faa-gather-evidence-from-california-chopper-crash/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "never-forget-trump-says-america-joins-israel-in-vow-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "'Never forget': Trump says America joins Israel in vow",
+      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_vert_brk_trump_knesset_never_forget_251013/1/abs/index.m3u8",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/never-forget-trump-says-america-joins-israel-in-vow-2025-10-13/",
+      "excerpt": "'Never forget': Trump says America joins Israel in vow Morning Rundown: Hostages released amid ceasefire, CDC layoffs get reversed, and Patrick Mahomes turns back the clock IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC…",
+      "source": "https://www.nbcnews.com/video/shorts/-never-forget-trump-says-america-joins-israel-in-vow-249763909623",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "marjorie-taylor-greene-is-a-thorn-in-the-gop-s-side-but-on-its-left-or",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Marjorie Taylor Greene Is a Thorn in the GOP’s Side, but on Its Left or Right?",
+      "cover": "https://api.time.com/wp-content/uploads/2025/10/marjorie-taylor-greene.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/marjorie-taylor-greene-is-a-thorn-in-the-gop-s-side-but-on-its-left-or/",
+      "excerpt": "What to Know About Marjorie Taylor Greene’s Republican Resistance | TIME Skip to Content Explore Close Subscribe Loading... Marjorie Taylor Greene Is a Thorn in the GOP’s Side, but on Its Left or Right? Politics republicans by Chad de Guzman Reporter Rep. Marjorie Taylor Green…",
+      "source": "https://time.com/7325308/marjorie-taylor-greene-georgia-republican-independence-shutdown-gaza-epstein-trump/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "marcus-rashford-s-football-revival-at-barcelona-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Marcus Rashford's football revival at Barcelona",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/9472/live/fc4682a0-a75a-11f0-a302-6bcd0f505684.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/marcus-rashford-s-football-revival-at-barcelona-2025-10-13/",
+      "excerpt": "Marcus Rashford: How Man Utd outcast is reviving his career at Barcelona, and what comes next - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Business Innovation Culture Travel Earth Audio Video Live More menu More menu Search BBC Home …",
+      "source": "https://www.bbc.com/sport/football/articles/c3rvr0z531eo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "lloyds-warns-car-finance-scandal-could-cost-it-2bn-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Lloyds warns car finance scandal could cost it £2bn",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/74d3/live/ca6f5320-a80d-11f0-881e-a7ddfaa732cf.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/lloyds-warns-car-finance-scandal-could-cost-it-2bn-2025-10-13/",
+      "excerpt": "Lloyds warns car finance scandal could cost it £2bn Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland…",
+      "source": "https://www.bbc.com/news/articles/cq6zr733917o?at_medium=RSS&at_campaign=rss",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -109,6 +265,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "hostage-bar-kupershtein-speaks-to-family-on-phone-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Hostage Bar Kupershtein speaks to family on phone",
+      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_vert_hostage_bark_251013/1/abs/index.m3u8",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/hostage-bar-kupershtein-speaks-to-family-on-phone-2025-10-13/",
+      "excerpt": "Hostage Bar Kupershtein speaks to family on phone Morning Rundown: Hostages released amid ceasefire, CDC layoffs get reversed, and Patrick Mahomes turns back the clock IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News…",
+      "source": "https://www.nbcnews.com/video/shorts/hostage-bar-kupershtein-speaks-to-family-on-phone-249763909639",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "he-just-kept-growing-life-with-a-13-stone-arctic-dog-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "'He just kept growing': Life with a 13-stone Arctic dog",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/1600/live/87a385b0-a5c0-11f0-add7-abf13599c13e.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/he-just-kept-growing-life-with-a-13-stone-arctic-dog-2025-10-13/",
+      "excerpt": "Dog owner on life with a 13-stone Alaskan Malamute Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland …",
+      "source": "https://www.bbc.com/news/articles/c20vr00plz4o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "hamas-releases-first-group-of-7-hostages-to-red-cross-in-gaza-israel-s",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -118,6 +298,18 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/hamas-releases-first-group-of-7-hostages-to-red-cross-in-gaza-israel-s/",
       "excerpt": "Hamas releases first group of 7 hostages to Red Cross in Gaza, Israel says | Special Report - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Bosto…",
       "source": "https://www.cbsnews.com/video/first-group-of-7-hostages-transferred-to-red-cross-in-gaza-israel-says/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "government-shutdown-live-updates-as-stalemate-poised-to-begin-third-we",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Government shutdown live updates as stalemate poised to begin third week",
+      "cover": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/10/13/859edb50-dc67-4f0d-a9bd-32b8c1db60a8/thumbnail/1200x630g8/663967b8f77363d89b2728279862aef3/gettyimages-2240298310.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/government-shutdown-live-updates-as-stalemate-poised-to-begin-third-we/",
+      "excerpt": "Government shutdown live updates as stalemate poised to continue for third week Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detr…",
+      "source": "https://www.cbsnews.com/live-updates/government-shutdown-2025-latest-house-senate-trump/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -133,6 +325,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "first-german-state-visit-to-uk-for-27-years-announced-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "First German state visit to UK for 27 years announced",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/92c0/live/ec0d7f20-a821-11f0-85ef-e382bd92d5ce.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/first-german-state-visit-to-uk-for-27-years-announced-2025-10-13/",
+      "excerpt": "First German state visit to UK for 27 years announced Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Irela…",
+      "source": "https://www.bbc.com/news/articles/czxklen5p2qo?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "drug-resistant-superbugs-spread-surging-world-health-organization-warn",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Drug-resistant superbugs' spread surging, World Health Organization warns",
+      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2021/03/31/5807e82a-f77b-442e-863f-02cc2eb94fe6/thumbnail/1200x630/60fa948504ce33daaaf28040434ddd65/cbsn-021915-superbugs-347491.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/drug-resistant-superbugs-spread-surging-world-health-organization-warn/",
+      "excerpt": "Drug-resistant superbugs' spread surging, World Health Organization warns - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado…",
+      "source": "https://www.cbsnews.com/news/superbugs-drug-resistant-spread-surging-who/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dawn-of-a-new-middle-east-trump-addresses-israeli-parliament-after-dec",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "‘Dawn of a New Middle East’: Trump Addresses Israeli Parliament After Declaring Gaza War ‘Over’",
+      "cover": "https://api.time.com/wp-content/uploads/2025/10/trump-israel-knesset.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/dawn-of-a-new-middle-east-trump-addresses-israeli-parliament-after-dec/",
+      "excerpt": "Trump Addresses Knesset After Declaring Gaza War ‘Over’ | TIME Skip to Content Explore Close Subscribe Loading... ‘Dawn of a New Middle East’: Trump Addresses Israeli Parliament After Declaring Gaza War ‘Over’ World Israel-Hamas War by Chad de Guzman and Miranda Jeyaretnam U.S…",
+      "source": "https://time.com/7325314/trump-israel-knesset-speech-hamas-cease-fire-gaza-war-hostages/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "coffee-chain-executives-on-surging-prices-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -142,6 +370,18 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/coffee-chain-executives-on-surging-prices-2025-10-13/",
       "excerpt": "Coffee chain executives on surging prices - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles Miami Minne…",
       "source": "https://www.cbsnews.com/video/coffee-chain-executives-on-surging-prices/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "coal-miners-with-black-lung-say-they-are-cast-aside-to-die-under-trump",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Coal Miners With Black Lung Say They Are ‘Cast Aside to Die’ Under Trump",
+      "cover": "https://static01.nyt.com/images/2025/10/13/multimedia/13cli-miners-promo-vwzk/13cli-miners-promo-vwzk-mediumSquareAt3X.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/coal-miners-with-black-lung-say-they-are-cast-aside-to-die-under-trump/",
+      "excerpt": "President Trump has been a cheerleader for coal miners. But these miners say his administration is failing to enforce limits on a lethal workplace hazard.",
+      "source": "https://www.nytimes.com/2025/10/13/climate/coal-miners-black-lung-protest-trump.html",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -157,6 +397,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "all-the-stress-was-for-nothing-woman-drops-sex-assault-case-after-cour",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "'All the stress was for nothing': Woman drops sex assault case after court delays",
+      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/eb1c/live/64b84b40-a2c2-11f0-9de5-4d449564150c.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/all-the-stress-was-for-nothing-woman-drops-sex-assault-case-after-cour/",
+      "excerpt": "Woman dropped sex assault case after years of court delays Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. …",
+      "source": "https://www.bbc.com/news/articles/cy50zp3dvxro?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "all-hostages-released-from-gaza-and-stocks-drop-after-trump-s-new-thre",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "All Hostages Released From Gaza, and Stocks Drop After Trump’s New Threat",
+      "cover": "https://static01.nyt.com/images/2025/10/13/multimedia/13headlines-israel-gaza-mwpc/13headlines-israel-gaza-mwpc-mediumSquareAt3X.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/all-hostages-released-from-gaza-and-stocks-drop-after-trump-s-new-thre/",
+      "excerpt": "Plus, what happened to beheaded Columbus statues.",
+      "source": "https://www.nytimes.com/2025/10/13/podcasts/the-headlines/hostages-gaza-trump-china.html",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "alaska-hit-by-severe-flooding-that-carries-away-homes-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -166,6 +430,30 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/alaska-hit-by-severe-flooding-that-carries-away-homes-2025-10-13/",
       "excerpt": "Alaska hit by severe flooding that carries away homes - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles…",
       "source": "https://www.cbsnews.com/news/alaska-flooding-typhoon-halong/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "10-12-sunday-morning-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "10/12: Sunday Morning",
+      "cover": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/10/12/fa1e2e79-3eb1-4d93-a63e-0fb00efd1cbf/thumbnail/1200x630/33d14171299d3a9f6934678181bf68e5/sm-jane-pauley-101225-1-4106922.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/10-12-sunday-morning-2025-10-13/",
+      "excerpt": "10/12: Sunday Morning - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles Miami Minnesota New York Philad…",
+      "source": "https://www.cbsnews.com/video/101225-cbs-sunday-morning/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "10-12-face-the-nation-with-margaret-brennan-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "10/12: Face the Nation with Margaret Brennan",
+      "cover": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/10/12/18e4631d-8c49-4ca9-81dc-6a53225fecff/thumbnail/1200x630/64f19b5dfa08d29143ba319298349880/1012-ftn-full-4107083.jpg",
+      "canonical": "https://archive.aventuroo.com/news/top-stories/10-12-face-the-nation-with-margaret-brennan-2025-10-13/",
+      "excerpt": "10/12: Face the Nation with Margaret Brennan - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit Los Angeles Miami Mi…",
+      "source": "https://www.cbsnews.com/video/101225-face-the-nation/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2590,294 +2878,6 @@
       "canonical": "https://archive.aventuroo.com/news/top-stories/smithsonian-museums-and-national-zoo-set-to-close-sunday-for-remainder/",
       "excerpt": "Smithsonians, National Zoo Closing to Visitors on Sunday | TIME Skip to Content Explore Close Subscribe Loading... Smithsonian Museums and National Zoo Set to Close Sunday For Remainder of Shutdown U.S. District of Columbia by Nik Popli Reporter The Smithonian National Gallery…",
       "source": "https://time.com/7324850/smithsonian-national-zoo-government-shutdown/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "sister-jean-beloved-chaplain-of-loyola-ramblers-basketball-team-dies-a",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Sister Jean, beloved chaplain of Loyola Ramblers basketball team, dies at 106",
-      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2023/08/21/1a5939a3-adf8-4160-a5a5-432f54bc62d5/thumbnail/1200x630/f3adf5f3e7e75c31892dda4764fc3a87/ap23046580722442.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/sister-jean-beloved-chaplain-of-loyola-ramblers-basketball-team-dies-a/",
-      "excerpt": "Sister Jean, beloved chaplain of Loyola Ramblers basketball team, dies at 106 - CBS News Latest U.S. Government Shutdown Letitia James World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Color…",
-      "source": "https://www.cbsnews.com/news/sister-jean-dies-loyola-ramblers-chaplain/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "senate-passes-bipartisan-925-billion-defense-policy-bill-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Senate Passes Bipartisan $925 Billion Defense Policy Bill",
-      "cover": "https://static01.nyt.com/images/2025/10/09/multimedia/09dc-defensebill-lfwh/09dc-defensebill-lfwh-mediumSquareAt3X.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/senate-passes-bipartisan-925-billion-defense-policy-bill-2025-10-10/",
-      "excerpt": "The legislation would provide a 3.8 percent pay raise for American troops, while funding weapons and overhauling military procurement.",
-      "source": "https://www.nytimes.com/2025/10/09/us/senate-passes-bipartisan-925-billion-defense-policy-bill.html",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "s-p-and-nasdaq-slump-as-stocks-fall-on-trump-china-tariff-threat-2025",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "S&P and Nasdaq Slump as Stocks Fall on Trump China Tariff Threat",
-      "cover": "https://static01.nyt.com/images/2025/10/10/business/10stocks-promo/10stocks-promo-mediumSquareAt3X.png",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/s-p-and-nasdaq-slump-as-stocks-fall-on-trump-china-tariff-threat-2025/",
-      "excerpt": "The S&P 500 slumped more than 2 percent for the first time in six months, rattling investors after a long stretch of gains.",
-      "source": "https://www.nytimes.com/2025/10/10/business/stock-market-trump-tariffs.html",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "roofman-is-a-bright-romantic-comedy-with-a-melancholy-core-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Roofman Is a Bright Romantic Comedy with a Melancholy Core",
-      "cover": "https://api.time.com/wp-content/uploads/2025/09/RM_23065R.jpg?quality=85&amp;w=1200&amp;h=628&amp;crop=1",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/roofman-is-a-bright-romantic-comedy-with-a-melancholy-core-2025-10-10/",
-      "excerpt": "Roofman Is a Bright Romantic Comedy with a Melancholy Core | TIME Skip to Content Explore Close Subscribe Loading... Roofman Is a Bright Romantic Comedy with a Melancholy Core Entertainment movies by Stephanie Zacharek Film Critic Channing Tatum and Kirsten Dunst in Roofman Ch…",
-      "source": "https://time.com/7324938/roofman-review/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "robbie-williams-says-he-delayed-new-album-to-avoid-taylor-swift-s-2025",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Robbie Williams says he delayed new album to avoid Taylor Swift's",
-      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/f047/live/2e220be0-a5cc-11f0-aeb3-6f25177f837c.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/robbie-williams-says-he-delayed-new-album-to-avoid-taylor-swift-s-2025/",
-      "excerpt": "Robbie Williams says he delayed new album to avoid Taylor Swift's Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics Engl…",
-      "source": "https://www.bbc.com/news/articles/cx2jw9yyzjvo?at_medium=RSS&at_campaign=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "real-housewives-star-wendy-osefo-and-her-husband-arrested-on-fraud-cha",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "'Real Housewives' star Wendy Osefo and her husband arrested on fraud charges",
-      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2025-10/251010-Wendy-Eddie-Osefo-aa-1157-21cf1a.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/real-housewives-star-wendy-osefo-and-her-husband-arrested-on-fraud-cha/",
-      "excerpt": "'Real Housewives of Potomac' star Wendy Osefo and her husband arrested on fraud charges IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U.S. News Politics World Local New York Los Angeles Chicago Dallas-Fort Wo…",
-      "source": "https://www.nbcnews.com/news/us-news/real-housewives-potomac-star-wendy-osefo-husband-arrested-fraud-charge-rcna236880",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "qatar-to-build-air-force-facility-in-idaho-us-says-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Qatar to build air force facility in Idaho, US says",
-      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/d288/live/f71c1d60-a5f9-11f0-928c-71dbb8619e94.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/qatar-to-build-air-force-facility-in-idaho-us-says-2025-10-10/",
-      "excerpt": "US says Qatar to build air force facility in Idaho Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland …",
-      "source": "https://www.bbc.com/news/articles/c75q2y92090o?at_medium=RSS&at_campaign=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "powerful-7-4-magnitude-earthquake-strikes-off-coast-of-philippines-202",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Powerful 7.4-magnitude earthquake strikes off coast of Philippines",
-      "cover": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/10/10/495e5008-5b9e-40d9-9772-dc963d9b25b8/thumbnail/1200x630/822208d88f5c26f77d24f97f4cefea2e/gettyimages-2239638287.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/powerful-7-4-magnitude-earthquake-strikes-off-coast-of-philippines-202/",
-      "excerpt": "Powerful 7.4-magnitude earthquake strikes off coast of Philippines - CBS News Latest U.S. Government Shutdown Letitia James World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colorado Detroit…",
-      "source": "https://www.cbsnews.com/news/7-point-4-magnitude-earthquake-strikes-off-coast-of-philippines/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "peru-ousts-president-amid-crime-surge-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Peru Ousts President Amid Crime Surge",
-      "cover": "https://static01.nyt.com/images/2025/10/10/multimedia/00int-peru-boluarte-ktfl/00int-peru-boluarte-ktfl-mediumSquareAt3X.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/peru-ousts-president-amid-crime-surge-2025-10-10/",
-      "excerpt": "Growing outrage over crime and political scandals eroded support for President Dina Boluarte, the country’s most unpopular leader in recent history.",
-      "source": "https://www.nytimes.com/2025/10/10/world/americas/peru-president-boluarte-impeached.html",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "palestinians-return-as-israeli-troops-pull-back-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Palestinians return as Israeli troops pull back",
-      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/nn_ren_gaza_israel_251010/1/abs/index.m3u8",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/palestinians-return-as-israeli-troops-pull-back-2025-10-10/",
-      "excerpt": "Palestinians return as Israeli troops pull back IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U.S. News Politics World Local New York Los Angeles Chicago Dallas-Fort Worth Philadelphia Washington, D.C. Boston…",
-      "source": "https://www.nbcnews.com/nightly-news/video/palestinians-return-as-israeli-troops-pull-back-249669701838",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "nobel-peace-prize-awarded-to-venezuelan-opposition-leader-mar-a-corina",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Nobel Peace Prize awarded to Venezuelan opposition leader María Corina Machado",
-      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2025-10/251010-Maria-Corina-Machado-mb-1149-d8fe1b.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/nobel-peace-prize-awarded-to-venezuelan-opposition-leader-mar-a-corina/",
-      "excerpt": "Nobel Peace Prize awarded to Venezuela's María Corina Machado Morning Rundown: Gaza ceasefire, a presidential foe is indicted, and #SwiftiesAgainstAI IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U.S. News Po…",
-      "source": "https://www.nbcnews.com/world/europe/nobel-peace-prize-awarded-venezuelas-maria-corina-machado-rcna236816",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "new-york-attorney-general-letitia-james-charged-with-fraud-by-trump-al",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "New York Attorney General Letitia James Charged With Fraud by Trump Ally",
-      "cover": "https://api.time.com/wp-content/uploads/2025/10/letitia-james-charge-jan08.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/new-york-attorney-general-letitia-james-charged-with-fraud-by-trump-al/",
-      "excerpt": "NY Attorney General Letitia James Charged with Fraud | TIME Skip to Content Explore Close Subscribe Loading... New York Attorney General Letitia James Charged With Fraud by Trump Ally U.S. Courts by Callum Sutherland Reporter New York Attorney General Letitia James speaks duri…",
-      "source": "https://time.com/7324902/new-york-attorney-general-letitia-james-charged-with-fraud-by-trump-ally/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "new-york-ag-letitia-james-indicted-in-virginia-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "New York AG Letitia James indicted in Virginia",
-      "cover": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/22/20a5a9a4-691e-48f5-8b37-2341f2befa62/thumbnail/1200x630g2/c4d61831c83fc84cfc621617763e96ad/gettyimages-2016269562.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/new-york-ag-letitia-james-indicted-in-virginia-2025-10-10/",
-      "excerpt": "New York AG Letitia James indicted in Virginia after investigation by Trump's DOJ - CBS News Latest U.S. Government Shutdown Letitia James World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago C…",
-      "source": "https://www.cbsnews.com/news/new-york-ag-letitia-james-indicted-in-virginia-after-investigation-by-trumps-doj/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "new-james-bond-producer-up-for-the-challenge-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "New James Bond producer up for the ‘challenge'",
-      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/b284/live/cdb473f0-a608-11f0-ba2a-33e7504c364f.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/new-james-bond-producer-up-for-the-challenge-2025-10-10/",
-      "excerpt": "James Bond's new producer David Heyman up for the ‘challenge’ Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England …",
-      "source": "https://www.bbc.com/news/articles/c4gqnw5r29ro?at_medium=RSS&at_campaign=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "netanyahu-praises-witkoff-kushner-after-gaza-deal-approval-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Netanyahu praises Witkoff, Kushner after Gaza deal approval",
-      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/f_mo_lon_netanyahu_gaza_deal_251010/2/abs/index.m3u8",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/netanyahu-praises-witkoff-kushner-after-gaza-deal-approval-2025-10-10/",
-      "excerpt": "Netanyahu praises Witkoff, Kushner after Gaza deal approval Morning Rundown: Gaza ceasefire, a presidential foe is indicted, and #SwiftiesAgainstAI IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U.S. News Poli…",
-      "source": "https://www.nbcnews.com/video/netanyahu-praises-witkoff-kushner-after-gaza-deal-approval-249623109573",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "mit-rejects-trump-administration-s-education-agenda-in-exchange-for-fu",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "MIT rejects Trump administration's education agenda in exchange for funding benefits",
-      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2025-10/251010-mit-ch-1150-36f78b.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/mit-rejects-trump-administration-s-education-agenda-in-exchange-for-fu/",
-      "excerpt": "MIT is first school to reject Trump administration's agenda in exchange for funding benefits BREAKING: Trump administration begins layoffs amid shutdown impasse IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U…",
-      "source": "https://www.nbcnews.com/news/education/mit-rejects-trump-agenda-funding-benefits-rcna236894",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "mit-rejects-special-funding-offer-from-trump-administration-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "MIT Rejects Special Funding Offer From Trump Administration",
-      "cover": "https://static01.nyt.com/images/2025/10/10/multimedia/10nat-mit-kzcm/10nat-mit-kzcm-mediumSquareAt3X.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/mit-rejects-special-funding-offer-from-trump-administration-2025-10-10/",
-      "excerpt": "The Trump administration offered nine universities benefits in exchange for signing an agreement to protect conservative voices, among other things. M.I.T. was the first to refuse.",
-      "source": "https://www.nytimes.com/2025/10/10/us/mit-rejects-white-house-compact.html",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "mike-johnson-addresses-military-pay-layoffs-during-government-shutdown",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Mike Johnson addresses military pay, layoffs during government shutdown",
-      "cover": "https://prodamdnewsencoding.akamaized.net/NBC_News_Digital/now_topstory_johnson_shutdown_military_pay_251009/1/abs/index.m3u8",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/mike-johnson-addresses-military-pay-layoffs-during-government-shutdown/",
-      "excerpt": "Mike Johnson addresses military pay, layoffs during government shutdown IE 11 is not supported. For an optimal experience visit our site on another browser. Skip to Content NBC News Logo U.S. News Politics World Local New York Los Angeles Chicago Dallas-Fort Worth Philadelphia…",
-      "source": "https://www.nbcnews.com/video/mike-johnson-addresses-military-pay-layoffs-during-government-shutdown-249599557988",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "melania-trump-says-she-has-been-working-with-putin-to-reunite-missing",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Melania Trump Says She Has Been Working With Putin to Reunite Missing Ukrainian Children",
-      "cover": "https://static01.nyt.com/images/2025/10/10/multimedia/10dc-melania-cgbt/10dc-melania-cgbt-mediumSquareAt3X.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/melania-trump-says-she-has-been-working-with-putin-to-reunite-missing/",
-      "excerpt": "“President Putin and I have had an open line of communication regarding the welfare of these children,” the first lady announced.",
-      "source": "https://www.nytimes.com/2025/10/10/us/politics/melania-trump-putin-ukraine-children.html",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "melania-trump-says-putin-responded-to-her-pleas-about-ukrainian-childr",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Melania Trump says Putin responded to her pleas about Ukrainian children",
-      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/ab25/live/a275a0b0-a5ef-11f0-af09-bf7f0464c1dc.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/melania-trump-says-putin-responded-to-her-pleas-about-ukrainian-childr/",
-      "excerpt": "Melania Trump says Putin responded to her pleas about Ukrainian children Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politi…",
-      "source": "https://www.bbc.com/news/articles/cj075gq5n81o?at_medium=RSS&at_campaign=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "massive-russian-attack-on-ukraine-energy-sector-prompts-sharp-zelensky",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Massive Russian attack on Ukraine energy sector prompts sharp Zelenskyy rebuke",
-      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/10/80517078-8c8c-4e60-bc3b-55853832a3c8/thumbnail/1200x630/b5516bbaad9a1afbef1f97175a3ff701/gettyimages-2240227033.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/massive-russian-attack-on-ukraine-energy-sector-prompts-sharp-zelensky/",
-      "excerpt": "Massive Russian attack on Ukraine energy sector prompts sharp Zelenskyy rebuke and call for more help from allies - CBS News Latest U.S. Government Shutdown Letitia James World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Bal…",
-      "source": "https://www.cbsnews.com/news/russia-ukraine-war-massive-attack-energy-sector-zelenskyy/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "maine-gov-janet-mills-expected-to-jump-into-crucial-senate-race-source",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Maine Gov. Janet Mills expected to jump into crucial Senate race, sources say",
-      "cover": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/06/23/d585e0ea-6e83-40a8-a2e3-e4e35a6cfffb/thumbnail/1200x630/633d9035e650e95fe89c32d32cc970fc/ap23121650337584.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/maine-gov-janet-mills-expected-to-jump-into-crucial-senate-race-source/",
-      "excerpt": "Maine Gov. Janet Mills expected to jump into crucial Senate race next week, sources say - CBS News Latest U.S. Government Shutdown Letitia James World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chi…",
-      "source": "https://www.cbsnews.com/news/maine-janet-mills-expected-run-senate-susan-collins/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "london-to-get-36m-boost-to-tackle-homelessness-2025-10-10",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "London to get £36m boost to tackle homelessness",
-      "cover": "https://ichef.bbci.co.uk/ace/standard/1600/cpsprodpb/2b0e/live/97870d00-a537-11f0-8469-192d9823e9a2.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/london-to-get-36m-boost-to-tackle-homelessness-2025-10-10/",
-      "excerpt": "London to get £36m boost in homelessness funding Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England N. Ireland N.…",
-      "source": "https://www.bbc.com/news/articles/cjw7j0e74g4o?at_medium=RSS&at_campaign=rss",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "letitia-james-slams-trump-s-desperate-weaponization-of-the-justice-sys",
-      "date": "2025-10-10",
-      "published_at": "2025-10-10T00:00:00Z",
-      "created_at": "2025-10-10T00:00:00Z",
-      "title": "Letitia James slams Trump's \"desperate weaponization\" of the justice system",
-      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/10/18d21d1d-2a73-457a-938b-6d30c8c5a55c/thumbnail/1200x630/416295d4f14d9efacba75318b78d3fc2/cbsn-fusion-letitia-james-slams-trumps-desperate-weaponization-of-the-justice-system-thumbnail.jpg",
-      "canonical": "https://archive.aventuroo.com/news/top-stories/letitia-james-slams-trump-s-desperate-weaponization-of-the-justice-sys/",
-      "excerpt": "Letitia James slams Trump's \"desperate weaponization\" of the justice system - CBS News Latest U.S. Government Shutdown Gaza Ceasefire World Politics Entertainment HealthWatch MoneyWatch Crime Space Sports Brand Studio Local News Atlanta Baltimore Bay Area Boston Chicago Colora…",
-      "source": "https://www.cbsnews.com/video/letitia-james-slams-trumps-desperate-weaponization-of-the-justice-system/",
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],

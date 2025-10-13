@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "v-r-lang-a-forgotten-queen-bee-of-modern-poetry-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "V. R. Lang, a Forgotten Queen Bee of Modern Poetry",
+      "cover": "https://media.newyorker.com/photos/68e7f9fa1174aa5ed9d5272c/master/pass/r46550.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/v-r-lang-a-forgotten-queen-bee-of-modern-poetry-2025-10-13/",
+      "excerpt": "V. R. Lang, a Forgotten Queen Bee of Modern Poetry | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Men…",
+      "source": "https://www.newyorker.com/magazine/2025/10/20/a-forgotten-queen-bee-of-modern-poetry",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-hunt-for-the-world-s-oldest-story-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "The Hunt for the World’s Oldest Story",
+      "cover": "https://media.newyorker.com/photos/68e7c626adcbb8a3f4a47874/master/pass/r47119.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-hunt-for-the-world-s-oldest-story-2025-10-13/",
+      "excerpt": "The Hunt for the World’s Oldest Story | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu A Critic at…",
+      "source": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "peter-matthiessen-travelled-the-world-trying-to-escape-himself-2025-10",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Peter Matthiessen Travelled the World, Trying to Escape Himself",
+      "cover": "https://media.newyorker.com/photos/68e526bcb2488bc78f4bfbcf/master/pass/r47626.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/peter-matthiessen-travelled-the-world-trying-to-escape-himself-2025-10/",
+      "excerpt": "Peter Matthiessen Travelled the World, Trying to Escape Himself | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Naviga…",
+      "source": "https://www.newyorker.com/magazine/2025/10/20/true-nature-the-pilgrimage-of-peter-matthiessen-lance-richardson-book-review",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "harry-bliss-s-cannonball-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Harry Bliss’s “Cannonball”",
+      "cover": "https://media.newyorker.com/photos/68e6f2ba9d5744babd3c8e9f/master/pass/CoverStory-web_box_bliss_dog.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/harry-bliss-s-cannonball-2025-10-13/",
+      "excerpt": "Harry Bliss’s “Cannonball” | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Cover Story Harry Blis…",
+      "source": "https://www.newyorker.com/culture/cover-story/cover-story-2025-10-20",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "briefly-noted-book-reviews-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Briefly Noted Book Reviews",
+      "cover": "https://media.newyorker.com/photos/68e5259469977a73526f5ef1/master/pass/r47728.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/briefly-noted-book-reviews-2025-10-13/",
+      "excerpt": "Briefly Noted Book Reviews | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Books Briefly Noted “T…",
+      "source": "https://www.newyorker.com/magazine/2025/10/20/the-gods-of-new-york-trying-this-kind-of-trouble-and-the-gossip-columnists-daughter",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "tim-curry-does-the-time-warp-2025-10-12",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -1825,11 +1885,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 152,
-  "updated_at": "2025-10-12",
+  "count": 157,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 152,
+    "total_items": 157,
     "per_page": 12,
-    "total_pages": 13
+    "total_pages": 14
   }
 }

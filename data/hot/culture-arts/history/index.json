@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "the-lie-of-succession-did-james-i-steal-elizabeth-i-s-crown-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "The lie of succession: did James I steal Elizabeth I's crown?",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/LEADStuartsAlamywebready-4675cab.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-lie-of-succession-did-james-i-steal-elizabeth-i-s-crown-2025-10-13/",
+      "excerpt": "The lie of succession: did James I steal Elizabeth I's crown? | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval T…",
+      "source": "https://www.historyextra.com/membership/the-lie-of-succession-did-james-i-steal-elizabeth-is-crown/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "bandits-blasphemers-crime-in-17th-century-scotland-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Bandits & blasphemers: crime in 17th century Scotland",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Allan-Kennedy-Serious-Crime-in-17th-century-Scotland-WL-095d868.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/bandits-blasphemers-crime-in-17th-century-scotland-2025-10-13/",
+      "excerpt": "Bandits & blasphemers: crime in 17th century Scotland | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Eli…",
+      "source": "https://www.historyextra.com/membership/crime-in-17th-century-scotland-podcast-allan-kennedy/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "think-men-were-always-the-hunters-stone-age-women-took-down-mammoths-t",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1789,10 +1813,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 149,
-  "updated_at": "2025-10-11",
+  "count": 151,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 149,
+    "total_items": 151,
     "per_page": 12,
     "total_pages": 13
   }

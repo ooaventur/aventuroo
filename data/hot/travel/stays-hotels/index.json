@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "singlethread-expands-in-healdsburg-with-second-inn-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "SingleThread expands in Healdsburg with second inn",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/486763009_1231033415694442_3350553112538433540_n.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/singlethread-expands-in-healdsburg-with-second-inn-2025-10-13/",
+      "excerpt": "SingleThread expands in Healdsburg with second inn Skip to content LATEST NEWS SingleThread expands in Healdsburg with second inn City of London offices acquired by Firethorn for hotel conversion Open forum debates the challenges facing London’s hospitality and real estate sec…",
+      "source": "https://boutiquehotelnews.com/news/hotel/singlethread-healdsburg-second-inn/?utm_source=rss&utm_medium=rss&utm_campaign=singlethread-healdsburg-second-inn",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-road-to-2026-overcoming-today-s-hotel-challenges-to-secure-tomorro",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -361,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 30,
-  "updated_at": "2025-10-10",
+  "count": 31,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 30,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "we-survived-the-night-tells-a-story-of-survival-and-the-indigenous-exp",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "'We Survived the Night' tells a story of survival and the Indigenous experience",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/we-survived-the-night-tells-a-story-of-survival-and-the-indigenous-exp/",
+      "excerpt": "'We Survived the Night' tells a story of survival and the Indigenous experience : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News Nationa…",
+      "source": "https://www.npr.org/2025/10/13/nx-s1-5338787/we-survived-the-night-tells-a-story-of-survival-and-the-indigenous-experience",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "on-the-mysteries-real-and-imagined-surrounding-christopher-columbus-20",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "On the Mysteries, Real and Imagined, Surrounding Christopher Columbus",
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2025/10/columbus.png",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/on-the-mysteries-real-and-imagined-surrounding-christopher-columbus-20/",
+      "excerpt": "Literary Hub » On the Mysteries, Real and Imagined, Surrounding Christopher Columbus Literary Hub Craft and Criticism Literary Criticism Craft and Advice In Conversation On Translation Fiction and Poetry Short Story From the Novel Poem News and Culture History Science Politics…",
+      "source": "https://lithub.com/on-the-mysteries-real-and-imagined-surrounding-christopher-columbus/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "holes-in-the-web-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Holes in the web",
+      "cover": "https://images.aeonmedia.co/images/06db2bd3-6326-4e68-9b06-4ab87496b1ea/essay-gettyimages-1408837.jpg?width=1600&amp%3Bquality=75&amp%3Bformat=auto",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/holes-in-the-web-2025-10-13/",
+      "excerpt": "Generative AI has access to a small slice of human knowledge | Aeon Essays Boomtown; signs for computer companies in Bangalore, India, 12 March 1996. Photo by Jean-Marc Giboux/Liaison \" data-next-head=\"\"/> × CLOSE Philosophy Science Psychology Society Culture Essays Videos Pop…",
+      "source": "https://aeon.co/essays/generative-ai-has-access-to-a-small-slice-of-human-knowledge?utm_source=rss-feed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "do-no-harm-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Do no harm",
+      "cover": "https://images.aeonmedia.co/images/05d95a55-782e-4449-a98c-6151d0f54db0/do-no-harm-landscape-1.jpg?width=1600&amp%3Bquality=75&amp%3Bformat=auto",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/do-no-harm-2025-10-13/",
+      "excerpt": "After 17 years of addiction, Raina finds a lifeline in compassion | Aeon Videos × CLOSE Philosophy Science Psychology Society Culture Essays Videos Popular About DONATE NEWSLETTER MENU / / Aeon DONATE / NEWSLETTER / SIGN IN / Email Save Post Share After 17 years of addiction, …",
+      "source": "https://aeon.co/videos/after-17-years-of-addiction-raina-finds-a-lifeline-in-compassion?utm_source=rss-feed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "author-ken-liu-on-ai-reality-and-the-world-we-re-building-2025-10-12",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -1765,10 +1813,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 147,
-  "updated_at": "2025-10-12",
+  "count": 151,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 147,
+    "total_items": 151,
     "per_page": 12,
     "total_pages": 13
   }

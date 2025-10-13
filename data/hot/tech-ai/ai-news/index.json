@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "swireasoning-entropy-driven-alternation-of-latent-and-explicit-chain-o",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "SwiReasoning: Entropy-Driven Alternation of Latent and Explicit Chain-of-Thought for Reasoning LLMs",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-42.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/swireasoning-entropy-driven-alternation-of-latent-and-explicit-chain-o/",
+      "excerpt": "SwiReasoning: Entropy-Driven Alternation of Latent and Explicit Chain-of-Thought for Reasoning LLMs - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Cont…",
+      "source": "https://www.marktechpost.com/2025/10/13/swireasoning-entropy-driven-alternation-of-latent-and-explicit-chain-of-thought-for-reasoning-llms/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "salesforce-bets-on-ai-agents-to-fix-what-it-calls-a-7-billion-problem",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Salesforce bets on AI 'agents' to fix what it calls a $7 billion problem in enterprise software",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4ElJnVoqNF5EdTdQ2qbc94/6c61cde31557a66a34fdfbbfaa9e57ed/nuneybits_Vector_art_of_businessperson_guiding_robot_f1c9b0fc-59ad-455c-b635-5551c598aa7b.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/salesforce-bets-on-ai-agents-to-fix-what-it-calls-a-7-billion-problem/",
+      "excerpt": "<p>As 50,000 attendees descend on Salesforce&#x27;s <a href=\"https://www.salesforce.com/dreamforce/\"><u>Dreamforce conference</u></a> this week, the enterprise software giant is making its most aggressive bet yet on artificial intelligence agents, positioning itself as the ant…",
+      "source": "https://venturebeat.com/ai/salesforce-bets-on-ai-agents-to-fix-what-it-calls-a-usd7-billion-problem-in",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "google-introduces-speech-to-retrieval-s2r-approach-that-maps-a-spoken",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1261,10 +1285,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 105,
+  "count": 107,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 105,
+    "total_items": 107,
     "per_page": 12,
     "total_pages": 9
   }

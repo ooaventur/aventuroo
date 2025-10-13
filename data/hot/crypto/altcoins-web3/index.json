@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "snx-surges-over-80-to-10-month-high-can-synthetix-s-perp-dex-launch-fu",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "SNX Surges Over 80% to 10-Month High — Can Synthetix’s Perp DEX Launch Fuel More?",
+      "cover": "https://assets.beincrypto.com/img/AYp4AnJl6DyB1j7PISOE0NV2Ox0=/smart/935bd2a9cdc142fe84f2d66d06242c3d",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/snx-surges-over-80-to-10-month-high-can-synthetix-s-perp-dex-launch-fu/",
+      "excerpt": "Synthetix (SNX) Hits 10-Month High — Will the Rally Last? Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed…",
+      "source": "https://beincrypto.com/snx-surge-synthetix-perp-dex-ethereum-launch/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "3-altcoins-at-risk-of-major-liquidation-in-the-third-week-of-october-2",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "3 Altcoins at Risk of Major Liquidation in the Third Week of October",
+      "cover": "https://assets.beincrypto.com/img/uY_RNKecs0UaOyJQSq5EKyjJUUM=/smart/48e16c7c8a314ce8a34b13b012a3cfe2",
+      "canonical": "https://archive.aventuroo.com/crypto/altcoins-web3/3-altcoins-at-risk-of-major-liquidation-in-the-third-week-of-october-2/",
+      "excerpt": "Why ZEC, BNB, ETH Could Face Major Liquidations This Week Feed Newsletters Bonus Hunter Top Picks Markets Prices Exchanges Convert Remote Jobs Special Edition English For Business Advertise Contact Us Company About Us Our Authors Careers 🚀 Our Team News Learn Bonus Hunter Feed…",
+      "source": "https://beincrypto.com/altcoins-at-liquidation-risk-october-3rd-week/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "grayscale-s-move-could-send-this-altcoin-to-a-new-ath-2025-10-12",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -961,10 +985,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 80,
-  "updated_at": "2025-10-12",
+  "count": 82,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 80,
+    "total_items": 82,
     "per_page": 12,
     "total_pages": 7
   }

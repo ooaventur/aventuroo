@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "supreme-court-takes-up-republican-attack-on-voting-rights-act-2025-10",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Supreme Court takes up Republican attack on Voting Rights Act",
+      "cover": "https://s.abcnews.com/images/US/wirestory_348260f08099d087bcde4a93140aa8b2_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/supreme-court-takes-up-republican-attack-on-voting-rights-act-2025-10/",
+      "excerpt": "Supreme Court takes up Republican attack on Voting Rights Act - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Supreme Court takes up …",
+      "source": "https://abcnews.go.com/Politics/wireStory/supreme-court-takes-republican-attack-voting-rights-act-126467961",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "naked-bike-riders-demonstrate-against-federal-troops-in-portland-prote",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -13,6 +25,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "ap-top-25-extra-points-unlv-would-be-long-shot-for-cfp-even-if-beats-b",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "AP Top 25 Extra Points: UNLV would be long shot for CFP even if beats Boise St on road and wins out",
+      "cover": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/ap-top-25-extra-points-unlv-would-be-long-shot-for-cfp-even-if-beats-b/",
+      "excerpt": "AP Top 25 Extra Points: UNLV would be long shot for CFP even if beats Boise St on road and wins out - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Of…",
+      "source": "https://abcnews.go.com/Politics/wireStory/ap-top-25-extra-points-unlv-long-shot-126468419",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "all-the-talk-about-the-decline-of-the-kansas-city-chiefs-was-premature",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "All the talk about the decline of the Kansas City Chiefs was premature",
+      "cover": "https://s.abcnews.com/images/Politics/wirestory_c96f4ee39868a04a06acb9c93ced29cf_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/all-the-talk-about-the-decline-of-the-kansas-city-chiefs-was-premature/",
+      "excerpt": "All the talk about the decline of the Kansas City Chiefs was premature - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on All the talk a…",
+      "source": "https://abcnews.go.com/Politics/wireStory/talk-decline-kansas-city-chiefs-premature-126466059",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "jewish-parents-fear-sending-their-children-to-university-phillipson-20",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/news/politics/jewish-parents-fear-sending-their-children-to-university-phillipson-20/",
       "excerpt": "Jewish parents fear sending their children to uni - Phillipson Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Innovation Culture Arts Travel Earth Audio Video Live Home News Israel-Gaza War War in Ukraine US & Canada UK UK Politics England…",
       "source": "https://www.bbc.com/news/videos/cr5q5j91ve2o?at_medium=RSS&at_campaign=rss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "california-expands-privacy-protections-as-democratic-led-states-resist",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "California expands privacy protections as Democratic-led states resist Trump's immigration agenda",
+      "cover": "https://s.abcnews.com/images/US/wirestory_c316e043d2fe20c9a41755c4cab1aebb_16x9_1600.jpg",
+      "canonical": "https://archive.aventuroo.com/news/politics/california-expands-privacy-protections-as-democratic-led-states-resist/",
+      "excerpt": "California expands privacy protections as Democratic-led states resist Trump's immigration agenda - ABC News ABC News Live Video Shows Shop Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off …",
+      "source": "https://abcnews.go.com/Politics/wireStory/california-expands-privacy-protections-democratic-led-states-resist-126451144",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2797,10 +2845,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 233,
+  "count": 237,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 233,
+    "total_items": 237,
     "per_page": 12,
     "total_pages": 20
   }
