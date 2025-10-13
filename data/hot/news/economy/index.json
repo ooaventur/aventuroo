@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "uk-planning-to-be-speeded-up-with-new-powers-for-ministers-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "UK planning to be speeded up with new powers for ministers",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9428eb12-9771-40e5-9de7-c2f72eb811f7.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/uk-planning-to-be-speeded-up-with-new-powers-for-ministers-2025-10-12/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/d3194a2a-e80f-4a83-8993-0d801df688fc",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-is-existential-trump-s-tariffs-drive-us-car-sector-into-turmoil-2",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -58,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/news/economy/global-economy-defies-trump-s-trade-war-but-cracks-in-the-foundation-e/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/6c8486ae-e5eb-4343-a723-57416cf772af",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "firstft-china-blames-trump-and-us-for-escalating-trade-tensions-2025-1",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "FirstFT: China blames Trump and US for escalating trade tensions",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9054cfc2-f86e-4917-93ca-710f0bcd4563.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/news/economy/firstft-china-blames-trump-and-us-for-escalating-trade-tensions-2025-1/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/9bbee148-801f-4a95-99ae-e47a7b925e08",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2785,10 +2809,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 232,
+  "count": 234,
   "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 232,
+    "total_items": 234,
     "per_page": 12,
     "total_pages": 20
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "author-ken-liu-on-ai-reality-and-the-world-we-re-building-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Author Ken Liu on AI, reality, and the world we're building",
+      "cover": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/culture/author-ken-liu-on-ai-reality-and-the-world-we-re-building-2025-10-12/",
+      "excerpt": "Author Ken Liu on AI, reality, and the world we’re building : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player Open Navigation Menu Newsletters NPR Shop Close Navigation Menu Home News Expand/collapse submenu for News National World Politics Bus…",
+      "source": "https://www.npr.org/2025/10/12/nx-s1-5371594/author-ken-liu-on-ai-reality-and-the-world-were-building",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "lit-hub-weekly-october-6-october-10-2025-2025-10-11",
       "date": "2025-10-11",
       "published_at": "2025-10-11T00:00:00Z",
@@ -1753,10 +1765,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 146,
-  "updated_at": "2025-10-11",
+  "count": 147,
+  "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 146,
+    "total_items": 147,
     "per_page": 12,
     "total_pages": 13
   }

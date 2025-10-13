@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3770,
+  "total_items": 3781,
   "shards": [
     {
       "parent": "business-finance",
@@ -1974,7 +1974,7 @@
       "month": 9,
       "path": "travel/destinations/2025/09/index.json",
       "path_gz": "travel/destinations/2025/09/index.json.gz",
-      "items": 22,
+      "items": 23,
       "first_date": "2025-09-03",
       "last_date": "2025-09-25",
       "pages": 2
@@ -1987,8 +1987,8 @@
       "month": 1,
       "path": "travel/experiences/2020/01/index.json",
       "path_gz": "travel/experiences/2020/01/index.json.gz",
-      "items": 4,
-      "first_date": "2020-01-26",
+      "items": 9,
+      "first_date": "2020-01-09",
       "last_date": "2020-01-30",
       "pages": 1
     },
@@ -2985,6 +2985,19 @@
       "child": "trip-ideas",
       "slug": "travel/trip-ideas",
       "year": 2020,
+      "month": 1,
+      "path": "travel/trip-ideas/2020/01/index.json",
+      "path_gz": "travel/trip-ideas/2020/01/index.json.gz",
+      "items": 3,
+      "first_date": "2020-01-19",
+      "last_date": "2020-01-23",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2020,
       "month": 2,
       "path": "travel/trip-ideas/2020/02/index.json",
       "path_gz": "travel/trip-ideas/2020/02/index.json.gz",
@@ -3001,9 +3014,22 @@
       "month": 3,
       "path": "travel/trip-ideas/2020/03/index.json",
       "path_gz": "travel/trip-ideas/2020/03/index.json.gz",
-      "items": 3,
+      "items": 4,
       "first_date": "2020-03-02",
-      "last_date": "2020-03-04",
+      "last_date": "2020-03-17",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "trip-ideas",
+      "slug": "travel/trip-ideas",
+      "year": 2020,
+      "month": 7,
+      "path": "travel/trip-ideas/2020/07/index.json",
+      "path_gz": "travel/trip-ideas/2020/07/index.json.gz",
+      "items": 1,
+      "first_date": "2020-07-20",
+      "last_date": "2020-07-20",
       "pages": 1
     },
     {

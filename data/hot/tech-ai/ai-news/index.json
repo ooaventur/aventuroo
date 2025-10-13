@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "a-coding-implementation-of-secure-ai-agent-with-self-auditing-guardrai",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "A Coding Implementation of Secure AI Agent with Self-Auditing Guardrails, PII Redaction, and Safe Tool Access in Python",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-40.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-implementation-of-secure-ai-agent-with-self-auditing-guardrai/",
+      "excerpt": "A Coding Implementation of Secure AI Agent with Self-Auditing Guardrails, PII Redaction, and Safe Tool Access in Python - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub N…",
+      "source": "https://www.marktechpost.com/2025/10/12/a-coding-implementation-of-secure-ai-agent-with-self-auditing-guardrails-pii-redaction-and-safe-tool-access-in-python/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "we-keep-talking-about-ai-agents-but-do-we-ever-know-what-they-are-2025",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "We keep talking about AI agents, but do we ever know what they are?",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/5b0hTPUKh7PB9D7CfWwO22/3b31fdc3f95c670ce5096758d8760ccd/Agent_autonomy.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/we-keep-talking-about-ai-agents-but-do-we-ever-know-what-they-are-2025/",
+      "excerpt": "<p>Imagine you do two things on a Monday morning.</p><p>First, you ask a chatbot to summarize your new emails. Next, you ask an AI tool to figure out why your top competitor grew so fast last quarter. The <a href=\"https://venturebeat.com/ai/is-vibe-coding-ruining-a-generation-…",
+      "source": "https://venturebeat.com/ai/we-keep-talking-about-ai-agents-but-do-we-ever-know-what-they-are",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-fr",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -10,6 +34,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-fr/",
       "excerpt": "Sentient AI Releases ROMA: An Open-Source and AGI Focused Meta-Agent Framework for Building AI Agents with Hierarchical Task Execution - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Se…",
       "source": "https://www.marktechpost.com/2025/10/11/sentient-ai-releases-roma-an-open-source-and-agi-focused-meta-agent-framework-for-building-ai-agents-with-hierarchical-task-execution/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "here-s-what-s-slowing-down-your-ai-strategy-and-how-to-fix-it-2025-10",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Here's what's slowing down your AI strategy — and how to fix it",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/77WjI7ALpxOD2JSAUGMDRD/e938cb7b3827956c6043438c7af3f0d6/Velocity_gap.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/here-s-what-s-slowing-down-your-ai-strategy-and-how-to-fix-it-2025-10/",
+      "excerpt": "<p>Your best <a href=\"https://venturebeat.com/ai/how-ai-product-teams-are-rethinking-impact-risk-feasibility\">data science team</a> just spent six months building a model that predicts customer churn with 90% accuracy. It’s sitting on a server, unused. Why? Because it’s been s…",
+      "source": "https://venturebeat.com/ai/heres-whats-slowing-down-your-ai-strategy-and-how-to-fix-it",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "5-most-popular-agentic-ai-design-patterns-every-ai-engineer-should-kno",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "5 Most Popular Agentic AI Design Patterns Every AI Engineer Should Know",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-39.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/5-most-popular-agentic-ai-design-patterns-every-ai-engineer-should-kno/",
+      "excerpt": "5 Most Popular Agentic AI Design Patterns Every AI Engineer Should Know - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusive artic…",
+      "source": "https://www.marktechpost.com/2025/10/12/5-most-popular-agentic-ai-design-patterns-every-ai-engineer-should-know/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1201,10 +1249,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 100,
-  "updated_at": "2025-10-12",
+  "count": 104,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 100,
+    "total_items": 104,
     "per_page": 12,
     "total_pages": 9
   }

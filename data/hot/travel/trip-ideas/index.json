@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "washington-crossing-historic-park-in-washington-crossing-pennsylvania",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Washington Crossing Historic Park in Washington Crossing, Pennsylvania",
+      "cover": "https://img.atlasobscura.com/Gcqvwa9dYL_9BiIBOrFTcl9yHvcqp7KVrdAW1XG_NnE/rt:fit/w:600/c:1050:700:nowe:9:0/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82ZmJj/OWNjOC0wN2M2LTQ3/Y2UtYjE4OS05MTI4/NWZhOTU0ODFiMzA2/ZjU5NGRmMTBkOGVh/YTdfY3Jvc3Npbmcu/anBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/washington-crossing-historic-park-in-washington-crossing-pennsylvania/",
+      "excerpt": "Washington Crossing Historic Park - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-…",
+      "source": "https://www.atlasobscura.com/places/washington-crossing-historic-park",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "lady-agnes-in-gollenberg-germany-2025-10-12",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/travel/trip-ideas/gulf-of-georgia-cannery-in-richmond-british-columbia-2025-10-12/",
       "excerpt": "Gulf of Georgia Cannery - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" …",
       "source": "https://www.atlasobscura.com/places/gulf-of-georgia-cannery",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "cherokee-telephone-memorial-in-tahlequah-oklahoma-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "Cherokee Telephone Memorial in Tahlequah, Oklahoma",
+      "cover": "https://img.atlasobscura.com/Yel9bCMn7evUCfRpTKYsFlrw0rVfeZZNTfiFXda1y_k/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9lZTcx/ZjM0OS1hMjU1LTRl/YWEtYTMzOS1kMzFm/ZjNkOTFhMjQzZjRh/N2JmNTI0OTI1MDk0/NGNfMTAwMDAzODQ2/NC5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/cherokee-telephone-memorial-in-tahlequah-oklahoma-2025-10-12/",
+      "excerpt": "Cherokee Telephone Memorial - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p…",
+      "source": "https://www.atlasobscura.com/places/cherokee-telephone-memorial",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1681,10 +1705,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 140,
+  "count": 142,
   "updated_at": "2025-10-12",
   "pagination": {
-    "total_items": 140,
+    "total_items": 142,
     "per_page": 12,
     "total_pages": 12
   }

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "how-to-create-a-family-friendly-work-environment-as-an-employer-2025-1",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "How to Create a Family-Friendly Work Environment as an Employer",
+      "cover": "https://www.success.com/wp-content/uploads/2024/02/How-Employers-Can-Support-Working-Parents-Social-1.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-create-a-family-friendly-work-environment-as-an-employer-2025-1/",
+      "excerpt": "How to Create a Family-Friendly Work Environment | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
+      "source": "https://www.success.com/how-employers-can-support-working-parents/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-importance-of-professional-networking-events-for-2026-2025-10-12",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "The Importance of Professional Networking Events for 2026",
+      "cover": "https://www.success.com/wp-content/uploads/2025/08/how-to-stand-out-networking-events-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-importance-of-professional-networking-events-for-2026-2025-10-12/",
+      "excerpt": "Professional Networking Do's & Don'ts for 2026 | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine S…",
+      "source": "https://www.success.com/importance-of-professional-networking-events/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-7-best-documentaries-about-business-that-every-entrepreneur-must-w",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "The 7 Best Documentaries About Business That Every Entrepreneur Must Watch",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/Best-Documentaries-for-Entrepreneurs-Social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/the-7-best-documentaries-about-business-that-every-entrepreneur-must-w/",
+      "excerpt": "7 Best Documentaries About Business to Watch Today | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazi…",
+      "source": "https://www.success.com/best-documentaries-about-business/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "personal-branding-101-learn-how-to-market-yourself-win-customers-with",
       "date": "2025-10-12",
       "published_at": "2025-10-12T00:00:00Z",
@@ -10,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/personal-branding-101-learn-how-to-market-yourself-win-customers-with/",
       "excerpt": "6 Personal Branding Tips to Win Customers in 2026 | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazin…",
       "source": "https://www.success.com/how-to-brand-yourself/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-write-a-personal-brand-statement-that-steals-the-show-2025-10-1",
+      "date": "2025-10-12",
+      "published_at": "2025-10-12T00:00:00Z",
+      "created_at": "2025-10-12T00:00:00Z",
+      "title": "How to Write a Personal Brand Statement That Steals the Show",
+      "cover": "https://www.success.com/wp-content/uploads/2025/02/SOnline25_Megan-Hageman_SEO_Personal-Brand-Statement_Social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-write-a-personal-brand-statement-that-steals-the-show-2025-10-1/",
+      "excerpt": "How to Write The Perfect Personal Brand Statement | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazin…",
+      "source": "https://www.success.com/writing-personal-brand-statement/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -925,10 +973,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 77,
-  "updated_at": "2025-10-12",
+  "count": 81,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 77,
+    "total_items": 81,
     "per_page": 12,
     "total_pages": 7
   }

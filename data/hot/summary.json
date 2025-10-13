@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7753,
+  "total_items": 7771,
   "parents": [
     {
       "parent": "business-finance",
@@ -36,13 +36,13 @@
     },
     {
       "parent": "crypto",
-      "items": 857,
+      "items": 859,
       "pages": 72,
       "children": [
         {
           "child": "altcoins-web3",
           "slug": "crypto/altcoins-web3",
-          "items": 78,
+          "items": 80,
           "pages": 7
         },
         {
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 711,
+      "items": 715,
       "pages": 60,
       "children": [
         {
@@ -91,13 +91,13 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 146,
+          "items": 147,
           "pages": 13
         },
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 149,
+          "items": 152,
           "pages": 13
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 929,
+      "items": 934,
       "pages": 78,
       "children": [
         {
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 79,
+          "items": 80,
           "pages": 7
         },
         {
@@ -214,7 +214,7 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 77,
+          "items": 81,
           "pages": 7
         },
         {
@@ -227,13 +227,13 @@
     },
     {
       "parent": "news",
-      "items": 944,
+      "items": 946,
       "pages": 79,
       "children": [
         {
           "child": "economy",
           "slug": "news/economy",
-          "items": 232,
+          "items": 234,
           "pages": 20
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1124,
+      "items": 1128,
       "pages": 94,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 100,
+          "items": 104,
           "pages": 9
         },
         {
@@ -356,13 +356,13 @@
     },
     {
       "parent": "travel",
-      "items": 841,
+      "items": 842,
       "pages": 71,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 42,
+          "items": 41,
           "pages": 4
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 140,
+          "items": 142,
           "pages": 12
         }
       ]

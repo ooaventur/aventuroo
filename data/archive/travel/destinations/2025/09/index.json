@@ -205,6 +205,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-best-country-house-hotels-in-britain-2025-09-12",
+      "date": "2025-09-12",
+      "published_at": "2025-09-12T00:00:00Z",
+      "created_at": "2025-09-12T00:00:00Z",
+      "title": "The best country house hotels in Britain",
+      "cover": "https://www.telegraph.co.uk/content/dam/Travel/hotels/2024/july/fife-arms-suite-scotland.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/the-best-country-house-hotels-in-britain-2025-09-12/",
+      "excerpt": "The best country house hotels in Britain | Telegraph Travel Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log…",
+      "source": "https://www.telegraph.co.uk/travel/destinations/europe/united-kingdom/england/articles/the-best-country-house-hotels-in-britain/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "britain-s-best-indoor-snow-centres-and-dry-ski-slopes-2025-09-09",
       "date": "2025-09-09",
       "published_at": "2025-09-09T00:00:00Z",
@@ -265,10 +277,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 22,
-  "updated_at": "2025-10-01",
+  "count": 23,
+  "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 22,
+    "total_items": 23,
     "per_page": 12,
     "total_pages": 2
   }
