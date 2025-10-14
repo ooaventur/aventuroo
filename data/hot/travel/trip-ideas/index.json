@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "sam-sanders-how-to-become-a-nature-girly-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Sam Sanders: How to Become a Nature Girly",
+      "cover": "https://img.atlasobscura.com/SoZT2d3Fhl2hJmjGNI14LBrPI7o2AIf05rVoY-JTcew/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL2Fzc2V0/cy8wY2FmOTlhZC00/MzliLTQ1YzgtOTBk/ZC0yYzEwYWYzNjNl/NjhmMDIyNzE4YjI4/ZTUxZTgxNjFfNmE5/YzBmOTljMzQyNmEz/MjQwXzEwMjc3YzE3/ZjczNDg0N2ViZl90/YWxsaWFfd2hpdGVz/YW5kczAwMS5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/sam-sanders-how-to-become-a-nature-girly-2025-10-14/",
+      "excerpt": "Sam Sanders on Being a Nature Girly - Atlas Obscura Trips Take your next trip with Atlas Obscura! Our small-group adventures are inspired by our Atlas of the world's most fascinating places, the stories behind them, and the people who bring them to life. Visit Adventures Trips…",
+      "source": "https://www.atlasobscura.com/articles/podcast-sam-sanders-nature-girly",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "adam-and-eve-the-longstones-in-marlborough-england-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Adam and Eve (The Longstones) in Marlborough, England",
+      "cover": "https://img.atlasobscura.com/FWdwi5bM-kSfEYk-bciH1a-OqviGhwE5g7bXQ1PMElw/rt:fit/w:600/c:2258:1505:nowe:76:316/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82Zjlj/OGNkZC1jNTQxLTRi/NmMtYTA4OS04NzFk/YTIwNGRkMTQzMTYy/OWMyNGM2MGU4ODM5/MGZfMjAyNS0wODYt/MDggMiwgQmVja2hh/bXB0b24gVHJ1c2xv/ZSAoNSkuanBn.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/adam-and-eve-the-longstones-in-marlborough-england-2025-10-14/",
+      "excerpt": "Adam and Eve (The Longstones) - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm…",
+      "source": "https://www.atlasobscura.com/places/adam-and-eve-the-longstones",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "waldmops-of-brandenburg-in-brandenburg-an-der-havel-germany-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1825,10 +1849,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 152,
-  "updated_at": "2025-10-13",
+  "count": 154,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 152,
+    "total_items": 154,
     "per_page": 12,
     "total_pages": 13
   }

@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence-2025",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Chinese hackers abuse geo-mapping tool for year-long persistence",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/05/28/China.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence-2025/",
+      "excerpt": "Chinese hackers abuse geo-mapping tool for year-long persistence News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extortio…",
+      "source": "https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sonicwall-vpn-accounts-breached-using-stolen-creds-in-widespread-attac",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -2365,10 +2377,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 197,
+  "count": 198,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 197,
+    "total_items": 198,
     "per_page": 12,
     "total_pages": 17
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "nobel-prize-winners-show-how-innovation-builds-on-the-lessons-of-the-p",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Nobel Prize Winners Show How Innovation Builds on the Lessons of the Past",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/nobel-prize-innovation-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/nobel-prize-winners-show-how-innovation-builds-on-the-lessons-of-the-p/",
+      "excerpt": "How Nobel Prize Winners Show Innovation Builds on the Past | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"…",
+      "source": "https://www.success.com/nobel-prize-innovation/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "from-have-to-to-want-to-how-leaders-can-inspire-discretionary-effort-2",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "From “Have To” to “Want To”: How Leaders Can Inspire Discretionary Effort",
+      "cover": "https://www.success.com/wp-content/uploads/2025/09/How-Leaders-Can-Inspire-Discretionary-Effort-Social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/from-have-to-to-want-to-how-leaders-can-inspire-discretionary-effort-2/",
+      "excerpt": "How Leaders Can Inspire Discretionary Effort | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUC…",
+      "source": "https://www.success.com/how-leaders-inspire-discretionary-effort/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "these-11-habits-will-make-you-more-productive-successful-and-confident",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1033,10 +1057,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 86,
-  "updated_at": "2025-10-13",
+  "count": 88,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 86,
+    "total_items": 88,
     "per_page": 12,
     "total_pages": 8
   }

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-here-s-wh",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Visa just launched a protocol to secure the AI shopping boom — here’s what it means for merchants",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4TWzzYHcsJXmxU7VYnIlKV/896cc598ae137fe841c13309d6aae3df/nuneybits_Vector_art_of_a_Visa_credit_card_c3c9580a-d8ce-4402-9763-bd56dc26549e.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-here-s-wh/",
+      "excerpt": "<p><a href=\"https://usa.visa.com/\"><u>Visa</u></a> is introducing a new security framework designed to solve one of the thorniest problems emerging in artificial intelligence-powered commerce: how retailers can tell the difference between legitimate AI shopping assistants and …",
+      "source": "https://venturebeat.com/ai/visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-heres-what-it",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "servicenow-ai-research-releases-drbench-a-realistic-enterprise-deep-re",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "ServiceNow AI Research Releases DRBench, a Realistic Enterprise Deep-Research Benchmark",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-1-4.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/servicenow-ai-research-releases-drbench-a-realistic-enterprise-deep-re/",
+      "excerpt": "ServiceNow AI Research Releases DRBench, a Realistic Enterprise Deep-Research Benchmark - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our…",
+      "source": "https://www.marktechpost.com/2025/10/14/servicenow-ai-research-releases-drbench-a-realistic-enterprise-deep-research-benchmark/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "nvidia-researchers-propose-reinforcement-learning-pretraining-rlp-rein",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "NVIDIA Researchers Propose Reinforcement Learning Pretraining (RLP): Reinforcement as a Pretraining Objective for Building Reasoning During Pretraining",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-50.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/nvidia-researchers-propose-reinforcement-learning-pretraining-rlp-rein/",
+      "excerpt": "NVIDIA Researchers Propose Reinforcement Learning Pretraining (RLP): Reinforcement as a Pretraining Objective for Building Reasoning During Pretraining - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice …",
+      "source": "https://www.marktechpost.com/2025/10/14/nvidia-researchers-propose-reinforcement-learning-pretraining-rlp-reinforcement-as-a-pretraining-objective-for-building-reasoning-during-pretraining/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "microsoft-ai-debuts-mai-image-1-an-in-house-text-to-image-model-that-e",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -34,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ivy-framework-agnostic-machine-learning-build-transpile-and-benchmark/",
       "excerpt": "Ivy Framework Agnostic Machine Learning Build, Transpile, and Benchmark Across All Major Backends - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Conten…",
       "source": "https://www.marktechpost.com/2025/10/13/ivy-framework-agnostic-machine-learning-build-transpile-and-benchmark-across-all-major-backends/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "7-llm-generation-parameters-what-they-do-and-how-to-tune-them-2025-10",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "7 LLM Generation Parameters—What They Do and How to Tune Them?",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-47.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/7-llm-generation-parameters-what-they-do-and-how-to-tune-them-2025-10/",
+      "excerpt": "7 LLM Generation Parameters—What They Do and How to Tune Them? - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Content Read our exclusive articles Faceb…",
+      "source": "https://www.marktechpost.com/2025/10/14/7-llm-generation-parameters-what-they-do-and-how-to-tune-them/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1381,10 +1429,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 115,
+  "count": 119,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 115,
+    "total_items": 119,
     "per_page": 12,
     "total_pages": 10
   }

@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "what-does-independent-really-mean-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "What does independent really mean?",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/A-Future-Outset-Collection-by-Hilton-hotel-in-Moab-1.jpg.webp",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/what-does-independent-really-mean-2025-10-14/",
+      "excerpt": "Editor's comments: What does independent really mean? Skip to content LATEST NEWS What does independent really mean? Roger Saul on risk, innovation, and building Mulberry Neena Jivraj Stevenson on the evolution of members’ clubs Raffles London at The OWO names Thomas as managi…",
+      "source": "https://boutiquehotelnews.com/editors-comments/editors-comments-independent/?utm_source=rss&utm_medium=rss&utm_campaign=editors-comments-independent",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "roger-saul-on-risk-innovation-and-building-mulberry-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Roger Saul on risk, innovation, and building Mulberry",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-14-at-10.04.43.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/roger-saul-on-risk-innovation-and-building-mulberry-2025-10-14/",
+      "excerpt": "Video: Roger Saul on risk, innovation, and building Mulberry Skip to content LATEST NEWS What does independent really mean? Roger Saul on risk, innovation, and building Mulberry Neena Jivraj Stevenson on the evolution of members’ clubs Raffles London at The OWO names Thomas as…",
+      "source": "https://boutiquehotelnews.com/videos/roger-saul-mulberry/?utm_source=rss&utm_medium=rss&utm_campaign=roger-saul-mulberry",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "raffles-london-at-the-owo-names-thomas-as-managing-director-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Raffles London at The OWO names Thomas as managing director",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/image-1.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/raffles-london-at-the-owo-names-thomas-as-managing-director-2025-10-14/",
+      "excerpt": "Raffles London at The OWO names Thomas as managing director Skip to content LATEST NEWS What does independent really mean? Roger Saul on risk, innovation, and building Mulberry Neena Jivraj Stevenson on the evolution of members’ clubs Raffles London at The OWO names Thomas as …",
+      "source": "https://boutiquehotelnews.com/news/movers-and-shakers/raffles-owo-managing-director/?utm_source=rss&utm_medium=rss&utm_campaign=raffles-owo-managing-director",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "neena-jivraj-stevenson-on-the-evolution-of-members-clubs-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Neena Jivraj Stevenson on the evolution of members’ clubs",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-14-at-09.45.15.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/neena-jivraj-stevenson-on-the-evolution-of-members-clubs-2025-10-14/",
+      "excerpt": "Video: Neena Jivraj Stevenson on the evolution of members' clubs Skip to content LATEST NEWS What does independent really mean? Roger Saul on risk, innovation, and building Mulberry Neena Jivraj Stevenson on the evolution of members’ clubs Raffles London at The OWO names Thoma…",
+      "source": "https://boutiquehotelnews.com/videos/neena-jivraj-stevenson-clubs/?utm_source=rss&utm_medium=rss&utm_campaign=neena-jivraj-stevenson-clubs",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "singlethread-expands-in-healdsburg-with-second-inn-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -385,10 +433,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 32,
-  "updated_at": "2025-10-13",
+  "count": 36,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 32,
+    "total_items": 36,
     "per_page": 12,
     "total_pages": 3
   }

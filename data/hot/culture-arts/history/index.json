@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "aneurin-bevan-life-of-the-week-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Aneurin Bevan: life of the week",
+      "cover": "https://images.immediate.co.uk/production/volatile/sites/7/2025/10/Life-Aneurin-Bevan-WL-1-ab72339.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/aneurin-bevan-life-of-the-week-2025-10-14/",
+      "excerpt": "Aneurin Bevan: life of the week | HistoryExtra Skip to main content Subscribe Newsletter sign up Download app Join our Academy The official website for BBC History Magazine Period Back to Main menu Ancient Egypt Roman Viking Anglo-Saxon Medieval Tudor Elizabethan Georgian Vict…",
+      "source": "https://www.historyextra.com/membership/aneurin-bevan-podcast-nye-davis/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-lie-of-succession-did-james-i-steal-elizabeth-i-s-crown-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1969,10 +1981,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 164,
+  "count": 165,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 164,
+    "total_items": 165,
     "per_page": 12,
     "total_pages": 14
   }

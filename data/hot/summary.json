@@ -1,17 +1,17 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7927,
+  "total_items": 7969,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 555,
+      "items": 563,
       "pages": 47,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 100,
+          "items": 102,
           "pages": 9
         },
         {
@@ -23,26 +23,26 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 100,
+          "items": 105,
           "pages": 9
         },
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 115,
+          "items": 116,
           "pages": 10
         }
       ]
     },
     {
       "parent": "crypto",
-      "items": 869,
+      "items": 871,
       "pages": 73,
       "children": [
         {
           "child": "altcoins-web3",
           "slug": "crypto/altcoins-web3",
-          "items": 89,
+          "items": 91,
           "pages": 8
         },
         {
@@ -73,8 +73,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 750,
-      "pages": 63,
+      "items": 760,
+      "pages": 64,
       "children": [
         {
           "child": "arts",
@@ -91,19 +91,19 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 153,
-          "pages": 13
+          "items": 161,
+          "pages": 14
         },
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 166,
+          "items": 167,
           "pages": 14
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 164,
+          "items": 165,
           "pages": 14
         }
       ]
@@ -153,7 +153,7 @@
     },
     {
       "parent": "food-drink",
-      "items": 551,
+      "items": 552,
       "pages": 46,
       "children": [
         {
@@ -165,7 +165,7 @@
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 69,
+          "items": 70,
           "pages": 6
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 950,
+      "items": 954,
       "pages": 80,
       "children": [
         {
@@ -208,13 +208,13 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 56,
+          "items": 58,
           "pages": 5
         },
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 86,
+          "items": 88,
           "pages": 8
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1161,
-      "pages": 97,
+      "items": 1171,
+      "pages": 98,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 115,
+          "items": 119,
           "pages": 10
         },
         {
@@ -325,7 +325,7 @@
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 123,
+          "items": 128,
           "pages": 11
         },
         {
@@ -349,20 +349,20 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 197,
+          "items": 198,
           "pages": 17
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 869,
+      "items": 876,
       "pages": 73,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 44,
+          "items": 45,
           "pages": 4
         },
         {
@@ -380,7 +380,7 @@
         {
           "child": "stays-hotels",
           "slug": "travel/stays-hotels",
-          "items": 32,
+          "items": 36,
           "pages": 3
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 152,
+          "items": 154,
           "pages": 13
         }
       ]

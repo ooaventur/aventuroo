@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "apartment-complex-why-gen-z-would-rather-rent-than-buy-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Apartment Complex: Why Gen Z Would Rather Rent Than Buy",
+      "cover": "https://img.money.com/2025/10/News-Renting-Before-Buying-Homes.jpg?quality=85",
+      "canonical": "https://archive.aventuroo.com/business-finance/personal-finance/apartment-complex-why-gen-z-would-rather-rent-than-buy-2025-10-14/",
+      "excerpt": "Why Gen Z Is Choosing Renting Over Buying Homes in 2025 | Money Close Credit Money's Best, News & Guides Best Credit Repair Companies Best Identity Theft Protection Services Best Credit Monitoring Services Insurance Money's Best, News & Guides Best Long-Term Care Insurance Bes…",
+      "source": "https://money.com/why-gen-z-prefers-renting-over-buying-home/?xid=moneyrss",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "mortgage-rates-today-monday-october-13-noticeably-lower-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1381,10 +1393,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 115,
-  "updated_at": "2025-10-13",
+  "count": 116,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 115,
+    "total_items": 116,
     "per_page": 12,
     "total_pages": 10
   }
