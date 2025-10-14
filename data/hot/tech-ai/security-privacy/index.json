@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "simonmed-says-1-2-million-patients-impacted-in-january-data-breach-202",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "SimonMed says 1.2 million patients impacted in January data breach",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/06/25/Medusa.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/simonmed-says-1-2-million-patients-impacted-in-january-data-breach-202/",
+      "excerpt": "SimonMed says 1.2 million patients impacted in January data breach News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extort…",
+      "source": "https://www.bleepingcomputer.com/news/security/simonmed-says-12-million-patients-impacted-in-january-data-breach/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "oracle-releases-emergency-patch-for-new-e-business-suite-flaw-2025-10",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -34,6 +46,30 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/oracle-releases-emergency-patch-for-new-e-business-suite-flaw-2025-10/",
       "excerpt": "Oracle releases emergency patch for new E-Business Suite flaw News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extortion M…",
       "source": "https://www.bleepingcomputer.com/news/security/oracle-releases-emergency-patch-for-new-e-business-suite-flaw/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-windows-11-media-creation-tool-broken-on-windows-10-pcs-2025",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Microsoft: Windows 11 Media Creation Tool broken on Windows 10 PCs",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2024/12/16/Windows.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-windows-11-media-creation-tool-broken-on-windows-10-pcs-2025/",
+      "excerpt": "Microsoft: Windows 11 Media Creation Tool broken on Windows 10 PCs News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extort…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-media-creation-tool-broken-on-windows-10-pcs/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "microsoft-restricts-ie-mode-access-in-edge-after-zero-day-attacks-2025",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Microsoft restricts IE mode access in Edge after zero-day attacks",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2021/06/01/Microsoft-Edge.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-restricts-ie-mode-access-in-edge-after-zero-day-attacks-2025/",
+      "excerpt": "Microsoft restricts IE mode access in Edge after zero-day attacks News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extorti…",
+      "source": "https://www.bleepingcomputer.com/news/security/microsoft-restricts-ie-mode-access-in-edge-after-zero-day-attacks/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -70,6 +106,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/massive-multi-country-botnet-targets-rdp-services-in-the-us-2025-10-13/",
       "excerpt": "Massive multi-country botnet targets RDP services in the US News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extortion Mic…",
       "source": "https://www.bleepingcomputer.com/news/security/massive-multi-country-botnet-targets-rdp-services-in-the-us/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "harvard-investigating-breach-linked-to-oracle-zero-day-exploit-2025-10",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Harvard investigating breach linked to Oracle zero-day exploit",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/13/harvard-flag-reduced.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/harvard-investigating-breach-linked-to-oracle-zero-day-exploit-2025-10/",
+      "excerpt": "Harvard investigating breach linked to Oracle zero-day exploit News Featured Latest Google Chrome to revoke browser notifications for inactive sites Apple now offers $2 million for zero-click RCE vulnerabilities FBI takes down BreachForums portal used for Salesforce extortion …",
+      "source": "https://www.bleepingcomputer.com/news/security/harvard-investigating-breach-linked-to-oracle-zero-day-exploit/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2317,10 +2365,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 193,
+  "count": 197,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 193,
+    "total_items": 197,
     "per_page": 12,
     "total_pages": 17
   }

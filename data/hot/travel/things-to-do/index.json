@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-60-day-rail-trip-is-a-round-the-world-journey-aboard-8-luxury-tra",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "This 60-Day Rail Trip Is a Round-the-World Journey Aboard 8 Luxury Trains",
+      "cover": "https://media.cntraveler.com/photos/67e6d4c86326c0a9cd77d27d/master/pass/Rocky%20Mountaineer%20_%20RM_FPW_Vermilion_Lakes_NH_2016_2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/this-60-day-rail-trip-is-a-round-the-world-journey-aboard-8-luxury-tra/",
+      "excerpt": "This 60-Day Rail Trip Is a Round-the-World Journey Aboard 8 Luxury Trains | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers…",
+      "source": "https://www.cntraveler.com/story/railbookers-around-the-world-luxury-train-trip-2026",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-a-father-daughter-trek-up-mount-kilimanjaro-shaped-a-life-2025-10",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "How a Father-Daughter Trek up Mount Kilimanjaro Shaped a Life",
+      "cover": "https://media.cntraveler.com/photos/68ed43eaf94427756118ff19/master/pass/kilimanjaro-tanveer-badal-hires-1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/how-a-father-daughter-trek-up-mount-kilimanjaro-shaped-a-life-2025-10/",
+      "excerpt": "How a Father-Daughter Trek up Mount Kilimanjaro Shaped a Life | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awa…",
+      "source": "https://www.cntraveler.com/story/a-father-daughter-trek-up-mount-kilimanjaro",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "where-to-eat-stay-play-in-san-miguel-de-allende-for-colorful-design-an",
       "date": "2025-10-07",
       "published_at": "2025-10-07T00:00:00Z",
@@ -325,10 +349,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 27,
-  "updated_at": "2025-10-07",
+  "count": 29,
+  "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 27,
+    "total_items": 29,
     "per_page": 12,
     "total_pages": 3
   }

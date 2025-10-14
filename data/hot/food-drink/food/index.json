@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "our-best-mashed-potatoes-ever-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Our Best Mashed Potatoes Ever",
+      "cover": "https://assets.bonappetit.com/photos/632a02268a4a16b4c76300c8/master/pass/0920-mashed-potatoes-lede.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/our-best-mashed-potatoes-ever-2025-10-13/",
+      "excerpt": "Our Best Mashed Potatoes Ever Recipe | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Cooking November 2017 …",
+      "source": "https://www.bonappetit.com/recipe/best-mashed-potatoes",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "nick-offerman-loves-whisky-just-as-much-as-ron-swanson-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/nick-offerman-loves-whisky-just-as-much-as-ron-swanson-2025-10-13/",
       "excerpt": "Nick Offerman Loves Whisky Just as Much as Ron Swanson | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Shop…",
       "source": "https://www.bonappetit.com/story/nick-offerman-lagavulin-whisky",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "chef-nik-forsberg-s-pittsburgh-travel-guide-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Chef Nik Forsberg's Pittsburgh Travel Guide",
+      "cover": "https://assets.bonappetit.com/photos/68a4eb8e850821e46898ec45/master/pass/BA%20Webart%20Chef%20City%20Collage%20Pittsburgh.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/chef-nik-forsberg-s-pittsburgh-travel-guide-2025-10-13/",
+      "excerpt": "Chef Nik Forsberg's Pittsburgh Travel Guide | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Where to eat Ex…",
+      "source": "https://www.bonappetit.com/story/nik-forsberg-pittsburgh-guide",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -805,10 +829,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 69,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 67,
+    "total_items": 69,
     "per_page": 12,
     "total_pages": 6
   }

@@ -1,12 +1,12 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7863,
+  "total_items": 7910,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 551,
-      "pages": 46,
+      "items": 553,
+      "pages": 47,
       "children": [
         {
           "child": "companies-startups",
@@ -23,8 +23,8 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 96,
-          "pages": 8
+          "items": 98,
+          "pages": 9
         },
         {
           "child": "personal-finance",
@@ -36,14 +36,14 @@
     },
     {
       "parent": "crypto",
-      "items": 862,
-      "pages": 72,
+      "items": 868,
+      "pages": 73,
       "children": [
         {
           "child": "altcoins-web3",
           "slug": "crypto/altcoins-web3",
-          "items": 82,
-          "pages": 7
+          "items": 88,
+          "pages": 8
         },
         {
           "child": "bitcoin-majors",
@@ -73,8 +73,8 @@
     },
     {
       "parent": "culture-arts",
-      "items": 731,
-      "pages": 61,
+      "items": 746,
+      "pages": 63,
       "children": [
         {
           "child": "arts",
@@ -91,20 +91,20 @@
         {
           "child": "culture",
           "slug": "culture-arts/culture",
-          "items": 152,
+          "items": 153,
           "pages": 13
         },
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 158,
+          "items": 164,
           "pages": 14
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 154,
-          "pages": 13
+          "items": 162,
+          "pages": 14
         }
       ]
     },
@@ -153,7 +153,7 @@
     },
     {
       "parent": "food-drink",
-      "items": 549,
+      "items": 551,
       "pages": 46,
       "children": [
         {
@@ -165,7 +165,7 @@
         {
           "child": "food",
           "slug": "food-drink/food",
-          "items": 67,
+          "items": 69,
           "pages": 6
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 944,
+      "items": 947,
       "pages": 79,
       "children": [
         {
@@ -208,14 +208,14 @@
         {
           "child": "index",
           "slug": "lifestyle",
-          "items": 55,
+          "items": 56,
           "pages": 5
         },
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 84,
-          "pages": 7
+          "items": 86,
+          "pages": 8
         },
         {
           "child": "outdoor",
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1146,
-      "pages": 96,
+      "items": 1154,
+      "pages": 97,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 109,
+          "items": 113,
           "pages": 10
         },
         {
@@ -349,20 +349,20 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 193,
+          "items": 197,
           "pages": 17
         }
       ]
     },
     {
       "parent": "travel",
-      "items": 858,
-      "pages": 72,
+      "items": 869,
+      "pages": 73,
       "children": [
         {
           "child": "destinations",
           "slug": "travel/destinations",
-          "items": 43,
+          "items": 44,
           "pages": 4
         },
         {
@@ -374,7 +374,7 @@
         {
           "child": "general",
           "slug": "travel/general",
-          "items": 102,
+          "items": 107,
           "pages": 9
         },
         {
@@ -386,7 +386,7 @@
         {
           "child": "things-to-do",
           "slug": "travel/things-to-do",
-          "items": 27,
+          "items": 29,
           "pages": 3
         },
         {
@@ -404,7 +404,7 @@
         {
           "child": "trip-ideas",
           "slug": "travel/trip-ideas",
-          "items": 149,
+          "items": 152,
           "pages": 13
         }
       ]

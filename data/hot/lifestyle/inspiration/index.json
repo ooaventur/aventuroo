@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "these-11-habits-will-make-you-more-productive-successful-and-confident",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "These 11 Habits Will Make You More Productive, Successful, and Confident",
+      "cover": "https://addicted2success.com/wp-content/uploads/2025/10/These-11-Habits-Will-Make-You-More-Productive-Successful-and-Confident-1.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/these-11-habits-will-make-you-more-productive-successful-and-confident/",
+      "excerpt": "These 11 Habits Will Make You More Productive, Successful, and Confident - Addicted 2 Success Home Scale Your Business Entrepreneurs Startups Master Sales Techniques Explode Your Social Media Network Like a Pro Expert Interviews Change Your Mindset Personal Development Shift Y…",
+      "source": "https://addicted2success.com/success-advice/these-11-habits-will-make-you-more-productive-successful-and-confident/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "how-to-prepare-for-a-promotion-interview-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-create-a-family-friendly-work-environment-as-an-employer-2025-1/",
       "excerpt": "How to Create a Family-Friendly Work Environment | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine…",
       "source": "https://www.success.com/how-employers-can-support-working-parents/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-be-a-good-explorer-in-the-lifelong-expedition-to-yourself-2025",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "How to Be a Good Explorer in the Lifelong Expedition to Yourself",
+      "cover": "https://www.themarginalian.org/wp-content/uploads/2025/10/explorer_Marginalian.jpg?fit=1200%2C630&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-be-a-good-explorer-in-the-lifelong-expedition-to-yourself-2025/",
+      "excerpt": "How to Be a Good Explorer in the Lifelong Expedition to Yourself – The Marginalian Home About Contact donating = loving newsletter View Full Site Every month, I spend hundreds of hours and thousands of dollars keeping The Marginalian going. For nearly two decades, it has remai…",
+      "source": "https://www.themarginalian.org/2025/10/13/pessoa-explorer/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1009,11 +1033,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 84,
+  "count": 86,
   "updated_at": "2025-10-13",
   "pagination": {
-    "total_items": 84,
+    "total_items": 86,
     "per_page": 12,
-    "total_pages": 7
+    "total_pages": 8
   }
 }
