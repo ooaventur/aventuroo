@@ -1,11 +1,11 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7910,
+  "total_items": 7927,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 553,
+      "items": 555,
       "pages": 47,
       "children": [
         {
@@ -23,7 +23,7 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 98,
+          "items": 100,
           "pages": 9
         },
         {
@@ -36,13 +36,13 @@
     },
     {
       "parent": "crypto",
-      "items": 868,
+      "items": 869,
       "pages": 73,
       "children": [
         {
           "child": "altcoins-web3",
           "slug": "crypto/altcoins-web3",
-          "items": 88,
+          "items": 89,
           "pages": 8
         },
         {
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 746,
+      "items": 750,
       "pages": 63,
       "children": [
         {
@@ -97,13 +97,13 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 164,
+          "items": 166,
           "pages": 14
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 162,
+          "items": 164,
           "pages": 14
         }
       ]
@@ -184,8 +184,8 @@
     },
     {
       "parent": "lifestyle",
-      "items": 947,
-      "pages": 79,
+      "items": 950,
+      "pages": 80,
       "children": [
         {
           "child": "beauty-style",
@@ -196,7 +196,7 @@
         {
           "child": "health",
           "slug": "lifestyle/health",
-          "items": 85,
+          "items": 88,
           "pages": 8
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1154,
+      "items": 1161,
       "pages": 97,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 113,
+          "items": 115,
           "pages": 10
         },
         {
@@ -325,8 +325,8 @@
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 118,
-          "pages": 10
+          "items": 123,
+          "pages": 11
         },
         {
           "child": "gaming-tech",

@@ -13,6 +13,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "meta-s-are-gaia2-set-a-new-bar-for-ai-agent-evaluation-under-asynchron",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Meta’s ARE + Gaia2 Set a New Bar for AI Agent Evaluation under Asynchronous, Event-Driven Conditions",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/Screenshot-2025-10-13-at-7.01.26-PM.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-s-are-gaia2-set-a-new-bar-for-ai-agent-evaluation-under-asynchron/",
+      "excerpt": "Meta’s ARE + Gaia2 Set a New Bar for AI Agent Evaluation under Asynchronous, Event-Driven Conditions - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Con…",
+      "source": "https://www.marktechpost.com/2025/10/13/metas-are-gaia2-set-a-new-bar-for-ai-agent-evaluation-under-asynchronous-event-driven-conditions/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "ivy-framework-agnostic-machine-learning-build-transpile-and-benchmark",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Ivy Framework Agnostic Machine Learning Build, Transpile, and Benchmark Across All Major Backends",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-45.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/ivy-framework-agnostic-machine-learning-build-transpile-and-benchmark/",
+      "excerpt": "Ivy Framework Agnostic Machine Learning Build, Transpile, and Benchmark Across All Major Backends - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Conten…",
+      "source": "https://www.marktechpost.com/2025/10/13/ivy-framework-agnostic-machine-learning-build-transpile-and-benchmark-across-all-major-backends/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-new-ai-technique-creates-digital-twin-consumers-and-it-could-kill",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1357,10 +1381,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 113,
+  "count": 115,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 113,
+    "total_items": 115,
     "per_page": 12,
     "total_pages": 10
   }

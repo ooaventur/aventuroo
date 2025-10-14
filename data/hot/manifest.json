@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 7910,
+  "total_items": 7927,
   "shards": [
     {
       "parent": "business-finance",
@@ -30,9 +30,9 @@
       "child": "markets-economy",
       "slug": "business-finance/markets-economy",
       "path": "business-finance/markets-economy/index.json",
-      "items": 98,
+      "items": 100,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 9,
       "is_global": false
     },
@@ -52,9 +52,9 @@
       "child": "altcoins-web3",
       "slug": "crypto/altcoins-web3",
       "path": "crypto/altcoins-web3/index.json",
-      "items": 88,
+      "items": 89,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 8,
       "is_global": false
     },
@@ -64,7 +64,7 @@
       "slug": "crypto/bitcoin-majors",
       "path": "crypto/bitcoin-majors/index.json",
       "items": 240,
-      "first_date": "2025-10-08",
+      "first_date": "2025-10-09",
       "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
@@ -140,7 +140,7 @@
       "child": "general",
       "slug": "culture-arts/general",
       "path": "culture-arts/general/index.json",
-      "items": 164,
+      "items": 166,
       "first_date": "2025-09-26",
       "last_date": "2025-10-13",
       "pages": 14,
@@ -151,9 +151,9 @@
       "child": "history",
       "slug": "culture-arts/history",
       "path": "culture-arts/history/index.json",
-      "items": 162,
+      "items": 164,
       "first_date": "2025-09-14",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 14,
       "is_global": false
     },
@@ -230,7 +230,7 @@
       "path": "food-drink/drink/index.json",
       "items": 240,
       "first_date": "2025-09-29",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },
@@ -284,7 +284,7 @@
       "slug": "lifestyle/beauty-style",
       "path": "lifestyle/beauty-style/index.json",
       "items": 240,
-      "first_date": "2025-10-09",
+      "first_date": "2025-10-10",
       "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
@@ -294,9 +294,9 @@
       "child": "health",
       "slug": "lifestyle/health",
       "path": "lifestyle/health/index.json",
-      "items": 85,
+      "items": 88,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 8,
       "is_global": false
     },
@@ -307,7 +307,7 @@
       "path": "lifestyle/home-design/index.json",
       "items": 240,
       "first_date": "2025-10-06",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },
@@ -373,7 +373,7 @@
       "path": "news/politics/index.json",
       "items": 240,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },
@@ -470,7 +470,7 @@
       "child": "ai-news",
       "slug": "tech-ai/ai-news",
       "path": "tech-ai/ai-news/index.json",
-      "items": 113,
+      "items": 115,
       "first_date": "2025-09-26",
       "last_date": "2025-10-14",
       "pages": 10,
@@ -492,10 +492,10 @@
       "child": "big-tech",
       "slug": "tech-ai/big-tech",
       "path": "tech-ai/big-tech/index.json",
-      "items": 118,
+      "items": 123,
       "first_date": "2025-09-26",
-      "last_date": "2025-10-13",
-      "pages": 10,
+      "last_date": "2025-10-14",
+      "pages": 11,
       "is_global": false
     },
     {
@@ -505,7 +505,7 @@
       "path": "tech-ai/gaming-tech/index.json",
       "items": 240,
       "first_date": "2025-10-06",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },
@@ -516,7 +516,7 @@
       "path": "tech-ai/innovation-gadgets/index.json",
       "items": 240,
       "first_date": "2025-10-09",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },
@@ -604,7 +604,7 @@
       "path": "travel/tips-planning/index.json",
       "items": 240,
       "first_date": "2025-10-06",
-      "last_date": "2025-10-13",
+      "last_date": "2025-10-14",
       "pages": 20,
       "is_global": false
     },

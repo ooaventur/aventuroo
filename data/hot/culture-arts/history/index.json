@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "the-shocking-story-of-crystal-mangum-the-stripper-who-falsely-accused",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "The Shocking Story Of Crystal Mangum, The Stripper Who Falsely Accused Three Men Of Rape — Then Fatally Stabbed Her Boyfriend",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/crystal-mangum-booking-photo.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/the-shocking-story-of-crystal-mangum-the-stripper-who-falsely-accused/",
+      "excerpt": "Crystal Mangum And The 2006 Duke Lacrosse Scandal All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email The Shocking Story Of Crystal Mangum, The Stripper Who Falsely Accused Three Men Of Rape — Th…",
+      "source": "https://allthatsinteresting.com/crystal-mangum",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-lie-of-succession-did-james-i-steal-elizabeth-i-s-crown-2025-10-13",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/culture-arts/history/subsurface-scanning-detects-structures-at-world-s-oldest-cult-center-2/",
       "excerpt": "\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003ìýi¶ãÈ0 þVÁ¼:_*â1â\u0012ó\u0010© \u0004'p'I\u0007$@\u0010$\b\u00008¦ò·þÓ\u001bé ôNÞJÚÌ \u0000y##\u0007©êSuWª¼×à¹¹¹Mnî÷OßTzúxÑ¯\u0016¶ÉÁûóïÿ? é;_lÿãdôòç\u0002|´MëÏ¿ÿÝ\u000evb\u0016Ö[3íäóËd\\û¨¼@x ¹aòçßÍ¨àlèð ùï?þñÎ Ö§í'¯¦eUÏðKÛ\u0013Û·£w/¤Ê÷\u0007Óõ¿§íãï½À´lëåÃæä¯\u00137ðß½ÿÔzM+´Iùço ßøµKÉÖ>Ø¥_íT\u001bý´ÿë[Áå+½Wz =ð\u0013üös}ZÁá¹+òñ…",
       "source": "https://archaeology.org/news/2025/10/13/subsurface-scanning-detects-structures-at-worlds-oldest-cult-center/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "inside-the-tragic-stories-of-the-zodiac-killer-s-victims-and-the-myste",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Inside The Tragic Stories Of The Zodiac Killer’s Victims — And The Mystery Of How Many People He Murdered",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/10/first-zodiac-killer-victims.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/inside-the-tragic-stories-of-the-zodiac-killer-s-victims-and-the-myste/",
+      "excerpt": "Who Were The Zodiac Killer's Victims — And The Survivors? All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Inside The Tragic Stories Of The Zodiac Killer’s Victims — And The Mystery Of How Man…",
+      "source": "https://allthatsinteresting.com/zodiac-killer-victims",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1945,10 +1969,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 162,
-  "updated_at": "2025-10-13",
+  "count": 164,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 162,
+    "total_items": 164,
     "per_page": 12,
     "total_pages": 14
   }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-new-blood-test-can-catch-cancer-10-years-early-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "This new blood test can catch cancer 10 years early",
+      "cover": "https://www.sciencedaily.com/images/1920/genetic-testing-dna-blood-test-tube.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/this-new-blood-test-can-catch-cancer-10-years-early-2025-10-14/",
+      "excerpt": "This new blood test can catch cancer 10 years early | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations Thi…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251013040337.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-single-protein-could-stop-sudden-death-after-heart-attacks-2025-10-1",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "A single protein could stop sudden death after heart attacks",
+      "cover": "https://www.sciencedaily.com/images/1920/cardiology-heart-health-wireframe.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-single-protein-could-stop-sudden-death-after-heart-attacks-2025-10-1/",
+      "excerpt": "A single protein could stop sudden death after heart attacks | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251013040341.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "your-type-of-depression-could-shape-your-body-s-future-health-2025-10",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -46,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-found-a-smarter-mediterranean-diet-that-cuts-diabetes-risk/",
       "excerpt": "Scientists found a smarter Mediterranean diet that cuts diabetes risk by 31% | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from r…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251012054621.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "popular-hair-loss-pill-linked-to-depression-and-suicide-2025-10-13",
+      "date": "2025-10-13",
+      "published_at": "2025-10-13T00:00:00Z",
+      "created_at": "2025-10-13T00:00:00Z",
+      "title": "Popular hair-loss pill linked to depression and suicide",
+      "cover": "https://www.sciencedaily.com/images/1920/depressed-man-balding-mental-health.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/popular-hair-loss-pill-linked-to-depression-and-suicide-2025-10-13/",
+      "excerpt": "Popular hair-loss pill linked to depression and suicide | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251013040343.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1021,10 +1057,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 85,
-  "updated_at": "2025-10-13",
+  "count": 88,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 85,
+    "total_items": 88,
     "per_page": 12,
     "total_pages": 8
   }
