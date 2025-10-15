@@ -13,6 +13,78 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "microsoft-sept-windows-server-updates-cause-active-directory-issues-20",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Microsoft: Sept Windows Server updates cause Active Directory issues",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/03/27/Windows_Server.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/microsoft-sept-windows-server-updates-cause-active-directory-issues-20/",
+      "excerpt": "Microsoft: Sept Windows Server updates cause Active Directory issues News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux F…",
+      "source": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2025-windows-server-updates-cause-active-directory-issues/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-to-spot-dark-web-threats-on-your-network-using-ndr-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "How to spot dark web threats on your network using NDR",
+      "cover": "https://www.bleepstatic.com/content/posts/2025/10/14/dark-web-ndr.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/how-to-spot-dark-web-threats-on-your-network-using-ndr-2025-10-15/",
+      "excerpt": "How to spot dark web threats on your network using NDR News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Framework lapto…",
+      "source": "https://www.bleepingcomputer.com/news/security/how-to-spot-dark-web-threats-on-your-network-using-ndr/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "harvard-university-breached-in-oracle-zero-day-attack-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Harvard University Breached in Oracle Zero-Day Attack",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt747d10848c38f45e/68efbd93868b2ab4d52ef14c/harvard1800_Sonja_Blom_alamy.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/harvard-university-breached-in-oracle-zero-day-attack-2025-10-15/",
+      "excerpt": "The Clop ransomware group claimed responsibility for stealing the university's data as part of a broader campaign against Oracle customers.",
+      "source": "https://www.darkreading.com/cyberattacks-data-breaches/harvard-breached-oracle-zero-day-attack",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "f5-says-hackers-stole-undisclosed-big-ip-flaws-source-code-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "F5 says hackers stole undisclosed BIG-IP flaws, source code",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/15/F5.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/f5-says-hackers-stole-undisclosed-big-ip-flaws-source-code-2025-10-15/",
+      "excerpt": "F5 says hackers stole undisclosed BIG-IP flaws, source code News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Framework …",
+      "source": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-to-steal-undisclosed-big-ip-flaws-source-code/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "f5-releases-big-ip-patches-for-stolen-security-vulnerabilities-2025-10",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "F5 releases BIG-IP patches for stolen security vulnerabilities",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/15/F5-headpic.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/f5-releases-big-ip-patches-for-stolen-security-vulnerabilities-2025-10/",
+      "excerpt": "F5 releases BIG-IP patches for stolen security vulnerabilities News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Framewo…",
+      "source": "https://www.bleepingcomputer.com/news/security/f5-releases-big-ip-patches-for-stolen-security-vulnerabilities/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "clothing-giant-mango-discloses-data-breach-exposing-customer-info-2025",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Clothing giant MANGO discloses data breach exposing customer info",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/15/mango-store-header.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/clothing-giant-mango-discloses-data-breach-exposing-customer-info-2025/",
+      "excerpt": "Clothing giant MANGO discloses data breach exposing customer info News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Fram…",
+      "source": "https://www.bleepingcomputer.com/news/security/clothing-giant-mango-discloses-data-breach-exposing-customer-info/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "africa-remains-top-global-target-even-as-attacks-decline-2025-10-15",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -2581,11 +2653,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 215,
+  "count": 221,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 215,
+    "total_items": 221,
     "per_page": 12,
-    "total_pages": 18
+    "total_pages": 19
   }
 }

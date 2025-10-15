@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "where-to-eat-stay-and-play-in-valletta-malta-s-eccentric-capital-2025",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Where to Eat, Stay, and Play in Valletta, Malta's Eccentric Capital",
+      "cover": "https://media.cntraveler.com/photos/68eebf660fa637e59f5b3c59/master/pass/GettyImages-958596104.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/where-to-eat-stay-and-play-in-valletta-malta-s-eccentric-capital-2025/",
+      "excerpt": "Where to Eat, Stay, and Play in Valletta, Malta's Eccentric Capital | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choi…",
+      "source": "https://www.cntraveler.com/story/where-to-eat-stay-and-play-in-valletta-maltas-eccentric-capital",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-places-to-visit-this-january-from-deer-valley-to-victoria-fal",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -10,6 +22,30 @@
       "canonical": "https://archive.aventuroo.com/travel/general/the-best-places-to-visit-this-january-from-deer-valley-to-victoria-fal/",
       "excerpt": "The Best Places to Visit This January, From Deer Valley to Victoria Falls | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers…",
       "source": "https://www.cntraveler.com/gallery/best-places-to-travel-january",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "poet-joy-harjo-plays-sax-in-her-hotel-room-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Poet Joy Harjo Plays Sax in Her Hotel Room",
+      "cover": "https://media.cntraveler.com/photos/68eee9938ac533dbc692943d/master/pass/HIT%20Joy%20Harjo-00-Lede-HIT-%20(2).jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/poet-joy-harjo-plays-sax-in-her-hotel-room-2025-10-15/",
+      "excerpt": "Poet Joy Harjo Plays Sax in Her Hotel Room | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Style & Cu…",
+      "source": "https://www.cntraveler.com/story/how-i-travel-poet-joy-harjo-plays-sax-in-her-hotel-room",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "houston-is-having-a-cultural-renaissance-thanks-to-its-melting-pot-com",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Houston Is Having a Cultural Renaissance, Thanks to Its Melting-Pot Communities",
+      "cover": "https://media.cntraveler.com/photos/68ee77c5cb36c6fadf0f943d/master/pass/20250625_CNT_Houston_2660-2.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/houston-is-having-a-cultural-renaissance-thanks-to-its-melting-pot-com/",
+      "excerpt": "Houston Is Having a Cultural Renaissance, Thanks to Its Melting-Pot Communities | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video R…",
+      "source": "https://www.cntraveler.com/story/houston-is-having-a-cultural-renaissance-thanks-to-its-melting-pot-communities",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1357,10 +1393,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 113,
+  "count": 116,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 113,
+    "total_items": 116,
     "per_page": 12,
     "total_pages": 10
   }

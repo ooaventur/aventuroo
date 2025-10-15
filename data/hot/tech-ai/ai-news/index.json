@@ -25,6 +25,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "anthropic-launches-claude-haiku-4-5-small-ai-model-that-delivers-sonne",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Anthropic Launches Claude Haiku 4.5: Small AI Model that Delivers Sonnet-4-Level Coding Performance at One-Third the Cost and more than Twice the Speed",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-55.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/anthropic-launches-claude-haiku-4-5-small-ai-model-that-delivers-sonne/",
+      "excerpt": "Anthropic Launches Claude Haiku 4.5: Small AI Model that Delivers Sonnet-4-Level Coding Performance at One-Third the Cost and more than Twice the Speed - MarkTechPost 2x the Speed\" /> 2x the Speed\" /> Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robot…",
+      "source": "https://www.marktechpost.com/2025/10/15/anthropic-launches-claude-haiku-4-5-small-ai-model-that-delivers-sonnet-4-level-coding-performance-at-one-third-the-cost-and-more-than-twice-the-speed/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "alibaba-s-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-think",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -1501,10 +1513,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 125,
+  "count": 126,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 125,
+    "total_items": 126,
     "per_page": 12,
     "total_pages": 11
   }

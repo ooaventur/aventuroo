@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-happens-if-ether-reaches-100-000-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "What happens if Ether reaches $100,000?",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMTAvMDE5OWU3NzctMDc2MC03NGQwLTkzZTktYWI2ZTdiNWYxMDdm.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/what-happens-if-ether-reaches-100-000-2025-10-15/",
+      "excerpt": "What Happens If Ethereum Hits $100,000? Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Home explained What happens if Ether reaches $100,000? Bradley Peak • 4 hours ago What happens if Ether reaches $100,000? What does ETH at $100,000 look li…",
+      "source": "https://cointelegraph.com/explained/what-happens-if-ether-reaches-100-000?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-moves-to-drop-bitcoin-advocate-roger-ver-s-tax-case-with-50m-deal-2",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -793,10 +805,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 66,
-  "updated_at": "2025-10-14",
+  "count": 67,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 66,
+    "total_items": 67,
     "per_page": 12,
     "total_pages": 6
   }

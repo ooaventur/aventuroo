@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "slug": "the-university-of-texas-at-austin-s-studio-art-mfa-opens-applications",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "The University of Texas at Austin’s Studio Art MFA Opens Applications for Fall 2026",
+      "cover": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2025/10/UTMFAadimage-1.png?fit=2400%2C1350&quality=90&ssl=1",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/the-university-of-texas-at-austin-s-studio-art-mfa-opens-applications/",
+      "excerpt": "The University of Texas at Austin’s Studio Art MFA Opens Applications for Fall 2026 Close Sign In Search for: Search Facebook Instagram LinkedIn News Features Reviews Opinion Guides Community Opportunities Announcements Books Film Podcast Crosswords Interviews Comics Bluesky Y…",
+      "source": "https://hyperallergic.com/1048781/university-of-texas-austin-studio-art-mfa-opens-applications-fall-2026/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "kelly-reichardt-s-the-mastermind-reinvents-the-heist-movie-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Kelly Reichardt’s “The Mastermind” Reinvents the Heist Movie",
+      "cover": "https://media.newyorker.com/photos/68ee767f43a210d93ff52cee/master/pass/BRODY---The-Mastermind_Still-04_%C2%A92025_Mastermind-Movie-Inc.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/kelly-reichardt-s-the-mastermind-reinvents-the-heist-movie-2025-10-15/",
+      "excerpt": "Kelly Reichardt’s “The Mastermind” Reinvents the Heist Movie | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigatio…",
+      "source": "https://www.newyorker.com/culture/the-front-row/kelly-reichardts-the-mastermind-reinvents-the-heist-movie",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "d-angelo-s-genius-was-pure-and-rare-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "D’Angelo’s Genius Was Pure, and Rare",
+      "cover": "https://media.newyorker.com/photos/68eec9acc51b1b8e4c3808bc/master/pass/Petrusich-DAngelo-AU2840898.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/general/d-angelo-s-genius-was-pure-and-rare-2025-10-15/",
+      "excerpt": "D’Angelo’s Genius Was Pure, and Rare | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop 100th Anniversary Open Navigation Menu Menu Postscript D…",
+      "source": "https://www.newyorker.com/culture/postscript/dangelos-genius-was-pure-and-rare",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "weeks-after-fire-red-hook-open-studios-returns-defiantly-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -2125,10 +2161,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 177,
-  "updated_at": "2025-10-14",
+  "count": 180,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 177,
+    "total_items": 180,
     "per_page": 12,
     "total_pages": 15
   }

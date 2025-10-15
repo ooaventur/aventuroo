@@ -37,6 +37,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "how-to-be-well-in-unwell-times-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "How to Be Well in Unwell Times",
+      "cover": "https://cdn.tinybuddha.com/wp-content/uploads/2025/10/tinybuddha_colier_640x427.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/how-to-be-well-in-unwell-times-2025-10-15/",
+      "excerpt": "How to Be Well in Unwell Times - Tiny Buddha Menu Home About Frequently Asked Questions Helpful Free Resources Contact Blog All posts Change Challenges Happiness & Fun Healthy Habits Letting Go Love & Relationships Mental Health Mindfulness & Peace Purpose & Passion Quotes Fun…",
+      "source": "https://tinybuddha.com/blog/how-to-be-well-in-unwell-times/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "5-easy-ways-to-cultivate-a-success-mindset-2025-10-15",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -1141,10 +1153,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 95,
+  "count": 96,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 95,
+    "total_items": 96,
     "per_page": 12,
     "total_pages": 8
   }
