@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "these-two-factors-are-key-to-retaining-your-top-employees-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "These Two Factors are Key to Retaining Your Top Employees",
+      "cover": "https://www.success.com/wp-content/uploads/2025/10/employee-retention-pay-and-culture-social.jpg",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/these-two-factors-are-key-to-retaining-your-top-employees-2025-10-15/",
+      "excerpt": "Pay + Culture: The Two Keys to Employee Retention Success | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\">…",
+      "source": "https://www.success.com/employee-retention-pay-and-culture/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "risk-management-strategies-how-leaders-can-effectively-handle-workplac",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -10,6 +22,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/risk-management-strategies-how-leaders-can-effectively-handle-workplac/",
       "excerpt": "Risk Management Strategies to Know for 2026 | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUCC…",
       "source": "https://www.success.com/risk-management-strategies/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "is-your-brand-missing-a-mascot-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Is Your Brand Missing… a Mascot?",
+      "cover": "https://www.success.com/wp-content/uploads/2025/08/Platty_Social.png",
+      "canonical": "https://archive.aventuroo.com/lifestyle/inspiration/is-your-brand-missing-a-mascot-2025-10-15/",
+      "excerpt": "Does Your Brand Need a Mascot? | SUCCESS Skip to content days hours minutes seconds Left To Nominate a Changemaker— Apply Today! SIGN UP FOR NEWSLETTER subscribe Sign in \",\"library\":\"fa-solid\"},\"toggle\":\"burger\"}\" data-widget_type=\"nav-menu.default\"> Magazine SUCCESS+ Business…",
+      "source": "https://www.success.com/does-your-brand-need-a-mascot/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1117,10 +1141,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 93,
+  "count": 95,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 93,
+    "total_items": 95,
     "per_page": 12,
     "total_pages": 8
   }

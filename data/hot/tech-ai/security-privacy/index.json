@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "africa-remains-top-global-target-even-as-attacks-decline-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Africa Remains Top Global Target, Even as Attacks Decline",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt174327978441c999/6764eb9acc620f22859a8dc2/africa_Golden_Dayz_shutterstock.jpg?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/africa-remains-top-global-target-even-as-attacks-decline-2025-10-15/",
+      "excerpt": "Organizations across the continent saw 10% fewer attacks in September, but Africa remains the most attacked region in the world, leading the Global South.",
+      "source": "https://www.darkreading.com/cyber-risk/africa-top-global-target-attacks-decline",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "windows-11-kb5066835-and-kb5066793-updates-released-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/windows-11-kb5066835-and-kb5066793-updates-released-2025-10-14/",
       "excerpt": "Windows 11 KB5066835 and KB5066793 updates released News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Framework laptops …",
       "source": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5066835-and-kb5066793-updates-released/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "when-ai-agents-join-the-teams-the-hidden-security-shifts-no-one-expect",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "When AI Agents Join the Teams: The Hidden Security Shifts No One Expects",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2022/05/12/evil-hacker-ai.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/when-ai-agents-join-the-teams-the-hidden-security-shifts-no-one-expect/",
+      "excerpt": "When AI Agents Join the Teams: The Hidden Security Shifts No One Expects News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Lin…",
+      "source": "https://www.bleepingcomputer.com/news/security/when-ai-agents-join-the-teams-the-hidden-security-shifts-no-one-expects/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -46,6 +70,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/security-firms-dispute-credit-for-overlapping-cve-reports-2025-10-14/",
       "excerpt": "Security firms dispute credit for overlapping CVE reports News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Linux Framework la…",
       "source": "https://www.bleepingcomputer.com/news/security/security-firms-dispute-credit-for-overlapping-cve-reports/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "secure-boot-bypass-risk-threatens-nearly-200-000-linux-framework-lapto",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Secure Boot bypass risk threatens nearly 200,000 Linux Framework laptops",
+      "cover": "https://www.bleepstatic.com/content/hl-images/2025/10/14/framework.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/secure-boot-bypass-risk-threatens-nearly-200-000-linux-framework-lapto/",
+      "excerpt": "Secure Boot bypass risk threatens nearly 200,000 Linux Framework laptops News Featured Latest Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws Chinese hackers abuse geo-mapping tool for year-long persistence Secure Boot bypass risk threatens nearly 200,000 Lin…",
+      "source": "https://www.bleepingcomputer.com/news/security/secure-boot-bypass-risk-on-nearly-200-000-linux-framework-sytems/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -2545,10 +2581,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 212,
+  "count": 215,
   "updated_at": "2025-11-13",
   "pagination": {
-    "total_items": 212,
+    "total_items": 215,
     "per_page": 12,
     "total_pages": 18
   }

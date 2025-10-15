@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "michael-ledger-lomas-wriggling-wriggling-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Michael Ledger-Lomas: Wriggling, Wriggling",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/7/6/6/4/30854667-1-eng-GB/e877fab202ea-cecil-rhodes-coloniser-mining-magnate.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/michael-ledger-lomas-wriggling-wriggling-2025-10-15/",
+      "excerpt": "Michael Ledger-Lomas · Wriggling, Wriggling: Ruthless Cecil Rhodes My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse ou…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n19/michael-ledger-lomas/wriggling-wriggling",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "lorraine-daston-kaboom-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Lorraine Daston: Kaboom!",
+      "cover": "https://www.lrb.co.uk/storage/social_image_on_bg/images/2/8/5/9/30849582-1-eng-GB/633c08142604-a4778f3d260ac69156c79424ce6dfa03.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/lorraine-daston-kaboom-2025-10-15/",
+      "excerpt": "Lorraine Daston · Kaboom! Slow-Motion Extinction My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archive Br…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n19/lorraine-daston/kaboom",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "julian-barnes-ouvriers-de-luxe-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Julian Barnes: Ouvriers de luxe",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/1/4/8/1/30851841-1-eng-GB/8d69615c92b8-gustave-flaubert-michel-levy-publisher.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/julian-barnes-ouvriers-de-luxe-2025-10-15/",
+      "excerpt": "Julian Barnes · Ouvriers de luxe: Author v. Publisher My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archi…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n19/julian-barnes/ouvriers-de-luxe",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "david-trotter-unconditional-looking-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "David Trotter: Unconditional Looking",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/7/0/5/4/30854507-1-eng-GB/617c311b05da-virginia-woolf.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/david-trotter-unconditional-looking-2025-10-15/",
+      "excerpt": "David Trotter · Unconditional Looking: Mrs Dalloway’s Demons My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cove…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n19/david-trotter/unconditional-looking",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "aziz-huq-short-cuts-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Aziz Huq: Short Cuts",
+      "cover": "https://www.lrb.co.uk/storage/social_image/images/4/0/5/4/30854504-1-eng-GB/da65d6c4c90c-the-gerry-mander-cartoon-1812.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/columns-essays/aziz-huq-short-cuts-2025-10-15/",
+      "excerpt": "Aziz Huq · Short Cuts: Gerrymandering My Account Sign in Menu Search The Paper Subjects Blog Podcasts & Videos Events Shop Newsletters London Review of Books Subscribe Close Search More search Options Advanced search Search by contributor Browse our cover archive Browse by Sub…",
+      "source": "https://www.lrb.co.uk/the-paper/v47/n19/aziz-huq/short-cuts",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "damion-searls-and-christine-smallwood-in-conversation-2025-10-10",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -325,10 +385,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 27,
-  "updated_at": "2025-10-10",
+  "count": 32,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 27,
+    "total_items": 32,
     "per_page": 12,
     "total_pages": 3
   }

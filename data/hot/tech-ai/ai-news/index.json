@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "meta-ai-s-early-experience-trains-language-agents-without-rewards-and",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Meta AI’s ‘Early Experience’ Trains Language Agents without Rewards—and Outperforms Imitation Learning",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-54.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/meta-ai-s-early-experience-trains-language-agents-without-rewards-and/",
+      "excerpt": "Meta AI’s 'Early Experience' Trains Language Agents without Rewards—and Outperforms Imitation Learning - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium C…",
+      "source": "https://www.marktechpost.com/2025/10/15/meta-ais-early-experience-trains-language-agents-without-rewards-and-outperforms-imitation-learning/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dfinity-launches-caffeine-an-ai-platform-that-builds-production-apps-f",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Dfinity launches Caffeine, an AI platform that builds production apps from natural language prompts",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4KtYR3vJAj9O1BxMtYqm9e/aad83e291aadf8fd2f12e6cf45aeede9/nuneybits_Vector_art_of_coffee_made_of_computer_code_87b3e7a8-f103-4de0-ae47-d17717e023f9.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/dfinity-launches-caffeine-an-ai-platform-that-builds-production-apps-f/",
+      "excerpt": "<p>The <a href=\"https://dfinity.org/\"><u>Dfinity Foundation</u></a> on Wednesday released <a href=\"https://caffeine.ai/\"><u>Caffeine</u></a>, an artificial intelligence platform that allows users to build and deploy web applications through natural language conversation alone,…",
+      "source": "https://venturebeat.com/ai/dfinity-launches-caffeine-an-ai-platform-that-builds-production-apps-from",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "alibaba-s-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-think",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -1477,10 +1501,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 123,
+  "count": 125,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 123,
+    "total_items": 125,
     "per_page": 12,
     "total_pages": 11
   }

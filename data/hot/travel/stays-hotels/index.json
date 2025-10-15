@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "hotel-residence-brand-the-code-set-for-december-debut-in-austin-2025-1",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Hotel-residence brand The Code set for December debut in Austin",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/1.-Lobby.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/hotel-residence-brand-the-code-set-for-december-debut-in-austin-2025-1/",
+      "excerpt": "Hotel-residence brand The Code set for December debut in Austin Skip to content LATEST NEWS Delano set to expand in New York and London Hotel-residence brand The Code set for December debut in Austin What does independent really mean? Roger Saul on risk, innovation, and buildi…",
+      "source": "https://boutiquehotelnews.com/news/branded-residences/the-code-debut-austin/?utm_source=rss&utm_medium=rss&utm_campaign=the-code-debut-austin",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "delano-set-to-expand-in-new-york-and-london-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Delano set to expand in New York and London",
+      "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-15-at-09.39.55.png",
+      "canonical": "https://archive.aventuroo.com/travel/stays-hotels/delano-set-to-expand-in-new-york-and-london-2025-10-15/",
+      "excerpt": "Delano set to expand in New York and London Skip to content LATEST NEWS Delano set to expand in New York and London Hotel-residence brand The Code set for December debut in Austin What does independent really mean? Roger Saul on risk, innovation, and building Mulberry Neena Ji…",
+      "source": "https://boutiquehotelnews.com/news/hotel/delano-new-york-london/?utm_source=rss&utm_medium=rss&utm_campaign=delano-new-york-london",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "what-does-independent-really-mean-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -92,8 +116,8 @@
       "title": "Open forum debates the challenges facing London’s hospitality and real estate sectors",
       "cover": "https://boutiquehotelnews.com/wp-content/uploads/2025/10/Screenshot-2025-10-10-at-15.43.41.png",
       "canonical": "https://archive.aventuroo.com/travel/stays-hotels/open-forum-debates-the-challenges-facing-london-s-hospitality-and-real/",
-      "excerpt": "Open forum debates the challenges facing London's hospitality and real estate sectors Skip to content LATEST NEWS City of London offices acquired by Firethorn for hotel conversion Open forum debates the challenges facing London’s hospitality and real estate sectors Leisureplex…",
-      "source": "https://boutiquehotelnews.com/news/open-forum-debates-the-challenges-facing-londons-hospitality-and-real-estate-sectors/?utm_source=rss&utm_medium=rss&utm_campaign=open-forum-debates-the-challenges-facing-londons-hospitality-and-real-estate-sectors",
+      "excerpt": "London forum debates challenges facing hospitality and real estate Skip to content LATEST NEWS Delano set to expand in New York and London Hotel-residence brand The Code set for December debut in Austin What does independent really mean? Roger Saul on risk, innovation, and bui…",
+      "source": "https://boutiquehotelnews.com/news/london-hospitality-real-estate-forum/?utm_source=rss&utm_medium=rss&utm_campaign=london-hospitality-real-estate-forum",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -433,11 +457,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 36,
-  "updated_at": "2025-10-14",
+  "count": 38,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 36,
+    "total_items": 38,
     "per_page": 12,
-    "total_pages": 3
+    "total_pages": 4
   }
 }

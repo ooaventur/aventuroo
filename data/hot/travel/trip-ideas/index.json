@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "umm-jirsan-cave-in-khaybar-saudi-arabia-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Umm Jirsan Cave in Khaybar, Saudi Arabia",
+      "cover": "https://img.atlasobscura.com/sDoEhq6k8-3opOZ9-zEGYaw6pM_aARCgYM4F_l-pDQk/rt:fit/w:600/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82ZGNh/ZmZiYy1kMTIxLTQz/ZTQtODAzYi04YTAy/OGNkN2VlZmQwZGYz/OThkNzIwZDcyNzcz/NTlfaWxsdW1pbmF0/ZWQtcm9ja3ktY2F2/ZXJuLTM3ODA3Mzg4/OC5qcGc.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/trip-ideas/umm-jirsan-cave-in-khaybar-saudi-arabia-2025-10-15/",
+      "excerpt": "Umm Jirsan Cave - Atlas Obscura alert#toast\" data-turbo=\"false\" > aon--navbar--nav-component#hideAllPopdowns\" > aon--navbar--nav-component#hideAllPopdowns\" class=\"border-ao-lightgray flex max-w-[280px] flex-auto items-center justify-center border-y sm:border-r sm:p-2\" > aon--n…",
+      "source": "https://www.atlasobscura.com/places/umm-jirsan-cave",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "wilhelm-s-portland-memorial-funeral-home-in-portland-oregon-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -1909,10 +1921,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 159,
-  "updated_at": "2025-10-14",
+  "count": 160,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 159,
+    "total_items": 160,
     "per_page": 12,
     "total_pages": 14
   }
