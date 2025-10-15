@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "venezuelan-bonds-surge-as-trump-administration-plays-hardball-2025-10",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Venezuelan bonds surge as Trump administration ‘plays hardball’",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F06fb8937-e109-49fa-997a-5ac503404cb2.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/venezuelan-bonds-surge-as-trump-administration-plays-hardball-2025-10/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/c7605414-10f5-427a-bc98-0a03161d5fad",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "it-s-stag-season-in-the-ipo-markets-but-don-t-get-too-close-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "It’s stag season in the IPO markets, but don’t get too close",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fe43f77ea-7848-41f1-bf04-564defe4b46a.jpg?source=next-barrier-page",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/it-s-stag-season-in-the-ipo-markets-but-don-t-get-too-close-2025-10-15/",
+      "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
+      "source": "https://www.ft.com/content/860c9f4f-8d56-4ee7-b828-efabc9f10188",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "walmart-teams-up-with-openai-to-allow-purchases-directly-in-chatgpt-20",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -22,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/uk-moves-to-allow-tokenisation-of-investment-funds-2025-10-14/",
       "excerpt": "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war …",
       "source": "https://www.ft.com/content/b26f13bd-516f-40f8-b995-332e933fc9b9",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "uk-budget-blues-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "UK Budget blues",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fnext-video-editor-images.s3.ap-northeast-1.amazonaws.com%2Ff854cba9-13c2-427b-87e4-8280c6da094d?source=next-article&amp;fit=scale-down&amp;quality=highest&amp;width=700&amp;dpr=1",
+      "canonical": "https://archive.aventuroo.com/business-finance/markets-economy/uk-budget-blues-2025-10-14/",
+      "excerpt": "UK Budget blues Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war Gl…",
+      "source": "https://www.ft.com/content/f279a7d2-87b4-4e60-b0e9-199f7e89227a",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1321,10 +1357,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 110,
-  "updated_at": "2025-10-14",
+  "count": 113,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 110,
+    "total_items": 113,
     "per_page": 12,
     "total_pages": 10
   }

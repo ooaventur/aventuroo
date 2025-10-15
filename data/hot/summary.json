@@ -1,18 +1,18 @@
 {
   "generated_at": "2025-11-13",
   "per_page": 12,
-  "total_items": 8069,
+  "total_items": 8097,
   "parents": [
     {
       "parent": "business-finance",
-      "items": 580,
+      "items": 588,
       "pages": 49,
       "children": [
         {
           "child": "companies-startups",
           "slug": "business-finance/companies-startups",
-          "items": 107,
-          "pages": 9
+          "items": 110,
+          "pages": 10
         },
         {
           "child": "general",
@@ -23,13 +23,13 @@
         {
           "child": "markets-economy",
           "slug": "business-finance/markets-economy",
-          "items": 110,
+          "items": 113,
           "pages": 10
         },
         {
           "child": "personal-finance",
           "slug": "business-finance/personal-finance",
-          "items": 123,
+          "items": 125,
           "pages": 11
         }
       ]
@@ -73,7 +73,7 @@
     },
     {
       "parent": "culture-arts",
-      "items": 773,
+      "items": 778,
       "pages": 65,
       "children": [
         {
@@ -97,20 +97,20 @@
         {
           "child": "general",
           "slug": "culture-arts/general",
-          "items": 173,
+          "items": 177,
           "pages": 15
         },
         {
           "child": "history",
           "slug": "culture-arts/history",
-          "items": 166,
+          "items": 167,
           "pages": 14
         }
       ]
     },
     {
       "parent": "entertainment",
-      "items": 1241,
+      "items": 1244,
       "pages": 104,
       "children": [
         {
@@ -128,7 +128,7 @@
         {
           "child": "history-essays",
           "slug": "entertainment/history-essays",
-          "items": 41,
+          "items": 44,
           "pages": 4
         },
         {
@@ -184,7 +184,7 @@
     },
     {
       "parent": "lifestyle",
-      "items": 968,
+      "items": 969,
       "pages": 81,
       "children": [
         {
@@ -214,7 +214,7 @@
         {
           "child": "inspiration",
           "slug": "lifestyle/inspiration",
-          "items": 92,
+          "items": 93,
           "pages": 8
         },
         {
@@ -307,13 +307,13 @@
     },
     {
       "parent": "tech-ai",
-      "items": 1189,
+      "items": 1200,
       "pages": 100,
       "children": [
         {
           "child": "ai-news",
           "slug": "tech-ai/ai-news",
-          "items": 122,
+          "items": 123,
           "pages": 11
         },
         {
@@ -325,7 +325,7 @@
         {
           "child": "big-tech",
           "slug": "tech-ai/big-tech",
-          "items": 133,
+          "items": 138,
           "pages": 12
         },
         {
@@ -349,7 +349,7 @@
         {
           "child": "security-privacy",
           "slug": "tech-ai/security-privacy",
-          "items": 207,
+          "items": 212,
           "pages": 18
         }
       ]

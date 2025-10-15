@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-oddball-era-of-animatronic-stage-shows-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "The Oddball Era of Animatronic Stage Shows",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1827750437_oww44f?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/the-oddball-era-of-animatronic-stage-shows-2025-10-14/",
+      "excerpt": "The Oddball Era of Animatronic Stage Shows Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Rev…",
+      "source": "https://www.history.com/articles/animatronics-chuck-e-cheese-showbiz-pizza-parlors",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "rico-act-passed-heralding-decline-of-the-mob-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -34,6 +46,30 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/inside-william-the-conqueror-s-victory-at-the-battle-of-hastings-2025/",
       "excerpt": "How William the Conqueror Won the Battle of Hastings Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Am…",
       "source": "https://www.history.com/articles/william-the-conquerer-battle-of-hastings-england-1066",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-long-have-people-made-mummies-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "How Long Have People Made Mummies?",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/smoked-mummy_fxeo4a?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/how-long-have-people-made-mummies-2025-10-14/",
+      "excerpt": "How Long Have People Made Mummies? Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution …",
+      "source": "https://www.history.com/articles/mummies-oldest-smoking",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "how-barbie-s-creator-helped-empower-cancer-survivors-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "How Barbie’s Creator Helped Empower Cancer Survivors",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1614436973_fs3sua?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/how-barbie-s-creator-helped-empower-cancer-survivors-2025-10-14/",
+      "excerpt": "How Barbie’s Creator Helped Empower Cancer Survivors Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Am…",
+      "source": "https://www.history.com/articles/breast-cancer-ruth-handler-nearly-me",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -493,10 +529,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 41,
+  "count": 44,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 41,
+    "total_items": 44,
     "per_page": 12,
     "total_pages": 4
   }

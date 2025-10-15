@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "coinbase-boosts-investment-in-india-s-coindcx-valuing-exchange-at-2-45",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Coinbase boosts investment in India’s CoinDCX, valuing exchange at $2.45B",
+      "cover": "https://techcrunch.com/wp-content/uploads/2022/04/GettyImages-1312540542.jpg?resize=1200,843",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/coinbase-boosts-investment-in-india-s-coindcx-valuing-exchange-at-2-45/",
+      "excerpt": "Coinbase boosts investment in India's CoinDCX, valuing exchange at $2.45B | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topic…",
+      "source": "https://techcrunch.com/2025/10/14/coinbase-boosts-investment-in-indias-coindcx-valuing-exchange-at-2-45b/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "sheryl-sandberg-backed-flint-wants-to-use-ai-to-autonomously-build-and",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -61,6 +73,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "fleetworks-raises-17m-to-match-truckers-with-cargo-faster-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "FleetWorks raises $17M to match truckers with cargo faster",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/3f6b468f-93a0-4573-8491-edd8e4d245f3.jpeg?resize=1200,801",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/fleetworks-raises-17m-to-match-truckers-with-cargo-faster-2025-10-14/",
+      "excerpt": "FleetWorks raises $17M to match truckers with cargo faster | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics Latest AI Ama…",
+      "source": "https://techcrunch.com/2025/10/14/fleetworks-raises-17m-to-match-truckers-with-cargo-faster/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "coco-robotics-taps-ucla-professor-to-lead-new-physical-ai-research-lab",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -70,6 +94,18 @@
       "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/coco-robotics-taps-ucla-professor-to-lead-new-physical-ai-research-lab/",
       "excerpt": "Coco Robotics taps UCLA professor to lead new physical AI research lab | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Toggle Topics L…",
       "source": "https://techcrunch.com/2025/10/14/coco-robotics-taps-ucla-professor-to-lead-new-physical-ai-research-lab/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "aquawise-will-show-off-its-ai-driven-water-quality-tech-at-techcrunch",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Aquawise will show off its AI-driven water-quality tech at TechCrunch Disrupt 2025",
+      "cover": "https://techcrunch.com/wp-content/uploads/2025/10/Aquawise-e1760447400948.jpg?w=1600",
+      "canonical": "https://archive.aventuroo.com/business-finance/companies-startups/aquawise-will-show-off-its-ai-driven-water-quality-tech-at-techcrunch/",
+      "excerpt": "Aquawise will show off its AI-driven water-quality tech at TechCrunch Disrupt 2025 | TechCrunch TechCrunch Desktop Logo TechCrunch Mobile Logo Latest Startups Venture Apple Security AI Apps Disrupt 2025 Events Podcasts Newsletters Search Submit Site Search Toggle Mega Menu Tog…",
+      "source": "https://techcrunch.com/2025/10/14/aquawise-will-show-off-its-ai-driven-water-quality-tech-at-techcrunch-disrupt-2025/",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1285,11 +1321,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 107,
-  "updated_at": "2025-10-14",
+  "count": 110,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 107,
+    "total_items": 110,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

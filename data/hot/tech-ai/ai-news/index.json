@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "alibaba-s-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-think",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Alibaba’s Qwen AI Releases Compact Dense Qwen3-VL 4B/8B (Instruct & Thinking) With FP8 Checkpoints",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-53.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/alibaba-s-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-think/",
+      "excerpt": "Alibaba’s Qwen AI Releases Compact Dense Qwen3-VL 4B/8B (Instruct & Thinking) With FP8 Checkpoints - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub News Hub Premium Conte…",
+      "source": "https://www.marktechpost.com/2025/10/14/alibabas-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-thinking-with-fp8-checkpoints/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "visa-just-launched-a-protocol-to-secure-the-ai-shopping-boom-here-s-wh",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -1465,10 +1477,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 122,
-  "updated_at": "2025-10-14",
+  "count": 123,
+  "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 122,
+    "total_items": 123,
     "per_page": 12,
     "total_pages": 11
   }
