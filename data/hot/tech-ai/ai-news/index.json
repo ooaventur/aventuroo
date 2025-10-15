@@ -73,6 +73,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "eaglet-boosts-ai-agent-performance-on-longer-horizon-tasks-by-generati",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "EAGLET boosts AI agent performance on longer-horizon tasks by generating custom plans",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/1FsFs77cl1uzCE3JPEBnrk/7541c62def835191ff404046af4030c7/cfr0z3n_graphic_novel_hyper_detailed_close_up_on_a_cybernetic_b_9624e28f-5392-4c92-a115-0520c6058152.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/eaglet-boosts-ai-agent-performance-on-longer-horizon-tasks-by-generati/",
+      "excerpt": "<p>2025 was supposed to be<a href=\"https://www.barrons.com/articles/nvidia-stock-ceo-ai-agents-8c20ddfb?gaa_at=eafs&amp;gaa_n=ASWzDAjLKLIimw5qFdsG0kmEnu-fOoNZXVCdnBx-zn_CbT1hLgiWcYGxmHLDOvPxpV0%3D&amp;gaa_ts=68eec9d8&amp;gaa_sig=klyxA4QUo1K8AN8hu1LEL8i64tGtj_jKhoX1IWR32Fm06Aiz…",
+      "source": "https://venturebeat.com/ai/eaglet-boosts-ai-agent-performance-on-longer-horizon-tasks-by-generating",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "andrej-karpathy-releases-nanochat-a-minimal-end-to-end-chatgpt-style-p",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Andrej Karpathy Releases ‘nanochat’: A Minimal, End-to-End ChatGPT-Style Pipeline You Can Train in ~4 Hours for ~$100",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-52.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/andrej-karpathy-releases-nanochat-a-minimal-end-to-end-chatgpt-style-p/",
+      "excerpt": "Andrej Karpathy Releases 'nanochat': A Minimal, End-to-End ChatGPT-Style Pipeline You Can Train in ~4 Hours for ~$100 - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search News Hub New…",
+      "source": "https://www.marktechpost.com/2025/10/14/andrej-karpathy-releases-nanochat-a-minimal-end-to-end-chatgpt-style-pipeline-you-can-train-in-4-hours-for-100/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-coding-implementation-of-advanced-pytest-to-build-customized-and-aut",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "A Coding Implementation of Advanced PyTest to Build Customized and Automated Testing with Plugins, Fixtures, and JSON Reporting",
+      "cover": "https://www.marktechpost.com/wp-content/uploads/2025/10/blog-banner-51.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/a-coding-implementation-of-advanced-pytest-to-build-customized-and-aut/",
+      "excerpt": "A Coding Implementation of Advanced PyTest to Build Customized and Automated Testing with Plugins, Fixtures, and JSON Reporting - MarkTechPost Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robotics AI Agents MCP Tutorials Voice AI Sponsorship Search Ne…",
+      "source": "https://www.marktechpost.com/2025/10/14/a-coding-implementation-of-advanced-pytest-to-build-customized-and-automated-testing-with-plugins-fixtures-and-json-reporting/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "7-llm-generation-parameters-what-they-do-and-how-to-tune-them-2025-10",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -1429,11 +1465,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 119,
+  "count": 122,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 119,
+    "total_items": 122,
     "per_page": 12,
-    "total_pages": 10
+    "total_pages": 11
   }
 }

@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "where-to-stay-in-miami-if-you-love-to-eat-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Where to Stay in Miami If You Love to Eat",
+      "cover": "https://assets.bonappetit.com/photos/68e556ca7b7f0a58f0a9f6e3/master/pass/EAST%20Miami%20-%20Bay%20Plus%20King%20-%20View%204.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/where-to-stay-in-miami-if-you-love-to-eat-2025-10-14/",
+      "excerpt": "Where to Stay in Miami If You Love to Eat | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Culture Where to …",
+      "source": "https://www.bonappetit.com/story/where-to-stay-food-lovers-miami",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "the-best-decaf-coffee-subscriptions-for-an-afternoon-cup-2025-2025-10",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "The Best Decaf Coffee Subscriptions for an Afternoon Cup (2025)",
+      "cover": "https://assets.bonappetit.com/photos/68ee72d13ac8d0fc1e0f6768/master/pass/10.10_BA_Best%20decaf%20coffee%20subscriptions%20lede_v4.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/the-best-decaf-coffee-subscriptions-for-an-afternoon-cup-2025-2025-10/",
+      "excerpt": "The Best Decaf Coffee Subscriptions for an Afternoon Cup (2025) | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Se…",
+      "source": "https://www.bonappetit.com/story/best-decaf-coffee-subscriptions",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "don-t-put-your-cell-phone-on-the-dinner-table-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -10,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/food-drink/food/don-t-put-your-cell-phone-on-the-dinner-table-2025-10-14/",
       "excerpt": "Don't Put Your Cell Phone on the Dinner Table | Bon Appétit Skip to main content Newsletter Recipes Chevron Drinks Cooking Shopping Restaurants Culture Videos Recipes Chevron Drinks Cooking Shopping Restaurants More Chevron Search Open Navigation Menu Menu Search Restaurants Y…",
       "source": "https://www.bonappetit.com/story/restaurant-etiquette-phone-hygiene",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "carrot-soup-with-spiced-ground-beef-and-pine-nuts-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Carrot Soup with Spiced Ground Beef and Pine Nuts",
+      "cover": "https://pinchofyum.com/wp-content/uploads/Carrot-Soup-with-Ground-Beef-1-4.jpg",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/carrot-soup-with-spiced-ground-beef-and-pine-nuts-2025-10-14/",
+      "excerpt": "Carrot Soup with Spiced Ground Beef and Pine Nuts Recipe - Pinch of Yum icon-arrow icon-chevron-white icon-chevron icon-comment icon-facebook icon-heart icon-instagram icon-instant-pot icon-list icon-lock icon-meal-prep icon-next icon-pinterest icon-popular icon-quote icon-sea…",
+      "source": "https://pinchofyum.com/carrot-soup-with-spiced-ground-beef-and-pine-nuts",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -841,11 +877,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 70,
+  "count": 73,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 70,
+    "total_items": 73,
     "per_page": 12,
-    "total_pages": 6
+    "total_pages": 7
   }
 }

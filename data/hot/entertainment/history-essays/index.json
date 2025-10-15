@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "slug": "why-life-expectancy-skyrocketed-in-early-20th-century-america-2025-10",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Why Life Expectancy Skyrocketed in Early 20th-Century America",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/3233997_nxuy7r?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/why-life-expectancy-skyrocketed-in-early-20th-century-america-2025-10/",
+      "excerpt": "Why People Started Living Longer in the Early 20th-Century Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial Amer…",
+      "source": "https://www.history.com/articles/life-expectancy-rise-20th-century",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "rico-act-passed-heralding-decline-of-the-mob-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "RICO Act passed, heralding decline of the mob",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/515554130_t1ejh1?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/rico-act-passed-heralding-decline-of-the-mob-2025-10-14/",
+      "excerpt": "RICO Act passed, heralding decline of the mob Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American …",
+      "source": "https://www.history.com/this-day-in-history/rico-act-passed",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "inside-william-the-conqueror-s-victory-at-the-battle-of-hastings-2025",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Inside William the Conqueror’s Victory at the Battle of Hastings",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1062097614_ngou6r?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/inside-william-the-conqueror-s-victory-at-the-battle-of-hastings-2025/",
+      "excerpt": "How William the Conqueror Won the Battle of Hastings Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Am…",
+      "source": "https://www.history.com/articles/william-the-conquerer-battle-of-hastings-england-1066",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "black-panther-party-founded-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Black Panther Party founded",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/2YRYH8M_clna19?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/black-panther-party-founded-2025-10-14/",
+      "excerpt": "Black Panther Party founded Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution America…",
+      "source": "https://www.history.com/this-day-in-history/black-panther-party-founded",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "aids-quilt-displayed-for-the-first-time-on-the-national-mall-2025-10-1",
       "date": "2025-10-10",
       "published_at": "2025-10-10T00:00:00Z",
@@ -445,10 +493,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 37,
-  "updated_at": "2025-10-10",
+  "count": 41,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 37,
+    "total_items": 41,
     "per_page": 12,
     "total_pages": 4
   }

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3841,
+  "total_items": 3856,
   "shards": [
     {
       "parent": "business-finance",
@@ -193,7 +193,7 @@
       "month": 9,
       "path": "crypto/regulation-security/2025/09/index.json",
       "path_gz": "crypto/regulation-security/2025/09/index.json.gz",
-      "items": 76,
+      "items": 77,
       "first_date": "2025-09-08",
       "last_date": "2025-09-25",
       "pages": 7
@@ -583,8 +583,8 @@
       "month": 9,
       "path": "culture-arts/history/2025/09/index.json",
       "path_gz": "culture-arts/history/2025/09/index.json.gz",
-      "items": 49,
-      "first_date": "2025-09-18",
+      "items": 52,
+      "first_date": "2025-09-14",
       "last_date": "2025-09-25",
       "pages": 5
     },
@@ -691,6 +691,19 @@
       "first_date": "2025-09-24",
       "last_date": "2025-09-25",
       "pages": 4
+    },
+    {
+      "parent": "entertainment",
+      "child": "history-essays",
+      "slug": "entertainment/history-essays",
+      "year": 2009,
+      "month": 11,
+      "path": "entertainment/history-essays/2009/11/index.json",
+      "path_gz": "entertainment/history-essays/2009/11/index.json.gz",
+      "items": 1,
+      "first_date": "2009-11-05",
+      "last_date": "2009-11-05",
+      "pages": 1
     },
     {
       "parent": "entertainment",
@@ -1984,6 +1997,19 @@
       "child": "experiences",
       "slug": "travel/experiences",
       "year": 2019,
+      "month": 6,
+      "path": "travel/experiences/2019/06/index.json",
+      "path_gz": "travel/experiences/2019/06/index.json.gz",
+      "items": 5,
+      "first_date": "2019-06-19",
+      "last_date": "2019-06-27",
+      "pages": 1
+    },
+    {
+      "parent": "travel",
+      "child": "experiences",
+      "slug": "travel/experiences",
+      "year": 2019,
       "month": 7,
       "path": "travel/experiences/2019/07/index.json",
       "path_gz": "travel/experiences/2019/07/index.json.gz",
@@ -3066,8 +3092,8 @@
       "month": 7,
       "path": "travel/trip-ideas/2019/07/index.json",
       "path_gz": "travel/trip-ideas/2019/07/index.json.gz",
-      "items": 5,
-      "first_date": "2019-07-22",
+      "items": 10,
+      "first_date": "2019-07-01",
       "last_date": "2019-07-28",
       "pages": 1
     },

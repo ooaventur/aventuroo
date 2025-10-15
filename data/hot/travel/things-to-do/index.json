@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "50-best-travel-gifts-for-every-globetrotter-on-your-list-2025-2025-10",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "50 Best Travel Gifts for Every Globetrotter on Your List (2025)",
+      "cover": "https://media.cntraveler.com/photos/68ed72c538aadaa1cb64aa58/master/pass/1.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/50-best-travel-gifts-for-every-globetrotter-on-your-list-2025-2025-10/",
+      "excerpt": "50 Best Travel Gifts for Every Globetrotter on Your List (2025) | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice A…",
+      "source": "https://www.cntraveler.com/gallery/the-best-travel-gifts",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "11-best-airbnbs-in-galveston-texas-for-a-coastal-cowboy-getaway-2025-1",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "11 Best Airbnbs in Galveston, Texas, for a Coastal Cowboy Getaway",
+      "cover": "https://media.cntraveler.com/photos/68ed557fa7cdf6e5f17fe308/master/pass/6631e6f2-5ba9-4b65-8621-3d2de2a940f5.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/things-to-do/11-best-airbnbs-in-galveston-texas-for-a-coastal-cowboy-getaway-2025-1/",
+      "excerpt": "11 Best Airbnbs in Galveston, Texas, for a Coastal Cowboy Getaway | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice…",
+      "source": "https://www.cntraveler.com/gallery/best-airbnbs-in-galveston-texas",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-60-day-rail-trip-is-a-round-the-world-journey-aboard-8-luxury-tra",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -349,10 +373,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 29,
-  "updated_at": "2025-10-13",
+  "count": 31,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 29,
+    "total_items": 31,
     "per_page": 12,
     "total_pages": 3
   }

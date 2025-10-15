@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "slug": "the-best-train-journeys-in-japan-for-leaf-peeping-this-autumn-2025-10",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "The Best Train Journeys in Japan for Leaf Peeping This Autumn",
+      "cover": "https://media.cntraveler.com/photos/68ed7563f94427756118ff1f/master/pass/GettyImages-1066065500.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-best-train-journeys-in-japan-for-leaf-peeping-this-autumn-2025-10/",
+      "excerpt": "The Best Train Journeys in Japan for Leaf Peeping This Autumn | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awa…",
+      "source": "https://www.cntraveler.com/story/best-train-journeys-in-japan-for-leaf-peeping-this-autumn",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "keke-palmer-takes-it-easy-in-antigua-mostly-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Keke Palmer Takes It Easy in Antigua—Mostly",
+      "cover": "https://media.cntraveler.com/photos/68ed88aa78a8ef70bf7077e4/master/pass/TR1125_TravTale01.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/keke-palmer-takes-it-easy-in-antigua-mostly-2025-10-14/",
+      "excerpt": "Keke Palmer Takes It Easy in Antigua—Mostly | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Central A…",
+      "source": "https://www.cntraveler.com/story/keke-palmer-takes-it-easy-in-antigua-mostly",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "in-the-reluctant-traveler-eugene-levy-meets-the-royals-and-finally-exp",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "In 'The Reluctant Traveler,' Eugene Levy Meets the Royals and Finally Explores Canada",
+      "cover": "https://media.cntraveler.com/photos/68cdb17a71b51689b2902ffc/master/pass/The%20Reluctant%20Traveller_170925_Apple%20TV_The_Reluctant_Traveler_Photo_030102_pr.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/in-the-reluctant-traveler-eugene-levy-meets-the-royals-and-finally-exp/",
+      "excerpt": "In 'The Reluctant Traveler,' Eugene Levy Meets the Royals and Finally Explores Canada | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel V…",
+      "source": "https://www.cntraveler.com/story/in-the-reluctant-traveler-eugene-levy-meets-the-royals-and-finally-explores-canada",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "can-free-beer-get-americans-to-fly-this-canadian-airline-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Can Free Beer Get Americans to Fly This Canadian Airline?",
+      "cover": "https://media.cntraveler.com/photos/68ee8542cb36c6fadf0f944f/master/pass/GettyImages-2231845409.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/can-free-beer-get-americans-to-fly-this-canadian-airline-2025-10-14/",
+      "excerpt": "Can Free Beer Get Americans to Fly This Canadian Airline? | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards …",
+      "source": "https://www.cntraveler.com/story/can-free-beer-get-americans-to-fly-this-canadian-airline",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "15-best-restaurants-in-portland-maine-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "15 Best Restaurants in Portland, Maine",
+      "cover": "https://media.cntraveler.com/photos/5d63f04466700c0008ca24df/master/pass/00-soloitaliano-portland-ERINLITTLE_SOLOITALIANO-8257.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/15-best-restaurants-in-portland-maine-2025-10-14/",
+      "excerpt": "15 Best Restaurants in Portland, Maine | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 North America …",
+      "source": "https://www.cntraveler.com/gallery/best-restaurants-in-portland-maine",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-coolest-places-around-the-world-from-where-you-can-mail-a-letter-2",
       "date": "2025-10-13",
       "published_at": "2025-10-13T00:00:00Z",
@@ -1285,11 +1345,11 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 107,
-  "updated_at": "2025-10-13",
+  "count": 112,
+  "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 107,
+    "total_items": 112,
     "per_page": 12,
-    "total_pages": 9
+    "total_pages": 10
   }
 }

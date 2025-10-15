@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "your-brain-s-power-supply-may-hold-the-key-to-mental-illness-2025-10-1",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Your brain’s power supply may hold the key to mental illness",
+      "cover": "https://www.sciencedaily.com/images/1920/blue-light-glowing-mitochondria.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/your-brain-s-power-supply-may-hold-the-key-to-mental-illness-2025-10-1/",
+      "excerpt": "Your brain’s power supply may hold the key to mental illness | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251014014304.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "this-new-blood-test-can-catch-cancer-10-years-early-2025-10-14",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -13,6 +25,30 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "supercharged-vitamin-k-could-help-the-brain-heal-itself-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Supercharged vitamin k could help the brain heal itself",
+      "cover": "https://www.sciencedaily.com/images/1920/glowing-human-brain-signals.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/supercharged-vitamin-k-could-help-the-brain-heal-itself-2025-10-14/",
+      "excerpt": "Supercharged vitamin k could help the brain heal itself | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251014014312.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "scientists-find-the-brain-s-hidden-pulse-that-may-predict-alzheimer-s",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "Scientists find the brain’s hidden pulse that may predict Alzheimer’s",
+      "cover": "https://www.sciencedaily.com/images/1920/cerebral-microvascular-volumetric-pulsatility.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/scientists-find-the-brain-s-hidden-pulse-that-may-predict-alzheimer-s/",
+      "excerpt": "Scientists find the brain’s hidden pulse that may predict Alzheimer’s | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251014014418.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "a-single-protein-could-stop-sudden-death-after-heart-attacks-2025-10-1",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -22,6 +58,18 @@
       "canonical": "https://archive.aventuroo.com/lifestyle/health/a-single-protein-could-stop-sudden-death-after-heart-attacks-2025-10-1/",
       "excerpt": "A single protein could stop sudden death after heart attacks | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organiza…",
       "source": "https://www.sciencedaily.com/releases/2025/10/251013040341.htm",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "a-simple-fatty-acid-could-restore-failing-vision-2025-10-14",
+      "date": "2025-10-14",
+      "published_at": "2025-10-14T00:00:00Z",
+      "created_at": "2025-10-14T00:00:00Z",
+      "title": "A simple fatty acid could restore failing vision",
+      "cover": "https://www.sciencedaily.com/images/1920/female-eye-aging.webp",
+      "canonical": "https://archive.aventuroo.com/lifestyle/health/a-simple-fatty-acid-could-restore-failing-vision-2025-10-14/",
+      "excerpt": "A simple fatty acid could restore failing vision | ScienceDaily Skip to main content Your source for the latest research news Follow: Facebook X/Twitter Subscribe: RSS Feeds Newsletter New! Sign up for our free email newsletter . Science News from research organizations A simp…",
+      "source": "https://www.sciencedaily.com/releases/2025/10/251014014307.htm",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1057,10 +1105,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 88,
+  "count": 92,
   "updated_at": "2025-10-14",
   "pagination": {
-    "total_items": 88,
+    "total_items": 92,
     "per_page": 12,
     "total_pages": 8
   }
