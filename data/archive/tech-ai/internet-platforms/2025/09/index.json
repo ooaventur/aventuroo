@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "chatgpt-adds-parental-controls-2025-09-30",
+      "date": "2025-09-30",
+      "published_at": "2025-09-30T00:00:00Z",
+      "created_at": "2025-09-30T00:00:00Z",
+      "title": "ChatGPT adds parental controls",
+      "cover": "https://www.platformer.news/content/images/2025/09/Screenshot-2025-09-29-at-2.08.07---PM.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/chatgpt-adds-parental-controls-2025-09-30/",
+      "excerpt": "ChatGPT adds parental controls Home About Ethics Sign in Subscribe OpenAI ChatGPT adds parental controls Will the rest of the industry follow? PLUS: Claude Sonnet 4.5's software-on-demand dream, and your responses to my anniversary post Casey Newton Sep 29, 2025 — 14 min read …",
+      "source": "https://www.platformer.news/chatgpt-parental-controls-child-safety/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "chatgpt-develops-a-pulse-2025-09-25",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -109,10 +121,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 9,
-  "updated_at": "2025-10-01",
+  "count": 10,
+  "updated_at": "2025-10-16",
   "pagination": {
-    "total_items": 9,
+    "total_items": 10,
     "per_page": 12,
     "total_pages": 1
   }

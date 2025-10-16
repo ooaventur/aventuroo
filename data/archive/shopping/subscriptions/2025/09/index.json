@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "this-secure-ssd-subscription-service-may-well-be-the-perfect-protectio",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "This secure SSD subscription service may well be the perfect protection against physical tampering and a ransomware attack - but it's neither cheap nor fast",
+      "cover": "https://cdn.mos.cms.futurecdn.net/NMMKgQA6drBJwNXYzSqhYF-1280-80.jpg",
+      "canonical": "https://archive.aventuroo.com/tech-ai/innovation-gadgets/this-secure-ssd-subscription-service-may-well-be-the-perfect-protectio/",
+      "excerpt": "New AI powered SSD subscription promises ransomware and tampering protection at the hardware level | TechRadar Skip to main content svg]:h-4 [&>svg]:w-fit\" aria-label=\"Home\" data-before-rewrite-localise=\"/\"> Tech Radar svg]:h-4 [&>svg]:w-fit\" aria-label=\"Tech Radar Pro\" data-b…",
+      "source": "https://www.techradar.com/pro/this-secure-ssd-subscription-service-may-well-be-the-perfect-protection-against-physical-tampering-and-a-ransomware-attack-but-its-neither-cheap-nor-fast",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "amazon-will-cough-up-2-5-billion-for-tricking-people-into-amazon-prime",
+      "date": "2025-09-26",
+      "published_at": "2025-09-26T00:00:00Z",
+      "created_at": "2025-09-26T00:00:00Z",
+      "title": "Amazon Will Cough Up $2.5 Billion for 'Tricking' People Into Amazon Prime Subscriptions",
+      "cover": "https://www.cnet.com/a/img/resize/7f1b4e47aadfcf112dbae0f2463e69cdf264dbc3/hub/2025/09/26/f91da03f-4181-4371-adb5-d2b49fea9eaa/amazon-building-texas-gettyimages-2219738045.jpg?auto=webp&fit=crop&height=614&width=1600",
+      "canonical": "https://archive.aventuroo.com/tech-ai/innovation-gadgets/amazon-will-cough-up-2-5-billion-for-tricking-people-into-amazon-prime/",
+      "excerpt": "Amazon Will Cough Up $2.5 Billion for 'Tricking' People Into Amazon Prime Subscriptions - CNET X Your Guide To a Better Future News AI Tech VPN Phones Laptops Audio TV Services & Software Computers All Tech Home Home Security Smart Home Kitchen & Household Yard & Outdoors Home…",
+      "source": "https://www.cnet.com/news/amazon-will-cough-up-2-5-billion-for-tricking-people-into-amazon-prime-subscriptions/#ftag=CADf328eec",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "i-m-a-smart-home-tech-editor-and-these-are-my-3-favorite-cheap-video-d",
       "date": "2025-09-25",
       "published_at": "2025-09-25T00:00:00Z",
@@ -85,10 +109,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 7,
-  "updated_at": "2025-10-01",
+  "count": 9,
+  "updated_at": "2025-10-16",
   "pagination": {
-    "total_items": 7,
+    "total_items": 9,
     "per_page": 12,
     "total_pages": 1
   }

@@ -1,35 +1,10 @@
 {
-  "items": [
-    {
-      "slug": "how-to-cook-sous-vide-a-beginners-guide-2025-09-26",
-      "date": "2025-09-26",
-      "published_at": "2025-09-26T00:00:00Z",
-      "created_at": "2025-09-26T00:00:00Z",
-      "title": "How to Cook Sous Vide: A Beginner's Guide",
-      "cover": "https://images.unsplash.com/photo-1514516430032-7a3c41a86b3a?auto=format&fit=crop&w=1200&q=80",
-      "canonical": "https://archive.aventuroo.com/food-drink/guides/how-to-cook-sous-vide-a-beginners-guide-2025-09-26/",
-      "excerpt": "Serious Eats walks through equipment choices, temperatures, and timing so newcomers can master sous vide cooking at home.",
-      "source": "https://www.seriouseats.com/how-to-cook-sous-vide",
-      "contact_url": "https://www.aventuroo.com/contact"
-    },
-    {
-      "slug": "a-guide-to-perfecting-homemade-pasta-2025-09-26",
-      "date": "2025-09-26",
-      "published_at": "2025-09-26T00:00:00Z",
-      "created_at": "2025-09-26T00:00:00Z",
-      "title": "A Guide to Perfecting Homemade Pasta",
-      "cover": "https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=1200&q=80",
-      "canonical": "https://archive.aventuroo.com/food-drink/guides/a-guide-to-perfecting-homemade-pasta-2025-09-26/",
-      "excerpt": "Step-by-step instructions and shaping tips make this pasta primer a go-to reference for silky ribbons and stuffed favorites.",
-      "source": "https://www.seriouseats.com/fresh-pasta-dough-recipe",
-      "contact_url": "https://www.aventuroo.com/contact"
-    }
-  ],
-  "count": 2,
-  "updated_at": "2025-09-26",
+  "items": [],
+  "count": 0,
+  "updated_at": "2025-10-16",
   "pagination": {
-    "total_items": 2,
+    "total_items": 0,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 0
   }
 }
