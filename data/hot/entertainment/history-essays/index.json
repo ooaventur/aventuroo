@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "what-was-life-like-on-a-wagon-train-heading-west-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "What Was Life Like on a Wagon Train Heading West?",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/1268483117_h7bqfx?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/what-was-life-like-on-a-wagon-train-heading-west-2025-10-15/",
+      "excerpt": "What Was Life Like on a Wagon Train Heading West? Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America Ameri…",
+      "source": "https://www.history.com/articles/wagon-train-westward-migration-oregon-trail",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-nature-of-the-beast-charles-le-brun-s-human-animal-hybrids-1806-20",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -22,6 +34,18 @@
       "canonical": "https://archive.aventuroo.com/entertainment/history-essays/how-stoicism-shaped-5-world-leaders-2025-10-15/",
       "excerpt": "How Stoicism Shaped 5 World Leaders Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolution…",
       "source": "https://www.history.com/articles/stoic-philosophy-leaders-meditations",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "dogs-were-once-bred-for-their-wool-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Dogs Were Once Bred for Their ‘Wool’",
+      "cover": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/2ET5XA5_cklvpu?_a=BAVAZGID0",
+      "canonical": "https://archive.aventuroo.com/entertainment/history-essays/dogs-were-once-bred-for-their-wool-2025-10-15/",
+      "excerpt": "Dogs Were Once Bred for Their 'Wool' Open navigation Close navigation Home Shows This Day in History U.S. U.S. History U.S. History All the major chapters in the American story, from Indigenous beginnings to the present day. Colonial America Colonial America American Revolutio…",
+      "source": "https://www.history.com/articles/dogs-wool",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -553,10 +577,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 46,
+  "count": 48,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 46,
+    "total_items": 48,
     "per_page": 12,
     "total_pages": 4
   }

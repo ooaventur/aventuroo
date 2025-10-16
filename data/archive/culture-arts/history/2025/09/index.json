@@ -589,6 +589,42 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "this-1-900-year-old-roman-oil-lamp-shaped-like-a-theatrical-mask-was-j",
+      "date": "2025-09-15",
+      "published_at": "2025-09-15T00:00:00Z",
+      "created_at": "2025-09-15T00:00:00Z",
+      "title": "This 1,900-Year-Old Roman Oil Lamp Shaped Like A Theatrical Mask Was Just Unearthed In The Netherlands",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/roman-mask-oil-lamp-closeup.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/this-1-900-year-old-roman-oil-lamp-shaped-like-a-theatrical-mask-was-j/",
+      "excerpt": "Roman Lamp Shaped Like Theater Mask Found In The Netherlands All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email This 1,900-Year-Old Roman Oil Lamp Shaped Like A Theatrical Mask Was Just Unearthe…",
+      "source": "https://allthatsinteresting.com/cuijk-netherlands-ancient-roman-oil-lamp",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-just-found-a-complete-copy-of-the-famous-canopus-decree",
+      "date": "2025-09-15",
+      "published_at": "2025-09-15T00:00:00Z",
+      "created_at": "2025-09-15T00:00:00Z",
+      "title": "Archaeologists Just Found A Complete Copy Of The Famous Canopus Decree That Helped Scholars Decipher Egyptian Hieroglyphics",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/canopus-decree.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-just-found-a-complete-copy-of-the-famous-canopus-decree/",
+      "excerpt": "Archaeologists In Egypt Find A New Copy Of The Canopus Decree All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists Just Found A Complete Copy Of The Famous Canopus Decree That Helpe…",
+      "source": "https://allthatsinteresting.com/egypt-tell-el-farain-canopus-decree",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "archaeologists-in-egypt-just-identified-a-3-300-year-old-bone-whistle",
+      "date": "2025-09-15",
+      "published_at": "2025-09-15T00:00:00Z",
+      "created_at": "2025-09-15T00:00:00Z",
+      "title": "Archaeologists In Egypt Just Identified A 3,300-Year-Old Bone Whistle That May Have Been Used By An Ancient ‘Police Officer’",
+      "cover": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2025/09/ancient-egyptian-bone-whistle.jpg",
+      "canonical": "https://archive.aventuroo.com/culture-arts/history/archaeologists-in-egypt-just-identified-a-3-300-year-old-bone-whistle/",
+      "excerpt": "Ancient Whistle Made From A Cow's Toe Bone Identified In Egypt All That's Interesting history | curiosities | archaeology | news | Today In History Members Podcast Newsletter Search Facebook Email Archaeologists In Egypt Just Identified A 3,300-Year-Old Bone Whistle That May H…",
+      "source": "https://allthatsinteresting.com/akhetaten-egypt-ancient-bone-whistle",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "witold-pilecki-the-polish-resistance-leader-who-voluntarily-entered-au",
       "date": "2025-09-14",
       "published_at": "2025-09-14T00:00:00Z",
@@ -625,10 +661,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 52,
+  "count": 55,
   "updated_at": "2025-09-25",
   "pagination": {
-    "total_items": 52,
+    "total_items": 55,
     "per_page": 12,
     "total_pages": 5
   }

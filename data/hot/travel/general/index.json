@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "the-vital-and-niche-airline-routes-threatened-by-the-government-shutdo",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "The Vital—and Niche—Airline Routes Threatened by the Government Shutdown",
+      "cover": "https://media.cntraveler.com/photos/68eee503f6de2d72437bbd1d/master/pass/jeremy-bishop-p8hnTQOyzfU-unsplash.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/the-vital-and-niche-airline-routes-threatened-by-the-government-shutdo/",
+      "excerpt": "The Vital—and Niche—Airline Routes Threatened by the Government Shutdown | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers'…",
+      "source": "https://www.cntraveler.com/story/the-vital-and-niche-airline-routes-threatened-by-the-government-shutdown",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "the-best-places-to-visit-this-january-from-deer-valley-to-victoria-fal",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -46,6 +58,42 @@
       "canonical": "https://archive.aventuroo.com/travel/general/houston-is-having-a-cultural-renaissance-thanks-to-its-melting-pot-com/",
       "excerpt": "Houston Is Having a Cultural Renaissance, Thanks to Its Melting-Pot Communities | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video R…",
       "source": "https://www.cntraveler.com/story/houston-is-having-a-cultural-renaissance-thanks-to-its-melting-pot-communities",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "33-best-restaurants-in-boston-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "33 Best Restaurants in Boston",
+      "cover": "https://media.cntraveler.com/photos/68ed9b0cade063e248029119/master/pass/LaPadrona_PaigeHarding-17.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/33-best-restaurants-in-boston-2025-10-15/",
+      "excerpt": "33 Best Restaurants in Boston | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 North America Chevron U…",
+      "source": "https://www.cntraveler.com/gallery/best-restaurants-in-boston",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "28-best-places-for-shopping-in-paris-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "28 Best Places for Shopping in Paris",
+      "cover": "https://media.cntraveler.com/photos/654934be44972ba699f6e443/master/pass/Officine%20Universelle%20Buly_Saintonge%20-%20Interior%201.jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/28-best-places-for-shopping-in-paris-2025-10-15/",
+      "excerpt": "28 Best Places for Shopping in Paris | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choice Awards 2025 Europe Chevron F…",
+      "source": "https://www.cntraveler.com/gallery/best-places-for-shopping-in-paris",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "20-best-bangkok-hotels-from-grande-dames-to-converted-canal-homes-2025",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "20 Best Bangkok Hotels, From Grande Dames to Converted Canal Homes",
+      "cover": "https://media.cntraveler.com/photos/5a91766ad41cc84048ce6a93/master/pass/Park-Hyatt-Bangkok__2018_Park-Hyatt-Bangkok-PRINT-(5).jpg",
+      "canonical": "https://archive.aventuroo.com/travel/general/20-best-bangkok-hotels-from-grande-dames-to-converted-canal-homes-2025/",
+      "excerpt": "20 Best Bangkok Hotels, From Grande Dames to Converted Canal Homes | Condé Nast Traveler Skip to main content Newsletter Sign In Search Search Newsletter Inspiration Destinations Places to Stay News & Advice Curated Escapes Shopping Cruise Women Who Travel Video Readers' Choic…",
+      "source": "https://www.cntraveler.com/gallery/best-hotels-in-bangkok",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1393,10 +1441,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 116,
+  "count": 120,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 116,
+    "total_items": 120,
     "per_page": 12,
     "total_pages": 10
   }

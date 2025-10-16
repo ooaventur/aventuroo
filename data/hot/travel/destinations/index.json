@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "slug": "what-s-new-with-abercrombie-kent-2025-10-16",
+      "date": "2025-10-16",
+      "published_at": "2025-10-16T00:00:00Z",
+      "created_at": "2025-10-16T00:00:00Z",
+      "title": "What’s New With Abercrombie & Kent?",
+      "cover": "https://ik.imgkit.net/3vlqs5axxjf/TP/ik-seo/images/99999999-9999-9999-9999-999999999999/bb825c89-7cc4-461d-8965-bec0b4f17965/source/What%e2%80%99s-New-With-Abercrombie-%26-Kent%3f.jpg?tr=w-1366%2Ch-768%2Cfo-auto",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/what-s-new-with-abercrombie-kent-2025-10-16/",
+      "excerpt": "Abercrombie & Kent continues to lead the luxury space with purpose and innovation",
+      "source": "https://www.travelpulse.com/agent-at-home/what-s-new-with-abercrombie-kent?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "latest-trends-in-luxury-travel-according-to-travel-advisors-2025-10-16",
+      "date": "2025-10-16",
+      "published_at": "2025-10-16T00:00:00Z",
+      "created_at": "2025-10-16T00:00:00Z",
+      "title": "Latest Trends in Luxury Travel, According to Travel Advisors",
+      "cover": "https://ik.imgkit.net/3vlqs5axxjf/TP/ik-seo/images/99999999-9999-9999-9999-999999999999/f927d377-c2e1-4125-bf4c-e13438365c4f/source/Latest-Trends-in-Luxury-Travel-According-to-Travel.jpeg?tr=w-1366%2Ch-768%2Cfo-auto",
+      "canonical": "https://archive.aventuroo.com/travel/destinations/latest-trends-in-luxury-travel-according-to-travel-advisors-2025-10-16/",
+      "excerpt": "Here's how travel advisors are keeping pace with clients' evolving expectations",
+      "source": "https://www.travelpulse.com/agent-at-home/latest-trends-in-luxury-travel-according-to-travel-advisors?utm_source=eNewsletter&utm_medium=email&utm_campaign=eltr",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "rails-to-trails-projects-now-span-the-entire-country-these-are-the-mos",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -613,10 +637,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 51,
-  "updated_at": "2025-10-15",
+  "count": 53,
+  "updated_at": "2025-10-16",
   "pagination": {
-    "total_items": 51,
+    "total_items": 53,
     "per_page": 12,
     "total_pages": 5
   }

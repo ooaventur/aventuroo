@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "google-releases-new-ai-video-model-veo-3-1-in-flow-and-api-what-it-mea",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Google releases new AI video model Veo 3.1 in Flow and API: what it means for enterprises",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/4tvp7qfEbQOW0pucNGc3oW/21a8f215813133c934f9e71c0acff280/Screenshot_2025-10-15_at_2.53.23â__PM.png",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/google-releases-new-ai-video-model-veo-3-1-in-flow-and-api-what-it-mea/",
+      "excerpt": "<p>As expected after days of leaks and rumors online, Google has <a href=\"https://blog.google/technology/ai/veo-updates-flow/\">unveiled Veo 3.1</a>, its latest AI video generation model, bringing a suite of creative and technical upgrades aimed at improving narrative control, …",
+      "source": "https://venturebeat.com/ai/google-releases-new-ai-video-model-veo-3-1-in-flow-and-api-what-it-means-for",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "dfinity-launches-caffeine-an-ai-platform-that-builds-production-apps-f",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -34,6 +46,18 @@
       "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/anthropic-launches-claude-haiku-4-5-small-ai-model-that-delivers-sonne/",
       "excerpt": "Anthropic Launches Claude Haiku 4.5: Small AI Model that Delivers Sonnet-4-Level Coding Performance at One-Third the Cost and more than Twice the Speed - MarkTechPost 2x the Speed\" /> 2x the Speed\" /> Discord Linkedin Reddit Twitter Home Open Source/Weights Enterprise AI Robot…",
       "source": "https://www.marktechpost.com/2025/10/15/anthropic-launches-claude-haiku-4-5-small-ai-model-that-delivers-sonnet-4-level-coding-performance-at-one-third-the-cost-and-more-than-twice-the-speed/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
+      "slug": "anthropic-is-giving-away-its-powerful-claude-haiku-4-5-ai-for-free-to",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "Anthropic is giving away its powerful Claude Haiku 4.5 AI for free to take on OpenAI",
+      "cover": "https://images.ctfassets.net/jdtwqhzvc2n1/2zkV6Ua9HruRsjBAfq9oS2/3c44bad93ee87a4a9c84b418279acccb/nuneybits_Vector_art_of_a_computer_image_in_burnt_orange_58827742-c30a-4256-9cf3-c7802772a6c7.webp",
+      "canonical": "https://archive.aventuroo.com/tech-ai/ai-news/anthropic-is-giving-away-its-powerful-claude-haiku-4-5-ai-for-free-to/",
+      "excerpt": "<p><a href=\"https://anthropic.com/\"><u>Anthropic</u></a> released <a href=\"https://www.anthropic.com/news/claude-haiku-4-5\"><u>Claude Haiku 4.5</u></a> on Wednesday, a smaller and significantly cheaper artificial intelligence model that matches the coding capabilities of syste…",
+      "source": "https://venturebeat.com/ai/anthropic-is-giving-away-its-powerful-claude-haiku-4-5-ai-for-free-to-take",
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
@@ -1513,10 +1537,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 126,
+  "count": 128,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 126,
+    "total_items": 128,
     "per_page": 12,
     "total_pages": 11
   }

@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "slug": "spinach-and-ricotta-gnudi-2025-10-15",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "spinach and ricotta gnudi",
+      "cover": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2025/10/spinach-and-ricotta-gnudi-12-scaled.jpg?fit=1200%2C800&#038;ssl=1",
+      "canonical": "https://archive.aventuroo.com/food-drink/food/spinach-and-ricotta-gnudi-2025-10-15/",
+      "excerpt": "spinach and ricotta gnudi – smitten kitchen Skip to content smitten kitchen Menu Surprise! Surprise me! Recipes Books Newsletter videos shop More events About FAQ Contact Good Reads cookbook index Cooking Conversions Travel Deb’s New York Favorites a few trips to paris two wee…",
+      "source": "https://smittenkitchen.com/2025/10/spinach-and-ricotta-gnudi/",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "opinel-s-mushroom-knife-makes-foraging-for-mushrooms-even-easier-2025",
       "date": "2025-10-15",
       "published_at": "2025-10-15T00:00:00Z",
@@ -889,10 +901,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 74,
+  "count": 75,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 74,
+    "total_items": 75,
     "per_page": 12,
     "total_pages": 7
   }

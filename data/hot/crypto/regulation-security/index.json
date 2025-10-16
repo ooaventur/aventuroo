@@ -13,6 +13,18 @@
       "contact_url": "https://www.aventuroo.com/contact"
     },
     {
+      "slug": "mev-bot-exploit-heads-to-us-court-testing-crypto-s-legal-gray-zones-20",
+      "date": "2025-10-15",
+      "published_at": "2025-10-15T00:00:00Z",
+      "created_at": "2025-10-15T00:00:00Z",
+      "title": "MEV bot exploit heads to US court, testing crypto’s legal gray zones",
+      "cover": "https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDQvMDE5NjU5YTYtMzkzZi03N2M2LWE2NTAtYmM2NzQxYzZhNzkw.jpg",
+      "canonical": "https://archive.aventuroo.com/crypto/regulation-security/mev-bot-exploit-heads-to-us-court-testing-crypto-s-legal-gray-zones-20/",
+      "excerpt": "What the Trial Related to a MEV Bot Exploit Means for the Industry Ecosystem English News Indices In Depth Learn Podcasts Anti-Scam Buy Crypto About Turner Wright 6 hours ago MEV bot exploit heads to US court, testing crypto’s legal gray zones Anton and James Peraire-Bueno app…",
+      "source": "https://cointelegraph.com/news/mev-bot-exploit-trial-industry-impact?utm_source=rss_feed&utm_medium=rss_tag_regulation&utm_campaign=rss_partner_inbound",
+      "contact_url": "https://www.aventuroo.com/contact"
+    },
+    {
       "slug": "us-moves-to-drop-bitcoin-advocate-roger-ver-s-tax-case-with-50m-deal-2",
       "date": "2025-10-14",
       "published_at": "2025-10-14T00:00:00Z",
@@ -805,10 +817,10 @@
       "contact_url": "https://www.aventuroo.com/contact"
     }
   ],
-  "count": 67,
+  "count": 68,
   "updated_at": "2025-10-15",
   "pagination": {
-    "total_items": 67,
+    "total_items": 68,
     "per_page": 12,
     "total_pages": 6
   }

@@ -1,7 +1,7 @@
 {
   "generated_at": "2025-09-25",
   "per_page": 12,
-  "total_items": 3886,
+  "total_items": 3900,
   "shards": [
     {
       "parent": "business-finance",
@@ -583,7 +583,7 @@
       "month": 9,
       "path": "culture-arts/history/2025/09/index.json",
       "path_gz": "culture-arts/history/2025/09/index.json.gz",
-      "items": 52,
+      "items": 55,
       "first_date": "2025-09-14",
       "last_date": "2025-09-25",
       "pages": 5
@@ -703,6 +703,19 @@
       "items": 1,
       "first_date": "2009-11-05",
       "last_date": "2009-11-05",
+      "pages": 1
+    },
+    {
+      "parent": "entertainment",
+      "child": "history-essays",
+      "slug": "entertainment/history-essays",
+      "year": 2012,
+      "month": 11,
+      "path": "entertainment/history-essays/2012/11/index.json",
+      "path_gz": "entertainment/history-essays/2012/11/index.json.gz",
+      "items": 1,
+      "first_date": "2012-11-02",
+      "last_date": "2012-11-02",
       "pages": 1
     },
     {
@@ -2000,8 +2013,8 @@
       "month": 4,
       "path": "travel/experiences/2019/04/index.json",
       "path_gz": "travel/experiences/2019/04/index.json.gz",
-      "items": 5,
-      "first_date": "2019-04-22",
+      "items": 10,
+      "first_date": "2019-04-05",
       "last_date": "2019-04-26",
       "pages": 1
     },
@@ -3118,8 +3131,8 @@
       "month": 4,
       "path": "travel/trip-ideas/2019/04/index.json",
       "path_gz": "travel/trip-ideas/2019/04/index.json.gz",
-      "items": 1,
-      "first_date": "2019-04-29",
+      "items": 6,
+      "first_date": "2019-04-12",
       "last_date": "2019-04-29",
       "pages": 1
     },
