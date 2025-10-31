@@ -1,23 +1,10 @@
 {
-  "items": [
-    {
-      "slug": "california-regulates-ai-companions-2025-10-15",
-      "date": "2025-10-15",
-      "published_at": "2025-10-15T00:00:00Z",
-      "created_at": "2025-10-15T00:00:00Z",
-      "title": "California regulates AI companions",
-      "cover": "https://www.platformer.news/content/images/2025/10/solen-feyissa-Aj7cDaR6QXs-unsplash.jpg",
-      "canonical": "https://archive.aventuroo.com/tech-ai/internet-platforms/california-regulates-ai-companions-2025-10-15/",
-      "excerpt": "California regulates AI companions Home About Ethics Sign in Subscribe AI California regulates AI companions As safety concerns mount, one state becomes the first to implement guardrails. Will they be enough? Casey Newton Oct 14, 2025 — 11 min read (Solen Feyissa / Unsplash) T…",
-      "source": "https://www.platformer.news/california-ai-companion-law-newsom-openai/",
-      "contact_url": "https://www.aventuroo.com/contact"
-    }
-  ],
-  "count": 1,
-  "updated_at": "2025-10-16",
+  "items": [],
+  "count": 0,
+  "updated_at": "2025-10-31",
   "pagination": {
-    "total_items": 1,
+    "total_items": 0,
     "per_page": 12,
-    "total_pages": 1
+    "total_pages": 0
   }
 }
