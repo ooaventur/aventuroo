@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "slug": "dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nati",
+      "date": "2025-11-13",
+      "published_at": "2025-11-13T00:00:00Z",
+      "created_at": "2025-11-13T00:00:00Z",
+      "title": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "cover": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4270edce6c855a0e/68d1c2be0a60f31b66d5e09e/DRVE_Event_20251113_(1).png?width=1600&auto=webp&quality=80&disable=upscale",
+      "canonical": "https://archive.aventuroo.com/tech-ai/security-privacy/dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nati/",
+      "excerpt": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
+      "source": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate",
+      "contact_url": "https://www.aventuroo.com/contact"
+    }
+  ],
+  "count": 1,
+  "updated_at": "2025-12-01",
+  "pagination": {
+    "total_items": 1,
+    "per_page": 12,
+    "total_pages": 1
+  }
+}
